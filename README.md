@@ -28,7 +28,7 @@ software already has enough ways to manufacture repetitive mistakes.
 ## Requirements
 
 - Python 3.11 or newer
-- Node.js 20 or newer for the JavaScript unit tests
+- Node.js 22.13 or newer for the JavaScript tests and Codex Sites build
 
 ## Build locally
 
