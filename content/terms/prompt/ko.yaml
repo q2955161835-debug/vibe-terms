@@ -1,0 +1,8 @@
+title: 프롬프트
+short_definition: AI 모델의 다음 응답이나 행동을 이끌기 위해 제공하는 지시 또는 맥락.
+analogy: 작업을 시작하기 전에 담당자에게 건네는 업무 설명서와 같습니다.
+why_it_matters: 명확한 프롬프트는 추측을 줄이고 AI가 수정한 내용을 검토하기 쉽게 합니다.
+ai_prompt_example: 용어 이름, 별칭, 정의로 필터링하는 검색창을 추가하세요. 기존 레이아웃은 그대로 유지하세요.
+common_mistake: 모호한 요구를 명확히 하지 않고 프롬프트만 더 길게 써서 해결하려는 것.
+status: draft
+source_content_version: 1

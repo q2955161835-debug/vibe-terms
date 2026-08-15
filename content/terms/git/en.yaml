@@ -1,0 +1,11 @@
+title: Git
+short_definition: A version-control system that records code changes and lets you
+  work safely with branches.
+analogy: A time machine for a project, with labeled save points.
+why_it_matters: AI can change many files quickly; Git gives you a reliable way to
+  inspect and undo those changes.
+ai_prompt_example: Create a focused commit for this feature only and show me the diff
+  before moving on.
+common_mistake: Making one huge commit after several unrelated AI edits.
+status: published
+source_content_version: 1

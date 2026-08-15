@@ -1,0 +1,8 @@
+title: 認証
+short_definition: 利用者が本人であることを確認する処理。
+analogy: 入口で身分証を見せ、どのアカウントが自分のものかをシステムに確認してもらうようなものです。
+why_it_matters: ログインは安全性に直結するため、AIに独自方式を気軽に作らせるべきではありません。
+ai_prompt_example: 既存の認証プロバイダーを使い、認可チェックはサーバー側で行ってください。独自のパスワード方式は作らないでください。
+common_mistake: 認証「あなたは誰か」と認可「何をしてよいか」を混同すること。
+status: draft
+source_content_version: 1

@@ -1,0 +1,12 @@
+id: term_backend
+slug: backend
+canonical_name: Backend
+aliases: []
+primary_domain: backend-data
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- Frontend
+- Database
+- API
+content_version: 1

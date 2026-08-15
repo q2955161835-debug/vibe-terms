@@ -1,0 +1,8 @@
+title: 身份认证
+short_definition: 确认“这个用户到底是谁”的过程。
+analogy: 像进门前出示身份证，系统先确认账户身份。
+why_it_matters: 登录属于高风险功能，不该让 AI 随手自创方案。
+ai_prompt_example: 沿用现有认证提供商，并在服务端做权限检查；不要自己造密码系统。
+common_mistake: 把身份认证“你是谁”和授权“你能做什么”混淆。
+status: draft
+source_content_version: 1

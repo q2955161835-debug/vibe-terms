@@ -1,0 +1,11 @@
+title: Frontend
+short_definition: Der Teil einer Anwendung, den Nutzer direkt sehen und bedienen.
+analogy: Wie der Verkaufsraum, durch den Kunden gehen, nicht das Lager dahinter.
+why_it_matters: Die meisten visuellen Vibe-Coding-Anfragen ändern Frontend-Code; der Begriff hilft, den
+  Umfang klar einzugrenzen.
+ai_prompt_example: Ändere nur das Layout der Begriffskarten im Frontend. Verändere weder API-Antworten
+  noch Datenbanktabellen.
+common_mistake: Die gesamte Website „Frontend“ zu nennen, obwohl die Aufgabe auch serverseitige Arbeit
+  benötigt.
+status: draft
+source_content_version: 1

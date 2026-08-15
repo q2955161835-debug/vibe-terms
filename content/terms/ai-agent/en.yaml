@@ -1,0 +1,13 @@
+title: AI Agent
+short_definition: An AI system that can repeatedly decide what action to take, use
+  tools, inspect results, and continue toward a goal.
+analogy: A worker who can read the brief, use approved tools, check the result, and
+  take the next step.
+why_it_matters: Coding agents can edit files and run commands, so permissions and
+  review checkpoints matter.
+ai_prompt_example: Inspect the repository, propose a plan, edit only approved files,
+  run tests, then stop and report the diff.
+common_mistake: Giving an agent broad permissions and an open-ended goal with no verification
+  gates.
+status: published
+source_content_version: 1

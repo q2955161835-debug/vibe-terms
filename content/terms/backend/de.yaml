@@ -1,0 +1,10 @@
+title: Backend
+short_definition: Serverseitige Logik, die Daten, Berechtigungen, Geschäftsregeln und Integrationen verarbeitet.
+analogy: Wie Küche und Lagerraum, die dafür sorgen, dass der Verkaufsraum tatsächlich funktioniert.
+why_it_matters: Eine schöne Oberfläche kann unsicher oder nur Fassade sein, wenn das Backend die Regeln
+  nicht durchsetzt.
+ai_prompt_example: Validiere die Anfrage im Backend und gib bei ungültigen Eingaben einen 400-Fehler zurück.
+  Verlasse dich nicht nur auf die Browservalidierung.
+common_mistake: Ausgeblendete Bedienelemente im Frontend als Sicherheitsgrenze zu betrachten.
+status: draft
+source_content_version: 1

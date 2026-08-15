@@ -1,0 +1,12 @@
+id: term_deployment
+slug: deployment
+canonical_name: Deployment
+aliases:
+- Deploy
+primary_domain: testing-release
+lifecycle_stage: deploy-maintain
+difficulty: beginner
+related_terms:
+- Testing
+- Git
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_authentication
+slug: authentication
+canonical_name: Authentication
+aliases:
+- Auth
+primary_domain: security
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- Backend
+content_version: 1

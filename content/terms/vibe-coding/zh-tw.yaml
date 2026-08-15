@@ -1,0 +1,8 @@
+title: Vibe Coding
+short_definition: 向 AI 編程助手描述想要的結果，再反覆檢查與調整其產出來建立軟體。
+analogy: 像告訴一名速度很快的初階開發者你要什麼，然後逐次驗收交付成果。
+why_it_matters: 它讓新手也能建立真實軟體，但你仍需要足夠的術語來判斷 AI 到底改了什麼。
+ai_prompt_example: 把功能拆成小步驟。修改前先說明會變更哪些檔案，以及我該如何驗證結果。
+common_mistake: 把「能執行」當成設計正確或安全可靠的證明。
+status: draft
+source_content_version: 1

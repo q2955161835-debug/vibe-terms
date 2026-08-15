@@ -1,0 +1,8 @@
+title: 部署
+short_definition: 把构建好的应用发布到用户能够访问的运行环境。
+analogy: 像把作品从工作间搬到真正营业的门店。
+why_it_matters: 只在自己电脑能跑，还不能算真正可用的 Web 产品。
+ai_prompt_example: 生成静态构建，验证所有语言路由，然后原样部署该构建产物。
+common_mistake: 部署时临时改配置，却没有把变化记录进仓库。
+status: draft
+source_content_version: 1

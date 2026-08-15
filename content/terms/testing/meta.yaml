@@ -1,0 +1,11 @@
+id: term_testing
+slug: testing
+canonical_name: Testing
+aliases:
+- Software Testing
+primary_domain: testing-release
+lifecycle_stage: test-protect
+difficulty: beginner
+related_terms:
+- Deployment
+content_version: 1

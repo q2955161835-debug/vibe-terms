@@ -1,0 +1,8 @@
+title: 데이터베이스
+short_definition: 구조화된 애플리케이션 데이터를 지속적으로 저장하고 조회하는 시스템.
+analogy: 색인이 잘 된 서류 보관실처럼 모든 폴더를 열지 않고도 기록을 찾을 수 있습니다.
+why_it_matters: 사용자 계정, 콘텐츠, 학습 진도, 제품 데이터는 보통 영구 저장이 필요합니다.
+ai_prompt_example: 먼저 테이블과 관계를 설계하고 마이그레이션을 보여 준 뒤 애플리케이션 코드를 작성하세요.
+common_mistake: 데이터 모델 없이 데이터베이스를 거대한 비정형 JSON 서랍처럼 사용하는 것.
+status: draft
+source_content_version: 1

@@ -1,0 +1,8 @@
+title: 身分認證
+short_definition: 確認使用者是否真的是其所聲稱身分的過程。
+analogy: 像進門前出示證件，系統先確認哪一個帳號屬於你。
+why_it_matters: 登入功能牽涉安全，不應讓 AI 隨意自創認證方案。
+ai_prompt_example: 沿用現有的認證供應商，並把授權檢查放在伺服器端；不要自行設計密碼系統。
+common_mistake: 把身分認證「你是誰」和授權「你可以做什麼」混淆。
+status: draft
+source_content_version: 1

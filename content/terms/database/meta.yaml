@@ -1,0 +1,10 @@
+id: term_database
+slug: database
+canonical_name: Database
+aliases: []
+primary_domain: backend-data
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- Backend
+content_version: 1

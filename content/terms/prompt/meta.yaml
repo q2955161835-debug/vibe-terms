@@ -1,0 +1,11 @@
+id: term_prompt
+slug: prompt
+canonical_name: Prompt
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Vibe Coding
+- Context Window
+content_version: 1

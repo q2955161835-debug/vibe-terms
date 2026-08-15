@@ -1,0 +1,10 @@
+title: Authentifizierung
+short_definition: Der Vorgang, mit dem geprüft wird, ob ein Nutzer wirklich die angegebene Person ist.
+analogy: Wie das Vorzeigen eines Ausweises am Eingang, bevor das System weiß, welches Konto zu dir gehört.
+why_it_matters: Anmeldefunktionen sind sicherheitskritisch und sollten nicht beiläufig von einer KI neu
+  erfunden werden.
+ai_prompt_example: Verwende den vorhandenen Authentifizierungsanbieter und führe Berechtigungsprüfungen
+  serverseitig aus. Erstelle kein eigenes Passwortsystem.
+common_mistake: Authentifizierung „Wer bist du?“ mit Autorisierung „Was darfst du?“ zu verwechseln.
+status: draft
+source_content_version: 1

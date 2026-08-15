@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Vibe Atlas</title>
+  <rect width="64" height="64" rx="16" fill="#3457f1"/>
+  <path d="M17 18h30L36.8 46H27.2L17 18Z" fill="white" opacity=".96"/>
+  <path d="M24 18h16l-8 21-8-21Z" fill="#b9c5ff"/>
+</svg>

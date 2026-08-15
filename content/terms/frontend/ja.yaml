@@ -1,0 +1,8 @@
+title: フロントエンド
+short_definition: 利用者が直接見て操作するアプリケーションの部分。
+analogy: 倉庫ではなく、客が歩いて商品を見る店頭のようなものです。
+why_it_matters: 見た目に関するVibe Codingの依頼は多くの場合フロントエンドを変更するため、この言葉を知ると範囲を明確にできます。
+ai_prompt_example: フロントエンドの用語カード配置だけを変更し、APIレスポンスやデータベースのテーブルは変更しないでください。
+common_mistake: サーバー側の作業も必要なのに、Webサイト全体を「フロントエンド」と呼ぶこと。
+status: draft
+source_content_version: 1

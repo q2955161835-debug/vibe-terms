@@ -1,0 +1,11 @@
+title: Prompt
+short_definition: Eine Anweisung oder ein Kontext, der einem KI-Modell für seine nächste Antwort oder
+  Aktion gegeben wird.
+analogy: Wie das Briefing, das ein Auftragnehmer vor Beginn der Arbeit erhält.
+why_it_matters: Klare Prompts verringern Vermutungen und machen Änderungen der KI leichter überprüfbar.
+ai_prompt_example: Füge ein Suchfeld hinzu, das Begriffe nach Titel, Aliasen und Definition filtert. Behalte
+  das vorhandene Layout bei.
+common_mistake: Eine vage Anforderung nur mit einem längeren Prompt statt mit klareren Vorgaben lösen
+  zu wollen.
+status: draft
+source_content_version: 1

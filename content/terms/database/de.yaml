@@ -1,0 +1,11 @@
+title: Datenbank
+short_definition: Ein System, das strukturierte Anwendungsdaten dauerhaft speichert und gezielt abfragbar
+  macht.
+analogy: Wie ein gut indexiertes Archiv, das einen Datensatz findet, ohne jeden Ordner zu öffnen.
+why_it_matters: Benutzerkonten, Inhalte, Lernfortschritt und Produktdaten benötigen meist dauerhaften
+  Speicher.
+ai_prompt_example: Entwirf zuerst Tabellen und Beziehungen und zeige dann die Migration, bevor du Anwendungscode
+  schreibst.
+common_mistake: Eine Datenbank ohne Datenmodell wie eine riesige, ungeordnete JSON-Schublade zu verwenden.
+status: draft
+source_content_version: 1

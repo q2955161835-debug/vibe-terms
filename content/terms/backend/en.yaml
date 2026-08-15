@@ -1,0 +1,11 @@
+title: Backend
+short_definition: Server-side logic that handles data, permissions, business rules,
+  and integrations.
+analogy: The kitchen and stockroom that make the storefront actually work.
+why_it_matters: A pretty interface can still be unsafe or fake if the backend does
+  not enforce rules.
+ai_prompt_example: Validate the request on the backend and return a 400 error for
+  invalid input; do not rely on browser validation alone.
+common_mistake: Assuming hidden frontend controls are a security boundary.
+status: published
+source_content_version: 1

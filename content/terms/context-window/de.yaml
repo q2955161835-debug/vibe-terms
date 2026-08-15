@@ -1,0 +1,12 @@
+title: Kontextfenster
+short_definition: Die begrenzte Menge an Text und anderen Eingaben, die ein Modell gleichzeitig berücksichtigen
+  kann.
+analogy: 'Wie ein Schreibtisch: Ist er voll, müssen alte Unterlagen weggeräumt werden, bevor neue Platz
+  finden.'
+why_it_matters: In langen Programmiersitzungen können wichtige Anforderungen aus dem aktiven Kontext des
+  Modells herausfallen.
+ai_prompt_example: Fasse vor dem Fortfahren die aktuelle Architektur, die Einschränkungen, die erledigte
+  Arbeit und die nächste Aufgabe zusammen.
+common_mistake: Anzunehmen, dass ein Modell jede frühere Datei und Entscheidung dauerhaft erinnert.
+status: draft
+source_content_version: 1

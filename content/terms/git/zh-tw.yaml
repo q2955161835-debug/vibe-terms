@@ -1,0 +1,8 @@
+title: Git
+short_definition: 記錄程式碼變更，並讓你透過分支安全協作的版本控制系統。
+analogy: 像專案的時光機，每個重要儲存點都有標記。
+why_it_matters: AI 能快速修改許多檔案；Git 讓你可靠地檢查並撤銷這些變更。
+ai_prompt_example: 只為這項功能建立一個聚焦的提交，繼續之前先把差異顯示給我。
+common_mistake: 讓 AI 做了多個互不相關的修改後，才全部塞進同一個巨大提交。
+status: draft
+source_content_version: 1

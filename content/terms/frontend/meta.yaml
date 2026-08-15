@@ -1,0 +1,11 @@
+id: term_frontend
+slug: frontend
+canonical_name: Frontend
+aliases: []
+primary_domain: frontend
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- Backend
+- API
+content_version: 1

@@ -1,0 +1,11 @@
+title: Testing
+short_definition: Systematically checking that software behaves as expected and keeps
+  doing so after changes.
+analogy: A checklist that catches a broken door before customers enter the building.
+why_it_matters: Vibe Coding becomes safer when every AI change has a concrete verification
+  step.
+ai_prompt_example: Add a regression test that fails before the bug fix and passes
+  after it.
+common_mistake: Only clicking the happy path once and calling the feature tested.
+status: published
+source_content_version: 1

@@ -1,0 +1,8 @@
+title: 提示詞
+short_definition: 提供給 AI 模型的指令或上下文，用來引導它下一次回應或行動。
+analogy: 像開工前交給承包商的任務說明。
+why_it_matters: 清楚的提示詞能減少猜測，也讓 AI 的修改更容易檢查。
+ai_prompt_example: 新增搜尋框，依術語名稱、別名與定義篩選；保持現有版面不變。
+common_mistake: 面對模糊需求時只把提示詞寫得更長，而不是把要求說得更清楚。
+status: draft
+source_content_version: 1

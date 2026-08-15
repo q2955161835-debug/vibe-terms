@@ -1,0 +1,12 @@
+title: Vibe Coding
+short_definition: Building software by describing the result to an AI coding assistant
+  and iterating on what it produces.
+analogy: Like telling a very fast junior developer what you want, then checking each
+  delivery.
+why_it_matters: It lets beginners create real software, but you still need enough
+  vocabulary to judge what the AI changed.
+ai_prompt_example: Build this feature in small steps. Before editing, explain which
+  files you will change and how I can verify the result.
+common_mistake: Treating “it runs” as proof that the design is correct or safe.
+status: published
+source_content_version: 1

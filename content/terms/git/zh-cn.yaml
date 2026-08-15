@@ -1,0 +1,8 @@
+title: Git
+short_definition: 记录代码版本、支持分支协作和回退的版本控制系统。
+analogy: 像项目的时间机器，每次提交都是一个可追溯存档点。
+why_it_matters: AI 一次能改很多文件，Git 让你看清并安全撤销这些改动。
+ai_prompt_example: 这次功能单独提交，继续前先展示 diff。
+common_mistake: 多轮无关 AI 修改最后塞进一个巨大提交。
+status: draft
+source_content_version: 1

@@ -1,0 +1,8 @@
+title: 上下文窗口
+short_definition: 模型一次能够纳入考虑的文本和其他输入的有限范围。
+analogy: 像一张工作桌，放满以后必须挪走旧资料才能继续放新的。
+why_it_matters: 长时间编程时，早期的重要要求可能被挤出模型当前上下文。
+ai_prompt_example: 继续前先总结当前架构、约束、已完成工作和下一任务。
+common_mistake: 认为模型会永久记住所有旧文件和决定。
+status: draft
+source_content_version: 1

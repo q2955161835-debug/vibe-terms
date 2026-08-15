@@ -1,0 +1,8 @@
+title: 測試
+short_definition: 有系統地確認軟體符合預期，且在後續修改後仍能正常運作。
+analogy: 像在顧客進門前，用檢查清單先發現壞掉的門。
+why_it_matters: 每次 AI 修改都有明確驗證步驟，Vibe Coding 才會更安全。
+ai_prompt_example: 新增一個回歸測試，讓它在修正前失敗、修正後通過。
+common_mistake: 只把最順利的流程點一次，就宣稱功能已經測試完成。
+status: draft
+source_content_version: 1

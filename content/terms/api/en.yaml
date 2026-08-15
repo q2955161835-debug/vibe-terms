@@ -1,0 +1,12 @@
+title: API
+short_definition: A defined way for one piece of software to request data or actions
+  from another.
+analogy: A restaurant menu tells you what you can order without entering the kitchen.
+why_it_matters: AI coding often connects frontends, databases, model providers, and
+  third-party services through APIs.
+ai_prompt_example: Create a GET /api/terms endpoint contract with request parameters,
+  response fields, and error cases before implementing it.
+common_mistake: Confusing the API contract with the internal code that implements
+  it.
+status: published
+source_content_version: 1

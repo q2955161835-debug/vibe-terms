@@ -1,0 +1,11 @@
+title: Prompt
+short_definition: The instruction or context you give an AI model to guide its next
+  response or action.
+analogy: A prompt is the brief you hand to a contractor before work starts.
+why_it_matters: Clear prompts reduce guesswork and make AI edits easier to review.
+ai_prompt_example: Add a search box that filters terms by title, aliases, and definition.
+  Keep the existing layout unchanged.
+common_mistake: Trying to fix a vague requirement by making the prompt longer instead
+  of making it clearer.
+status: published
+source_content_version: 1

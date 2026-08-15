@@ -1,0 +1,11 @@
+title: Vibe Coding
+short_definition: Software entsteht, indem man einem KI-Programmierassistenten das gewünschte Ergebnis
+  beschreibt und seine Ausgaben schrittweise prüft und verbessert.
+analogy: Wie einem sehr schnellen Junior-Entwickler den Auftrag zu erklären und jede Lieferung zu kontrollieren.
+why_it_matters: Anfänger können damit echte Software bauen, brauchen aber weiterhin genug Fachbegriffe,
+  um die Änderungen der KI zu beurteilen.
+ai_prompt_example: Baue diese Funktion in kleinen Schritten. Erkläre vor jeder Änderung, welche Dateien
+  du bearbeiten wirst und wie ich das Ergebnis prüfen kann.
+common_mistake: „Es läuft“ als Beweis dafür zu nehmen, dass Entwurf und Sicherheit korrekt sind.
+status: draft
+source_content_version: 1

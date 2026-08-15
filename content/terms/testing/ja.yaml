@@ -1,0 +1,8 @@
+title: テスト
+short_definition: ソフトウェアが期待どおりに動き、変更後もその状態を保つことを体系的に確かめる作業。
+analogy: 客が建物へ入る前に、壊れた扉を見つける点検表のようなものです。
+why_it_matters: AIによる各変更に具体的な確認手順を付けると、Vibe Codingはより安全になります。
+ai_prompt_example: 修正前には失敗し、修正後には成功する回帰テストを追加してください。
+common_mistake: 正常系を一度クリックしただけで、機能をテスト済みだと判断すること。
+status: draft
+source_content_version: 1

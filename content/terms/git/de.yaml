@@ -1,0 +1,11 @@
+title: Git
+short_definition: Ein Versionskontrollsystem, das Codeänderungen aufzeichnet und sicheres Arbeiten mit
+  Branches ermöglicht.
+analogy: Wie eine Zeitmaschine für das Projekt mit beschrifteten Speicherpunkten.
+why_it_matters: KI kann viele Dateien schnell ändern; mit Git lassen sich diese Änderungen zuverlässig
+  prüfen und rückgängig machen.
+ai_prompt_example: Erstelle nur für diese Funktion einen fokussierten Commit und zeige mir den Diff, bevor
+  du fortfährst.
+common_mistake: Mehrere unzusammenhängende KI-Änderungen in einem einzigen riesigen Commit abzulegen.
+status: draft
+source_content_version: 1

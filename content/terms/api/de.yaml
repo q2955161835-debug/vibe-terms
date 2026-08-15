@@ -1,0 +1,11 @@
+title: API
+short_definition: Eine festgelegte Schnittstelle, über die eine Software Daten oder Aktionen von einer
+  anderen anfordert.
+analogy: Eine Speisekarte zeigt, was bestellt werden kann, ohne dass man die Küche betreten muss.
+why_it_matters: Beim Programmieren mit KI werden Frontend, Datenbank, Modellanbieter und externe Dienste
+  häufig über APIs verbunden.
+ai_prompt_example: Definiere vor der Implementierung den Vertrag für GET /api/terms mit Anfrageparametern,
+  Antwortfeldern und Fehlerfällen.
+common_mistake: Den API-Vertrag mit dem internen Code zu verwechseln, der ihn umsetzt.
+status: draft
+source_content_version: 1

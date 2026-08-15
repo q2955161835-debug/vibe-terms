@@ -1,0 +1,8 @@
+title: 后端
+short_definition: 负责数据、权限、业务规则和外部集成的服务端逻辑。
+analogy: 像店面后面的厨房和仓库。
+why_it_matters: 界面再漂亮，如果后端不执行规则，产品仍可能不安全或只是演示。
+ai_prompt_example: 在后端验证请求，无效输入返回 400；不要只依赖浏览器校验。
+common_mistake: 把隐藏前端按钮当成真正的安全权限。
+status: draft
+source_content_version: 1

@@ -1,0 +1,8 @@
+title: 前端
+short_definition: 使用者能直接看到並操作的應用程式部分。
+analogy: 像顧客走動的商店前台，而不是後方倉庫。
+why_it_matters: 多數視覺類 Vibe Coding 需求都會修改前端程式碼，懂這個詞能幫你限定工作範圍。
+ai_prompt_example: 只調整前端的術語卡片版面，不要修改 API 回應或資料庫表格。
+common_mistake: 把整個網站都叫作前端，即使需求其實也需要伺服器端工作。
+status: draft
+source_content_version: 1

@@ -1,0 +1,64 @@
+domains:
+  - id: ai-vibe
+    en: AI & Vibe Coding
+    zh-cn: AI 与 Vibe Coding
+    zh-tw: AI 與 Vibe Coding
+    ja: AI と Vibe Coding
+    ko: AI와 Vibe Coding
+    de: AI & Vibe Coding
+    ru: ИИ и Vibe Coding
+    hi: AI और Vibe Coding
+  - id: web-basics
+    en: Web Basics
+    zh-cn: Web 基础
+    zh-tw: Web 基礎
+    ja: Web 基礎
+    ko: Web 기초
+    de: Web-Grundlagen
+    ru: Основы Web
+    hi: Web की बुनियाद
+  - id: frontend
+    en: Frontend & Interface
+    zh-cn: 界面与前端
+    zh-tw: 介面與前端
+    ja: UI とフロントエンド
+    ko: UI와 프론트엔드
+    de: Oberfläche & Frontend
+    ru: Интерфейс и фронтенд
+    hi: इंटरफ़ेस और फ्रंटएंड
+  - id: backend-data
+    en: Backend & Data
+    zh-cn: 后端与数据
+    zh-tw: 後端與資料
+    ja: バックエンドとデータ
+    ko: 백엔드와 데이터
+    de: Backend & Daten
+    ru: Бэкенд и данные
+    hi: बैकएंड और डेटा
+  - id: security
+    en: Security & Identity
+    zh-cn: 安全与身份
+    zh-tw: 安全與身分
+    ja: セキュリティと認証
+    ko: 보안과 인증
+    de: Sicherheit & Identität
+    ru: Безопасность и идентификация
+    hi: सुरक्षा और पहचान
+  - id: git-collaboration
+    en: Git & Collaboration
+    zh-cn: Git 与协作
+    zh-tw: Git 與協作
+    ja: Git と共同作業
+    ko: Git과 협업
+    de: Git & Zusammenarbeit
+    ru: Git и совместная работа
+    hi: Git और सहयोग
+  - id: testing-release
+    en: Testing & Shipping
+    zh-cn: 测试与上线
+    zh-tw: 測試與上線
+    ja: テストとリリース
+    ko: 테스트와 배포
+    de: Testen & Veröffentlichen
+    ru: Тестирование и выпуск
+    hi: परीक्षण और रिलीज़

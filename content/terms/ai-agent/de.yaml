@@ -1,0 +1,13 @@
+title: KI-Agent
+short_definition: Ein KI-System, das wiederholt die nächste Aktion auswählt, Werkzeuge nutzt, Ergebnisse
+  prüft und auf ein Ziel hinarbeitet.
+analogy: Wie eine Arbeitskraft, die den Auftrag liest, freigegebene Werkzeuge verwendet, das Ergebnis
+  kontrolliert und den nächsten Schritt wählt.
+why_it_matters: Programmieragenten können Dateien ändern und Befehle ausführen; deshalb sind begrenzte
+  Rechte und Prüfpunkte wichtig.
+ai_prompt_example: Untersuche das Repository, schlage einen Plan vor, ändere nur freigegebene Dateien,
+  führe die Tests aus und stoppe anschließend mit einem Bericht über den Diff.
+common_mistake: Einem Agenten weitreichende Rechte und ein offenes Ziel zu geben, ohne Prüf- oder Freigabepunkte
+  festzulegen.
+status: draft
+source_content_version: 1

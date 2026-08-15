@@ -1,0 +1,11 @@
+title: Bereitstellung
+short_definition: Der Vorgang, eine gebaute Anwendung in eine Umgebung zu bringen, die Nutzer erreichen
+  können.
+analogy: Wie der Umzug von der Werkstatt in das tatsächlich geöffnete Ladengeschäft.
+why_it_matters: Ein Projekt, das nur auf deinem Laptop funktioniert, ist noch kein nutzbares Webprodukt.
+ai_prompt_example: Erzeuge einen statischen Build, prüfe alle Sprachrouten und stelle exakt dieses Artefakt
+  bereit, ohne es in Produktion neu zu bauen.
+common_mistake: Konfigurationen während der Bereitstellung zu ändern, ohne die Änderung im Repository
+  festzuhalten.
+status: draft
+source_content_version: 1

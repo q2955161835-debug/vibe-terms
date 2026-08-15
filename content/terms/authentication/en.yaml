@@ -1,0 +1,11 @@
+title: Authentication
+short_definition: The process of proving who a user is.
+analogy: Showing an ID at the entrance before the system knows which account is yours.
+why_it_matters: Login features are security-sensitive and should not be invented casually
+  by an AI.
+ai_prompt_example: Use the existing authentication provider and keep authorization
+  checks server-side. Do not create a custom password system.
+common_mistake: Confusing authentication (who are you?) with authorization (what may
+  you do?).
+status: published
+source_content_version: 1

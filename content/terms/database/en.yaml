@@ -1,0 +1,11 @@
+title: Database
+short_definition: A system for storing and querying structured application data persistently.
+analogy: A well-indexed filing room that can find a record without opening every folder.
+why_it_matters: User accounts, content, progress, and product data usually need persistent
+  storage.
+ai_prompt_example: Design the tables and relationships first, then show the migration
+  before writing application code.
+common_mistake: Using a database like a giant unstructured JSON drawer without a data
+  model.
+status: published
+source_content_version: 1

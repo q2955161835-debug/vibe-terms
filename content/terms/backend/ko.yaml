@@ -1,0 +1,8 @@
+title: 백엔드
+short_definition: 데이터, 권한, 비즈니스 규칙, 외부 연동을 처리하는 서버 측 로직.
+analogy: 매장 앞쪽이 실제로 돌아가게 만드는 뒤편의 주방과 창고와 같습니다.
+why_it_matters: 백엔드가 규칙을 강제하지 않으면 화면이 예뻐도 안전하지 않거나 실제 기능이 아닐 수 있습니다.
+ai_prompt_example: 요청을 백엔드에서 검증하고 잘못된 입력에는 400 오류를 반환하세요. 브라우저 검증에만 의존하지 마세요.
+common_mistake: 프런트엔드에서 숨긴 버튼이나 입력란을 보안 경계라고 생각하는 것.
+status: draft
+source_content_version: 1

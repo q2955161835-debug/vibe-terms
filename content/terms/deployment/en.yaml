@@ -1,0 +1,11 @@
+title: Deployment
+short_definition: The process of putting a built application into an environment where
+  users can access it.
+analogy: Moving from your workshop to the actual storefront.
+why_it_matters: A project that only works on your laptop is not yet a usable web product.
+ai_prompt_example: Produce a static build, verify all locale routes, then deploy the
+  exact build artifact without rebuilding in production.
+common_mistake: Changing configuration during deployment without recording it in the
+  repository.
+status: published
+source_content_version: 1

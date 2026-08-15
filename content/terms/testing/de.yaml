@@ -1,0 +1,11 @@
+title: Testen
+short_definition: Das systematische Prüfen, ob Software wie erwartet funktioniert und dies nach Änderungen
+  weiterhin tut.
+analogy: Wie eine Prüfliste, die eine kaputte Tür entdeckt, bevor Kunden das Gebäude betreten.
+why_it_matters: Vibe Coding wird sicherer, wenn jede KI-Änderung einen konkreten Prüfschritt besitzt.
+ai_prompt_example: Füge einen Regressionstest hinzu, der vor der Fehlerbehebung fehlschlägt und danach
+  besteht.
+common_mistake: Nur einmal den glücklichen Pfad durchzuklicken und die Funktion danach als getestet zu
+  betrachten.
+status: draft
+source_content_version: 1

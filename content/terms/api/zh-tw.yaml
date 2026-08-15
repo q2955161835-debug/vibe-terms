@@ -1,0 +1,8 @@
+title: API
+short_definition: 一套明確規則，讓一個軟體向另一個軟體請求資料或操作。
+analogy: 餐廳菜單告訴你能點什麼，不必直接走進廚房。
+why_it_matters: AI 編程常透過 API 連接前端、資料庫、模型供應商與第三方服務。
+ai_prompt_example: 在實作前，先定義 GET /api/terms 的 API 契約，包括請求參數、回應欄位與錯誤情況。
+common_mistake: 把 API 契約和實際執行它的內部程式碼混為一談。
+status: draft
+source_content_version: 1

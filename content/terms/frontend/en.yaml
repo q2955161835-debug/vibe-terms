@@ -1,0 +1,11 @@
+title: Frontend
+short_definition: The part of an application users see and interact with directly.
+analogy: The shop floor customers walk through, not the stockroom behind it.
+why_it_matters: Most visual Vibe Coding requests change frontend code, so this term
+  helps you describe scope.
+ai_prompt_example: Change only the frontend term card layout. Do not alter API responses
+  or database tables.
+common_mistake: Calling the whole website “the frontend” when a request actually needs
+  server-side work too.
+status: published
+source_content_version: 1

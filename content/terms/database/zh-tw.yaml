@@ -1,0 +1,8 @@
+title: 資料庫
+short_definition: 用來長期儲存並查詢結構化應用資料的系統。
+analogy: 像編好索引的檔案室，不必打開每個資料夾就能找到紀錄。
+why_it_matters: 使用者帳號、內容、學習進度與產品資料通常都需要持久化儲存。
+ai_prompt_example: 先設計資料表與關聯，再展示資料庫遷移內容，之後才撰寫應用程式碼。
+common_mistake: 沒有資料模型，卻把資料庫當成塞滿雜亂 JSON 的大抽屜。
+status: draft
+source_content_version: 1

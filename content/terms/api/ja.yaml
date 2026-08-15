@@ -1,0 +1,8 @@
+title: API
+short_definition: あるソフトウェアが別のソフトウェアにデータや処理を要求するための、決められた仕組み。
+analogy: レストランのメニューを見れば、厨房に入らなくても注文できるものが分かります。
+why_it_matters: AIコーディングでは、フロントエンド、データベース、モデル提供者、外部サービスをAPIでつなぐことがよくあります。
+ai_prompt_example: 実装前に、GET /api/terms のリクエストパラメーター、レスポンス項目、エラーケースを含むAPI契約を定義してください。
+common_mistake: APIの契約と、その契約を実装する内部コードを同じものだと考えること。
+status: draft
+source_content_version: 1

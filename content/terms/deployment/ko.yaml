@@ -1,0 +1,8 @@
+title: 배포
+short_definition: 빌드한 애플리케이션을 사용자가 접근할 수 있는 환경에 올리는 과정.
+analogy: 작업실에서 실제로 영업하는 매장으로 제품을 옮기는 것과 같습니다.
+why_it_matters: 내 노트북에서만 동작하는 프로젝트는 아직 사용 가능한 웹 제품이 아닙니다.
+ai_prompt_example: 정적 빌드를 만들고 모든 언어 경로를 확인한 뒤, 운영 환경에서 다시 빌드하지 말고 동일한 결과물을 배포하세요.
+common_mistake: 배포 중 설정을 바꾸고도 그 변경을 저장소에 기록하지 않는 것.
+status: draft
+source_content_version: 1

@@ -1,0 +1,432 @@
+en:
+  skip: Skip to content
+  home: Explore
+  terms: Terms
+  learn: Learn
+  search: Search terms, aliases, or meaning…
+  search_btn: Search
+  hero_eyebrow: FROM IDEA TO SHIPPING
+  hero: From one idea to a product you can actually ship.
+  sub: A beginner-first map of Vibe Coding concepts. Search when you are stuck, or explore the knowledge path in order.
+  knowledge: Knowledge map
+  route: Project path
+  trending: Start with these
+  all_terms: All terms
+  learn_title: Daily learning
+  learning_eyebrow: LOCAL-FIRST LEARNING
+  learn_sub: Choose how many new terms to learn today. Your progress stays in this browser.
+  daily: New terms per day
+  start: Start learning
+  reveal: Show explanation
+  again: Not yet
+  partial: Somewhat
+  mastered: Got it
+  progress: Today
+  local: Guest progress is stored locally in this browser.
+  draft: Draft translation
+  why: Why it matters
+  analogy: Simple analogy
+  prompt: Tell your AI
+  mistake: Common mistake
+  related: Related terms
+  back: Back to explore
+  no_results: No matching terms.
+  loading: Loading terms…
+  load_error: The term index could not be loaded.
+  done: Learning complete for today.
+  storage_error: Local learning data could not be opened in this browser.
+  added: Added to learning
+  copy: Copy prompt
+  copied: Copied
+  theme: Theme
+  category_intro: Browse {count} beginner-friendly terms in {domain}.
+  not_found_title: Page not found
+  not_found_text: The page may have moved, but the terminology map is still here.
+  go_home: Return home
+  terms_unit: terms
+  source_code: Source code
+  theme_system: Use system theme
+  theme_light: Use light theme
+  theme_dark: Use dark theme
+  copy_failed: Could not copy
+  queued: Added to learning
+  category_back: Back to knowledge map
+  search_error: The term index could not be loaded.
+zh-cn:
+  skip: 跳到主要内容
+  home: 探索
+  terms: 术语
+  learn: 学习
+  search: 搜索术语、缩写或中文含义…
+  search_btn: 查找
+  hero_eyebrow: 从想法到上线
+  hero: 从一句想法，走到真正上线。
+  sub: 为 Vibe Coding 新手准备的知识地图。遇到看不懂的词就搜，也可以按做项目的顺序探索。
+  knowledge: 知识地图
+  route: 项目路径
+  trending: 先认识这些
+  all_terms: 全部术语
+  learn_title: 今日学习
+  learning_eyebrow: 本地优先学习
+  learn_sub: 自定义今天的新词数量。游客进度直接保存在当前浏览器。
+  daily: 每天新词数
+  start: 开始学习
+  reveal: 查看解释
+  again: 不认识
+  partial: 有点印象
+  mastered: 已经掌握
+  progress: 今日进度
+  local: 游客学习记录只保存在当前浏览器。
+  draft: 翻译草稿
+  why: 为什么重要
+  analogy: 简单类比
+  prompt: 可以这样告诉 AI
+  mistake: 常见误区
+  related: 相关术语
+  back: 返回探索
+  no_results: 没有匹配的术语。
+  loading: 正在载入术语…
+  load_error: 术语索引载入失败。
+  done: 今天的学习已完成。
+  storage_error: 当前浏览器无法打开本地学习数据。
+  added: 已加入学习
+  copy: 复制提示词
+  copied: 已复制
+  theme: 主题
+  category_intro: 浏览“{domain}”中的 {count} 个新手友好术语。
+  not_found_title: 页面不存在
+  not_found_text: 页面可能换了位置，但术语地图还在。
+  go_home: 返回首页
+  terms_unit: 术语
+  source_code: 源代码
+  theme_system: 使用系统主题
+  theme_light: 使用浅色主题
+  theme_dark: 使用深色主题
+  copy_failed: 复制失败
+  queued: 已加入学习
+  category_back: 返回知识地图
+  search_error: 术语索引载入失败。
+zh-tw:
+  skip: 跳到主要內容
+  home: 探索
+  terms: 術語
+  learn: 學習
+  search: 搜尋術語、縮寫或含義…
+  search_btn: 查找
+  hero_eyebrow: 從想法到上線
+  hero: 從一句想法，走到真正上線。
+  sub: 為 Vibe Coding 新手準備的知識地圖。遇到不懂的詞就搜尋，也可依專案流程探索。
+  knowledge: 知識地圖
+  route: 專案路徑
+  trending: 先認識這些
+  all_terms: 全部術語
+  learn_title: 今日學習
+  learning_eyebrow: 本機優先學習
+  learn_sub: 自訂今天的新詞數量。訪客進度直接保存在目前瀏覽器。
+  daily: 每天新詞數
+  start: 開始學習
+  reveal: 查看解釋
+  again: 不認識
+  partial: 有點印象
+  mastered: 已經掌握
+  progress: 今日進度
+  local: 訪客學習記錄只保存在目前瀏覽器。
+  draft: 翻譯草稿
+  why: 為什麼重要
+  analogy: 簡單類比
+  prompt: 可以這樣告訴 AI
+  mistake: 常見誤區
+  related: 相關術語
+  back: 返回探索
+  no_results: 沒有符合的術語。
+  loading: 正在載入術語…
+  load_error: 術語索引載入失敗。
+  done: 今天的學習已完成。
+  storage_error: 目前瀏覽器無法開啟本機學習資料。
+  added: 已加入學習
+  copy: 複製提示詞
+  copied: 已複製
+  theme: 主題
+  category_intro: 瀏覽「{domain}」中的 {count} 個新手友善術語。
+  not_found_title: 找不到頁面
+  not_found_text: 頁面可能已移動，但術語地圖仍在。
+  go_home: 返回首頁
+  terms_unit: 術語
+  source_code: 原始碼
+  theme_system: 使用系統主題
+  theme_light: 使用淺色主題
+  theme_dark: 使用深色主題
+  copy_failed: 複製失敗
+  queued: 已加入學習
+  category_back: 返回知識地圖
+  search_error: 術語索引載入失敗。
+ja:
+  skip: メインコンテンツへ移動
+  home: 探索
+  terms: 用語
+  learn: 学習
+  search: 用語・略語・意味を検索…
+  search_btn: 検索
+  hero_eyebrow: アイデアから公開まで
+  hero: ひとつのアイデアから、本当に公開できるプロダクトへ。
+  sub: Vibe Coding 初心者向けの知識マップ。分からない言葉を検索するか、開発の流れに沿って学べます。
+  knowledge: 知識マップ
+  route: プロジェクトの流れ
+  trending: まずはここから
+  all_terms: すべての用語
+  learn_title: 今日の学習
+  learning_eyebrow: ローカル優先の学習
+  learn_sub: 今日学ぶ新しい用語数を設定できます。ゲストの進捗はこのブラウザに保存されます。
+  daily: 1日の新規用語
+  start: 学習を開始
+  reveal: 説明を見る
+  again: まだ分からない
+  partial: 少し分かる
+  mastered: 理解した
+  progress: 今日の進捗
+  local: ゲストの学習記録はこのブラウザ内に保存されます。
+  draft: 翻訳ドラフト
+  why: なぜ重要？
+  analogy: かんたんな例え
+  prompt: AI への伝え方
+  mistake: よくある間違い
+  related: 関連用語
+  back: 探索へ戻る
+  no_results: 一致する用語がありません。
+  loading: 用語を読み込んでいます…
+  load_error: 用語インデックスを読み込めませんでした。
+  done: 今日の学習は完了です。
+  storage_error: このブラウザではローカル学習データを開けません。
+  added: 学習に追加済み
+  copy: プロンプトをコピー
+  copied: コピーしました
+  theme: テーマ
+  category_intro: 「{domain}」の初心者向け用語を {count} 件見る。
+  not_found_title: ページが見つかりません
+  not_found_text: ページは移動したかもしれませんが、用語マップはここにあります。
+  go_home: ホームへ戻る
+  terms_unit: 用語
+  source_code: ソースコード
+  theme_system: システムテーマを使用
+  theme_light: ライトテーマを使用
+  theme_dark: ダークテーマを使用
+  copy_failed: コピーできませんでした
+  queued: 学習に追加しました
+  category_back: 知識マップへ戻る
+  search_error: 用語インデックスを読み込めませんでした。
+ko:
+  skip: 주요 콘텐츠로 건너뛰기
+  home: 탐색
+  terms: 용어
+  learn: 학습
+  search: 용어, 약어 또는 뜻 검색…
+  search_btn: 검색
+  hero_eyebrow: 아이디어에서 출시까지
+  hero: 하나의 아이디어에서 실제 출시까지.
+  sub: Vibe Coding 초보자를 위한 지식 지도입니다. 모르는 용어를 검색하거나 프로젝트 흐름대로 살펴보세요.
+  knowledge: 지식 지도
+  route: 프로젝트 경로
+  trending: 먼저 알아둘 용어
+  all_terms: 전체 용어
+  learn_title: 오늘의 학습
+  learning_eyebrow: 로컬 우선 학습
+  learn_sub: 오늘 배울 새 용어 수를 설정하세요. 게스트 진도는 이 브라우저에 저장됩니다.
+  daily: 하루 새 용어 수
+  start: 학습 시작
+  reveal: 설명 보기
+  again: 모르겠음
+  partial: 조금 앎
+  mastered: 이해함
+  progress: 오늘 진도
+  local: 게스트 학습 기록은 이 브라우저에만 저장됩니다.
+  draft: 번역 초안
+  why: 왜 중요한가
+  analogy: 쉬운 비유
+  prompt: AI에게 이렇게 말하기
+  mistake: 흔한 실수
+  related: 관련 용어
+  back: 탐색으로 돌아가기
+  no_results: 일치하는 용어가 없습니다.
+  loading: 용어를 불러오는 중…
+  load_error: 용어 색인을 불러오지 못했습니다.
+  done: 오늘의 학습을 마쳤습니다.
+  storage_error: 이 브라우저에서 로컬 학습 데이터를 열 수 없습니다.
+  added: 학습에 추가됨
+  copy: 프롬프트 복사
+  copied: 복사됨
+  theme: 테마
+  category_intro: '{domain}의 초보자용 용어 {count}개를 살펴보세요.'
+  not_found_title: 페이지를 찾을 수 없음
+  not_found_text: 페이지가 이동했을 수 있지만 용어 지도는 여기에 있습니다.
+  go_home: 홈으로 돌아가기
+  terms_unit: 용어
+  source_code: 소스 코드
+  theme_system: 시스템 테마 사용
+  theme_light: 라이트 테마 사용
+  theme_dark: 다크 테마 사용
+  copy_failed: 복사하지 못했습니다
+  queued: 학습에 추가됨
+  category_back: 지식 지도로 돌아가기
+  search_error: 용어 색인을 불러오지 못했습니다.
+de:
+  skip: Zum Hauptinhalt springen
+  home: Entdecken
+  terms: Begriffe
+  learn: Lernen
+  search: Begriffe, Abkürzungen oder Bedeutung suchen…
+  search_btn: Suchen
+  hero_eyebrow: VON DER IDEE ZUM RELEASE
+  hero: Von einer Idee bis zu einem Produkt, das wirklich online geht.
+  sub: Eine Wissenskarte für Vibe-Coding-Einsteiger. Suche unbekannte Begriffe oder folge dem Projektablauf.
+  knowledge: Wissenskarte
+  route: Projektpfad
+  trending: Damit anfangen
+  all_terms: Alle Begriffe
+  learn_title: Tägliches Lernen
+  learning_eyebrow: LOKAL GESPEICHERTES LERNEN
+  learn_sub: Lege fest, wie viele neue Begriffe du heute lernst. Gastfortschritt bleibt in diesem Browser.
+  daily: Neue Begriffe pro Tag
+  start: Lernen starten
+  reveal: Erklärung zeigen
+  again: Noch nicht
+  partial: Teilweise
+  mastered: Verstanden
+  progress: Heute
+  local: Gastfortschritt wird lokal in diesem Browser gespeichert.
+  draft: Übersetzungsentwurf
+  why: Warum wichtig
+  analogy: Einfache Analogie
+  prompt: So kannst du es der KI sagen
+  mistake: Häufiger Fehler
+  related: Verwandte Begriffe
+  back: Zurück
+  no_results: Keine passenden Begriffe.
+  loading: Begriffe werden geladen…
+  load_error: Der Begriffsindex konnte nicht geladen werden.
+  done: Das Lernen für heute ist abgeschlossen.
+  storage_error: Lokale Lerndaten konnten in diesem Browser nicht geöffnet werden.
+  added: Zum Lernen hinzugefügt
+  copy: Prompt kopieren
+  copied: Kopiert
+  theme: Darstellung
+  category_intro: Entdecke {count} einsteigerfreundliche Begriffe aus „{domain}“.
+  not_found_title: Seite nicht gefunden
+  not_found_text: Die Seite wurde möglicherweise verschoben, die Begriffskarte ist aber noch da.
+  go_home: Zur Startseite
+  terms_unit: Begriffe
+  source_code: Quellcode
+  theme_system: Systemdesign verwenden
+  theme_light: Helles Design verwenden
+  theme_dark: Dunkles Design verwenden
+  copy_failed: Kopieren fehlgeschlagen
+  queued: Zum Lernen hinzugefügt
+  category_back: Zurück zur Wissenskarte
+  search_error: Der Begriffsindex konnte nicht geladen werden.
+ru:
+  skip: Перейти к основному содержимому
+  home: Обзор
+  terms: Термины
+  learn: Учиться
+  search: Поиск терминов, сокращений или смысла…
+  search_btn: Найти
+  hero_eyebrow: ОТ ИДЕИ ДО ПУБЛИКАЦИИ
+  hero: От одной идеи до продукта, который можно реально опубликовать.
+  sub: Карта знаний для новичков в Vibe Coding. Ищите незнакомые слова или изучайте их по этапам проекта.
+  knowledge: Карта знаний
+  route: Путь проекта
+  trending: Начать с этих
+  all_terms: Все термины
+  learn_title: Обучение на сегодня
+  learning_eyebrow: ЛОКАЛЬНОЕ ОБУЧЕНИЕ
+  learn_sub: Выберите число новых терминов на сегодня. Прогресс гостя хранится в этом браузере.
+  daily: Новых терминов в день
+  start: Начать
+  reveal: Показать объяснение
+  again: Не знаю
+  partial: Немного знаю
+  mastered: Понял
+  progress: Сегодня
+  local: Прогресс гостя хранится только в этом браузере.
+  draft: Черновой перевод
+  why: Почему важно
+  analogy: Простая аналогия
+  prompt: Как сказать это ИИ
+  mistake: Частая ошибка
+  related: Связанные термины
+  back: Назад
+  no_results: Совпадений нет.
+  loading: Термины загружаются…
+  load_error: Не удалось загрузить индекс терминов.
+  done: Обучение на сегодня завершено.
+  storage_error: Не удалось открыть локальные учебные данные в этом браузере.
+  added: Добавлено в обучение
+  copy: Копировать запрос
+  copied: Скопировано
+  theme: Тема
+  category_intro: Посмотрите {count} понятных новичку терминов из раздела «{domain}».
+  not_found_title: Страница не найдена
+  not_found_text: Страница могла переместиться, но карта терминов всё ещё здесь.
+  go_home: На главную
+  terms_unit: терминов
+  source_code: Исходный код
+  theme_system: Использовать системную тему
+  theme_light: Использовать светлую тему
+  theme_dark: Использовать тёмную тему
+  copy_failed: Не удалось скопировать
+  queued: Добавлено в обучение
+  category_back: Назад к карте знаний
+  search_error: Не удалось загрузить индекс терминов.
+hi:
+  skip: मुख्य सामग्री पर जाएँ
+  home: खोजें
+  terms: शब्द
+  learn: सीखें
+  search: शब्द, संक्षिप्त रूप या अर्थ खोजें…
+  search_btn: खोजें
+  hero_eyebrow: विचार से प्रकाशित प्रोडक्ट तक
+  hero: एक विचार से सचमुच प्रकाशित होने वाले प्रोडक्ट तक।
+  sub: Vibe Coding शुरुआती लोगों के लिए ज्ञान मानचित्र। अनजान शब्द खोजें या प्रोजेक्ट के क्रम में सीखें।
+  knowledge: ज्ञान मानचित्र
+  route: प्रोजेक्ट पथ
+  trending: इनसे शुरू करें
+  all_terms: सभी शब्द
+  learn_title: आज की पढ़ाई
+  learning_eyebrow: लोकल-फर्स्ट सीखना
+  learn_sub: आज कितने नए शब्द सीखने हैं चुनें। अतिथि प्रगति इसी ब्राउज़र में रहती है।
+  daily: रोज़ नए शब्द
+  start: सीखना शुरू करें
+  reveal: व्याख्या देखें
+  again: नहीं आता
+  partial: थोड़ा आता है
+  mastered: समझ गया
+  progress: आज की प्रगति
+  local: अतिथि प्रगति केवल इसी ब्राउज़र में सहेजी जाती है।
+  draft: अनुवाद ड्राफ्ट
+  why: यह क्यों ज़रूरी है
+  analogy: सरल उदाहरण
+  prompt: AI से ऐसे कहें
+  mistake: आम गलती
+  related: संबंधित शब्द
+  back: वापस खोजें
+  no_results: कोई मेल नहीं मिला।
+  loading: शब्द लोड हो रहे हैं…
+  load_error: शब्द सूची लोड नहीं हो सकी।
+  done: आज की पढ़ाई पूरी हो गई।
+  storage_error: इस ब्राउज़र में लोकल सीखने का डेटा नहीं खुल सका।
+  added: सीखने में जोड़ा गया
+  copy: प्रॉम्प्ट कॉपी करें
+  copied: कॉपी हो गया
+  theme: थीम
+  category_intro: “{domain}” के {count} शुरुआती-अनुकूल शब्द देखें।
+  not_found_title: पेज नहीं मिला
+  not_found_text: पेज शायद स्थान बदल चुका है, लेकिन शब्द मानचित्र यहीं है।
+  go_home: होम पर लौटें
+  terms_unit: शब्द
+  source_code: सोर्स कोड
+  theme_system: सिस्टम थीम का उपयोग करें
+  theme_light: हल्की थीम का उपयोग करें
+  theme_dark: गहरी थीम का उपयोग करें
+  copy_failed: कॉपी नहीं हो सका
+  queued: सीखने में जोड़ा गया
+  category_back: ज्ञान मानचित्र पर लौटें
+  search_error: शब्द सूची लोड नहीं हो सकी।

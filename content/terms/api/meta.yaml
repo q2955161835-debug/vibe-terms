@@ -1,0 +1,12 @@
+id: term_api
+slug: api
+canonical_name: API
+aliases:
+- Application Programming Interface
+primary_domain: web-basics
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- Frontend
+- Backend
+content_version: 1

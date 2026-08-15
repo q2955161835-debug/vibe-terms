@@ -1,0 +1,12 @@
+title: Context Window
+short_definition: The limited amount of text and other input a model can consider
+  at one time.
+analogy: 'A work desk: once it is full, old papers must be moved away before new ones
+  fit.'
+why_it_matters: Long coding sessions can push important requirements out of the model’s
+  active context.
+ai_prompt_example: Before continuing, summarize the current architecture, constraints,
+  completed work, and the next task.
+common_mistake: Assuming a model remembers every earlier file and decision forever.
+status: published
+source_content_version: 1

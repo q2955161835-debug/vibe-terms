@@ -1,0 +1,8 @@
+title: プロンプト
+short_definition: AIモデルの次の応答や行動を導くために与える指示や文脈。
+analogy: 作業を始める前に請負担当者へ渡す依頼書のようなものです。
+why_it_matters: 明確なプロンプトは推測を減らし、AIが行った変更を確認しやすくします。
+ai_prompt_example: 用語名、別名、定義で絞り込める検索欄を追加してください。既存のレイアウトは変更しないでください。
+common_mistake: 曖昧な要件を明確にせず、ただプロンプトを長くして解決しようとすること。
+status: draft
+source_content_version: 1

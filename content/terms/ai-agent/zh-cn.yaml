@@ -1,0 +1,8 @@
+title: AI 智能体
+short_definition: 能够反复判断下一步、调用工具、查看结果并继续完成目标的 AI 系统。
+analogy: 像会读任务、使用授权工具、检查结果再继续工作的执行者。
+why_it_matters: 编程 Agent 能直接改文件和运行命令，所以权限和检查点非常重要。
+ai_prompt_example: 检查仓库、先给计划、只改批准范围、运行测试，然后停止并汇报 diff。
+common_mistake: 给 Agent 过大的权限和开放目标，却没有验收关卡。
+status: draft
+source_content_version: 1

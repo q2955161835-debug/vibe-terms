@@ -1,0 +1,8 @@
+title: Vibe Coding
+short_definition: 通过描述目标，让 AI 编程助手生成和修改软件，再持续检查与迭代的开发方式。
+analogy: 像带一个速度极快的初级开发者：你讲目标，它交付，你负责验收。
+why_it_matters: 它让新手能做真实软件，但仍需要基本术语来判断 AI 到底改了什么。
+ai_prompt_example: 分小步实现这个功能。修改前先说明会改哪些文件，以及我该怎么验证结果。
+common_mistake: 把“能运行”误当成“设计正确、安全、适合上线”。
+status: draft
+source_content_version: 1
