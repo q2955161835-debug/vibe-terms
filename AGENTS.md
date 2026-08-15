@@ -6,6 +6,13 @@ Ship the anonymous static Vibe Terms prototype. Authentication, Supabase, user
 accounts, cloud synchronization, payments, reminders, and analytics are
 explicitly deferred.
 
+## Repository and hosting
+
+- Public GitHub repository: `https://github.com/q2955161835-debug/vibe-terms`
+- Codex Sites project: `https://vibe-terms.donk55666.chatgpt.site` (owner-only access)
+- The Python generator remains the content build source; the root vinext/Worker
+  files are a thin Codex Sites packaging adapter.
+
 ## Sources of truth
 
 - `content/` contains canonical terminology, localization, taxonomy, and the
@@ -20,6 +27,8 @@ explicitly deferred.
 ```bash
 python3 -m pip install -r requirements-dev.txt
 ./scripts/verify_public_site.sh
+npm ci
+npm run build
 ```
 
 Set `RUN_HTTP_E2E=1` for the true localhost navigation suite. Set
