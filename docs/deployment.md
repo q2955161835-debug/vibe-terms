@@ -50,10 +50,21 @@ from the root of `site/`. No rewrite to an application server is needed.
 
 ## Codex Sites handoff
 
-Import the repository, set the install/build/output values above, add `SITE_URL`
-after the public hostname is assigned, then rebuild once so canonical and sitemap
-URLs use the final origin. `GITHUB_URL` can remain unset until the source
-repository is public; the footer omits the link instead of publishing a dead URL.
+The repository includes a thin vinext/Worker adapter for Codex Sites. It does
+not replace the static generator: `npm run build` first regenerates `site/`,
+copies it into the ignored Sites public-asset directory, and then emits the
+Worker-compatible `dist/server/index.js` bundle.
+
+```bash
+npm ci
+npm run build
+```
+
+The tracked `.openai/hosting.json` stores only the Sites project binding and
+optional logical storage bindings. Runtime values remain managed by Sites. Set
+`SITE_URL` after the production hostname is known and rebuild so canonical,
+Open Graph, and sitemap URLs use the deployed origin. `GITHUB_URL` can remain
+unset until the source repository is public; the footer then omits the link.
 
 ## Verification before release
 

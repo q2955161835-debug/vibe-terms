@@ -4,8 +4,14 @@ site/
 .pytest_cache/
 __pycache__/
 *.py[cod]
+.venv/
+.playwright-browsers/
 node_modules/
+public/
 .astro/
+.next/
+.vinext/
+.wrangler/
 dist/
 .env*
 !.env.example

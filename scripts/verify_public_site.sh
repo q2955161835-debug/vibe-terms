@@ -12,7 +12,7 @@ python3 -m pytest -q \
   tests/test_render_harness.py
 node --check web/core.js
 node --check web/app.js
-node --test tests/js/core.test.cjs
+node --test tests/js/core.test.cjs tests/js/sites-routing.test.mjs
 
 if [[ "${RUN_HTTP_E2E:-0}" == "1" ]]; then
   python3 -m pytest -q tests/test_browser.py

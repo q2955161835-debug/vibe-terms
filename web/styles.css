@@ -211,7 +211,7 @@ footer a:hover { color: var(--accent); }
 .term-detail { max-width: 850px; margin: 0 auto; padding-top: 42px; }
 .back { font-size: 13px; color: var(--muted); }
 .term-heading { display: flex; justify-content: space-between; gap: 24px; align-items: end; margin-top: 36px; }
-.term-heading h1 { font-size: clamp(48px, 7vw, 82px); letter-spacing: -0.055em; line-height: 1; margin: 5px 0; }
+.term-heading h1 { font-size: clamp(48px, 7vw, 82px); letter-spacing: -0.055em; line-height: 1; margin: 5px 0; overflow-wrap: anywhere; }
 .canonical { color: var(--muted); margin: 0; }
 .meta-line { display: flex; flex-wrap: wrap; gap: 8px; font-size: 12px; color: var(--accent); font-weight: 700; }
 .status { background: var(--accent-soft); padding: 2px 7px; border-radius: 999px; }

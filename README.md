@@ -65,13 +65,22 @@ python3 scripts/package_site.py
 This writes `dist/vibe-terms-public-site.zip` plus a SHA-256 checksum. The ZIP
 opens at the hosting root rather than nesting everything inside a `site/` folder.
 
-Deploy the contents of `site/` at the hostname root. A generic static host or
-Codex Sites can use:
+Deploy the contents of `site/` at the hostname root. A generic static host can
+use:
 
 ```text
 Install command: pip install -r requirements.txt
 Build command:   python3 scripts/build_static_site.py
 Output directory: site
+```
+
+Codex Sites uses the tracked adapter in `app/`, `worker/`, `vite.config.ts`, and
+`.openai/hosting.json`. It preserves the generated static pages and packages
+them into the Worker-compatible build expected by Sites:
+
+```bash
+npm ci
+npm run build
 ```
 
 More detail is in [`docs/deployment.md`](docs/deployment.md).
@@ -101,6 +110,8 @@ Chromium installation.
 content/   canonical terminology, localization, taxonomy, and learning path
 scripts/   static build and verification commands
 web/       browser runtime, styles, and logo
+app/       minimal vinext shell used only for Codex Sites packaging
+worker/    static-route adapter for the Sites runtime
 site/      generated deployable output, not committed
 tests/     static-contract, scheduling, and browser tests
 docs/      product specifications, plans, and deployment notes
