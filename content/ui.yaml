@@ -362,7 +362,7 @@ ja:
   copy_markdown: Markdown としてコピー
   copied: コピーしました
   theme: テーマ
-  category_intro: 「{domain}」の初心者向け用語を {count} 件見る。
+  category_intro: 「{domain}」の初心者向け用語を{count}件閲覧します。
   not_found_title: ページが見つかりません
   not_found_text: ページは移動したかもしれませんが、用語マップはここにあります。
   go_home: ホームへ戻る

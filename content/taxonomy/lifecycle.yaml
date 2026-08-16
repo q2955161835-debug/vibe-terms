@@ -48,7 +48,7 @@ stages:
     en: Connect data and identity
     zh-cn: 接入数据与身份
     zh-tw: 串接資料與身分
-    ja: データと認証をつなぐ
+    ja: データとアイデンティティをつなぐ
     ko: 데이터와 인증 연결
     de: Daten und Identität anbinden
     ru: Подключить данные и идентификацию

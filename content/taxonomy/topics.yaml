@@ -81,7 +81,7 @@ topics:
     en: Agents, Tools & Memory
     zh-cn: 智能体、工具与记忆
     zh-tw: 智能體、工具與記憶
-    ja: エージェント、ツールと記憶
+    ja: エージェント、ツールとメモリ
     ko: 에이전트, 도구 및 메모리
     de: Agenten, Werkzeuge und Speicher
     ru: Агенты, инструменты и память
@@ -90,7 +90,7 @@ topics:
     en: Core concepts for agents, tools & memory.
     zh-cn: 学习智能体、工具与记忆相关的核心概念。
     zh-tw: 學習智能體、工具與記憶相關的核心概念。
-    ja: エージェント、ツールと記憶に関する基本概念を学びます。
+    ja: エージェント、ツールとメモリに関する基本概念を学びます。
     ko: 에이전트, 도구 및 메모리의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Agenten, Werkzeuge und Speicher.
     ru: Основные понятия по теме «Агенты, инструменты и память».
@@ -149,7 +149,7 @@ topics:
     en: Command Line Workflow
     zh-cn: 命令行工作流
     zh-tw: 命令列工作流程
-    ja: コマンドラインの作業
+    ja: コマンドラインのワークフロー
     ko: 명령줄 워크플로
     de: Kommandozeilen-Workflow
     ru: Работа в командной строке
@@ -158,7 +158,7 @@ topics:
     en: Core concepts for command line workflow.
     zh-cn: 学习命令行工作流相关的核心概念。
     zh-tw: 學習命令列工作流程相關的核心概念。
-    ja: コマンドラインの作業に関する基本概念を学びます。
+    ja: コマンドラインのワークフローに関する基本概念を学びます。
     ko: 명령줄 워크플로의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Kommandozeilen-Workflow.
     ru: Основные понятия по теме «Работа в командной строке».
@@ -275,7 +275,7 @@ topics:
     hi: वेब प्रोटोकॉल और HTTP
   descriptions:
     en: Core concepts for web protocols & http.
-    zh-cn: 学习Web 协议与 HTTP相关的核心概念。
+    zh-cn: 学习 Web 协议与 HTTP 相关的核心概念。
     zh-tw: 學習Web 協定與 HTTP相關的核心概念。
     ja: WebプロトコルとHTTPに関する基本概念を学びます。
     ko: 웹 프로토콜과 HTTP의 핵심 개념을 배웁니다.
@@ -841,7 +841,7 @@ topics:
     hi: API अनुबंध और एंडपॉइंट
   descriptions:
     en: Core concepts for api contracts & endpoints.
-    zh-cn: 学习API 契约与端点相关的核心概念。
+    zh-cn: 学习 API 契约与端点相关的核心概念。
     zh-tw: 學習API 合約與端點相關的核心概念。
     ja: API契約とエンドポイントに関する基本概念を学びます。
     ko: API 계약과 엔드포인트의 핵심 개념을 배웁니다.
