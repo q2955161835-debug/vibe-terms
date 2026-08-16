@@ -11,7 +11,7 @@ from scripts.vibe_terms import BuildConfig, build_site, load_catalog
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "content"
-LOCALES = ("en", "zh-cn", "zh-tw", "ja", "ko", "de", "ru", "hi")
+LOCALES = ("en", "zh-cn", "zh-tw", "ja", "ko", "de", "ru")
 
 
 class ResourceParser(HTMLParser):

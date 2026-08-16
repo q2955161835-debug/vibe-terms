@@ -108,15 +108,6 @@ main { max-width: var(--max); margin: 0 auto; padding: 0 24px 90px; }
 }
 .hero > p, .learn-header p { font-size: 18px; color: var(--muted); max-width: 720px; }
 
-html[lang="hi"] .hero h1,
-html[lang="hi"] .category-hero h1,
-html[lang="hi"] .term-heading h1,
-html[lang="hi"] .learn-header h1,
-html[lang="hi"] .learn-title {
-  line-height: 1.18;
-  letter-spacing: -0.01em;
-}
-
 .search-wrap { position: relative; margin-top: 30px; }
 .search-shell {
   display: flex;

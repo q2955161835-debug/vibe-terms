@@ -221,13 +221,6 @@ main {
   letter-spacing: -.045em;
 }
 
-:lang(hi) .explorer-heading h1,
-:lang(hi) .term-heading h1,
-:lang(hi) .term-card h3 strong {
-  line-height: 1.25;
-  letter-spacing: 0px;
-}
-
 .explorer-topic {
   margin: 0 0 42px;
   scroll-margin-top: 98px;

@@ -6,7 +6,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "content"
-LOCALES = ("en", "zh-cn", "zh-tw", "ja", "ko", "de", "ru", "hi")
+LOCALES = ("en", "zh-cn", "zh-tw", "ja", "ko", "de", "ru")
 TRANSLATED_LOCALES = LOCALES[1:]
 
 PLACEHOLDER_MARKERS = {
@@ -16,7 +16,6 @@ PLACEHOLDER_MARKERS = {
     "ko": ("현재 한국어 본문은 검토 전 초안", "영어 기준 정의"),
     "de": ("noch nicht redigierter Entwurf", "Englische Referenzdefinition"),
     "ru": ("черновиком до редакторской проверки", "Эталонное определение на английском"),
-    "hi": ("मानव समीक्षा से पहले का मसौदा", "अंग्रेज़ी मानक परिभाषा"),
 }
 
 
@@ -125,7 +124,6 @@ def test_breadcrumb_uses_established_navigation_terms_in_every_locale():
         "ko": "브레드크럼 내비게이션",
         "de": "Brotkrümelnavigation",
         "ru": "Хлебные крошки",
-        "hi": "ब्रेडक्रम नेविगेशन",
     }
     directory = CONTENT / "terms" / "breadcrumb"
     assert {
@@ -141,7 +139,6 @@ def test_translated_prose_uses_the_target_writing_system():
         "ja": re.compile(r"[\u3040-\u30ff]"),
         "ko": re.compile(r"[\uac00-\ud7a3]"),
         "ru": re.compile(r"[\u0400-\u04ff]"),
-        "hi": re.compile(r"[\u0900-\u097f]"),
     }
     prose_fields = (
         "short_definition",

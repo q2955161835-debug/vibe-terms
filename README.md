@@ -10,7 +10,7 @@ There is no user database, OAuth flow, or cloud synchronization in this build.
 
 ## Current static platform
 
-- 8 locales: English, Simplified Chinese, Traditional Chinese, Japanese, Korean, German, Russian, and Hindi
+- 7 locales: English, Simplified Chinese, Traditional Chinese, Japanese, Korean, German, and Russian
 - 500 canonical terms across 12 knowledge domains and 42 second-level topics
 - knowledge-map and three chaptered project-path navigation systems
 - dense localized term pages with examples, exercises, sources, aliases, and keyboard search

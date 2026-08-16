@@ -9,7 +9,6 @@ topics:
     ko: 프롬프트와 컨텍스트
     de: Prompts und Kontext
     ru: Промпты и контекст
-    hi: प्रॉम्प्ट और संदर्भ
   descriptions:
     en: Core concepts for prompting & context.
     zh-cn: 学习提示与上下文相关的核心概念。
@@ -18,7 +17,6 @@ topics:
     ko: 프롬프트와 컨텍스트의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Prompts und Kontext.
     ru: Основные понятия по теме «Промпты и контекст».
-    hi: प्रॉम्प्ट और संदर्भ की मुख्य अवधारणाएं।
   terms:
   - context-engineering
   - context-window
@@ -47,7 +45,6 @@ topics:
     ko: 모델과 생성
     de: Modelle und Generierung
     ru: Модели и генерация
-    hi: मॉडल और जनरेशन
   descriptions:
     en: Core concepts for models & generation.
     zh-cn: 学习模型与生成相关的核心概念。
@@ -56,7 +53,6 @@ topics:
     ko: 모델과 생성의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Modelle und Generierung.
     ru: Основные понятия по теме «Модели и генерация».
-    hi: मॉडल और जनरेशन की मुख्य अवधारणाएं।
   terms:
   - ai-application
   - ai-latency-metrics
@@ -85,7 +81,6 @@ topics:
     ko: 에이전트, 도구 및 메모리
     de: Agenten, Werkzeuge und Speicher
     ru: Агенты, инструменты и память
-    hi: एजेंट, टूल और मेमोरी
   descriptions:
     en: Core concepts for agents, tools & memory.
     zh-cn: 学习智能体、工具与记忆相关的核心概念。
@@ -94,7 +89,6 @@ topics:
     ko: 에이전트, 도구 및 메모리의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Agenten, Werkzeuge und Speicher.
     ru: Основные понятия по теме «Агенты, инструменты и память».
-    hi: एजेंट, टूल और मेमोरी की मुख्य अवधारणाएं।
   terms:
   - agent-loop
   - agent-memory
@@ -119,7 +113,6 @@ topics:
     ko: 검색, 평가 및 안전
     de: Abruf, Bewertung und Sicherheit
     ru: Поиск, оценка и безопасность
-    hi: पुनर्प्राप्ति, मूल्यांकन और सुरक्षा
   descriptions:
     en: Core concepts for retrieval, evaluation & safety.
     zh-cn: 学习检索、评估与安全相关的核心概念。
@@ -128,7 +121,6 @@ topics:
     ko: 검색, 평가 및 안전의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Abruf, Bewertung und Sicherheit.
     ru: Основные понятия по теме «Поиск, оценка и безопасность».
-    hi: पुनर्प्राप्ति, मूल्यांकन और सुरक्षा की मुख्य अवधारणाएं।
   terms:
   - chunking
   - embedding
@@ -153,7 +145,6 @@ topics:
     ko: 명령줄 워크플로
     de: Kommandozeilen-Workflow
     ru: Работа в командной строке
-    hi: कमांड लाइन कार्यप्रवाह
   descriptions:
     en: Core concepts for command line workflow.
     zh-cn: 学习命令行工作流相关的核心概念。
@@ -162,7 +153,6 @@ topics:
     ko: 명령줄 워크플로의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Kommandozeilen-Workflow.
     ru: Основные понятия по теме «Работа в командной строке».
-    hi: कमांड लाइन कार्यप्रवाह की मुख्य अवधारणाएं।
   terms:
   - argument
   - cli
@@ -181,7 +171,6 @@ topics:
     ko: 소프트웨어 구성 요소
     de: Softwarebausteine
     ru: Компоненты программного обеспечения
-    hi: सॉफ्टवेयर के निर्माण खंड
   descriptions:
     en: Core concepts for software building blocks.
     zh-cn: 学习软件构成要素相关的核心概念。
@@ -190,7 +179,6 @@ topics:
     ko: 소프트웨어 구성 요소의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Softwarebausteine.
     ru: Основные понятия по теме «Компоненты программного обеспечения».
-    hi: सॉफ्टवेयर के निर्माण खंड की मुख्य अवधारणाएं।
   terms:
   - application
   - artifact
@@ -211,7 +199,6 @@ topics:
     ko: 런타임, 패키지 및 종속성
     de: Laufzeiten, Pakete und Abhängigkeiten
     ru: Среды выполнения, пакеты и зависимости
-    hi: रनटाइम, पैकेज और निर्भरताएं
   descriptions:
     en: Core concepts for runtimes, packages & dependencies.
     zh-cn: 学习运行时、包与依赖相关的核心概念。
@@ -220,7 +207,6 @@ topics:
     ko: 런타임, 패키지 및 종속성의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Laufzeiten, Pakete und Abhängigkeiten.
     ru: Основные понятия по теме «Среды выполнения, пакеты и зависимости».
-    hi: रनटाइम, पैकेज और निर्भरताएं की मुख्य अवधारणाएं।
   terms:
   - dependency
   - dependency-tree
@@ -244,7 +230,6 @@ topics:
     ko: 파일, 프로세스 및 환경
     de: Dateien, Prozesse und Umgebung
     ru: Файлы, процессы и окружение
-    hi: फ़ाइलें, प्रोसेस और पर्यावरण
   descriptions:
     en: Core concepts for files, processes & environment.
     zh-cn: 学习文件、进程与环境相关的核心概念。
@@ -253,7 +238,6 @@ topics:
     ko: 파일, 프로세스 및 환경의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Dateien, Prozesse und Umgebung.
     ru: Основные понятия по теме «Файлы, процессы и окружение».
-    hi: फ़ाइलें, प्रोसेस और पर्यावरण की मुख्य अवधारणाएं।
   terms:
   - configuration-file
   - directory
@@ -272,7 +256,6 @@ topics:
     ko: 웹 프로토콜과 HTTP
     de: Webprotokolle und HTTP
     ru: Веб-протоколы и HTTP
-    hi: वेब प्रोटोकॉल और HTTP
   descriptions:
     en: Core concepts for web protocols & http.
     zh-cn: 学习 Web 协议与 HTTP 相关的核心概念。
@@ -281,7 +264,6 @@ topics:
     ko: 웹 프로토콜과 HTTP의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Webprotokolle und HTTP.
     ru: Основные понятия по теме «Веб-протоколы и HTTP».
-    hi: वेब प्रोटोकॉल और HTTP की मुख्य अवधारणाएं।
   terms:
   - http
   - http-header
@@ -303,7 +285,6 @@ topics:
     ko: 이름, 주소 지정 및 라우팅
     de: Namensgebung, Adressierung und Routing
     ru: Имена, адресация и маршрутизация
-    hi: नामकरण, एड्रेसिंग और रूटिंग
   descriptions:
     en: Core concepts for naming, addressing & routing.
     zh-cn: 学习命名、寻址与路由相关的核心概念。
@@ -312,7 +293,6 @@ topics:
     ko: 이름, 주소 지정 및 라우팅의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Namensgebung, Adressierung und Routing.
     ru: Основные понятия по теме «Имена, адресация и маршрутизация».
-    hi: नामकरण, एड्रेसिंग और रूटिंग की मुख्य अवधारणाएं।
   terms:
   - dns
   - domain
@@ -332,7 +312,6 @@ topics:
     ko: 네트워크 연결과 전송
     de: Netzwerkverbindungen und Auslieferung
     ru: Сетевые соединения и доставка
-    hi: नेटवर्क कनेक्शन और डिलीवरी
   descriptions:
     en: Core concepts for network connections & delivery.
     zh-cn: 学习网络连接与交付相关的核心概念。
@@ -341,7 +320,6 @@ topics:
     ko: 네트워크 연결과 전송의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Netzwerkverbindungen und Auslieferung.
     ru: Основные понятия по теме «Сетевые соединения и доставка».
-    hi: नेटवर्क कनेक्शन और डिलीवरी की मुख्य अवधारणाएं।
   terms:
   - browser
   - cdn
@@ -365,7 +343,6 @@ topics:
     ko: 발견과 문제 정의
     de: Entdeckung und Problemrahmung
     ru: Исследование и формулировка проблемы
-    hi: खोज और समस्या निर्धारण
   descriptions:
     en: Core concepts for discovery & problem framing.
     zh-cn: 学习发现与问题界定相关的核心概念。
@@ -374,7 +351,6 @@ topics:
     ko: 발견과 문제 정의의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Entdeckung und Problemrahmung.
     ru: Основные понятия по теме «Исследование и формулировка проблемы».
-    hi: खोज और समस्या निर्धारण की मुख्य अवधारणाएं।
   terms:
   - assumption
   - constraint
@@ -401,7 +377,6 @@ topics:
     ko: 요구사항과 계획
     de: Anforderungen und Planung
     ru: Требования и планирование
-    hi: आवश्यकताएं और योजना
   descriptions:
     en: Core concepts for requirements & planning.
     zh-cn: 学习需求与规划相关的核心概念。
@@ -410,7 +385,6 @@ topics:
     ko: 요구사항과 계획의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Anforderungen und Planung.
     ru: Основные понятия по теме «Требования и планирование».
-    hi: आवश्यकताएं और योजना की मुख्य अवधारणाएं।
   terms:
   - feature
   - gantt-chart
@@ -430,7 +404,6 @@ topics:
     ko: 지표와 실험
     de: Metriken und Experimente
     ru: Метрики и эксперименты
-    hi: मेट्रिक्स और प्रयोग
   descriptions:
     en: Core concepts for metrics & experimentation.
     zh-cn: 学习指标与实验相关的核心概念。
@@ -439,7 +412,6 @@ topics:
     ko: 지표와 실험의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Metriken und Experimente.
     ru: Основные понятия по теме «Метрики и эксперименты».
-    hi: मेट्रिक्स और प्रयोग की मुख्य अवधारणाएं।
   terms:
   - a-b-test
   - conversion-funnel
@@ -458,7 +430,6 @@ topics:
     ko: 인터페이스 구조와 탐색
     de: Oberflächenstruktur und Navigation
     ru: Структура интерфейса и навигация
-    hi: इंटरफ़ेस संरचना और नेविगेशन
   descriptions:
     en: Core concepts for interface structure & navigation.
     zh-cn: 学习界面结构与导航相关的核心概念。
@@ -467,7 +438,6 @@ topics:
     ko: 인터페이스 구조와 탐색의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Oberflächenstruktur und Navigation.
     ru: Основные понятия по теме «Структура интерфейса и навигация».
-    hi: इंटरफ़ेस संरचना और नेविगेशन की मुख्य अवधारणाएं।
   terms:
   - bento-grid
   - breadcrumb
@@ -498,7 +468,6 @@ topics:
     ko: 입력, 피드백 및 컨트롤
     de: Eingaben, Rückmeldung und Steuerelemente
     ru: Ввод, обратная связь и элементы управления
-    hi: इनपुट, फीडबैक और नियंत्रण
   descriptions:
     en: Core concepts for inputs, feedback & controls.
     zh-cn: 学习输入、反馈与控件相关的核心概念。
@@ -507,7 +476,6 @@ topics:
     ko: 입력, 피드백 및 컨트롤의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Eingaben, Rückmeldung und Steuerelemente.
     ru: Основные понятия по теме «Ввод, обратная связь и элементы управления».
-    hi: इनपुट, फीडबैक और नियंत्रण की मुख्य अवधारणाएं।
   terms:
   - alert
   - back-to-top-button
@@ -547,7 +515,6 @@ topics:
     ko: 접근성과 반응형 디자인
     de: Barrierefreiheit und responsives Design
     ru: Доступность и адаптивный дизайн
-    hi: सुलभता और अनुक्रियाशील डिज़ाइन
   descriptions:
     en: Core concepts for accessibility & responsive design.
     zh-cn: 学习无障碍与响应式设计相关的核心概念。
@@ -556,7 +523,6 @@ topics:
     ko: 접근성과 반응형 디자인의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Barrierefreiheit und responsives Design.
     ru: Основные понятия по теме «Доступность и адаптивный дизайн».
-    hi: सुलभता और अनुक्रियाशील डिज़ाइन की मुख्य अवधारणाएं।
   terms:
   - accessibility
   - aria
@@ -576,7 +542,6 @@ topics:
     ko: 시각 디자인 시스템
     de: Visuelle Designsysteme
     ru: Системы визуального дизайна
-    hi: दृश्य डिज़ाइन सिस्टम
   descriptions:
     en: Core concepts for visual design systems.
     zh-cn: 学习视觉设计系统相关的核心概念。
@@ -585,7 +550,6 @@ topics:
     ko: 시각 디자인 시스템의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Visuelle Designsysteme.
     ru: Основные понятия по теме «Системы визуального дизайна».
-    hi: दृश्य डिज़ाइन सिस्टम की मुख्य अवधारणाएं।
   terms:
   - autocomplete
   - b2b-corporate-site
@@ -611,7 +575,6 @@ topics:
     ko: 레이아웃과 컴포넌트
     de: Layouts und Komponenten
     ru: Макеты и компоненты
-    hi: लेआउट और कंपोनेंट
   descriptions:
     en: Core concepts for layouts & components.
     zh-cn: 学习布局与组件相关的核心概念。
@@ -620,7 +583,6 @@ topics:
     ko: 레이아웃과 컴포넌트의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Layouts und Komponenten.
     ru: Основные понятия по теме «Макеты и компоненты».
-    hi: लेआउट और कंपोनेंट की मुख्य अवधारणाएं।
   terms:
   - accordion
   - anchor
@@ -651,7 +613,6 @@ topics:
     ko: 디자인 스타일과 패턴
     de: Designstile und Muster
     ru: Стили и паттерны дизайна
-    hi: डिज़ाइन शैली और पैटर्न
   descriptions:
     en: Core concepts for design styles & patterns.
     zh-cn: 学习设计风格与模式相关的核心概念。
@@ -660,7 +621,6 @@ topics:
     ko: 디자인 스타일과 패턴의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Designstile und Muster.
     ru: Основные понятия по теме «Стили и паттерны дизайна».
-    hi: डिज़ाइन शैली और पैटर्न की मुख्य अवधारणाएं।
   terms:
   - app-icon
   - apple-hig
@@ -699,7 +659,6 @@ topics:
     ko: HTML, CSS 및 레이아웃
     de: HTML, CSS und Layout
     ru: HTML, CSS и макет
-    hi: HTML, CSS और लेआउट
   descriptions:
     en: Core concepts for html, css & layout.
     zh-cn: 学习HTML、CSS 与布局相关的核心概念。
@@ -708,7 +667,6 @@ topics:
     ko: HTML, CSS 및 레이아웃의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu HTML, CSS und Layout.
     ru: Основные понятия по теме «HTML, CSS и макет».
-    hi: HTML, CSS और लेआउट की मुख्य अवधारणाएं।
   terms:
   - border-radius
   - box-model
@@ -736,7 +694,6 @@ topics:
     ko: 컴포넌트, 상태 및 프레임워크
     de: Komponenten, Zustand und Frameworks
     ru: Компоненты, состояние и фреймворки
-    hi: कंपोनेंट, स्टेट और फ्रेमवर्क
   descriptions:
     en: Core concepts for components, state & frameworks.
     zh-cn: 学习组件、状态与框架相关的核心概念。
@@ -745,7 +702,6 @@ topics:
     ko: 컴포넌트, 상태 및 프레임워크의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Komponenten, Zustand und Frameworks.
     ru: Основные понятия по теме «Компоненты, состояние и фреймворки».
-    hi: कंपोनेंट, स्टेट और फ्रेमवर्क की मुख्य अवधारणाएं।
   terms:
   - active-state
   - component
@@ -767,7 +723,6 @@ topics:
     ko: 반응형 UI와 시각 효과
     de: Responsive UI und visuelle Effekte
     ru: Адаптивный интерфейс и визуальные эффекты
-    hi: रिस्पॉन्सिव UI और विज़ुअल प्रभाव
   descriptions:
     en: Core concepts for responsive ui & visual effects.
     zh-cn: 学习响应式界面与视觉效果相关的核心概念。
@@ -776,7 +731,6 @@ topics:
     ko: 반응형 UI와 시각 효과의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Responsive UI und visuelle Effekte.
     ru: Основные понятия по теме «Адаптивный интерфейс и визуальные эффекты».
-    hi: रिस्पॉन्सिव UI और विज़ुअल प्रभाव की मुख्य अवधारणाएं।
   terms:
   - animation
   - backdrop-blur
@@ -807,7 +761,6 @@ topics:
     ko: 메타데이터와 플랫폼 통합
     de: Metadaten und Plattformintegration
     ru: Метаданные и интеграция платформ
-    hi: मेटाडेटा और प्लेटफ़ॉर्म एकीकरण
   descriptions:
     en: Core concepts for metadata & platform integration.
     zh-cn: 学习元数据与平台集成相关的核心概念。
@@ -816,7 +769,6 @@ topics:
     ko: 메타데이터와 플랫폼 통합의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Metadaten und Plattformintegration.
     ru: Основные понятия по теме «Метаданные и интеграция платформ».
-    hi: मेटाडेटा और प्लेटफ़ॉर्म एकीकरण की मुख्य अवधारणाएं।
   terms:
   - design-token
   - divider
@@ -838,7 +790,6 @@ topics:
     ko: API 계약과 엔드포인트
     de: API-Verträge und Endpunkte
     ru: Контракты API и конечные точки
-    hi: API अनुबंध और एंडपॉइंट
   descriptions:
     en: Core concepts for api contracts & endpoints.
     zh-cn: 学习 API 契约与端点相关的核心概念。
@@ -847,7 +798,6 @@ topics:
     ko: API 계약과 엔드포인트의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu API-Verträge und Endpunkte.
     ru: Основные понятия по теме «Контракты API и конечные точки».
-    hi: API अनुबंध और एंडपॉइंट की मुख्य अवधारणाएं।
   terms:
   - api
   - api-contract
@@ -873,7 +823,6 @@ topics:
     ko: 핸들러, 서비스 및 처리
     de: Handler, Dienste und Verarbeitung
     ru: Обработчики, сервисы и обработка
-    hi: हैंडलर, सेवाएं और प्रोसेसिंग
   descriptions:
     en: Core concepts for handlers, services & processing.
     zh-cn: 学习处理器、服务与处理流程相关的核心概念。
@@ -882,7 +831,6 @@ topics:
     ko: 핸들러, 서비스 및 처리의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Handler, Dienste und Verarbeitung.
     ru: Основные понятия по теме «Обработчики, сервисы и обработка».
-    hi: हैंडलर, सेवाएं और प्रोसेसिंग की मुख्य अवधारणाएं।
   terms:
   - backend
   - backend-framework
@@ -907,7 +855,6 @@ topics:
     ko: 전달, 신뢰성 및 통합
     de: Auslieferung, Zuverlässigkeit und Integration
     ru: Доставка, надежность и интеграция
-    hi: डिलीवरी, विश्वसनीयता और एकीकरण
   descriptions:
     en: Core concepts for delivery, reliability & integration.
     zh-cn: 学习交付、可靠性与集成相关的核心概念。
@@ -916,7 +863,6 @@ topics:
     ko: 전달, 신뢰성 및 통합의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Auslieferung, Zuverlässigkeit und Integration.
     ru: Основные понятия по теме «Доставка, надежность и интеграция».
-    hi: डिलीवरी, विश्वसनीयता और एकीकरण की मुख्य अवधारणाएं।
   terms:
   - cors
   - exponential-backoff
@@ -936,7 +882,6 @@ topics:
     ko: 관계형 데이터 모델링
     de: Relationale Datenmodellierung
     ru: Реляционное моделирование данных
-    hi: रिलेशनल डेटा मॉडलिंग
   descriptions:
     en: Core concepts for relational data modeling.
     zh-cn: 学习关系数据建模相关的核心概念。
@@ -945,7 +890,6 @@ topics:
     ko: 관계형 데이터 모델링의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Relationale Datenmodellierung.
     ru: Основные понятия по теме «Реляционное моделирование данных».
-    hi: रिलेशनल डेटा मॉडलिंग की मुख्य अवधारणाएं।
   terms:
   - database-table
   - many-to-many
@@ -964,7 +908,6 @@ topics:
     ko: 쿼리, 스키마 및 제약
     de: Abfragen, Schemata und Einschränkungen
     ru: Запросы, схемы и ограничения
-    hi: क्वेरी, स्कीमा और बाधाएं
   descriptions:
     en: Core concepts for queries, schemas & constraints.
     zh-cn: 学习查询、模式与约束相关的核心概念。
@@ -973,7 +916,6 @@ topics:
     ko: 쿼리, 스키마 및 제약의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Abfragen, Schemata und Einschränkungen.
     ru: Основные понятия по теме «Запросы, схемы и ограничения».
-    hi: क्वेरी, स्कीमा और बाधाएं की मुख्य अवधारणाएं।
   terms:
   - column
   - database-constraint
@@ -998,7 +940,6 @@ topics:
     ko: 데이터베이스 시스템과 저장소
     de: Datenbanksysteme und Speicher
     ru: Системы баз данных и хранение
-    hi: डेटाबेस सिस्टम और स्टोरेज
   descriptions:
     en: Core concepts for database systems & storage.
     zh-cn: 学习数据库系统与存储相关的核心概念。
@@ -1007,7 +948,6 @@ topics:
     ko: 데이터베이스 시스템과 저장소의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Datenbanksysteme und Speicher.
     ru: Основные понятия по теме «Системы баз данных и хранение».
-    hi: डेटाबेस सिस्टम और स्टोरेज की मुख्य अवधारणाएं।
   terms:
   - acid
   - browser-storage
@@ -1029,7 +969,6 @@ topics:
     ko: 리포지토리, 기록 및 브랜치
     de: Repositories, Historie und Branches
     ru: Репозитории, история и ветки
-    hi: रिपॉजिटरी, इतिहास और ब्रांच
   descriptions:
     en: Core concepts for repositories, history & branches.
     zh-cn: 学习仓库、历史与分支相关的核心概念。
@@ -1038,7 +977,6 @@ topics:
     ko: 리포지토리, 기록 및 브랜치의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Repositories, Historie und Branches.
     ru: Основные понятия по теме «Репозитории, история и ветки».
-    hi: रिपॉजिटरी, इतिहास और ब्रांच की मुख्य अवधारणाएं।
   terms:
   - branch
   - clone
@@ -1056,7 +994,6 @@ topics:
     ko: 협업, 원격 및 통합
     de: Zusammenarbeit, Remotes und Integration
     ru: Совместная работа, удаленные репозитории и интеграция
-    hi: सहयोग, रिमोट और एकीकरण
   descriptions:
     en: Core concepts for collaboration, remotes & integration.
     zh-cn: 学习协作、远程与集成相关的核心概念。
@@ -1065,7 +1002,6 @@ topics:
     ko: 협업, 원격 및 통합의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Zusammenarbeit, Remotes und Integration.
     ru: Основные понятия по теме «Совместная работа, удаленные репозитории и интеграция».
-    hi: सहयोग, रिमोट और एकीकरण की मुख्य अवधारणाएं।
   terms:
   - cherry-pick
   - fetch
@@ -1088,7 +1024,6 @@ topics:
     ko: 변경 관리와 복구
     de: Änderungsmanagement und Wiederherstellung
     ru: Управление изменениями и восстановление
-    hi: परिवर्तन प्रबंधन और पुनर्प्राप्ति
   descriptions:
     en: Core concepts for change management & recovery.
     zh-cn: 学习变更管理与恢复相关的核心概念。
@@ -1097,7 +1032,6 @@ topics:
     ko: 변경 관리와 복구의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Änderungsmanagement und Wiederherstellung.
     ru: Основные понятия по теме «Управление изменениями и восстановление».
-    hi: परिवर्तन प्रबंधन और पुनर्प्राप्ति की मुख्य अवधारणाएं।
   terms:
   - diff
   - gitignore
@@ -1117,7 +1051,6 @@ topics:
     ko: 테스트 전략과 수준
     de: Teststrategie und Ebenen
     ru: Стратегия и уровни тестирования
-    hi: परीक्षण रणनीति और स्तर
   descriptions:
     en: Core concepts for test strategy & levels.
     zh-cn: 学习测试策略与层级相关的核心概念。
@@ -1126,7 +1059,6 @@ topics:
     ko: 테스트 전략과 수준의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Teststrategie und Ebenen.
     ru: Основные понятия по теме «Стратегия и уровни тестирования».
-    hi: परीक्षण रणनीति और स्तर की मुख्य अवधारणाएं।
   terms:
   - acceptance-criteria
   - behavior-driven-development
@@ -1152,7 +1084,6 @@ topics:
     ko: 테스트 대역, 데이터 및 커버리지
     de: Test-Doubles, Daten und Abdeckung
     ru: Тестовые двойники, данные и покрытие
-    hi: टेस्ट डबल, डेटा और कवरेज
   descriptions:
     en: Core concepts for test doubles, data & coverage.
     zh-cn: 学习测试替身、数据与覆盖率相关的核心概念。
@@ -1161,7 +1092,6 @@ topics:
     ko: 테스트 대역, 데이터 및 커버리지의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Test-Doubles, Daten und Abdeckung.
     ru: Основные понятия по теме «Тестовые двойники, данные и покрытие».
-    hi: टेस्ट डबल, डेटा और कवरेज की मुख्य अवधारणाएं।
   terms:
   - fake
   - mock
@@ -1180,7 +1110,6 @@ topics:
     ko: 디버깅, 진단 및 관측성
     de: Debugging, Diagnose und Beobachtbarkeit
     ru: Отладка, диагностика и наблюдаемость
-    hi: डीबगिंग, निदान और ऑब्ज़र्वेबिलिटी
   descriptions:
     en: Core concepts for debugging, diagnosis & observability.
     zh-cn: 学习调试、诊断与可观测性相关的核心概念。
@@ -1189,7 +1118,6 @@ topics:
     ko: 디버깅, 진단 및 관측성의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Debugging, Diagnose und Beobachtbarkeit.
     ru: Основные понятия по теме «Отладка, диагностика и наблюдаемость».
-    hi: डीबगिंग, निदान और ऑब्ज़र्वेबिलिटी की मुख्य अवधारणाएं।
   terms:
   - breakpoint
   - browser-devtools
@@ -1215,7 +1143,6 @@ topics:
     ko: ID 및 접근 제어
     de: Identität und Zugriffskontrolle
     ru: Идентификация и контроль доступа
-    hi: पहचान और अभिगम नियंत्रण
   descriptions:
     en: Core concepts for identity & access control.
     zh-cn: 学习身份与访问控制相关的核心概念。
@@ -1224,7 +1151,6 @@ topics:
     ko: ID 및 접근 제어의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Identität und Zugriffskontrolle.
     ru: Основные понятия по теме «Идентификация и контроль доступа».
-    hi: पहचान और अभिगम नियंत्रण की मुख्य अवधारणाएं।
   terms:
   - abac
   - authentication
@@ -1245,7 +1171,6 @@ topics:
     ko: 토큰, 세션 및 자격 증명
     de: Token, Sitzungen und Anmeldedaten
     ru: Токены, сессии и учетные данные
-    hi: टोकन, सत्र और क्रेडेंशियल
   descriptions:
     en: Core concepts for tokens, sessions & credentials.
     zh-cn: 学习令牌、会话与凭据相关的核心概念。
@@ -1254,7 +1179,6 @@ topics:
     ko: 토큰, 세션 및 자격 증명의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Token, Sitzungen und Anmeldedaten.
     ru: Основные понятия по теме «Токены, сессии и учетные данные».
-    hi: टोकन, सत्र और क्रेडेंशियल की मुख्य अवधारणाएं।
   terms:
   - access-token
   - cookie
@@ -1273,7 +1197,6 @@ topics:
     ko: 애플리케이션 및 웹 방어
     de: Anwendungs- und Webschutz
     ru: Защита приложений и веба
-    hi: एप्लिकेशन और वेब सुरक्षा
   descriptions:
     en: Core concepts for application & web defenses.
     zh-cn: 学习应用与 Web 防御相关的核心概念。
@@ -1282,7 +1205,6 @@ topics:
     ko: 애플리케이션 및 웹 방어의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Anwendungs- und Webschutz.
     ru: Основные понятия по теме «Защита приложений и веба».
-    hi: एप्लिकेशन और वेब सुरक्षा की मुख्य अवधारणाएं।
   terms:
   - attack-surface
   - content-security-policy
@@ -1303,7 +1225,6 @@ topics:
     ko: 릴리스 파이프라인과 환경
     de: Release-Pipelines und Umgebungen
     ru: Конвейеры релиза и окружения
-    hi: रिलीज़ पाइपलाइन और परिवेश
   descriptions:
     en: Core concepts for release pipelines & environments.
     zh-cn: 学习发布流水线与环境相关的核心概念。
@@ -1312,7 +1233,6 @@ topics:
     ko: 릴리스 파이프라인과 환경의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Release-Pipelines und Umgebungen.
     ru: Основные понятия по теме «Конвейеры релиза и окружения».
-    hi: रिलीज़ पाइपलाइन और परिवेश की मुख्य अवधारणाएं।
   terms:
   - blue-green-deployment
   - canary-release
@@ -1336,7 +1256,6 @@ topics:
     ko: 컨테이너와 인프라
     de: Container und Infrastruktur
     ru: Контейнеры и инфраструктура
-    hi: कंटेनर और अवसंरचना
   descriptions:
     en: Core concepts for containers & infrastructure.
     zh-cn: 学习容器与基础设施相关的核心概念。
@@ -1345,7 +1264,6 @@ topics:
     ko: 컨테이너와 인프라의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Container und Infrastruktur.
     ru: Основные понятия по теме «Контейнеры и инфраструктура».
-    hi: कंटेनर और अवसंरचना की मुख्य अवधारणाएं।
   terms:
   - container
   - container-image
@@ -1364,7 +1282,6 @@ topics:
     ko: 운영과 신뢰성
     de: Betrieb und Zuverlässigkeit
     ru: Эксплуатация и надежность
-    hi: संचालन और विश्वसनीयता
   descriptions:
     en: Core concepts for operations & reliability.
     zh-cn: 学习运维与可靠性相关的核心概念。
@@ -1373,7 +1290,6 @@ topics:
     ko: 운영과 신뢰성의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Betrieb und Zuverlässigkeit.
     ru: Основные понятия по теме «Эксплуатация и надежность».
-    hi: संचालन और विश्वसनीयता की मुख्य अवधारणाएं।
   terms:
   - cold-start
   - dockerfile

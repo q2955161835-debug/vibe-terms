@@ -4,7 +4,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 
-LOCALES = ("en", "zh-cn", "zh-tw", "ja", "ko", "de", "ru", "hi")
+LOCALES = ("en", "zh-cn", "zh-tw", "ja", "ko", "de", "ru")
 HTML_LANG = {
     "en": "en",
     "zh-cn": "zh-CN",
@@ -13,7 +13,6 @@ HTML_LANG = {
     "ko": "ko",
     "de": "de",
     "ru": "ru",
-    "hi": "hi",
 }
 LANGUAGE_NAMES = {
     "en": "English",
@@ -23,7 +22,6 @@ LANGUAGE_NAMES = {
     "ko": "한국어",
     "de": "Deutsch",
     "ru": "Русский",
-    "hi": "हिन्दी",
 }
 PRODUCT_NAME = "Vibe Terms"
 

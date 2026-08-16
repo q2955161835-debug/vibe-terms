@@ -10,7 +10,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "content"
 GLOSSARY = CONTENT / "glossaries" / "terminology.yaml"
-LOCALES = ("zh-cn", "zh-tw", "ja", "ko", "de", "ru", "hi")
+LOCALES = ("zh-cn", "zh-tw", "ja", "ko", "de", "ru")
 
 
 def load(path: Path) -> dict:

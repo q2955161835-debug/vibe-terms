@@ -9,7 +9,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "content"
 TERMS = CONTENT / "terms"
-LOCALES = ("en", "zh-cn", "zh-tw", "ja", "ko", "de", "ru", "hi")
+LOCALES = ("en", "zh-cn", "zh-tw", "ja", "ko", "de", "ru")
 EXPECTED_TERMS = 500
 REQUIRED_FIELDS = (
     "title",
@@ -30,7 +30,6 @@ PLACEHOLDER_MARKERS = {
     "ko": ("현재 한국어 본문은 검토 전 초안", "영어 기준 정의"),
     "de": ("noch nicht redigierter Entwurf", "Englische Referenzdefinition"),
     "ru": ("черновиком до редакторской проверки", "Эталонное определение на английском"),
-    "hi": ("मानव समीक्षा से पहले का मसौदा", "अंग्रेज़ी मानक परिभाषा"),
 }
 
 

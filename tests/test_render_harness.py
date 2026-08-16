@@ -160,7 +160,7 @@ def test_guest_learning_uses_local_fallback_without_login() -> None:
 
 
 def test_all_locales_render_home_and_term_pages_without_horizontal_overflow() -> None:
-    locales = ("en", "zh-cn", "zh-tw", "ja", "ko", "de", "ru", "hi")
+    locales = ("en", "zh-cn", "zh-tw", "ja", "ko", "de", "ru")
     with sync_playwright() as playwright:
         browser = _launch_browser(playwright)
         try:
@@ -173,21 +173,6 @@ def test_all_locales_render_home_and_term_pages_without_horizontal_overflow() ->
                 assert dimensions["scrollWidth"] <= dimensions["innerWidth"], locale
                 assert home.locator(".term-card").count() >= 3
                 assert home.locator(".desktop-search [data-search-input]").is_visible()
-                if locale == "hi":
-                    typography = home.locator(".explorer-heading h1").evaluate(
-                        """element => {
-                          const style = getComputedStyle(element);
-                          return {
-                            fontSize: parseFloat(style.fontSize),
-                            lineHeight: parseFloat(style.lineHeight),
-                            letterSpacing: style.letterSpacing === 'normal'
-                              ? 0
-                              : parseFloat(style.letterSpacing),
-                          };
-                        }"""
-                    )
-                    assert typography["lineHeight"] / typography["fontSize"] >= 1.12
-                    assert typography["letterSpacing"] >= -1
                 assert errors == []
                 home.close()
 

@@ -43,7 +43,6 @@ def test_static_archive_is_ready_for_direct_hosting() -> None:
         "ko/index.html",
         "de/index.html",
         "ru/index.html",
-        "hi/index.html",
     }
     assert required <= names
     assert not any(name.startswith("site/") for name in names)
