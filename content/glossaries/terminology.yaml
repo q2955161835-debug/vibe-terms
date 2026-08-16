@@ -48,7 +48,7 @@ terms:
   slug: multimodal-ai
   zh-cn: 多模态人工智能
   zh-tw: 多模態 AI
-  ja: マルチモーダル AI
+  ja: マルチモーダルAI
   ko: 멀티모달 AI
   de: Multimodale KI
   ru: Мультимодальный ИИ
@@ -256,7 +256,7 @@ terms:
     ru: draft
 - canonical: Sub-agent
   slug: sub-agent
-  zh-cn: 分代理
+  zh-cn: 子代理（Sub-agent）
   zh-tw: 子代理
   ja: サブエージェント
   ko: 하위 에이전트
@@ -406,7 +406,7 @@ terms:
     ru: draft
 - canonical: Prompt
   slug: prompt
-  zh-cn: 提示
+  zh-cn: 提示词（Prompt）
   zh-tw: 提示
   ja: プロンプト
   ko: 프롬프트
@@ -556,7 +556,7 @@ terms:
     ru: draft
 - canonical: Reranking
   slug: reranking
-  zh-cn: 重新排名
+  zh-cn: 重排序（Reranking）
   zh-tw: 重新排序
   ja: 再ランキング
   ko: 리랭킹
@@ -916,7 +916,7 @@ terms:
     ru: draft
 - canonical: npm
   slug: npm
-  zh-cn: 新项目管理
+  zh-cn: npm
   zh-tw: npm
   ja: npm
   ko: npm
@@ -1126,7 +1126,7 @@ terms:
     ru: draft
 - canonical: Dependency
   slug: dependency
-  zh-cn: 依赖性
+  zh-cn: 依赖（Dependency）
   zh-tw: 依賴關係
   ja: 依存関係
   ko: 의존성
@@ -1173,7 +1173,7 @@ terms:
   slug: semantic-versioning
   zh-cn: 语义版本控制
   zh-tw: 語意版本控制
-  ja: セマンティック バージョニング
+  ja: セマンティックバージョニング
   ko: 의미론적 버전 관리
   de: Semantische Versionierung
   ru: Семантическое версионирование
@@ -1397,7 +1397,7 @@ terms:
 - canonical: Artifact
   slug: artifact
   zh-cn: 构建产物（Artifact）
-  zh-tw: 工件
+  zh-tw: 建置產物
   ja: アーティファクト
   ko: 아티팩트
   de: Artefakt
@@ -1471,7 +1471,7 @@ terms:
     ru: draft
 - canonical: HTTP
   slug: http
-  zh-cn: HTTP协议
+  zh-cn: HTTP 协议
   zh-tw: HTTP
   ja: HTTP
   ko: HTTP
@@ -1561,7 +1561,7 @@ terms:
     ru: draft
 - canonical: Web
   slug: web
-  zh-cn: 网络
+  zh-cn: Web
   zh-tw: Web
   ja: ウェブ
   ko: 웹
@@ -1591,7 +1591,7 @@ terms:
     ru: draft
 - canonical: IP Address
   slug: ip-address
-  zh-cn: IP地址
+  zh-cn: IP 地址
   zh-tw: IP 位址
   ja: IPアドレス
   ko: IP Address
@@ -1786,7 +1786,7 @@ terms:
     ru: draft
 - canonical: UDP
   slug: udp
-  zh-cn: UDP协议
+  zh-cn: UDP 协议
   zh-tw: UDP
   ja: UDP
   ko: UDP
@@ -1816,7 +1816,7 @@ terms:
     ru: draft
 - canonical: Server-Sent Events
   slug: server-sent-events
-  zh-cn: 服务器发送的事件
+  zh-cn: 服务器推送事件（SSE）
   zh-tw: 伺服器傳送事件
   ja: サーバー送信イベント
   ko: Server-Sent Events
@@ -2013,7 +2013,7 @@ terms:
   slug: a-b-test
   zh-cn: A/B 测试
   zh-tw: A/B 測試
-  ja: A/B テスト
+  ja: A/Bテスト
   ko: A/B 테스트
   de: A/B-Test
   ru: A/B-тест
@@ -2056,7 +2056,7 @@ terms:
     ru: draft
 - canonical: Requirement
   slug: requirement
-  zh-cn: 要求
+  zh-cn: 需求（Requirement）
   zh-tw: 要求
   ja: 要件
   ko: 요구 사항
@@ -2131,7 +2131,7 @@ terms:
     ru: draft
 - canonical: Jobs to Be Done
   slug: jobs-to-be-done
-  zh-cn: 待完成的工作
+  zh-cn: 待完成任务（Jobs to Be Done）
   zh-tw: 待完成的工作
   ja: Jobs to Be Done
   ko: Jobs to Be Done
@@ -2371,7 +2371,7 @@ terms:
     ru: draft
 - canonical: Textarea
   slug: textarea
-  zh-cn: 文本区
+  zh-cn: 文本域（Textarea）
   zh-tw: Textarea
   ja: テキストエリア
   ko: 텍스트 영역
@@ -2461,7 +2461,7 @@ terms:
     ru: draft
 - canonical: Rating Control
   slug: rating-control
-  zh-cn: 评级控制
+  zh-cn: 评分控件（Rating Control）
   zh-tw: 評級控制元件
   ja: 評価コントロール
   ko: 평점 컨트롤
@@ -2521,7 +2521,7 @@ terms:
     ru: draft
 - canonical: Tree Select
   slug: tree-select
-  zh-cn: 树选择
+  zh-cn: 树形选择（Tree Select）
   zh-tw: 樹狀圖選擇
   ja: ツリー選択
   ko: 트리 선택
@@ -2701,7 +2701,7 @@ terms:
     ru: draft
 - canonical: Avatar
   slug: avatar
-  zh-cn: 阿凡达
+  zh-cn: 用户头像（Avatar）
   zh-tw: 頭像
   ja: アバター
   ko: 아바타
@@ -2731,7 +2731,7 @@ terms:
     ru: draft
 - canonical: Statistic
   slug: statistic
-  zh-cn: 统计
+  zh-cn: 统计量（Statistic）量（Statistic）
   zh-tw: 統計
   ja: 統計
   ko: 통계
@@ -3316,7 +3316,7 @@ terms:
     ru: draft
 - canonical: CTA
   slug: cta
-  zh-cn: 计算机辅助技术协会
+  zh-cn: 行动号召（CTA）
   zh-tw: CTA
   ja: CTA
   ko: CTA
@@ -3346,7 +3346,7 @@ terms:
     ru: draft
 - canonical: Header
   slug: header
-  zh-cn: 标头
+  zh-cn: 页头（Header）
   zh-tw: 標頭
   ja: ヘッダー
   ko: 헤더
@@ -3526,7 +3526,7 @@ terms:
     ru: draft
 - canonical: Centered Column
   slug: centered-column
-  zh-cn: 居中柱
+  zh-cn: 居中列（Centered Column）
   zh-tw: 置中欄
   ja: 中央寄せカラム
   ko: 중앙 정렬 컬럼
@@ -3631,7 +3631,7 @@ terms:
     ru: draft
 - canonical: Bento Grid
   slug: bento-grid
-  zh-cn: 便当网格
+  zh-cn: Bento 网格（Bento Grid）
   zh-tw: Bento 網格
   ja: Bento Grid
   ko: 벤토 그리드
@@ -3646,7 +3646,7 @@ terms:
     ru: draft
 - canonical: Glassmorphism
   slug: glassmorphism
-  zh-cn: 玻璃态现象
+  zh-cn: 玻璃拟态（Glassmorphism）
   zh-tw: 玻璃擬態
   ja: ガラスモーフィズム
   ko: 글래스모피즘
@@ -3691,7 +3691,7 @@ terms:
     ru: draft
 - canonical: Editorial
   slug: editorial
-  zh-cn: 社论
+  zh-cn: 编辑风格（Editorial）
   zh-tw: 社論
   ja: エディトリアル
   ko: 에디토리얼
@@ -3768,7 +3768,7 @@ terms:
   slug: saas-marketing-site
   zh-cn: SaaS 营销网站
   zh-tw: SaaS 行銷網站
-  ja: SaaS マーケティング サイト
+  ja: SaaSマーケティングサイト
   ko: SaaS 마케팅 사이트
   de: SaaS-Marketing-Site
   ru: Маркетинговый сайт SaaS
@@ -3796,7 +3796,7 @@ terms:
     ru: draft
 - canonical: DTC E-commerce
   slug: dtc-e-commerce
-  zh-cn: 直通电商
+  zh-cn: DTC 电商（Direct-to-Consumer）
   zh-tw: DTC 電子商務
   ja: DTC E-commerce
   ko: DTC E-commerce
@@ -4231,7 +4231,7 @@ terms:
     ru: draft
 - canonical: Space
   slug: space
-  zh-cn: 空间
+  zh-cn: 间距（Space）
   zh-tw: 空間
   ja: スペース
   ko: 여백
@@ -4261,7 +4261,7 @@ terms:
     ru: draft
 - canonical: Padding
   slug: padding
-  zh-cn: 填充
+  zh-cn: 内边距（Padding）
   zh-tw: 內距
   ja: パディング
   ko: 패딩
@@ -4441,7 +4441,7 @@ terms:
     ru: draft
 - canonical: Divider
   slug: divider
-  zh-cn: 分频器
+  zh-cn: 分隔线（Divider）
   zh-tw: 分隔符號
   ja: ディバイダー
   ko: 구분선
@@ -4456,7 +4456,7 @@ terms:
     ru: draft
 - canonical: Border Radius
   slug: border-radius
-  zh-cn: 边界半径
+  zh-cn: 圆角半径（Border Radius）
   zh-tw: 邊框半徑
   ja: ボーダー半径
   ko: 테두리 반경
@@ -4711,7 +4711,7 @@ terms:
     ru: draft
 - canonical: Disabled State
   slug: disabled-state
-  zh-cn: 残疾状态
+  zh-cn: 禁用状态（Disabled State）
   zh-tw: 停用狀態
   ja: 無効状態
   ko: 비활성화된 상태
@@ -5026,7 +5026,7 @@ terms:
     ru: draft
 - canonical: Request Handler
   slug: request-handler
-  zh-cn: 请求处理程序
+  zh-cn: 请求处理器（Request Handler）
   zh-tw: 請求處理程式
   ja: リクエストハンドラー
   ko: 요청 핸들러
@@ -5581,7 +5581,7 @@ terms:
     ru: draft
 - canonical: Record
   slug: record
-  zh-cn: 记录
+  zh-cn: 记录（Record）
   zh-tw: 記錄
   ja: レコード
   ko: 레코드
@@ -5596,7 +5596,7 @@ terms:
     ru: draft
 - canonical: Field
   slug: field
-  zh-cn: 领域
+  zh-cn: 字段（Field）
   zh-tw: 欄位
   ja: フィールド
   ko: 필드
@@ -5776,7 +5776,7 @@ terms:
     ru: draft
 - canonical: Transaction
   slug: transaction
-  zh-cn: 交易
+  zh-cn: 事务（Transaction）
   zh-tw: 交易
   ja: トランザクション
   ko: 트랜잭션
@@ -5851,7 +5851,7 @@ terms:
     ru: draft
 - canonical: Git
   slug: git
-  zh-cn: git
+  zh-cn: Git
   zh-tw: Git
   ja: Git
   ko: Git
@@ -5956,7 +5956,7 @@ terms:
     ru: draft
 - canonical: Pull Request
   slug: pull-request
-  zh-cn: 请求请求
+  zh-cn: 拉取请求（Pull Request）
   zh-tw: Pull 請求
   ja: プルリクエスト
   ko: 풀 리퀘스트
@@ -6136,7 +6136,7 @@ terms:
     ru: draft
 - canonical: Fetch
   slug: fetch
-  zh-cn: Fetch（获取请求）
+  zh-cn: Fetch（获取远程更新）
   zh-tw: 取得
   ja: フェッチ
   ko: Fetch
@@ -6211,7 +6211,7 @@ terms:
     ru: draft
 - canonical: Cherry-pick
   slug: cherry-pick
-  zh-cn: 樱桃采摘
+  zh-cn: Cherry-pick（拣选提交）
   zh-tw: Cherry-pick
   ja: チェリーピック
   ko: 체리픽
@@ -6526,7 +6526,7 @@ terms:
     ru: draft
 - canonical: Reproduction Steps
   slug: reproduction-steps
-  zh-cn: 复制步骤
+  zh-cn: 复现步骤
   zh-tw: 重現步驟
   ja: 再現手順
   ko: 재현 단계
@@ -6706,7 +6706,7 @@ terms:
     ru: draft
 - canonical: Contract Test
   slug: contract-test
-  zh-cn: 合同测试
+  zh-cn: 契约测试（Contract Test）
   zh-tw: 契約測試
   ja: コントラクトテスト
   ko: 계약 테스트
@@ -6961,7 +6961,7 @@ terms:
     ru: draft
 - canonical: Least Privilege
   slug: least-privilege
-  zh-cn: 最低权限
+  zh-cn: 最小权限原则（Least Privilege）
   zh-tw: 最小權限
   ja: 最小権限
   ko: 최소 권한
@@ -7081,7 +7081,7 @@ terms:
     ru: draft
 - canonical: Content Security Policy
   slug: content-security-policy
-  zh-cn: 内容安全政策
+  zh-cn: 内容安全策略（Content Security Policy）
   zh-tw: 內容安全性政策
   ja: コンテンツセキュリティポリシー
   ko: 콘텐츠 보안 정책
