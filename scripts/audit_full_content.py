@@ -22,6 +22,16 @@ REQUIRED_FIELDS = (
     "source_content_version",
 )
 ALLOWED_STATUS = {"draft", "reviewed", "published"}
+TRANSLATED_LOCALES = LOCALES[1:]
+PLACEHOLDER_MARKERS = {
+    "zh-cn": ("当前为待人工审校的草稿", "英文标准定义"),
+    "zh-tw": ("目前為待人工審校的草稿", "英文標準定義"),
+    "ja": ("現在の日本語本文はレビュー前の草稿", "英語の基準定義"),
+    "ko": ("현재 한국어 본문은 검토 전 초안", "영어 기준 정의"),
+    "de": ("noch nicht redigierter Entwurf", "Englische Referenzdefinition"),
+    "ru": ("черновиком до редакторской проверки", "Эталонное определение на английском"),
+    "hi": ("मानव समीक्षा से पहले का मसौदा", "अंग्रेज़ी मानक परिभाषा"),
+}
 
 
 def load(path: Path):
@@ -42,6 +52,7 @@ def main() -> int:
     stages = load(CONTENT / "taxonomy" / "lifecycle.yaml")["stages"]
     domain_ids = {item["id"] for item in domains}
     stage_ids = {item["id"] for item in stages}
+    translation_placeholders: Counter[str] = Counter()
 
     metas = []
     for directory in term_dirs:
@@ -72,6 +83,36 @@ def main() -> int:
                 errors.append(f"{directory.name}/{locale}: invalid status {localized.get('status')!r}")
             if localized.get("source_content_version") != meta.get("content_version"):
                 errors.append(f"{directory.name}/{locale}: stale source_content_version")
+            if locale in TRANSLATED_LOCALES:
+                visible = "\n".join(
+                    str(localized.get(field, ""))
+                    for field in (
+                        "title",
+                        "short_definition",
+                        "analogy",
+                        "mechanism",
+                        "why_it_matters",
+                        "project_example",
+                        "ai_prompt_example",
+                        "common_mistake",
+                    )
+                )
+                repeated = (
+                    bool(localized.get("mechanism"))
+                    and str(localized["short_definition"]).strip()
+                    == str(localized["mechanism"]).strip()
+                ) or (
+                    bool(localized.get("project_example"))
+                    and str(localized["why_it_matters"]).strip()
+                    == str(localized["project_example"]).strip()
+                )
+                if repeated or any(
+                    marker in visible for marker in PLACEHOLDER_MARKERS[locale]
+                ):
+                    translation_placeholders[locale] += 1
+
+    for locale, count in sorted(translation_placeholders.items()):
+        errors.append(f"{locale}: {count} generated translation placeholder(s)")
 
     slugs = [meta.get("slug") for meta in metas]
     names = [meta.get("canonical_name") for meta in metas]
@@ -93,6 +134,23 @@ def main() -> int:
         errors.append("zero-to-vibe.yaml must contain 500 unique slugs")
     if set(ordered) != set(slugs):
         errors.append("learning path and canonical term set differ")
+
+    untranslated_paths: list[str] = []
+    for project_path in sorted(
+        path for path in (CONTENT / "paths").iterdir() if path.is_dir()
+    ):
+        for locale in TRANSLATED_LOCALES:
+            localized_path = project_path / f"{locale}.yaml"
+            if not localized_path.is_file():
+                continue
+            localized_text = localized_path.read_text(encoding="utf-8")
+            if "Draft —" in localized_text or "not human reviewed" in localized_text:
+                untranslated_paths.append(f"{project_path.name}/{locale}")
+    if untranslated_paths:
+        errors.append(
+            "untranslated project path placeholder(s): "
+            + ", ".join(untranslated_paths)
+        )
 
     baseline_path = CONTENT / "baselines" / "vibe-hub.yaml"
     if not baseline_path.is_file():

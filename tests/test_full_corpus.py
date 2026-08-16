@@ -6,6 +6,17 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "content"
 LOCALES = ("en", "zh-cn", "zh-tw", "ja", "ko", "de", "ru", "hi")
+TRANSLATED_LOCALES = LOCALES[1:]
+
+PLACEHOLDER_MARKERS = {
+    "zh-cn": ("当前为待人工审校的草稿", "英文标准定义"),
+    "zh-tw": ("目前為待人工審校的草稿", "英文標準定義"),
+    "ja": ("現在の日本語本文はレビュー前の草稿", "英語の基準定義"),
+    "ko": ("현재 한국어 본문은 검토 전 초안", "영어 기준 정의"),
+    "de": ("noch nicht redigierter Entwurf", "Englische Referenzdefinition"),
+    "ru": ("черновиком до редакторской проверки", "Эталонное определение на английском"),
+    "hi": ("मानव समीक्षा से पहले का मसौदा", "अंग्रेज़ी मानक परिभाषा"),
+}
 
 
 def load(path: Path):
@@ -46,3 +57,60 @@ def test_vibehub_baseline_resolves_to_canonical_terms():
     assert len(mappings) >= 250
     assert len({item["source_term"] for item in mappings}) == len(mappings)
     assert all(item["slug"] in slugs for item in mappings)
+
+
+def test_non_english_corpus_has_no_generated_translation_placeholders():
+    failures: dict[str, list[str]] = {locale: [] for locale in TRANSLATED_LOCALES}
+
+    for directory in sorted(
+        path for path in (CONTENT / "terms").iterdir() if path.is_dir()
+    ):
+        for locale in TRANSLATED_LOCALES:
+            localized = load(directory / f"{locale}.yaml")
+            visible = "\n".join(
+                str(localized.get(field, ""))
+                for field in (
+                    "title",
+                    "short_definition",
+                    "analogy",
+                    "mechanism",
+                    "why_it_matters",
+                    "project_example",
+                    "ai_prompt_example",
+                    "common_mistake",
+                )
+            )
+            markers = PLACEHOLDER_MARKERS[locale]
+            repeated = (
+                bool(localized.get("mechanism"))
+                and str(localized["short_definition"]).strip()
+                == str(localized["mechanism"]).strip()
+            ) or (
+                bool(localized.get("project_example"))
+                and str(localized["why_it_matters"]).strip()
+                == str(localized["project_example"]).strip()
+            )
+            if repeated or any(marker in visible for marker in markers):
+                failures[locale].append(directory.name)
+
+    failures = {locale: slugs for locale, slugs in failures.items() if slugs}
+    assert not failures, {
+        locale: {"count": len(slugs), "examples": slugs[:10]}
+        for locale, slugs in failures.items()
+    }
+
+
+def test_non_english_project_paths_have_no_english_draft_placeholders():
+    failures: list[str] = []
+    for path_dir in sorted(
+        path for path in (CONTENT / "paths").iterdir() if path.is_dir()
+    ):
+        for locale in TRANSLATED_LOCALES:
+            localized_path = path_dir / f"{locale}.yaml"
+            if not localized_path.is_file():
+                continue
+            text = localized_path.read_text(encoding="utf-8")
+            if "Draft —" in text or "not human reviewed" in text:
+                failures.append(f"{path_dir.name}/{locale}")
+
+    assert not failures, failures

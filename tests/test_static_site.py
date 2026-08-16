@@ -169,6 +169,22 @@ def test_rich_term_page_is_readable_without_javascript(generated_site: Path) -> 
     assert "<h2>Exercise</h2>" not in html
 
 
+def test_term_metadata_uses_localized_labels_and_omits_empty_aliases(
+    generated_site: Path,
+) -> None:
+    html = (
+        generated_site / "zh-cn" / "terms" / "breadcrumb" / "index.html"
+    ).read_text(encoding="utf-8")
+    assert "面包屑导航" in html
+    assert ">UI/UX 与无障碍</a>" in html
+    assert '<span class="term-field">入门</span>' in html
+    assert '<span class="term-field">设计体验</span>' in html
+    assert '<span class="term-field">ui-ux</span>' not in html
+    assert '<span class="term-field">beginner</span>' not in html
+    assert '<span class="term-field">design</span>' not in html
+    assert "别名: —" not in html
+
+
 def test_home_is_a_clear_domain_topic_and_term_card_explorer(generated_site: Path) -> None:
     html = (generated_site / "zh-cn" / "index.html").read_text(encoding="utf-8")
     assert 'class="explorer-tabs"' in html

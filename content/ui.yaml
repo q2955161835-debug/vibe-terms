@@ -23,7 +23,7 @@ en:
   mastered: Got it
   progress: Today
   local: Guest progress is stored locally in this browser.
-  draft: Draft translation
+  draft: Needs review
   why: Why it matters
   analogy: Simple analogy
   prompt: Tell your AI
@@ -57,6 +57,9 @@ en:
   language: Language
   close: Close
   aliases: Aliases
+  difficulty_beginner: Beginner
+  difficulty_intermediate: Intermediate
+  difficulty_advanced: Advanced
   bookmark: Bookmark
   user_says: You may say
   short_definition: Short definition
@@ -121,7 +124,7 @@ zh-cn:
   mastered: 已经掌握
   progress: 今日进度
   local: 游客学习记录只保存在当前浏览器。
-  draft: 翻译草稿
+  draft: 待审校
   why: 为什么重要
   analogy: 简单类比
   prompt: 可以这样告诉 AI
@@ -155,6 +158,9 @@ zh-cn:
   language: 语言
   close: 关闭
   aliases: 别名
+  difficulty_beginner: 入门
+  difficulty_intermediate: 中级
+  difficulty_advanced: 高级
   bookmark: 收藏
   user_says: 你可以这样说
   short_definition: 简短定义
@@ -219,7 +225,7 @@ zh-tw:
   mastered: 已經掌握
   progress: 今日進度
   local: 訪客學習記錄只保存在目前瀏覽器。
-  draft: 翻譯草稿
+  draft: 待校對
   why: 為什麼重要
   analogy: 簡單類比
   prompt: 可以這樣告訴 AI
@@ -253,6 +259,9 @@ zh-tw:
   language: 語言
   close: 關閉
   aliases: 別名
+  difficulty_beginner: 入門
+  difficulty_intermediate: 中階
+  difficulty_advanced: 進階
   bookmark: 收藏
   user_says: 你可以這樣說
   short_definition: 簡短定義
@@ -317,7 +326,7 @@ ja:
   mastered: 理解した
   progress: 今日の進捗
   local: ゲストの学習記録はこのブラウザ内に保存されます。
-  draft: 翻訳ドラフト
+  draft: 要校正
   why: なぜ重要？
   analogy: かんたんな例え
   prompt: AI への伝え方
@@ -351,6 +360,9 @@ ja:
   language: 言語
   close: 閉じる
   aliases: 別名
+  difficulty_beginner: 初級
+  difficulty_intermediate: 中級
+  difficulty_advanced: 上級
   bookmark: ブックマーク
   user_says: こう言えます
   short_definition: 短い定義
@@ -415,7 +427,7 @@ ko:
   mastered: 이해함
   progress: 오늘 진도
   local: 게스트 학습 기록은 이 브라우저에만 저장됩니다.
-  draft: 번역 초안
+  draft: 검수 필요
   why: 왜 중요한가
   analogy: 쉬운 비유
   prompt: AI에게 이렇게 말하기
@@ -449,6 +461,9 @@ ko:
   language: 언어
   close: 닫기
   aliases: 별칭
+  difficulty_beginner: 입문
+  difficulty_intermediate: 중급
+  difficulty_advanced: 고급
   bookmark: 북마크
   user_says: 이렇게 말할 수 있어요
   short_definition: 짧은 정의
@@ -513,7 +528,7 @@ de:
   mastered: Verstanden
   progress: Heute
   local: Gastfortschritt wird lokal in diesem Browser gespeichert.
-  draft: Übersetzungsentwurf
+  draft: Prüfung ausstehend
   why: Warum wichtig
   analogy: Einfache Analogie
   prompt: So kannst du es der KI sagen
@@ -547,6 +562,9 @@ de:
   language: Sprache
   close: Schließen
   aliases: Aliasse
+  difficulty_beginner: Einstieg
+  difficulty_intermediate: Mittelstufe
+  difficulty_advanced: Fortgeschritten
   bookmark: Merken
   user_says: So könntest du es sagen
   short_definition: Kurzdefinition
@@ -611,7 +629,7 @@ ru:
   mastered: Понял
   progress: Сегодня
   local: Прогресс гостя хранится только в этом браузере.
-  draft: Черновой перевод
+  draft: Требует проверки
   why: Почему важно
   analogy: Простая аналогия
   prompt: Как сказать это ИИ
@@ -645,6 +663,9 @@ ru:
   language: Язык
   close: Закрыть
   aliases: Псевдонимы
+  difficulty_beginner: Начальный
+  difficulty_intermediate: Средний
+  difficulty_advanced: Продвинутый
   bookmark: В закладки
   user_says: Можно сказать так
   short_definition: Краткое определение
@@ -709,7 +730,7 @@ hi:
   mastered: समझ गया
   progress: आज की प्रगति
   local: अतिथि प्रगति केवल इसी ब्राउज़र में सहेजी जाती है।
-  draft: अनुवाद ड्राफ्ट
+  draft: समीक्षा शेष
   why: यह क्यों ज़रूरी है
   analogy: सरल उदाहरण
   prompt: AI से ऐसे कहें
@@ -743,6 +764,9 @@ hi:
   language: भाषा
   close: बंद करें
   aliases: अन्य नाम
+  difficulty_beginner: शुरुआती
+  difficulty_intermediate: मध्यम
+  difficulty_advanced: उन्नत
   bookmark: सहेजें
   user_says: आप ऐसे कह सकते हैं
   short_definition: संक्षिप्त परिभाषा
