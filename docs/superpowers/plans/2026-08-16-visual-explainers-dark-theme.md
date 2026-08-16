@@ -508,7 +508,7 @@ Run `npm install --save-dev @phosphor-icons/core@2.1.1` and commit the resulting
 ICON_NAMES = (
     "arrow-right", "browser", "brackets-curly", "check-circle", "code",
     "database", "file", "folder", "git-branch", "lock", "magnifying-glass",
-    "server", "shield-check", "terminal", "warning-circle",
+    "hard-drives", "shield-check", "terminal", "warning-circle",
 )
 ```
 
