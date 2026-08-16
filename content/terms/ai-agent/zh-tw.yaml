@@ -1,7 +1,7 @@
 title: "AI 代理"
 short_definition: "一個 AI 系統，可以重複決定採取什麼操作、使用工具、檢查結果並繼續實作目標。"
 analogy: "可以閱讀簡報、使用核准的工具、檢查結果並採取下一步行動的工作人員。"
-why_it_matters: "編碼代理可以編輯檔案和執行命令，因此權限和檢查檢查點很重要。"
+why_it_matters: "了解 AI 代理後，Vibe Coding 初學者可以準確指出相關的 AI 與 Vibe Coding 問題，並要求 AI 編碼助理作出有針對性的修改，同時提供可驗證的結果。"
 ai_prompt_example: "檢查儲存庫，提出計劃，僅編輯批准的檔案，執行測試，然後停止並報告差異。"
 common_mistake: "給予代理廣泛的權限和沒有驗證閘的開放式目標。"
 status: draft

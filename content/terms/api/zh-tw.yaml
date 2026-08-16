@@ -1,7 +1,7 @@
 title: "API"
 short_definition: "一種軟體向另一軟體要求資料或操作的定義方式。"
 analogy: "餐廳選單告訴您無需進入廚房即可點餐。"
-why_it_matters: "AI 編碼通常透過 API 連線前端、資料庫、模型提供者和第三方服務。"
+why_it_matters: "了解 API 後，Vibe Coding 初學者可以準確指出相關的後端與 API 問題，並要求 AI 編碼助理作出有針對性的修改，同時提供可驗證的結果。"
 ai_prompt_example: "在實作之前建立一個包含請求引數、回應欄位和錯誤情況的 GET /api/terms 端點合約。"
 common_mistake: "將 API 合約與實作它的內部程式碼混淆。"
 status: draft

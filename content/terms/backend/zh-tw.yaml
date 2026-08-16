@@ -1,7 +1,7 @@
 title: "後端"
 short_definition: "處理資料、權限、業務規則和整合的伺服器端邏輯。"
 analogy: "讓店面真正發揮作用的廚房和儲藏室。"
-why_it_matters: "如果後端不強制執行規則，漂亮的介面仍然可能不安全或虛假。"
+why_it_matters: "了解後端後，Vibe Coding 初學者可以準確指出相關的後端與 API 問題，並要求 AI 編碼助理作出有針對性的修改，同時提供可驗證的結果。"
 ai_prompt_example: "在後端驗證請求，輸入無效回傳400錯誤；不要單獨依賴瀏覽器驗證。"
 common_mistake: "假設隱藏的前端控制項是安全邊界。"
 status: draft

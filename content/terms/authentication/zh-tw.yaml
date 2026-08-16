@@ -1,7 +1,7 @@
 title: "身分驗證"
 short_definition: "證明使用者是誰的過程。"
 analogy: "在系統知道哪個帳戶是您的之前，在入口處顯示 ID。"
-why_it_matters: "登入功能是安全敏感的，不應由 AI 隨意發明。"
+why_it_matters: "了解身分驗證後，Vibe Coding 初學者可以準確指出相關的安全與隱私問題，並要求 AI 編碼助理作出有針對性的修改，同時提供可驗證的結果。"
 ai_prompt_example: "使用現有的身分驗證提供者並在伺服器端保留授權檢查。不要建立自訂密碼系統。"
 common_mistake: "混淆身分驗證（你是誰？）和授權（你可以做什麼？）。"
 status: draft

@@ -1,7 +1,7 @@
 title: "提示"
 short_definition: "您為 AI 模型提供的指令或上下文，以指導其下一步回應或操作。"
 analogy: "提示是您在工作開始前向承包商提交的簡報。"
-why_it_matters: "清晰的提示可減少猜測並使 AI 編輯更易於審核。"
+why_it_matters: "了解提示後，Vibe Coding 初學者可以準確指出相關的 AI 與 Vibe Coding 問題，並要求 AI 編碼助理作出有針對性的修改，同時提供可驗證的結果。"
 ai_prompt_example: "新增一個搜尋框，可依標題、別名和定義過濾術語。保持現有佈局不變。"
 common_mistake: "試圖透過使提示更長而不是使其更清晰來解決模糊的要求。"
 status: draft

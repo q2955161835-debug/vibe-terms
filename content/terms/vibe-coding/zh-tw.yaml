@@ -1,7 +1,7 @@
 title: "Vibe Coding"
 short_definition: "透過向 AI 編碼助手描述結果並迭代其產生的內容來建立軟體。"
 analogy: "就像告訴一個非常快速的初級開發人員你想要什麼，然後檢查每個交付。"
-why_it_matters: "它可以讓初學者建立真正的軟體，但你仍然需要足夠的詞彙來判斷 AI 改變了什麼。"
+why_it_matters: "了解 Vibe Coding 後，Vibe Coding 初學者可以準確指出相關的 AI 與 Vibe Coding 問題，並要求 AI 編碼助理作出有針對性的修改，同時提供可驗證的結果。"
 ai_prompt_example: "逐步建立此功能。在編輯之前，請解釋您將修改哪些檔案以及我如何驗證結果。"
 common_mistake: "將「它運作」視為設計正確或安全的證據。"
 status: draft

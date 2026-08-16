@@ -1,7 +1,7 @@
 title: "資料庫"
 short_definition: "用於永續性儲存和查詢結構化應用程式資料的系統。"
 analogy: "索引完善的檔案室，無需開啟每個資料夾即可尋找記錄。"
-why_it_matters: "使用者帳戶、內容、進度和產品資料通常需要永續性儲存。"
+why_it_matters: "了解資料庫後，Vibe Coding 初學者可以準確指出相關的資料與資料庫問題，並要求 AI 編碼助理作出有針對性的修改，同時提供可驗證的結果。"
 ai_prompt_example: "首先設計表格和關係，然後在編寫應用程式程式碼之前顯示遷移。"
 common_mistake: "使用資料庫就像一個巨大的非結構化 JSON 抽屜，沒有資料模型。"
 status: draft

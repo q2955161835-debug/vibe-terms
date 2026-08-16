@@ -1,7 +1,7 @@
 title: "前端"
 short_definition: "應用程式中使用者直接看到並與之互動的部分。"
 analogy: "顧客走過的車間，而不是後面的儲藏室。"
-why_it_matters: "大多數視覺 Vibe 編碼都要求修改前端程式碼，因此該術語可以幫助您描述範圍。"
+why_it_matters: "了解前端後，Vibe Coding 初學者可以準確指出相關的前端工程問題，並要求 AI 編碼助理作出有針對性的修改，同時提供可驗證的結果。"
 ai_prompt_example: "僅修改前端術語卡佈局。請勿變更 API 回應或資料庫表。"
 common_mistake: "當請求實際上也需要伺服器端工作時，將整個網站稱為「前端」。"
 status: draft
