@@ -1,0 +1,29 @@
+schema_version: 1
+term: authentication
+pattern: boundary
+complexity: 3
+copy:
+  en:
+    heading: Authentication establishes trust before protected work begins
+    intro: Credentials arrive from an untrusted client and are verified only by the identity service.
+    states:
+      challenge: {label: Challenge, conclusion: The client proves control of a credential without being trusted yet.}
+      verified: {label: Verified, conclusion: The identity service records a verified principal for the session.}
+    labels: {browser: Browser, credentials: Credential proof, identity: Identity service, session: Authenticated session}
+  zh-cn:
+    heading: 认证先建立信任，再开始受保护的操作
+    intro: 凭据来自不可信客户端，只能由身份服务进行验证。
+    states:
+      challenge: {label: 挑战, conclusion: 客户端证明自己控制某项凭据，但此时尚未被信任。}
+      verified: {label: 已验证, conclusion: 身份服务为会话记录已验证的主体。}
+    labels: {browser: 浏览器, credentials: 凭据证明, identity: 身份服务, session: 已认证会话}
+states:
+  - {id: challenge, focus: [browser, credential-proof, identity-service], values: {}}
+  - {id: verified, focus: [identity-service, authenticated-session], values: {}}
+scene:
+  nodes:
+    - {id: browser, role: untrusted, label_key: browser, value: "sign-in form"}
+    - {id: credential-proof, role: proof, label_key: credentials, value: "password or passkey assertion"}
+    - {id: identity-service, role: verifier, label_key: identity, value: "verify identity"}
+    - {id: authenticated-session, role: trusted, label_key: session, value: "principal + session id"}
+  relations: [{from: browser, to: credential-proof}, {from: credential-proof, to: identity-service}, {from: identity-service, to: authenticated-session}]

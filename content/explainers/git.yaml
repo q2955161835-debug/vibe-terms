@@ -1,0 +1,36 @@
+schema_version: 1
+term: git
+pattern: timeline
+complexity: 2
+copy:
+  en:
+    heading: Git preserves a reviewable history of changes
+    intro: A branch gathers commits, is reviewed, then is merged into the shared line.
+    states:
+      branch: {label: Create branch, conclusion: The task starts from a named branch instead of changing the shared line directly.}
+      commit: {label: Commit work, conclusion: Each completed change has a message and a recoverable history point.}
+      review: {label: Review, conclusion: Review examines the branch before it affects the shared line.}
+      merge: {label: Merge, conclusion: An approved branch becomes part of main history.}
+    labels: {main_start: main, feature: Feature branch, commit: Commit, review: Review, main_end: Updated main}
+  zh-cn:
+    heading: Git 保存可审查的变更历史
+    intro: 分支收集提交，经过审查后再合并到共享主线。
+    states:
+      branch: {label: 创建分支, conclusion: 任务从具名分支开始，而不是直接修改共享主线。}
+      commit: {label: 提交工作, conclusion: 每个完成的变更都有说明和可回退的历史点。}
+      review: {label: 审查, conclusion: 审查先检查分支，再决定它是否影响共享主线。}
+      merge: {label: 合并, conclusion: 已批准分支成为 main 历史的一部分。}
+    labels: {main_start: main, feature: 功能分支, commit: 提交, review: 审查, main_end: 更新后的 main}
+states:
+  - {id: branch, focus: [main-start, feature-branch], values: {}}
+  - {id: commit, focus: [feature-branch, feature-commit], values: {}}
+  - {id: review, focus: [feature-commit, review-check], values: {}}
+  - {id: merge, focus: [review-check, main-end], values: {}}
+scene:
+  nodes:
+    - {id: main-start, role: main, label_key: main_start, value: "a18f2c"}
+    - {id: feature-branch, role: branch, label_key: feature, value: "feat/filter-panel"}
+    - {id: feature-commit, role: commit, label_key: commit, value: "c04de1 add filter"}
+    - {id: review-check, role: review, label_key: review, value: "approved checks"}
+    - {id: main-end, role: main, label_key: main_end, value: "d71b90 merge feature"}
+  relations: [{from: main-start, to: feature-branch}, {from: feature-branch, to: feature-commit}, {from: feature-commit, to: review-check}, {from: review-check, to: main-end}]

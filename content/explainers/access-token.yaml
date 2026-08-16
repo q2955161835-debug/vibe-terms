@@ -1,0 +1,35 @@
+schema_version: 1
+term: access-token
+pattern: lifecycle
+complexity: 2
+copy:
+  en:
+    heading: An access token has a bounded lifetime
+    intro: A client obtains a token, presents it, refreshes it when allowed, and lets it expire.
+    states:
+      issued: {label: Issued, conclusion: Authorization has issued a short-lived token to the client.}
+      used: {label: Used, conclusion: The resource server verifies the token before serving protected data.}
+      refreshed: {label: Refreshed, conclusion: A valid refresh grant obtains a new access token.}
+      expired: {label: Expired, conclusion: An expired token is rejected and must not authorize access.}
+    labels: {issuer: Authorization server, client: Client token, resource: Resource server, expiry: Expiry}
+  zh-cn:
+    heading: 访问令牌具有受限的生命周期
+    intro: 客户端取得令牌、携带令牌访问资源、在允许时刷新，最后令牌过期。
+    states:
+      issued: {label: 已签发, conclusion: 授权服务向客户端签发短期令牌。}
+      used: {label: 已使用, conclusion: 资源服务器先验证令牌，再提供受保护数据。}
+      refreshed: {label: 已刷新, conclusion: 有效的刷新授权可获得新的访问令牌。}
+      expired: {label: 已过期, conclusion: 过期令牌必须被拒绝，不能再授权访问。}
+    labels: {issuer: 授权服务器, client: 客户端令牌, resource: 资源服务器, expiry: 过期}
+states:
+  - {id: issued, focus: [authorization-server, access-token], values: {}}
+  - {id: used, focus: [access-token, resource-server], values: {}}
+  - {id: refreshed, focus: [authorization-server, access-token], values: {}}
+  - {id: expired, focus: [token-expiry], values: {}}
+scene:
+  nodes:
+    - {id: authorization-server, role: issuer, label_key: issuer, value: "sign scope + expiry"}
+    - {id: access-token, role: credential, label_key: client, value: "Bearer eyJ..."}
+    - {id: resource-server, role: verifier, label_key: resource, value: "verify signature + scope"}
+    - {id: token-expiry, role: expiry, label_key: expiry, value: "reject after 15 min"}
+  relations: [{from: authorization-server, to: access-token}, {from: access-token, to: resource-server}, {from: resource-server, to: token-expiry}]

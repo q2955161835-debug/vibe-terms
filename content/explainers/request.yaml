@@ -1,0 +1,32 @@
+schema_version: 1
+term: request
+pattern: sequence
+complexity: 2
+copy:
+  en:
+    heading: A request moves from intent to a checked response
+    intro: Follow one search request through validation, transport, and response handling.
+    states:
+      compose: {label: Compose, conclusion: The client creates a request from the user's search text.}
+      send: {label: Send, conclusion: The validated request crosses to the API endpoint.}
+      handle: {label: Handle response, conclusion: The client checks the response before updating results.}
+    labels: {input: Search input, validate: Validation, transport: HTTP request, response: Response check}
+  zh-cn:
+    heading: 请求从意图走向经过检查的响应
+    intro: 跟随一次搜索请求完成校验、传输和响应处理。
+    states:
+      compose: {label: 组装, conclusion: 客户端根据用户的搜索文字构造请求。}
+      send: {label: 发送, conclusion: 已校验的请求被发送到 API 端点。}
+      handle: {label: 处理响应, conclusion: 客户端检查响应后才更新结果。}
+    labels: {input: 搜索输入, validate: 校验, transport: HTTP 请求, response: 响应检查}
+states:
+  - {id: compose, focus: [search-text, validate-query], values: {}}
+  - {id: send, focus: [http-request], values: {}}
+  - {id: handle, focus: [response-check], values: {}}
+scene:
+  nodes:
+    - {id: search-text, role: input, label_key: input, value: "query = 'keyboard'"}
+    - {id: validate-query, role: validation, label_key: validate, value: "trim and require text"}
+    - {id: http-request, role: transport, label_key: transport, value: "GET /search?q=keyboard"}
+    - {id: response-check, role: response, label_key: response, value: "200 + result list"}
+  relations: [{from: search-text, to: validate-query}, {from: validate-query, to: http-request}, {from: http-request, to: response-check}]

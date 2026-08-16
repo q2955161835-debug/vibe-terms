@@ -1,0 +1,32 @@
+schema_version: 1
+term: orm
+pattern: data-mapping
+complexity: 2
+copy:
+  en:
+    heading: An ORM maps application fields to stored columns
+    intro: The model names application data while its mapping defines the database representation.
+    states:
+      model: {label: Model fields, conclusion: Application code reads named properties from the Order model.}
+      persist: {label: Persist mapping, conclusion: The mapping writes those properties to their declared table columns.}
+      hydrate: {label: Hydrate model, conclusion: A row is converted back into an Order object for application code.}
+    labels: {order_model: Order model, id_field: id field, total_field: total field, orders_table: orders table}
+  zh-cn:
+    heading: ORM 将应用字段映射到存储列
+    intro: 模型命名应用数据，映射则定义它在数据库中的表示。
+    states:
+      model: {label: 模型字段, conclusion: 应用代码从 Order 模型读取具名属性。}
+      persist: {label: 持久化映射, conclusion: 映射将这些属性写入已声明的表列。}
+      hydrate: {label: 还原模型, conclusion: 一行数据会重新转换为应用可用的 Order 对象。}
+    labels: {order_model: Order 模型, id_field: id 字段, total_field: total 字段, orders_table: orders 表}
+states:
+  - {id: model, focus: [order-model, order-id, order-total], values: {}}
+  - {id: persist, focus: [order-id, order-total, orders-row], values: {}}
+  - {id: hydrate, focus: [orders-row, order-model], values: {}}
+scene:
+  nodes:
+    - {id: order-model, role: model, label_key: order_model, value: "Order"}
+    - {id: order-id, role: field, label_key: id_field, value: "id: UUID"}
+    - {id: order-total, role: field, label_key: total_field, value: "total: Money"}
+    - {id: orders-row, role: table, label_key: orders_table, value: "id | total_cents"}
+  relations: [{from: order-id, to: orders-row}, {from: order-total, to: orders-row}, {from: orders-row, to: order-model}]

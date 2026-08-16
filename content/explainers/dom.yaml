@@ -1,0 +1,29 @@
+schema_version: 1
+term: dom
+pattern: hierarchy
+complexity: 2
+copy:
+  en:
+    heading: The DOM records which elements contain other elements
+    intro: A product card is a tree, so a selector can target a precise descendant.
+    states:
+      tree: {label: Tree view, conclusion: Each nested element has one parent in the rendered document tree.}
+      target: {label: Target badge, conclusion: The selector reaches the badge through its card ancestry.}
+    labels: {page: Page, card: Product card, content: Card content, badge: Stock badge}
+  zh-cn:
+    heading: DOM 记录元素之间的包含关系
+    intro: 商品卡片是一棵树，因此选择器能定位到精确的后代元素。
+    states:
+      tree: {label: 树视图, conclusion: 渲染后的文档树中，每个嵌套元素都有父节点。}
+      target: {label: 定位徽标, conclusion: 选择器沿着卡片祖先关系定位到库存徽标。}
+    labels: {page: 页面, card: 商品卡片, content: 卡片内容, badge: 库存徽标}
+states:
+  - {id: tree, focus: [page, product-card, card-content, stock-badge], values: {}}
+  - {id: target, focus: [product-card, stock-badge], values: {}}
+scene:
+  nodes:
+    - {id: page, role: root, label_key: page, value: "<main>"}
+    - {id: product-card, role: container, label_key: card, value: "<article class='product'>"}
+    - {id: card-content, role: container, label_key: content, value: "<div class='details'>"}
+    - {id: stock-badge, role: leaf, label_key: badge, value: "<span>In stock</span>"}
+  relations: [{from: page, to: product-card}, {from: product-card, to: card-content}, {from: card-content, to: stock-badge}]

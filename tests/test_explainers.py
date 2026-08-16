@@ -199,16 +199,21 @@ def test_audit_lists_only_missing_requested_domain_slugs() -> None:
     )
 
     assert completed.returncode == 0, completed.stderr
-    expected = sorted(
+    frontend_slugs = {
         path.parent.name
         for path in (ROOT / "content" / "terms").glob("*/meta.yaml")
         if yaml.safe_load(path.read_text(encoding="utf-8"))["primary_domain"]
         == "frontend-engineering"
+    }
+    expected = sorted(
+        slug
+        for slug in frontend_slugs
+        if not (ROOT / "content" / "explainers" / f"{slug}.yaml").is_file()
     )
     assert completed.stdout.splitlines() == expected
-    assert "frontend-engineering: 0/" in completed.stderr
-    assert "patterns: none" in completed.stderr
-    assert "complexities: none" in completed.stderr
+    assert f"frontend-engineering: {len(frontend_slugs) - len(expected)}/{len(frontend_slugs)}" in completed.stderr
+    assert "patterns:" in completed.stderr
+    assert "complexities:" in completed.stderr
 
 
 def test_audit_list_missing_emits_no_blank_line_when_subset_is_complete(

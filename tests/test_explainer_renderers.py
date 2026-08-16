@@ -6,12 +6,63 @@ from typing import Any
 
 import pytest
 
-from scripts.vibe_terms.explainers import PATTERNS, load_explainer
+from scripts.vibe_terms.explainers import PATTERNS, load_explainer, load_explainers
 from scripts.vibe_terms.explainer_renderers import RENDERERS, render_visual_explainer
 
 
 ROOT = Path(__file__).resolve().parents[1]
 CSS_FIXTURE = ROOT / "tests" / "fixtures" / "explainers" / "css.yaml"
+GALLERY_FIXTURE = ROOT / "tests" / "fixtures" / "explainer-gallery.html"
+
+REPRESENTATIVES = {
+    "anatomy": "component",
+    "compare": "mock",
+    "sequence": "request",
+    "state-machine": "state",
+    "request-response": "api",
+    "pipeline": "retrieval-augmented-generation",
+    "hierarchy": "dom",
+    "code-result": "css",
+    "data-mapping": "orm",
+    "lifecycle": "access-token",
+    "boundary": "authentication",
+    "layout": "box-model",
+    "timeline": "git",
+    "evidence": "testing",
+}
+
+
+def test_gold_explainers_cover_each_pattern_once() -> None:
+    """Missing or duplicated gold examples would leave a renderer uncalibrated."""
+    explainers = load_explainers(ROOT / "content", set(REPRESENTATIVES.values()))
+
+    assert {item["pattern"] for item in explainers.values()} == set(REPRESENTATIVES)
+
+
+def test_gold_gallery_is_a_deterministic_renderer_snapshot() -> None:
+    """The visual-review fixture must contain renderer output, not a parallel mockup."""
+    explainers = load_explainers(ROOT / "content", set(REPRESENTATIVES.values()))
+    pages = "".join(
+        f'<main id="{locale}" data-gallery-locale="{locale}">' + "".join(
+            render_visual_explainer(explainers[slug], locale)
+            for _, slug in REPRESENTATIVES.items()
+        )
+        + "</main>"
+        for locale in ("en", "zh-cn")
+    )
+    expected = (
+        "<!doctype html><html lang=\"en\" data-theme=\"light\"><head>"
+        "<meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">"
+        "<title>Vibe Terms explainer gallery</title>"
+        "<link rel=\"stylesheet\" href=\"../../web/styles.css\">"
+        "<link rel=\"stylesheet\" href=\"../../web/explainers.css\"></head><body>"
+        "<nav aria-label=\"Gallery locales\"><a href=\"#en\">English</a><a href=\"#zh-cn\">简体中文</a></nav>"
+        + pages
+        + "<script src=\"../../web/explainers.js\"></script>"
+        "<script>VibeExplainers.mountAll(document);</script></body></html>\n"
+    )
+
+    assert GALLERY_FIXTURE.read_text(encoding="utf-8").rstrip("\n") + "\n" == expected
 
 
 @pytest.fixture
