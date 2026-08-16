@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from pathlib import Path
+import re
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -114,3 +115,53 @@ def test_non_english_project_paths_have_no_english_draft_placeholders():
                 failures.append(f"{path_dir.name}/{locale}")
 
     assert not failures, failures
+
+
+def test_breadcrumb_uses_established_navigation_terms_in_every_locale():
+    expected = {
+        "zh-cn": "面包屑导航",
+        "zh-tw": "麵包屑導覽",
+        "ja": "パンくずリスト",
+        "ko": "브레드크럼 내비게이션",
+        "de": "Brotkrümelnavigation",
+        "ru": "Хлебные крошки",
+        "hi": "ब्रेडक्रम नेविगेशन",
+    }
+    directory = CONTENT / "terms" / "breadcrumb"
+    assert {
+        locale: load(directory / f"{locale}.yaml")["title"]
+        for locale in TRANSLATED_LOCALES
+    } == expected
+
+
+def test_translated_prose_uses_the_target_writing_system():
+    target_script = {
+        "zh-cn": re.compile(r"[\u3400-\u9fff]"),
+        "zh-tw": re.compile(r"[\u3400-\u9fff]"),
+        "ja": re.compile(r"[\u3040-\u30ff]"),
+        "ko": re.compile(r"[\uac00-\ud7a3]"),
+        "ru": re.compile(r"[\u0400-\u04ff]"),
+        "hi": re.compile(r"[\u0900-\u097f]"),
+    }
+    prose_fields = (
+        "short_definition",
+        "analogy",
+        "mechanism",
+        "why_it_matters",
+        "project_example",
+        "ai_prompt_example",
+        "common_mistake",
+    )
+    failures: list[str] = []
+
+    for directory in sorted(
+        path for path in (CONTENT / "terms").iterdir() if path.is_dir()
+    ):
+        for locale, script in target_script.items():
+            localized = load(directory / f"{locale}.yaml")
+            for field in prose_fields:
+                value = localized.get(field)
+                if value and not script.search(str(value)):
+                    failures.append(f"{directory.name}/{locale}/{field}")
+
+    assert not failures, failures[:50]
