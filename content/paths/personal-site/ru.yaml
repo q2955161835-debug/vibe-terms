@@ -1,56 +1,57 @@
 locale: ru
-title: Draft — Launch a Personal Site
-summary: Draft — not human reviewed. Plan, build, test, and publish a small personal site that explains who you are and how to contact you.
+title: Запустить личный сайт
+summary: Спланируйте, соберите, проверьте и опубликуйте личный сайт, который ясно объясняет, кто вы и как с вами
+  связаться
 status: draft
 source_content_version: 1
 chapters:
 - id: project-goal
-  title: Draft — Choose a focused site goal
-  summary: Draft — not human reviewed. State one visitor problem, one audience, and one action the site should support.
-  outcome: Draft — not human reviewed. A one-sentence goal and a primary visitor action.
-  checkpoint: Draft — not human reviewed. You can explain who the site helps and what that visitor can do.
+  title: Определить цель сайта
+  summary: Сформулируйте проблему посетителя, аудиторию и действие, которое должен поддерживать сайт.
+  outcome: Цель и главное действие посетителя.
+  checkpoint: Понятно, кому помогает сайт и что посетитель может сделать.
 - id: audience-and-content
-  title: Draft — List the audience and content
-  summary: Draft — not human reviewed. Turn visitor needs into a short content inventory and a simple user story.
-  outcome: Draft — not human reviewed. A page-content list ordered by visitor need.
-  checkpoint: Draft — not human reviewed. Every section answers a visitor question or leads to the main action.
+  title: Составить аудиторию и контент
+  summary: Превратите потребности посетителей в список материалов и пользовательскую историю.
+  outcome: Упорядоченный список содержимого страниц.
+  checkpoint: Каждый раздел отвечает на вопрос посетителя или ведет к главному действию.
 - id: information-architecture
-  title: Draft — Arrange the information
-  summary: Draft — not human reviewed. Group the content into a small navigation and define the order a visitor follows.
-  outcome: Draft — not human reviewed. A page outline with navigation labels.
-  checkpoint: Draft — not human reviewed. The main action is reachable without guessing where to go next.
+  title: Устроить информацию
+  summary: Сгруппируйте контент в небольшую навигацию и задайте порядок движения посетителя.
+  outcome: План страниц с подписями навигации.
+  checkpoint: Главное действие доступно без догадок о следующем шаге.
 - id: wireframe
-  title: Draft — Sketch the page
-  summary: Draft — not human reviewed. Create a low-fidelity wireframe before choosing colors or visual decoration.
-  outcome: Draft — not human reviewed. A labeled wireframe for desktop and narrow screens.
-  checkpoint: Draft — not human reviewed. The hierarchy is understandable even with plain boxes and text.
+  title: Набросать страницу
+  summary: Сделайте низкодетализированный вайрфрейм до выбора цветов и декора.
+  outcome: Подписанный вайрфрейм для широкого и узкого экрана.
+  checkpoint: Иерархия понятна даже в виде простых блоков и текста.
 - id: html-structure
-  title: Draft — Build semantic structure
-  summary: Draft — not human reviewed. Write the page with meaningful headings, landmarks, links, and content order.
-  outcome: Draft — not human reviewed. A semantic HTML page with a clear heading outline.
-  checkpoint: Draft — not human reviewed. Reading the document in source order still communicates the page.
+  title: Собрать семантическую структуру
+  summary: Используйте осмысленные заголовки, landmarks, ссылки и порядок контента.
+  outcome: Семантическая HTML-страница с ясной иерархией.
+  checkpoint: Порядок документа в исходнике все еще объясняет страницу.
 - id: visual-system
-  title: Draft — Create a visual system
-  summary: Draft — not human reviewed. Apply a small set of type, spacing, color, and surface rules instead of one-off styling.
-  outcome: Draft — not human reviewed. Reusable CSS variables and consistent section styling.
-  checkpoint: Draft — not human reviewed. Similar elements use the same visual decisions.
+  title: Создать визуальную систему
+  summary: Задайте правила типографики, отступов, цветов и поверхностей вместо разовых стилей.
+  outcome: Повторно используемые CSS-переменные и единый стиль.
+  checkpoint: Похожие элементы используют одинаковые визуальные решения.
 - id: responsive-accessibility
-  title: Draft — Make the site usable everywhere
-  summary: Draft — not human reviewed. Adapt layout for narrow screens and verify keyboard focus, readable contrast, and useful link text.
-  outcome: Draft — not human reviewed. A responsive page with keyboard-visible controls.
-  checkpoint: Draft — not human reviewed. At phone width no essential content is clipped or unreachable.
+  title: Сделать сайт удобным везде
+  summary: Адаптируйте узкие экраны и проверьте фокус клавиатуры, контраст и понятные ссылки.
+  outcome: Адаптивная страница с видимыми при навигации клавиатурой контролами.
+  checkpoint: На ширине телефона важный контент не обрезан и доступен.
 - id: content-and-seo
-  title: Draft — Prepare shareable page metadata
-  summary: Draft — not human reviewed. Add a descriptive title, summary, and preview metadata that match the actual page.
-  outcome: Draft — not human reviewed. Page metadata for search and sharing.
-  checkpoint: Draft — not human reviewed. The title and summary tell the same story as the visible page.
+  title: Подготовить метаданные страницы
+  summary: Добавьте описательные title, summary и метаданные предпросмотра, соответствующие странице.
+  outcome: Метаданные страницы для поиска и распространения.
+  checkpoint: Заголовок и краткое описание соответствуют видимой странице.
 - id: quality-check
-  title: Draft — Check real browser behavior
-  summary: Draft — not human reviewed. Test primary links, keyboard navigation, text overflow, and the contact action in a browser.
-  outcome: Draft — not human reviewed. A concise manual test checklist with results.
-  checkpoint: Draft — not human reviewed. All listed checks pass on a desktop and a phone-sized viewport.
+  title: Проверить поведение в браузере
+  summary: Проверьте ссылки, клавиатурную навигацию, переполнение текста и контактное действие.
+  outcome: Короткий ручной чек-лист с результатами.
+  checkpoint: Проверки проходят на настольном и телефонном размере окна.
 - id: publish-static-site
-  title: Draft — Publish the static site
-  summary: Draft — not human reviewed. Commit the verified source, deploy the static artifact, and read the public route back.
-  outcome: Draft — not human reviewed. A published personal-site URL and deployment record.
-  checkpoint: Draft — not human reviewed. The live page matches the verified local version and its links work.
+  title: Опубликовать статический сайт
+  summary: Зафиксируйте проверенный исходник, разверните артефакт и перечитайте публичный маршрут.
+  outcome: Публичный URL сайта и запись о развертывании.
+  checkpoint: Живая страница совпадает с проверенной версией и ее ссылки работают.
