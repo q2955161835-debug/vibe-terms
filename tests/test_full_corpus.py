@@ -165,3 +165,27 @@ def test_translated_prose_uses_the_target_writing_system():
                     failures.append(f"{directory.name}/{locale}/{field}")
 
     assert not failures, failures[:50]
+
+
+def test_editorial_glossary_mirrors_term_titles_and_statuses():
+    glossary = load(CONTENT / "glossaries" / "terminology.yaml")["terms"]
+    by_slug = {entry["slug"]: entry for entry in glossary}
+    term_dirs = sorted(
+        path for path in (CONTENT / "terms").iterdir() if path.is_dir()
+    )
+    assert set(by_slug) == {path.name for path in term_dirs}
+
+    failures: list[str] = []
+    for directory in term_dirs:
+        entry = by_slug[directory.name]
+        canonical = load(directory / "meta.yaml")["canonical_name"]
+        if entry["canonical"] != canonical:
+            failures.append(f"{directory.name}/canonical")
+        for locale in TRANSLATED_LOCALES:
+            localized = load(directory / f"{locale}.yaml")
+            if entry[locale] != localized["title"]:
+                failures.append(f"{directory.name}/{locale}/title")
+            if entry["status"][locale] != localized["status"]:
+                failures.append(f"{directory.name}/{locale}/status")
+
+    assert not failures, failures[:50]
