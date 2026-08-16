@@ -80,7 +80,7 @@ topics:
   names:
     en: Agents, Tools & Memory
     zh-cn: 智能体、工具与记忆
-    zh-tw: 智能體、工具與記憶
+    zh-tw: 智慧代理、工具與記憶
     ja: エージェント、ツールとメモリ
     ko: 에이전트, 도구 및 메모리
     de: Agenten, Werkzeuge und Speicher
@@ -89,7 +89,7 @@ topics:
   descriptions:
     en: Core concepts for agents, tools & memory.
     zh-cn: 学习智能体、工具与记忆相关的核心概念。
-    zh-tw: 學習智能體、工具與記憶相關的核心概念。
+    zh-tw: 學習智慧代理、工具與記憶相關的核心概念。
     ja: エージェント、ツールとメモリに関する基本概念を学びます。
     ko: 에이전트, 도구 및 메모리의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Agenten, Werkzeuge und Speicher.
@@ -276,7 +276,7 @@ topics:
   descriptions:
     en: Core concepts for web protocols & http.
     zh-cn: 学习 Web 协议与 HTTP 相关的核心概念。
-    zh-tw: 學習Web 協定與 HTTP相關的核心概念。
+    zh-tw: 學習 Web 協定與 HTTP 相關的核心概念。
     ja: WebプロトコルとHTTPに関する基本概念を学びます。
     ko: 웹 프로토콜과 HTTP의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu Webprotokolle und HTTP.
@@ -703,7 +703,7 @@ topics:
   descriptions:
     en: Core concepts for html, css & layout.
     zh-cn: 学习HTML、CSS 与布局相关的核心概念。
-    zh-tw: 學習HTML、CSS 與版面相關的核心概念。
+    zh-tw: 學習 HTML、CSS 與版面相關的核心概念。
     ja: HTML、CSSとレイアウトに関する基本概念を学びます。
     ko: HTML, CSS 및 레이아웃의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu HTML, CSS und Layout.
@@ -842,7 +842,7 @@ topics:
   descriptions:
     en: Core concepts for api contracts & endpoints.
     zh-cn: 学习 API 契约与端点相关的核心概念。
-    zh-tw: 學習API 合約與端點相關的核心概念。
+    zh-tw: 學習 API 合約與端點相關的核心概念。
     ja: API契約とエンドポイントに関する基本概念を学びます。
     ko: API 계약과 엔드포인트의 핵심 개념을 배웁니다.
     de: Grundbegriffe zu API-Verträge und Endpunkte.

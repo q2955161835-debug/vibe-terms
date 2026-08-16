@@ -112,7 +112,7 @@ zh-cn:
   topics: 主题
   learn: 学习
   search: 搜索术语、缩写或中文含义…
-  search_btn: 查找
+  search_btn: 搜尋
   hero_eyebrow: 从想法到上线
   hero: 从一句想法，走到真正上线。
   sub: 为 Vibe Coding 新手准备的知识地图。遇到看不懂的词就搜，也可以按做项目的顺序探索。
@@ -137,7 +137,7 @@ zh-cn:
   prompt: 可以这样告诉 AI
   mistake: 常见误区
   related: 相关术语
-  back: 返回探索
+  back: 回到探索
   no_results: 没有匹配的术语。
   loading: 正在载入术语…
   load_error: 术语索引载入失败。
@@ -293,7 +293,7 @@ zh-tw:
   project_paths: 專案路徑
   sources: 來源與依據
   internal_provenance: 站內內容依據
-  term_sequence: 詞條順序
+  term_sequence: 術語順序
   knowledge_intro: 依領域、主題與前置關係瀏覽術語。
   compatibility_notice: 此分類網址僅為相容舊連結而保留。
   path_intro: 依真實專案會用到這些術語的順序學習。
@@ -473,7 +473,7 @@ ko:
   not_found_title: 페이지를 찾을 수 없음
   not_found_text: 페이지가 이동했을 수 있지만 용어 지도는 여기에 있습니다.
   go_home: 홈으로 돌아가기
-  terms_unit: 용어
+  terms_unit: 개 용어
   source_code: 소스 코드
   theme_system: 시스템 테마 사용
   theme_light: 라이트 테마 사용
@@ -493,7 +493,7 @@ ko:
   user_says: 이렇게 말할 수 있어요
   short_definition: 짧은 정의
   prerequisites: 선수 지식
-  no_prerequisites: 필수 선수 지식 없음
+  no_prerequisites: 선수 지식 없음
   mechanism: 작동 방식
   boundary: 적용 경계
   example: 동적 예시
@@ -511,7 +511,7 @@ ko:
   knowledge_intro: 분야, 주제, 선수 관계로 용어를 살펴보세요.
   compatibility_notice: 이 분류 주소는 이전 링크 호환을 위해 유지됩니다.
   path_intro: 실제 프로젝트에서 필요한 순서대로 용어를 학습하세요.
-  chapters_unit: 개 챕터
+  chapters_unit: 챕터
   next_chapter: 다음 챕터
   outcome: 학습 결과
   checkpoint: 체크포인트
@@ -541,7 +541,7 @@ de:
   learn: Lernen
   search: Begriffe, Abkürzungen oder Bedeutung suchen…
   search_btn: Suchen
-  hero_eyebrow: VON DER IDEE ZUM RELEASE
+  hero_eyebrow: VON DER IDEE ZUM PRODUKT
   hero: Von einer Idee bis zu einem Produkt, das wirklich online geht.
   sub: Eine Wissenskarte für Vibe-Coding-Einsteiger. Suche unbekannte Begriffe oder folge dem Projektablauf.
   knowledge: Wissenskarte
@@ -582,7 +582,7 @@ de:
   go_home: Zur Startseite
   terms_unit: Begriffe
   source_code: Quellcode
-  theme_system: Systemdesign verwenden
+  theme_system: Systemdarstellung verwenden
   theme_light: Helles Design verwenden
   theme_dark: Dunkles Design verwenden
   copy_failed: Kopieren fehlgeschlagen
@@ -592,7 +592,7 @@ de:
   practice: Üben
   language: Sprache
   close: Schließen
-  aliases: Aliasse
+  aliases: Alternative Namen
   difficulty_beginner: Einstieg
   difficulty_intermediate: Mittelstufe
   difficulty_advanced: Fortgeschritten
