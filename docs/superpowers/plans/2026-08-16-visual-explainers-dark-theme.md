@@ -950,7 +950,7 @@ def test_term_page_keeps_visual_and_existing_learning_sections(generated_site: P
 
 - [ ] **Step 2: Run and confirm integration is absent**
 
-Run: `python -m pytest tests/test_content_schema.py::test_every_term_carries_one_valid_visual_explainer tests/test_static_site.py::test_term_page_keeps_visual_and_existing_learning_sections -q`
+Run: `python -m pytest tests/test_content_schema.py::test_representative_terms_carry_valid_visual_explainers tests/test_static_site.py::test_term_page_keeps_visual_and_existing_learning_sections -q`
 
 Expected: FAIL because catalog terms do not yet carry explainers.
 
