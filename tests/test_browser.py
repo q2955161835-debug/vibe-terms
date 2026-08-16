@@ -6,6 +6,21 @@ import os
 from playwright.sync_api import sync_playwright
 
 
+def _rgb(value: str) -> tuple[int, int, int]:
+    return tuple(int(part) for part in value.removeprefix("rgb(").removesuffix(")").split(", "))
+
+
+def _luminance(rgb: tuple[int, int, int]) -> float:
+    values = [channel / 255 for channel in rgb]
+    linear = [value / 12.92 if value <= 0.04045 else ((value + 0.055) / 1.055) ** 2.4 for value in values]
+    return 0.2126 * linear[0] + 0.7152 * linear[1] + 0.0722 * linear[2]
+
+
+def _contrast(foreground: str, background: str) -> float:
+    high, low = sorted((_luminance(_rgb(foreground)), _luminance(_rgb(background))), reverse=True)
+    return (high + 0.05) / (low + 0.05)
+
+
 def _browser():
     playwright = sync_playwright().start()
     executable_path = os.environ.get("PLAYWRIGHT_CHROMIUM_EXECUTABLE")
@@ -53,10 +68,48 @@ def test_theme_cycle_persists(site_url: str) -> None:
         button = page.locator(".theme-toggle")
         button.click()
         first = page.locator("html").get_attribute("data-theme")
-        assert first in {"light", "dark"}
+        assert first == "dark"
         page.reload(wait_until="networkidle")
         assert page.locator("html").get_attribute("data-theme") == first
         assert button.get_attribute("aria-label")
+
+        search_input = page.locator(".desktop-search > input")
+        search_input.focus()
+        card = page.locator(".term-card").first
+        card.hover()
+        page.wait_for_timeout(200)
+        samples = page.evaluate("""
+          () => {
+            const color = (selector) => getComputedStyle(document.querySelector(selector)).color;
+            const background = (selector) => getComputedStyle(document.querySelector(selector)).backgroundColor;
+            return {
+              topbar: [color('.topbar'), background('body')],
+              term_card: [color('.term-card h3 strong'), background('.term-card')],
+              term_card_example: [color('.term-card-example p'), background('.term-card-example')],
+              button: [color('.desktop-search > button'), background('.desktop-search > button')],
+              input: [color('.desktop-search > input'), background('.desktop-search')],
+              card_focus: [getComputedStyle(document.querySelector('.term-card')).borderColor, background('.term-card')],
+              input_focus: [getComputedStyle(document.querySelector('.desktop-search')).borderColor, background('.desktop-search')],
+            };
+          }
+        """)
+        for name, (foreground, background) in samples.items():
+            assert _contrast(foreground, background) >= 3.0, f"{name}: {foreground} on {background}"
+        for sample in ("topbar", "term_card", "term_card_example", "button", "input"):
+            assert _contrast(*samples[sample]) >= 4.5
+
+        page.goto(f"{site_url}/en/terms/ci/", wait_until="networkidle")
+        pre = page.evaluate("""
+          () => [
+            getComputedStyle(document.querySelector('pre')).color,
+            getComputedStyle(document.querySelector('.prompt-box')).backgroundColor,
+          ]
+        """)
+        assert _contrast(*pre) >= 4.5
+
+        for _ in range(2):
+            page.locator(".theme-toggle").click()
+        assert page.locator("html").get_attribute("data-theme") == "light"
     finally:
         browser.close()
         playwright.stop()
