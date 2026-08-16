@@ -309,6 +309,29 @@ def test_theme_cycle_persists(site_url: str) -> None:
         playwright.stop()
 
 
+def test_dark_locale_picker_options_have_opaque_contrast(site_url: str) -> None:
+    playwright, browser = _browser()
+    try:
+        context = browser.new_context(viewport={"width": 390, "height": 844})
+        context.add_init_script("localStorage.setItem('vibe-theme', 'dark')")
+        page = context.new_page()
+        page.goto(f"{site_url}/en/", wait_until="networkidle")
+
+        appearance = page.locator(".locale-picker option").nth(1).evaluate(
+            """
+            option => {
+              const style = getComputedStyle(option);
+              return { color: style.color, background: style.backgroundColor };
+            }
+            """
+        )
+        assert appearance["background"].startswith("rgb("), appearance
+        assert _contrast(appearance["color"], appearance["background"]) >= 4.5
+    finally:
+        browser.close()
+        playwright.stop()
+
+
 def test_system_theme_respects_browser_color_scheme(site_url: str) -> None:
     playwright, browser = _browser()
     try:

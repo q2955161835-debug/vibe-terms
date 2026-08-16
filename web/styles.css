@@ -171,6 +171,10 @@ button, select { color: inherit; }
   height: 36px;
   padding: 0 10px;
 }
+.locale-picker option {
+  color: var(--text-primary);
+  background: var(--panel-raised);
+}
 .theme-toggle { width: 38px; cursor: pointer; }
 
 main { max-width: var(--max); margin: 0 auto; padding: 0 24px 90px; }
