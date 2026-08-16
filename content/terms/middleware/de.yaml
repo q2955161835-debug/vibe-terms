@@ -1,15 +1,15 @@
 title: Middleware
-short_definition: Code die runs in the Anfrage oder Anwendung pipeline zu add shared Verhalten such as logging, authentication,
-  parsing, oder Fehler handling.
-analogy: Betrachte Middleware als Orientierungsschild in backend apis. Es weist auf die richtige technische Stelle, ersetzt
-  aber weder die Implementierung noch deren Prüfung.
-mechanism: Code die runs in the Anfrage oder Anwendung pipeline zu add shared Verhalten such as logging, authentication, parsing,
-  oder Fehler handling. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab;
-  prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Middleware versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in backend apis benennen und von
+short_definition: Code, der in der Anforderungs- oder Anwendungspipeline ausgeführt wird, um gemeinsames Verhalten wie Protokollierung,
+  Authentifizierung, Analyse oder Fehlerbehandlung hinzuzufügen.
+analogy: Betrachte Middleware als Orientierung in Backend & APIs. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Code, der in der Anforderungs- oder Anwendungspipeline ausgeführt wird, um gemeinsames Verhalten wie Protokollierung,
+  Authentifizierung, Analyse oder Fehlerbehandlung hinzuzufügen. In einem realen Projekt hängt die genaue Ausprägung von Technologie,
+  Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Middleware versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Backend & APIs benennen und von
   einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Middleware in der Phase data identity als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Middleware in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Middleware in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Middleware als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

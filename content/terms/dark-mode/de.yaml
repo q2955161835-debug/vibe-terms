@@ -1,18 +1,18 @@
-title: Dark Mode
-short_definition: Ein Theme mit dunklen Grundflächen und angepassten Text-, Rahmen-, semantischen, Bild- und Codefarben für
-  gute Lesbarkeit.
-analogy: 'Ordne Dark Mode im Bereich Frontend-Entwicklung als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
-  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein Theme mit dunklen Grundflächen und angepassten Text-, Rahmen-, semantischen, Bild- und Codefarben für gute
-  Lesbarkeit. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
-why_it_matters: Wer Dark Mode versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen
+title: Dunkler Modus
+short_definition: Ein Thema, das dunkle Primäroberflächen mit angepassten Text-, Rahmen-, Semantik-, Bild- und Codefarben
+  zur besseren Lesbarkeit verwendet.
+analogy: 'Ordne Dunkler Modus im Bereich Frontend-Entwicklung als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch
+  erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Ein Thema, das dunkle Primäroberflächen mit angepassten Text-, Rahmen-, Semantik-, Bild- und Codefarben zur besseren
+  Lesbarkeit verwendet. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Dunkler Modus versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Dark Mode in der Phase Oberflächenlogik als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Dark Mode in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Dunkler Modus in der Phase Oberflächenlogik als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Dunkler Modus in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Dark Mode als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Dunkler Modus als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

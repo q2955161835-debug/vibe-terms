@@ -1,18 +1,18 @@
-title: Fine-tuning
-short_definition: Further training a pretrained Modell auf zusätzliche examples so its Verhalten better fits a domain oder
-  Aufgabe.
-analogy: 'Ordne Fine-tuning im Bereich ai vibe als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich ein,
-  während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Further training a pretrained Modell auf zusätzliche examples so its Verhalten better fits a domain oder Aufgabe.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Fine-tuning versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ai vibe benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Fine-tuning in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Fine-tuning in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+title: Fine-Tuning
+short_definition: Trainieren Sie ein vorab trainiertes Modell anhand zusätzlicher Beispiele weiter, damit sein Verhalten besser
+  zu einer Domäne oder Aufgabe passt.
+analogy: 'Ordne Feinabstimmung im Bereich KI & Vibe Coding als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch erst
+  die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Trainieren Sie ein vorab trainiertes Modell anhand zusätzlicher Beispiele weiter, damit sein Verhalten besser zu
+  einer Domäne oder Aufgabe passt. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und
+  Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Feinabstimmung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Feinabstimmung in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Feinabstimmung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Fine-tuning als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Feinabstimmung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

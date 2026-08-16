@@ -1,13 +1,14 @@
 title: Z-Index
-short_definition: Ein CSS property die influences the stacking order von positioned elements innerhalb stacking contexts.
-analogy: 'Ein praktisches Bild für Z-Index: ein markiertes Werkzeug in Frontend-Entwicklung, dessen Aufschrift die Frage schärft,
-  aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein CSS property die influences the stacking order von positioned elements innerhalb stacking contexts. In einem
-  realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+short_definition: Eine CSS-Eigenschaft, die die Stapelreihenfolge positionierter Elemente innerhalb von Stapelkontexten beeinflusst.
+analogy: 'Ein praktischer Vergleich für Z-Index: ein markiertes Werkzeug in Frontend-Entwicklung, dessen Zweck erst im Zusammenspiel
+  mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Eine CSS-Eigenschaft, die die Stapelreihenfolge positionierter Elemente innerhalb von Stapelkontexten beeinflusst.
+  In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die
+  konkrete Umsetzung.
 why_it_matters: Wer Z-Index versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen und
   von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Z-Index in der Phase Oberflächenlogik als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Z-Index in der Phase Oberflächenlogik als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Z-Index in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Z-Index als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

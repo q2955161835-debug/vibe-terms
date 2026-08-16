@@ -1,13 +1,14 @@
 title: .gitignore
-short_definition: Ein Git Muster Datei die tells Git die untracked paths should normally be ignored.
-analogy: 'Ordne .gitignore im Bereich git collaboration als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
-  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein Git Muster Datei die tells Git die untracked paths should normally be ignored. In einem realen Projekt hängt
-  das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer .gitignore versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in git collaboration benennen und
-  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient .gitignore in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Eine Git-Musterdatei, die Git mitteilt, welche nicht verfolgten Pfade normalerweise ignoriert werden sollen.
+analogy: 'Ordne .gitignore im Bereich Git & Zusammenarbeit als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch erst
+  die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine Git-Musterdatei, die Git mitteilt, welche nicht verfolgten Pfade normalerweise ignoriert werden sollen. In
+  einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
+  Umsetzung.
+why_it_matters: Wer .gitignore versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Git & Zusammenarbeit benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir .gitignore in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie .gitignore in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff .gitignore als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

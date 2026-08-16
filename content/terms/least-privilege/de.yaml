@@ -1,15 +1,15 @@
 title: Prinzip der geringsten Rechte
-short_definition: Die Sicherheit principle von granting nur the permissions needed für a Aufgabe und no broader Zugriff than
-  notwendig.
-analogy: 'Für Prinzip der geringsten Rechte hilft ein Vergleich mit einem Werkzeug aus Sicherheit & Datenschutz: Sein Etikett
-  nennt das Problemfeld; verlässlich wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Die Sicherheit principle von granting nur the permissions needed für a Aufgabe und no broader Zugriff than notwendig.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
+short_definition: Das Sicherheitsprinzip, nur die für eine Aufgabe erforderlichen Berechtigungen und keinen weitergehenden
+  Zugriff als nötig zu gewähren.
+analogy: 'Für Prinzip der geringsten Rechte hilft ein Bild aus Sicherheit & Datenschutz: Das Etikett weist auf das Problemfeld,
+  ersetzt aber weder den Code noch die Prüfung des Datenflusses.'
+mechanism: Das Sicherheitsprinzip, nur die für eine Aufgabe erforderlichen Berechtigungen und keinen weitergehenden Zugriff
+  als nötig zu gewähren. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer Prinzip der geringsten Rechte versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Sicherheit
   & Datenschutz benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Prinzip der geringsten Rechte in der Phase test protect als Lerncheckpoint: Verknüpfe
-  die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Prinzip der geringsten Rechte in der Phase Tests & Schutz als Lerncheckpoint.
+  Verknüpfe die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Prinzip der geringsten Rechte in diesem Projekt angewendet wird. Nenne die betroffenen Dateien
   oder Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Prinzip der geringsten Rechte als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches

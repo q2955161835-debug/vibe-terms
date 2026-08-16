@@ -1,18 +1,18 @@
-title: Protokoll Stufe
-short_definition: Ein severity oder verbosity category such as debug, info, warning, oder Fehler verwendet zu classify log
-  events.
-analogy: 'Ein praktisches Bild für Protokoll Stufe: ein markiertes Werkzeug in testing debugging, dessen Aufschrift die Frage
-  schärft, aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein severity oder verbosity category such as debug, info, warning, oder Fehler verwendet zu classify log events.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Protokoll Stufe versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in testing debugging benennen
+title: Protokollebene
+short_definition: Eine Schweregrad- oder Ausführlichkeitskategorie wie „Debug“, „Info“, „Warnung“ oder „Fehler“, die zur Klassifizierung
+  von Protokollereignissen verwendet wird.
+analogy: 'Ein praktischer Vergleich für Protokollebene: ein markiertes Werkzeug in Testen & Debugging, dessen Zweck erst im
+  Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Eine Schweregrad- oder Ausführlichkeitskategorie wie „Debug“, „Info“, „Warnung“ oder „Fehler“, die zur Klassifizierung
+  von Protokollereignissen verwendet wird. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Protokollebene versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Testen & Debugging benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Protokoll Stufe in der Phase test protect als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Protokoll Stufe in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Protokollebene in der Phase Tests & Schutz als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Protokollebene in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Protokoll Stufe als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Protokollebene als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

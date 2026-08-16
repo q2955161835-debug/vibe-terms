@@ -1,13 +1,13 @@
 title: Fokus
-short_definition: Die Zustand indicating die interactive element currently receives keyboard Eingabe und actions.
-analogy: 'Ordne Fokus im Bereich Frontend-Entwicklung als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
-  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Die Zustand indicating die interactive element currently receives keyboard Eingabe und actions. In einem realen
-  Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+short_definition: Der Status, der angibt, welches interaktive Element derzeit Tastatureingaben und Aktionen empfängt.
+analogy: 'Ordne Fokus im Bereich Frontend-Entwicklung als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch erst die
+  konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Der Status, der angibt, welches interaktive Element derzeit Tastatureingaben und Aktionen empfängt. In einem realen
+  Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer Fokus versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen und
   von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Fokus in der Phase Oberflächenlogik als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Fokus in der Phase Oberflächenlogik als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Fokus in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Fokus als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

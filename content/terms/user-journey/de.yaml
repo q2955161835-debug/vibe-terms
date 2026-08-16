@@ -1,18 +1,18 @@
-title: Benutzer reise
-short_definition: Ein broader view von a Benutzer's experience across stages, touchpoints, goals, emotions, und friction over
-  Zeit.
-analogy: 'Ordne Benutzer reise im Bereich Produkt & Anforderungen als beschriftetes Werkzeug ein: Die Beschriftung grenzt
-  den Prüfbereich ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein broader view von a Benutzer's experience across stages, touchpoints, goals, emotions, und friction over Zeit.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Benutzer reise versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen benennen
+title: Benutzerreise
+short_definition: Eine umfassendere Sicht auf die Erfahrung eines Benutzers über Phasen, Berührungspunkte, Ziele, Emotionen
+  und Reibungen im Laufe der Zeit hinweg.
+analogy: 'Ordne Benutzerreise im Bereich Produkt & Anforderungen als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch
+  erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine umfassendere Sicht auf die Erfahrung eines Benutzers über Phasen, Berührungspunkte, Ziele, Emotionen und Reibungen
+  im Laufe der Zeit hinweg. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Benutzerreise versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Benutzer reise in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Benutzer reise in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Benutzerreise in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Benutzerreise in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Benutzer reise als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Benutzerreise als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

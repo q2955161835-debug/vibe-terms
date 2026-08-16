@@ -1,18 +1,18 @@
-title: Text Kürzung
-short_definition: Limiting sichtbar Text zu a fixed space, often unter Verwendung von clipping oder an ellipsis while preserving
-  Zugriff zu the full Wert wenn needed.
-analogy: 'Für Text Kürzung hilft ein Vergleich mit einem Werkzeug aus Frontend-Entwicklung: Sein Etikett nennt das Problemfeld;
-  verlässlich wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Limiting sichtbar Text zu a fixed space, often unter Verwendung von clipping oder an ellipsis while preserving
-  Zugriff zu the full Wert wenn needed. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration
-  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Text Kürzung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen
+title: Textkürzung
+short_definition: Beschränken Sie den sichtbaren Text auf einen festen Bereich, häufig mithilfe von Ausschnitten oder Auslassungspunkten,
+  und behalten Sie bei Bedarf den Zugriff auf den vollen Wert bei.
+analogy: 'Für Textkürzung hilft ein Bild aus Frontend-Entwicklung: Das Etikett weist auf das Problemfeld, ersetzt aber weder
+  den Code noch die Prüfung des Datenflusses.'
+mechanism: Beschränken Sie den sichtbaren Text auf einen festen Bereich, häufig mithilfe von Ausschnitten oder Auslassungspunkten,
+  und behalten Sie bei Bedarf den Zugriff auf den vollen Wert bei. In einem realen Projekt hängt die genaue Ausprägung von
+  Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Textkürzung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Text Kürzung in der Phase Oberflächenlogik als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Text Kürzung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Textkürzung in der Phase Oberflächenlogik als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Textkürzung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Text Kürzung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Textkürzung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

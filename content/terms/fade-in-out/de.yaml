@@ -1,16 +1,16 @@
-title: Einblend In / Out
-short_definition: Ein transition die ändert opacity zu reveal oder hide Inhalte gradually.
-analogy: 'Für Einblend In / Out hilft ein Vergleich mit einem Werkzeug aus Frontend-Entwicklung: Sein Etikett nennt das Problemfeld;
-  verlässlich wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Ein transition die ändert opacity zu reveal oder hide Inhalte gradually. In einem realen Projekt hängt das genaue
-  Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Einblend In / Out versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen
+title: Ein-/Ausblenden
+short_definition: Ein Übergang, der die Deckkraft ändert, um Inhalte schrittweise anzuzeigen oder auszublenden.
+analogy: 'Für Ein-/Ausblenden hilft ein Bild aus Frontend-Entwicklung: Das Etikett weist auf das Problemfeld, ersetzt aber
+  weder den Code noch die Prüfung des Datenflusses.'
+mechanism: Ein Übergang, der die Deckkraft ändert, um Inhalte schrittweise anzuzeigen oder auszublenden. In einem realen Projekt
+  hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Ein-/Ausblenden versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Einblend In / Out in der Phase Oberflächenlogik als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Einblend In / Out in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Ein-/Ausblenden in der Phase Oberflächenlogik als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Ein-/Ausblenden in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Einblend In / Out als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
-  Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
+common_mistake: Den Begriff Ein-/Ausblenden als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

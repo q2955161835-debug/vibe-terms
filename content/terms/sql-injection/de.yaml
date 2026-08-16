@@ -1,18 +1,18 @@
-title: SQL Injection
-short_definition: Ein vulnerability wo nicht vertrauenswürdig Eingabe ändert the structure von a Datenbank Abfrage instead
-  von remaining Daten.
-analogy: 'Ordne SQL Injection im Bereich Sicherheit & Datenschutz als beschriftetes Werkzeug ein: Die Beschriftung grenzt
-  den Prüfbereich ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein vulnerability wo nicht vertrauenswürdig Eingabe ändert the structure von a Datenbank Abfrage instead von remaining
-  Daten. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
-why_it_matters: Wer SQL Injection versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Sicherheit & Datenschutz benennen
+title: SQL-Injection
+short_definition: Eine Sicherheitslücke, bei der nicht vertrauenswürdige Eingaben die Struktur einer Datenbankabfrage und
+  nicht die verbleibenden Daten ändern.
+analogy: 'Ordne SQL-Injection im Bereich Sicherheit & Datenschutz als Werkzeug ein: Die Bezeichnung grenzt die Frage ein,
+  doch erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine Sicherheitslücke, bei der nicht vertrauenswürdige Eingaben die Struktur einer Datenbankabfrage und nicht die
+  verbleibenden Daten ändern. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer SQL-Injection versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Sicherheit & Datenschutz benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient SQL Injection in der Phase test protect als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie SQL Injection in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir SQL-Injection in der Phase Tests & Schutz als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie SQL-Injection in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff SQL Injection als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff SQL-Injection als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

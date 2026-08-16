@@ -1,15 +1,15 @@
 title: Python
-short_definition: Ein allgemein-purpose programming language known für lesbar syntax und broad use in automation, Daten work,
-  Web backends, und AI.
-analogy: Betrachte Python als Orientierungsschild in computing env. Es weist auf die richtige technische Stelle, ersetzt aber
-  weder die Implementierung noch deren Prüfung.
-mechanism: Ein allgemein-purpose programming language known für lesbar syntax und broad use in automation, Daten work, Web
-  backends, und AI. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe
-  deshalb die konkrete Umsetzung.
-why_it_matters: Wer Python versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in computing env benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Python in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Eine universelle Programmiersprache, die für ihre lesbare Syntax und ihren breiten Einsatz in der Automatisierung,
+  Datenverarbeitung, Web-Backends und KI bekannt ist.
+analogy: Betrachte Python als Orientierung in Computer & Entwicklungsumgebung. Die Bezeichnung führt zur richtigen technischen
+  Stelle, garantiert aber noch keine gute Umsetzung.
+mechanism: Eine universelle Programmiersprache, die für ihre lesbare Syntax und ihren breiten Einsatz in der Automatisierung,
+  Datenverarbeitung, Web-Backends und KI bekannt ist. In einem realen Projekt hängt die genaue Ausprägung von Technologie,
+  Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Python versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Computer & Entwicklungsumgebung benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Python in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Python in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Python als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

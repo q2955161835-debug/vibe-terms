@@ -1,18 +1,18 @@
-title: Benutzer geschichte
-short_definition: Ein short requirement written aus a Benutzer's perspective die Zustände who needs something, what they need,
-  und why it matters.
-analogy: 'Für Benutzer geschichte hilft ein Vergleich mit einem Werkzeug aus Produkt & Anforderungen: Sein Etikett nennt das
-  Problemfeld; verlässlich wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Ein short requirement written aus a Benutzer's perspective die Zustände who needs something, what they need, und
-  why it matters. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe
+title: Benutzergeschichte
+short_definition: Eine kurze Anforderung aus der Sicht eines Benutzers, die angibt, wer etwas braucht, was er braucht und
+  warum es wichtig ist.
+analogy: 'Für Benutzergeschichte hilft ein Bild aus Produkt & Anforderungen: Das Etikett weist auf das Problemfeld, ersetzt
+  aber weder den Code noch die Prüfung des Datenflusses.'
+mechanism: Eine kurze Anforderung aus der Sicht eines Benutzers, die angibt, wer etwas braucht, was er braucht und warum es
+  wichtig ist. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe
   deshalb die konkrete Umsetzung.
-why_it_matters: Wer Benutzer geschichte versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen
+why_it_matters: Wer Benutzergeschichte versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen
   benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Benutzer geschichte in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Benutzer geschichte in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
-  Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Benutzer geschichte als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+project_example: In Vibe Terms begegnet dir Benutzergeschichte in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Benutzergeschichte in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Benutzergeschichte als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

@@ -1,18 +1,18 @@
-title: Image
-short_definition: Visual raster oder vector Inhalte displayed in an Oberfläche mit intentional sizing, crop Verhalten, und
-  alternative Text wo needed.
-analogy: 'Ein praktisches Bild für Image: ein markiertes Werkzeug in ui ux, dessen Aufschrift die Frage schärft, aber keine
-  Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Visual raster oder vector Inhalte displayed in an Oberfläche mit intentional sizing, crop Verhalten, und alternative
-  Text wo needed. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe
-  deshalb die konkrete Umsetzung.
-why_it_matters: Wer Image versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ui ux benennen und von einem KI-Coding-Agenten
-  eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Image in der Phase Design als Lerncheckpoint: Verknüpfe die Definition mit einer sichtbaren
-  Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Image in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+title: Bild
+short_definition: Visuelle Raster- oder Vektorinhalte, die in einer Benutzeroberfläche mit absichtlicher Größenanpassung,
+  Zuschneideverhalten und bei Bedarf alternativem Text angezeigt werden.
+analogy: 'Ein praktischer Vergleich für Bild: ein markiertes Werkzeug in UI/UX & Barrierefreiheit, dessen Zweck erst im Zusammenspiel
+  mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Visuelle Raster- oder Vektorinhalte, die in einer Benutzeroberfläche mit absichtlicher Größenanpassung, Zuschneideverhalten
+  und bei Bedarf alternativem Text angezeigt werden. In einem realen Projekt hängt die genaue Ausprägung von Technologie,
+  Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Bild versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in UI/UX & Barrierefreiheit benennen und
+  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Bild in der Phase Design als Lerncheckpoint. Verknüpfe die Definition mit einer
+  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Bild in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Image als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
-  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
+common_mistake: Den Begriff Bild als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten, Datenfluss,
+  Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

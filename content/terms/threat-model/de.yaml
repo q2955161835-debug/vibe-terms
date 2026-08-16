@@ -1,17 +1,18 @@
-title: Bedrohungs Modell
-short_definition: Ein strukturierte analysis von assets, trust boundaries, attackers, abuse Fälle, und mitigations für a System.
-analogy: Betrachte Bedrohungs Modell als Orientierungsschild in Sicherheit & Datenschutz. Es weist auf die richtige technische
-  Stelle, ersetzt aber weder die Implementierung noch deren Prüfung.
-mechanism: Ein strukturierte analysis von assets, trust boundaries, attackers, abuse Fälle, und mitigations für a System.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Bedrohungs Modell versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Sicherheit & Datenschutz
+title: Bedrohungsmodell
+short_definition: Eine strukturierte Analyse von Vermögenswerten, Vertrauensgrenzen, Angreifern, Missbrauchsfällen und Abhilfemaßnahmen
+  für ein System.
+analogy: Betrachte Bedrohungsmodell als Orientierung in Sicherheit & Datenschutz. Die Bezeichnung führt zur richtigen technischen
+  Stelle, garantiert aber noch keine gute Umsetzung.
+mechanism: Eine strukturierte Analyse von Vermögenswerten, Vertrauensgrenzen, Angreifern, Missbrauchsfällen und Abhilfemaßnahmen
+  für ein System. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe
+  deshalb die konkrete Umsetzung.
+why_it_matters: Wer Bedrohungsmodell versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Sicherheit & Datenschutz
   benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Bedrohungs Modell in der Phase test protect als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Bedrohungs Modell in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Bedrohungsmodell in der Phase Tests & Schutz als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Bedrohungsmodell in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Bedrohungs Modell als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+common_mistake: Den Begriff Bedrohungsmodell als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

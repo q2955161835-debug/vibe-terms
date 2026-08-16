@@ -1,16 +1,18 @@
-title: Build
-short_definition: Die process von turning source Dateien in artifacts die can be run, tested, oder bereitgestellt.
-analogy: 'Ordne Build im Bereich computing env als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich ein,
-  während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Die process von turning source Dateien in artifacts die can be run, tested, oder bereitgestellt. In einem realen
-  Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Build versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in computing env benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Build in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Build in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+title: Bauen
+short_definition: Der Prozess der Umwandlung von Quelldateien in Artefakte, die ausgeführt, getestet oder bereitgestellt werden
+  können.
+analogy: 'Ordne Bauen im Bereich Computer & Entwicklungsumgebung als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch
+  erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Der Prozess der Umwandlung von Quelldateien in Artefakte, die ausgeführt, getestet oder bereitgestellt werden können.
+  In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die
+  konkrete Umsetzung.
+why_it_matters: Wer Bauen versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Computer & Entwicklungsumgebung benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Bauen in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit einer
+  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Bauen in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Build als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Bauen als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

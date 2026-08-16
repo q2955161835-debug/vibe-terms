@@ -1,15 +1,15 @@
 title: Hintergrundjob
-short_definition: Arbeit executed asynchronously outside die Benutzer's foreground Anfrage, solche as sending email oder processing
-  media.
-analogy: 'Ordne Hintergrundjob im Bereich Backend & APIs als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
-  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Arbeit executed asynchronously outside die Benutzer's foreground Anfrage, solche as sending email oder processing
-  media. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
+short_definition: Arbeiten, die asynchron außerhalb der Vordergrundanforderung des Benutzers ausgeführt werden, z. B. das
+  Senden von E-Mails oder das Verarbeiten von Medien.
+analogy: 'Ordne Hintergrundjob im Bereich Backend & APIs als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch erst
+  die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Arbeiten, die asynchron außerhalb der Vordergrundanforderung des Benutzers ausgeführt werden, z. B. das Senden
+  von E-Mails oder das Verarbeiten von Medien. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer Hintergrundjob versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Backend & APIs benennen und
   von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Hintergrundjob in der Phase Daten & Identität als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Hintergrundjob in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Hintergrundjob in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Hintergrundjob als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

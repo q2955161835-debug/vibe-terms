@@ -1,16 +1,18 @@
 title: Flaky Test
-short_definition: Ein Test, der sometimes passes und sometimes fails ohne a meaningful ändern zu the Code under Test.
-analogy: 'Ordne Flaky Test im Bereich testing debugging als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
-  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein Test, der sometimes passes und sometimes fails ohne a meaningful ändern zu the Code under Test. In einem realen
-  Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Flaky Test versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in testing debugging benennen und
-  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Flaky Test in der Phase test protect als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Flaky Test in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+short_definition: Ein Test, der manchmal bestanden wird und manchmal fehlschlägt, ohne dass eine sinnvolle Änderung am zu
+  testenden Code erfolgt.
+analogy: 'Ordne Flockentest im Bereich Testen & Debugging als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch erst
+  die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Ein Test, der manchmal bestanden wird und manchmal fehlschlägt, ohne dass eine sinnvolle Änderung am zu testenden
+  Code erfolgt. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe
+  deshalb die konkrete Umsetzung.
+why_it_matters: Wer Flockentest versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Testen & Debugging benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Flockentest in der Phase Tests & Schutz als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Flockentest in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Flaky Test als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Flockentest als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

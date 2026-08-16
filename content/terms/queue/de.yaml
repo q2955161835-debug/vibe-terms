@@ -1,15 +1,15 @@
 title: Warteschlange
-short_definition: Ein Daten structure oder Dienst die buffers work oder messages so producers und consumers can operate at
-  verschiedene rates.
-analogy: 'Für Warteschlange hilft ein Vergleich mit einem Werkzeug aus backend apis: Sein Etikett nennt das Problemfeld; verlässlich
-  wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Ein Daten structure oder Dienst die buffers work oder messages so producers und consumers can operate at verschiedene
-  rates. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
-why_it_matters: Wer Warteschlange versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in backend apis benennen und
+short_definition: Eine Datenstruktur oder ein Dienst, der Arbeit oder Nachrichten puffert, sodass Produzenten und Verbraucher
+  mit unterschiedlichen Geschwindigkeiten arbeiten können.
+analogy: 'Für Warteschlange hilft ein Bild aus Backend & APIs: Das Etikett weist auf das Problemfeld, ersetzt aber weder den
+  Code noch die Prüfung des Datenflusses.'
+mechanism: Eine Datenstruktur oder ein Dienst, der Arbeit oder Nachrichten puffert, sodass Produzenten und Verbraucher mit
+  unterschiedlichen Geschwindigkeiten arbeiten können. In einem realen Projekt hängt die genaue Ausprägung von Technologie,
+  Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Warteschlange versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Backend & APIs benennen und
   von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Warteschlange in der Phase data identity als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Warteschlange in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Warteschlange in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Warteschlange als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

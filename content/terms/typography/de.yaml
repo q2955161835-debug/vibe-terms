@@ -1,15 +1,15 @@
 title: Typografie
-short_definition: Die System von typefaces, sizes, weights, spacing, line heights, und hierarchy verwendet zu make Text lesbar
-  und meaningful.
-analogy: 'Ein praktisches Bild für Typografie: ein markiertes Werkzeug in Frontend-Entwicklung, dessen Aufschrift die Frage
-  schärft, aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Die System von typefaces, sizes, weights, spacing, line heights, und hierarchy verwendet zu make Text lesbar und
-  meaningful. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
+short_definition: Das System aus Schriftarten, -größen, -stärken, -abständen, -zeilenhöhen und -hierarchien, das verwendet
+  wird, um Text lesbar und aussagekräftig zu machen.
+analogy: 'Ein praktischer Vergleich für Typografie: ein markiertes Werkzeug in Frontend-Entwicklung, dessen Zweck erst im
+  Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Das System aus Schriftarten, -größen, -stärken, -abständen, -zeilenhöhen und -hierarchien, das verwendet wird,
+  um Text lesbar und aussagekräftig zu machen. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer Typografie versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Typografie in der Phase Oberflächenlogik als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Typografie in der Phase Oberflächenlogik als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Typografie in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Typografie als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

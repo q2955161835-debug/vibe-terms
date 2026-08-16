@@ -1,15 +1,15 @@
 title: URI
-short_definition: Ein allgemein identifier für a Ressource; a URL is a kind von URI die also describes how oder wo zu Zugriff
-  it.
-analogy: 'Ordne URI im Bereich web network als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich ein, während
-  erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein allgemein identifier für a Ressource; a URL is a kind von URI die also describes how oder wo zu Zugriff it.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer URI versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in web network benennen und von einem KI-Coding-Agenten
-  eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient URI in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Eine allgemeine Kennung für eine Ressource; Eine URL ist eine Art URI, die auch beschreibt, wie oder wo
+  auf sie zugegriffen werden kann.
+analogy: 'Ordne URI im Bereich Web & Netzwerk als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch erst die konkrete
+  Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine allgemeine Kennung für eine Ressource; Eine URL ist eine Art URI, die auch beschreibt, wie oder wo auf sie
+  zugegriffen werden kann. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer URI versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Web & Netzwerk benennen und von einem
+  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir URI in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit einer
+  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie URI in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere
   nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff URI als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten, Datenfluss,

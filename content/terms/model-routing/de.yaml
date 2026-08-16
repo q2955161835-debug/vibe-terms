@@ -1,18 +1,18 @@
-title: Modell Routing
-short_definition: Selecting among verschiedene Modelle at runtime based auf Aufgabe type, capability, Kosten, latency, oder
-  risk.
-analogy: Betrachte Modell Routing als Orientierungsschild in ai vibe. Es weist auf die richtige technische Stelle, ersetzt
-  aber weder die Implementierung noch deren Prüfung.
-mechanism: Selecting among verschiedene Modelle at runtime based auf Aufgabe type, capability, Kosten, latency, oder risk.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Modell Routing versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ai vibe benennen und von
-  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Modell Routing in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Modell Routing in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+title: Modellrouting
+short_definition: Auswahl zwischen verschiedenen Modellen zur Laufzeit basierend auf Aufgabentyp, Fähigkeit, Kosten, Latenz
+  oder Risiko.
+analogy: Betrachte Modellrouting als Orientierung in KI & Vibe Coding. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Auswahl zwischen verschiedenen Modellen zur Laufzeit basierend auf Aufgabentyp, Fähigkeit, Kosten, Latenz oder
+  Risiko. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
+  die konkrete Umsetzung.
+why_it_matters: Wer Modellrouting versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Modellrouting in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Modellrouting in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Modell Routing als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Modellrouting als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

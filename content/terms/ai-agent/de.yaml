@@ -1,15 +1,15 @@
 title: KI-Agent
-short_definition: Ein KI System die kann repeatedly decide was Aktion zu take, use Werkzeuge, inspect Ergebnisse, und continue
-  toward a goal.
-analogy: Betrachte KI-Agent als Orientierungsschild in KI & Vibe Coding. Es weist auf die richtige technische Stelle, ersetzt
-  aber weder die Implementierung noch deren Prüfung.
-mechanism: Ein KI System die kann repeatedly decide was Aktion zu take, use Werkzeuge, inspect Ergebnisse, und continue toward
-  a goal. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
+short_definition: Ein KI-System, das wiederholt entscheiden kann, welche Maßnahmen ergriffen werden sollen, Tools verwenden,
+  Ergebnisse überprüfen und auf ein Ziel hinarbeiten kann.
+analogy: Betrachte KI-Agent als Orientierung in KI & Vibe Coding. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Ein KI-System, das wiederholt entscheiden kann, welche Maßnahmen ergriffen werden sollen, Tools verwenden, Ergebnisse
+  überprüfen und auf ein Ziel hinarbeiten kann. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer KI-Agent versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen und von
   einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient KI-Agent in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir KI-Agent in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie KI-Agent in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff KI-Agent als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

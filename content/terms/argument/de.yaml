@@ -1,13 +1,15 @@
 title: Argument
-short_definition: Ein Wert passed zu a Befehl, Funktion, oder Programm zu tell it was Daten oder target zu operate auf.
-analogy: 'Ein praktisches Bild für Argument: ein markiertes Werkzeug in Rechenumgebung, dessen Aufschrift die Frage schärft,
-  aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein Wert passed zu a Befehl, Funktion, oder Programm zu tell it was Daten oder target zu operate auf. In einem
-  realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Argument versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Rechenumgebung benennen und von
-  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Argument in der Phase Umgebung als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Ein Wert, der an einen Befehl, eine Funktion oder ein Programm übergeben wird, um ihm mitzuteilen, welche
+  Daten oder welches Ziel bearbeitet werden soll.
+analogy: 'Ein praktischer Vergleich für Argument: ein markiertes Werkzeug in Computer & Entwicklungsumgebung, dessen Zweck
+  erst im Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Ein Wert, der an einen Befehl, eine Funktion oder ein Programm übergeben wird, um ihm mitzuteilen, welche Daten
+  oder welches Ziel bearbeitet werden soll. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Argument versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Computer & Entwicklungsumgebung
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Argument in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Argument in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Argument als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

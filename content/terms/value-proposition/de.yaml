@@ -1,18 +1,18 @@
-title: Wert versprechen
-short_definition: Ein concise explanation von who a product helps, what valuable outcome it enables, und why it is preferable
-  zu alternatives.
-analogy: 'Ordne Wert versprechen im Bereich Produkt & Anforderungen als beschriftetes Werkzeug ein: Die Beschriftung grenzt
-  den Prüfbereich ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein concise explanation von who a product helps, what valuable outcome it enables, und why it is preferable zu
-  alternatives. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe
+title: Wertversprechen
+short_definition: Eine prägnante Erklärung, wem ein Produkt hilft, welche wertvollen Ergebnisse es ermöglicht und warum es
+  Alternativen vorzuziehen ist.
+analogy: 'Ordne Wertversprechen im Bereich Produkt & Anforderungen als Werkzeug ein: Die Bezeichnung grenzt die Frage ein,
+  doch erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine prägnante Erklärung, wem ein Produkt hilft, welche wertvollen Ergebnisse es ermöglicht und warum es Alternativen
+  vorzuziehen ist. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe
   deshalb die konkrete Umsetzung.
-why_it_matters: Wer Wert versprechen versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen
+why_it_matters: Wer Wertversprechen versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen
   benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Wert versprechen in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Wert versprechen in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Wertversprechen in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Wertversprechen in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Wert versprechen als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
-  Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
+common_mistake: Den Begriff Wertversprechen als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

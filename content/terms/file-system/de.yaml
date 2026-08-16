@@ -1,17 +1,18 @@
-title: datei System
-short_definition: Die operating-System structure verwendet zu name, organize, speichern, und retrieve Dateien und directories.
-analogy: Betrachte datei System als Orientierungsschild in computing env. Es weist auf die richtige technische Stelle, ersetzt
-  aber weder die Implementierung noch deren Prüfung.
-mechanism: Die operating-System structure verwendet zu name, organize, speichern, und retrieve Dateien und directories. In
-  einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer datei System versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in computing env benennen und
-  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient datei System in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie datei System in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+title: Dateisystem
+short_definition: Die Betriebssystemstruktur, die zum Benennen, Organisieren, Speichern und Abrufen von Dateien und Verzeichnissen
+  verwendet wird.
+analogy: Betrachte Dateisystem als Orientierung in Computer & Entwicklungsumgebung. Die Bezeichnung führt zur richtigen technischen
+  Stelle, garantiert aber noch keine gute Umsetzung.
+mechanism: Die Betriebssystemstruktur, die zum Benennen, Organisieren, Speichern und Abrufen von Dateien und Verzeichnissen
+  verwendet wird. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe
+  deshalb die konkrete Umsetzung.
+why_it_matters: Wer Dateisystem versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Computer & Entwicklungsumgebung
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Dateisystem in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Dateisystem in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff datei System als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Dateisystem als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

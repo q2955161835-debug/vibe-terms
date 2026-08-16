@@ -1,13 +1,15 @@
 title: Container
-short_definition: Ein isolated Anwendung process packaged mit its userspace dependencies und run by a container runtime.
-analogy: 'Ein praktisches Bild für Container: ein markiertes Werkzeug in deployment operations, dessen Aufschrift die Frage
-  schärft, aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein isolated Anwendung process packaged mit its userspace dependencies und run by a container runtime. In einem
-  realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Container versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in deployment operations benennen
+short_definition: Ein isolierter Anwendungsprozess, der mit seinen Userspace-Abhängigkeiten verpackt und von einer Containerlaufzeit
+  ausgeführt wird.
+analogy: 'Ein praktischer Vergleich für Container: ein markiertes Werkzeug in Deployment & Betrieb, dessen Zweck erst im Zusammenspiel
+  mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Ein isolierter Anwendungsprozess, der mit seinen Userspace-Abhängigkeiten verpackt und von einer Containerlaufzeit
+  ausgeführt wird. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe
+  deshalb die konkrete Umsetzung.
+why_it_matters: Wer Container versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Deployment & Betrieb benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Container in der Phase deploy maintain als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Container in der Phase Deployment & Wartung als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Container in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Container als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

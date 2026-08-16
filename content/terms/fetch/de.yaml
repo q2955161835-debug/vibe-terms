@@ -1,15 +1,15 @@
 title: Fetch
-short_definition: Downloading commits, objects, und aktualisiert remote refs ohne automatically changing the aktuelle working
-  branch.
-analogy: Betrachte Fetch als Orientierungsschild in git collaboration. Es weist auf die richtige technische Stelle, ersetzt
-  aber weder die Implementierung noch deren Prüfung.
-mechanism: Downloading commits, objects, und aktualisiert remote refs ohne automatically changing the aktuelle working branch.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Fetch versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in git collaboration benennen und von
-  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Fetch in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Herunterladen von Commits, Objekten und aktualisierten Remote-Referenzen, ohne automatisch den aktuellen
+  Arbeitszweig zu ändern.
+analogy: Betrachte Fetch als Orientierung in Git & Zusammenarbeit. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Herunterladen von Commits, Objekten und aktualisierten Remote-Referenzen, ohne automatisch den aktuellen Arbeitszweig
+  zu ändern. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
+  die konkrete Umsetzung.
+why_it_matters: Wer Fetch versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Git & Zusammenarbeit benennen und
+  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Fetch in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Fetch in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Fetch als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

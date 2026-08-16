@@ -1,18 +1,18 @@
-title: HTTP Kopfzeile
-short_definition: Metadata attached zu an HTTP Anfrage oder Antwort die carries Informationen such as Inhalte type, caching,
-  authentication, oder cookies.
-analogy: Betrachte HTTP Kopfzeile als Orientierungsschild in web network. Es weist auf die richtige technische Stelle, ersetzt
-  aber weder die Implementierung noch deren Prüfung.
-mechanism: Metadata attached zu an HTTP Anfrage oder Antwort die carries Informationen such as Inhalte type, caching, authentication,
-  oder cookies. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe
-  deshalb die konkrete Umsetzung.
-why_it_matters: Wer HTTP Kopfzeile versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in web network benennen und
+title: HTTP-Header
+short_definition: An eine HTTP-Anfrage oder -Antwort angehängte Metadaten, die Informationen wie Inhaltstyp, Caching, Authentifizierung
+  oder Cookies enthalten.
+analogy: Betrachte HTTP-Header als Orientierung in Web & Netzwerk. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: An eine HTTP-Anfrage oder -Antwort angehängte Metadaten, die Informationen wie Inhaltstyp, Caching, Authentifizierung
+  oder Cookies enthalten. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer HTTP-Header versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Web & Netzwerk benennen und
   von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient HTTP Kopfzeile in der Phase environment als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie HTTP Kopfzeile in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir HTTP-Header in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie HTTP-Header in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff HTTP Kopfzeile als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff HTTP-Header als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

@@ -1,18 +1,18 @@
-title: Agentischer Workflow
-short_definition: Ein Workflow in die KI Komponenten kann plan, invoke Werkzeuge, Branch auf Ergebnisse, und complete multi-Schritt
-  Arbeit mit bounded autonomy.
-analogy: 'Ein praktisches Bild für Agentischer Workflow: ein markiertes Werkzeug in KI & Vibe Coding, dessen Aufschrift die
-  Frage schärft, aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein Workflow in die KI Komponenten kann plan, invoke Werkzeuge, Branch auf Ergebnisse, und complete multi-Schritt
-  Arbeit mit bounded autonomy. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss
-  ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Agentischer Workflow versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen
+title: Agenten-Workflow
+short_definition: Ein Workflow, in dem KI-Komponenten mit begrenzter Autonomie planen, Tools aufrufen, Ergebnisse verzweigen
+  und mehrstufige Arbeiten abschließen können.
+analogy: 'Ein praktischer Vergleich für Agenten-Workflow: ein markiertes Werkzeug in KI & Vibe Coding, dessen Zweck erst im
+  Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Ein Workflow, in dem KI-Komponenten mit begrenzter Autonomie planen, Tools aufrufen, Ergebnisse verzweigen und
+  mehrstufige Arbeiten abschließen können. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Agenten-Workflow versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Agentischer Workflow in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Agentischer Workflow in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
-  Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Agentischer Workflow als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+project_example: In Vibe Terms begegnet dir Agenten-Workflow in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Agenten-Workflow in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Agenten-Workflow als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

@@ -1,16 +1,16 @@
 title: Rahmenradius
-short_definition: die CSS Eigenschaft die rounds die corners von an Element's Rahmen box.
-analogy: 'Ein praktisches Bild für Rahmenradius: ein markiertes Werkzeug in Frontend-Entwicklung, dessen Aufschrift die Frage
-  schärft, aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: die CSS Eigenschaft die rounds die corners von an Element's Rahmen box. In einem realen Projekt hängt das genaue
-  Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Rahmenradius versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen
+short_definition: Die CSS-Eigenschaft, die die Ecken des Rahmenrahmens eines Elements abrundet.
+analogy: 'Ein praktischer Vergleich für Grenzradius: ein markiertes Werkzeug in Frontend-Entwicklung, dessen Zweck erst im
+  Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Die CSS-Eigenschaft, die die Ecken des Rahmenrahmens eines Elements abrundet. In einem realen Projekt hängt die
+  genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Grenzradius versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Rahmenradius in der Phase Oberflächenlogik als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Rahmenradius in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Grenzradius in der Phase Oberflächenlogik als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Grenzradius in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Rahmenradius als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Grenzradius als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

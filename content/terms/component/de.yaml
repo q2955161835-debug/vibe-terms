@@ -1,15 +1,15 @@
 title: Komponente
-short_definition: Ein reusable, self-contained Oberfläche Erstellen block mit a definiert purpose, inputs, Zustand, und rendered
-  Ausgabe.
-analogy: 'Ein praktisches Bild für Komponente: ein markiertes Werkzeug in Frontend-Entwicklung, dessen Aufschrift die Frage
-  schärft, aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein reusable, self-contained Oberfläche Erstellen block mit a definiert purpose, inputs, Zustand, und rendered
-  Ausgabe. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
+short_definition: Ein wiederverwendbarer, eigenständiger Schnittstellenbaustein mit definiertem Zweck, definierten Eingaben,
+  Status und gerenderter Ausgabe.
+analogy: 'Ein praktischer Vergleich für Komponente: ein markiertes Werkzeug in Frontend-Entwicklung, dessen Zweck erst im
+  Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Ein wiederverwendbarer, eigenständiger Schnittstellenbaustein mit definiertem Zweck, definierten Eingaben, Status
+  und gerenderter Ausgabe. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer Komponente versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Komponente in der Phase Oberflächenlogik als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Komponente in der Phase Oberflächenlogik als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Komponente in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Komponente als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

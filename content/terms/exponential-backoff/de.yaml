@@ -1,17 +1,18 @@
-title: Exponentielles Backoff
-short_definition: Ein retry strategy die increases the delay nach jede Fehlerfall zu reduce pressure auf an unavailable Dienst.
-analogy: 'Ordne Exponentielles Backoff im Bereich backend apis als beschriftetes Werkzeug ein: Die Beschriftung grenzt den
-  Prüfbereich ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein retry strategy die increases the delay nach jede Fehlerfall zu reduce pressure auf an unavailable Dienst. In
-  einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Exponentielles Backoff versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in backend apis benennen
+title: Exponentieller Backoff
+short_definition: Eine Wiederholungsstrategie, die die Verzögerung nach jedem Fehler erhöht, um die Belastung eines nicht
+  verfügbaren Dienstes zu verringern.
+analogy: 'Ordne Exponentieller Backoff im Bereich Backend & APIs als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch
+  erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine Wiederholungsstrategie, die die Verzögerung nach jedem Fehler erhöht, um die Belastung eines nicht verfügbaren
+  Dienstes zu verringern. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Exponentieller Backoff versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Backend & APIs benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Exponentielles Backoff in der Phase data identity als Lerncheckpoint: Verknüpfe die
-  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Exponentielles Backoff in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
+project_example: In Vibe Terms begegnet dir Exponentieller Backoff in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe
+  die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Exponentieller Backoff in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
   Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Exponentielles Backoff als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+common_mistake: Den Begriff Exponentieller Backoff als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

@@ -1,16 +1,17 @@
-title: One-to-many
-short_definition: Ein relationship wo eine parent Datensatz may correspond zu many child Datensätze.
-analogy: 'Ordne One-to-many im Bereich data databases als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
-  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein relationship wo eine parent Datensatz may correspond zu many child Datensätze. In einem realen Projekt hängt
-  das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer One-to-many versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in data databases benennen und
-  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient One-to-many in der Phase data identity als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie One-to-many in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+title: Eins-zu-viele
+short_definition: Eine Beziehung, bei der ein übergeordneter Datensatz vielen untergeordneten Datensätzen entsprechen kann.
+analogy: 'Ordne Eins-zu-viele im Bereich Daten & Datenbanken als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch
+  erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine Beziehung, bei der ein übergeordneter Datensatz vielen untergeordneten Datensätzen entsprechen kann. In einem
+  realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
+  Umsetzung.
+why_it_matters: Wer Eins-zu-viele versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Daten & Datenbanken benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Eins-zu-viele in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Eins-zu-viele in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff One-to-many als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Eins-zu-viele als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

@@ -1,15 +1,15 @@
 title: Monitoring
-short_definition: Collecting und evaluating System signals zu detect Fehlerfälle, degradation, capacity problems, oder important
-  business-impacting ändert.
-analogy: Betrachte Monitoring als Orientierungsschild in deployment operations. Es weist auf die richtige technische Stelle,
-  ersetzt aber weder die Implementierung noch deren Prüfung.
-mechanism: Collecting und evaluating System signals zu detect Fehlerfälle, degradation, capacity problems, oder important
-  business-impacting ändert. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss
+short_definition: Sammeln und Auswerten von Systemsignalen, um Ausfälle, Beeinträchtigungen, Kapazitätsprobleme oder wichtige
+  geschäftsrelevante Änderungen zu erkennen.
+analogy: Betrachte Monitoring als Orientierung in Deployment & Betrieb. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Sammeln und Auswerten von Systemsignalen, um Ausfälle, Beeinträchtigungen, Kapazitätsprobleme oder wichtige geschäftsrelevante
+  Änderungen zu erkennen. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
   ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Monitoring versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in deployment operations benennen
+why_it_matters: Wer Monitoring versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Deployment & Betrieb benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Monitoring in der Phase deploy maintain als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Monitoring in der Phase Deployment & Wartung als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Monitoring in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Monitoring als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

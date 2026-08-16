@@ -1,18 +1,18 @@
-title: Kurzzeit Speicher
-short_definition: Temporary Aufgabe Zustand verwendet during a session oder workflow und usually discarded oder summarized
-  afterward.
-analogy: 'Ein praktisches Bild für Kurzzeit Speicher: ein markiertes Werkzeug in ai vibe, dessen Aufschrift die Frage schärft,
-  aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Temporary Aufgabe Zustand verwendet during a session oder workflow und usually discarded oder summarized afterward.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Kurzzeit Speicher versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ai vibe benennen und von
-  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Kurzzeit Speicher in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Kurzzeit Speicher in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+title: Kurzzeitgedächtnis
+short_definition: Temporärer Aufgabenstatus, der während einer Sitzung oder eines Workflows verwendet und anschließend normalerweise
+  verworfen oder zusammengefasst wird.
+analogy: 'Ein praktischer Vergleich für Kurzzeitgedächtnis: ein markiertes Werkzeug in KI & Vibe Coding, dessen Zweck erst
+  im Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Temporärer Aufgabenstatus, der während einer Sitzung oder eines Workflows verwendet und anschließend normalerweise
+  verworfen oder zusammengefasst wird. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Kurzzeitgedächtnis versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Kurzzeitgedächtnis in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Kurzzeitgedächtnis in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Kurzzeit Speicher als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+common_mistake: Den Begriff Kurzzeitgedächtnis als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

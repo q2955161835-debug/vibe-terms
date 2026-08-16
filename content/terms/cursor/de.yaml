@@ -1,14 +1,14 @@
 title: Cursor
-short_definition: Die pointer graphic displayed by the operating System oder Browser zu indicate the aktuelle pointing context.
-analogy: Betrachte Cursor als Orientierungsschild in Frontend-Entwicklung. Es weist auf die richtige technische Stelle, ersetzt
-  aber weder die Implementierung noch deren Prüfung.
-mechanism: Die pointer graphic displayed by the operating System oder Browser zu indicate the aktuelle pointing context. In
-  einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
+short_definition: Die vom Betriebssystem oder Browser angezeigte Zeigergrafik, um den aktuellen Zeigekontext anzuzeigen.
+analogy: Betrachte Cursor als Orientierung in Frontend-Entwicklung. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Die vom Betriebssystem oder Browser angezeigte Zeigergrafik, um den aktuellen Zeigekontext anzuzeigen. In einem
+  realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
   Umsetzung.
 why_it_matters: Wer Cursor versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen und
   von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Cursor in der Phase Oberflächenlogik als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Cursor in der Phase Oberflächenlogik als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Cursor in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Cursor als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

@@ -1,18 +1,18 @@
 title: Proxy
-short_definition: Ein intermediary die forwards traffic zwischen a Client und another Dienst, often für policy, caching, Datenschutz,
-  oder routing.
-analogy: Betrachte Proxy als Orientierungsschild in web network. Es weist auf die richtige technische Stelle, ersetzt aber
-  weder die Implementierung noch deren Prüfung.
-mechanism: Ein intermediary die forwards traffic zwischen a Client und another Dienst, often für policy, caching, Datenschutz,
-  oder routing. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe
-  deshalb die konkrete Umsetzung.
-why_it_matters: Wer Proxy versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in web network benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Proxy in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Proxy in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+short_definition: Ein Vermittler, der Datenverkehr zwischen einem Client und einem anderen Dienst weiterleitet, häufig für
+  Richtlinien, Caching, Datenschutz oder Routing.
+analogy: Betrachte Stellvertreter als Orientierung in Web & Netzwerk. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Ein Vermittler, der Datenverkehr zwischen einem Client und einem anderen Dienst weiterleitet, häufig für Richtlinien,
+  Caching, Datenschutz oder Routing. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und
+  Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Stellvertreter versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Web & Netzwerk benennen und
+  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Stellvertreter in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Stellvertreter in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Proxy als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Stellvertreter als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

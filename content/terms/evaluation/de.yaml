@@ -1,18 +1,18 @@
 title: Evaluation
-short_definition: Ein repeatable process für measuring how well a Modell oder AI System performs against definiert examples,
-  criteria, oder graders.
-analogy: 'Ordne Evaluation im Bereich ai vibe als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich ein,
-  während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein repeatable process für measuring how well a Modell oder AI System performs against definiert examples, criteria,
-  oder graders. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe
-  deshalb die konkrete Umsetzung.
-why_it_matters: Wer Evaluation versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ai vibe benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Evaluation in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Evaluation in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+short_definition: Ein wiederholbarer Prozess zur Messung der Leistung eines Modells oder KI-Systems anhand definierter Beispiele,
+  Kriterien oder Bewerter.
+analogy: 'Ordne Auswertung im Bereich KI & Vibe Coding als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch erst die
+  konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Ein wiederholbarer Prozess zur Messung der Leistung eines Modells oder KI-Systems anhand definierter Beispiele,
+  Kriterien oder Bewerter. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Auswertung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen und
+  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Auswertung in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Auswertung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Evaluation als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Auswertung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

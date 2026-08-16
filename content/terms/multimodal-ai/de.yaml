@@ -1,18 +1,18 @@
-title: Multimodal AI
-short_definition: Ein AI System die can work mit mehr than eine kind von Eingabe oder Ausgabe, such as Text, images, audio,
-  oder video.
-analogy: 'Ein praktisches Bild für Multimodal AI: ein markiertes Werkzeug in ai vibe, dessen Aufschrift die Frage schärft,
-  aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein AI System die can work mit mehr than eine kind von Eingabe oder Ausgabe, such as Text, images, audio, oder
-  video. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
+title: Multimodale KI
+short_definition: Ein KI-System, das mit mehr als einer Art von Eingabe oder Ausgabe arbeiten kann, z. B. Text, Bilder, Audio
+  oder Video.
+analogy: 'Ein praktischer Vergleich für Multimodale KI: ein markiertes Werkzeug in KI & Vibe Coding, dessen Zweck erst im
+  Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Ein KI-System, das mit mehr als einer Art von Eingabe oder Ausgabe arbeiten kann, z. B. Text, Bilder, Audio oder
+  Video. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
   die konkrete Umsetzung.
-why_it_matters: Wer Multimodal AI versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ai vibe benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Multimodal AI in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Multimodal AI in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+why_it_matters: Wer Multimodale KI versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Multimodale KI in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Multimodale KI in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Multimodal AI als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Multimodale KI als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

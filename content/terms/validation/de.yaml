@@ -1,13 +1,15 @@
 title: Validierung
-short_definition: Prüfen Eingabe oder Daten against explizite Regeln vor accepting, processing, oder storing it.
-analogy: 'Ein praktisches Bild für Validierung: ein markiertes Werkzeug in backend apis, dessen Aufschrift die Frage schärft,
-  aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Prüfen Eingabe oder Daten against explizite Regeln vor accepting, processing, oder storing it. In einem realen
-  Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Validierung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in backend apis benennen und von
-  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Validierung in der Phase data identity als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Überprüfung von Eingaben oder Daten anhand expliziter Regeln, bevor diese angenommen, verarbeitet oder gespeichert
+  werden.
+analogy: 'Ein praktischer Vergleich für Validierung: ein markiertes Werkzeug in Backend & APIs, dessen Zweck erst im Zusammenspiel
+  mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Überprüfung von Eingaben oder Daten anhand expliziter Regeln, bevor diese angenommen, verarbeitet oder gespeichert
+  werden. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
+  die konkrete Umsetzung.
+why_it_matters: Wer Validierung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Backend & APIs benennen und
+  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Validierung in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Validierung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Validierung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

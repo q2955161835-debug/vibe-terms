@@ -1,13 +1,14 @@
 title: Datensatz
-short_definition: eine gespeichert item representing an entity, event, oder fact in a dataset.
-analogy: 'Ein praktisches Bild für Datensatz: ein markiertes Werkzeug in data databases, dessen Aufschrift die Frage schärft,
-  aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: eine gespeichert item representing an entity, event, oder fact in a dataset. In einem realen Projekt hängt das
-  genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Datensatz versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in data databases benennen und von
-  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Datensatz in der Phase data identity als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Ein gespeichertes Element, das eine Entität, ein Ereignis oder einen Fakt in einem Datensatz darstellt.
+analogy: 'Ein praktischer Vergleich für Datensatz: ein markiertes Werkzeug in Daten & Datenbanken, dessen Zweck erst im
+  Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Ein gespeichertes Element, das eine Entität, ein Ereignis oder einen Fakt in einem Datensatz darstellt. In einem
+  realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
+  Umsetzung.
+why_it_matters: Wer Datensatz versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Daten & Datenbanken benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Datensatz in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Datensatz in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Datensatz als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

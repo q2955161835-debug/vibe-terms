@@ -1,18 +1,18 @@
-title: Leitplanke Metrik
-short_definition: Ein Metrik monitored zu sicherstellen die improving a target Metrik does not erstellen unacceptable harm
-  elsewhere.
-analogy: 'Ordne Leitplanke Metrik im Bereich Produkt & Anforderungen als beschriftetes Werkzeug ein: Die Beschriftung grenzt
-  den Prüfbereich ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein Metrik monitored zu sicherstellen die improving a target Metrik does not erstellen unacceptable harm elsewhere.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Leitplanke Metrik versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen
+title: Leitplanken-Metrik
+short_definition: Eine überwachte Metrik, um sicherzustellen, dass die Verbesserung einer Zielmetrik an anderer Stelle keinen
+  inakzeptablen Schaden verursacht.
+analogy: 'Ordne Leitplanken-Metrik im Bereich Produkt & Anforderungen als Werkzeug ein: Die Bezeichnung grenzt die Frage ein,
+  doch erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine überwachte Metrik, um sicherzustellen, dass die Verbesserung einer Zielmetrik an anderer Stelle keinen inakzeptablen
+  Schaden verursacht. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab;
+  prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Leitplanken-Metrik versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen
   benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Leitplanke Metrik in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Leitplanke Metrik in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Leitplanken-Metrik in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Leitplanken-Metrik in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Leitplanke Metrik als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+common_mistake: Den Begriff Leitplanken-Metrik als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

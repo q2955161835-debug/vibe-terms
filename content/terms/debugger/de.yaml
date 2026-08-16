@@ -1,15 +1,15 @@
 title: Debugger
-short_definition: Ein Werkzeug, das pauses und inspects a running program so variables, call stacks, und execution flow can
-  be examined.
-analogy: 'Für Debugger hilft ein Vergleich mit einem Werkzeug aus testing debugging: Sein Etikett nennt das Problemfeld; verlässlich
-  wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Ein Werkzeug, das pauses und inspects a running program so variables, call stacks, und execution flow can be examined.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Debugger versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in testing debugging benennen und
+short_definition: Ein Tool, das ein laufendes Programm anhält und überprüft, damit Variablen, Aufrufstapel und Ausführungsfluss
+  untersucht werden können.
+analogy: 'Für Debugger hilft ein Bild aus Testen & Debugging: Das Etikett weist auf das Problemfeld, ersetzt aber weder den
+  Code noch die Prüfung des Datenflusses.'
+mechanism: Ein Tool, das ein laufendes Programm anhält und überprüft, damit Variablen, Aufrufstapel und Ausführungsfluss untersucht
+  werden können. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe
+  deshalb die konkrete Umsetzung.
+why_it_matters: Wer Debugger versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Testen & Debugging benennen und
   von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Debugger in der Phase test protect als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Debugger in der Phase Tests & Schutz als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Debugger in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Debugger als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

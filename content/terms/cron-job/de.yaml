@@ -1,17 +1,18 @@
-title: Cron Job
-short_definition: Ein Aufgabe scheduled zu run at recurring times oder intervals unter Verwendung von a cron-style scheduler.
-analogy: Betrachte Cron Job als Orientierungsschild in backend apis. Es weist auf die richtige technische Stelle, ersetzt
-  aber weder die Implementierung noch deren Prüfung.
-mechanism: Ein Aufgabe scheduled zu run at recurring times oder intervals unter Verwendung von a cron-style scheduler. In
-  einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Cron Job versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in backend apis benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Cron Job in der Phase data identity als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Cron Job in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+title: Cron-Job
+short_definition: Eine Aufgabe, deren Ausführung zu wiederkehrenden Zeiten oder in regelmäßigen Abständen mithilfe eines Cron-Planers
+  geplant ist.
+analogy: Betrachte Cron-Job als Orientierung in Backend & APIs. Die Bezeichnung führt zur richtigen technischen Stelle, garantiert
+  aber noch keine gute Umsetzung.
+mechanism: Eine Aufgabe, deren Ausführung zu wiederkehrenden Zeiten oder in regelmäßigen Abständen mithilfe eines Cron-Planers
+  geplant ist. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe
+  deshalb die konkrete Umsetzung.
+why_it_matters: Wer Cron-Job versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Backend & APIs benennen und von
+  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Cron-Job in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Cron-Job in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Cron Job als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Cron-Job als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

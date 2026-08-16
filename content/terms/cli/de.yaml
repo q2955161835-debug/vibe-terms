@@ -1,15 +1,15 @@
 title: CLI
-short_definition: Ein command-line Oberfläche die lets Benutzer control a program by typing commands und options instead von
-  unter Verwendung von a graphical Oberfläche.
-analogy: 'Ordne CLI im Bereich computing env als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich ein,
-  während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein command-line Oberfläche die lets Benutzer control a program by typing commands und options instead von unter
-  Verwendung von a graphical Oberfläche. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration
-  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer CLI versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in computing env benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient CLI in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Eine Befehlszeilenschnittstelle, mit der Benutzer ein Programm durch die Eingabe von Befehlen und Optionen
+  steuern können, anstatt eine grafische Oberfläche zu verwenden.
+analogy: 'Ordne CLI im Bereich Computer & Entwicklungsumgebung als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch
+  erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine Befehlszeilenschnittstelle, mit der Benutzer ein Programm durch die Eingabe von Befehlen und Optionen steuern
+  können, anstatt eine grafische Oberfläche zu verwenden. In einem realen Projekt hängt die genaue Ausprägung von Technologie,
+  Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer CLI versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Computer & Entwicklungsumgebung benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir CLI in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit einer
+  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie CLI in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere
   nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff CLI als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten, Datenfluss,

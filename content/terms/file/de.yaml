@@ -1,18 +1,18 @@
-title: datei
-short_definition: Ein UI representation von an attachment oder gespeichert Datei die exposes useful metadata und relevante
-  actions.
-analogy: 'Ordne datei im Bereich ui ux als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich ein, während
-  erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein UI representation von an attachment oder gespeichert Datei die exposes useful metadata und relevante actions.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer datei versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ui ux benennen und von einem KI-Coding-Agenten
-  eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient datei in der Phase Design als Lerncheckpoint: Verknüpfe die Definition mit einer sichtbaren
-  Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie datei in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+title: Datei
+short_definition: Eine UI-Darstellung eines Anhangs oder einer gespeicherten Datei, die nützliche Metadaten und relevante
+  Aktionen verfügbar macht.
+analogy: 'Ordne Datei im Bereich UI/UX & Barrierefreiheit als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch erst
+  die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine UI-Darstellung eines Anhangs oder einer gespeicherten Datei, die nützliche Metadaten und relevante Aktionen
+  verfügbar macht. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe
+  deshalb die konkrete Umsetzung.
+why_it_matters: Wer Datei versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in UI/UX & Barrierefreiheit benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Datei in der Phase Design als Lerncheckpoint. Verknüpfe die Definition mit einer
+  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Datei in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff datei als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Datei als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

@@ -1,18 +1,18 @@
-title: Request Handler
-short_definition: Server Code responsible für receiving a Anfrage, validating oder transforming Eingabe, invoking logic, und
-  producing a Antwort.
-analogy: 'Ordne Request Handler im Bereich backend apis als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
-  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Server Code responsible für receiving a Anfrage, validating oder transforming Eingabe, invoking logic, und producing
-  a Antwort. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
-why_it_matters: Wer Request Handler versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in backend apis benennen und
-  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Request Handler in der Phase data identity als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Request Handler in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
-  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Request Handler als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
-  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
+title: Request-Handler
+short_definition: Servercode, der dafür verantwortlich ist, eine Anfrage zu empfangen, Eingaben zu validieren oder umzuwandeln,
+  Logik aufzurufen und eine Antwort zu erzeugen.
+analogy: 'Ordne Anforderungshandler im Bereich Backend & APIs als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch
+  erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Servercode, der dafür verantwortlich ist, eine Anfrage zu empfangen, Eingaben zu validieren oder umzuwandeln, Logik
+  aufzurufen und eine Antwort zu erzeugen. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Anforderungshandler versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Backend & APIs benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Anforderungshandler in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe
+  die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Anforderungshandler in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
+  Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Anforderungshandler als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+  Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

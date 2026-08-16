@@ -1,13 +1,15 @@
 title: Semantische Suche
-short_definition: Search die uses meaning oder embeddings rather than relying nur auf genau keyword gleicht ab.
-analogy: 'Ein praktisches Bild für Semantische Suche: ein markiertes Werkzeug in ai vibe, dessen Aufschrift die Frage schärft,
-  aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Search die uses meaning oder embeddings rather than relying nur auf genau keyword gleicht ab. In einem realen Projekt
-  hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Semantische Suche versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ai vibe benennen und von
-  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Semantische Suche in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Suche, die Bedeutung oder Einbettungen verwendet, anstatt sich nur auf exakte Schlüsselwortübereinstimmungen
+  zu verlassen.
+analogy: 'Ein praktischer Vergleich für Semantische Suche: ein markiertes Werkzeug in KI & Vibe Coding, dessen Zweck erst
+  im Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Suche, die Bedeutung oder Einbettungen verwendet, anstatt sich nur auf exakte Schlüsselwortübereinstimmungen zu
+  verlassen. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
+  die konkrete Umsetzung.
+why_it_matters: Wer Semantische Suche versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Semantische Suche in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Semantische Suche in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Semantische Suche als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches

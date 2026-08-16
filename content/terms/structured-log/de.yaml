@@ -1,16 +1,17 @@
-title: Strukturiert Protokoll
-short_definition: Ein log event gespeichert in machine-lesbar Felder rather than nur free-form Text.
-analogy: 'Ordne Strukturiert Protokoll im Bereich testing debugging als beschriftetes Werkzeug ein: Die Beschriftung grenzt
-  den Prüfbereich ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein log event gespeichert in machine-lesbar Felder rather than nur free-form Text. In einem realen Projekt hängt
-  das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Strukturiert Protokoll versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in testing debugging
+title: Strukturiertes Protokoll
+short_definition: Ein Protokollereignis, das in maschinenlesbaren Feldern und nicht nur in freiem Text gespeichert wird.
+analogy: 'Ordne Strukturiertes Protokoll im Bereich Testen & Debugging als Werkzeug ein: Die Bezeichnung grenzt die Frage
+  ein, doch erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Ein Protokollereignis, das in maschinenlesbaren Feldern und nicht nur in freiem Text gespeichert wird. In einem
+  realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
+  Umsetzung.
+why_it_matters: Wer Strukturiertes Protokoll versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Testen & Debugging
   benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Strukturiert Protokoll in der Phase test protect als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Strukturiert Protokoll in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
-  Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Strukturiert Protokoll als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+project_example: In Vibe Terms begegnet dir Strukturiertes Protokoll in der Phase Tests & Schutz als Lerncheckpoint. Verknüpfe
+  die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Strukturiertes Protokoll in diesem Projekt angewendet wird. Nenne die betroffenen Dateien
+  oder Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Strukturiertes Protokoll als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

@@ -1,15 +1,15 @@
 title: Zustand
-short_definition: Daten representing the aktuelle condition von an Oberfläche oder Anwendung die can ändern over Zeit und
-  affect Verhalten oder rendering.
-analogy: 'Für Zustand hilft ein Vergleich mit einem Werkzeug aus Frontend-Entwicklung: Sein Etikett nennt das Problemfeld;
-  verlässlich wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Daten representing the aktuelle condition von an Oberfläche oder Anwendung die can ändern over Zeit und affect
-  Verhalten oder rendering. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss
-  ab; prüfe deshalb die konkrete Umsetzung.
+short_definition: Daten, die den aktuellen Zustand einer Schnittstelle oder Anwendung darstellen und sich im Laufe der Zeit
+  ändern und das Verhalten oder die Darstellung beeinflussen können.
+analogy: 'Für Zustand hilft ein Bild aus Frontend-Entwicklung: Das Etikett weist auf das Problemfeld, ersetzt aber weder den
+  Code noch die Prüfung des Datenflusses.'
+mechanism: Daten, die den aktuellen Zustand einer Schnittstelle oder Anwendung darstellen und sich im Laufe der Zeit ändern
+  und das Verhalten oder die Darstellung beeinflussen können. In einem realen Projekt hängt die genaue Ausprägung von Technologie,
+  Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer Zustand versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen und
   von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Zustand in der Phase Oberflächenlogik als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Zustand in der Phase Oberflächenlogik als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Zustand in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Zustand als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

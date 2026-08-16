@@ -1,13 +1,13 @@
 title: API
-short_definition: Ein definiert way für eine piece von Software zu Anfrage Daten oder Aktionen aus ein anderer.
-analogy: Betrachte API als Orientierungsschild in Backend & APIs. Es weist auf die richtige technische Stelle, ersetzt aber
-  weder die Implementierung noch deren Prüfung.
-mechanism: Ein definiert way für eine piece von Software zu Anfrage Daten oder Aktionen aus ein anderer. In einem realen Projekt
-  hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+short_definition: Eine definierte Möglichkeit für eine Software, Daten oder Aktionen von einer anderen anzufordern.
+analogy: Betrachte API als Orientierung in Backend & APIs. Die Bezeichnung führt zur richtigen technischen Stelle, garantiert
+  aber noch keine gute Umsetzung.
+mechanism: Eine definierte Möglichkeit für eine Software, Daten oder Aktionen von einer anderen anzufordern. In einem realen
+  Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer API versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Backend & APIs benennen und von einem
   KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient API in der Phase Daten & Identität als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir API in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie API in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere
   nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff API als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten, Datenfluss,

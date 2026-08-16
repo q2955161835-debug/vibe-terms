@@ -1,18 +1,18 @@
-title: Abfrage Parameter
-short_definition: Ein named Wert encoded in a URL Abfrage string, commonly verwendet für filters, sorting, search, oder optional
-  Anfrage settings.
-analogy: 'Ordne Abfrage Parameter im Bereich backend apis als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
-  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein named Wert encoded in a URL Abfrage string, commonly verwendet für filters, sorting, search, oder optional
-  Anfrage settings. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe
-  deshalb die konkrete Umsetzung.
-why_it_matters: Wer Abfrage Parameter versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in backend apis benennen
+title: Abfrageparameter
+short_definition: Ein benannter Wert, der in einer URL-Abfragezeichenfolge codiert ist und häufig für Filter, Sortierung,
+  Suche oder optionale Anforderungseinstellungen verwendet wird.
+analogy: 'Ordne Abfrageparameter im Bereich Backend & APIs als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch erst
+  die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Ein benannter Wert, der in einer URL-Abfragezeichenfolge codiert ist und häufig für Filter, Sortierung, Suche oder
+  optionale Anforderungseinstellungen verwendet wird. In einem realen Projekt hängt die genaue Ausprägung von Technologie,
+  Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Abfrageparameter versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Backend & APIs benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Abfrage Parameter in der Phase data identity als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Abfrage Parameter in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Abfrageparameter in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe
+  die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Abfrageparameter in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Abfrage Parameter als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+common_mistake: Den Begriff Abfrageparameter als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

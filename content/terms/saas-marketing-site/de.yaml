@@ -1,18 +1,18 @@
-title: SaaS Marketing Website
-short_definition: Ein website Muster für software products die combines a klare Wert proposition, product evidence, trust
-  signals, und conversion actions.
-analogy: 'Für SaaS Marketing Website hilft ein Vergleich mit einem Werkzeug aus ui ux: Sein Etikett nennt das Problemfeld;
-  verlässlich wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Ein website Muster für software products die combines a klare Wert proposition, product evidence, trust signals,
-  und conversion actions. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss
-  ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer SaaS Marketing Website versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ui ux benennen und
-  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient SaaS Marketing Website in der Phase Design als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie SaaS Marketing Website in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
+title: SaaS-Marketing-Site
+short_definition: Ein Website-Muster für Softwareprodukte, das ein klares Wertversprechen, Produktnachweise, Vertrauenssignale
+  und Konvertierungsaktionen kombiniert.
+analogy: 'Für SaaS-Marketing-Site hilft ein Bild aus UI/UX & Barrierefreiheit: Das Etikett weist auf das Problemfeld, ersetzt
+  aber weder den Code noch die Prüfung des Datenflusses.'
+mechanism: Ein Website-Muster für Softwareprodukte, das ein klares Wertversprechen, Produktnachweise, Vertrauenssignale und
+  Konvertierungsaktionen kombiniert. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und
+  Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer SaaS-Marketing-Site versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in UI/UX & Barrierefreiheit
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir SaaS-Marketing-Site in der Phase Design als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie SaaS-Marketing-Site in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
   Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff SaaS Marketing Website als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+common_mistake: Den Begriff SaaS-Marketing-Site als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

@@ -1,15 +1,14 @@
 title: DNS
-short_definition: Die distributed naming System die translates domain names in Datensätze such as IP addresses und Dienst
-  targets.
-analogy: 'Für DNS hilft ein Vergleich mit einem Werkzeug aus web network: Sein Etikett nennt das Problemfeld; verlässlich
-  wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Die distributed naming System die translates domain names in Datensätze such as IP addresses und Dienst targets.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
+short_definition: Das verteilte Benennungssystem, das Domänennamen in Datensätze wie IP-Adressen und Dienstziele übersetzt.
+analogy: 'Für DNS hilft ein Bild aus Web & Netzwerk: Das Etikett weist auf das Problemfeld, ersetzt aber weder den Code noch
+  die Prüfung des Datenflusses.'
+mechanism: Das verteilte Benennungssystem, das Domänennamen in Datensätze wie IP-Adressen und Dienstziele übersetzt. In einem
+  realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
   Umsetzung.
-why_it_matters: Wer DNS versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in web network benennen und von einem KI-Coding-Agenten
-  eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient DNS in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+why_it_matters: Wer DNS versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Web & Netzwerk benennen und von einem
+  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir DNS in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit einer
+  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie DNS in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere
   nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff DNS als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten, Datenfluss,

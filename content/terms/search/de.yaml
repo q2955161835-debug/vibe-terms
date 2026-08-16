@@ -1,14 +1,15 @@
 title: Suche
-short_definition: Ein Oberfläche für entering a Abfrage und retrieving potentially relevante items aus an indexed collection.
-analogy: Betrachte Suche als Orientierungsschild in ui ux. Es weist auf die richtige technische Stelle, ersetzt aber weder
-  die Implementierung noch deren Prüfung.
-mechanism: Ein Oberfläche für entering a Abfrage und retrieving potentially relevante items aus an indexed collection. In
-  einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Suche versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ui ux benennen und von einem KI-Coding-Agenten
-  eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Suche in der Phase Design als Lerncheckpoint: Verknüpfe die Definition mit einer sichtbaren
-  Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Eine Schnittstelle zum Eingeben einer Abfrage und zum Abrufen potenziell relevanter Elemente aus einer indizierten
+  Sammlung.
+analogy: Betrachte Suche als Orientierung in UI/UX & Barrierefreiheit. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Eine Schnittstelle zum Eingeben einer Abfrage und zum Abrufen potenziell relevanter Elemente aus einer indizierten
+  Sammlung. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
+  die konkrete Umsetzung.
+why_it_matters: Wer Suche versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in UI/UX & Barrierefreiheit benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Suche in der Phase Design als Lerncheckpoint. Verknüpfe die Definition mit einer
+  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Suche in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Suche als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

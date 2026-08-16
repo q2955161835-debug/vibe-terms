@@ -1,15 +1,15 @@
 title: CSRF
-short_definition: Cross-Website Anfrage forgery, an attack die causes a victim's Browser zu send an unwanted authenticated
-  Anfrage zu another Website.
-analogy: Betrachte CSRF als Orientierungsschild in Sicherheit & Datenschutz. Es weist auf die richtige technische Stelle,
-  ersetzt aber weder die Implementierung noch deren Prüfung.
-mechanism: Cross-Website Anfrage forgery, an attack die causes a victim's Browser zu send an unwanted authenticated Anfrage
-  zu another Website. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab;
-  prüfe deshalb die konkrete Umsetzung.
+short_definition: Cross-Site Request Forgery, ein Angriff, der dazu führt, dass der Browser eines Opfers eine unerwünschte
+  authentifizierte Anfrage an eine andere Site sendet.
+analogy: Betrachte CSRF als Orientierung in Sicherheit & Datenschutz. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Cross-Site Request Forgery, ein Angriff, der dazu führt, dass der Browser eines Opfers eine unerwünschte authentifizierte
+  Anfrage an eine andere Site sendet. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und
+  Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer CSRF versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Sicherheit & Datenschutz benennen und
   von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient CSRF in der Phase test protect als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir CSRF in der Phase Tests & Schutz als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie CSRF in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff CSRF als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten, Datenfluss,

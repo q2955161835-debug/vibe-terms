@@ -1,16 +1,18 @@
-title: Container Image
-short_definition: Ein immutable packaged filesystem und metadata Template verwendet zu erstellen containers.
-analogy: 'Ein praktisches Bild für Container Image: ein markiertes Werkzeug in deployment operations, dessen Aufschrift die
-  Frage schärft, aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein immutable packaged filesystem und metadata Template verwendet zu erstellen containers. In einem realen Projekt
-  hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Container Image versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in deployment operations benennen
+title: Container-Image
+short_definition: Ein unveränderliches gepacktes Dateisystem und eine Metadatenvorlage, die zum Erstellen von Containern verwendet
+  wird.
+analogy: 'Ein praktischer Vergleich für Containerbild: ein markiertes Werkzeug in Deployment & Betrieb, dessen Zweck erst
+  im Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Ein unveränderliches gepacktes Dateisystem und eine Metadatenvorlage, die zum Erstellen von Containern verwendet
+  wird. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
+  die konkrete Umsetzung.
+why_it_matters: Wer Containerbild versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Deployment & Betrieb benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Container Image in der Phase deploy maintain als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Container Image in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Containerbild in der Phase Deployment & Wartung als Lerncheckpoint. Verknüpfe
+  die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Containerbild in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Container Image als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Containerbild als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

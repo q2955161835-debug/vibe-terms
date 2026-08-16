@@ -1,18 +1,18 @@
-title: Blue-Green Deployment
-short_definition: Ein Veröffentlichung strategy die keeps zwei Produktion-like environments und switches traffic aus die aktuelle
-  Version zu die validated neu eine.
-analogy: 'Ordne Blue-Green Deployment im Bereich Deployment & Betrieb als beschriftetes Werkzeug ein: Die Beschriftung grenzt
-  den Prüfbereich ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein Veröffentlichung strategy die keeps zwei Produktion-like environments und switches traffic aus die aktuelle
-  Version zu die validated neu eine. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und
-  Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Blue-Green Deployment versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Deployment & Betrieb
+title: Blue-Green-Deployment
+short_definition: Eine Release-Strategie, die zwei produktionsähnliche Umgebungen beibehält und den Datenverkehr von der aktuellen
+  Version auf die validierte neue umleitet.
+analogy: 'Ordne Blau-Grün-Bereitstellung im Bereich Deployment & Betrieb als Werkzeug ein: Die Bezeichnung grenzt die Frage
+  ein, doch erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine Release-Strategie, die zwei produktionsähnliche Umgebungen beibehält und den Datenverkehr von der aktuellen
+  Version auf die validierte neue umleitet. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Blau-Grün-Bereitstellung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Deployment & Betrieb
   benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Blue-Green Deployment in der Phase Deployment & Wartung als Lerncheckpoint: Verknüpfe
-  die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Blue-Green Deployment in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
-  Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Blue-Green Deployment als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+project_example: In Vibe Terms begegnet dir Blau-Grün-Bereitstellung in der Phase Deployment & Wartung als Lerncheckpoint.
+  Verknüpfe die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Blau-Grün-Bereitstellung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien
+  oder Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Blau-Grün-Bereitstellung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

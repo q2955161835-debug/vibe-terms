@@ -1,13 +1,15 @@
 title: CSS-Custom-Property
-short_definition: Ein named CSS Wert beginning mit `--` die participates in the cascade und can be reused durch `var()`.
-analogy: 'Ein praktisches Bild für CSS-Custom-Property: ein markiertes Werkzeug in Frontend-Entwicklung, dessen Aufschrift
-  die Frage schärft, aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein named CSS Wert beginning mit `--` die participates in the cascade und can be reused durch `var()`. In einem
-  realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+short_definition: Ein benannter CSS-Wert, der mit „--“ beginnt, der an der Kaskade teilnimmt und über „var()“ wiederverwendet
+  werden kann.
+analogy: 'Ein praktischer Vergleich für CSS-Custom-Property: ein markiertes Werkzeug in Frontend-Entwicklung, dessen Zweck
+  erst im Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Ein benannter CSS-Wert, der mit „--“ beginnt, der an der Kaskade teilnimmt und über „var()“ wiederverwendet werden
+  kann. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
+  die konkrete Umsetzung.
 why_it_matters: Wer CSS-Custom-Property versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung
   benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient CSS-Custom-Property in der Phase Oberflächenlogik als Lerncheckpoint: Verknüpfe die
-  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir CSS-Custom-Property in der Phase Oberflächenlogik als Lerncheckpoint. Verknüpfe
+  die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie CSS-Custom-Property in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
   Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff CSS-Custom-Property als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches

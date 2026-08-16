@@ -1,18 +1,18 @@
-title: North Star Metrik
-short_definition: Ein grundlegende product Metrik intended zu darstellen sustained Wert delivered zu Benutzer und guide long-term
-  product direction.
-analogy: 'Ein praktisches Bild für North Star Metrik: ein markiertes Werkzeug in Produkt & Anforderungen, dessen Aufschrift
-  die Frage schärft, aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein grundlegende product Metrik intended zu darstellen sustained Wert delivered zu Benutzer und guide long-term
-  product direction. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab;
-  prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer North Star Metrik versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen
+title: Nordstern-Metrik
+short_definition: Eine primäre Produktmetrik, die den nachhaltigen Mehrwert für Benutzer darstellen und die langfristige Produktausrichtung
+  leiten soll.
+analogy: 'Ein praktischer Vergleich für Nordstern-Metrik: ein markiertes Werkzeug in Produkt & Anforderungen, dessen Zweck
+  erst im Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Eine primäre Produktmetrik, die den nachhaltigen Mehrwert für Benutzer darstellen und die langfristige Produktausrichtung
+  leiten soll. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe
+  deshalb die konkrete Umsetzung.
+why_it_matters: Wer Nordstern-Metrik versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen
   benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient North Star Metrik in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie North Star Metrik in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Nordstern-Metrik in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Nordstern-Metrik in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff North Star Metrik als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+common_mistake: Den Begriff Nordstern-Metrik als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

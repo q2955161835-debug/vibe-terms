@@ -1,13 +1,13 @@
 title: Arbeitsverzeichnis
-short_definition: Die Verzeichnis a process oder shell currently treats as the base für relative paths.
-analogy: 'Ein praktisches Bild für Arbeitsverzeichnis: ein markiertes Werkzeug in computing env, dessen Aufschrift die Frage
-  schärft, aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Die Verzeichnis a process oder shell currently treats as the base für relative paths. In einem realen Projekt hängt
-  das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Arbeitsverzeichnis versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in computing env benennen
-  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Arbeitsverzeichnis in der Phase environment als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Das Verzeichnis, das ein Prozess oder eine Shell derzeit als Basis für relative Pfade behandelt.
+analogy: 'Ein praktischer Vergleich für Arbeitsverzeichnis: ein markiertes Werkzeug in Computer & Entwicklungsumgebung, dessen
+  Zweck erst im Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Das Verzeichnis, das ein Prozess oder eine Shell derzeit als Basis für relative Pfade behandelt. In einem realen
+  Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Arbeitsverzeichnis versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Computer & Entwicklungsumgebung
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Arbeitsverzeichnis in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Arbeitsverzeichnis in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Arbeitsverzeichnis als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches

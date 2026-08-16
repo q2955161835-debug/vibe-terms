@@ -1,18 +1,18 @@
-title: Minimalism
-short_definition: Ein visual approach die removes nonessential decoration und relies auf hierarchy, spacing, und a kleine
-  number von strong elements.
-analogy: 'Ordne Minimalism im Bereich ui ux als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich ein, während
-  erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein visual approach die removes nonessential decoration und relies auf hierarchy, spacing, und a kleine number
-  von strong elements. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab;
-  prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Minimalism versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ui ux benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Minimalism in der Phase Design als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Minimalism in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+title: Minimalismus
+short_definition: Ein visueller Ansatz, der unwesentliche Dekorationen entfernt und auf Hierarchie, Abstände und eine kleine
+  Anzahl starker Elemente setzt.
+analogy: 'Ordne Minimalismus im Bereich UI/UX & Barrierefreiheit als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch
+  erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Ein visueller Ansatz, der unwesentliche Dekorationen entfernt und auf Hierarchie, Abstände und eine kleine Anzahl
+  starker Elemente setzt. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Minimalismus versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in UI/UX & Barrierefreiheit benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Minimalismus in der Phase Design als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Minimalismus in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Minimalism als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Minimalismus als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

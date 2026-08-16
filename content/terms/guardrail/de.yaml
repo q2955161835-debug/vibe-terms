@@ -1,15 +1,15 @@
 title: Leitplanke
-short_definition: Ein technical oder procedural control die constrains, validates, filters, oder requires approval für risky
-  AI Verhalten.
-analogy: 'Ein praktisches Bild für Leitplanke: ein markiertes Werkzeug in ai vibe, dessen Aufschrift die Frage schärft, aber
-  keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein technical oder procedural control die constrains, validates, filters, oder requires approval für risky AI Verhalten.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Leitplanke versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ai vibe benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Leitplanke in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Eine technische oder prozedurale Kontrolle, die riskantes KI-Verhalten einschränkt, validiert, filtert oder
+  eine Genehmigung erfordert.
+analogy: 'Ein praktischer Vergleich für Leitplanke: ein markiertes Werkzeug in KI & Vibe Coding, dessen Zweck erst im Zusammenspiel
+  mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Eine technische oder prozedurale Kontrolle, die riskantes KI-Verhalten einschränkt, validiert, filtert oder eine
+  Genehmigung erfordert. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Leitplanke versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen und
+  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Leitplanke in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Leitplanke in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Leitplanke als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

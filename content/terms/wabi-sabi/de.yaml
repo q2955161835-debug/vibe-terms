@@ -1,15 +1,15 @@
 title: Wabi-sabi
-short_definition: Ein Japanese aesthetic emphasizing imperfection, restraint, natural material character, asymmetry, und the
-  passage von Zeit.
-analogy: 'Ein praktisches Bild für Wabi-sabi: ein markiertes Werkzeug in ui ux, dessen Aufschrift die Frage schärft, aber
-  keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein Japanese aesthetic emphasizing imperfection, restraint, natural material character, asymmetry, und the passage
-  von Zeit. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
-why_it_matters: Wer Wabi-sabi versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ui ux benennen und von einem KI-Coding-Agenten
-  eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Wabi-sabi in der Phase Design als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Eine japanische Ästhetik, die Unvollkommenheit, Zurückhaltung, natürlichen Materialcharakter, Asymmetrie
+  und den Lauf der Zeit betont.
+analogy: 'Ein praktischer Vergleich für Wabi-sabi: ein markiertes Werkzeug in UI/UX & Barrierefreiheit, dessen Zweck erst
+  im Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Eine japanische Ästhetik, die Unvollkommenheit, Zurückhaltung, natürlichen Materialcharakter, Asymmetrie und den
+  Lauf der Zeit betont. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Wabi-sabi versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in UI/UX & Barrierefreiheit benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Wabi-sabi in der Phase Design als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Wabi-sabi in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Wabi-sabi als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

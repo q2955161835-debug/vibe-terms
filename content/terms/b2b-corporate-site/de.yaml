@@ -1,15 +1,15 @@
 title: B2B-Unternehmenswebsite
-short_definition: Ein business-facing website Muster entwickelt zu establish organizational trust durch klare capabilities,
-  Nachweis, compliance, und customer Kontext.
-analogy: 'Ordne B2B-Unternehmenswebsite im Bereich UI/UX & Barrierefreiheit als beschriftetes Werkzeug ein: Die Beschriftung
-  grenzt den Prüfbereich ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein business-facing website Muster entwickelt zu establish organizational trust durch klare capabilities, Nachweis,
-  compliance, und customer Kontext. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und
-  Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+short_definition: Ein geschäftsorientiertes Website-Muster, das darauf ausgelegt ist, durch klare Funktionen, Nachweise, Compliance
+  und Kundenkontext Vertrauen im Unternehmen aufzubauen.
+analogy: 'Ordne B2B-Unternehmenswebsite im Bereich UI/UX & Barrierefreiheit als Werkzeug ein: Die Bezeichnung grenzt die Frage
+  ein, doch erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Ein geschäftsorientiertes Website-Muster, das darauf ausgelegt ist, durch klare Funktionen, Nachweise, Compliance
+  und Kundenkontext Vertrauen im Unternehmen aufzubauen. In einem realen Projekt hängt die genaue Ausprägung von Technologie,
+  Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer B2B-Unternehmenswebsite versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in UI/UX & Barrierefreiheit
   benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient B2B-Unternehmenswebsite in der Phase Design als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir B2B-Unternehmenswebsite in der Phase Design als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie B2B-Unternehmenswebsite in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
   Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff B2B-Unternehmenswebsite als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches

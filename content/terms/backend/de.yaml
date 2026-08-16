@@ -1,13 +1,13 @@
 title: Backend
-short_definition: Server-Seite Logik die behandelt Daten, permissions, business Regeln, und integrations.
-analogy: 'Ordne Backend im Bereich Backend & APIs als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
-  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Server-Seite Logik die behandelt Daten, permissions, business Regeln, und integrations. In einem realen Projekt
-  hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+short_definition: Serverseitige Logik, die Daten, Berechtigungen, Geschäftsregeln und Integrationen verarbeitet.
+analogy: 'Ordne Backend im Bereich Backend & APIs als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch erst die konkrete
+  Implementierung zeigt, wie es sich verhält.'
+mechanism: Serverseitige Logik, die Daten, Berechtigungen, Geschäftsregeln und Integrationen verarbeitet. In einem realen
+  Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer Backend versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Backend & APIs benennen und von
   einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Backend in der Phase Daten & Identität als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Backend in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Backend in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Backend als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

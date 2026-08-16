@@ -1,18 +1,18 @@
-title: Observability
-short_definition: Die ability zu understand a System's internal Zustand aus outputs such as logs, Metriken, traces, profiles,
-  und events.
-analogy: 'Ein praktisches Bild für Observability: ein markiertes Werkzeug in deployment operations, dessen Aufschrift die
-  Frage schärft, aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Die ability zu understand a System's internal Zustand aus outputs such as logs, Metriken, traces, profiles, und
-  events. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
-why_it_matters: Wer Observability versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in deployment operations benennen
+title: Beobachtbarkeit
+short_definition: Die Fähigkeit, den internen Zustand eines Systems anhand von Ausgaben wie Protokollen, Metriken, Ablaufverfolgungen,
+  Profilen und Ereignissen zu verstehen.
+analogy: 'Ein praktischer Vergleich für Beobachtbarkeit: ein markiertes Werkzeug in Deployment & Betrieb, dessen Zweck erst
+  im Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Die Fähigkeit, den internen Zustand eines Systems anhand von Ausgaben wie Protokollen, Metriken, Ablaufverfolgungen,
+  Profilen und Ereignissen zu verstehen. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Beobachtbarkeit versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Deployment & Betrieb benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Observability in der Phase deploy maintain als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Observability in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Beobachtbarkeit in der Phase Deployment & Wartung als Lerncheckpoint. Verknüpfe
+  die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Beobachtbarkeit in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Observability als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Beobachtbarkeit als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

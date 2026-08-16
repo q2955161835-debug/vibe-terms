@@ -1,16 +1,18 @@
-title: Request
-short_definition: Ein message sent by a Client zu a Server asking it zu retrieve, erstellen, ändern, oder process something.
-analogy: 'Für Request hilft ein Vergleich mit einem Werkzeug aus web network: Sein Etikett nennt das Problemfeld; verlässlich
-  wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Ein message sent by a Client zu a Server asking it zu retrieve, erstellen, ändern, oder process something. In einem
-  realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Request versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in web network benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Request in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Request in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+title: Anfrage
+short_definition: Eine von einem Client an einen Server gesendete Nachricht mit der Aufforderung, etwas abzurufen, zu erstellen,
+  zu ändern oder zu verarbeiten.
+analogy: 'Für Anfrage hilft ein Bild aus Web & Netzwerk: Das Etikett weist auf das Problemfeld, ersetzt aber weder den Code
+  noch die Prüfung des Datenflusses.'
+mechanism: Eine von einem Client an einen Server gesendete Nachricht mit der Aufforderung, etwas abzurufen, zu erstellen,
+  zu ändern oder zu verarbeiten. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Anfrage versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Web & Netzwerk benennen und von
+  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Anfrage in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Anfrage in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Request als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Anfrage als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

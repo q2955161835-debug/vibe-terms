@@ -1,15 +1,15 @@
 title: Aktiver Zustand
-short_definition: die visuelle oder behavioral Zustand von a Steuerung während it is being activated, solche as during a mouse
-  oder touch press.
-analogy: Betrachte Aktiver Zustand als Orientierungsschild in Frontend-Entwicklung. Es weist auf die richtige technische Stelle,
-  ersetzt aber weder die Implementierung noch deren Prüfung.
-mechanism: die visuelle oder behavioral Zustand von a Steuerung während it is being activated, solche as during a mouse oder
-  touch press. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe
-  deshalb die konkrete Umsetzung.
+short_definition: Der visuelle oder Verhaltenszustand eines Steuerelements, während es aktiviert wird, z. B. während eines
+  Maus- oder Touch-Drucks.
+analogy: Betrachte Aktiver Zustand als Orientierung in Frontend-Entwicklung. Die Bezeichnung führt zur richtigen technischen
+  Stelle, garantiert aber noch keine gute Umsetzung.
+mechanism: Der visuelle oder Verhaltenszustand eines Steuerelements, während es aktiviert wird, z. B. während eines Maus-
+  oder Touch-Drucks. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab;
+  prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer Aktiver Zustand versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Aktiver Zustand in der Phase Oberflächenlogik als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Aktiver Zustand in der Phase Oberflächenlogik als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Aktiver Zustand in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Aktiver Zustand als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

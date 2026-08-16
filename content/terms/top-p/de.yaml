@@ -1,18 +1,18 @@
-title: oben P
-short_definition: Ein sampling setting die restricts Token choices zu the kleinste set whose cumulative probability reaches
-  a chosen threshold.
-analogy: 'Ordne oben P im Bereich ai vibe als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich ein, während
-  erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein sampling setting die restricts Token choices zu the kleinste set whose cumulative probability reaches a chosen
-  threshold. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
-why_it_matters: Wer oben P versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ai vibe benennen und von einem KI-Coding-Agenten
-  eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient oben P in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie oben P in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+title: Top-p
+short_definition: Eine Stichprobeneinstellung, die die Token-Auswahl auf den kleinsten Satz beschränkt, dessen kumulative
+  Wahrscheinlichkeit einen ausgewählten Schwellenwert erreicht.
+analogy: 'Ordne Top P im Bereich KI & Vibe Coding als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch erst die konkrete
+  Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine Stichprobeneinstellung, die die Token-Auswahl auf den kleinsten Satz beschränkt, dessen kumulative Wahrscheinlichkeit
+  einen ausgewählten Schwellenwert erreicht. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Top P versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen und von
+  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Top P in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Top P in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff oben P als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Top P als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

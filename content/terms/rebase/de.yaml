@@ -1,13 +1,14 @@
 title: Rebase
-short_definition: Replaying commits onto a verschiedene base commit zu erstellen a neu linearized history.
-analogy: Betrachte Rebase als Orientierungsschild in git collaboration. Es weist auf die richtige technische Stelle, ersetzt
-  aber weder die Implementierung noch deren Prüfung.
-mechanism: Replaying commits onto a verschiedene base commit zu erstellen a neu linearized history. In einem realen Projekt
-  hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Rebase versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in git collaboration benennen und von
-  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Rebase in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Wiederholen von Commits auf einem anderen Basis-Commit, um einen neuen linearisierten Verlauf zu erstellen.
+analogy: Betrachte Rebase als Orientierung in Git & Zusammenarbeit. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Wiederholen von Commits auf einem anderen Basis-Commit, um einen neuen linearisierten Verlauf zu erstellen. In
+  einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
+  Umsetzung.
+why_it_matters: Wer Rebase versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Git & Zusammenarbeit benennen und
+  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Rebase in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Rebase in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Rebase als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

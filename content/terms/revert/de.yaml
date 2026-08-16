@@ -1,16 +1,17 @@
 title: Revert
-short_definition: Creating a neu commit die applies the inverse von an earlier commit ohne deleting history.
-analogy: 'Ordne Revert im Bereich git collaboration als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
-  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Creating a neu commit die applies the inverse von an earlier commit ohne deleting history. In einem realen Projekt
-  hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Revert versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in git collaboration benennen und von
-  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Revert in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Revert in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+short_definition: Erstellen eines neuen Commits, der das Gegenteil eines früheren Commits anwendet, ohne den Verlauf zu löschen.
+analogy: 'Ordne Zurücksetzen im Bereich Git & Zusammenarbeit als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch
+  erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Erstellen eines neuen Commits, der das Gegenteil eines früheren Commits anwendet, ohne den Verlauf zu löschen.
+  In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die
+  konkrete Umsetzung.
+why_it_matters: Wer Zurücksetzen versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Git & Zusammenarbeit benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Zurücksetzen in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Zurücksetzen in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Revert als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Zurücksetzen als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

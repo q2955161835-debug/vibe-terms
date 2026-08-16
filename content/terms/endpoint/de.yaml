@@ -1,13 +1,14 @@
 title: Endpunkt
-short_definition: Ein bestimmte API address und Vorgang durch die clients interact mit a backend capability oder Ressource.
-analogy: 'Für Endpunkt hilft ein Vergleich mit einem Werkzeug aus backend apis: Sein Etikett nennt das Problemfeld; verlässlich
-  wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Ein bestimmte API address und Vorgang durch die clients interact mit a backend capability oder Ressource. In einem
-  realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Endpunkt versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in backend apis benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Endpunkt in der Phase data identity als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Eine bestimmte API-Adresse und Operation, über die Clients mit einer Back-End-Funktion oder -Ressource interagieren.
+analogy: 'Für Endpunkt hilft ein Bild aus Backend & APIs: Das Etikett weist auf das Problemfeld, ersetzt aber weder den Code
+  noch die Prüfung des Datenflusses.'
+mechanism: Eine bestimmte API-Adresse und Operation, über die Clients mit einer Back-End-Funktion oder -Ressource interagieren.
+  In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die
+  konkrete Umsetzung.
+why_it_matters: Wer Endpunkt versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Backend & APIs benennen und von
+  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Endpunkt in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Endpunkt in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Endpunkt als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

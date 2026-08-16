@@ -1,18 +1,18 @@
-title: Harness Engineering
-short_definition: Engineering the execution environment, Werkzeuge, permissions, feedback loops, und guardrails around an
-  AI Agent so it behaves reliably.
-analogy: 'Ordne Harness Engineering im Bereich ai vibe als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
-  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Engineering the execution environment, Werkzeuge, permissions, feedback loops, und guardrails around an AI Agent
-  so it behaves reliably. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss
-  ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Harness Engineering versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ai vibe benennen und
-  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Harness Engineering in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Harness Engineering in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
-  Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Harness Engineering als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+title: Harness-Engineering
+short_definition: Konzipieren Sie die Ausführungsumgebung, Tools, Berechtigungen, Feedbackschleifen und Leitplanken rund um
+  einen KI-Agenten, damit dieser sich zuverlässig verhält.
+analogy: 'Ordne Kabelbaumtechnik im Bereich KI & Vibe Coding als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch
+  erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Konzipieren Sie die Ausführungsumgebung, Tools, Berechtigungen, Feedbackschleifen und Leitplanken rund um einen
+  KI-Agenten, damit dieser sich zuverlässig verhält. In einem realen Projekt hängt die genaue Ausprägung von Technologie,
+  Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Kabelbaumtechnik versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Kabelbaumtechnik in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Kabelbaumtechnik in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Kabelbaumtechnik als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

@@ -1,13 +1,13 @@
 title: Authentifizierung
-short_definition: die Prozess von proving who a Benutzer is.
-analogy: 'Ordne Authentifizierung im Bereich Sicherheit & Datenschutz als beschriftetes Werkzeug ein: Die Beschriftung grenzt
-  den Prüfbereich ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: die Prozess von proving who a Benutzer is. In einem realen Projekt hängt das genaue Verhalten von Technologie,
+short_definition: Der Prozess des Nachweises, wer ein Benutzer ist.
+analogy: 'Ordne Authentifizierung im Bereich Sicherheit & Datenschutz als Werkzeug ein: Die Bezeichnung grenzt die Frage ein,
+  doch erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Der Prozess des Nachweises, wer ein Benutzer ist. In einem realen Projekt hängt die genaue Ausprägung von Technologie,
   Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer Authentifizierung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Sicherheit & Datenschutz
   benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Authentifizierung in der Phase Tests & Schutz als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Authentifizierung in der Phase Tests & Schutz als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Authentifizierung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Authentifizierung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches

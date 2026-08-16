@@ -1,13 +1,14 @@
 title: OpenID Connect
-short_definition: Ein identity layer erstellt auf OAuth 2.0 die standardizes sign-in und identity Informationen.
-analogy: Betrachte OpenID Connect als Orientierungsschild in Sicherheit & Datenschutz. Es weist auf die richtige technische
-  Stelle, ersetzt aber weder die Implementierung noch deren Prüfung.
-mechanism: Ein identity layer erstellt auf OAuth 2.0 die standardizes sign-in und identity Informationen. In einem realen
-  Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+short_definition: Eine auf OAuth 2.0 basierende Identitätsschicht, die Anmelde- und Identitätsinformationen standardisiert.
+analogy: Betrachte OpenID Connect als Orientierung in Sicherheit & Datenschutz. Die Bezeichnung führt zur richtigen technischen
+  Stelle, garantiert aber noch keine gute Umsetzung.
+mechanism: Eine auf OAuth 2.0 basierende Identitätsschicht, die Anmelde- und Identitätsinformationen standardisiert. In einem
+  realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
+  Umsetzung.
 why_it_matters: Wer OpenID Connect versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Sicherheit & Datenschutz
   benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient OpenID Connect in der Phase test protect als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir OpenID Connect in der Phase Tests & Schutz als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie OpenID Connect in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff OpenID Connect als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

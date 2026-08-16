@@ -1,15 +1,15 @@
 title: Hypothese
-short_definition: Ein testable prediction die connects an intervention oder product ändern zu an expected Benutzer oder business
-  outcome.
-analogy: 'Ordne Hypothese im Bereich Produkt & Anforderungen als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
-  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein testable prediction die connects an intervention oder product ändern zu an expected Benutzer oder business
-  outcome. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
+short_definition: Eine überprüfbare Vorhersage, die einen Eingriff oder eine Produktänderung mit einem erwarteten Benutzer-
+  oder Geschäftsergebnis verbindet.
+analogy: 'Ordne Hypothese im Bereich Produkt & Anforderungen als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch
+  erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine überprüfbare Vorhersage, die einen Eingriff oder eine Produktänderung mit einem erwarteten Benutzer- oder
+  Geschäftsergebnis verbindet. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer Hypothese versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Hypothese in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Hypothese in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Hypothese in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Hypothese als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

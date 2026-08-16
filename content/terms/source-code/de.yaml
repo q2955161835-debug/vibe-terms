@@ -1,16 +1,18 @@
-title: Quell Code
-short_definition: Human-lesbar program Text die developers und coding Werkzeuge edit vor it is executed oder erstellt.
-analogy: 'Für Quell Code hilft ein Vergleich mit einem Werkzeug aus computing env: Sein Etikett nennt das Problemfeld; verlässlich
-  wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Human-lesbar program Text die developers und coding Werkzeuge edit vor it is executed oder erstellt. In einem realen
-  Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Quell Code versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in computing env benennen und von
-  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Quell Code in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Quell Code in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+title: Quellcode
+short_definition: Für Menschen lesbarer Programmtext, den Entwickler und Codierungstools bearbeiten, bevor er ausgeführt oder
+  erstellt wird.
+analogy: 'Für Quellcode hilft ein Bild aus Computer & Entwicklungsumgebung: Das Etikett weist auf das Problemfeld, ersetzt
+  aber weder den Code noch die Prüfung des Datenflusses.'
+mechanism: Für Menschen lesbarer Programmtext, den Entwickler und Codierungstools bearbeiten, bevor er ausgeführt oder erstellt
+  wird. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
+  die konkrete Umsetzung.
+why_it_matters: Wer Quellcode versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Computer & Entwicklungsumgebung
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Quellcode in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Quellcode in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Quell Code als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Quellcode als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

@@ -1,17 +1,18 @@
 title: Stash
-short_definition: Ein temporary Git Speicher area für uncommitted ändert die need zu be set aside ohne making a normal commit.
-analogy: 'Ein praktisches Bild für Stash: ein markiertes Werkzeug in git collaboration, dessen Aufschrift die Frage schärft,
-  aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein temporary Git Speicher area für uncommitted ändert die need zu be set aside ohne making a normal commit. In
-  einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Stash versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in git collaboration benennen und von
-  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Stash in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Stash in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+short_definition: Ein temporärer Git-Speicherbereich für nicht festgeschriebene Änderungen, die ohne normales Festschreiben
+  beiseite gelegt werden müssen.
+analogy: 'Ein praktischer Vergleich für Versteck: ein markiertes Werkzeug in Git & Zusammenarbeit, dessen Zweck erst im Zusammenspiel
+  mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Ein temporärer Git-Speicherbereich für nicht festgeschriebene Änderungen, die ohne normales Festschreiben beiseite
+  gelegt werden müssen. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Versteck versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Git & Zusammenarbeit benennen und
+  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Versteck in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Versteck in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Stash als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Versteck als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

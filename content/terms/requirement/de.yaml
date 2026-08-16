@@ -1,16 +1,16 @@
-title: Requirement
-short_definition: Ein statement von Verhalten, capability, quality, oder constraint die a solution is expected zu satisfy.
-analogy: 'Für Requirement hilft ein Vergleich mit einem Werkzeug aus Produkt & Anforderungen: Sein Etikett nennt das Problemfeld;
-  verlässlich wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Ein statement von Verhalten, capability, quality, oder constraint die a solution is expected zu satisfy. In einem
-  realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Requirement versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen benennen
+title: Erfordernis
+short_definition: Eine Aussage über Verhalten, Fähigkeit, Qualität oder Einschränkung, die eine Lösung erfüllen soll.
+analogy: 'Für Erfordernis hilft ein Bild aus Produkt & Anforderungen: Das Etikett weist auf das Problemfeld, ersetzt aber
+  weder den Code noch die Prüfung des Datenflusses.'
+mechanism: Eine Aussage über Verhalten, Fähigkeit, Qualität oder Einschränkung, die eine Lösung erfüllen soll. In einem realen
+  Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Erfordernis versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Requirement in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Requirement in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Erfordernis in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Erfordernis in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Requirement als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Erfordernis als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

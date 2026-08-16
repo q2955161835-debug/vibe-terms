@@ -1,16 +1,17 @@
-title: Paket Manager
-short_definition: Ein Werkzeug, das installs, updates, resolves, und Datensätze software packages und their dependencies.
-analogy: 'Ordne Paket Manager im Bereich computing env als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
-  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein Werkzeug, das installs, updates, resolves, und Datensätze software packages und their dependencies. In einem
-  realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Paket Manager versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in computing env benennen und
-  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Paket Manager in der Phase environment als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Paket Manager in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+title: Paketmanager
+short_definition: Ein Tool, das Softwarepakete und ihre Abhängigkeiten installiert, aktualisiert, auflöst und aufzeichnet.
+analogy: 'Ordne Paketmanager im Bereich Computer & Entwicklungsumgebung als Werkzeug ein: Die Bezeichnung grenzt die Frage
+  ein, doch erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Ein Tool, das Softwarepakete und ihre Abhängigkeiten installiert, aktualisiert, auflöst und aufzeichnet. In einem
+  realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
+  Umsetzung.
+why_it_matters: Wer Paketmanager versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Computer & Entwicklungsumgebung
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Paketmanager in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Paketmanager in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Paket Manager als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Paketmanager als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

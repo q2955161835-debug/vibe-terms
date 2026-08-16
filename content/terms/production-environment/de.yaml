@@ -1,16 +1,17 @@
-title: Produktion Umgebung
-short_definition: Die infrastructure, Konfiguration, secrets, Dienste, und Daten context verwendet by the live Anwendung.
-analogy: 'Für Produktion Umgebung hilft ein Vergleich mit einem Werkzeug aus deployment operations: Sein Etikett nennt das
-  Problemfeld; verlässlich wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Die infrastructure, Konfiguration, secrets, Dienste, und Daten context verwendet by the live Anwendung. In einem
-  realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Produktion Umgebung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in deployment operations
+title: Produktionsumgebung
+short_definition: Die von der Live-Anwendung verwendete Infrastruktur, Konfiguration, Geheimnisse, Dienste und Datenkontext.
+analogy: 'Für Produktionsumgebung hilft ein Bild aus Deployment & Betrieb: Das Etikett weist auf das Problemfeld, ersetzt
+  aber weder den Code noch die Prüfung des Datenflusses.'
+mechanism: Die von der Live-Anwendung verwendete Infrastruktur, Konfiguration, Geheimnisse, Dienste und Datenkontext. In einem
+  realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
+  Umsetzung.
+why_it_matters: Wer Produktionsumgebung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Deployment & Betrieb
   benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Produktion Umgebung in der Phase deploy maintain als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Produktion Umgebung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
+project_example: In Vibe Terms begegnet dir Produktionsumgebung in der Phase Deployment & Wartung als Lerncheckpoint. Verknüpfe
+  die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Produktionsumgebung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
   Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Produktion Umgebung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+common_mistake: Den Begriff Produktionsumgebung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

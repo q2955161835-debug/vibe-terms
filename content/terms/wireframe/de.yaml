@@ -1,14 +1,15 @@
 title: Wireframe
-short_definition: Ein low-fidelity Layout die zeigt structure, hierarchy, und interaction placement ohne final visual styling.
-analogy: Betrachte Wireframe als Orientierungsschild in Produkt & Anforderungen. Es weist auf die richtige technische Stelle,
-  ersetzt aber weder die Implementierung noch deren Prüfung.
-mechanism: Ein low-fidelity Layout die zeigt structure, hierarchy, und interaction placement ohne final visual styling. In
-  einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
+short_definition: Ein Low-Fidelity-Layout, das Struktur, Hierarchie und Interaktionsplatzierung ohne abschließenden visuellen
+  Stil zeigt.
+analogy: Betrachte Wireframe als Orientierung in Produkt & Anforderungen. Die Bezeichnung führt zur richtigen technischen
+  Stelle, garantiert aber noch keine gute Umsetzung.
+mechanism: Ein Low-Fidelity-Layout, das Struktur, Hierarchie und Interaktionsplatzierung ohne abschließenden visuellen Stil
+  zeigt. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
+  die konkrete Umsetzung.
 why_it_matters: Wer Wireframe versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Wireframe in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Wireframe in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Wireframe in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Wireframe als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

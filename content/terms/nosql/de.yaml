@@ -1,15 +1,14 @@
 title: NoSQL
-short_definition: Ein broad category von non-relational Datenbank designs such as document, key-Wert, graph, und wide-column
-  stores.
-analogy: 'Für NoSQL hilft ein Vergleich mit einem Werkzeug aus data databases: Sein Etikett nennt das Problemfeld; verlässlich
-  wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Ein broad category von non-relational Datenbank designs such as document, key-Wert, graph, und wide-column stores.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer NoSQL versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in data databases benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient NoSQL in der Phase data identity als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Eine breite Kategorie nicht relationaler Datenbankdesigns wie Dokument-, Schlüsselwert-, Diagramm- und Wide-Spalten-Speicher.
+analogy: 'Für NoSQL hilft ein Bild aus Daten & Datenbanken: Das Etikett weist auf das Problemfeld, ersetzt aber weder den
+  Code noch die Prüfung des Datenflusses.'
+mechanism: Eine breite Kategorie nicht relationaler Datenbankdesigns wie Dokument-, Schlüsselwert-, Diagramm- und Wide-Spalten-Speicher.
+  In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die
+  konkrete Umsetzung.
+why_it_matters: Wer NoSQL versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Daten & Datenbanken benennen und von
+  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir NoSQL in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie NoSQL in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff NoSQL als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

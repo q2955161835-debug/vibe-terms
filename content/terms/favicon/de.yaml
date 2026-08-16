@@ -1,15 +1,15 @@
 title: Favicon
-short_definition: Ein kleine Website icon verwendet by browsers in tabs, bookmarks, history, und other Website-identification
-  Flächen.
-analogy: Betrachte Favicon als Orientierungsschild in Frontend-Entwicklung. Es weist auf die richtige technische Stelle, ersetzt
-  aber weder die Implementierung noch deren Prüfung.
-mechanism: Ein kleine Website icon verwendet by browsers in tabs, bookmarks, history, und other Website-identification Flächen.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
+short_definition: Ein kleines Site-Symbol, das von Browsern in Registerkarten, Lesezeichen, Verlauf und anderen Site-Identifizierungsoberflächen
+  verwendet wird.
+analogy: Betrachte Favicon als Orientierung in Frontend-Entwicklung. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Ein kleines Site-Symbol, das von Browsern in Registerkarten, Lesezeichen, Verlauf und anderen Site-Identifizierungsoberflächen
+  verwendet wird. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe
+  deshalb die konkrete Umsetzung.
 why_it_matters: Wer Favicon versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen und
   von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Favicon in der Phase Oberflächenlogik als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Favicon in der Phase Oberflächenlogik als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Favicon in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Favicon als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

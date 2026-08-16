@@ -1,18 +1,18 @@
 title: Behavior-Driven Development
-short_definition: Ein Entwicklung approach die describes erwartet System Verhalten in examples und scenarios shared über technical
-  und Produkt Rollen.
-analogy: 'Für Behavior-Driven Development hilft ein Vergleich mit einem Werkzeug aus Tests & Debugging: Sein Etikett nennt
-  das Problemfeld; verlässlich wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Ein Entwicklung approach die describes erwartet System Verhalten in examples und scenarios shared über technical
-  und Produkt Rollen. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab;
-  prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Behavior-Driven Development versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Tests & Debugging
-  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Behavior-Driven Development in der Phase Tests & Schutz als Lerncheckpoint: Verknüpfe
-  die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Behavior-Driven Development in diesem Projekt angewendet wird. Nenne die betroffenen Dateien
-  oder Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Behavior-Driven Development als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
-  Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
+short_definition: Ein Entwicklungsansatz, der das erwartete Systemverhalten in Beispielen und Szenarien beschreibt, die von
+  allen technischen und Produktrollen gemeinsam genutzt werden.
+analogy: 'Für Verhaltensgesteuerte Entwicklung hilft ein Bild aus Testen & Debugging: Das Etikett weist auf das Problemfeld,
+  ersetzt aber weder den Code noch die Prüfung des Datenflusses.'
+mechanism: Ein Entwicklungsansatz, der das erwartete Systemverhalten in Beispielen und Szenarien beschreibt, die von allen
+  technischen und Produktrollen gemeinsam genutzt werden. In einem realen Projekt hängt die genaue Ausprägung von Technologie,
+  Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Verhaltensgesteuerte Entwicklung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Testen
+  & Debugging benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Verhaltensgesteuerte Entwicklung in der Phase Tests & Schutz als Lerncheckpoint.
+  Verknüpfe die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Verhaltensgesteuerte Entwicklung in diesem Projekt angewendet wird. Nenne die betroffenen
+  Dateien oder Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Verhaltensgesteuerte Entwicklung als Beleg für eine korrekte Implementierung zu behandeln, ohne
+  tatsächliches Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

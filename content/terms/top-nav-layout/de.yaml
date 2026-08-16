@@ -1,18 +1,18 @@
-title: oben Nav Layout
-short_definition: Ein Seite structure wo grundlegende navigation stays across the top und the main Inhalte fills the area
-  below.
-analogy: 'Ordne oben Nav Layout im Bereich ui ux als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich ein,
-  während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein Seite structure wo grundlegende navigation stays across the top und the main Inhalte fills the area below.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer oben Nav Layout versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ui ux benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient oben Nav Layout in der Phase Design als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie oben Nav Layout in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
-  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff oben Nav Layout als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
-  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
+title: Layout der oberen Navigation
+short_definition: Eine Seitenstruktur, bei der die primäre Navigation oben bleibt und der Hauptinhalt den Bereich darunter
+  ausfüllt.
+analogy: 'Ordne Top-Navigationslayout im Bereich UI/UX & Barrierefreiheit als Werkzeug ein: Die Bezeichnung grenzt die Frage
+  ein, doch erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine Seitenstruktur, bei der die primäre Navigation oben bleibt und der Hauptinhalt den Bereich darunter ausfüllt.
+  In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die
+  konkrete Umsetzung.
+why_it_matters: Wer Top-Navigationslayout versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in UI/UX & Barrierefreiheit
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Top-Navigationslayout in der Phase Design als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Top-Navigationslayout in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
+  Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Top-Navigationslayout als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+  Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

@@ -1,18 +1,18 @@
 title: Flag
-short_definition: Ein named command-line option die ändert how a command behaves, often written mit eine oder zwei leading
-  hyphens.
-analogy: Betrachte Flag als Orientierungsschild in computing env. Es weist auf die richtige technische Stelle, ersetzt aber
-  weder die Implementierung noch deren Prüfung.
-mechanism: Ein named command-line option die ändert how a command behaves, often written mit eine oder zwei leading hyphens.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Flag versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in computing env benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Flag in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Eine benannte Befehlszeilenoption, die das Verhalten eines Befehls ändert und häufig mit einem oder zwei
+  führenden Bindestrichen geschrieben wird.
+analogy: Betrachte Flag als Orientierung in Computer & Entwicklungsumgebung. Die Bezeichnung führt zur richtigen technischen
+  Stelle, garantiert aber noch keine gute Umsetzung.
+mechanism: Eine benannte Befehlszeilenoption, die das Verhalten eines Befehls ändert und häufig mit einem oder zwei führenden
+  Bindestrichen geschrieben wird. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Flag versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Computer & Entwicklungsumgebung benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Flag in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Flag in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Flag als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten, Datenfluss,
-  Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
+common_mistake: Den Begriff Flag als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

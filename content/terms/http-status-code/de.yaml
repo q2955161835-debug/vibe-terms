@@ -1,16 +1,17 @@
-title: HTTP Status Code
-short_definition: Ein drei-digit Antwort Code, such as 200 oder 404, die summarizes the Ergebnis von an HTTP Anfrage.
-analogy: 'Für HTTP Status Code hilft ein Vergleich mit einem Werkzeug aus web network: Sein Etikett nennt das Problemfeld;
-  verlässlich wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Ein drei-digit Antwort Code, such as 200 oder 404, die summarizes the Ergebnis von an HTTP Anfrage. In einem realen
-  Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer HTTP Status Code versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in web network benennen und
-  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient HTTP Status Code in der Phase environment als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie HTTP Status Code in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+title: HTTP-Statuscode
+short_definition: Ein dreistelliger Antwortcode, z. B. 200 oder 404, der das Ergebnis einer HTTP-Anfrage zusammenfasst.
+analogy: 'Für HTTP-Statuscode hilft ein Bild aus Web & Netzwerk: Das Etikett weist auf das Problemfeld, ersetzt aber weder
+  den Code noch die Prüfung des Datenflusses.'
+mechanism: Ein dreistelliger Antwortcode, z. B. 200 oder 404, der das Ergebnis einer HTTP-Anfrage zusammenfasst. In einem
+  realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
+  Umsetzung.
+why_it_matters: Wer HTTP-Statuscode versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Web & Netzwerk benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir HTTP-Statuscode in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie HTTP-Statuscode in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff HTTP Status Code als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
-  Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
+common_mistake: Den Begriff HTTP-Statuscode als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

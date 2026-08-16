@@ -1,18 +1,18 @@
-title: Glassmorphism
-short_definition: Ein visual style unter Verwendung von translucent Flächen, background blur, subtle borders, und layered
-  depth zu suggest frosted glass.
-analogy: 'Für Glassmorphism hilft ein Vergleich mit einem Werkzeug aus ui ux: Sein Etikett nennt das Problemfeld; verlässlich
-  wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Ein visual style unter Verwendung von translucent Flächen, background blur, subtle borders, und layered depth zu
-  suggest frosted glass. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss
+title: Glasmorphismus
+short_definition: Ein visueller Stil mit durchscheinenden Oberflächen, Hintergrundunschärfe, subtilen Rändern und geschichteter
+  Tiefe, die an Milchglas erinnern.
+analogy: 'Für Glasmorphismus hilft ein Bild aus UI/UX & Barrierefreiheit: Das Etikett weist auf das Problemfeld, ersetzt aber
+  weder den Code noch die Prüfung des Datenflusses.'
+mechanism: Ein visueller Stil mit durchscheinenden Oberflächen, Hintergrundunschärfe, subtilen Rändern und geschichteter Tiefe,
+  die an Milchglas erinnern. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
   ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Glassmorphism versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ui ux benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Glassmorphism in der Phase Design als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Glassmorphism in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+why_it_matters: Wer Glasmorphismus versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in UI/UX & Barrierefreiheit
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Glasmorphismus in der Phase Design als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Glasmorphismus in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Glassmorphism als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Glasmorphismus als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

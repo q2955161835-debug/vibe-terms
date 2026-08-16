@@ -1,14 +1,15 @@
 title: Prompt Engineering
-short_definition: Designing prompts, examples, constraints, und Ausgabe formats zu improve the reliability von Modell responses.
-analogy: Betrachte Prompt Engineering als Orientierungsschild in ai vibe. Es weist auf die richtige technische Stelle, ersetzt
-  aber weder die Implementierung noch deren Prüfung.
-mechanism: Designing prompts, examples, constraints, und Ausgabe formats zu improve the reliability von Modell responses.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Prompt Engineering versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ai vibe benennen und
-  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Prompt Engineering in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Entwerfen von Eingabeaufforderungen, Beispielen, Einschränkungen und Ausgabeformaten zur Verbesserung der
+  Zuverlässigkeit von Modellantworten.
+analogy: Betrachte Prompt Engineering als Orientierung in KI & Vibe Coding. Die Bezeichnung führt zur richtigen technischen
+  Stelle, garantiert aber noch keine gute Umsetzung.
+mechanism: Entwerfen von Eingabeaufforderungen, Beispielen, Einschränkungen und Ausgabeformaten zur Verbesserung der Zuverlässigkeit
+  von Modellantworten. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab;
+  prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Prompt Engineering versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Prompt Engineering in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Prompt Engineering in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Prompt Engineering als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches

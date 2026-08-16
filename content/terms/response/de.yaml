@@ -1,13 +1,13 @@
 title: Antwort
-short_definition: Ein Server's reply zu a Anfrage, including status, headers, und optionally a body.
-analogy: 'Ein praktisches Bild für Antwort: ein markiertes Werkzeug in web network, dessen Aufschrift die Frage schärft, aber
-  keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein Server's reply zu a Anfrage, including status, headers, und optionally a body. In einem realen Projekt hängt
-  das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Antwort versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in web network benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Antwort in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Die Antwort eines Servers auf eine Anfrage, einschließlich Status, Headern und optional einem Text.
+analogy: 'Ein praktischer Vergleich für Antwort: ein markiertes Werkzeug in Web & Netzwerk, dessen Zweck erst im Zusammenspiel
+  mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Die Antwort eines Servers auf eine Anfrage, einschließlich Status, Headern und optional einem Text. In einem realen
+  Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Antwort versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Web & Netzwerk benennen und von
+  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Antwort in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Antwort in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Antwort als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

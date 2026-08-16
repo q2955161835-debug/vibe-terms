@@ -1,13 +1,15 @@
 title: Token
-short_definition: Ein unit von Text die a language Modell reads oder generates; words can be split in eine oder mehr Tokens.
-analogy: 'Für Token hilft ein Vergleich mit einem Werkzeug aus ai vibe: Sein Etikett nennt das Problemfeld; verlässlich wird
-  die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Ein unit von Text die a language Modell reads oder generates; words can be split in eine oder mehr Tokens. In einem
-  realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Token versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ai vibe benennen und von einem KI-Coding-Agenten
-  eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Token in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Eine Texteinheit, die ein Sprachmodell liest oder generiert; Wörter können in einen oder mehrere Token aufgeteilt
+  werden.
+analogy: 'Für Token hilft ein Bild aus KI & Vibe Coding: Das Etikett weist auf das Problemfeld, ersetzt aber weder den Code
+  noch die Prüfung des Datenflusses.'
+mechanism: Eine Texteinheit, die ein Sprachmodell liest oder generiert; Wörter können in einen oder mehrere Token aufgeteilt
+  werden. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
+  die konkrete Umsetzung.
+why_it_matters: Wer Token versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen und von
+  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Token in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Token in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Token als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

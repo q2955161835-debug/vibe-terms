@@ -1,16 +1,17 @@
-title: Cherry-pick
-short_definition: Applying the ändert introduced by a selected commit onto the aktuelle branch as a neu commit.
-analogy: 'Für Cherry-pick hilft ein Vergleich mit einem Werkzeug aus git collaboration: Sein Etikett nennt das Problemfeld;
-  verlässlich wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Applying the ändert introduced by a selected commit onto the aktuelle branch as a neu commit. In einem realen Projekt
-  hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Cherry-pick versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in git collaboration benennen und
-  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Cherry-pick in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Cherry-pick in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+title: Cherry-Pick
+short_definition: Anwenden der von einem ausgewählten Commit eingeführten Änderungen auf den aktuellen Zweig als neues Commit.
+analogy: 'Für Rosinenpickerei hilft ein Bild aus Git & Zusammenarbeit: Das Etikett weist auf das Problemfeld, ersetzt aber
+  weder den Code noch die Prüfung des Datenflusses.'
+mechanism: Anwenden der von einem ausgewählten Commit eingeführten Änderungen auf den aktuellen Zweig als neues Commit. In
+  einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
+  Umsetzung.
+why_it_matters: Wer Rosinenpickerei versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Git & Zusammenarbeit benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Rosinenpickerei in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Rosinenpickerei in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Cherry-pick als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Rosinenpickerei als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

@@ -1,13 +1,15 @@
 title: Arbeitsbaum
-short_definition: Die checked-out Dateien auf disk die a developer currently edits vor staging oder committing ändert.
-analogy: Betrachte Arbeitsbaum als Orientierungsschild in git collaboration. Es weist auf die richtige technische Stelle,
-  ersetzt aber weder die Implementierung noch deren Prüfung.
-mechanism: Die checked-out Dateien auf disk die a developer currently edits vor staging oder committing ändert. In einem realen
-  Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Arbeitsbaum versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in git collaboration benennen und
-  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Arbeitsbaum in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Die ausgecheckten Dateien auf der Festplatte, die ein Entwickler derzeit bearbeitet, bevor er Änderungen
+  bereitstellt oder festschreibt.
+analogy: Betrachte Arbeitsbaum als Orientierung in Git & Zusammenarbeit. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Die ausgecheckten Dateien auf der Festplatte, die ein Entwickler derzeit bearbeitet, bevor er Änderungen bereitstellt
+  oder festschreibt. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab;
+  prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Arbeitsbaum versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Git & Zusammenarbeit benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Arbeitsbaum in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Arbeitsbaum in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Arbeitsbaum als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

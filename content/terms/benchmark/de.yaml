@@ -1,15 +1,15 @@
 title: Benchmark
-short_definition: Ein standardized dataset oder Aufgabe suite verwendet zu vergleichen Modelle oder Systeme under die gleich
-  evaluation conditions.
-analogy: 'Ein praktisches Bild für Benchmark: ein markiertes Werkzeug in KI & Vibe Coding, dessen Aufschrift die Frage schärft,
-  aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein standardized dataset oder Aufgabe suite verwendet zu vergleichen Modelle oder Systeme under die gleich evaluation
-  conditions. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
+short_definition: Ein standardisierter Datensatz oder eine Aufgabensuite, die zum Vergleich von Modellen oder Systemen unter
+  denselben Bewertungsbedingungen verwendet wird.
+analogy: 'Ein praktischer Vergleich für Benchmark: ein markiertes Werkzeug in KI & Vibe Coding, dessen Zweck erst im Zusammenspiel
+  mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Ein standardisierter Datensatz oder eine Aufgabensuite, die zum Vergleich von Modellen oder Systemen unter denselben
+  Bewertungsbedingungen verwendet wird. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer Benchmark versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen und
   von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Benchmark in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Benchmark in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Benchmark in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Benchmark als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

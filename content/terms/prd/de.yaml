@@ -1,15 +1,15 @@
 title: PRD
-short_definition: Ein product requirements document die explains the problem, target Benutzer, Umfang, Verhalten, constraints,
-  und acceptance expectations für a product oder feature.
-analogy: Betrachte PRD als Orientierungsschild in Produkt & Anforderungen. Es weist auf die richtige technische Stelle, ersetzt
-  aber weder die Implementierung noch deren Prüfung.
-mechanism: Ein product requirements document die explains the problem, target Benutzer, Umfang, Verhalten, constraints, und
-  acceptance expectations für a product oder feature. In einem realen Projekt hängt das genaue Verhalten von Technologie,
-  Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+short_definition: Ein Produktanforderungsdokument, das das Problem, die Zielbenutzer, den Umfang, das Verhalten, die Einschränkungen
+  und die Akzeptanzerwartungen für ein Produkt oder eine Funktion erläutert.
+analogy: Betrachte PRD als Orientierung in Produkt & Anforderungen. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Ein Produktanforderungsdokument, das das Problem, die Zielbenutzer, den Umfang, das Verhalten, die Einschränkungen
+  und die Akzeptanzerwartungen für ein Produkt oder eine Funktion erläutert. In einem realen Projekt hängt die genaue Ausprägung
+  von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer PRD versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen benennen und
   von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient PRD in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir PRD in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie PRD in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere
   nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff PRD als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten, Datenfluss,

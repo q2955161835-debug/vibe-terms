@@ -1,18 +1,18 @@
-title: Edge Funktion
-short_definition: Anwendung Code executed in geographically distributed edge infrastructure close zu Benutzer oder incoming
-  requests.
-analogy: 'Ordne Edge Funktion im Bereich deployment operations als beschriftetes Werkzeug ein: Die Beschriftung grenzt den
-  Prüfbereich ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Anwendung Code executed in geographically distributed edge infrastructure close zu Benutzer oder incoming requests.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Edge Funktion versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in deployment operations benennen
+title: Edge Function
+short_definition: Anwendungscode, der in einer geografisch verteilten Edge-Infrastruktur in der Nähe von Benutzern oder eingehenden
+  Anforderungen ausgeführt wird.
+analogy: 'Ordne Kantenfunktion im Bereich Deployment & Betrieb als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch
+  erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Anwendungscode, der in einer geografisch verteilten Edge-Infrastruktur in der Nähe von Benutzern oder eingehenden
+  Anforderungen ausgeführt wird. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Kantenfunktion versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Deployment & Betrieb benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Edge Funktion in der Phase deploy maintain als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Edge Funktion in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Kantenfunktion in der Phase Deployment & Wartung als Lerncheckpoint. Verknüpfe
+  die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Kantenfunktion in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Edge Funktion als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Kantenfunktion als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

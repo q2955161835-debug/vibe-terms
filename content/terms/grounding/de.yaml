@@ -1,15 +1,15 @@
 title: Grounding
-short_definition: Connecting Modell Ausgabe zu supplied evidence, retrieved sources, oder verified Daten so claims are weniger
-  likely zu be invented.
-analogy: 'Für Grounding hilft ein Vergleich mit einem Werkzeug aus ai vibe: Sein Etikett nennt das Problemfeld; verlässlich
-  wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Connecting Modell Ausgabe zu supplied evidence, retrieved sources, oder verified Daten so claims are weniger likely
-  zu be invented. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe
-  deshalb die konkrete Umsetzung.
-why_it_matters: Wer Grounding versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ai vibe benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Grounding in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Verknüpfung der Modellausgabe mit bereitgestellten Beweisen, abgerufenen Quellen oder verifizierten Daten,
+  sodass die Wahrscheinlichkeit geringer ist, dass Behauptungen erfunden werden.
+analogy: 'Für Grounding hilft ein Bild aus KI & Vibe Coding: Das Etikett weist auf das Problemfeld, ersetzt aber weder den Code
+  noch die Prüfung des Datenflusses.'
+mechanism: Verknüpfung der Modellausgabe mit bereitgestellten Beweisen, abgerufenen Quellen oder verifizierten Daten, sodass
+  die Wahrscheinlichkeit geringer ist, dass Behauptungen erfunden werden. In einem realen Projekt hängt die genaue Ausprägung
+  von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Grounding versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen und von
+  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Grounding in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Grounding in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Grounding als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

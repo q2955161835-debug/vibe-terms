@@ -1,16 +1,17 @@
-title: HTTP Method
-short_definition: Ein verb such as GET, POST, PUT, PATCH, oder DELETE die Zustände the intended Vorgang von an HTTP Anfrage.
-analogy: Betrachte HTTP Method als Orientierungsschild in web network. Es weist auf die richtige technische Stelle, ersetzt
-  aber weder die Implementierung noch deren Prüfung.
-mechanism: Ein verb such as GET, POST, PUT, PATCH, oder DELETE die Zustände the intended Vorgang von an HTTP Anfrage. In einem
-  realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer HTTP Method versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in web network benennen und von
-  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient HTTP Method in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie HTTP Method in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+title: HTTP-Methode
+short_definition: Ein Verb wie GET, POST, PUT, PATCH oder DELETE, das den beabsichtigten Vorgang einer HTTP-Anfrage angibt.
+analogy: Betrachte HTTP-Methode als Orientierung in Web & Netzwerk. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Ein Verb wie GET, POST, PUT, PATCH oder DELETE, das den beabsichtigten Vorgang einer HTTP-Anfrage angibt. In einem
+  realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
+  Umsetzung.
+why_it_matters: Wer HTTP-Methode versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Web & Netzwerk benennen und
+  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir HTTP-Methode in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie HTTP-Methode in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff HTTP Method als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff HTTP-Methode als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

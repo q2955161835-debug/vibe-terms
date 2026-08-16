@@ -1,16 +1,16 @@
-title: Dokument Datenbank
-short_definition: Ein Datenbank die stores Datensätze as flexible document structures, often JSON-like objects.
-analogy: 'Für Dokument Datenbank hilft ein Vergleich mit einem Werkzeug aus data databases: Sein Etikett nennt das Problemfeld;
-  verlässlich wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Ein Datenbank die stores Datensätze as flexible document structures, often JSON-like objects. In einem realen Projekt
-  hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Dokument Datenbank versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in data databases benennen
-  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Dokument Datenbank in der Phase data identity als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Dokument Datenbank in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
-  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Dokument Datenbank als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+title: Dokumentdatenbank
+short_definition: Eine Datenbank, die Datensätze als flexible Dokumentstrukturen speichert, oft JSON-ähnliche Objekte.
+analogy: 'Für Dokumentendatenbank hilft ein Bild aus Daten & Datenbanken: Das Etikett weist auf das Problemfeld, ersetzt aber
+  weder den Code noch die Prüfung des Datenflusses.'
+mechanism: Eine Datenbank, die Datensätze als flexible Dokumentstrukturen speichert, oft JSON-ähnliche Objekte. In einem realen
+  Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Dokumentendatenbank versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Daten & Datenbanken
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Dokumentendatenbank in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe
+  die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Dokumentendatenbank in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
+  Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Dokumentendatenbank als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

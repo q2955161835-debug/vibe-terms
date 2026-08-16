@@ -1,13 +1,13 @@
 title: Zeile
-short_definition: eine Datensatz in a relational Tabelle, containing Werte für die Tabelle's columns.
-analogy: 'Ordne Zeile im Bereich data databases als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich ein,
-  während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: eine Datensatz in a relational Tabelle, containing Werte für die Tabelle's columns. In einem realen Projekt hängt
-  das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Zeile versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in data databases benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Zeile in der Phase data identity als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Ein Datensatz in einer relationalen Tabelle, der Werte für die Spalten dieser Tabelle enthält.
+analogy: 'Ordne Zeile im Bereich Daten & Datenbanken als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch erst die
+  konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Ein Datensatz in einer relationalen Tabelle, der Werte für die Spalten dieser Tabelle enthält. In einem realen
+  Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Zeile versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Daten & Datenbanken benennen und von
+  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Zeile in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Zeile in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Zeile als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

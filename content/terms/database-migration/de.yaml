@@ -1,17 +1,18 @@
-title: Datenbank migration
-short_definition: Ein versioned ändern zu Datenbank structure oder Daten die can be applied consistently across environments.
-analogy: 'Ordne Datenbank migration im Bereich data databases als beschriftetes Werkzeug ein: Die Beschriftung grenzt den
-  Prüfbereich ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein versioned ändern zu Datenbank structure oder Daten die can be applied consistently across environments. In
-  einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Datenbank migration versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in data databases benennen
+title: Datenbankmigration
+short_definition: Eine versionierte Änderung der Datenbankstruktur oder der Daten, die umgebungsübergreifend konsistent angewendet
+  werden kann.
+analogy: 'Ordne Datenbankmigration im Bereich Daten & Datenbanken als Werkzeug ein: Die Bezeichnung grenzt die Frage ein,
+  doch erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine versionierte Änderung der Datenbankstruktur oder der Daten, die umgebungsübergreifend konsistent angewendet
+  werden kann. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe
+  deshalb die konkrete Umsetzung.
+why_it_matters: Wer Datenbankmigration versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Daten & Datenbanken benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Datenbank migration in der Phase data identity als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Datenbank migration in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
-  Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Datenbank migration als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+project_example: In Vibe Terms begegnet dir Datenbankmigration in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe
+  die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Datenbankmigration in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Datenbankmigration als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

@@ -1,13 +1,13 @@
 title: Laufzeit
-short_definition: Die environment und supporting System in die a program actually executes.
-analogy: 'Ordne Laufzeit im Bereich computing env als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
-  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Die environment und supporting System in die a program actually executes. In einem realen Projekt hängt das genaue
-  Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Laufzeit versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in computing env benennen und von
-  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Laufzeit in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Die Umgebung und das unterstützende System, in dem ein Programm tatsächlich ausgeführt wird.
+analogy: 'Ordne Laufzeit im Bereich Computer & Entwicklungsumgebung als Werkzeug ein: Die Bezeichnung grenzt die Frage ein,
+  doch erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Die Umgebung und das unterstützende System, in dem ein Programm tatsächlich ausgeführt wird. In einem realen Projekt
+  hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Laufzeit versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Computer & Entwicklungsumgebung
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Laufzeit in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Laufzeit in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Laufzeit als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

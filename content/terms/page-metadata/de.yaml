@@ -1,18 +1,18 @@
-title: Seite Metadaten
-short_definition: Machine-lesbar Informationen about a Seite, such as title, description, canonical URL, sharing Daten, und
-  indexing directives.
-analogy: 'Ein praktisches Bild für Seite Metadaten: ein markiertes Werkzeug in Frontend-Entwicklung, dessen Aufschrift die
-  Frage schärft, aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Machine-lesbar Informationen about a Seite, such as title, description, canonical URL, sharing Daten, und indexing
-  directives. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
-why_it_matters: Wer Seite Metadaten versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen
+title: Seitenmetadaten
+short_definition: Maschinenlesbare Informationen zu einer Seite, wie Titel, Beschreibung, kanonische URL, Freigabedaten und
+  Indexierungsanweisungen.
+analogy: 'Ein praktischer Vergleich für Seitenmetadaten: ein markiertes Werkzeug in Frontend-Entwicklung, dessen Zweck erst
+  im Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Maschinenlesbare Informationen zu einer Seite, wie Titel, Beschreibung, kanonische URL, Freigabedaten und Indexierungsanweisungen.
+  In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die
+  konkrete Umsetzung.
+why_it_matters: Wer Seitenmetadaten versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Seite Metadaten in der Phase Oberflächenlogik als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Seite Metadaten in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Seitenmetadaten in der Phase Oberflächenlogik als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Seitenmetadaten in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Seite Metadaten als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Seitenmetadaten als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

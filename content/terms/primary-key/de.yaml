@@ -1,16 +1,17 @@
-title: Primär schlüssel
-short_definition: Ein column oder set von columns whose Wert uniquely identifiziert jede row in a relational Tabelle.
-analogy: Betrachte Primär schlüssel als Orientierungsschild in data databases. Es weist auf die richtige technische Stelle,
-  ersetzt aber weder die Implementierung noch deren Prüfung.
-mechanism: Ein column oder set von columns whose Wert uniquely identifiziert jede row in a relational Tabelle. In einem realen
-  Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Primär schlüssel versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in data databases benennen
+title: Primärschlüssel
+short_definition: Eine Spalte oder ein Satz von Spalten, deren Wert jede Zeile in einer relationalen Tabelle eindeutig identifiziert.
+analogy: Betrachte Primärschlüssel als Orientierung in Daten & Datenbanken. Die Bezeichnung führt zur richtigen technischen
+  Stelle, garantiert aber noch keine gute Umsetzung.
+mechanism: Eine Spalte oder ein Satz von Spalten, deren Wert jede Zeile in einer relationalen Tabelle eindeutig identifiziert.
+  In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die
+  konkrete Umsetzung.
+why_it_matters: Wer Primärschlüssel versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Daten & Datenbanken benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Primär schlüssel in der Phase data identity als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Primär schlüssel in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Primärschlüssel in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Primärschlüssel in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Primär schlüssel als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
-  Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
+common_mistake: Den Begriff Primärschlüssel als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

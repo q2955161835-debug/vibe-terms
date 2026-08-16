@@ -1,18 +1,18 @@
-title: Server-Sent Ereignisse
-short_definition: Ein Browser API und HTTP streaming format die lets a Server continuously push Text events zu a Client over
-  eine connection.
-analogy: 'Ordne Server-Sent Ereignisse im Bereich web network als beschriftetes Werkzeug ein: Die Beschriftung grenzt den
-  Prüfbereich ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein Browser API und HTTP streaming format die lets a Server continuously push Text events zu a Client over eine
-  connection. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
-why_it_matters: Wer Server-Sent Ereignisse versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in web network benennen
-  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Server-Sent Ereignisse in der Phase environment als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Server-Sent Ereignisse in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
-  Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Server-Sent Ereignisse als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
-  Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
+title: Server-Sent Events
+short_definition: Eine Browser-API und ein HTTP-Streaming-Format, mit dem ein Server kontinuierlich Textereignisse über eine
+  Verbindung an einen Client senden kann.
+analogy: 'Ordne Vom Server gesendete Ereignisse im Bereich Web & Netzwerk als Werkzeug ein: Die Bezeichnung grenzt die Frage
+  ein, doch erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine Browser-API und ein HTTP-Streaming-Format, mit dem ein Server kontinuierlich Textereignisse über eine Verbindung
+  an einen Client senden kann. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Vom Server gesendete Ereignisse versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Web & Netzwerk
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Vom Server gesendete Ereignisse in der Phase Umgebung als Lerncheckpoint. Verknüpfe
+  die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Vom Server gesendete Ereignisse in diesem Projekt angewendet wird. Nenne die betroffenen Dateien
+  oder Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Vom Server gesendete Ereignisse als Beleg für eine korrekte Implementierung zu behandeln, ohne
+  tatsächliches Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

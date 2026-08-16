@@ -1,13 +1,14 @@
 title: Anwendung
-short_definition: Software erstellt für Benutzer oder andere Systeme zu accomplish a particular Satz von Aufgaben.
-analogy: 'Ordne Anwendung im Bereich Rechenumgebung als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
-  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Software erstellt für Benutzer oder andere Systeme zu accomplish a particular Satz von Aufgaben. In einem realen
-  Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Anwendung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Rechenumgebung benennen und von
-  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Anwendung in der Phase Umgebung als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Software, die für Benutzer oder andere Systeme entwickelt wurde, um eine bestimmte Reihe von Aufgaben auszuführen.
+analogy: 'Ordne Anwendung im Bereich Computer & Entwicklungsumgebung als Werkzeug ein: Die Bezeichnung grenzt die Frage ein,
+  doch erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Software, die für Benutzer oder andere Systeme entwickelt wurde, um eine bestimmte Reihe von Aufgaben auszuführen.
+  In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die
+  konkrete Umsetzung.
+why_it_matters: Wer Anwendung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Computer & Entwicklungsumgebung
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Anwendung in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Anwendung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Anwendung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

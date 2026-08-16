@@ -1,16 +1,18 @@
-title: Statistic
-short_definition: Ein prominent display von a key numeric Wert, usually paired mit a label, unit, trend, oder comparison.
-analogy: 'Ordne Statistic im Bereich ui ux als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich ein, während
-  erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein prominent display von a key numeric Wert, usually paired mit a label, unit, trend, oder comparison. In einem
-  realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Statistic versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ui ux benennen und von einem KI-Coding-Agenten
-  eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Statistic in der Phase Design als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Statistic in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+title: Statistik
+short_definition: Eine auffällige Anzeige eines wichtigen numerischen Werts, normalerweise gepaart mit einer Bezeichnung,
+  Einheit, einem Trend oder einem Vergleich.
+analogy: 'Ordne Statistik im Bereich UI/UX & Barrierefreiheit als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch
+  erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine auffällige Anzeige eines wichtigen numerischen Werts, normalerweise gepaart mit einer Bezeichnung, Einheit,
+  einem Trend oder einem Vergleich. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und
+  Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Statistik versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in UI/UX & Barrierefreiheit benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Statistik in der Phase Design als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Statistik in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Statistic als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Statistik als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

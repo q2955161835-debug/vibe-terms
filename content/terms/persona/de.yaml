@@ -1,15 +1,15 @@
 title: Persona
-short_definition: Ein research-informed representation von a target Benutzer type verwendet zu summarize relevante goals,
-  behaviors, und constraints.
-analogy: 'Ordne Persona im Bereich Produkt & Anforderungen als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
-  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein research-informed representation von a target Benutzer type verwendet zu summarize relevante goals, behaviors,
-  und constraints. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe
-  deshalb die konkrete Umsetzung.
+short_definition: Eine forschungsbasierte Darstellung eines Zielbenutzertyps, die zur Zusammenfassung relevanter Ziele, Verhaltensweisen
+  und Einschränkungen verwendet wird.
+analogy: 'Ordne Persona im Bereich Produkt & Anforderungen als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch erst
+  die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine forschungsbasierte Darstellung eines Zielbenutzertyps, die zur Zusammenfassung relevanter Ziele, Verhaltensweisen
+  und Einschränkungen verwendet wird. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und
+  Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer Persona versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Persona in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Persona in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Persona in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Persona als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

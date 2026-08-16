@@ -1,15 +1,17 @@
 title: Pfad
-short_definition: Ein string die identifiziert the location von a Datei oder Verzeichnis innerhalb a Datei System.
-analogy: 'Für Pfad hilft ein Vergleich mit einem Werkzeug aus computing env: Sein Etikett nennt das Problemfeld; verlässlich
-  wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Ein string die identifiziert the location von a Datei oder Verzeichnis innerhalb a Datei System. In einem realen
-  Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Pfad versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in computing env benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Pfad in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Pfad in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
-  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+short_definition: Eine Zeichenfolge, die den Speicherort einer Datei oder eines Verzeichnisses innerhalb eines Dateisystems
+  identifiziert.
+analogy: 'Für Pfad hilft ein Bild aus Computer & Entwicklungsumgebung: Das Etikett weist auf das Problemfeld, ersetzt aber
+  weder den Code noch die Prüfung des Datenflusses.'
+mechanism: Eine Zeichenfolge, die den Speicherort einer Datei oder eines Verzeichnisses innerhalb eines Dateisystems identifiziert.
+  In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die
+  konkrete Umsetzung.
+why_it_matters: Wer Pfad versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Computer & Entwicklungsumgebung benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Pfad in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit einer
+  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Pfad in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere
+  nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Pfad als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten, Datenfluss,
   Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft

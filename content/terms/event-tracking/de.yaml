@@ -1,17 +1,18 @@
-title: Ereignis Tracking
-short_definition: Recording definiert Benutzer oder System events mit consistent properties so Verhalten can be analyzed later.
-analogy: Betrachte Ereignis Tracking als Orientierungsschild in Produkt & Anforderungen. Es weist auf die richtige technische
-  Stelle, ersetzt aber weder die Implementierung noch deren Prüfung.
-mechanism: Recording definiert Benutzer oder System events mit consistent properties so Verhalten can be analyzed later. In
-  einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Ereignis Tracking versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen
+title: Ereignis-Tracking
+short_definition: Aufzeichnen definierter Benutzer- oder Systemereignisse mit konsistenten Eigenschaften, damit das Verhalten
+  später analysiert werden kann.
+analogy: Betrachte Ereignisverfolgung als Orientierung in Produkt & Anforderungen. Die Bezeichnung führt zur richtigen technischen
+  Stelle, garantiert aber noch keine gute Umsetzung.
+mechanism: Aufzeichnen definierter Benutzer- oder Systemereignisse mit konsistenten Eigenschaften, damit das Verhalten später
+  analysiert werden kann. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Ereignisverfolgung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen
   benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Ereignis Tracking in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Ereignis Tracking in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Ereignisverfolgung in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Ereignisverfolgung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Ereignis Tracking als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+common_mistake: Den Begriff Ereignisverfolgung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

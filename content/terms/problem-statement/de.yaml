@@ -1,18 +1,18 @@
-title: Problem aussage
-short_definition: Ein concise description von the Benutzer oder business problem, its context, und why solving it matters
-  ohne prematurely prescribing a solution.
-analogy: 'Ein praktisches Bild für Problem aussage: ein markiertes Werkzeug in Produkt & Anforderungen, dessen Aufschrift
-  die Frage schärft, aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein concise description von the Benutzer oder business problem, its context, und why solving it matters ohne prematurely
-  prescribing a solution. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss
-  ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Problem aussage versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen
+title: Problemstellung
+short_definition: Eine prägnante Beschreibung des Benutzer- oder Geschäftsproblems, seines Kontexts und der Gründe, warum
+  seine Lösung wichtig ist, ohne voreilig eine Lösung vorzuschreiben.
+analogy: 'Ein praktischer Vergleich für Problemstellung: ein markiertes Werkzeug in Produkt & Anforderungen, dessen Zweck
+  erst im Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Eine prägnante Beschreibung des Benutzer- oder Geschäftsproblems, seines Kontexts und der Gründe, warum seine Lösung
+  wichtig ist, ohne voreilig eine Lösung vorzuschreiben. In einem realen Projekt hängt die genaue Ausprägung von Technologie,
+  Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Problemstellung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen
   benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Problem aussage in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Problem aussage in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Problemstellung in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Problemstellung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Problem aussage als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Problemstellung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

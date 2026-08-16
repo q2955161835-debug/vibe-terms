@@ -1,18 +1,18 @@
-title: Modell Kontext Protocol
-short_definition: Ein open protocol für connecting AI Anwendungen zu external Werkzeuge, Ressourcen, und Prompt Templates
-  durch a standard Client-Server Oberfläche.
-analogy: Betrachte Modell Kontext Protocol als Orientierungsschild in ai vibe. Es weist auf die richtige technische Stelle,
-  ersetzt aber weder die Implementierung noch deren Prüfung.
-mechanism: Ein open protocol für connecting AI Anwendungen zu external Werkzeuge, Ressourcen, und Prompt Templates durch a
-  standard Client-Server Oberfläche. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und
-  Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Modell Kontext Protocol versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ai vibe benennen
-  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Modell Kontext Protocol in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die
-  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Modell Kontext Protocol in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
+title: Model Context Protocol
+short_definition: Ein offenes Protokoll zum Verbinden von KI-Anwendungen mit externen Tools, Ressourcen und Eingabeaufforderungsvorlagen
+  über eine standardmäßige Client-Server-Schnittstelle.
+analogy: Betrachte Modellkontextprotokoll als Orientierung in KI & Vibe Coding. Die Bezeichnung führt zur richtigen technischen
+  Stelle, garantiert aber noch keine gute Umsetzung.
+mechanism: Ein offenes Protokoll zum Verbinden von KI-Anwendungen mit externen Tools, Ressourcen und Eingabeaufforderungsvorlagen
+  über eine standardmäßige Client-Server-Schnittstelle. In einem realen Projekt hängt die genaue Ausprägung von Technologie,
+  Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Modellkontextprotokoll versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Modellkontextprotokoll in der Phase Anforderungen als Lerncheckpoint. Verknüpfe
+  die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Modellkontextprotokoll in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
   Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Modell Kontext Protocol als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+common_mistake: Den Begriff Modellkontextprotokoll als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

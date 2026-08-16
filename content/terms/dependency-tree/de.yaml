@@ -1,18 +1,18 @@
-title: Abhängigkeit baum
-short_definition: Die graph von direct und transitive packages erforderlich by a project und the Version relationships zwischen
-  them.
-analogy: 'Ordne Abhängigkeit baum im Bereich computing env als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
-  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Die graph von direct und transitive packages erforderlich by a project und the Version relationships zwischen them.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Abhängigkeit baum versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in computing env benennen
-  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Abhängigkeit baum in der Phase environment als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Abhängigkeit baum in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+title: Abhängigkeitsbaum
+short_definition: Das Diagramm der für ein Projekt erforderlichen direkten und transitiven Pakete und der Versionsbeziehungen
+  zwischen ihnen.
+analogy: 'Ordne Abhängigkeitsbaum im Bereich Computer & Entwicklungsumgebung als Werkzeug ein: Die Bezeichnung grenzt die
+  Frage ein, doch erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Das Diagramm der für ein Projekt erforderlichen direkten und transitiven Pakete und der Versionsbeziehungen zwischen
+  ihnen. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
+  die konkrete Umsetzung.
+why_it_matters: Wer Abhängigkeitsbaum versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Computer & Entwicklungsumgebung
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Abhängigkeitsbaum in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Abhängigkeitsbaum in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Abhängigkeit baum als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+common_mistake: Den Begriff Abhängigkeitsbaum als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

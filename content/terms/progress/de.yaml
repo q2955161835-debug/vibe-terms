@@ -1,13 +1,15 @@
 title: Fortschritt
-short_definition: Ein visual indication von how much von a bounded Vorgang, upload, Aufgabe, oder process has completed.
-analogy: 'Für Fortschritt hilft ein Vergleich mit einem Werkzeug aus ui ux: Sein Etikett nennt das Problemfeld; verlässlich
-  wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Ein visual indication von how much von a bounded Vorgang, upload, Aufgabe, oder process has completed. In einem
-  realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Fortschritt versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ui ux benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Fortschritt in der Phase Design als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Ein visueller Hinweis darauf, wie viel von einem begrenzten Vorgang, Upload, einer Aufgabe oder einem Prozess
+  abgeschlossen wurde.
+analogy: 'Für Fortschritt hilft ein Bild aus UI/UX & Barrierefreiheit: Das Etikett weist auf das Problemfeld, ersetzt aber
+  weder den Code noch die Prüfung des Datenflusses.'
+mechanism: Ein visueller Hinweis darauf, wie viel von einem begrenzten Vorgang, Upload, einer Aufgabe oder einem Prozess abgeschlossen
+  wurde. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
+  die konkrete Umsetzung.
+why_it_matters: Wer Fortschritt versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in UI/UX & Barrierefreiheit benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Fortschritt in der Phase Design als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Fortschritt in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Fortschritt als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

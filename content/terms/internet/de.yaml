@@ -1,15 +1,14 @@
 title: Internet
-short_definition: Die global Netzwerk von interconnected computer networks die communicate unter Verwendung von the Internet
-  Protocol suite.
-analogy: 'Für Internet hilft ein Vergleich mit einem Werkzeug aus web network: Sein Etikett nennt das Problemfeld; verlässlich
-  wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Die global Netzwerk von interconnected computer networks die communicate unter Verwendung von the Internet Protocol
-  suite. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
-why_it_matters: Wer Internet versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in web network benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Internet in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Das globale Netzwerk miteinander verbundener Computernetzwerke, die über die Internet Protocol Suite kommunizieren.
+analogy: 'Für Internet hilft ein Bild aus Web & Netzwerk: Das Etikett weist auf das Problemfeld, ersetzt aber weder den Code
+  noch die Prüfung des Datenflusses.'
+mechanism: Das globale Netzwerk miteinander verbundener Computernetzwerke, die über die Internet Protocol Suite kommunizieren.
+  In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die
+  konkrete Umsetzung.
+why_it_matters: Wer Internet versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Web & Netzwerk benennen und von
+  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Internet in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Internet in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Internet als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

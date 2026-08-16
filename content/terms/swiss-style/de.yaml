@@ -1,18 +1,18 @@
-title: Schweizer Style
-short_definition: Ein modernist graphic-design approach emphasizing grids, strong typography, asymmetry, clarity, und disciplined
-  alignment.
-analogy: 'Ein praktisches Bild für Schweizer Style: ein markiertes Werkzeug in ui ux, dessen Aufschrift die Frage schärft,
-  aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein modernist graphic-design approach emphasizing grids, strong typography, asymmetry, clarity, und disciplined
-  alignment. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
-why_it_matters: Wer Schweizer Style versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ui ux benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Schweizer Style in der Phase Design als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Schweizer Style in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+title: Schweizer Stil
+short_definition: Ein modernistischer Grafikdesign-Ansatz, der Raster, starke Typografie, Asymmetrie, Klarheit und disziplinierte
+  Ausrichtung betont.
+analogy: 'Ein praktischer Vergleich für Schweizer Stil: ein markiertes Werkzeug in UI/UX & Barrierefreiheit, dessen Zweck
+  erst im Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Ein modernistischer Grafikdesign-Ansatz, der Raster, starke Typografie, Asymmetrie, Klarheit und disziplinierte
+  Ausrichtung betont. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab;
+  prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Schweizer Stil versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in UI/UX & Barrierefreiheit
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Schweizer Stil in der Phase Design als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Schweizer Stil in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Schweizer Style als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Schweizer Stil als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

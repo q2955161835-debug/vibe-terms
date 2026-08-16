@@ -1,13 +1,15 @@
 title: Upstream
-short_definition: Die branch oder repository a lokal branch is configured zu track oder receive ändert aus.
-analogy: 'Für Upstream hilft ein Vergleich mit einem Werkzeug aus git collaboration: Sein Etikett nennt das Problemfeld; verlässlich
-  wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Die branch oder repository a lokal branch is configured zu track oder receive ändert aus. In einem realen Projekt
-  hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Upstream versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in git collaboration benennen und
-  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Upstream in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Der Zweig oder das Repository, für das ein lokaler Zweig konfiguriert ist, um Änderungen zu verfolgen oder
+  von diesem zu empfangen.
+analogy: 'Für Upstream hilft ein Bild aus Git & Zusammenarbeit: Das Etikett weist auf das Problemfeld, ersetzt aber weder
+  den Code noch die Prüfung des Datenflusses.'
+mechanism: Der Zweig oder das Repository, für das ein lokaler Zweig konfiguriert ist, um Änderungen zu verfolgen oder von
+  diesem zu empfangen. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab;
+  prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Upstream versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Git & Zusammenarbeit benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Upstream in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Upstream in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Upstream als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

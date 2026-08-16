@@ -1,18 +1,17 @@
-title: Serialization
-short_definition: Converting in-memory Daten in a transport oder Speicher representation such as JSON, bytes, oder a message
-  format.
-analogy: Betrachte Serialization als Orientierungsschild in backend apis. Es weist auf die richtige technische Stelle, ersetzt
-  aber weder die Implementierung noch deren Prüfung.
-mechanism: Converting in-memory Daten in a transport oder Speicher representation such as JSON, bytes, oder a message format.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Serialization versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in backend apis benennen und
+title: Serialisierung
+short_definition: Konvertieren von In-Memory-Daten in eine Transport- oder Speicherdarstellung wie JSON, Bytes oder ein Nachrichtenformat.
+analogy: Betrachte Serialisierung als Orientierung in Backend & APIs. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Konvertieren von In-Memory-Daten in eine Transport- oder Speicherdarstellung wie JSON, Bytes oder ein Nachrichtenformat.
+  In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die
+  konkrete Umsetzung.
+why_it_matters: Wer Serialisierung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Backend & APIs benennen und
   von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Serialization in der Phase data identity als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Serialization in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Serialisierung in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Serialisierung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Serialization als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Serialisierung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

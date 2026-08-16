@@ -1,15 +1,15 @@
 title: Commit
-short_definition: Ein gespeichert Git snapshot mit metadata und parent links die Datensätze a zusammenhängend set von ändert
-  in repository history.
-analogy: 'Für Commit hilft ein Vergleich mit einem Werkzeug aus git collaboration: Sein Etikett nennt das Problemfeld; verlässlich
-  wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Ein gespeichert Git snapshot mit metadata und parent links die Datensätze a zusammenhängend set von ändert in repository
-  history. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
-why_it_matters: Wer Commit versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in git collaboration benennen und von
-  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Commit in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Ein gespeicherter Git-Snapshot mit Metadaten und übergeordneten Links, der eine zusammenhängende Reihe von
+  Änderungen im Repository-Verlauf aufzeichnet.
+analogy: 'Für Commit hilft ein Bild aus Git & Zusammenarbeit: Das Etikett weist auf das Problemfeld, ersetzt aber weder den
+  Code noch die Prüfung des Datenflusses.'
+mechanism: Ein gespeicherter Git-Snapshot mit Metadaten und übergeordneten Links, der eine zusammenhängende Reihe von Änderungen
+  im Repository-Verlauf aufzeichnet. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und
+  Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Commit versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Git & Zusammenarbeit benennen und
+  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Commit in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Commit in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Commit als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

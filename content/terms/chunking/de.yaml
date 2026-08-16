@@ -1,15 +1,15 @@
 title: Chunking
-short_definition: Splitting long documents oder Daten in smaller units so they can be indexed, retrieved, oder placed in Modell
-  context.
-analogy: 'Ein praktisches Bild für Chunking: ein markiertes Werkzeug in ai vibe, dessen Aufschrift die Frage schärft, aber
-  keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Splitting long documents oder Daten in smaller units so they can be indexed, retrieved, oder placed in Modell context.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Chunking versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ai vibe benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Chunking in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Aufteilen langer Dokumente oder Daten in kleinere Einheiten, damit sie indiziert, abgerufen oder in den
+  Modellkontext eingefügt werden können.
+analogy: 'Ein praktischer Vergleich für Chunking: ein markiertes Werkzeug in KI & Vibe Coding, dessen Zweck erst im Zusammenspiel
+  mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Aufteilen langer Dokumente oder Daten in kleinere Einheiten, damit sie indiziert, abgerufen oder in den Modellkontext
+  eingefügt werden können. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Chunking versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen und von
+  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Chunking in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Chunking in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Chunking als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

@@ -1,15 +1,15 @@
 title: App-Symbol
-short_definition: die Anwendung Identität graphic verwendet by operating Systeme in launchers, home screens, search, stores,
-  oder settings.
-analogy: 'Ein praktisches Bild für App-Symbol: ein markiertes Werkzeug in UI/UX & Barrierefreiheit, dessen Aufschrift die
-  Frage schärft, aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: die Anwendung Identität graphic verwendet by operating Systeme in launchers, home screens, search, stores, oder
-  settings. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
+short_definition: Die Anwendungsidentitätsgrafik, die von Betriebssystemen in Startprogrammen, Startbildschirmen, in der Suche,
+  in Stores oder in Einstellungen verwendet wird.
+analogy: 'Ein praktischer Vergleich für App-Symbol: ein markiertes Werkzeug in UI/UX & Barrierefreiheit, dessen Zweck erst
+  im Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Die Anwendungsidentitätsgrafik, die von Betriebssystemen in Startprogrammen, Startbildschirmen, in der Suche, in
+  Stores oder in Einstellungen verwendet wird. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer App-Symbol versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in UI/UX & Barrierefreiheit benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient App-Symbol in der Phase Design als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir App-Symbol in der Phase Design als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie App-Symbol in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff App-Symbol als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

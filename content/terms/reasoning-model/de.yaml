@@ -1,17 +1,18 @@
-title: Reasoning Modell
-short_definition: Ein Modell optimized zu spend zusätzliche computation auf multi-step reasoning vor producing a final answer.
-analogy: 'Ordne Reasoning Modell im Bereich ai vibe als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
-  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein Modell optimized zu spend zusätzliche computation auf multi-step reasoning vor producing a final answer. In
-  einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Reasoning Modell versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ai vibe benennen und von
-  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Reasoning Modell in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Reasoning Modell in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
-  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Reasoning Modell als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+title: Reasoning-Modell
+short_definition: Ein Modell, das so optimiert ist, dass zusätzliche Berechnungen für mehrstufige Schlussfolgerungen erforderlich
+  sind, bevor eine endgültige Antwort erstellt wird.
+analogy: 'Ordne Argumentationsmodell im Bereich KI & Vibe Coding als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch
+  erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Ein Modell, das so optimiert ist, dass zusätzliche Berechnungen für mehrstufige Schlussfolgerungen erforderlich
+  sind, bevor eine endgültige Antwort erstellt wird. In einem realen Projekt hängt die genaue Ausprägung von Technologie,
+  Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Argumentationsmodell versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Argumentationsmodell in der Phase Anforderungen als Lerncheckpoint. Verknüpfe
+  die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Argumentationsmodell in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
+  Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Argumentationsmodell als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

@@ -1,13 +1,13 @@
 title: Produktion
-short_definition: Die live environment serving real Benutzer, real traffic, oder real business processes.
-analogy: 'Ein praktisches Bild für Produktion: ein markiertes Werkzeug in deployment operations, dessen Aufschrift die Frage
-  schärft, aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Die live environment serving real Benutzer, real traffic, oder real business processes. In einem realen Projekt
-  hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Produktion versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in deployment operations benennen
+short_definition: Die Live-Umgebung für echte Benutzer, echten Datenverkehr oder echte Geschäftsprozesse.
+analogy: 'Ein praktischer Vergleich für Produktion: ein markiertes Werkzeug in Deployment & Betrieb, dessen Zweck erst im
+  Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Die Live-Umgebung für echte Benutzer, echten Datenverkehr oder echte Geschäftsprozesse. In einem realen Projekt
+  hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Produktion versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Deployment & Betrieb benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Produktion in der Phase deploy maintain als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Produktion in der Phase Deployment & Wartung als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Produktion in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Produktion als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

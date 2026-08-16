@@ -1,13 +1,13 @@
 title: Dockerfile
-short_definition: Ein declarative Text Datei containing ordered Anweisungen für Erstellen a container Bild.
-analogy: 'Ordne Dockerfile im Bereich deployment operations als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
-  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein declarative Text Datei containing ordered Anweisungen für Erstellen a container Bild. In einem realen Projekt
-  hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Dockerfile versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in deployment operations benennen
+short_definition: Eine deklarative Textdatei mit geordneten Anweisungen zum Erstellen eines Container-Images.
+analogy: 'Ordne Dockerfile im Bereich Deployment & Betrieb als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch erst
+  die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine deklarative Textdatei mit geordneten Anweisungen zum Erstellen eines Container-Images. In einem realen Projekt
+  hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Dockerfile versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Deployment & Betrieb benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Dockerfile in der Phase deploy maintain als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Dockerfile in der Phase Deployment & Wartung als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Dockerfile in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Dockerfile als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

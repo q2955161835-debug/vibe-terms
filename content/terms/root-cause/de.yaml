@@ -1,16 +1,18 @@
-title: Ursache Ursache
-short_definition: Die underlying condition oder design flaw die produces a Fehlerfall, rather than a downstream symptom.
-analogy: Betrachte Ursache Ursache als Orientierungsschild in testing debugging. Es weist auf die richtige technische Stelle,
-  ersetzt aber weder die Implementierung noch deren Prüfung.
-mechanism: Die underlying condition oder design flaw die produces a Fehlerfall, rather than a downstream symptom. In einem
-  realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Ursache Ursache versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in testing debugging benennen
+title: Root Cause
+short_definition: Der zugrunde liegende Zustand oder Konstruktionsfehler, der zu einem Fehler führt, und nicht zu einem nachgelagerten
+  Symptom.
+analogy: Betrachte Grundursache als Orientierung in Testen & Debugging. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Der zugrunde liegende Zustand oder Konstruktionsfehler, der zu einem Fehler führt, und nicht zu einem nachgelagerten
+  Symptom. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
+  die konkrete Umsetzung.
+why_it_matters: Wer Grundursache versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Testen & Debugging benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Ursache Ursache in der Phase test protect als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Ursache Ursache in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Grundursache in der Phase Tests & Schutz als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Grundursache in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Ursache Ursache als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Grundursache als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

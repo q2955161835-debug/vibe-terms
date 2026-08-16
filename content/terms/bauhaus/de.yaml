@@ -1,15 +1,15 @@
 title: Bauhaus
-short_definition: Ein modernist Design tradition combining geometry, functional purpose, reduced ornament, und systematic
-  composition.
-analogy: 'Für Bauhaus hilft ein Vergleich mit einem Werkzeug aus UI/UX & Barrierefreiheit: Sein Etikett nennt das Problemfeld;
-  verlässlich wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Ein modernist Design tradition combining geometry, functional purpose, reduced ornament, und systematic composition.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
+short_definition: Eine modernistische Designtradition, die Geometrie, funktionalen Zweck, reduziertes Ornament und systematische
+  Komposition vereint.
+analogy: 'Für Bauhaus hilft ein Bild aus UI/UX & Barrierefreiheit: Das Etikett weist auf das Problemfeld, ersetzt aber weder
+  den Code noch die Prüfung des Datenflusses.'
+mechanism: Eine modernistische Designtradition, die Geometrie, funktionalen Zweck, reduziertes Ornament und systematische
+  Komposition vereint. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab;
+  prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer Bauhaus versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in UI/UX & Barrierefreiheit benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Bauhaus in der Phase Design als Lerncheckpoint: Verknüpfe die Definition mit einer sichtbaren
-  Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Bauhaus in der Phase Design als Lerncheckpoint. Verknüpfe die Definition mit einer
+  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Bauhaus in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Bauhaus als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

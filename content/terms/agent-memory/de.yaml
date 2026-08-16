@@ -1,15 +1,15 @@
 title: Agentenspeicher
-short_definition: gespeichert Informationen die an Agent kann retrieve later zu maintain useful Zustand beyond die immediate
-  Anfrage.
-analogy: 'Für Agentenspeicher hilft ein Vergleich mit einem Werkzeug aus KI & Vibe Coding: Sein Etikett nennt das Problemfeld;
-  verlässlich wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: gespeichert Informationen die an Agent kann retrieve later zu maintain useful Zustand beyond die immediate Anfrage.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
+short_definition: Gespeicherte Informationen, die ein Agent später abrufen kann, um den nützlichen Zustand über die unmittelbare
+  Anfrage hinaus aufrechtzuerhalten.
+analogy: 'Für Agentenspeicher hilft ein Bild aus KI & Vibe Coding: Das Etikett weist auf das Problemfeld, ersetzt aber weder
+  den Code noch die Prüfung des Datenflusses.'
+mechanism: Gespeicherte Informationen, die ein Agent später abrufen kann, um den nützlichen Zustand über die unmittelbare
+  Anfrage hinaus aufrechtzuerhalten. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und
+  Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer Agentenspeicher versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Agentenspeicher in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Agentenspeicher in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Agentenspeicher in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Agentenspeicher als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

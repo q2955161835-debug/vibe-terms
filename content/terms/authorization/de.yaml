@@ -1,13 +1,15 @@
 title: Autorisierung
-short_definition: die Prozess von deciding was an authenticated oder known Identität is allowed zu Zugriff oder do.
-analogy: 'Für Autorisierung hilft ein Vergleich mit einem Werkzeug aus Sicherheit & Datenschutz: Sein Etikett nennt das Problemfeld;
-  verlässlich wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: die Prozess von deciding was an authenticated oder known Identität is allowed zu Zugriff oder do. In einem realen
-  Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+short_definition: Der Prozess der Entscheidung, worauf eine authentifizierte oder bekannte Identität zugreifen oder welche
+  Aktionen sie ausführen darf.
+analogy: 'Für Autorisierung hilft ein Bild aus Sicherheit & Datenschutz: Das Etikett weist auf das Problemfeld, ersetzt aber
+  weder den Code noch die Prüfung des Datenflusses.'
+mechanism: Der Prozess der Entscheidung, worauf eine authentifizierte oder bekannte Identität zugreifen oder welche Aktionen
+  sie ausführen darf. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab;
+  prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer Autorisierung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Sicherheit & Datenschutz benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Autorisierung in der Phase Tests & Schutz als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Autorisierung in der Phase Tests & Schutz als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Autorisierung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Autorisierung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

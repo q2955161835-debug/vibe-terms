@@ -1,18 +1,18 @@
-title: Agent-Schleife
-short_definition: die repeated cycle in die an Agent observes Zustand, chooses an Aktion, executes it, bewertet die Ergebnis,
-  und decides whether zu continue.
-analogy: Betrachte Agent-Schleife als Orientierungsschild in KI & Vibe Coding. Es weist auf die richtige technische Stelle,
-  ersetzt aber weder die Implementierung noch deren Prüfung.
-mechanism: die repeated cycle in die an Agent observes Zustand, chooses an Aktion, executes it, bewertet die Ergebnis, und
-  decides whether zu continue. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss
-  ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Agent-Schleife versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen
+title: Agentenschleife
+short_definition: Der wiederholte Zyklus, in dem ein Agent den Zustand beobachtet, eine Aktion auswählt, sie ausführt, das
+  Ergebnis auswertet und entscheidet, ob er fortfahren möchte.
+analogy: Betrachte Agentenschleife als Orientierung in KI & Vibe Coding. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Der wiederholte Zyklus, in dem ein Agent den Zustand beobachtet, eine Aktion auswählt, sie ausführt, das Ergebnis
+  auswertet und entscheidet, ob er fortfahren möchte. In einem realen Projekt hängt die genaue Ausprägung von Technologie,
+  Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Agentenschleife versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Agent-Schleife in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Agent-Schleife in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Agentenschleife in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Agentenschleife in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Agent-Schleife als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Agentenschleife als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

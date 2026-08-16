@@ -1,18 +1,18 @@
-title: Funktion Flag
-short_definition: Ein runtime switch die enables oder disables a Code Pfad für selected Benutzer oder environments ohne requiring
-  a neu Deployment.
-analogy: 'Ein praktisches Bild für Funktion Flag: ein markiertes Werkzeug in deployment operations, dessen Aufschrift die
-  Frage schärft, aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein runtime switch die enables oder disables a Code Pfad für selected Benutzer oder environments ohne requiring
-  a neu Deployment. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe
-  deshalb die konkrete Umsetzung.
-why_it_matters: Wer Funktion Flag versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in deployment operations benennen
+title: Feature-Flag
+short_definition: Ein Laufzeitschalter, der einen Codepfad für ausgewählte Benutzer oder Umgebungen aktiviert oder deaktiviert,
+  ohne dass eine neue Bereitstellung erforderlich ist.
+analogy: 'Ein praktischer Vergleich für Feature-Flag: ein markiertes Werkzeug in Deployment & Betrieb, dessen Zweck erst im
+  Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Ein Laufzeitschalter, der einen Codepfad für ausgewählte Benutzer oder Umgebungen aktiviert oder deaktiviert, ohne
+  dass eine neue Bereitstellung erforderlich ist. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Feature-Flag versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Deployment & Betrieb benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Funktion Flag in der Phase deploy maintain als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Funktion Flag in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Feature-Flag in der Phase Deployment & Wartung als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Feature-Flag in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Funktion Flag als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Feature-Flag als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

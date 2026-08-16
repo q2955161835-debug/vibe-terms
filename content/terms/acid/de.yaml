@@ -1,13 +1,13 @@
 title: ACID
-short_definition: 'Eine Menge von transaction properties: atomicity, consistency, isolation, und durability.'
-analogy: 'Für ACID hilft ein Vergleich mit einem Werkzeug aus Daten & Datenbanken: Sein Etikett nennt das Problemfeld; verlässlich
-  wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: 'Eine Menge von transaction properties: atomicity, consistency, isolation, und durability. In einem realen Projekt
-  hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.'
+short_definition: 'Eine Reihe von Transaktionseigenschaften: Atomizität, Konsistenz, Isolation und Haltbarkeit.'
+analogy: 'Für ACID hilft ein Bild aus Daten & Datenbanken: Das Etikett weist auf das Problemfeld, ersetzt aber weder den Code
+  noch die Prüfung des Datenflusses.'
+mechanism: 'Eine Reihe von Transaktionseigenschaften: Atomizität, Konsistenz, Isolation und Haltbarkeit. In einem realen Projekt
+  hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.'
 why_it_matters: Wer ACID versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Daten & Datenbanken benennen und von
   einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient ACID in der Phase Daten & Identität als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir ACID in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie ACID in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff ACID als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten, Datenfluss,

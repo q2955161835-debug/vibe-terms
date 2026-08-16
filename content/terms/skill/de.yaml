@@ -1,15 +1,15 @@
 title: Fähigkeit
-short_definition: Ein reusable package von Anweisungen, references, oder scripts die teaches an AI Agent how zu perform a
-  recurring workflow.
-analogy: 'Ein praktisches Bild für Fähigkeit: ein markiertes Werkzeug in ai vibe, dessen Aufschrift die Frage schärft, aber
-  keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein reusable package von Anweisungen, references, oder scripts die teaches an AI Agent how zu perform a recurring
-  workflow. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
-why_it_matters: Wer Fähigkeit versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ai vibe benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Fähigkeit in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Ein wiederverwendbares Paket aus Anweisungen, Referenzen oder Skripten, das einem KI-Agenten beibringt,
+  wie ein wiederkehrender Arbeitsablauf ausgeführt wird.
+analogy: 'Ein praktischer Vergleich für Fähigkeit: ein markiertes Werkzeug in KI & Vibe Coding, dessen Zweck erst im Zusammenspiel
+  mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Ein wiederverwendbares Paket aus Anweisungen, Referenzen oder Skripten, das einem KI-Agenten beibringt, wie ein
+  wiederkehrender Arbeitsablauf ausgeführt wird. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Fähigkeit versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen und
+  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Fähigkeit in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Fähigkeit in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Fähigkeit als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

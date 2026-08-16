@@ -1,18 +1,18 @@
 title: Art déco
-short_definition: Ein decorative Stil characterized by geometric ornament, symmetry, strong verticals, luxurious materials,
-  und 1920s–1930s visuelle references.
-analogy: 'Ein praktisches Bild für Art déco: ein markiertes Werkzeug in UI/UX & Barrierefreiheit, dessen Aufschrift die Frage
-  schärft, aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein decorative Stil characterized by geometric ornament, symmetry, strong verticals, luxurious materials, und 1920s–1930s
-  visuelle references. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab;
-  prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Art déco versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in UI/UX & Barrierefreiheit benennen
+short_definition: Ein dekorativer Stil, der durch geometrische Ornamente, Symmetrie, starke Vertikale, luxuriöse Materialien
+  und visuelle Referenzen aus den 1920er bis 1930er Jahren gekennzeichnet ist.
+analogy: 'Ein praktischer Vergleich für Art Deco: ein markiertes Werkzeug in UI/UX & Barrierefreiheit, dessen Zweck erst im
+  Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Ein dekorativer Stil, der durch geometrische Ornamente, Symmetrie, starke Vertikale, luxuriöse Materialien und
+  visuelle Referenzen aus den 1920er bis 1930er Jahren gekennzeichnet ist. In einem realen Projekt hängt die genaue Ausprägung
+  von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Art Deco versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in UI/UX & Barrierefreiheit benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Art déco in der Phase Design als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Art déco in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Art Deco in der Phase Design als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Art Deco in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Art déco als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Art Deco als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

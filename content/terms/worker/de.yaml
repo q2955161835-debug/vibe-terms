@@ -1,13 +1,15 @@
 title: Worker
-short_definition: Ein Prozess, der pulls queued oder scheduled work und executes it outside the immediate Anfrage Pfad.
-analogy: Betrachte Worker als Orientierungsschild in backend apis. Es weist auf die richtige technische Stelle, ersetzt aber
-  weder die Implementierung noch deren Prüfung.
-mechanism: Ein Prozess, der pulls queued oder scheduled work und executes it outside the immediate Anfrage Pfad. In einem
-  realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Worker versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in backend apis benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Worker in der Phase data identity als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Ein Prozess, der in der Warteschlange befindliche oder geplante Arbeiten abruft und sie außerhalb des unmittelbaren
+  Anforderungspfads ausführt.
+analogy: Betrachte Worker als Orientierung in Backend & APIs. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Ein Prozess, der in der Warteschlange befindliche oder geplante Arbeiten abruft und sie außerhalb des unmittelbaren
+  Anforderungspfads ausführt. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Worker versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Backend & APIs benennen und
+  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Worker in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Worker in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Worker als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

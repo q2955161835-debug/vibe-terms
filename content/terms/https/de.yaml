@@ -1,13 +1,15 @@
 title: HTTPS
-short_definition: HTTP carried over TLS so traffic is encrypted und the Server's identity can be authenticated.
-analogy: 'Ein praktisches Bild für HTTPS: ein markiertes Werkzeug in web network, dessen Aufschrift die Frage schärft, aber
-  keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: HTTP carried over TLS so traffic is encrypted und the Server's identity can be authenticated. In einem realen Projekt
-  hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer HTTPS versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in web network benennen und von einem
+short_definition: HTTP wird über TLS übertragen, sodass der Datenverkehr verschlüsselt wird und die Identität des Servers
+  authentifiziert werden kann.
+analogy: 'Ein praktischer Vergleich für HTTPS: ein markiertes Werkzeug in Web & Netzwerk, dessen Zweck erst im Zusammenspiel
+  mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: HTTP wird über TLS übertragen, sodass der Datenverkehr verschlüsselt wird und die Identität des Servers authentifiziert
+  werden kann. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe
+  deshalb die konkrete Umsetzung.
+why_it_matters: Wer HTTPS versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Web & Netzwerk benennen und von einem
   KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient HTTPS in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir HTTPS in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit einer
+  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie HTTPS in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff HTTPS als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

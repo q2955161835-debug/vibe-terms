@@ -1,13 +1,14 @@
-title: Gradient
-short_definition: Ein smooth transition zwischen zwei oder mehr Farben oder opacity Werte across a direction oder shape.
-analogy: Betrachte Gradient als Orientierungsschild in Frontend-Entwicklung. Es weist auf die richtige technische Stelle,
-  ersetzt aber weder die Implementierung noch deren Prüfung.
-mechanism: Ein smooth transition zwischen zwei oder mehr Farben oder opacity Werte across a direction oder shape. In einem
-  realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+title: Farbverlauf
+short_definition: Ein sanfter Übergang zwischen zwei oder mehr Farben oder Deckkraftwerten über eine Richtung oder Form.
+analogy: Betrachte Gradient als Orientierung in Frontend-Entwicklung. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Ein sanfter Übergang zwischen zwei oder mehr Farben oder Deckkraftwerten über eine Richtung oder Form. In einem
+  realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
+  Umsetzung.
 why_it_matters: Wer Gradient versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen und
   von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Gradient in der Phase Oberflächenlogik als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Gradient in der Phase Oberflächenlogik als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Gradient in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Gradient als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

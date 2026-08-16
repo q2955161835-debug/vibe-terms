@@ -1,15 +1,15 @@
 title: Browser
-short_definition: Ein Client Anwendung die resolves Web addresses, requests Ressourcen, executes Web Code, und renders Seiten
-  für Benutzer.
-analogy: 'Ordne Browser im Bereich web network als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich ein,
-  während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein Client Anwendung die resolves Web addresses, requests Ressourcen, executes Web Code, und renders Seiten für
-  Benutzer. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
-why_it_matters: Wer Browser versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in web network benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Browser in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Eine Clientanwendung, die Webadressen auflöst, Ressourcen anfordert, Webcode ausführt und Seiten für Benutzer
+  rendert.
+analogy: 'Ordne Browser im Bereich Web & Netzwerk als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch erst die konkrete
+  Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine Clientanwendung, die Webadressen auflöst, Ressourcen anfordert, Webcode ausführt und Seiten für Benutzer rendert.
+  In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die
+  konkrete Umsetzung.
+why_it_matters: Wer Browser versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Web & Netzwerk benennen und von
+  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Browser in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Browser in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Browser als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

@@ -1,17 +1,18 @@
-title: Isolation Stufe
-short_definition: Ein Datenbank setting die controls how concurrent transactions can observe eine another's intermediate ändert.
-analogy: 'Ein praktisches Bild für Isolation Stufe: ein markiertes Werkzeug in data databases, dessen Aufschrift die Frage
-  schärft, aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein Datenbank setting die controls how concurrent transactions can observe eine another's intermediate ändert.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Isolation Stufe versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in data databases benennen
+title: Isolationsstufe
+short_definition: Eine Datenbankeinstellung, die steuert, wie gleichzeitige Transaktionen gegenseitige Zwischenänderungen
+  beobachten können.
+analogy: 'Ein praktischer Vergleich für Isolationsstufe: ein markiertes Werkzeug in Daten & Datenbanken, dessen Zweck erst
+  im Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Eine Datenbankeinstellung, die steuert, wie gleichzeitige Transaktionen gegenseitige Zwischenänderungen beobachten
+  können. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
+  die konkrete Umsetzung.
+why_it_matters: Wer Isolationsstufe versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Daten & Datenbanken benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Isolation Stufe in der Phase data identity als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Isolation Stufe in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Isolationsstufe in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Isolationsstufe in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Isolation Stufe als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Isolationsstufe als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

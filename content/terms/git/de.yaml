@@ -1,13 +1,14 @@
 title: Git
-short_definition: Ein Version-control System die Datensätze Code ändert und lets you work safely mit branches.
-analogy: 'Ordne Git im Bereich git collaboration als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich ein,
-  während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein Version-control System die Datensätze Code ändert und lets you work safely mit branches. In einem realen Projekt
-  hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Git versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in git collaboration benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Git in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Ein Versionskontrollsystem, das Codeänderungen aufzeichnet und Ihnen die sichere Arbeit mit Zweigen ermöglicht.
+analogy: 'Ordne Git im Bereich Git & Zusammenarbeit als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch erst die
+  konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Ein Versionskontrollsystem, das Codeänderungen aufzeichnet und Ihnen die sichere Arbeit mit Zweigen ermöglicht.
+  In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die
+  konkrete Umsetzung.
+why_it_matters: Wer Git versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Git & Zusammenarbeit benennen und von
+  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Git in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit einer
+  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Git in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere
   nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Git als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten, Datenfluss,

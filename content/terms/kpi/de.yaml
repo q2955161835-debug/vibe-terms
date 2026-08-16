@@ -1,13 +1,15 @@
 title: KPI
-short_definition: Ein key Leistung indicator selected zu track an important business, product, oder operational objective.
-analogy: 'Ordne KPI im Bereich Produkt & Anforderungen als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
-  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein key Leistung indicator selected zu track an important business, product, oder operational objective. In einem
-  realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+short_definition: Ein wichtiger Leistungsindikator, der ausgewählt wird, um ein wichtiges Geschäfts-, Produkt- oder Betriebsziel
+  zu verfolgen.
+analogy: 'Ordne KPI im Bereich Produkt & Anforderungen als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch erst die
+  konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Ein wichtiger Leistungsindikator, der ausgewählt wird, um ein wichtiges Geschäfts-, Produkt- oder Betriebsziel
+  zu verfolgen. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe
+  deshalb die konkrete Umsetzung.
 why_it_matters: Wer KPI versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen benennen und
   von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient KPI in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir KPI in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie KPI in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere
   nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff KPI als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten, Datenfluss,

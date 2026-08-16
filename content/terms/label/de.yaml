@@ -1,15 +1,15 @@
 title: Beschriftung
-short_definition: Text programmatically associated mit a form control so Benutzer know what Informationen oder choice the
-  control stellt dar.
-analogy: 'Ordne Beschriftung im Bereich ui ux als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich ein,
-  während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Text programmatically associated mit a form control so Benutzer know what Informationen oder choice the control
-  stellt dar. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
-why_it_matters: Wer Beschriftung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ui ux benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Beschriftung in der Phase Design als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Text, der programmgesteuert mit einem Formularsteuerelement verknüpft ist, damit Benutzer wissen, welche
+  Informationen oder Auswahlmöglichkeiten das Steuerelement darstellt.
+analogy: 'Ordne Beschriftung im Bereich UI/UX & Barrierefreiheit als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch erst
+  die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Text, der programmgesteuert mit einem Formularsteuerelement verknüpft ist, damit Benutzer wissen, welche Informationen
+  oder Auswahlmöglichkeiten das Steuerelement darstellt. In einem realen Projekt hängt die genaue Ausprägung von Technologie,
+  Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Beschriftung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in UI/UX & Barrierefreiheit benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Beschriftung in der Phase Design als Lerncheckpoint. Verknüpfe die Definition mit einer
+  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Beschriftung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Beschriftung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

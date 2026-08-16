@@ -1,15 +1,15 @@
 title: Avatar
-short_definition: Ein kleine visuelle Darstellung von a person, account, team, oder entity, häufig unter Verwendung von a
-  photo oder initials.
-analogy: 'Ein praktisches Bild für Avatar: ein markiertes Werkzeug in UI/UX & Barrierefreiheit, dessen Aufschrift die Frage
-  schärft, aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein kleine visuelle Darstellung von a person, account, team, oder entity, häufig unter Verwendung von a photo oder
-  initials. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
+short_definition: Eine kleine visuelle Darstellung einer Person, eines Kontos, eines Teams oder einer Organisation, häufig
+  unter Verwendung eines Fotos oder von Initialen.
+analogy: 'Ein praktischer Vergleich für Avatar: ein markiertes Werkzeug in UI/UX & Barrierefreiheit, dessen Zweck erst im
+  Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Eine kleine visuelle Darstellung einer Person, eines Kontos, eines Teams oder einer Organisation, häufig unter
+  Verwendung eines Fotos oder von Initialen. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer Avatar versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in UI/UX & Barrierefreiheit benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Avatar in der Phase Design als Lerncheckpoint: Verknüpfe die Definition mit einer sichtbaren
-  Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Avatar in der Phase Design als Lerncheckpoint. Verknüpfe die Definition mit einer
+  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Avatar in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Avatar als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

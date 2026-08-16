@@ -1,15 +1,15 @@
 title: CSS
-short_definition: Die stylesheet language verwendet zu control the visual presentation, Layout, und responsive Verhalten von
-  HTML.
-analogy: 'Für CSS hilft ein Vergleich mit einem Werkzeug aus Frontend-Entwicklung: Sein Etikett nennt das Problemfeld; verlässlich
-  wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Die stylesheet language verwendet zu control the visual presentation, Layout, und responsive Verhalten von HTML.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
+short_definition: Die Stylesheet-Sprache, die zur Steuerung der visuellen Darstellung, des Layouts und des Reaktionsverhaltens
+  von HTML verwendet wird.
+analogy: 'Für CSS hilft ein Bild aus Frontend-Entwicklung: Das Etikett weist auf das Problemfeld, ersetzt aber weder den Code
+  noch die Prüfung des Datenflusses.'
+mechanism: Die Stylesheet-Sprache, die zur Steuerung der visuellen Darstellung, des Layouts und des Reaktionsverhaltens von
+  HTML verwendet wird. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab;
+  prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer CSS versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen und von
   einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient CSS in der Phase Oberflächenlogik als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir CSS in der Phase Oberflächenlogik als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie CSS in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere
   nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff CSS als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten, Datenfluss,

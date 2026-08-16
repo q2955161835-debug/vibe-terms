@@ -1,15 +1,15 @@
 title: Tool Calling
-short_definition: Die capability für a Modell zu Anfrage execution von a definiert external function oder Werkzeug mit strukturierte
-  arguments.
-analogy: 'Für Tool Calling hilft ein Vergleich mit einem Werkzeug aus ai vibe: Sein Etikett nennt das Problemfeld; verlässlich
-  wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Die capability für a Modell zu Anfrage execution von a definiert external function oder Werkzeug mit strukturierte
-  arguments. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
-why_it_matters: Wer Tool Calling versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ai vibe benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Tool Calling in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Die Fähigkeit eines Modells, die Ausführung einer definierten externen Funktion oder eines Tools mit strukturierten
+  Argumenten anzufordern.
+analogy: 'Für Tool Calling hilft ein Bild aus KI & Vibe Coding: Das Etikett weist auf das Problemfeld, ersetzt aber weder
+  den Code noch die Prüfung des Datenflusses.'
+mechanism: Die Fähigkeit eines Modells, die Ausführung einer definierten externen Funktion oder eines Tools mit strukturierten
+  Argumenten anzufordern. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Tool Calling versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen und
+  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Tool Calling in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Tool Calling in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Tool Calling als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

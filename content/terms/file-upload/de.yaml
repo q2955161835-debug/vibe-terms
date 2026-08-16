@@ -1,18 +1,18 @@
-title: datei Upload
-short_definition: Die process von transferring a Datei aus a Client zu an Anwendung oder Speicher Dienst mit validation und
-  progress handling.
-analogy: Betrachte datei Upload als Orientierungsschild in backend apis. Es weist auf die richtige technische Stelle, ersetzt
-  aber weder die Implementierung noch deren Prüfung.
-mechanism: Die process von transferring a Datei aus a Client zu an Anwendung oder Speicher Dienst mit validation und progress
-  handling. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
-why_it_matters: Wer datei Upload versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in backend apis benennen und von
-  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient datei Upload in der Phase data identity als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie datei Upload in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+title: Datei-Upload
+short_definition: Der Prozess der Übertragung einer Datei von einem Client an eine Anwendung oder einen Speicherdienst mit
+  Validierung und Fortschrittsbehandlung.
+analogy: Betrachte Datei-Upload als Orientierung in Backend & APIs. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Der Prozess der Übertragung einer Datei von einem Client an eine Anwendung oder einen Speicherdienst mit Validierung
+  und Fortschrittsbehandlung. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Datei-Upload versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Backend & APIs benennen und
+  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Datei-Upload in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Datei-Upload in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff datei Upload als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Datei-Upload als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

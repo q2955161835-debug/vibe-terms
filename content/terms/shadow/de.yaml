@@ -1,15 +1,15 @@
 title: Schatten
-short_definition: Ein visual effect die simulates elevation, separation, oder emphasis by drawing blurred oder offset color
-  around an element.
-analogy: Betrachte Schatten als Orientierungsschild in Frontend-Entwicklung. Es weist auf die richtige technische Stelle,
-  ersetzt aber weder die Implementierung noch deren Prüfung.
-mechanism: Ein visual effect die simulates elevation, separation, oder emphasis by drawing blurred oder offset color around
-  an element. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
+short_definition: Ein visueller Effekt, der eine Erhöhung, Trennung oder Hervorhebung simuliert, indem er unscharfe oder versetzte
+  Farben um ein Element herum zeichnet.
+analogy: Betrachte Schatten als Orientierung in Frontend-Entwicklung. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Ein visueller Effekt, der eine Erhöhung, Trennung oder Hervorhebung simuliert, indem er unscharfe oder versetzte
+  Farben um ein Element herum zeichnet. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer Schatten versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen und
   von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Schatten in der Phase Oberflächenlogik als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Schatten in der Phase Oberflächenlogik als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Schatten in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Schatten als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

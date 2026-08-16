@@ -1,18 +1,17 @@
-title: Organisch Design
-short_definition: Ein visual direction unter Verwendung von natural forms, earthy palettes, texture, asymmetry, und softer
-  geometry.
-analogy: Betrachte Organisch Design als Orientierungsschild in ui ux. Es weist auf die richtige technische Stelle, ersetzt
-  aber weder die Implementierung noch deren Prüfung.
-mechanism: Ein visual direction unter Verwendung von natural forms, earthy palettes, texture, asymmetry, und softer geometry.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
+title: Organisches Design
+short_definition: Eine visuelle Richtung mit natürlichen Formen, erdigen Farbtönen, Textur, Asymmetrie und weicherer Geometrie.
+analogy: Betrachte Organisches Design als Orientierung in UI/UX & Barrierefreiheit. Die Bezeichnung führt zur richtigen technischen
+  Stelle, garantiert aber noch keine gute Umsetzung.
+mechanism: Eine visuelle Richtung mit natürlichen Formen, erdigen Farbtönen, Textur, Asymmetrie und weicherer Geometrie. In
+  einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
   Umsetzung.
-why_it_matters: Wer Organisch Design versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ui ux benennen und von
-  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Organisch Design in der Phase Design als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Organisch Design in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+why_it_matters: Wer Organisches Design versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in UI/UX & Barrierefreiheit
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Organisches Design in der Phase Design als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Organisches Design in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Organisch Design als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+common_mistake: Den Begriff Organisches Design als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

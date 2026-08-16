@@ -1,18 +1,18 @@
-title: Produkt Roadmap
-short_definition: Ein Zeit-oriented view von product direction und intended outcomes die communicates priorities ohne turning
-  every item in a fixed promise.
-analogy: Betrachte Produkt Roadmap als Orientierungsschild in Produkt & Anforderungen. Es weist auf die richtige technische
-  Stelle, ersetzt aber weder die Implementierung noch deren Prüfung.
-mechanism: Ein Zeit-oriented view von product direction und intended outcomes die communicates priorities ohne turning every
-  item in a fixed promise. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss
-  ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Produkt Roadmap versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen
+title: Produkt-Roadmap
+short_definition: Eine zeitorientierte Sicht auf die Produktrichtung und die beabsichtigten Ergebnisse, die Prioritäten kommuniziert,
+  ohne jeden Punkt in ein festes Versprechen umzuwandeln.
+analogy: Betrachte Produkt-Roadmap als Orientierung in Produkt & Anforderungen. Die Bezeichnung führt zur richtigen technischen
+  Stelle, garantiert aber noch keine gute Umsetzung.
+mechanism: Eine zeitorientierte Sicht auf die Produktrichtung und die beabsichtigten Ergebnisse, die Prioritäten kommuniziert,
+  ohne jeden Punkt in ein festes Versprechen umzuwandeln. In einem realen Projekt hängt die genaue Ausprägung von Technologie,
+  Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Produkt-Roadmap versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen
   benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Produkt Roadmap in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Produkt Roadmap in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Produkt-Roadmap in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Produkt-Roadmap in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Produkt Roadmap als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Produkt-Roadmap als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

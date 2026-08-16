@@ -1,16 +1,18 @@
-title: Schlüssel-Wert Store
-short_definition: Ein datastore die retrieves Werte primarily by unique keys und is optimized für simple, fast lookups.
-analogy: 'Für Schlüssel-Wert Store hilft ein Vergleich mit einem Werkzeug aus data databases: Sein Etikett nennt das Problemfeld;
-  verlässlich wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Ein datastore die retrieves Werte primarily by unique keys und is optimized für simple, fast lookups. In einem
-  realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Schlüssel-Wert Store versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in data databases benennen
-  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Schlüssel-Wert Store in der Phase data identity als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Schlüssel-Wert Store in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
+title: Schlüsselwertspeicher
+short_definition: Ein Datenspeicher, der Werte hauptsächlich über eindeutige Schlüssel abruft und für einfache, schnelle Suchvorgänge
+  optimiert ist.
+analogy: 'Für Schlüsselwertspeicher hilft ein Bild aus Daten & Datenbanken: Das Etikett weist auf das Problemfeld, ersetzt
+  aber weder den Code noch die Prüfung des Datenflusses.'
+mechanism: Ein Datenspeicher, der Werte hauptsächlich über eindeutige Schlüssel abruft und für einfache, schnelle Suchvorgänge
+  optimiert ist. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe
+  deshalb die konkrete Umsetzung.
+why_it_matters: Wer Schlüsselwertspeicher versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Daten & Datenbanken
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Schlüsselwertspeicher in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe
+  die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Schlüsselwertspeicher in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
   Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Schlüssel-Wert Store als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+common_mistake: Den Begriff Schlüsselwertspeicher als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

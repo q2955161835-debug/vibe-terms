@@ -1,18 +1,18 @@
-title: Jobs to Be Done
-short_definition: Ein Framework für describing the progress a person is trying zu make in a situation rather than defining
-  them nur by demographics.
-analogy: 'Für Jobs to Be Done hilft ein Vergleich mit einem Werkzeug aus Produkt & Anforderungen: Sein Etikett nennt das Problemfeld;
-  verlässlich wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Ein Framework für describing the progress a person is trying zu make in a situation rather than defining them nur
-  by demographics. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe
-  deshalb die konkrete Umsetzung.
-why_it_matters: Wer Jobs to Be Done versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen
+title: Zu erledigende Aufgaben
+short_definition: Ein Rahmen zur Beschreibung des Fortschritts, den eine Person in einer Situation zu machen versucht, anstatt
+  ihn nur anhand demografischer Merkmale zu definieren.
+analogy: 'Für Zu erledigende Aufgaben hilft ein Bild aus Produkt & Anforderungen: Das Etikett weist auf das Problemfeld, ersetzt
+  aber weder den Code noch die Prüfung des Datenflusses.'
+mechanism: Ein Rahmen zur Beschreibung des Fortschritts, den eine Person in einer Situation zu machen versucht, anstatt ihn
+  nur anhand demografischer Merkmale zu definieren. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Zu erledigende Aufgaben versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen
   benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Jobs to Be Done in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Jobs to Be Done in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
-  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Jobs to Be Done als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
-  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
+project_example: In Vibe Terms begegnet dir Zu erledigende Aufgaben in der Phase Anforderungen als Lerncheckpoint. Verknüpfe
+  die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Zu erledigende Aufgaben in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
+  Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Zu erledigende Aufgaben als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+  Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

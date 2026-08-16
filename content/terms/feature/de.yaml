@@ -1,15 +1,15 @@
 title: Funktion
-short_definition: Ein distinct product capability oder Verhalten die stellt bereit Wert zu a Benutzer oder unterstützt an
-  operational need.
-analogy: 'Ordne Funktion im Bereich Produkt & Anforderungen als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
-  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein distinct product capability oder Verhalten die stellt bereit Wert zu a Benutzer oder unterstützt an operational
-  need. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
+short_definition: Eine bestimmte Produktfähigkeit oder ein bestimmtes Verhalten, das einem Benutzer einen Mehrwert bietet
+  oder einen betrieblichen Bedarf unterstützt.
+analogy: 'Ordne Funktion im Bereich Produkt & Anforderungen als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch
+  erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine bestimmte Produktfähigkeit oder ein bestimmtes Verhalten, das einem Benutzer einen Mehrwert bietet oder einen
+  betrieblichen Bedarf unterstützt. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und
+  Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer Funktion versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Funktion in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Funktion in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Funktion in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Funktion als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

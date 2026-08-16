@@ -1,15 +1,15 @@
 title: Framework
-short_definition: Ein reusable software structure die supplies conventions, lifecycle Regeln, und Erstellen blocks für an
-  Anwendung.
-analogy: Betrachte Framework als Orientierungsschild in computing env. Es weist auf die richtige technische Stelle, ersetzt
-  aber weder die Implementierung noch deren Prüfung.
-mechanism: Ein reusable software structure die supplies conventions, lifecycle Regeln, und Erstellen blocks für an Anwendung.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Framework versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in computing env benennen und von
-  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Framework in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Eine wiederverwendbare Softwarestruktur, die Konventionen, Lebenszyklusregeln und Bausteine ​​für eine Anwendung
+  bereitstellt.
+analogy: Betrachte Framework als Orientierung in Computer & Entwicklungsumgebung. Die Bezeichnung führt zur richtigen technischen
+  Stelle, garantiert aber noch keine gute Umsetzung.
+mechanism: Eine wiederverwendbare Softwarestruktur, die Konventionen, Lebenszyklusregeln und Bausteine ​​für eine Anwendung
+  bereitstellt. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe
+  deshalb die konkrete Umsetzung.
+why_it_matters: Wer Framework versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Computer & Entwicklungsumgebung benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Framework in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Framework in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Framework als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

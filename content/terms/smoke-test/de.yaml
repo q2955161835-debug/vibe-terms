@@ -1,16 +1,18 @@
-title: Smoke Test
-short_definition: Ein kleine set von high-Wert checks run erste zu confirm a Erstellen is basically usable vor deeper Tests.
-analogy: 'Ordne Smoke Test im Bereich testing debugging als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
-  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein kleine set von high-Wert checks run erste zu confirm a Erstellen is basically usable vor deeper Tests. In einem
-  realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Smoke Test versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in testing debugging benennen und
+title: Smoke-Test
+short_definition: Zunächst wird eine kleine Reihe hochwertiger Prüfungen durchgeführt, um zu bestätigen, dass ein Build grundsätzlich
+  verwendbar ist, bevor tiefergehende Tests durchgeführt werden.
+analogy: 'Ordne Rauchtest im Bereich Testen & Debugging als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch erst
+  die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Zunächst wird eine kleine Reihe hochwertiger Prüfungen durchgeführt, um zu bestätigen, dass ein Build grundsätzlich
+  verwendbar ist, bevor tiefergehende Tests durchgeführt werden. In einem realen Projekt hängt die genaue Ausprägung von Technologie,
+  Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Rauchtest versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Testen & Debugging benennen und
   von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Smoke Test in der Phase test protect als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Smoke Test in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Rauchtest in der Phase Tests & Schutz als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Rauchtest in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Smoke Test als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Rauchtest als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

@@ -1,16 +1,18 @@
-title: Test Coverage
-short_definition: Ein messen von die Code, branches, requirements, oder risk scenarios are exercised by a Test suite.
-analogy: 'Für Test Coverage hilft ein Vergleich mit einem Werkzeug aus testing debugging: Sein Etikett nennt das Problemfeld;
-  verlässlich wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Ein messen von die Code, branches, requirements, oder risk scenarios are exercised by a Test suite. In einem realen
-  Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Test Coverage versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in testing debugging benennen
+title: Testabdeckung
+short_definition: Ein Maß dafür, welcher Code, welche Zweige, Anforderungen oder Risikoszenarien von einer Testsuite ausgeführt
+  werden.
+analogy: 'Für Testabdeckung hilft ein Bild aus Testen & Debugging: Das Etikett weist auf das Problemfeld, ersetzt aber weder
+  den Code noch die Prüfung des Datenflusses.'
+mechanism: Ein Maß dafür, welcher Code, welche Zweige, Anforderungen oder Risikoszenarien von einer Testsuite ausgeführt werden.
+  In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die
+  konkrete Umsetzung.
+why_it_matters: Wer Testabdeckung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Testen & Debugging benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Test Coverage in der Phase test protect als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Test Coverage in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+project_example: In Vibe Terms begegnet dir Testabdeckung in der Phase Tests & Schutz als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Testabdeckung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Test Coverage als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Testabdeckung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

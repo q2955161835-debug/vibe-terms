@@ -1,13 +1,14 @@
 title: Bibliothek
-short_definition: Reusable Code die an Anwendung calls zu perform a focused set von Aufgaben.
-analogy: 'Für Bibliothek hilft ein Vergleich mit einem Werkzeug aus computing env: Sein Etikett nennt das Problemfeld; verlässlich
-  wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Reusable Code die an Anwendung calls zu perform a focused set von Aufgaben. In einem realen Projekt hängt das genaue
-  Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Bibliothek versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in computing env benennen und von
-  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Bibliothek in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Wiederverwendbarer Code, den eine Anwendung aufruft, um eine bestimmte Reihe von Aufgaben auszuführen.
+analogy: 'Für Bibliothek hilft ein Bild aus Computer & Entwicklungsumgebung: Das Etikett weist auf das Problemfeld, ersetzt
+  aber weder den Code noch die Prüfung des Datenflusses.'
+mechanism: Wiederverwendbarer Code, den eine Anwendung aufruft, um eine bestimmte Reihe von Aufgaben auszuführen. In einem
+  realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
+  Umsetzung.
+why_it_matters: Wer Bibliothek versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Computer & Entwicklungsumgebung
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Bibliothek in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Bibliothek in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Bibliothek als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

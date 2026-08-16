@@ -1,15 +1,15 @@
 title: TCP
-short_definition: Ein connection-oriented transport protocol die stellt bereit ordered, reliable delivery von a byte stream
-  zwischen Netzwerk endpoints.
-analogy: 'Ein praktisches Bild für TCP: ein markiertes Werkzeug in web network, dessen Aufschrift die Frage schärft, aber
-  keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein connection-oriented transport protocol die stellt bereit ordered, reliable delivery von a byte stream zwischen
-  Netzwerk endpoints. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab;
-  prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer TCP versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in web network benennen und von einem KI-Coding-Agenten
-  eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient TCP in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Ein verbindungsorientiertes Transportprotokoll, das eine geordnete, zuverlässige Zustellung eines Bytestroms
+  zwischen Netzwerkendpunkten ermöglicht.
+analogy: 'Ein praktischer Vergleich für TCP: ein markiertes Werkzeug in Web & Netzwerk, dessen Zweck erst im Zusammenspiel
+  mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Ein verbindungsorientiertes Transportprotokoll, das eine geordnete, zuverlässige Zustellung eines Bytestroms zwischen
+  Netzwerkendpunkten ermöglicht. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer TCP versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Web & Netzwerk benennen und von einem
+  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir TCP in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit einer
+  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie TCP in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere
   nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff TCP als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten, Datenfluss,

@@ -1,15 +1,15 @@
 title: Browser DevTools
-short_definition: Browser-integrated Werkzeuge für inspecting DOM, CSS, Netzwerk requests, Speicher, Leistung, console Ausgabe,
-  und debugging.
-analogy: 'Für Browser DevTools hilft ein Vergleich mit einem Werkzeug aus testing debugging: Sein Etikett nennt das Problemfeld;
-  verlässlich wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Browser-integrated Werkzeuge für inspecting DOM, CSS, Netzwerk requests, Speicher, Leistung, console Ausgabe, und
-  debugging. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
-why_it_matters: Wer Browser DevTools versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in testing debugging benennen
+short_definition: Browserintegrierte Tools zum Überprüfen von DOM, CSS, Netzwerkanforderungen, Speicher, Leistung, Konsolenausgabe
+  und Debugging.
+analogy: 'Für Browser DevTools hilft ein Bild aus Testen & Debugging: Das Etikett weist auf das Problemfeld, ersetzt aber
+  weder den Code noch die Prüfung des Datenflusses.'
+mechanism: Browserintegrierte Tools zum Überprüfen von DOM, CSS, Netzwerkanforderungen, Speicher, Leistung, Konsolenausgabe
+  und Debugging. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe
+  deshalb die konkrete Umsetzung.
+why_it_matters: Wer Browser DevTools versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Testen & Debugging benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Browser DevTools in der Phase test protect als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Browser DevTools in der Phase Tests & Schutz als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Browser DevTools in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Browser DevTools als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches

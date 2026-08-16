@@ -1,15 +1,15 @@
-title: Serverlos
-short_definition: Ein cloud execution Modell wo the provider manages servers und scaling while Anwendung Code runs auf demand
-  oder durch managed Dienste.
-analogy: Betrachte Serverlos als Orientierungsschild in deployment operations. Es weist auf die richtige technische Stelle,
-  ersetzt aber weder die Implementierung noch deren Prüfung.
-mechanism: Ein cloud execution Modell wo the provider manages servers und scaling while Anwendung Code runs auf demand oder
-  durch managed Dienste. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss
-  ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Serverlos versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in deployment operations benennen
+title: Serverless
+short_definition: Ein Cloud-Ausführungsmodell, bei dem der Anbieter Server und Skalierung verwaltet, während Anwendungscode
+  bei Bedarf oder über verwaltete Dienste ausgeführt wird.
+analogy: Betrachte Serverlos als Orientierung in Deployment & Betrieb. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Ein Cloud-Ausführungsmodell, bei dem der Anbieter Server und Skalierung verwaltet, während Anwendungscode bei Bedarf
+  oder über verwaltete Dienste ausgeführt wird. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Serverlos versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Deployment & Betrieb benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Serverlos in der Phase deploy maintain als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Serverlos in der Phase Deployment & Wartung als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Serverlos in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Serverlos als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

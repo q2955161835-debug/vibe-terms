@@ -1,15 +1,15 @@
 title: Markdown
-short_definition: Ein lightweight plain-Text markup syntax für headings, lists, links, emphasis, Code blocks, und other document
-  structure.
-analogy: 'Ein praktisches Bild für Markdown: ein markiertes Werkzeug in Frontend-Entwicklung, dessen Aufschrift die Frage
-  schärft, aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein lightweight plain-Text markup syntax für headings, lists, links, emphasis, Code blocks, und other document
-  structure. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
+short_definition: Eine leichte Klartext-Markup-Syntax für Überschriften, Listen, Links, Hervorhebungen, Codeblöcke und andere
+  Dokumentstrukturen.
+analogy: 'Ein praktischer Vergleich für Markdown: ein markiertes Werkzeug in Frontend-Entwicklung, dessen Zweck erst im Zusammenspiel
+  mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Eine leichte Klartext-Markup-Syntax für Überschriften, Listen, Links, Hervorhebungen, Codeblöcke und andere Dokumentstrukturen.
+  In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die
+  konkrete Umsetzung.
 why_it_matters: Wer Markdown versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen und
   von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Markdown in der Phase Oberflächenlogik als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Markdown in der Phase Oberflächenlogik als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Markdown in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Markdown als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

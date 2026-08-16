@@ -1,15 +1,15 @@
 title: Transaktion
-short_definition: Ein group von Datenbank Vorgänge treated as eine logical unit die either commits together oder is rolled
-  back.
-analogy: Betrachte Transaktion als Orientierungsschild in data databases. Es weist auf die richtige technische Stelle, ersetzt
-  aber weder die Implementierung noch deren Prüfung.
-mechanism: Ein group von Datenbank Vorgänge treated as eine logical unit die either commits together oder is rolled back.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Transaktion versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in data databases benennen und
-  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Transaktion in der Phase data identity als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Eine Gruppe von Datenbankoperationen, die als eine logische Einheit behandelt werden und entweder gemeinsam
+  festgeschrieben oder zurückgesetzt werden.
+analogy: Betrachte Transaktion als Orientierung in Daten & Datenbanken. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Eine Gruppe von Datenbankoperationen, die als eine logische Einheit behandelt werden und entweder gemeinsam festgeschrieben
+  oder zurückgesetzt werden. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Transaktion versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Daten & Datenbanken benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Transaktion in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Transaktion in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Transaktion als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

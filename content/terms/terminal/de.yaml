@@ -1,15 +1,15 @@
 title: Terminal
-short_definition: Ein Text-based Anwendung für running shell commands, inspecting Ausgabe, und interacting mit Entwicklung
-  Werkzeuge.
-analogy: 'Ordne Terminal im Bereich computing env als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
-  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Ein Text-based Anwendung für running shell commands, inspecting Ausgabe, und interacting mit Entwicklung Werkzeuge.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Terminal versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in computing env benennen und von
-  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Terminal in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Eine textbasierte Anwendung zum Ausführen von Shell-Befehlen, zum Überprüfen der Ausgabe und zum Interagieren
+  mit Entwicklungstools.
+analogy: 'Ordne Terminal im Bereich Computer & Entwicklungsumgebung als Werkzeug ein: Die Bezeichnung grenzt die Frage ein,
+  doch erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine textbasierte Anwendung zum Ausführen von Shell-Befehlen, zum Überprüfen der Ausgabe und zum Interagieren mit
+  Entwicklungstools. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab;
+  prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Terminal versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Computer & Entwicklungsumgebung
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Terminal in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Terminal in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Terminal als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

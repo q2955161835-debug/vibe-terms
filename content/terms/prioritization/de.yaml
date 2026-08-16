@@ -1,15 +1,15 @@
 title: Priorisierung
-short_definition: Die process von ordering opportunities oder work based auf Wert, urgency, risk, effort, evidence, und strategic
-  fit.
-analogy: 'Ein praktisches Bild für Priorisierung: ein markiertes Werkzeug in Produkt & Anforderungen, dessen Aufschrift die
-  Frage schärft, aber keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Die process von ordering opportunities oder work based auf Wert, urgency, risk, effort, evidence, und strategic
-  fit. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
+short_definition: Der Prozess der Bestellung von Möglichkeiten oder Arbeiten basierend auf Wert, Dringlichkeit, Risiko, Aufwand,
+  Evidenz und strategischer Eignung.
+analogy: 'Ein praktischer Vergleich für Priorisierung: ein markiertes Werkzeug in Produkt & Anforderungen, dessen Zweck erst
+  im Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Der Prozess der Bestellung von Möglichkeiten oder Arbeiten basierend auf Wert, Dringlichkeit, Risiko, Aufwand,
+  Evidenz und strategischer Eignung. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und
+  Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
 why_it_matters: Wer Priorisierung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Priorisierung in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Priorisierung in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Priorisierung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Priorisierung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,

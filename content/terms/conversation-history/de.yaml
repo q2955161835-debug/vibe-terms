@@ -1,18 +1,18 @@
-title: Gespräch Verlauf
-short_definition: Earlier messages included mit a neu Modell Anfrage so the Modell can resolve references und continue the
-  Aufgabe.
-analogy: Betrachte Gespräch Verlauf als Orientierungsschild in ai vibe. Es weist auf die richtige technische Stelle, ersetzt
-  aber weder die Implementierung noch deren Prüfung.
-mechanism: Earlier messages included mit a neu Modell Anfrage so the Modell can resolve references und continue the Aufgabe.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Gespräch Verlauf versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ai vibe benennen und von
-  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Gespräch Verlauf in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Gespräch Verlauf in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+title: Gesprächsverlauf
+short_definition: Frühere Nachrichten werden in eine neue Modellanforderung eingefügt, damit das Modell Referenzen auflösen
+  und die Aufgabe fortsetzen kann.
+analogy: Betrachte Gesprächsverlauf als Orientierung in KI & Vibe Coding. Die Bezeichnung führt zur richtigen technischen
+  Stelle, garantiert aber noch keine gute Umsetzung.
+mechanism: Frühere Nachrichten werden in eine neue Modellanforderung eingefügt, damit das Modell Referenzen auflösen und die
+  Aufgabe fortsetzen kann. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Gesprächsverlauf versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Gesprächsverlauf in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Gesprächsverlauf in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Gespräch Verlauf als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+common_mistake: Den Begriff Gesprächsverlauf als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

@@ -1,18 +1,18 @@
-title: Spring Animation
-short_definition: Motion modeled nach a spring, producing natural acceleration, overshoot, und settling based auf physical
-  parameters.
-analogy: 'Ordne Spring Animation im Bereich Frontend-Entwicklung als beschriftetes Werkzeug ein: Die Beschriftung grenzt den
-  Prüfbereich ein, während erst die konkrete Implementierung das Verhalten festlegt.'
-mechanism: Motion modeled nach a spring, producing natural acceleration, overshoot, und settling based auf physical parameters.
-  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
-  Umsetzung.
-why_it_matters: Wer Spring Animation versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen
-  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Spring Animation in der Phase Oberflächenlogik als Lerncheckpoint: Verknüpfe die Definition
-  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
-ai_prompt_example: Erkläre, wie Spring Animation in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+title: Spring-Animation
+short_definition: Eine einer Feder nachempfundene Bewegung, die basierend auf physikalischen Parametern natürliche Beschleunigung,
+  Überschwingen und Einschwingen erzeugt.
+analogy: 'Ordne Frühlingsanimation im Bereich Frontend-Entwicklung als Werkzeug ein: Die Bezeichnung grenzt die Frage ein,
+  doch erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine einer Feder nachempfundene Bewegung, die basierend auf physikalischen Parametern natürliche Beschleunigung,
+  Überschwingen und Einschwingen erzeugt. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Frühlingsanimation versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Frühlingsanimation in der Phase Oberflächenlogik als Lerncheckpoint. Verknüpfe
+  die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Frühlingsanimation in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Spring Animation als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+common_mistake: Den Begriff Frühlingsanimation als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

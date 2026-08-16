@@ -1,15 +1,15 @@
 title: CORS
-short_definition: Ein Browser Sicherheit mechanism die uses HTTP headers zu control die origins may read responses aus a verschiedene
-  origin.
-analogy: 'Ein praktisches Bild für CORS: ein markiertes Werkzeug in backend apis, dessen Aufschrift die Frage schärft, aber
-  keine Aussage über die Qualität der Umsetzung garantiert.'
-mechanism: Ein Browser Sicherheit mechanism die uses HTTP headers zu control die origins may read responses aus a verschiedene
-  origin. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
-why_it_matters: Wer CORS versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in backend apis benennen und von einem
+short_definition: Ein Browser-Sicherheitsmechanismus, der mithilfe von HTTP-Headern steuert, welche Ursprünge Antworten von
+  einem anderen Ursprung lesen dürfen.
+analogy: 'Ein praktischer Vergleich für CORS: ein markiertes Werkzeug in Backend & APIs, dessen Zweck erst im Zusammenspiel
+  mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Ein Browser-Sicherheitsmechanismus, der mithilfe von HTTP-Headern steuert, welche Ursprünge Antworten von einem
+  anderen Ursprung lesen dürfen. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer CORS versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Backend & APIs benennen und von einem
   KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient CORS in der Phase data identity als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir CORS in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie CORS in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff CORS als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten, Datenfluss,

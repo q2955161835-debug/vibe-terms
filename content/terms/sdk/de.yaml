@@ -1,15 +1,15 @@
 title: SDK
-short_definition: Ein software Entwicklung kit containing libraries, types, Werkzeuge, examples, oder documentation für Erstellen
-  against a platform oder Dienst.
-analogy: Betrachte SDK als Orientierungsschild in computing env. Es weist auf die richtige technische Stelle, ersetzt aber
-  weder die Implementierung noch deren Prüfung.
-mechanism: Ein software Entwicklung kit containing libraries, types, Werkzeuge, examples, oder documentation für Erstellen
-  against a platform oder Dienst. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss
-  ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer SDK versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in computing env benennen und von einem
-  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient SDK in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Ein Software-Entwicklungskit, das Bibliotheken, Typen, Tools, Beispiele oder Dokumentation zum Erstellen
+  auf einer Plattform oder einem Dienst enthält.
+analogy: Betrachte SDK als Orientierung in Computer & Entwicklungsumgebung. Die Bezeichnung führt zur richtigen technischen
+  Stelle, garantiert aber noch keine gute Umsetzung.
+mechanism: Ein Software-Entwicklungskit, das Bibliotheken, Typen, Tools, Beispiele oder Dokumentation zum Erstellen auf einer
+  Plattform oder einem Dienst enthält. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer SDK versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Computer & Entwicklungsumgebung benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir SDK in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit einer
+  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie SDK in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere
   nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff SDK als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten, Datenfluss,

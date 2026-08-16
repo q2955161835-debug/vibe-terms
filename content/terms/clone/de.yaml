@@ -1,13 +1,14 @@
 title: Klon
-short_definition: Creating a lokal copy von a Git repository including its history und remote Konfiguration.
-analogy: 'Für Klon hilft ein Vergleich mit einem Werkzeug aus git collaboration: Sein Etikett nennt das Problemfeld; verlässlich
-  wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
-mechanism: Creating a lokal copy von a Git repository including its history und remote Konfiguration. In einem realen Projekt
-  hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Klon versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in git collaboration benennen und von
+short_definition: Erstellen einer lokalen Kopie eines Git-Repositorys einschließlich seines Verlaufs und seiner Remote-Konfiguration.
+analogy: 'Für Klon hilft ein Bild aus Git & Zusammenarbeit: Das Etikett weist auf das Problemfeld, ersetzt aber weder den
+  Code noch die Prüfung des Datenflusses.'
+mechanism: Erstellen einer lokalen Kopie eines Git-Repositorys einschließlich seines Verlaufs und seiner Remote-Konfiguration.
+  In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die
+  konkrete Umsetzung.
+why_it_matters: Wer Klon versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Git & Zusammenarbeit benennen und von
   einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Klon in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
-  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+project_example: In Vibe Terms begegnet dir Klon in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit einer
+  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Klon in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Klon als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten, Datenfluss,

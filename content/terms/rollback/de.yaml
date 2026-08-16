@@ -1,15 +1,15 @@
 title: Rollback
-short_definition: Returning Produktion zu a previously known-good Version oder Zustand nach a Veröffentlichung causes unacceptable
-  problems.
-analogy: Betrachte Rollback als Orientierungsschild in deployment operations. Es weist auf die richtige technische Stelle,
-  ersetzt aber weder die Implementierung noch deren Prüfung.
-mechanism: Returning Produktion zu a previously known-good Version oder Zustand nach a Veröffentlichung causes unacceptable
-  problems. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb
-  die konkrete Umsetzung.
-why_it_matters: Wer Rollback versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in deployment operations benennen
-  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: 'In Vibe Terms dient Rollback in der Phase deploy maintain als Lerncheckpoint: Verknüpfe die Definition mit
-  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+short_definition: Die Wiederherstellung der Produktion auf eine zuvor als funktionsfähig bekannte Version oder einen Zustand
+  nach einer Veröffentlichung führt zu inakzeptablen Problemen.
+analogy: Betrachte Rollback als Orientierung in Deployment & Betrieb. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Die Wiederherstellung der Produktion auf eine zuvor als funktionsfähig bekannte Version oder einen Zustand nach
+  einer Veröffentlichung führt zu inakzeptablen Problemen. In einem realen Projekt hängt die genaue Ausprägung von Technologie,
+  Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Rollback versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Deployment & Betrieb benennen und
+  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Rollback in der Phase Deployment & Wartung als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
 ai_prompt_example: Erkläre, wie Rollback in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
 common_mistake: Den Begriff Rollback als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
