@@ -1,13 +1,13 @@
 locale: ja
 title: フルスタック アプリを出荷する
-summary: ブラウザ インターフェイス、API、データ モデル、テスト、操作を接続することで、1 つの小さな製品をスコープからデプロイメントまで実行します。
+summary: ブラウザーの画面、API、データモデル、テスト、運用をつなぎ、小さな製品を企画からデプロイまで通して進めます。
 status: draft
 source_content_version: 1
 chapters:
 - id: product-scope
   title: 製品の最初のスライスを定義する
-  summary: 狭いユーザー結果を選択し、観察可能な受け入れ基準を作成します。
-  outcome: 合格基準を含む対象範囲を定めた製品概要。
+  summary: 対象ユーザーに届ける成果を絞り、検証可能な受入基準を作成します。
+  outcome: 受入基準を含む、範囲を定めた製品概要。
   checkpoint: 最初のリリースから意図的に除外したものを明記できます。
 - id: architecture
   title: システム境界をマッピングする
@@ -45,9 +45,9 @@ chapters:
   outcome: 主要なフローの反復可能なテスト スイート。
   checkpoint: メイン フローで回帰が発生すると、関連する自動テストが失敗します。
 - id: deployment
-  title: 動作確認を行いながら導入
+  title: 動作を確認してデプロイする
   summary: 非機密の環境名を構成し、検証を自動化し、リリース後に実行中のサービスを検査します。
-  outcome: 導入手順とヘルスチェック。
+  outcome: デプロイ手順とヘルスチェック。
   checkpoint: デプロイされたアプリは、予想される構成で主要なフローを完了します。
 - id: iteration
   title: 次の改善点を選択してください

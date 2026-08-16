@@ -6,12 +6,12 @@ source_content_version: 1
 chapters:
 - id: problem-and-scope
   title: アシスタントの仕事を定義する
-  summary: 聴衆の問題を 1 つ選択し、アシスタントが何をするか、何をしないかを書きます。
-  outcome: 境界のある製品概要。
+  summary: 対象ユーザーの課題を1つ選び、アシスタントがすること、しないことを書き出します。
+  outcome: 範囲を定めた製品概要。
   checkpoint: 範囲外のリクエストには明確な拒否またはハンドオフがあります。
 - id: model-and-prompt
   title: モデル命令の設定
-  summary: 焦点を絞ったシステム プロンプトを作成し、選択したタスクに対して予測可能なモデル設定を選択します。
+  summary: 焦点を絞ったシステムプロンプトを作成し、選んだタスクに適した予測可能なモデル設定を選びます。
   outcome: バージョン管理されたモデルの手順と設定。
   checkpoint: アシスタントは意図された口調に従い、裏付けのない主張を拒否します。
 - id: conversation-ui
