@@ -1,10 +1,10 @@
-title: 请求
-short_definition: 请求 是「Web 與網路」中的術語。目前為待人工審校的草稿。英文標準定義：A message sent by a client to a server asking it to retrieve, create, change, or process something.
-analogy: 可以先把 请求 想成軟體開發工具箱裡一個有明確用途的標籤；真正使用時仍要結合所在程式碼、資料流與使用者情境判斷。
-mechanism: 请求 是「Web 與網路」中的術語。目前為待人工審校的草稿。英文標準定義：A message sent by a client to a server asking it to retrieve, create, change, or process something.
-why_it_matters: 理解 请求 後，你能更準確地告訴 AI 你指的是系統的哪一部分，並要求它提供可驗證的實作證據。
-project_example: 理解 请求 後，你能更準確地告訴 AI 你指的是系統的哪一部分，並要求它提供可驗證的實作證據。
-ai_prompt_example: 解釋 请求 在這個專案中的作用。指出涉及的檔案或系統邊界，只做最小必要修改，並給出我可以驗證結果的步驟。
-common_mistake: 只記住 请求 這個名詞，卻沒有檢查它在目前專案裡的真實行為、資料流與失敗情況。
+title: "請求"
+short_definition: "使用者端向伺服器傳送的訊息，要求伺服器檢索、建立、變更或處理某些內容。"
+analogy: "將 Request 視為工作坊 Web 和網路部分中的標記工具：標籤告訴您要檢查哪些問題區域，但真正的行為仍然來自實作。"
+mechanism: "使用者端傳送到伺服器的訊息，要求伺服器檢索、建立、變更或處理某些內容。在實際專案中，其確切行為取決於周圍的技術、設定和資料流，因此請驗證具體實作，而不是僅依賴標籤。"
+why_it_matters: "知情請求讓 Vibe 編碼初學者說出他們所指的確切網路和網路問題，並向 AI 編碼代理請求修改以及行為正確的證據。"
+project_example: "在 Vibe 術語中，當學習者到達環境階段時，使用 Request 作為術語檢查點；將定義連線到一個可見的頁面、檔案、請求、資料結構或驗證步驟，而不是孤立地教授它。"
+ai_prompt_example: "解釋 Request 如何套用到該專案。指出所涉及的確切檔案或系統邊界，僅進行最小的必要修改，並顯示我可以用來驗證結果的命令或使用者流程。"
+common_mistake: "將術語「請求」視為實作正確的證據，而不檢查實際行為、資料流、權限、失敗案例或相關測試。"
 status: draft
 source_content_version: 1

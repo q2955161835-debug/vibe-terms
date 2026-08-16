@@ -1,10 +1,10 @@
-title: 圆角一致性
-short_definition: 圆角一致性 是「前端工程」中的術語。目前為待人工審校的草稿。英文標準定義：The design-system practice of using a small, intentional set of corner radii across related components.
-analogy: 可以先把 圆角一致性 想成軟體開發工具箱裡一個有明確用途的標籤；真正使用時仍要結合所在程式碼、資料流與使用者情境判斷。
-mechanism: 圆角一致性 是「前端工程」中的術語。目前為待人工審校的草稿。英文標準定義：The design-system practice of using a small, intentional set of corner radii across related components.
-why_it_matters: 理解 圆角一致性 後，你能更準確地告訴 AI 你指的是系統的哪一部分，並要求它提供可驗證的實作證據。
-project_example: 理解 圆角一致性 後，你能更準確地告訴 AI 你指的是系統的哪一部分，並要求它提供可驗證的實作證據。
-ai_prompt_example: 解釋 圆角一致性 在這個專案中的作用。指出涉及的檔案或系統邊界，只做最小必要修改，並給出我可以驗證結果的步驟。
-common_mistake: 只記住 圆角一致性 這個名詞，卻沒有檢查它在目前專案裡的真實行為、資料流與失敗情況。
+title: "圓角半徑一致性"
+short_definition: "在相關元件之間使用一組有意的小圓角半徑的設計系統實踐。"
+analogy: "將圓角半徑一致性視為工作坊前端工程部分中的標記工具：標籤告訴您要檢查哪些問題區域，但真正的行為仍然來自實作。"
+mechanism: "在相關元件中使用一組小的、有意的角半徑的設計系統實踐。在實際專案中，其確切行為取決於周圍的技術、設定和資料流，因此請驗證具體實作，而不是僅依賴標籤。"
+why_it_matters: "瞭解角半徑一致性可以讓 Vibe 編碼初學者準確地說出他們所指的前端工程問題，並向 AI 編碼代理請求修改以及行為正確的證據。"
+project_example: "在 Vibe 術語中，當學習者到達介面邏輯階段時，使用角半徑一致性作為術語檢查點；將定義連線到一個可見的頁面、檔案、請求、資料結構或驗證步驟，而不是孤立地教授它。"
+ai_prompt_example: "解釋圓角半徑一致性如何應用於該專案。指出所涉及的確切檔案或系統邊界，僅進行最小的必要修改，並顯示我可以用來驗證結果的命令或使用者流程。"
+common_mistake: "將術語「角半徑一致性」視為實作正確的證據，而不檢查實際行為、資料流、權限、故障案例或相關測試。"
 status: draft
 source_content_version: 1

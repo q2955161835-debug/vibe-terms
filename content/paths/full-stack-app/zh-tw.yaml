@@ -17,7 +17,7 @@ chapters:
 - id: data-model
   title: 設計持久資料
   summary: 在編寫寫入操作前定義紀錄、識別碼、關係和約束。
-  outcome: 有文件的資料結構。
+  outcome: 有完整文件記錄的資料結構。
   checkpoint: 資料模型能防止產品不允許的重複或孤立資料。
 - id: api-design
   title: 設計 API

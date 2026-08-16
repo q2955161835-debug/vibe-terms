@@ -1,10 +1,10 @@
-title: 控制台
-short_definition: 控制台 是「測試與除錯」中的術語。目前為待人工審校的草稿。英文標準定義：A developer-facing output and command surface used to inspect logs, warnings, errors, and runtime state.
-analogy: 可以先把 控制台 想成軟體開發工具箱裡一個有明確用途的標籤；真正使用時仍要結合所在程式碼、資料流與使用者情境判斷。
-mechanism: 控制台 是「測試與除錯」中的術語。目前為待人工審校的草稿。英文標準定義：A developer-facing output and command surface used to inspect logs, warnings, errors, and runtime state.
-why_it_matters: 理解 控制台 後，你能更準確地告訴 AI 你指的是系統的哪一部分，並要求它提供可驗證的實作證據。
-project_example: 理解 控制台 後，你能更準確地告訴 AI 你指的是系統的哪一部分，並要求它提供可驗證的實作證據。
-ai_prompt_example: 解釋 控制台 在這個專案中的作用。指出涉及的檔案或系統邊界，只做最小必要修改，並給出我可以驗證結果的步驟。
-common_mistake: 只記住 控制台 這個名詞，卻沒有檢查它在目前專案裡的真實行為、資料流與失敗情況。
+title: "主控臺"
+short_definition: "開發人員的輸出和命令介面，用於檢查日誌、警告、錯誤和執行時狀態。"
+analogy: "將主控臺視為工作坊測試和除錯部分中的標籤工具：標籤告訴您要檢查哪些問題區域，但真正的行為仍然來自實作。"
+mechanism: "開發人員的輸出和命令介面，用於檢查日誌、警告、錯誤和執行時狀態。在實際專案中，其確切行為取決於周圍的技術、設定和資料流，因此請驗證具體實作，而不是僅依賴標籤。"
+why_it_matters: "Knowing Console 請 Vibe Coding 初學者說出他們想要的確切測試和除錯問題，並向 AI 編碼代理請求修改以及行為正確的證據。"
+project_example: "在 Vibe 術語中，當學習者達到測試保護階段時，使用主控臺作為術語檢查點；將定義連線到一個可見的頁面、檔案、請求、資料結構或驗證步驟，而不是孤立地教授它。"
+ai_prompt_example: "解釋主控臺如何套用於該專案。指出所涉及的確切檔案或系統邊界，僅進行最小的必要修改，並顯示我可以用來驗證結果的命令或使用者流程。"
+common_mistake: "將術語「主控臺」視為實作正確的證據，而不檢查實際行為、資料流、權限、故障案例或相關測試。"
 status: draft
 source_content_version: 1

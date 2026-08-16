@@ -1,10 +1,10 @@
-title: 主键
-short_definition: 主键 是「資料與資料庫」中的術語。目前為待人工審校的草稿。英文標準定義：A column or set of columns whose value uniquely identifies each row in a relational table.
-analogy: 可以先把 主键 想成軟體開發工具箱裡一個有明確用途的標籤；真正使用時仍要結合所在程式碼、資料流與使用者情境判斷。
-mechanism: 主键 是「資料與資料庫」中的術語。目前為待人工審校的草稿。英文標準定義：A column or set of columns whose value uniquely identifies each row in a relational table.
-why_it_matters: 理解 主键 後，你能更準確地告訴 AI 你指的是系統的哪一部分，並要求它提供可驗證的實作證據。
-project_example: 理解 主键 後，你能更準確地告訴 AI 你指的是系統的哪一部分，並要求它提供可驗證的實作證據。
-ai_prompt_example: 解釋 主键 在這個專案中的作用。指出涉及的檔案或系統邊界，只做最小必要修改，並給出我可以驗證結果的步驟。
-common_mistake: 只記住 主键 這個名詞，卻沒有檢查它在目前專案裡的真實行為、資料流與失敗情況。
+title: "主鍵"
+short_definition: "一列或一組列，其值唯一識別關係表中的每一行。"
+analogy: "將主鍵視為工作坊資料和資料庫部分中的標記工具：標籤告訴您要檢查哪些問題區域，但真正的行為仍然來自於實作。"
+mechanism: "一列或一組列，其值唯一識別關係表中的每一行。在實際專案中，其確切行為取決於周圍的技術、設定和資料流，因此請驗證具體實作，而不是僅依賴標籤。"
+why_it_matters: "瞭解主鍵可以讓 Vibe 編碼初學者命名他們所關心的確切資料和資料庫，並向 AI 編碼代理請求修改以及行為正確的證據。"
+project_example: "在 Vibe 術語中，當學習者到達資料身分階段時，使用主鍵作為術語檢查點；將定義連線到一個可見的頁面、檔案、請求、資料結構或驗證步驟，而不是孤立地教授它。"
+ai_prompt_example: "解釋主鍵如何應用於該專案。指出所涉及的確切檔案或系統邊界，僅進行最小的必要修改，並顯示我可以用來驗證結果的命令或使用者流程。"
+common_mistake: "將術語「主鍵」視為實作正確的證據，而不檢查實際行為、資料流、權限、故障案例或相關測試。"
 status: draft
 source_content_version: 1

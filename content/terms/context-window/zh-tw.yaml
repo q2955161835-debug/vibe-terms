@@ -1,8 +1,8 @@
-title: 上下文視窗
-short_definition: 模型一次能考量的文字與其他輸入量上限。
-analogy: 像一張工作桌；桌面滿了，就得先移走舊文件，才能放進新資料。
-why_it_matters: 長時間的編程對話可能把重要需求擠出模型目前能看到的上下文。
-ai_prompt_example: 繼續之前，請先整理目前架構、限制條件、已完成工作與下一個任務。
-common_mistake: 以為模型會永久記得先前看過的每個檔案和所有決策。
+title: "上下文視窗"
+short_definition: "模型一次可以考慮的文字和其他輸入的數量有限。"
+analogy: "辦公桌：一旦裝滿，必須先將舊檔案移走，然後才能放置新檔案。"
+why_it_matters: "長時間的編碼工作階段可能會將重要需求從模型的活動脈絡中擠出。"
+ai_prompt_example: "在繼續之前，先總結目前的架構、限制、已完成的工作以及下一步的任務。"
+common_mistake: "假設模型永遠記住每個早期的檔案和決策。"
 status: draft
 source_content_version: 1

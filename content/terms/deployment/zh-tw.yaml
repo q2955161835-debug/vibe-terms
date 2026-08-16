@@ -1,8 +1,8 @@
-title: 部署
-short_definition: 把建置完成的應用程式放到使用者可以存取的環境中的過程。
-analogy: 像把作品從工作室搬到真正營業的店面。
-why_it_matters: 只在自己電腦上能執行的專案，還不能算可供使用的 Web 產品。
-ai_prompt_example: 產生靜態建置，驗證所有語言路由，再部署完全相同的建置產物；不要在正式環境重新建置。
-common_mistake: 部署時臨時修改設定，卻沒有把變更記錄回程式碼庫。
+title: "部署"
+short_definition: "將建置的應用程式放入使用者可以存取的環境中的流程。"
+analogy: "從您的工作室搬到實際的商店。"
+why_it_matters: "僅適用於筆記型電腦的專案還不是可用的網路產品。"
+ai_prompt_example: "產生靜態構建，驗證所有區域設定路由，然後部署準確的建置工件，而無需在生產中重建。"
+common_mistake: "在部署期間修改設定而不將其記錄在儲存庫中。"
 status: draft
 source_content_version: 1

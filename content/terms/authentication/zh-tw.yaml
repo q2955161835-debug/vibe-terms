@@ -1,8 +1,8 @@
-title: 身分認證
-short_definition: 確認使用者是否真的是其所聲稱身分的過程。
-analogy: 像進門前出示證件，系統先確認哪一個帳號屬於你。
-why_it_matters: 登入功能牽涉安全，不應讓 AI 隨意自創認證方案。
-ai_prompt_example: 沿用現有的認證供應商，並把授權檢查放在伺服器端；不要自行設計密碼系統。
-common_mistake: 把身分認證「你是誰」和授權「你可以做什麼」混淆。
+title: "身分驗證"
+short_definition: "證明使用者是誰的過程。"
+analogy: "在系統知道哪個帳戶是您的之前，在入口處顯示 ID。"
+why_it_matters: "登入功能是安全敏感的，不應由 AI 隨意發明。"
+ai_prompt_example: "使用現有的身分驗證提供者並在伺服器端保留授權檢查。不要建立自訂密碼系統。"
+common_mistake: "混淆身分驗證（你是誰？）和授權（你可以做什麼？）。"
 status: draft
 source_content_version: 1

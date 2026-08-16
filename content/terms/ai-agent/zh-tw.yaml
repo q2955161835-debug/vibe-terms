@@ -1,8 +1,8 @@
-title: AI 智能體
-short_definition: 能反覆判斷下一步行動、使用工具、檢查結果，並持續朝目標前進的 AI 系統。
-analogy: 像一名能閱讀任務說明、使用獲准工具、檢查成果，再決定下一步的工作者。
-why_it_matters: 編程智能體能修改檔案和執行指令，因此權限範圍與人工檢查節點非常重要。
-ai_prompt_example: 先檢查程式碼庫並提出計畫，只修改已核准的檔案，執行測試後停止，最後回報差異。
-common_mistake: 給智能體過大的權限和模糊的開放式目標，卻沒有任何驗證關卡。
+title: "AI 代理"
+short_definition: "一個 AI 系統，可以重複決定採取什麼操作、使用工具、檢查結果並繼續實作目標。"
+analogy: "可以閱讀簡報、使用核准的工具、檢查結果並採取下一步行動的工作人員。"
+why_it_matters: "編碼代理可以編輯檔案和執行命令，因此權限和檢查檢查點很重要。"
+ai_prompt_example: "檢查儲存庫，提出計劃，僅編輯批准的檔案，執行測試，然後停止並報告差異。"
+common_mistake: "給予代理廣泛的權限和沒有驗證閘的開放式目標。"
 status: draft
 source_content_version: 1
