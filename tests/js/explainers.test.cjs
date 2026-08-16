@@ -185,11 +185,14 @@ test('mount applies producer state metadata to the unique static canvas', () => 
   assert.equal(root.querySelectorAll('.visual-transcript-item').length, 2);
 });
 
-test('arrow keys move between state buttons without wrapping page focus', () => {
+test('ArrowRight and End move between state buttons without leaving the explainer', () => {
   const root = makeExplainerFixture(['one', 'two', 'three']);
   mount(root);
   root.querySelector('[data-explainer-state-control="one"]').dispatchEvent(key('ArrowRight'));
   assert.equal(document.activeElement.dataset.explainerStateControl, 'two');
+  document.activeElement.dispatchEvent(key('End'));
+  assert.equal(document.activeElement.dataset.explainerStateControl, 'three');
+  assert.equal(root.querySelector('[aria-pressed="true"]').dataset.explainerStateControl, 'three');
 });
 
 test('mount and mountAll do not duplicate state-control listeners', () => {

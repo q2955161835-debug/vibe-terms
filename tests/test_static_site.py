@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -227,6 +228,31 @@ def test_root_is_a_discoverable_answer_first_landing_page(generated_site: Path) 
     )
 
 
+def test_root_social_image_is_packaged_and_scoped_to_the_landing_page(
+    generated_site: Path,
+) -> None:
+    """A missing or doubly-prefixed social card must fail before deployment."""
+    source = ROOT / "web" / "og.png"
+    copied = generated_site / "og.png"
+    root = (generated_site / "index.html").read_text(encoding="utf-8")
+    term = (generated_site / "en" / "terms" / "css" / "index.html").read_text(
+        encoding="utf-8"
+    )
+
+    assert copied.is_file()
+    assert hashlib.sha256(copied.read_bytes()).digest() == hashlib.sha256(
+        source.read_bytes()
+    ).digest()
+    assert '<meta property="og:image" content="/og.png"/>' in root
+    assert '<meta property="og:image:width" content="1731"/>' in root
+    assert '<meta property="og:image:height" content="909"/>' in root
+    assert '<meta property="og:image:alt" content="Vibe Terms visual explainer card"/>' in root
+    assert '<meta name="twitter:image" content="/og.png"/>' in root
+    assert '<meta name="twitter:image:alt" content="Vibe Terms visual explainer card"/>' in root
+    assert "og:image" not in term
+    assert "twitter:image" not in term
+
+
 def test_term_metadata_uses_localized_labels_and_omits_empty_aliases(
     generated_site: Path,
 ) -> None:
@@ -398,6 +424,12 @@ def test_project_base_path_applies_to_html_manifest_and_sitemap(
     assert 'href="/vibe-terms/assets/explainers.css"' in root
     assert 'src="/vibe-terms/assets/explainers.js"' in root
     assert 'rel="canonical" href="https://q2955161835-debug.github.io/vibe-terms/"' in root
+    assert (
+        '<meta property="og:image" '
+        'content="https://q2955161835-debug.github.io/vibe-terms/og.png"/>'
+        in root
+    )
+    assert "vibe-terms/vibe-terms/og.png" not in root
     assert 'hreflang="zh-CN" href="https://q2955161835-debug.github.io/vibe-terms/zh-cn/"' in root
     assert 'href="/assets/' not in home
     assert manifest["start_url"] == "/vibe-terms/"

@@ -30,12 +30,16 @@ def _inline_document(relative_path: str) -> str:
     html = (SITE / relative_path).read_text(encoding="utf-8")
     css = "\n".join(
         (WEB / name).read_text(encoding="utf-8")
-        for name in ("styles.css", "clarity.css")
+        for name in ("styles.css", "clarity.css", "explainers.css")
     )
     logo = quote((WEB / "logo.svg").read_text(encoding="utf-8"))
 
     html = re.sub(r'<link\b[^>]*>', '', html)
-    html = re.sub(r'<script\s+src="/assets/(?:core|examples|app)\.js"\s+defer></script>', '', html)
+    html = re.sub(
+        r'<script\s+src="/assets/(?:core|examples|explainers|app)\.js"\s+defer></script>',
+        '',
+        html,
+    )
     html = html.replace('src="/assets/logo.svg"', f'src="data:image/svg+xml,{logo}"')
     return html.replace('</head>', f'<style>{css}</style></head>')
 
@@ -82,6 +86,8 @@ def _mount(page: Page, relative_path: str, locale: str) -> list[str]:
     )
     page.add_script_tag(content=(WEB / "core.js").read_text(encoding="utf-8"))
     page.add_script_tag(content=(WEB / "examples.js").read_text(encoding="utf-8"))
+    page.add_script_tag(content=(WEB / "explainers.js").read_text(encoding="utf-8"))
+    page.evaluate("window.VibeExplainers.mountAll(document)")
     page.add_script_tag(content=(WEB / "app.js").read_text(encoding="utf-8"))
     return errors
 
@@ -186,5 +192,29 @@ def test_all_locales_render_home_and_term_pages_without_horizontal_overflow() ->
                 assert term.locator(".term-definition-summary").inner_text().strip()
                 assert errors == []
                 term.close()
+        finally:
+            browser.close()
+
+
+def test_visual_explainer_mounts_the_css_fallback_without_http_navigation() -> None:
+    """A missing explainer runtime would leave the selected state and result unchanged."""
+    with sync_playwright() as playwright:
+        browser = _launch_browser(playwright)
+        try:
+            page = browser.new_page(viewport={"width": 1280, "height": 720})
+            errors = _mount(page, "zh-tw/terms/css/index.html", "zh-tw")
+            root = page.locator("[data-visual-explainer]")
+
+            assert root.get_attribute("data-explainer-locale") == "zh-cn"
+            root.locator('[data-explainer-state-control="override"]').click()
+            assert root.locator('[aria-pressed="true"]').get_attribute(
+                "data-explainer-state-control"
+            ) == "override"
+            assert (
+                root.locator('[data-explainer-node="computed-color"] code').inner_text()
+                == "#db2777"
+            )
+            assert root.locator(".visual-transcript-item").count() == 3
+            assert errors == []
         finally:
             browser.close()

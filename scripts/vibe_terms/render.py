@@ -116,6 +116,10 @@ class SiteRenderer:
             if not source.is_file():
                 raise ValueError(f"missing required browser asset: {source}")
             shutil.copy2(source, self.assets / filename)
+        social_image = self.web / "og.png"
+        if not social_image.is_file():
+            raise ValueError(f"missing required social image: {social_image}")
+        shutil.copy2(social_image, self.output / "og.png")
         icons = self.web / "icons"
         if not icons.is_dir():
             raise ValueError(f"missing required browser assets: {icons}")
@@ -155,6 +159,7 @@ class SiteRenderer:
         robots: str,
         structured_data: object | None = None,
         canonical_path: str | None = None,
+        social_image: bool = False,
     ) -> str:
         route = f"/{locale}{locale_path}"
         canonical_route = canonical_path or route
@@ -168,6 +173,16 @@ class SiteRenderer:
         structured = (
             f'<script type="application/ld+json">{_json(structured_data, pretty=True)}</script>'
             if structured_data is not None
+            else ""
+        )
+        social_meta = (
+            f'<meta property="og:image" content="{_esc(self.urls.absolute("/og.png"))}"/>'
+            '<meta property="og:image:width" content="1731"/>'
+            '<meta property="og:image:height" content="909"/>'
+            '<meta property="og:image:alt" content="Vibe Terms visual explainer card"/>'
+            f'<meta name="twitter:image" content="{_esc(self.urls.absolute("/og.png"))}"/>'
+            '<meta name="twitter:image:alt" content="Vibe Terms visual explainer card"/>'
+            if social_image
             else ""
         )
         return (
@@ -187,6 +202,7 @@ class SiteRenderer:
             f'<meta property="og:type" content="website"/><meta property="og:title" content="{_esc(title)} · {PRODUCT_NAME}"/>'
             f'<meta property="og:description" content="{_esc(description)}"/>'
             f'<meta property="og:url" content="{_esc(self.urls.absolute(canonical_route))}"/>'
+            f'{social_meta}'
             f'<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="{_esc(title)} · {PRODUCT_NAME}"/>'
             f'<meta name="twitter:description" content="{_esc(description)}"/>'
             f'<link rel="icon" href="{_esc(self.urls.asset("assets/logo.svg"))}" type="image/svg+xml"/>'
@@ -249,6 +265,7 @@ class SiteRenderer:
         indexable: bool,
         structured_data: object | None = None,
         canonical_path: str | None = None,
+        social_image: bool = False,
     ) -> str:
         robots = "index,follow" if indexable else "noindex,follow"
         runtime_keys = (
@@ -285,6 +302,7 @@ class SiteRenderer:
                 robots=robots,
                 structured_data=structured_data,
                 canonical_path=canonical_path,
+                social_image=social_image,
             )
             + f'<body data-base-path="{_esc(self.config.base_path)}"><a class="skip-link" href="#main-content">{_esc(self.label(locale, "skip", "Skip to content"))}</a>'
             + self.header(locale, locale_path)
@@ -403,6 +421,7 @@ class SiteRenderer:
             indexable=True,
             structured_data=graph,
             canonical_path="/",
+            social_image=True,
         )
         self.add_page("/", page, indexable=True)
 
