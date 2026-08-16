@@ -1,7 +1,9 @@
 title: API
 short_definition: 한 소프트웨어가 다른 소프트웨어에 데이터나 작업을 요청하는 정해진 방식.
 analogy: 식당 메뉴를 보면 주방에 들어가지 않고도 무엇을 주문할 수 있는지 알 수 있습니다.
+mechanism: API는 정해진 요청 형식과 응답 구조를 통해 서로 다른 소프트웨어 사이의 호출을 연결합니다.
 why_it_matters: AI 코딩에서는 프런트엔드, 데이터베이스, 모델 제공업체, 외부 서비스를 API로 연결하는 일이 많습니다.
+project_example: 이 프로젝트에서는 용어 검색 요청의 경로, 매개변수, 응답 필드를 API 계약으로 문서화합니다.
 ai_prompt_example: 구현하기 전에 GET /api/terms의 요청 매개변수, 응답 필드, 오류 경우를 포함한 API 계약을 정의하세요.
 common_mistake: API 계약과 그 계약을 구현하는 내부 코드를 같은 것으로 생각하는 것.
 status: draft
