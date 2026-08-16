@@ -3,7 +3,7 @@ domains:
   en: AI & Vibe Coding
   zh-cn: AI 与 Vibe Coding
   zh-tw: AI 與 Vibe Coding
-  ja: AI と Vibe Coding
+  ja: AIとVibe Coding
   ko: AI와 Vibe Coding
   de: KI & Vibe Coding
   ru: ИИ и Vibe Coding
@@ -19,7 +19,7 @@ domains:
   en: Web & Networking
   zh-cn: Web 与网络
   zh-tw: Web 與網路
-  ja: Web とネットワーク
+  ja: Webとネットワーク
   ko: Web 및 네트워크
   de: Web & Netzwerk
   ru: Web и сети
@@ -35,7 +35,7 @@ domains:
   en: UI/UX & Accessibility
   zh-cn: UI/UX 与无障碍
   zh-tw: UI/UX 與無障礙
-  ja: UI/UX とアクセシビリティ
+  ja: UI/UXとアクセシビリティ
   ko: UI/UX 및 접근성
   de: UI/UX & Barrierefreiheit
   ru: UI/UX и доступность
@@ -51,7 +51,7 @@ domains:
   en: Backend & APIs
   zh-cn: 后端与 API
   zh-tw: 後端與 API
-  ja: バックエンドと API
+  ja: バックエンドとAPI
   ko: 백엔드 및 API
   de: Backend & APIs
   ru: Бэкенд и API
@@ -67,7 +67,7 @@ domains:
   en: Git & Collaboration
   zh-cn: Git 与协作
   zh-tw: Git 與協作
-  ja: Git と共同作業
+  ja: Gitと共同作業
   ko: Git 및 협업
   de: Git & Zusammenarbeit
   ru: Git и совместная работа

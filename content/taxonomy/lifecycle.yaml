@@ -34,7 +34,7 @@ stages:
   - id: interface-logic
     en: Build interface and logic
     zh-cn: 编写界面与逻辑
-    zh-tw: 編寫介面與邏輯
+    zh-tw: 建立介面與邏輯
     ja: 画面とロジックを作る
     ko: 화면과 로직 구현
     de: Oberfläche und Logik bauen

@@ -218,8 +218,8 @@ zh-tw:
   terms: 術語
   topics: 主題
   learn: 學習
-  search: 搜尋術語、縮寫或含義…
-  search_btn: 查找
+  search: 搜尋術語、縮寫或意義…
+  search_btn: 搜尋
   hero_eyebrow: 從想法到上線
   hero: 從一句想法，走到真正上線。
   sub: 為 Vibe Coding 新手準備的知識地圖。遇到不懂的詞就搜尋，也可依專案流程探索。
@@ -229,7 +229,7 @@ zh-tw:
   all_terms: 全部術語
   learn_title: 今日學習
   learning_eyebrow: 本機優先學習
-  learn_sub: 自訂今天的新詞數量。訪客進度直接保存在目前瀏覽器。
+  learn_sub: 自訂今天的新詞數量。訪客進度會儲存在目前使用的瀏覽器中。
   daily: 每天新詞數
   start: 開始學習
   reveal: 查看解釋
@@ -237,14 +237,14 @@ zh-tw:
   partial: 有點印象
   mastered: 已經掌握
   progress: 今日進度
-  local: 訪客學習記錄只保存在目前瀏覽器。
+  local: 訪客學習紀錄只會儲存在目前使用的瀏覽器中。
   draft: 待校對
   why: 為什麼重要
   analogy: 簡單類比
   prompt: 可以這樣告訴 AI
   mistake: 常見誤區
   related: 相關術語
-  back: 返回探索
+  back: 回到探索
   no_results: 沒有符合的術語。
   loading: 正在載入術語…
   load_error: 術語索引載入失敗。
@@ -258,7 +258,7 @@ zh-tw:
   category_intro: 瀏覽「{domain}」中的 {count} 個新手友善術語。
   not_found_title: 找不到頁面
   not_found_text: 頁面可能已移動，但術語地圖仍在。
-  go_home: 返回首頁
+  go_home: 回到首頁
   terms_unit: 術語
   source_code: 原始碼
   theme_system: 使用系統主題
@@ -266,7 +266,7 @@ zh-tw:
   theme_dark: 使用深色主題
   copy_failed: 複製失敗
   queued: 已加入學習
-  category_back: 返回知識地圖
+  category_back: 回到知識地圖
   search_error: 術語索引載入失敗。
   practice: 練習
   language: 語言
@@ -279,23 +279,23 @@ zh-tw:
   user_says: 你可以這樣說
   short_definition: 簡短定義
   prerequisites: 前置知識
-  no_prerequisites: 無必需前置知識
+  no_prerequisites: 不需要前置知識
   mechanism: 運作方式
   boundary: 適用邊界
   example: 動態範例
   context: 情境
   verify: 驗證
   verification_boundary: 驗證邊界
-  example_noscript: 上方文字已包含範例的兩種狀態；JavaScript 僅用於增強切換控制。
+  example_noscript: 上方文字已包含範例的兩種狀態；JavaScript 僅用來增強切換控制項。
   project_example: 專案範例
   exercise: 小練習
   check_answer: 檢查答案
   project_paths: 專案路徑
   sources: 來源與依據
-  internal_provenance: 站內內容依據
+  internal_provenance: 站內內容來源
   term_sequence: 術語順序
   knowledge_intro: 依領域、主題與前置關係瀏覽術語。
-  compatibility_notice: 此分類網址僅為相容舊連結而保留。
+  compatibility_notice: 此分類路徑僅為相容舊連結而保留。
   path_intro: 依真實專案會用到這些術語的順序學習。
   chapters_unit: 個章節
   next_chapter: 下一章
@@ -303,7 +303,7 @@ zh-tw:
   checkpoint: 階段檢查
   mark_complete: 在本機標記完成
   practice_eyebrow: 本機練習
-  practice_intro: 題目為靜態內容；作答記錄和複習時間只保存在目前瀏覽器。
+  practice_intro: 題目為靜態內容；作答紀錄和複習時間只會儲存在目前使用的瀏覽器中。
   scope: 練習範圍
   local_data: 本機資料
   export: 匯出
@@ -329,7 +329,7 @@ ja:
   search_btn: 検索
   hero_eyebrow: アイデアから公開まで
   hero: ひとつのアイデアから、本当に公開できるプロダクトへ。
-  sub: Vibe Coding 初心者向けの知識マップ。分からない言葉を検索するか、開発の流れに沿って学べます。
+  sub: Vibe Coding初心者向けの知識マップ。分からない言葉を検索するか、開発の流れに沿って学べます。
   knowledge: 知識マップ
   route: プロジェクトの流れ
   trending: まずはここから
@@ -337,7 +337,7 @@ ja:
   learn_title: 今日の学習
   learning_eyebrow: ローカル優先の学習
   learn_sub: 今日学ぶ新しい用語数を設定できます。ゲストの進捗はこのブラウザに保存されます。
-  daily: 1日の新規用語
+  daily: 1日に学ぶ新しい用語数
   start: 学習を開始
   reveal: 説明を見る
   again: まだ分からない
@@ -347,8 +347,8 @@ ja:
   local: ゲストの学習記録はこのブラウザ内に保存されます。
   draft: 要校正
   why: なぜ重要？
-  analogy: かんたんな例え
-  prompt: AI への伝え方
+  analogy: 簡単なたとえ
+  prompt: AIへの伝え方
   mistake: よくある間違い
   related: 関連用語
   back: 探索へ戻る
@@ -408,7 +408,7 @@ ja:
   next_chapter: 次の章
   outcome: 学習成果
   checkpoint: チェックポイント
-  mark_complete: この端末で完了にする
+  mark_complete: このブラウザーで完了にする
   practice_eyebrow: ローカル練習
   practice_intro: 問題は静的です。回答履歴と復習時刻はこのブラウザだけに保存されます。
   scope: 練習範囲
@@ -421,10 +421,10 @@ ja:
   open_exercise: 練習を開く
   next: 次へ
   practice_unavailable: 練習データを読み込めません。
-  invalid_json: 選択したファイルは有効な JSON ではありません。
-  invalid_import: これは完全な Vibe Terms スキーマ v2 のエクスポートではありません。
+  invalid_json: 選択したファイルは有効なJSONではありません。
+  invalid_import: これは完全なVibe Termsスキーマv2のエクスポートではありません。
   import_failed: ローカルデータをインポートできませんでした。
-  confirm_clear: 消去を確認
+  confirm_clear: 消去を確認する
   clear_failed: ローカルデータを消去できませんでした。
 ko:
   skip: 주요 콘텐츠로 건너뛰기
@@ -653,7 +653,7 @@ ru:
   sub: Карта знаний для новичков в Vibe Coding. Ищите незнакомые слова или изучайте их по этапам проекта.
   knowledge: Карта знаний
   route: Путь проекта
-  trending: Начать с этих
+  trending: Начните с этих
   all_terms: Все термины
   learn_title: Обучение на сегодня
   learning_eyebrow: ЛОКАЛЬНОЕ ОБУЧЕНИЕ
@@ -720,7 +720,7 @@ ru:
   check_answer: Проверить ответ
   project_paths: Пути проекта
   sources: Источники и происхождение
-  internal_provenance: внутреннее происхождение
+  internal_provenance: внутренние сведения об источнике
   term_sequence: Порядок терминов
   knowledge_intro: Просматривайте термины по областям, темам и предварительным связям.
   compatibility_notice: Этот адрес категории сохранён для совместимости со старыми ссылками.
@@ -729,7 +729,7 @@ ru:
   next_chapter: Следующая глава
   outcome: Результат обучения
   checkpoint: Контрольная точка
-  mark_complete: Отметить выполненным локально
+  mark_complete: Отметить выполненным на устройстве
   practice_eyebrow: ЛОКАЛЬНАЯ ПРАКТИКА
   practice_intro: Вопросы статичны; ответы и время повторения хранятся только в этом браузере.
   scope: Область практики

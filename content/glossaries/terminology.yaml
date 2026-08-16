@@ -1,12 +1,12 @@
 terms:
 - canonical: AI Application
   slug: ai-application
-  zh-cn: AI应用
-  zh-tw: AI應用
-  ja: AI Application
-  ko: AI Application
-  de: AI Application
-  ru: AI Application
+  zh-cn: 人工智能应用
+  zh-tw: AI 應用程式
+  ja: AIアプリケーション
+  ko: AI 애플리케이션
+  de: KI-Anwendung
+  ru: Приложение ИИ
   status:
     zh-cn: draft
     zh-tw: draft
@@ -17,11 +17,11 @@ terms:
 - canonical: Hallucination
   slug: hallucination
   zh-cn: 幻觉
-  zh-tw: 幻觉
-  ja: Hallucination
-  ko: Hallucination
-  de: Hallucination
-  ru: Hallucination
+  zh-tw: 幻覺
+  ja: ハルシネーション
+  ko: 환각
+  de: Halluzination
+  ru: Галлюцинация
   status:
     zh-cn: draft
     zh-tw: draft
@@ -31,12 +31,12 @@ terms:
     ru: draft
 - canonical: Vibe Coding
   slug: vibe-coding
-  zh-cn: VibeCoding
-  zh-tw: VibeCoding
-  ja: Vibe Coding
-  ko: Vibe Coding
+  zh-cn: Vibe Coding
+  zh-tw: Vibe Coding
+  ja: バイブコーディング
+  ko: 바이브 코딩
   de: Vibe Coding
-  ru: Vibe Coding
+  ru: Кодирование вибрации
   status:
     zh-cn: draft
     zh-tw: draft
@@ -46,12 +46,12 @@ terms:
     ru: draft
 - canonical: Multimodal AI
   slug: multimodal-ai
-  zh-cn: 多模态AI
-  zh-tw: 多模態AI
-  ja: Multimodal AI
-  ko: Multimodal AI
-  de: Multimodal AI
-  ru: Multimodal AI
+  zh-cn: 多模态人工智能
+  zh-tw: 多模態 AI
+  ja: マルチモーダル AI
+  ko: 멀티모달 AI
+  de: Multimodale KI
+  ru: Мультимодальный ИИ
   status:
     zh-cn: draft
     zh-tw: draft
@@ -61,12 +61,12 @@ terms:
     ru: draft
 - canonical: Context Engineering
   slug: context-engineering
-  zh-cn: 上下文工程
-  zh-tw: 上下文工程
-  ja: Context Engineering
-  ko: Context Engineering
-  de: Context Engineering
-  ru: Context Engineering
+  zh-cn: 上下文工程（Context Engineering）
+  zh-tw: 情境工程
+  ja: コンテキストエンジニアリング
+  ko: 컨텍스트 엔지니어링
+  de: Kontext-Engineering
+  ru: Контекстная инженерия
   status:
     zh-cn: draft
     zh-tw: draft
@@ -76,12 +76,12 @@ terms:
     ru: draft
 - canonical: Token
   slug: token
-  zh-cn: 词元
-  zh-tw: 词元
-  ja: Token
-  ko: Token
+  zh-cn: 词元（Token）
+  zh-tw: 詞元（Token）
+  ja: トークン
+  ko: 토큰
   de: Token
-  ru: Token
+  ru: Токен
   status:
     zh-cn: draft
     zh-tw: draft
@@ -92,11 +92,11 @@ terms:
 - canonical: Context Window
   slug: context-window
   zh-cn: 上下文窗口
-  zh-tw: 上下文窗口
-  ja: Context Window
-  ko: Context Window
-  de: Context Window
-  ru: Context Window
+  zh-tw: 上下文視窗
+  ja: コンテキストウィンドウ
+  ko: 컨텍스트 창
+  de: Kontextfenster
+  ru: Контекстное окно
   status:
     zh-cn: draft
     zh-tw: draft
@@ -106,12 +106,12 @@ terms:
     ru: draft
 - canonical: System Prompt
   slug: system-prompt
-  zh-cn: 系统提示词
-  zh-tw: 系统提示词
-  ja: System Prompt
-  ko: System Prompt
-  de: System Prompt
-  ru: System Prompt
+  zh-cn: 系统提示
+  zh-tw: 系統提示
+  ja: システムプロンプト
+  ko: 시스템 프롬프트
+  de: System-Prompt
+  ru: Системный промпт
   status:
     zh-cn: draft
     zh-tw: draft
@@ -121,12 +121,12 @@ terms:
     ru: draft
 - canonical: Conversation History
   slug: conversation-history
-  zh-cn: 对话历史
-  zh-tw: 对话歷史
-  ja: Conversation History
-  ko: Conversation History
-  de: Conversation History
-  ru: Conversation History
+  zh-cn: 对话历史记录
+  zh-tw: 對話歷史記錄
+  ja: 会話履歴
+  ko: 대화 기록
+  de: Gesprächsverlauf
+  ru: История разговора
   status:
     zh-cn: draft
     zh-tw: draft
@@ -137,11 +137,11 @@ terms:
 - canonical: Stateless Request
   slug: stateless-request
   zh-cn: 无状态请求
-  zh-tw: 无状態请求
-  ja: Stateless Request
-  ko: Stateless Request
-  de: Stateless Request
-  ru: Stateless Request
+  zh-tw: 無狀態請求
+  ja: ステートレスリクエスト
+  ko: 상태 비저장 요청
+  de: Zustandslose Anfrage
+  ru: Запрос без сохранения состояния
   status:
     zh-cn: draft
     zh-tw: draft
@@ -152,11 +152,11 @@ terms:
 - canonical: Structured Output
   slug: structured-output
   zh-cn: 结构化输出
-  zh-tw: 结構化輸出
-  ja: Structured Output
-  ko: Structured Output
-  de: Structured Output
-  ru: Structured Output
+  zh-tw: 結構化輸出
+  ja: 構造化出力
+  ko: 구조화된 출력
+  de: Strukturierte Ausgabe
+  ru: Структурированный вывод
   status:
     zh-cn: draft
     zh-tw: draft
@@ -167,11 +167,11 @@ terms:
 - canonical: Streaming Response
   slug: streaming-response
   zh-cn: 流式响应
-  zh-tw: 流式响應
-  ja: Streaming Response
-  ko: Streaming Response
-  de: Streaming Response
-  ru: Streaming Response
+  zh-tw: 串流回應
+  ja: ストリーミング応答
+  ko: 스트리밍 응답
+  de: Streaming-Antwort
+  ru: Потоковый ответ
   status:
     zh-cn: draft
     zh-tw: draft
@@ -181,12 +181,12 @@ terms:
     ru: draft
 - canonical: AI Agent
   slug: ai-agent
-  zh-cn: AI智能体
-  zh-tw: AI智能體
-  ja: AI Agent
-  ko: AI Agent
-  de: AI Agent
-  ru: AI Agent
+  zh-cn: 人工智能代理
+  zh-tw: AI 代理
+  ja: AIエージェント
+  ko: AI 에이전트
+  de: KI-Agent
+  ru: ИИ-агент
   status:
     zh-cn: draft
     zh-tw: draft
@@ -196,12 +196,12 @@ terms:
     ru: draft
 - canonical: Harness Engineering
   slug: harness-engineering
-  zh-cn: 运行框架工程
-  zh-tw: 运行框架工程
-  ja: Harness Engineering
-  ko: Harness Engineering
-  de: Harness Engineering
-  ru: Harness Engineering
+  zh-cn: Harness Engineering
+  zh-tw: Harness 工程
+  ja: ハーネスエンジニアリング
+  ko: 하네스 엔지니어링
+  de: Harness-Engineering
+  ru: Жгутовая инженерия
   status:
     zh-cn: draft
     zh-tw: draft
@@ -211,12 +211,12 @@ terms:
     ru: draft
 - canonical: Human-in-the-loop
   slug: human-in-the-loop
-  zh-cn: 人在回路
-  zh-tw: 人在回路
+  zh-cn: 人在回路中（Human-in-the-loop）
+  zh-tw: 人機互動
   ja: Human-in-the-loop
   ko: Human-in-the-loop
-  de: Human-in-the-loop
-  ru: Human-in-the-loop
+  de: Human-in-the-Loop
+  ru: Человек в курсе
   status:
     zh-cn: draft
     zh-tw: draft
@@ -227,7 +227,7 @@ terms:
 - canonical: Model Context Protocol
   slug: model-context-protocol
   zh-cn: 模型上下文协议
-  zh-tw: 模型上下文协议
+  zh-tw: 模型上下文協定
   ja: Model Context Protocol
   ko: Model Context Protocol
   de: Model Context Protocol
@@ -243,10 +243,10 @@ terms:
   slug: skill
   zh-cn: 技能
   zh-tw: 技能
-  ja: Skill
-  ko: Skill
-  de: Skill
-  ru: Skill
+  ja: スキル
+  ko: 스킬
+  de: Fähigkeit
+  ru: Навык
   status:
     zh-cn: draft
     zh-tw: draft
@@ -256,12 +256,12 @@ terms:
     ru: draft
 - canonical: Sub-agent
   slug: sub-agent
-  zh-cn: Sub-agent
-  zh-tw: Sub-agent
-  ja: Sub-agent
-  ko: Sub-agent
-  de: Sub-agent
-  ru: Sub-agent
+  zh-cn: 分代理
+  zh-tw: 子代理
+  ja: サブエージェント
+  ko: 하위 에이전트
+  de: Sub-Agent
+  ru: Субагент
   status:
     zh-cn: draft
     zh-tw: draft
@@ -272,11 +272,11 @@ terms:
 - canonical: Tool Calling
   slug: tool-calling
   zh-cn: 工具调用
-  zh-tw: 工具調用
-  ja: Tool Calling
-  ko: Tool Calling
+  zh-tw: 工具呼叫
+  ja: ツール呼び出し
+  ko: 도구 호출
   de: Tool Calling
-  ru: Tool Calling
+  ru: Вызов инструмента
   status:
     zh-cn: draft
     zh-tw: draft
@@ -286,8 +286,8 @@ terms:
     ru: draft
 - canonical: ReAct
   slug: react-agent-pattern
-  zh-cn: ReAct
-  zh-tw: ReAct
+  zh-cn: ReAct 智能体模式
+  zh-tw: ReAct 代理模式
   ja: ReAct
   ko: ReAct
   de: ReAct
@@ -301,12 +301,12 @@ terms:
     ru: draft
 - canonical: Agent Loop
   slug: agent-loop
-  zh-cn: 智能体循环
-  zh-tw: 智能體循環
-  ja: Agent Loop
-  ko: Agent Loop
-  de: Agent Loop
-  ru: Agent Loop
+  zh-cn: 代理循环
+  zh-tw: 代理迴圈
+  ja: エージェントループ
+  ko: 에이전트 루프
+  de: Agentenschleife
+  ru: Агент Петля
   status:
     zh-cn: draft
     zh-tw: draft
@@ -317,11 +317,11 @@ terms:
 - canonical: AI Latency Metrics
   slug: ai-latency-metrics
   zh-cn: AI 延迟指标
-  zh-tw: AI 延迟指標
-  ja: AI Latency Metrics
-  ko: AI Latency Metrics
-  de: AI Latency Metrics
-  ru: AI Latency Metrics
+  zh-tw: AI 延遲指標
+  ja: AIレイテンシ指標
+  ko: AI 지연 시간 측정항목
+  de: KI-Latenzmetriken
+  ru: Метрики задержки ИИ
   status:
     zh-cn: draft
     zh-tw: draft
@@ -331,12 +331,12 @@ terms:
     ru: draft
 - canonical: Token Cost
   slug: token-cost
-  zh-cn: Token 成本
-  zh-tw: Token 成本
-  ja: Token Cost
-  ko: Token Cost
-  de: Token Cost
-  ru: Token Cost
+  zh-cn: 词元成本（Token Cost）
+  zh-tw: 詞元成本
+  ja: トークンコスト
+  ko: 토큰 비용
+  de: Token-Kosten
+  ru: Стоимость токена
   status:
     zh-cn: draft
     zh-tw: draft
@@ -348,10 +348,10 @@ terms:
   slug: rate-limit
   zh-cn: 速率限制
   zh-tw: 速率限制
-  ja: Rate Limit
-  ko: Rate Limit
-  de: Rate Limit
-  ru: Rate Limit
+  ja: レート制限
+  ko: 레이트 리밋
+  de: Ratenbegrenzung
+  ru: Ограничение скорости
   status:
     zh-cn: draft
     zh-tw: draft
@@ -362,11 +362,11 @@ terms:
 - canonical: Large Language Model
   slug: large-language-model
   zh-cn: 大语言模型
-  zh-tw: 大语言模型
-  ja: Large Language Model
-  ko: Large Language Model
+  zh-tw: 大型語言模型
+  ja: 大規模言語モデル
+  ko: 대규모 언어 모델
   de: Large Language Model
-  ru: Large Language Model
+  ru: Большая языковая модель
   status:
     zh-cn: draft
     zh-tw: draft
@@ -376,12 +376,12 @@ terms:
     ru: draft
 - canonical: Model Provider
   slug: model-provider
-  zh-cn: 模型提供商
-  zh-tw: 模型提供商
-  ja: Model Provider
-  ko: Model Provider
-  de: Model Provider
-  ru: Model Provider
+  zh-cn: 模型提供者
+  zh-tw: 模型提供者
+  ja: モデルプロバイダー
+  ko: 모델 제공자
+  de: Modellanbieter
+  ru: Поставщик модели
   status:
     zh-cn: draft
     zh-tw: draft
@@ -393,10 +393,10 @@ terms:
   slug: inference
   zh-cn: 推理
   zh-tw: 推理
-  ja: Inference
-  ko: Inference
-  de: Inference
-  ru: Inference
+  ja: 推論
+  ko: 추론
+  de: Inferenz
+  ru: Инференс
   status:
     zh-cn: draft
     zh-tw: draft
@@ -406,10 +406,10 @@ terms:
     ru: draft
 - canonical: Prompt
   slug: prompt
-  zh-cn: 提示词
-  zh-tw: 提示词
-  ja: Prompt
-  ko: Prompt
+  zh-cn: 提示
+  zh-tw: 提示
+  ja: プロンプト
+  ko: 프롬프트
   de: Prompt
   ru: Prompt
   status:
@@ -421,12 +421,12 @@ terms:
     ru: draft
 - canonical: Prompt Engineering
   slug: prompt-engineering
-  zh-cn: 提示词工程
-  zh-tw: 提示词工程
-  ja: Prompt Engineering
-  ko: Prompt Engineering
+  zh-cn: Prompt Engineering（提示工程）
+  zh-tw: 提示工程
+  ja: プロンプトエンジニアリング
+  ko: 프롬프트 엔지니어링
   de: Prompt Engineering
-  ru: Prompt Engineering
+  ru: Промпт-инжиниринг
   status:
     zh-cn: draft
     zh-tw: draft
@@ -436,12 +436,12 @@ terms:
     ru: draft
 - canonical: Prompt Template
   slug: prompt-template
-  zh-cn: 提示词模板
-  zh-tw: 提示词模板
-  ja: Prompt Template
-  ko: Prompt Template
-  de: Prompt Template
-  ru: Prompt Template
+  zh-cn: 提示模板
+  zh-tw: 提示範本
+  ja: プロンプトテンプレート
+  ko: 프롬프트 템플릿
+  de: Prompt-Template
+  ru: Шаблон промпта
   status:
     zh-cn: draft
     zh-tw: draft
@@ -451,12 +451,12 @@ terms:
     ru: draft
 - canonical: Instruction Hierarchy
   slug: instruction-hierarchy
-  zh-cn: 指令层级
-  zh-tw: 指令層級
-  ja: Instruction Hierarchy
-  ko: Instruction Hierarchy
-  de: Instruction Hierarchy
-  ru: Instruction Hierarchy
+  zh-cn: 指令层次结构
+  zh-tw: 指令階層
+  ja: 命令階層
+  ko: 지침 계층
+  de: Instruktionshierarchie
+  ru: Иерархия инструкций
   status:
     zh-cn: draft
     zh-tw: draft
@@ -466,12 +466,12 @@ terms:
     ru: draft
 - canonical: Grounding
   slug: grounding
-  zh-cn: 事实锚定
-  zh-tw: 事实锚定
-  ja: Grounding
-  ko: Grounding
+  zh-cn: Grounding（事实依据）
+  zh-tw: Grounding（事實依據）
+  ja: グラウンディング
+  ko: 그라운딩
   de: Grounding
-  ru: Grounding
+  ru: Привязка к источникам (Grounding)
   status:
     zh-cn: draft
     zh-tw: draft
@@ -482,11 +482,11 @@ terms:
 - canonical: Retrieval-Augmented Generation
   slug: retrieval-augmented-generation
   zh-cn: 检索增强生成
-  zh-tw: 检索增强生成
-  ja: Retrieval-Augmented Generation
-  ko: Retrieval-Augmented Generation
+  zh-tw: 檢索增強生成
+  ja: 検索拡張生成
+  ko: 검색 증강 생성
   de: Retrieval-Augmented Generation
-  ru: Retrieval-Augmented Generation
+  ru: Генерация с дополнением поиска
   status:
     zh-cn: draft
     zh-tw: draft
@@ -498,10 +498,10 @@ terms:
   slug: embedding
   zh-cn: 嵌入
   zh-tw: 嵌入
-  ja: Embedding
-  ko: Embedding
+  ja: 埋め込み
+  ko: 임베딩
   de: Embedding
-  ru: Embedding
+  ru: Эмбеддинг
   status:
     zh-cn: draft
     zh-tw: draft
@@ -511,12 +511,12 @@ terms:
     ru: draft
 - canonical: Vector Database
   slug: vector-database
-  zh-cn: 向量数据库
-  zh-tw: 向量數據庫
-  ja: Vector Database
-  ko: Vector Database
-  de: Vector Database
-  ru: Vector Database
+  zh-cn: 向量数据库（Vector Database）
+  zh-tw: 向量資料庫
+  ja: ベクターデータベース
+  ko: 벡터 데이터베이스
+  de: Vektordatenbank
+  ru: База данных векторов
   status:
     zh-cn: draft
     zh-tw: draft
@@ -527,11 +527,11 @@ terms:
 - canonical: Semantic Search
   slug: semantic-search
   zh-cn: 语义搜索
-  zh-tw: 语义搜索
-  ja: Semantic Search
-  ko: Semantic Search
-  de: Semantic Search
-  ru: Semantic Search
+  zh-tw: 語義搜尋
+  ja: セマンティック検索
+  ko: 시맨틱 검색
+  de: Semantische Suche
+  ru: Семантический поиск
   status:
     zh-cn: draft
     zh-tw: draft
@@ -543,8 +543,8 @@ terms:
   slug: chunking
   zh-cn: 分块
   zh-tw: 分塊
-  ja: Chunking
-  ko: Chunking
+  ja: チャンク化
+  ko: 청킹
   de: Chunking
   ru: Chunking
   status:
@@ -556,12 +556,12 @@ terms:
     ru: draft
 - canonical: Reranking
   slug: reranking
-  zh-cn: 重排序
-  zh-tw: 重排序
-  ja: Reranking
-  ko: Reranking
-  de: Reranking
-  ru: Reranking
+  zh-cn: 重新排名
+  zh-tw: 重新排序
+  ja: 再ランキング
+  ko: 리랭킹
+  de: Neueinstufung
+  ru: Изменение рейтинга
   status:
     zh-cn: draft
     zh-tw: draft
@@ -571,12 +571,12 @@ terms:
     ru: draft
 - canonical: Agent Memory
   slug: agent-memory
-  zh-cn: 智能体记忆
-  zh-tw: 智能體记忆
-  ja: Agent Memory
-  ko: Agent Memory
-  de: Agent Memory
-  ru: Agent Memory
+  zh-cn: 代理内存
+  zh-tw: 代理記憶
+  ja: エージェントメモリ
+  ko: 에이전트 메모리
+  de: Agentenspeicher
+  ru: Память агента
   status:
     zh-cn: draft
     zh-tw: draft
@@ -586,12 +586,12 @@ terms:
     ru: draft
 - canonical: Short-Term Memory
   slug: short-term-memory
-  zh-cn: Short-Term记忆
-  zh-tw: Short-Term记忆
-  ja: Short-Term Memory
-  ko: Short-Term Memory
-  de: Short-Term Memory
-  ru: Short-Term Memory
+  zh-cn: 短期记忆
+  zh-tw: 短期記憶
+  ja: 短期記憶
+  ko: 단기 기억
+  de: Kurzzeitgedächtnis
+  ru: Кратковременная память
   status:
     zh-cn: draft
     zh-tw: draft
@@ -601,12 +601,12 @@ terms:
     ru: draft
 - canonical: Long-Term Memory
   slug: long-term-memory
-  zh-cn: Long-Term记忆
-  zh-tw: Long-Term记忆
-  ja: Long-Term Memory
-  ko: Long-Term Memory
-  de: Long-Term Memory
-  ru: Long-Term Memory
+  zh-cn: 长期记忆
+  zh-tw: 長期記憶
+  ja: 長期記憶
+  ko: 장기 기억
+  de: Langzeitgedächtnis
+  ru: Долговременная память
   status:
     zh-cn: draft
     zh-tw: draft
@@ -617,11 +617,11 @@ terms:
 - canonical: Function Calling
   slug: function-calling
   zh-cn: 函数调用
-  zh-tw: 函數調用
-  ja: Function Calling
-  ko: Function Calling
+  zh-tw: 函式呼叫
+  ja: 関数呼び出し
+  ko: 함수 호출
   de: Function Calling
-  ru: Function Calling
+  ru: Вызов функций
   status:
     zh-cn: draft
     zh-tw: draft
@@ -631,12 +631,12 @@ terms:
     ru: draft
 - canonical: Evaluation
   slug: evaluation
-  zh-cn: 评测
-  zh-tw: 评測
-  ja: Evaluation
-  ko: Evaluation
+  zh-cn: 评估（Evaluation）
+  zh-tw: 評估
+  ja: 評価
+  ko: 평가
   de: Evaluation
-  ru: Evaluation
+  ru: Оценка
   status:
     zh-cn: draft
     zh-tw: draft
@@ -646,12 +646,12 @@ terms:
     ru: draft
 - canonical: Benchmark
   slug: benchmark
-  zh-cn: 基准
-  zh-tw: 基准
-  ja: Benchmark
-  ko: Benchmark
+  zh-cn: 基准测试
+  zh-tw: 基準
+  ja: ベンチマーク
+  ko: 벤치마크
   de: Benchmark
-  ru: Benchmark
+  ru: Бенчмарк
   status:
     zh-cn: draft
     zh-tw: draft
@@ -661,12 +661,12 @@ terms:
     ru: draft
 - canonical: Eval Dataset
   slug: eval-dataset
-  zh-cn: 评测数据集
-  zh-tw: 评測數據集
-  ja: Eval Dataset
-  ko: Eval Dataset
-  de: Eval Dataset
-  ru: Eval Dataset
+  zh-cn: 评估数据集
+  zh-tw: 評估資料集
+  ja: 評価データセット
+  ko: 평가 데이터세트
+  de: Evaluierungsdatensatz
+  ru: Набор данных оценки
   status:
     zh-cn: draft
     zh-tw: draft
@@ -676,12 +676,12 @@ terms:
     ru: draft
 - canonical: Guardrail
   slug: guardrail
-  zh-cn: 护栏
-  zh-tw: 護栏
-  ja: Guardrail
-  ko: Guardrail
-  de: Guardrail
-  ru: Guardrail
+  zh-cn: 护栏（Guardrail）
+  zh-tw: 防護機制（Guardrail）
+  ja: ガードレール
+  ko: 가드레일
+  de: Leitplanke
+  ru: Защитные ограничения (Guardrail)
   status:
     zh-cn: draft
     zh-tw: draft
@@ -691,12 +691,12 @@ terms:
     ru: draft
 - canonical: Prompt Injection
   slug: prompt-injection
-  zh-cn: 提示词注入
-  zh-tw: 提示词注入
-  ja: Prompt Injection
-  ko: Prompt Injection
+  zh-cn: Prompt Injection（提示注入）
+  zh-tw: 提示注入
+  ja: プロンプトインジェクション
+  ko: 프롬프트 인젝션
   de: Prompt Injection
-  ru: Prompt Injection
+  ru: Инъекция промпта
   status:
     zh-cn: draft
     zh-tw: draft
@@ -707,11 +707,11 @@ terms:
 - canonical: Jailbreak
   slug: jailbreak
   zh-cn: 越狱
-  zh-tw: 越狱
-  ja: Jailbreak
-  ko: Jailbreak
+  zh-tw: 越獄
+  ja: ジェイルブレイク
+  ko: 탈옥
   de: Jailbreak
-  ru: Jailbreak
+  ru: Джейлбрейк
   status:
     zh-cn: draft
     zh-tw: draft
@@ -723,10 +723,10 @@ terms:
   slug: model-routing
   zh-cn: 模型路由
   zh-tw: 模型路由
-  ja: Model Routing
-  ko: Model Routing
-  de: Model Routing
-  ru: Model Routing
+  ja: モデルルーティング
+  ko: 모델 라우팅
+  de: Modellrouting
+  ru: Маршрутизация моделей
   status:
     zh-cn: draft
     zh-tw: draft
@@ -736,12 +736,12 @@ terms:
     ru: draft
 - canonical: Prompt Caching
   slug: prompt-caching
-  zh-cn: 提示词缓存
-  zh-tw: 提示词缓存
-  ja: Prompt Caching
-  ko: Prompt Caching
-  de: Prompt Caching
-  ru: Prompt Caching
+  zh-cn: 提示缓存
+  zh-tw: 提示快取
+  ja: プロンプトキャッシング
+  ko: 프롬프트 캐싱
+  de: Prompt-Caching
+  ru: Оперативное кэширование
   status:
     zh-cn: draft
     zh-tw: draft
@@ -751,12 +751,12 @@ terms:
     ru: draft
 - canonical: Fine-tuning
   slug: fine-tuning
-  zh-cn: Fine-tuning
-  zh-tw: Fine-tuning
-  ja: Fine-tuning
-  ko: Fine-tuning
-  de: Fine-tuning
-  ru: Fine-tuning
+  zh-cn: 微调
+  zh-tw: 微調
+  ja: ファインチューニング
+  ko: 미세 조정
+  de: Fine-Tuning
+  ru: Тонкая настройка
   status:
     zh-cn: draft
     zh-tw: draft
@@ -767,10 +767,10 @@ terms:
 - canonical: Temperature
   slug: temperature
   zh-cn: 温度
-  zh-tw: 温度
-  ja: Temperature
-  ko: Temperature
-  de: Temperature
+  zh-tw: 溫度
+  ja: 温度
+  ko: 온도
+  de: Temperatur
   ru: Temperature
   status:
     zh-cn: draft
@@ -781,12 +781,12 @@ terms:
     ru: draft
 - canonical: Top P
   slug: top-p
-  zh-cn: TopP
-  zh-tw: TopP
+  zh-cn: Top P
+  zh-tw: Top P
   ja: Top P
   ko: Top P
-  de: Top P
-  ru: Top P
+  de: Top-p
+  ru: Топ П
   status:
     zh-cn: draft
     zh-tw: draft
@@ -796,12 +796,12 @@ terms:
     ru: draft
 - canonical: Determinism
   slug: determinism
-  zh-cn: 确定性
-  zh-tw: 确定性
-  ja: Determinism
-  ko: Determinism
-  de: Determinism
-  ru: Determinism
+  zh-cn: 确定性（Determinism）
+  zh-tw: 確定性
+  ja: 決定性
+  ko: 결정론
+  de: Determinismus
+  ru: Детерминизм
   status:
     zh-cn: draft
     zh-tw: draft
@@ -813,10 +813,10 @@ terms:
   slug: reasoning-model
   zh-cn: 推理模型
   zh-tw: 推理模型
-  ja: Reasoning Model
-  ko: Reasoning Model
-  de: Reasoning Model
-  ru: Reasoning Model
+  ja: 推論モデル
+  ko: 추론 모델
+  de: Reasoning-Modell
+  ru: Модель рассуждения
   status:
     zh-cn: draft
     zh-tw: draft
@@ -827,11 +827,11 @@ terms:
 - canonical: Vision Model
   slug: vision-model
   zh-cn: 视觉模型
-  zh-tw: 视觉模型
-  ja: Vision Model
-  ko: Vision Model
-  de: Vision Model
-  ru: Vision Model
+  zh-tw: 視覺模型
+  ja: ビジョンモデル
+  ko: 비전 모델
+  de: Vision-Modell
+  ru: Модель видения
   status:
     zh-cn: draft
     zh-tw: draft
@@ -842,11 +842,11 @@ terms:
 - canonical: Speech Model
   slug: speech-model
   zh-cn: 语音模型
-  zh-tw: 语音模型
-  ja: Speech Model
-  ko: Speech Model
-  de: Speech Model
-  ru: Speech Model
+  zh-tw: 語音模型
+  ja: 音声モデル
+  ko: 음성 모델
+  de: Sprachmodell
+  ru: Речевая модель
   status:
     zh-cn: draft
     zh-tw: draft
@@ -856,12 +856,12 @@ terms:
     ru: draft
 - canonical: Text-to-Image
   slug: text-to-image
-  zh-cn: 文生图
-  zh-tw: 文生圖
-  ja: Text-to-Image
-  ko: Text-to-Image
+  zh-cn: 文本转图像
+  zh-tw: 文字轉影象
+  ja: テキストから画像へ
+  ko: 텍스트를 이미지로
   de: Text-to-Image
-  ru: Text-to-Image
+  ru: Преобразование текста в изображение
   status:
     zh-cn: draft
     zh-tw: draft
@@ -871,12 +871,12 @@ terms:
     ru: draft
 - canonical: Agentic Workflow
   slug: agentic-workflow
-  zh-cn: 智能体工作流
-  zh-tw: 智能體工作流
-  ja: Agentic Workflow
-  ko: Agentic Workflow
-  de: Agentic Workflow
-  ru: Agentic Workflow
+  zh-cn: 代理工作流程
+  zh-tw: 代理工作流程
+  ja: エージェントワークフロー
+  ko: 에이전트 워크플로
+  de: Agenten-Workflow
+  ru: Агентский рабочий процесс
   status:
     zh-cn: draft
     zh-tw: draft
@@ -886,12 +886,12 @@ terms:
     ru: draft
 - canonical: Multi-agent System
   slug: multi-agent-system
-  zh-cn: 多智能体系统
-  zh-tw: 多智能體系统
-  ja: Multi-agent System
-  ko: Multi-agent System
-  de: Multi-agent System
-  ru: Multi-agent System
+  zh-cn: 多代理系统
+  zh-tw: 多代理系統
+  ja: マルチエージェントシステム
+  ko: 멀티 에이전트 시스템
+  de: Multiagentensystem
+  ru: Мультиагентная система
   status:
     zh-cn: draft
     zh-tw: draft
@@ -902,11 +902,11 @@ terms:
 - canonical: Terminal
   slug: terminal
   zh-cn: 终端
-  zh-tw: 终端
-  ja: Terminal
-  ko: Terminal
+  zh-tw: 終端
+  ja: ターミナル
+  ko: 터미널
   de: Terminal
-  ru: Terminal
+  ru: Терминал
   status:
     zh-cn: draft
     zh-tw: draft
@@ -916,7 +916,7 @@ terms:
     ru: draft
 - canonical: npm
   slug: npm
-  zh-cn: npm
+  zh-cn: 新项目管理
   zh-tw: npm
   ja: npm
   ko: npm
@@ -932,11 +932,11 @@ terms:
 - canonical: Build
   slug: build
   zh-cn: 构建
-  zh-tw: 構建
-  ja: Build
-  ko: Build
-  de: Build
-  ru: Build
+  zh-tw: 建置
+  ja: ビルド
+  ko: 빌드
+  de: Bauen
+  ru: Сборка
   status:
     zh-cn: draft
     zh-tw: draft
@@ -946,12 +946,12 @@ terms:
     ru: draft
 - canonical: Lint
   slug: lint
-  zh-cn: 代码检查
-  zh-tw: 代碼检查
+  zh-cn: Lint（代码检查）
+  zh-tw: Lint
   ja: Lint
-  ko: Lint
-  de: Lint
-  ru: Lint
+  ko: 린트
+  de: Linting
+  ru: Линтинг
   status:
     zh-cn: draft
     zh-tw: draft
@@ -962,10 +962,10 @@ terms:
 - canonical: Tech Stack
   slug: tech-stack
   zh-cn: 技术堆栈
-  zh-tw: 技术堆栈
-  ja: Tech Stack
-  ko: Tech Stack
-  de: Tech Stack
+  zh-tw: 技術堆疊
+  ja: 技術スタック
+  ko: 기술 스택
+  de: Tech-Stack
   ru: Tech Stack
   status:
     zh-cn: draft
@@ -979,7 +979,7 @@ terms:
   zh-cn: JavaScript
   zh-tw: JavaScript
   ja: JavaScript
-  ko: JavaScript
+  ko: 자바스크립트
   de: JavaScript
   ru: JavaScript
   status:
@@ -1022,9 +1022,9 @@ terms:
 - canonical: Software
   slug: software
   zh-cn: 软件
-  zh-tw: 软件
-  ja: Software
-  ko: Software
+  zh-tw: 軟體
+  ja: ソフトウェア
+  ko: 소프트웨어
   de: Software
   ru: Software
   status:
@@ -1036,12 +1036,12 @@ terms:
     ru: draft
 - canonical: Application
   slug: application
-  zh-cn: 应用
-  zh-tw: 應用
-  ja: Application
-  ko: Application
-  de: Application
-  ru: Application
+  zh-cn: 应用程序
+  zh-tw: 應用程式
+  ja: アプリケーション
+  ko: 애플리케이션
+  de: Anwendung
+  ru: Приложение
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1052,11 +1052,11 @@ terms:
 - canonical: Source Code
   slug: source-code
   zh-cn: 源代码
-  zh-tw: 源代碼
-  ja: Source Code
-  ko: Source Code
-  de: Source Code
-  ru: Source Code
+  zh-tw: 原始碼
+  ja: ソースコード
+  ko: 소스 코드
+  de: Quellcode
+  ru: Исходный код
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1067,10 +1067,10 @@ terms:
 - canonical: Runtime
   slug: runtime
   zh-cn: 运行时
-  zh-tw: 运行时
-  ja: Runtime
-  ko: Runtime
-  de: Runtime
+  zh-tw: 執行階段
+  ja: ランタイム
+  ko: 런타임
+  de: Laufzeit
   ru: Runtime
   status:
     zh-cn: draft
@@ -1083,10 +1083,10 @@ terms:
   slug: framework
   zh-cn: 框架
   zh-tw: 框架
-  ja: Framework
-  ko: Framework
+  ja: フレームワーク
+  ko: 프레임워크
   de: Framework
-  ru: Framework
+  ru: Рамки
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1096,12 +1096,12 @@ terms:
     ru: draft
 - canonical: Library
   slug: library
-  zh-cn: 库
-  zh-tw: 庫
-  ja: Library
-  ko: Library
-  de: Library
-  ru: Library
+  zh-cn: 库（Library）
+  zh-tw: 函式庫
+  ja: ライブラリ
+  ko: 라이브러리
+  de: Bibliothek
+  ru: Библиотека
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1126,12 +1126,12 @@ terms:
     ru: draft
 - canonical: Dependency
   slug: dependency
-  zh-cn: 依赖
-  zh-tw: 依赖
-  ja: Dependency
-  ko: Dependency
-  de: Dependency
-  ru: Dependency
+  zh-cn: 依赖性
+  zh-tw: 依賴關係
+  ja: 依存関係
+  ko: 의존성
+  de: Abhängigkeit
+  ru: Зависимость
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1142,11 +1142,11 @@ terms:
 - canonical: Package Manager
   slug: package-manager
   zh-cn: 包管理器
-  zh-tw: 包管理器
-  ja: Package Manager
-  ko: Package Manager
-  de: Package Manager
-  ru: Package Manager
+  zh-tw: 套件管理程式
+  ja: パッケージマネージャー
+  ko: 패키지 관리자
+  de: Paketmanager
+  ru: Менеджер пакетов
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1156,12 +1156,12 @@ terms:
     ru: draft
 - canonical: Package
   slug: package
-  zh-cn: 包
-  zh-tw: 包
-  ja: Package
-  ko: Package
-  de: Package
-  ru: Package
+  zh-cn: 软件包（Package）
+  zh-tw: 套件
+  ja: パッケージ
+  ko: 패키지
+  de: Paket
+  ru: Пакет
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1172,11 +1172,11 @@ terms:
 - canonical: Semantic Versioning
   slug: semantic-versioning
   zh-cn: 语义版本控制
-  zh-tw: 语义版本控制
-  ja: Semantic Versioning
-  ko: Semantic Versioning
-  de: Semantic Versioning
-  ru: Semantic Versioning
+  zh-tw: 語意版本控制
+  ja: セマンティック バージョニング
+  ko: 의미론적 버전 관리
+  de: Semantische Versionierung
+  ru: Семантическое версионирование
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1187,11 +1187,11 @@ terms:
 - canonical: Lockfile
   slug: lockfile
   zh-cn: 锁文件
-  zh-tw: 锁文件
-  ja: Lockfile
-  ko: Lockfile
+  zh-tw: 鎖定檔案
+  ja: ロックファイル
+  ko: 잠금 파일
   de: Lockfile
-  ru: Lockfile
+  ru: Файл блокировки
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1202,11 +1202,11 @@ terms:
 - canonical: Operating System
   slug: operating-system
   zh-cn: 操作系统
-  zh-tw: 操作系统
-  ja: Operating System
-  ko: Operating System
-  de: Operating System
-  ru: Operating System
+  zh-tw: 作業系統
+  ja: オペレーティングシステム
+  ko: 운영 체제
+  de: Betriebssystem
+  ru: Операционная система
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1217,11 +1217,11 @@ terms:
 - canonical: File System
   slug: file-system
   zh-cn: 文件系统
-  zh-tw: 文件系统
-  ja: File System
-  ko: File System
-  de: File System
-  ru: File System
+  zh-tw: 檔案系統
+  ja: ファイルシステム
+  ko: 파일 시스템
+  de: Dateisystem
+  ru: Файловая система
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1232,11 +1232,11 @@ terms:
 - canonical: Path
   slug: path
   zh-cn: 路径
-  zh-tw: 路径
-  ja: Path
-  ko: Path
-  de: Path
-  ru: Path
+  zh-tw: 路徑
+  ja: パス
+  ko: 경로
+  de: Pfad
+  ru: Путь
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1248,10 +1248,10 @@ terms:
   slug: directory
   zh-cn: 目录
   zh-tw: 目錄
-  ja: Directory
-  ko: Directory
-  de: Directory
-  ru: Directory
+  ja: ディレクトリ
+  ko: 디렉토리
+  de: Verzeichnis
+  ru: Каталог
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1263,10 +1263,10 @@ terms:
   slug: working-directory
   zh-cn: 工作目录
   zh-tw: 工作目錄
-  ja: Working Directory
-  ko: Working Directory
-  de: Working Directory
-  ru: Working Directory
+  ja: 作業ディレクトリ
+  ko: 작업 디렉토리
+  de: Arbeitsverzeichnis
+  ru: Рабочий каталог
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1276,10 +1276,10 @@ terms:
     ru: draft
 - canonical: Shell
   slug: shell
-  zh-cn: Shell
+  zh-cn: Shell（命令行解释器）
   zh-tw: Shell
-  ja: Shell
-  ko: Shell
+  ja: シェル
+  ko: 쉘
   de: Shell
   ru: Shell
   status:
@@ -1291,7 +1291,7 @@ terms:
     ru: draft
 - canonical: CLI
   slug: cli
-  zh-cn: CLI
+  zh-cn: 命令行界面
   zh-tw: CLI
   ja: CLI
   ko: CLI
@@ -1307,11 +1307,11 @@ terms:
 - canonical: Command
   slug: command
   zh-cn: 命令
-  zh-tw: 命令
-  ja: Command
-  ko: Command
-  de: Command
-  ru: Command
+  zh-tw: 指令
+  ja: コマンド
+  ko: 명령
+  de: Befehl
+  ru: Команда
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1321,12 +1321,12 @@ terms:
     ru: draft
 - canonical: Argument
   slug: argument
-  zh-cn: 参数
-  zh-tw: 參數
-  ja: Argument
-  ko: Argument
+  zh-cn: 参数（Argument）
+  zh-tw: 引數
+  ja: 引数
+  ko: 인수
   de: Argument
-  ru: Argument
+  ru: Аргумент
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1336,12 +1336,12 @@ terms:
     ru: draft
 - canonical: Flag
   slug: flag
-  zh-cn: 选项
-  zh-tw: 选項
-  ja: Flag
-  ko: Flag
+  zh-cn: 标志（Flag）
+  zh-tw: 標誌
+  ja: フラグ
+  ko: 플래그
   de: Flag
-  ru: Flag
+  ru: Флаг
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1351,12 +1351,12 @@ terms:
     ru: draft
 - canonical: Process
   slug: process
-  zh-cn: 进程
-  zh-tw: 进程
-  ja: Process
-  ko: Process
-  de: Process
-  ru: Process
+  zh-cn: 进程（Process）
+  zh-tw: 程式
+  ja: プロセス
+  ko: 프로세스
+  de: Prozess
+  ru: Процесс
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1367,11 +1367,11 @@ terms:
 - canonical: Environment Variable
   slug: environment-variable
   zh-cn: 环境变量
-  zh-tw: 環境变量
-  ja: Environment Variable
-  ko: Environment Variable
-  de: Environment Variable
-  ru: Environment Variable
+  zh-tw: 環境變數
+  ja: 環境変数
+  ko: 환경변수
+  de: Umgebungsvariable
+  ru: Переменная среды
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1382,11 +1382,11 @@ terms:
 - canonical: Configuration File
   slug: configuration-file
   zh-cn: 配置文件
-  zh-tw: 配置文件
-  ja: Configuration File
-  ko: Configuration File
-  de: Configuration File
-  ru: Configuration File
+  zh-tw: 設定檔
+  ja: 設定ファイル
+  ko: 구성 파일
+  de: Konfigurationsdatei
+  ru: Файл конфигурации
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1396,12 +1396,12 @@ terms:
     ru: draft
 - canonical: Artifact
   slug: artifact
-  zh-cn: 产物
-  zh-tw: 产物
-  ja: Artifact
-  ko: Artifact
-  de: Artifact
-  ru: Artifact
+  zh-cn: 构建产物（Artifact）
+  zh-tw: 工件
+  ja: アーティファクト
+  ko: 아티팩트
+  de: Artefakt
+  ru: Артефакт
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1412,11 +1412,11 @@ terms:
 - canonical: Dependency Tree
   slug: dependency-tree
   zh-cn: 依赖树
-  zh-tw: 依赖树
-  ja: Dependency Tree
-  ko: Dependency Tree
-  de: Dependency Tree
-  ru: Dependency Tree
+  zh-tw: 依賴樹
+  ja: 依存関係ツリー
+  ko: 종속성 트리
+  de: Abhängigkeitsbaum
+  ru: Дерево зависимостей
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1427,11 +1427,11 @@ terms:
 - canonical: Domain
   slug: domain
   zh-cn: 域名
-  zh-tw: 域名
-  ja: Domain
-  ko: Domain
-  de: Domain
-  ru: Domain
+  zh-tw: 網域
+  ja: ドメイン
+  ko: 도메인
+  de: Domäne
+  ru: Домен
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1441,7 +1441,7 @@ terms:
     ru: draft
 - canonical: DNS
   slug: dns
-  zh-cn: DNS
+  zh-cn: 域名系统
   zh-tw: DNS
   ja: DNS
   ko: DNS
@@ -1461,7 +1461,7 @@ terms:
   ja: URL
   ko: URL
   de: URL
-  ru: URL
+  ru: URL-адрес
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1471,7 +1471,7 @@ terms:
     ru: draft
 - canonical: HTTP
   slug: http
-  zh-cn: HTTP
+  zh-cn: HTTP协议
   zh-tw: HTTP
   ja: HTTP
   ko: HTTP
@@ -1516,12 +1516,12 @@ terms:
     ru: draft
 - canonical: Port
   slug: port
-  zh-cn: 端口
-  zh-tw: 端口
-  ja: Port
-  ko: Port
+  zh-cn: 端口（Port）
+  zh-tw: 連線埠
+  ja: ポート
+  ko: 포트
   de: Port
-  ru: Port
+  ru: Порт
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1532,11 +1532,11 @@ terms:
 - canonical: Redirect
   slug: redirect
   zh-cn: 重定向
-  zh-tw: 重定向
-  ja: Redirect
-  ko: Redirect
-  de: Redirect
-  ru: Redirect
+  zh-tw: 重新導向
+  ja: リダイレクト
+  ko: 리디렉션
+  de: Weiterleitung
+  ru: Перенаправление
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1547,11 +1547,11 @@ terms:
 - canonical: Internet
   slug: internet
   zh-cn: 互联网
-  zh-tw: 互联網
-  ja: Internet
-  ko: Internet
+  zh-tw: 網際網路
+  ja: インターネット
+  ko: 인터넷
   de: Internet
-  ru: Internet
+  ru: Интернет
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1561,10 +1561,10 @@ terms:
     ru: draft
 - canonical: Web
   slug: web
-  zh-cn: Web
+  zh-cn: 网络
   zh-tw: Web
-  ja: Web
-  ko: Web
+  ja: ウェブ
+  ko: 웹
   de: Web
   ru: Web
   status:
@@ -1577,11 +1577,11 @@ terms:
 - canonical: Browser
   slug: browser
   zh-cn: 浏览器
-  zh-tw: 浏覽器
-  ja: Browser
-  ko: Browser
+  zh-tw: 瀏覽器
+  ja: ブラウザ
+  ko: 브라우저
   de: Browser
-  ru: Browser
+  ru: Браузер
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1592,11 +1592,11 @@ terms:
 - canonical: IP Address
   slug: ip-address
   zh-cn: IP地址
-  zh-tw: IP地址
-  ja: IP Address
+  zh-tw: IP 位址
+  ja: IPアドレス
   ko: IP Address
-  de: IP Address
-  ru: IP Address
+  de: IP-Adresse
+  ru: IP-адрес
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1607,11 +1607,11 @@ terms:
 - canonical: Hostname
   slug: hostname
   zh-cn: 主机名
-  zh-tw: 主機名
-  ja: Hostname
-  ko: Hostname
+  zh-tw: 主機名稱
+  ja: ホスト名
+  ko: 호스트 이름
   de: Hostname
-  ru: Hostname
+  ru: Имя хоста
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1637,11 +1637,11 @@ terms:
 - canonical: Query String
   slug: query-string
   zh-cn: 查询字符串
-  zh-tw: 查询字符串
-  ja: Query String
-  ko: Query String
-  de: Query String
-  ru: Query String
+  zh-tw: 查詢字串
+  ja: クエリ文字列
+  ko: 쿼리 문자열
+  de: Abfragezeichenfolge
+  ru: Строка запроса
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1651,12 +1651,12 @@ terms:
     ru: draft
 - canonical: URL Fragment
   slug: url-fragment
-  zh-cn: URL片段
-  zh-tw: URL片段
-  ja: URL Fragment
-  ko: URL Fragment
-  de: URL Fragment
-  ru: URL Fragment
+  zh-cn: URL 片段
+  zh-tw: URL 片段
+  ja: URLフラグメント
+  ko: URL 프래그먼트
+  de: URL-Fragment
+  ru: Фрагмент URL
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1666,12 +1666,12 @@ terms:
     ru: draft
 - canonical: HTTP Method
   slug: http-method
-  zh-cn: HTTP方法
-  zh-tw: HTTP方法
-  ja: HTTP Method
-  ko: HTTP Method
-  de: HTTP Method
-  ru: HTTP Method
+  zh-cn: HTTP Method（HTTP 方法）
+  zh-tw: HTTP 方法
+  ja: HTTPメソッド
+  ko: HTTP 메서드
+  de: HTTP-Methode
+  ru: HTTP-метод
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1681,12 +1681,12 @@ terms:
     ru: draft
 - canonical: HTTP Status Code
   slug: http-status-code
-  zh-cn: HTTP状态代码
-  zh-tw: HTTP状態代碼
-  ja: HTTP Status Code
-  ko: HTTP Status Code
-  de: HTTP Status Code
-  ru: HTTP Status Code
+  zh-cn: HTTP Status Code（HTTP 状态码）
+  zh-tw: HTTP 狀態程式碼
+  ja: HTTPステータスコード
+  ko: HTTP 상태 코드
+  de: HTTP-Statuscode
+  ru: Код состояния HTTP
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1697,11 +1697,11 @@ terms:
 - canonical: Request
   slug: request
   zh-cn: 请求
-  zh-tw: 请求
-  ja: Request
-  ko: Request
-  de: Request
-  ru: Request
+  zh-tw: 請求
+  ja: リクエスト
+  ko: 요청
+  de: Anfrage
+  ru: Запрос
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1711,12 +1711,12 @@ terms:
     ru: draft
 - canonical: Response
   slug: response
-  zh-cn: 响应
-  zh-tw: 响應
-  ja: Response
-  ko: Response
-  de: Response
-  ru: Response
+  zh-cn: 响应（Response）
+  zh-tw: 回應
+  ja: 応答
+  ko: 응답
+  de: Antwort
+  ru: Ответ
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1726,12 +1726,12 @@ terms:
     ru: draft
 - canonical: HTTP Header
   slug: http-header
-  zh-cn: HTTP头部
-  zh-tw: HTTP头部
-  ja: HTTP Header
-  ko: HTTP Header
-  de: HTTP Header
-  ru: HTTP Header
+  zh-cn: HTTP Header（HTTP 标头）
+  zh-tw: HTTP 標頭
+  ja: HTTPヘッダー
+  ko: HTTP 헤더
+  de: HTTP-Header
+  ru: HTTP-заголовок
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1742,11 +1742,11 @@ terms:
 - canonical: Request Body
   slug: request-body
   zh-cn: 请求正文
-  zh-tw: 请求正文
-  ja: Request Body
-  ko: Request Body
-  de: Request Body
-  ru: Request Body
+  zh-tw: 請求本文
+  ja: リクエストボディ
+  ko: 요청 본문
+  de: Request-Body
+  ru: Тело запроса
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1786,7 +1786,7 @@ terms:
     ru: draft
 - canonical: UDP
   slug: udp
-  zh-cn: UDP
+  zh-cn: UDP协议
   zh-tw: UDP
   ja: UDP
   ko: UDP
@@ -1816,12 +1816,12 @@ terms:
     ru: draft
 - canonical: Server-Sent Events
   slug: server-sent-events
-  zh-cn: 服务器-Sent事件
-  zh-tw: 服務器-Sent事件
-  ja: Server-Sent Events
+  zh-cn: 服务器发送的事件
+  zh-tw: 伺服器傳送事件
+  ja: サーバー送信イベント
   ko: Server-Sent Events
   de: Server-Sent Events
-  ru: Server-Sent Events
+  ru: События, отправленные сервером
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1833,10 +1833,10 @@ terms:
   slug: proxy
   zh-cn: 代理
   zh-tw: 代理
-  ja: Proxy
-  ko: Proxy
+  ja: プロキシ
+  ko: 프록시
   de: Proxy
-  ru: Proxy
+  ru: Прокси
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1848,10 +1848,10 @@ terms:
   slug: reverse-proxy
   zh-cn: 反向代理
   zh-tw: 反向代理
-  ja: Reverse Proxy
-  ko: Reverse Proxy
-  de: Reverse Proxy
-  ru: Reverse Proxy
+  ja: リバースプロキシ
+  ko: 역방향 프록시
+  de: Reverse-Proxy
+  ru: Обратный прокси
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1861,7 +1861,7 @@ terms:
     ru: draft
 - canonical: SEO
   slug: seo
-  zh-cn: SEO
+  zh-cn: 搜索引擎优化
   zh-tw: SEO
   ja: SEO
   ko: SEO
@@ -1877,11 +1877,11 @@ terms:
 - canonical: User Story
   slug: user-story
   zh-cn: 用户故事
-  zh-tw: 用戶故事
-  ja: User Story
-  ko: User Story
-  de: User Story
-  ru: User Story
+  zh-tw: 使用者故事
+  ja: ユーザーストーリー
+  ko: 사용자 스토리
+  de: Benutzergeschichte
+  ru: История пользователя
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1891,12 +1891,12 @@ terms:
     ru: draft
 - canonical: Use Case
   slug: use-case
-  zh-cn: 用例案例
-  zh-tw: 用例案例
-  ja: Use Case
-  ko: Use Case
-  de: Use Case
-  ru: Use Case
+  zh-cn: 用例（Use Case）
+  zh-tw: 使用案例
+  ja: ユースケース
+  ko: 사용 사례
+  de: Anwendungsfall
+  ru: Вариант использования
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1907,11 +1907,11 @@ terms:
 - canonical: User Flow
   slug: user-flow
   zh-cn: 用户流程
-  zh-tw: 用戶流程
-  ja: User Flow
-  ko: User Flow
-  de: User Flow
-  ru: User Flow
+  zh-tw: 使用者流程
+  ja: ユーザーフロー
+  ko: 사용자 흐름
+  de: Benutzerfluss
+  ru: Пользовательский поток
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1922,11 +1922,11 @@ terms:
 - canonical: User Journey
   slug: user-journey
   zh-cn: 用户旅程
-  zh-tw: 用戶旅程
-  ja: User Journey
-  ko: User Journey
-  de: User Journey
-  ru: User Journey
+  zh-tw: 使用者旅程
+  ja: ユーザージャーニー
+  ko: 사용자 여정
+  de: Benutzerreise
+  ru: Путь пользователя
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1936,7 +1936,7 @@ terms:
     ru: draft
 - canonical: PRD
   slug: prd
-  zh-cn: PRD
+  zh-cn: PRD（产品需求文档）
   zh-tw: PRD
   ja: PRD
   ko: PRD
@@ -1966,12 +1966,12 @@ terms:
     ru: draft
 - canonical: Product Backlog
   slug: product-backlog
-  zh-cn: 产品待办列表
-  zh-tw: 产品待办列表
-  ja: Product Backlog
-  ko: Product Backlog
-  de: Product Backlog
-  ru: Product Backlog
+  zh-cn: 产品待办事项
+  zh-tw: 產品待辦事項清單
+  ja: 製品バックログ
+  ko: 제품 백로그
+  de: Produkt-Backlog
+  ru: Бэклог продукта
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1982,11 +1982,11 @@ terms:
 - canonical: Product Roadmap
   slug: product-roadmap
   zh-cn: 产品路线图
-  zh-tw: 产品路線圖
-  ja: Product Roadmap
-  ko: Product Roadmap
-  de: Product Roadmap
-  ru: Product Roadmap
+  zh-tw: 產品路線圖
+  ja: 製品ロードマップ
+  ko: 제품 로드맵
+  de: Produkt-Roadmap
+  ru: Дорожная карта продукта
   status:
     zh-cn: draft
     zh-tw: draft
@@ -1996,12 +1996,12 @@ terms:
     ru: draft
 - canonical: Gantt Chart
   slug: gantt-chart
-  zh-cn: 甘特图表
-  zh-tw: 甘特圖表
-  ja: Gantt Chart
-  ko: Gantt Chart
-  de: Gantt Chart
-  ru: Gantt Chart
+  zh-cn: 甘特图
+  zh-tw: 甘特圖
+  ja: ガントチャート
+  ko: 간트 차트
+  de: Gantt-Diagramm
+  ru: Диаграмма Ганта
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2013,10 +2013,10 @@ terms:
   slug: a-b-test
   zh-cn: A/B 测试
   zh-tw: A/B 測試
-  ja: A/B Test
-  ko: A/B Test
-  de: A/B Test
-  ru: A/B Test
+  ja: A/B テスト
+  ko: A/B 테스트
+  de: A/B-Test
+  ru: A/B-тест
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2027,11 +2027,11 @@ terms:
 - canonical: Conversion Funnel
   slug: conversion-funnel
   zh-cn: 转化漏斗
-  zh-tw: 轉化漏斗
-  ja: Conversion Funnel
-  ko: Conversion Funnel
-  de: Conversion Funnel
-  ru: Conversion Funnel
+  zh-tw: 轉換漏斗
+  ja: コンバージョンファネル
+  ko: 전환 퍼널
+  de: Konversionstrichter
+  ru: Воронка конверсии
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2042,11 +2042,11 @@ terms:
 - canonical: Product
   slug: product
   zh-cn: 产品
-  zh-tw: 产品
-  ja: Product
-  ko: Product
-  de: Product
-  ru: Product
+  zh-tw: 產品
+  ja: 製品
+  ko: 제품
+  de: Produkt
+  ru: Продукт
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2056,12 +2056,12 @@ terms:
     ru: draft
 - canonical: Requirement
   slug: requirement
-  zh-cn: 需求
-  zh-tw: 需求
-  ja: Requirement
-  ko: Requirement
-  de: Requirement
-  ru: Requirement
+  zh-cn: 要求
+  zh-tw: 要求
+  ja: 要件
+  ko: 요구 사항
+  de: Erfordernis
+  ru: Требование
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2072,11 +2072,11 @@ terms:
 - canonical: Constraint
   slug: constraint
   zh-cn: 约束
-  zh-tw: 约束
-  ja: Constraint
-  ko: Constraint
-  de: Constraint
-  ru: Constraint
+  zh-tw: 約束
+  ja: 制約
+  ko: 제약
+  de: Einschränkung
+  ru: Ограничение
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2086,12 +2086,12 @@ terms:
     ru: draft
 - canonical: Feature
   slug: feature
-  zh-cn: 功能
+  zh-cn: 功能（Feature）
   zh-tw: 功能
-  ja: Feature
-  ko: Feature
-  de: Feature
-  ru: Feature
+  ja: 機能
+  ko: 기능
+  de: Funktion
+  ru: Функция
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2102,11 +2102,11 @@ terms:
 - canonical: Problem Statement
   slug: problem-statement
   zh-cn: 问题陈述
-  zh-tw: 问题陈述
-  ja: Problem Statement
-  ko: Problem Statement
-  de: Problem Statement
-  ru: Problem Statement
+  zh-tw: 問題陳述
+  ja: 問題提起
+  ko: 문제 설명
+  de: Problemstellung
+  ru: Формулировка проблемы
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2116,12 +2116,12 @@ terms:
     ru: draft
 - canonical: Persona
   slug: persona
-  zh-cn: 用户画像
-  zh-tw: 用戶画像
-  ja: Persona
-  ko: Persona
+  zh-cn: 用户画像（Persona）
+  zh-tw: 角色
+  ja: ペルソナ
+  ko: 페르소나
   de: Persona
-  ru: Persona
+  ru: Персона
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2131,11 +2131,11 @@ terms:
     ru: draft
 - canonical: Jobs to Be Done
   slug: jobs-to-be-done
-  zh-cn: 待完成任务理论
-  zh-tw: 待完成任務理论
+  zh-cn: 待完成的工作
+  zh-tw: 待完成的工作
   ja: Jobs to Be Done
   ko: Jobs to Be Done
-  de: Jobs to Be Done
+  de: Zu erledigende Aufgaben
   ru: Jobs to Be Done
   status:
     zh-cn: draft
@@ -2147,11 +2147,11 @@ terms:
 - canonical: User Need
   slug: user-need
   zh-cn: 用户需求
-  zh-tw: 用戶需求
-  ja: User Need
-  ko: User Need
-  de: User Need
-  ru: User Need
+  zh-tw: 使用者需求
+  ja: ユーザーのニーズ
+  ko: 사용자 요구
+  de: Benutzerbedarf
+  ru: Потребность пользователя
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2162,11 +2162,11 @@ terms:
 - canonical: Value Proposition
   slug: value-proposition
   zh-cn: 价值主张
-  zh-tw: 价值主张
-  ja: Value Proposition
-  ko: Value Proposition
-  de: Value Proposition
-  ru: Value Proposition
+  zh-tw: 價值主張
+  ja: 価値提案
+  ko: 가치 제안
+  de: Wertversprechen
+  ru: Ценностное предложение
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2177,11 +2177,11 @@ terms:
 - canonical: Hypothesis
   slug: hypothesis
   zh-cn: 假设
-  zh-tw: 假设
-  ja: Hypothesis
-  ko: Hypothesis
-  de: Hypothesis
-  ru: Hypothesis
+  zh-tw: 假設
+  ja: 仮説
+  ko: 가설
+  de: Hypothese
+  ru: Гипотеза
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2191,12 +2191,12 @@ terms:
     ru: draft
 - canonical: Assumption
   slug: assumption
-  zh-cn: 前提假设
-  zh-tw: 前提假设
-  ja: Assumption
-  ko: Assumption
-  de: Assumption
-  ru: Assumption
+  zh-cn: 假设
+  zh-tw: 假設
+  ja: 仮定
+  ko: 가정
+  de: Annahme
+  ru: Предположение
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2206,12 +2206,12 @@ terms:
     ru: draft
 - canonical: Wireframe
   slug: wireframe
-  zh-cn: 线框图
-  zh-tw: 線框圖
-  ja: Wireframe
-  ko: Wireframe
+  zh-cn: 线框
+  zh-tw: 線框
+  ja: ワイヤーフレーム
+  ko: 와이어프레임
   de: Wireframe
-  ru: Wireframe
+  ru: Вайрфрейм
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2221,12 +2221,12 @@ terms:
     ru: draft
 - canonical: Mockup
   slug: mockup
-  zh-cn: 视觉稿
-  zh-tw: 视觉稿
-  ja: Mockup
-  ko: Mockup
+  zh-cn: Mockup（高保真稿）
+  zh-tw: 樣機
+  ja: モックアップ
+  ko: 목업
   de: Mockup
-  ru: Mockup
+  ru: Макет
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2237,11 +2237,11 @@ terms:
 - canonical: User Research
   slug: user-research
   zh-cn: 用户研究
-  zh-tw: 用戶研究
-  ja: User Research
-  ko: User Research
-  de: User Research
-  ru: User Research
+  zh-tw: 使用者研究
+  ja: ユーザー調査
+  ko: 사용자 연구
+  de: Benutzerforschung
+  ru: Исследование пользователей
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2251,12 +2251,12 @@ terms:
     ru: draft
 - canonical: KPI
   slug: kpi
-  zh-cn: KPI
+  zh-cn: 关键绩效指标
   zh-tw: KPI
   ja: KPI
   ko: KPI
   de: KPI
-  ru: KPI
+  ru: КПЭ
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2266,12 +2266,12 @@ terms:
     ru: draft
 - canonical: North Star Metric
   slug: north-star-metric
-  zh-cn: 北极星星指标
-  zh-tw: 北极星星指標
-  ja: North Star Metric
-  ko: North Star Metric
-  de: North Star Metric
-  ru: North Star Metric
+  zh-cn: 北极星指标（North Star Metric）
+  zh-tw: 北極星指標
+  ja: ノーススターメトリクス
+  ko: 노스 스타 지표
+  de: Nordstern-Metrik
+  ru: Метрика Полярной звезды
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2281,12 +2281,12 @@ terms:
     ru: draft
 - canonical: Guardrail Metric
   slug: guardrail-metric
-  zh-cn: 护栏指标
-  zh-tw: 護栏指標
-  ja: Guardrail Metric
-  ko: Guardrail Metric
-  de: Guardrail Metric
-  ru: Guardrail Metric
+  zh-cn: 护栏指标（Guardrail Metric）
+  zh-tw: Guardrail 指標
+  ja: ガードレールのメトリック
+  ko: 가드레일 지표
+  de: Leitplanken-Metrik
+  ru: Метрика защитного ограничения
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2296,12 +2296,12 @@ terms:
     ru: draft
 - canonical: Event Tracking
   slug: event-tracking
-  zh-cn: 事件埋点
-  zh-tw: 事件埋点
-  ja: Event Tracking
-  ko: Event Tracking
-  de: Event Tracking
-  ru: Event Tracking
+  zh-cn: 事件追踪
+  zh-tw: 事件追蹤
+  ja: イベント追跡
+  ko: 이벤트 추적
+  de: Ereignis-Tracking
+  ru: Отслеживание событий
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2311,12 +2311,12 @@ terms:
     ru: draft
 - canonical: Prioritization
   slug: prioritization
-  zh-cn: 优先级
-  zh-tw: 優先級
-  ja: Prioritization
-  ko: Prioritization
-  de: Prioritization
-  ru: Prioritization
+  zh-cn: 优先顺序
+  zh-tw: 優先順序
+  ja: 優先順位付け
+  ko: 우선순위
+  de: Priorisierung
+  ru: Расстановка приоритетов
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2327,11 +2327,11 @@ terms:
 - canonical: Button
   slug: button
   zh-cn: 按钮
-  zh-tw: 按钮
-  ja: Button
-  ko: Button
-  de: Button
-  ru: Button
+  zh-tw: 按鈕
+  ja: ボタン
+  ko: 버튼
+  de: Schaltfläche
+  ru: Кнопка
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2342,11 +2342,11 @@ terms:
 - canonical: Link
   slug: link
   zh-cn: 链接
-  zh-tw: 鏈接
-  ja: Link
-  ko: Link
+  zh-tw: 連結
+  ja: リンク
+  ko: 링크
   de: Link
-  ru: Link
+  ru: Ссылка
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2356,11 +2356,11 @@ terms:
     ru: draft
 - canonical: Input
   slug: input
-  zh-cn: 输入框
-  zh-tw: 輸入框
-  ja: Input
-  ko: Input
-  de: Input
+  zh-cn: 输入
+  zh-tw: 輸入
+  ja: 入力
+  ko: 입력
+  de: Eingabe
   ru: Input
   status:
     zh-cn: draft
@@ -2371,12 +2371,12 @@ terms:
     ru: draft
 - canonical: Textarea
   slug: textarea
-  zh-cn: 多行文本框
-  zh-tw: 多行文本框
-  ja: Textarea
-  ko: Textarea
-  de: Textarea
-  ru: Textarea
+  zh-cn: 文本区
+  zh-tw: Textarea
+  ja: テキストエリア
+  ko: 텍스트 영역
+  de: Textbereich
+  ru: Текстовая область
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2386,12 +2386,12 @@ terms:
     ru: draft
 - canonical: Number Input
   slug: number-input
-  zh-cn: 数字输入框
-  zh-tw: 數字輸入框
-  ja: Number Input
-  ko: Number Input
-  de: Number Input
-  ru: Number Input
+  zh-cn: 数字输入
+  zh-tw: 數值輸入
+  ja: 数値入力
+  ko: 숫자 입력
+  de: Zahleneingabe
+  ru: Ввод номера
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2401,12 +2401,12 @@ terms:
     ru: draft
 - canonical: Radio
   slug: radio
-  zh-cn: 单选框
-  zh-tw: 单选框
-  ja: Radio
-  ko: Radio
-  de: Radio
-  ru: Radio
+  zh-cn: 单选框（Radio）
+  zh-tw: Radio
+  ja: ラジオ
+  ko: 라디오 버튼
+  de: Optionsfeld
+  ru: Радио
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2417,11 +2417,11 @@ terms:
 - canonical: Checkbox
   slug: checkbox
   zh-cn: 复选框
-  zh-tw: 複选框
-  ja: Checkbox
-  ko: Checkbox
-  de: Checkbox
-  ru: Checkbox
+  zh-tw: 核取方塊
+  ja: チェックボックス
+  ko: 체크박스
+  de: Kontrollkästchen
+  ru: Флажок
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2433,10 +2433,10 @@ terms:
   slug: switch
   zh-cn: 开关
   zh-tw: 開關
-  ja: Switch
-  ko: Switch
-  de: Switch
-  ru: Switch
+  ja: スイッチ
+  ko: 스위치
+  de: Schalter
+  ru: Выключатель
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2447,11 +2447,11 @@ terms:
 - canonical: Slider
   slug: slider
   zh-cn: 滑块
-  zh-tw: 滑塊
-  ja: Slider
-  ko: Slider
-  de: Slider
-  ru: Slider
+  zh-tw: 滑桿
+  ja: スライダー
+  ko: 슬라이더
+  de: Schieberegler
+  ru: Слайдер
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2461,12 +2461,12 @@ terms:
     ru: draft
 - canonical: Rating Control
   slug: rating-control
-  zh-cn: 评分控件
-  zh-tw: 评分控件
-  ja: Rating Control
-  ko: Rating Control
-  de: Rating Control
-  ru: Rating Control
+  zh-cn: 评级控制
+  zh-tw: 評級控制元件
+  ja: 評価コントロール
+  ko: 평점 컨트롤
+  de: Bewertungskontrolle
+  ru: Рейтинговый контроль
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2476,12 +2476,12 @@ terms:
     ru: draft
 - canonical: Select
   slug: select
-  zh-cn: 选择器
-  zh-tw: 选择器
-  ja: Select
-  ko: Select
-  de: Select
-  ru: Select
+  zh-cn: 选择
+  zh-tw: 選擇
+  ja: 選択
+  ko: 셀렉트
+  de: Auswahl
+  ru: Выбирать
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2493,10 +2493,10 @@ terms:
   slug: autocomplete
   zh-cn: 自动完成
   zh-tw: 自動完成
-  ja: AutoComplete
-  ko: AutoComplete
-  de: AutoComplete
-  ru: AutoComplete
+  ja: オートコンプリート
+  ko: 자동 완성
+  de: Autovervollständigung
+  ru: Автозаполнение
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2506,12 +2506,12 @@ terms:
     ru: draft
 - canonical: Cascading Select
   slug: cascading-select
-  zh-cn: 级联选择器
-  zh-tw: 級联选择器
-  ja: Cascading Select
-  ko: Cascading Select
-  de: Cascading Select
-  ru: Cascading Select
+  zh-cn: 级联选择
+  zh-tw: 階層式選擇器
+  ja: カスケード選択
+  ko: 캐스케이딩 셀렉트
+  de: Kaskadierende Auswahl
+  ru: Каскадный выбор
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2521,12 +2521,12 @@ terms:
     ru: draft
 - canonical: Tree Select
   slug: tree-select
-  zh-cn: 树选择器
-  zh-tw: 树选择器
-  ja: Tree Select
-  ko: Tree Select
-  de: Tree Select
-  ru: Tree Select
+  zh-cn: 树选择
+  zh-tw: 樹狀圖選擇
+  ja: ツリー選択
+  ko: 트리 선택
+  de: Baumauswahl
+  ru: Выбор дерева
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2537,11 +2537,11 @@ terms:
 - canonical: Date Picker
   slug: date-picker
   zh-cn: 日期选择器
-  zh-tw: 日期选择器
-  ja: Date Picker
-  ko: Date Picker
-  de: Date Picker
-  ru: Date Picker
+  zh-tw: 日期選擇器
+  ja: 日付ピッカー
+  ko: 날짜 선택기
+  de: Datumsauswahl
+  ru: Выбор даты
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2552,11 +2552,11 @@ terms:
 - canonical: Time Picker
   slug: time-picker
   zh-cn: 时间选择器
-  zh-tw: 时间选择器
-  ja: Time Picker
-  ko: Time Picker
-  de: Time Picker
-  ru: Time Picker
+  zh-tw: 時間選擇器
+  ja: タイムピッカー
+  ko: 시간 선택기
+  de: Zeitauswahl
+  ru: Выбор времени
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2567,11 +2567,11 @@ terms:
 - canonical: Upload
   slug: upload
   zh-cn: 上传
-  zh-tw: 上传
-  ja: Upload
-  ko: Upload
+  zh-tw: 上傳
+  ja: アップロード
+  ko: 업로드
   de: Upload
-  ru: Upload
+  ru: Загрузить
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2581,12 +2581,12 @@ terms:
     ru: draft
 - canonical: Form
   slug: form
-  zh-cn: 表单
-  zh-tw: 表单
-  ja: Form
-  ko: Form
-  de: Form
-  ru: Form
+  zh-cn: 表单（Form）
+  zh-tw: 表單
+  ja: フォーム
+  ko: 폼
+  de: Formular
+  ru: Форма
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2597,11 +2597,11 @@ terms:
 - canonical: Color Picker
   slug: color-picker
   zh-cn: 颜色选择器
-  zh-tw: 颜色选择器
-  ja: Color Picker
-  ko: Color Picker
-  de: Color Picker
-  ru: Color Picker
+  zh-tw: 顏色選擇器
+  ja: カラーピッカー
+  ko: 색상 선택기
+  de: Farbwähler
+  ru: Выбор цвета
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2613,10 +2613,10 @@ terms:
   slug: label
   zh-cn: 标签
   zh-tw: 標籤
-  ja: Label
-  ko: Label
-  de: Label
-  ru: Label
+  ja: ラベル
+  ko: 라벨
+  de: Beschriftung
+  ru: Этикетка
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2626,12 +2626,12 @@ terms:
     ru: draft
 - canonical: Table
   slug: table
-  zh-cn: 表格
-  zh-tw: 表格
-  ja: Table
-  ko: Table
-  de: Table
-  ru: Table
+  zh-cn: 表格（Table）
+  zh-tw: 資料表
+  ja: テーブル
+  ko: 테이블
+  de: Tabelle
+  ru: таблица
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2642,11 +2642,11 @@ terms:
 - canonical: List
   slug: list
   zh-cn: 列表
-  zh-tw: 列表
-  ja: List
-  ko: List
-  de: List
-  ru: List
+  zh-tw: 清單
+  ja: リスト
+  ko: 목록
+  de: Liste
+  ru: Список
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2658,10 +2658,10 @@ terms:
   slug: card
   zh-cn: 卡片
   zh-tw: 卡片
-  ja: Card
-  ko: Card
-  de: Card
-  ru: Card
+  ja: カード
+  ko: 카드
+  de: Karte
+  ru: Карточка
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2673,10 +2673,10 @@ terms:
   slug: tag
   zh-cn: 标签
   zh-tw: 標籤
-  ja: Tag
-  ko: Tag
+  ja: タグ
+  ko: 태그
   de: Tag
-  ru: Tag
+  ru: Тег
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2686,12 +2686,12 @@ terms:
     ru: draft
 - canonical: Badge
   slug: badge
-  zh-cn: 徽标
-  zh-tw: 徽標
-  ja: Badge
-  ko: Badge
+  zh-cn: 徽章
+  zh-tw: 徽章
+  ja: バッジ
+  ko: 배지
   de: Badge
-  ru: Badge
+  ru: Значок
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2701,12 +2701,12 @@ terms:
     ru: draft
 - canonical: Avatar
   slug: avatar
-  zh-cn: 头像
-  zh-tw: 头像
-  ja: Avatar
-  ko: Avatar
+  zh-cn: 阿凡达
+  zh-tw: 頭像
+  ja: アバター
+  ko: 아바타
   de: Avatar
-  ru: Avatar
+  ru: Аватар
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2717,11 +2717,11 @@ terms:
 - canonical: Description List
   slug: description-list
   zh-cn: 描述列表
-  zh-tw: 描述列表
-  ja: Description List
-  ko: Description List
-  de: Description List
-  ru: Description List
+  zh-tw: 描述清單
+  ja: 説明リスト
+  ko: 설명 목록
+  de: Beschreibungsliste
+  ru: Список описаний
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2731,12 +2731,12 @@ terms:
     ru: draft
 - canonical: Statistic
   slug: statistic
-  zh-cn: 统计值
-  zh-tw: 统計值
-  ja: Statistic
-  ko: Statistic
-  de: Statistic
-  ru: Statistic
+  zh-cn: 统计
+  zh-tw: 統計
+  ja: 統計
+  ko: 통계
+  de: Statistik
+  ru: Статистика
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2746,12 +2746,12 @@ terms:
     ru: draft
 - canonical: Tabs
   slug: tabs
-  zh-cn: 标签页
-  zh-tw: 標籤頁
-  ja: Tabs
-  ko: Tabs
+  zh-cn: 选项卡
+  zh-tw: 分頁
+  ja: タブ
+  ko: 탭
   de: Tabs
-  ru: Tabs
+  ru: Вкладки
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2761,12 +2761,12 @@ terms:
     ru: draft
 - canonical: Segmented Control
   slug: segmented-control
-  zh-cn: 分段控件
-  zh-tw: 分段控件
-  ja: Segmented Control
-  ko: Segmented Control
-  de: Segmented Control
-  ru: Segmented Control
+  zh-cn: 分段控制
+  zh-tw: 分段控制
+  ja: セグメントコントロール
+  ko: 분할 제어
+  de: Segmentierte Steuerung
+  ru: Сегментированное управление
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2776,12 +2776,12 @@ terms:
     ru: draft
 - canonical: Accordion
   slug: accordion
-  zh-cn: 折叠面板
-  zh-tw: 折疊面板
-  ja: Accordion
-  ko: Accordion
-  de: Accordion
-  ru: Accordion
+  zh-cn: 手风琴
+  zh-tw: 手風琴選單
+  ja: アコーディオン
+  ko: 아코디언
+  de: Akkordeon
+  ru: Аккордеон
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2791,12 +2791,12 @@ terms:
     ru: draft
 - canonical: Timeline
   slug: timeline
-  zh-cn: 时间线
-  zh-tw: 时间線
-  ja: Timeline
-  ko: Timeline
-  de: Timeline
-  ru: Timeline
+  zh-cn: 时间轴
+  zh-tw: 時間軸
+  ja: タイムライン
+  ko: 타임라인
+  de: Zeitleiste
+  ru: Хронология
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2807,11 +2807,11 @@ terms:
 - canonical: Tree
   slug: tree
   zh-cn: 树
-  zh-tw: 树
-  ja: Tree
-  ko: Tree
-  de: Tree
-  ru: Tree
+  zh-tw: 樹
+  ja: ツリー
+  ko: 트리
+  de: Baum
+  ru: Дерево
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2822,11 +2822,11 @@ terms:
 - canonical: Carousel
   slug: carousel
   zh-cn: 轮播
-  zh-tw: 轮播
-  ja: Carousel
-  ko: Carousel
-  de: Carousel
-  ru: Carousel
+  zh-tw: 輪播
+  ja: カルーセル
+  ko: 캐러셀
+  de: Karussell
+  ru: Карусель
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2837,11 +2837,11 @@ terms:
 - canonical: Empty State
   slug: empty-state
   zh-cn: 空状态
-  zh-tw: 空状態
-  ja: Empty State
-  ko: Empty State
-  de: Empty State
-  ru: Empty State
+  zh-tw: 空狀態
+  ja: 空状態
+  ko: 빈 상태
+  de: Leerzustand
+  ru: Пустое состояние
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2852,11 +2852,11 @@ terms:
 - canonical: Image
   slug: image
   zh-cn: 图片
-  zh-tw: 圖片
-  ja: Image
-  ko: Image
-  de: Image
-  ru: Image
+  zh-tw: 影象
+  ja: 画像
+  ko: 이미지
+  de: Bild
+  ru: Изображение
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2867,11 +2867,11 @@ terms:
 - canonical: File
   slug: file
   zh-cn: 文件
-  zh-tw: 文件
-  ja: File
-  ko: File
-  de: File
-  ru: File
+  zh-tw: 檔案
+  ja: ファイル
+  ko: 파일
+  de: Datei
+  ru: Файл
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2882,11 +2882,11 @@ terms:
 - canonical: Icon
   slug: icon
   zh-cn: 图标
-  zh-tw: 圖標
-  ja: Icon
-  ko: Icon
-  de: Icon
-  ru: Icon
+  zh-tw: 圖示
+  ja: アイコン
+  ko: 아이콘
+  de: Symbol
+  ru: Иконка
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2896,12 +2896,12 @@ terms:
     ru: draft
 - canonical: Quote
   slug: quote
-  zh-cn: 引用
+  zh-cn: 引用（Quote）
   zh-tw: 引用
-  ja: Quote
-  ko: Quote
-  de: Quote
-  ru: Quote
+  ja: 引用
+  ko: 인용
+  de: Zitat
+  ru: Цитировать
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2912,11 +2912,11 @@ terms:
 - canonical: Video
   slug: video
   zh-cn: 视频
-  zh-tw: 视频
-  ja: Video
-  ko: Video
+  zh-tw: 影片
+  ja: ビデオ
+  ko: 비디오
   de: Video
-  ru: Video
+  ru: Видео
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2926,12 +2926,12 @@ terms:
     ru: draft
 - canonical: Chat UI
   slug: chat-ui
-  zh-cn: 聊天UI
-  zh-tw: 聊天UI
-  ja: Chat UI
-  ko: Chat UI
-  de: Chat UI
-  ru: Chat UI
+  zh-cn: 聊天界面
+  zh-tw: 聊天 UI
+  ja: チャットUI
+  ko: 채팅 UI
+  de: Chat-Oberfläche
+  ru: Интерфейс чата
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2941,12 +2941,12 @@ terms:
     ru: draft
 - canonical: Filter
   slug: filter
-  zh-cn: 筛选
-  zh-tw: 筛选
-  ja: Filter
-  ko: Filter
+  zh-cn: 过滤器
+  zh-tw: 過濾器
+  ja: フィルター
+  ko: 필터
   de: Filter
-  ru: Filter
+  ru: Фильтр
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2958,10 +2958,10 @@ terms:
   slug: chart
   zh-cn: 图表
   zh-tw: 圖表
-  ja: Chart
-  ko: Chart
-  de: Chart
-  ru: Chart
+  ja: チャート
+  ko: 차트
+  de: Diagramm
+  ru: Диаграмма
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2971,12 +2971,12 @@ terms:
     ru: draft
 - canonical: App Icon
   slug: app-icon
-  zh-cn: App图标
-  zh-tw: App圖標
-  ja: App Icon
-  ko: App Icon
-  de: App Icon
-  ru: App Icon
+  zh-cn: 应用程序图标
+  zh-tw: 應用程式圖示
+  ja: アプリアイコン
+  ko: 앱 아이콘
+  de: App-Symbol
+  ru: Значок приложения
   status:
     zh-cn: draft
     zh-tw: draft
@@ -2986,12 +2986,12 @@ terms:
     ru: draft
 - canonical: Alert
   slug: alert
-  zh-cn: 警告
-  zh-tw: 警告
-  ja: Alert
-  ko: Alert
-  de: Alert
-  ru: Alert
+  zh-cn: 警报
+  zh-tw: 警報
+  ja: アラート
+  ko: 경고
+  de: Warnhinweis
+  ru: Тревога
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3001,12 +3001,12 @@ terms:
     ru: draft
 - canonical: Toast
   slug: toast
-  zh-cn: 轻提示
-  zh-tw: 轻提示
-  ja: Toast
-  ko: Toast
+  zh-cn: Toast（轻提示）
+  zh-tw: Toast
+  ja: トースト
+  ko: 토스트
   de: Toast
-  ru: Toast
+  ru: Тост
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3018,10 +3018,10 @@ terms:
   slug: notification
   zh-cn: 通知
   zh-tw: 通知
-  ja: Notification
-  ko: Notification
-  de: Notification
-  ru: Notification
+  ja: 通知
+  ko: 알림
+  de: Benachrichtigung
+  ru: Уведомление
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3031,12 +3031,12 @@ terms:
     ru: draft
 - canonical: Modal
   slug: modal
-  zh-cn: 模态框
-  zh-tw: 模態框
-  ja: Modal
-  ko: Modal
+  zh-cn: Modal（模态框）
+  zh-tw: 模態
+  ja: モーダル
+  ko: 모달
   de: Modal
-  ru: Modal
+  ru: Модальный
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3047,11 +3047,11 @@ terms:
 - canonical: Drawer
   slug: drawer
   zh-cn: 抽屉
-  zh-tw: 抽屉
-  ja: Drawer
-  ko: Drawer
+  zh-tw: 抽屜
+  ja: ドロワー
+  ko: 드로어
   de: Drawer
-  ru: Drawer
+  ru: Ящик
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3061,12 +3061,12 @@ terms:
     ru: draft
 - canonical: Inline Confirmation
   slug: inline-confirmation
-  zh-cn: 行内确认
-  zh-tw: 行内确认
-  ja: Inline Confirmation
-  ko: Inline Confirmation
-  de: Inline Confirmation
-  ru: Inline Confirmation
+  zh-cn: 内联确认
+  zh-tw: 內嵌確認
+  ja: インライン確認
+  ko: 인라인 확인
+  de: Inline-Bestätigung
+  ru: Встроенное подтверждение
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3076,12 +3076,12 @@ terms:
     ru: draft
 - canonical: Popover
   slug: popover
-  zh-cn: 浮层
-  zh-tw: 浮層
-  ja: Popover
-  ko: Popover
+  zh-cn: 弹出窗口
+  zh-tw: 彈出框
+  ja: ポップオーバー
+  ko: 팝오버
   de: Popover
-  ru: Popover
+  ru: Поповер
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3093,10 +3093,10 @@ terms:
   slug: tooltip
   zh-cn: 工具提示
   zh-tw: 工具提示
-  ja: Tooltip
-  ko: Tooltip
+  ja: ツールチップ
+  ko: 툴팁
   de: Tooltip
-  ru: Tooltip
+  ru: Подсказка
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3106,12 +3106,12 @@ terms:
     ru: draft
 - canonical: Progress
   slug: progress
-  zh-cn: 进度
-  zh-tw: 进度
-  ja: Progress
-  ko: Progress
-  de: Progress
-  ru: Progress
+  zh-cn: 进展
+  zh-tw: 進度
+  ja: 進捗状況
+  ko: 진행상황
+  de: Fortschritt
+  ru: Прогресс
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3121,12 +3121,12 @@ terms:
     ru: draft
 - canonical: Skeleton
   slug: skeleton
-  zh-cn: 骨架屏
-  zh-tw: 骨架屏
-  ja: Skeleton
-  ko: Skeleton
+  zh-cn: 骨架屏（Skeleton）
+  zh-tw: 骨架
+  ja: スケルトン
+  ko: 스켈레톤
   de: Skeleton
-  ru: Skeleton
+  ru: Скелет
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3137,10 +3137,10 @@ terms:
 - canonical: Result
   slug: result
   zh-cn: 结果
-  zh-tw: 结果
-  ja: Result
-  ko: Result
-  de: Result
+  zh-tw: 結果
+  ja: 結果
+  ko: 결과
+  de: Ergebnis
   ru: Result
   status:
     zh-cn: draft
@@ -3151,12 +3151,12 @@ terms:
     ru: draft
 - canonical: Spinner
   slug: spinner
-  zh-cn: 加载指示器
-  zh-tw: 加载指示器
-  ja: Spinner
-  ko: Spinner
+  zh-cn: 加载指示器（Spinner）
+  zh-tw: Spinner
+  ja: スピナー
+  ko: 스피너
   de: Spinner
-  ru: Spinner
+  ru: Спиннер
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3167,11 +3167,11 @@ terms:
 - canonical: Menu
   slug: menu
   zh-cn: 菜单
-  zh-tw: 菜单
-  ja: Menu
-  ko: Menu
-  de: Menu
-  ru: Menu
+  zh-tw: 選單
+  ja: メニュー
+  ko: 메뉴
+  de: Menü
+  ru: Меню
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3181,12 +3181,12 @@ terms:
     ru: draft
 - canonical: Breadcrumb
   slug: breadcrumb
-  zh-cn: 面包屑
-  zh-tw: 面包屑
-  ja: Breadcrumb
-  ko: Breadcrumb
-  de: Breadcrumb
-  ru: Breadcrumb
+  zh-cn: 面包屑导航
+  zh-tw: 麵包屑導覽
+  ja: パンくずリスト
+  ko: 브레드크럼 내비게이션
+  de: Brotkrümelnavigation
+  ru: Хлебные крошки
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3198,10 +3198,10 @@ terms:
   slug: pagination
   zh-cn: 分页
   zh-tw: 分頁
-  ja: Pagination
-  ko: Pagination
+  ja: ページネーション
+  ko: 페이지네이션
   de: Pagination
-  ru: Pagination
+  ru: Пагинация
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3212,10 +3212,10 @@ terms:
 - canonical: Steps
   slug: steps
   zh-cn: 步骤
-  zh-tw: 步骤
-  ja: Steps
-  ko: Steps
-  de: Steps
+  zh-tw: 步驟
+  ja: ステップ
+  ko: 단계
+  de: Schritte
   ru: Steps
   status:
     zh-cn: draft
@@ -3227,11 +3227,11 @@ terms:
 - canonical: Dropdown
   slug: dropdown
   zh-cn: 下拉菜单
-  zh-tw: 下拉菜单
-  ja: Dropdown
-  ko: Dropdown
+  zh-tw: 下拉清單
+  ja: ドロップダウン
+  ko: 드롭다운
   de: Dropdown
-  ru: Dropdown
+  ru: Падать
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3241,12 +3241,12 @@ terms:
     ru: draft
 - canonical: Anchor
   slug: anchor
-  zh-cn: 锚点
-  zh-tw: 锚点
-  ja: Anchor
-  ko: Anchor
-  de: Anchor
-  ru: Anchor
+  zh-cn: 锚
+  zh-tw: 錨點
+  ja: アンカー
+  ko: 앵커
+  de: Anker
+  ru: Якорь
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3257,11 +3257,11 @@ terms:
 - canonical: Back-to-top Button
   slug: back-to-top-button
   zh-cn: 返回顶部按钮
-  zh-tw: 返回顶部按钮
-  ja: Back-to-top Button
-  ko: Back-to-top Button
-  de: Back-to-top Button
-  ru: Back-to-top Button
+  zh-tw: 回到頂端按鈕
+  ja: トップに戻るボタン
+  ko: 위로 가기 버튼
+  de: Nach-oben-Schaltfläche
+  ru: Кнопка «Вернуться к началу»
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3272,11 +3272,11 @@ terms:
 - canonical: Skip Link
   slug: skip-link
   zh-cn: 跳过链接
-  zh-tw: 跳过鏈接
-  ja: Skip Link
-  ko: Skip Link
-  de: Skip Link
-  ru: Skip Link
+  zh-tw: 跳過連結
+  ja: スキップリンク
+  ko: 링크 건너뛰기
+  de: Skip-Link
+  ru: Ссылка пропуска
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3287,11 +3287,11 @@ terms:
 - canonical: Search
   slug: search
   zh-cn: 搜索
-  zh-tw: 搜索
-  ja: Search
-  ko: Search
-  de: Search
-  ru: Search
+  zh-tw: 搜尋
+  ja: 検索
+  ko: 검색
+  de: Suche
+  ru: Поиск
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3301,12 +3301,12 @@ terms:
     ru: draft
 - canonical: Hero
   slug: hero
-  zh-cn: 首屏主视觉
-  zh-tw: 首屏主视觉
-  ja: Hero
-  ko: Hero
-  de: Hero
-  ru: Hero
+  zh-cn: 首屏主视觉区（Hero）
+  zh-tw: 首屏主視覺區（Hero）
+  ja: ヒーローセクション
+  ko: 히어로 섹션
+  de: Hero-Bereich
+  ru: Главный экран (Hero)
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3316,12 +3316,12 @@ terms:
     ru: draft
 - canonical: CTA
   slug: cta
-  zh-cn: 行动号召
-  zh-tw: 行動号召
+  zh-cn: 计算机辅助技术协会
+  zh-tw: CTA
   ja: CTA
   ko: CTA
   de: CTA
-  ru: CTA
+  ru: CTA (призыв к действию)
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3331,12 +3331,12 @@ terms:
     ru: draft
 - canonical: Customer Testimonial
   slug: customer-testimonial
-  zh-cn: 客户证言
-  zh-tw: 客戶證言
-  ja: Customer Testimonial
-  ko: Customer Testimonial
-  de: Customer Testimonial
-  ru: Customer Testimonial
+  zh-cn: 客户评价
+  zh-tw: 客戶感言
+  ja: お客様の声
+  ko: 고객 추천사
+  de: Kundenstimmen
+  ru: Отзывы клиентов
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3346,12 +3346,12 @@ terms:
     ru: draft
 - canonical: Header
   slug: header
-  zh-cn: 头部
-  zh-tw: 头部
-  ja: Header
-  ko: Header
-  de: Header
-  ru: Header
+  zh-cn: 标头
+  zh-tw: 標頭
+  ja: ヘッダー
+  ko: 헤더
+  de: Kopfzeile
+  ru: Заголовок
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3361,12 +3361,12 @@ terms:
     ru: draft
 - canonical: Logo
   slug: logo
-  zh-cn: Logo
-  zh-tw: Logo
-  ja: Logo
-  ko: Logo
+  zh-cn: 标志
+  zh-tw: 標誌
+  ja: ロゴ
+  ko: 로고
   de: Logo
-  ru: Logo
+  ru: Логотип
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3377,11 +3377,11 @@ terms:
 - canonical: Navbar
   slug: navbar
   zh-cn: 导航栏
-  zh-tw: 導航栏
-  ja: Navbar
-  ko: Navbar
-  de: Navbar
-  ru: Navbar
+  zh-tw: 導覽列
+  ja: ナビバー
+  ko: 내비게이션 바
+  de: Navigationsleiste
+  ru: Навбар
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3392,11 +3392,11 @@ terms:
 - canonical: Footer
   slug: footer
   zh-cn: 页脚
-  zh-tw: 頁脚
-  ja: Footer
-  ko: Footer
-  de: Footer
-  ru: Footer
+  zh-tw: 頁尾
+  ja: フッター
+  ko: 푸터
+  de: Fußzeile
+  ru: Нижний колонтитул
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3406,12 +3406,12 @@ terms:
     ru: draft
 - canonical: FAQ
   slug: faq
-  zh-cn: 常见问题
-  zh-tw: 常见问题
+  zh-cn: 常见问题解答
+  zh-tw: FAQ
   ja: FAQ
   ko: FAQ
   de: FAQ
-  ru: FAQ
+  ru: Часто задаваемые вопросы
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3422,11 +3422,11 @@ terms:
 - canonical: Pricing
   slug: pricing
   zh-cn: 定价
-  zh-tw: 定价
-  ja: Pricing
-  ko: Pricing
-  de: Pricing
-  ru: Pricing
+  zh-tw: 定價
+  ja: 価格設定
+  ko: 가격
+  de: Preise
+  ru: Цены
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3436,12 +3436,12 @@ terms:
     ru: draft
 - canonical: Social Proof
   slug: social-proof
-  zh-cn: 社会认同
-  zh-tw: 社会认同
-  ja: Social Proof
-  ko: Social Proof
+  zh-cn: 社会证明
+  zh-tw: 社會證明
+  ja: 社会的証明
+  ko: 사회적 증명
   de: Social Proof
-  ru: Social Proof
+  ru: Социальное доказательство
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3452,11 +3452,11 @@ terms:
 - canonical: Top Nav Layout
   slug: top-nav-layout
   zh-cn: 顶部导航布局
-  zh-tw: 顶部導航布局
-  ja: Top Nav Layout
-  ko: Top Nav Layout
-  de: Top Nav Layout
-  ru: Top Nav Layout
+  zh-tw: 頂端導覽列版面配置
+  ja: トップナビゲーションレイアウト
+  ko: 상단 내비게이션 레이아웃
+  de: Layout der oberen Navigation
+  ru: Верхний макет навигации
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3466,12 +3466,12 @@ terms:
     ru: draft
 - canonical: Sidebar Layout
   slug: sidebar-layout
-  zh-cn: 侧栏布局
-  zh-tw: 侧栏布局
-  ja: Sidebar Layout
-  ko: Sidebar Layout
-  de: Sidebar Layout
-  ru: Sidebar Layout
+  zh-cn: 侧边栏布局
+  zh-tw: 側邊欄版面配置
+  ja: サイドバーのレイアウト
+  ko: 사이드바 레이아웃
+  de: Seitenleistenlayout
+  ru: Макет боковой панели
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3482,11 +3482,11 @@ terms:
 - canonical: Single Page Layout
   slug: single-page-layout
   zh-cn: 单页布局
-  zh-tw: 单頁布局
-  ja: Single Page Layout
-  ko: Single Page Layout
-  de: Single Page Layout
-  ru: Single Page Layout
+  zh-tw: 單頁版面配置
+  ja: 単一ページのレイアウト
+  ko: 단일 페이지 레이아웃
+  de: Einseitiges Layout
+  ru: Одностраничный макет
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3497,11 +3497,11 @@ terms:
 - canonical: Documentation Layout
   slug: documentation-layout
   zh-cn: 文档布局
-  zh-tw: 文檔布局
-  ja: Documentation Layout
-  ko: Documentation Layout
-  de: Documentation Layout
-  ru: Documentation Layout
+  zh-tw: 檔案版面配置
+  ja: ドキュメントのレイアウト
+  ko: 문서 레이아웃
+  de: Dokumentationslayout
+  ru: Макет документации
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3513,10 +3513,10 @@ terms:
   slug: card-grid
   zh-cn: 卡片网格
   zh-tw: 卡片網格
-  ja: Card Grid
-  ko: Card Grid
-  de: Card Grid
-  ru: Card Grid
+  ja: カードグリッド
+  ko: 카드 그리드
+  de: Kartenraster
+  ru: Карточная сетка
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3526,11 +3526,11 @@ terms:
     ru: draft
 - canonical: Centered Column
   slug: centered-column
-  zh-cn: 居中栏
-  zh-tw: 居中栏
-  ja: Centered Column
-  ko: Centered Column
-  de: Centered Column
+  zh-cn: 居中柱
+  zh-tw: 置中欄
+  ja: 中央寄せカラム
+  ko: 중앙 정렬 컬럼
+  de: Zentrierte Spalte
   ru: Centered Column
   status:
     zh-cn: draft
@@ -3541,12 +3541,12 @@ terms:
     ru: draft
 - canonical: Masonry
   slug: masonry
-  zh-cn: 瀑布流
-  zh-tw: 瀑布流
-  ja: Masonry
-  ko: Masonry
+  zh-cn: 瀑布流布局（Masonry）
+  zh-tw: Masonry
+  ja: メイソンリー
+  ko: 메이슨리
   de: Masonry
-  ru: Masonry
+  ru: каменная кладка
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3556,12 +3556,12 @@ terms:
     ru: draft
 - canonical: Split-screen
   slug: split-screen
-  zh-cn: Split-screen
-  zh-tw: Split-screen
-  ja: Split-screen
-  ko: Split-screen
-  de: Split-screen
-  ru: Split-screen
+  zh-cn: 分屏
+  zh-tw: 分割畫面
+  ja: 分割画面
+  ko: 분할 화면
+  de: Geteilter Bildschirm
+  ru: Разделенный экран
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3572,11 +3572,11 @@ terms:
 - canonical: Responsive Design
   slug: responsive-design
   zh-cn: 响应式设计
-  zh-tw: 响應式设計
-  ja: Responsive Design
-  ko: Responsive Design
-  de: Responsive Design
-  ru: Responsive Design
+  zh-tw: 回應式設計
+  ja: レスポンシブデザイン
+  ko: 반응형 디자인
+  de: Responsives Design
+  ru: Адаптивный дизайн
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3587,11 +3587,11 @@ terms:
 - canonical: Minimalism
   slug: minimalism
   zh-cn: 极简主义
-  zh-tw: 极简主义
-  ja: Minimalism
-  ko: Minimalism
-  de: Minimalism
-  ru: Minimalism
+  zh-tw: 極簡主義
+  ja: ミニマリズム
+  ko: 미니멀리즘
+  de: Minimalismus
+  ru: Минимализм
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3601,8 +3601,8 @@ terms:
     ru: draft
 - canonical: Apple HIG
   slug: apple-hig
-  zh-cn: AppleHIG
-  zh-tw: AppleHIG
+  zh-cn: Apple HIG
+  zh-tw: Apple HIG
   ja: Apple HIG
   ko: Apple HIG
   de: Apple HIG
@@ -3616,11 +3616,11 @@ terms:
     ru: draft
 - canonical: Notion Style
   slug: notion-style
-  zh-cn: NotionStyle
-  zh-tw: NotionStyle
-  ja: Notion Style
-  ko: Notion Style
-  de: Notion Style
+  zh-cn: Notion 风格
+  zh-tw: Notion 風格
+  ja: Notion風
+  ko: 노션 스타일
+  de: Vorstellungsstil
   ru: Notion Style
   status:
     zh-cn: draft
@@ -3631,12 +3631,12 @@ terms:
     ru: draft
 - canonical: Bento Grid
   slug: bento-grid
-  zh-cn: Bento网格
-  zh-tw: Bento網格
+  zh-cn: 便当网格
+  zh-tw: Bento 網格
   ja: Bento Grid
-  ko: Bento Grid
-  de: Bento Grid
-  ru: Bento Grid
+  ko: 벤토 그리드
+  de: Bento-Raster
+  ru: Бенто Грид
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3646,11 +3646,11 @@ terms:
     ru: draft
 - canonical: Glassmorphism
   slug: glassmorphism
-  zh-cn: 玻璃拟态
-  zh-tw: 玻璃拟態
-  ja: Glassmorphism
-  ko: Glassmorphism
-  de: Glassmorphism
+  zh-cn: 玻璃态现象
+  zh-tw: 玻璃擬態
+  ja: ガラスモーフィズム
+  ko: 글래스모피즘
+  de: Glasmorphismus
   ru: Glassmorphism
   status:
     zh-cn: draft
@@ -3661,12 +3661,12 @@ terms:
     ru: draft
 - canonical: Neo-Brutalism
   slug: neo-brutalism
-  zh-cn: Neo-Brutalism
-  zh-tw: Neo-Brutalism
-  ja: Neo-Brutalism
-  ko: Neo-Brutalism
-  de: Neo-Brutalism
-  ru: Neo-Brutalism
+  zh-cn: 新粗野主义
+  zh-tw: 新粗野主義
+  ja: ネオブルータリズム
+  ko: 네오 브루탈리즘
+  de: Neobrutalismus
+  ru: Необрутализм
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3676,12 +3676,12 @@ terms:
     ru: draft
 - canonical: Swiss Style
   slug: swiss-style
-  zh-cn: 瑞士Style
-  zh-tw: 瑞士Style
-  ja: Swiss Style
-  ko: Swiss Style
-  de: Swiss Style
-  ru: Swiss Style
+  zh-cn: 瑞士风格
+  zh-tw: 瑞士風格
+  ja: スイススタイル
+  ko: 스위스 스타일
+  de: Schweizer Stil
+  ru: Швейцарский стиль
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3691,12 +3691,12 @@ terms:
     ru: draft
 - canonical: Editorial
   slug: editorial
-  zh-cn: 编辑式
-  zh-tw: 编辑式
-  ja: Editorial
-  ko: Editorial
+  zh-cn: 社论
+  zh-tw: 社論
+  ja: エディトリアル
+  ko: 에디토리얼
   de: Editorial
-  ru: Editorial
+  ru: Редакционный
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3707,11 +3707,11 @@ terms:
 - canonical: Skeuomorphism
   slug: skeuomorphism
   zh-cn: 拟物化
-  zh-tw: 拟物化
-  ja: Skeuomorphism
-  ko: Skeuomorphism
-  de: Skeuomorphism
-  ru: Skeuomorphism
+  zh-tw: 擬物化
+  ja: スキュアモーフィズム
+  ko: 스큐어모피즘
+  de: Skeuomorphismus
+  ru: Скевоморфизм
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3721,12 +3721,12 @@ terms:
     ru: draft
 - canonical: Flat Design
   slug: flat-design
-  zh-cn: 扁平设计
-  zh-tw: 扁平设計
-  ja: Flat Design
-  ko: Flat Design
+  zh-cn: 平面设计
+  zh-tw: 平面設計
+  ja: フラットなデザイン
+  ko: 평면 디자인
   de: Flat Design
-  ru: Flat Design
+  ru: Плоский дизайн
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3736,12 +3736,12 @@ terms:
     ru: draft
 - canonical: Material Design
   slug: material-design
-  zh-cn: Material设计
-  zh-tw: Material设計
-  ja: Material Design
-  ko: Material Design
-  de: Material Design
-  ru: Material Design
+  zh-cn: Material Design
+  zh-tw: Material Design
+  ja: マテリアルデザイン
+  ko: 머티리얼 디자인
+  de: Materialdesign
+  ru: Материальный дизайн
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3751,12 +3751,12 @@ terms:
     ru: draft
 - canonical: Neumorphism
   slug: neumorphism
-  zh-cn: 新拟物
-  zh-tw: 新拟物
-  ja: Neumorphism
-  ko: Neumorphism
-  de: Neumorphism
-  ru: Neumorphism
+  zh-cn: 新拟态（Neumorphism）
+  zh-tw: Neumorphism
+  ja: ニューモーフィズム
+  ko: 뉴모피즘
+  de: Neumorphismus
+  ru: Неоморфизм
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3766,12 +3766,12 @@ terms:
     ru: draft
 - canonical: SaaS Marketing Site
   slug: saas-marketing-site
-  zh-cn: SaaS 营销站
-  zh-tw: SaaS 营销站
-  ja: SaaS Marketing Site
-  ko: SaaS Marketing Site
-  de: SaaS Marketing Site
-  ru: SaaS Marketing Site
+  zh-cn: SaaS 营销网站
+  zh-tw: SaaS 行銷網站
+  ja: SaaS マーケティング サイト
+  ko: SaaS 마케팅 사이트
+  de: SaaS-Marketing-Site
+  ru: Маркетинговый сайт SaaS
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3781,12 +3781,12 @@ terms:
     ru: draft
 - canonical: B2B Corporate Site
   slug: b2b-corporate-site
-  zh-cn: B2B 企业站
-  zh-tw: B2B 企业站
-  ja: B2B Corporate Site
-  ko: B2B Corporate Site
-  de: B2B Corporate Site
-  ru: B2B Corporate Site
+  zh-cn: B2B 企业网站
+  zh-tw: B2B 公司網站
+  ja: B2Bコーポレートサイト
+  ko: B2B 기업 사이트
+  de: B2B-Unternehmenswebsite
+  ru: Корпоративный B2B-сайт
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3796,12 +3796,12 @@ terms:
     ru: draft
 - canonical: DTC E-commerce
   slug: dtc-e-commerce
-  zh-cn: DTC 电商
-  zh-tw: DTC 电商
+  zh-cn: 直通电商
+  zh-tw: DTC 電子商務
   ja: DTC E-commerce
   ko: DTC E-commerce
-  de: DTC E-commerce
-  ru: DTC E-commerce
+  de: DTC E-Commerce
+  ru: ДТК Электронная коммерция
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3811,12 +3811,12 @@ terms:
     ru: draft
 - canonical: Dark UI
   slug: dark-ui
-  zh-cn: 深色UI
-  zh-tw: 深色UI
-  ja: Dark UI
-  ko: Dark UI
-  de: Dark UI
-  ru: Dark UI
+  zh-cn: 深色用户界面
+  zh-tw: 深色 UI
+  ja: ダークUI
+  ko: 다크 UI
+  de: Dunkle Benutzeroberfläche
+  ru: Темный интерфейс
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3826,12 +3826,12 @@ terms:
     ru: draft
 - canonical: Playful Illustration
   slug: playful-illustration
-  zh-cn: 趣味插画
-  zh-tw: 趣味插画
-  ja: Playful Illustration
-  ko: Playful Illustration
-  de: Playful Illustration
-  ru: Playful Illustration
+  zh-cn: 俏皮的插图
+  zh-tw: 有趣的插圖
+  ja: 遊び心のあるイラスト
+  ko: 장난스러운 일러스트레이션
+  de: Verspielte Illustration
+  ru: Игривая иллюстрация
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3842,11 +3842,11 @@ terms:
 - canonical: Organic Design
   slug: organic-design
   zh-cn: 有机设计
-  zh-tw: 有機设計
-  ja: Organic Design
-  ko: Organic Design
-  de: Organic Design
-  ru: Organic Design
+  zh-tw: 有機設計
+  ja: 有機的なデザイン
+  ko: 유기적 디자인
+  de: Organisches Design
+  ru: Органический дизайн
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3861,7 +3861,7 @@ terms:
   ja: Y2K
   ko: Y2K
   de: Y2K
-  ru: Y2K
+  ru: 2000 год
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3873,10 +3873,10 @@ terms:
   slug: memphis
   zh-cn: 孟菲斯
   zh-tw: 孟菲斯
-  ja: Memphis
-  ko: Memphis
+  ja: メンフィス
+  ko: 멤피스
   de: Memphis
-  ru: Memphis
+  ru: Мемфис
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3886,12 +3886,12 @@ terms:
     ru: draft
 - canonical: Terminal Aesthetic
   slug: terminal-aesthetic
-  zh-cn: 终端美学
-  zh-tw: 终端美学
-  ja: Terminal Aesthetic
-  ko: Terminal Aesthetic
-  de: Terminal Aesthetic
-  ru: Terminal Aesthetic
+  zh-cn: 终端审美
+  zh-tw: 終端美學
+  ja: ターミナル風デザイン
+  ko: 터미널 미학
+  de: Terminalästhetik
+  ru: Терминальная эстетика
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3901,12 +3901,12 @@ terms:
     ru: draft
 - canonical: Wabi-sabi
   slug: wabi-sabi
-  zh-cn: Wabi-sabi
-  zh-tw: Wabi-sabi
-  ja: Wabi-sabi
-  ko: Wabi-sabi
+  zh-cn: 侘寂
+  zh-tw: 侘寂
+  ja: 侘び寂び
+  ko: 와비사비
   de: Wabi-sabi
-  ru: Wabi-sabi
+  ru: Ваби-саби
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3916,12 +3916,12 @@ terms:
     ru: draft
 - canonical: Bauhaus
   slug: bauhaus
-  zh-cn: Bauhaus
-  zh-tw: Bauhaus
-  ja: Bauhaus
-  ko: Bauhaus
+  zh-cn: 包豪斯
+  zh-tw: 包浩斯
+  ja: バウハウス
+  ko: 바우하우스
   de: Bauhaus
-  ru: Bauhaus
+  ru: Баухаус
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3931,12 +3931,12 @@ terms:
     ru: draft
 - canonical: Art Deco
   slug: art-deco
-  zh-cn: ArtDeco
-  zh-tw: ArtDeco
-  ja: Art Deco
-  ko: Art Deco
-  de: Art Deco
-  ru: Art Deco
+  zh-cn: 装饰艺术
+  zh-tw: 裝飾藝術
+  ja: アールデコ調
+  ko: 아르데코
+  de: Art déco
+  ru: Арт Деко
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3947,11 +3947,11 @@ terms:
 - canonical: Accessibility
   slug: accessibility
   zh-cn: 无障碍
-  zh-tw: 无障碍
-  ja: Accessibility
-  ko: Accessibility
-  de: Accessibility
-  ru: Accessibility
+  zh-tw: 無障礙
+  ja: アクセシビリティ
+  ko: 접근성
+  de: Barrierefreiheit
+  ru: Доступность
   status:
     zh-cn: draft
     zh-tw: draft
@@ -3976,7 +3976,7 @@ terms:
     ru: draft
 - canonical: ARIA
   slug: aria
-  zh-cn: ARIA
+  zh-cn: ARIA（无障碍富互联网应用）
   zh-tw: ARIA
   ja: ARIA
   ko: ARIA
@@ -3992,11 +3992,11 @@ terms:
 - canonical: Screen Reader
   slug: screen-reader
   zh-cn: 屏幕阅读器
-  zh-tw: 屏幕阅读器
-  ja: Screen Reader
-  ko: Screen Reader
-  de: Screen Reader
-  ru: Screen Reader
+  zh-tw: 螢幕閱讀器
+  ja: スクリーンリーダー
+  ko: 스크린 리더
+  de: Screenreader
+  ru: Скринридер
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4007,11 +4007,11 @@ terms:
 - canonical: Keyboard Navigation
   slug: keyboard-navigation
   zh-cn: 键盘导航
-  zh-tw: 键盘導航
-  ja: Keyboard Navigation
-  ko: Keyboard Navigation
-  de: Keyboard Navigation
-  ru: Keyboard Navigation
+  zh-tw: 鍵盤導覽
+  ja: キーボードナビゲーション
+  ko: 키보드 탐색
+  de: Tastaturnavigation
+  ru: Навигация с помощью клавиатуры
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4022,11 +4022,11 @@ terms:
 - canonical: Information Architecture
   slug: information-architecture
   zh-cn: 信息架构
-  zh-tw: 信息架構
-  ja: Information Architecture
-  ko: Information Architecture
-  de: Information Architecture
-  ru: Information Architecture
+  zh-tw: 資訊架構
+  ja: 情報アーキテクチャ
+  ko: 정보 아키텍처
+  de: Informationsarchitektur
+  ru: Информационная архитектура
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4038,10 +4038,10 @@ terms:
   slug: usability
   zh-cn: 可用性
   zh-tw: 可用性
-  ja: Usability
-  ko: Usability
-  de: Usability
-  ru: Usability
+  ja: 使いやすさ
+  ko: 사용성
+  de: Benutzerfreundlichkeit
+  ru: Удобство использования
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4053,10 +4053,10 @@ terms:
   slug: frontend
   zh-cn: 前端
   zh-tw: 前端
-  ja: Frontend
-  ko: Frontend
+  ja: フロントエンド
+  ko: 프런트엔드
   de: Frontend
-  ru: Frontend
+  ru: Фронтенд
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4067,11 +4067,11 @@ terms:
 - canonical: Component
   slug: component
   zh-cn: 组件
-  zh-tw: 組件
-  ja: Component
-  ko: Component
-  de: Component
-  ru: Component
+  zh-tw: 元件
+  ja: コンポーネント
+  ko: 컴포넌트
+  de: Komponente
+  ru: Компонент
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4082,11 +4082,11 @@ terms:
 - canonical: State
   slug: state
   zh-cn: 状态
-  zh-tw: 状態
-  ja: State
-  ko: State
-  de: State
-  ru: State
+  zh-tw: 狀態
+  ja: 状態
+  ko: 상태
+  de: Zustand
+  ru: Состояние
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4098,10 +4098,10 @@ terms:
   slug: markdown
   zh-cn: Markdown
   zh-tw: Markdown
-  ja: Markdown
-  ko: Markdown
+  ja: マークダウン
+  ko: 마크다운
   de: Markdown
-  ru: Markdown
+  ru: Уценка
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4157,11 +4157,11 @@ terms:
 - canonical: Title Tag
   slug: title-tag
   zh-cn: 标题标签
-  zh-tw: 標题標籤
-  ja: Title Tag
-  ko: Title Tag
-  de: Title Tag
-  ru: Title Tag
+  zh-tw: 標題標籤
+  ja: タイトルタグ
+  ko: 제목 태그
+  de: Titel-Tag
+  ru: Тег заголовка
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4171,12 +4171,12 @@ terms:
     ru: draft
 - canonical: Page Metadata
   slug: page-metadata
-  zh-cn: Page元数据
-  zh-tw: Page元數據
-  ja: Page Metadata
-  ko: Page Metadata
-  de: Page Metadata
-  ru: Page Metadata
+  zh-cn: 页面元数据
+  zh-tw: 頁面元資料
+  ja: ページのメタデータ
+  ko: 페이지 메타데이터
+  de: Seitenmetadaten
+  ru: Метаданные страницы
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4187,11 +4187,11 @@ terms:
 - canonical: Favicon
   slug: favicon
   zh-cn: 网站图标
-  zh-tw: 網站圖標
-  ja: Favicon
-  ko: Favicon
+  zh-tw: Favicon
+  ja: ファビコン
+  ko: 파비콘
   de: Favicon
-  ru: Favicon
+  ru: Фавикон
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4201,12 +4201,12 @@ terms:
     ru: draft
 - canonical: Open Graph
   slug: open-graph
-  zh-cn: 开放图
-  zh-tw: 開放圖
+  zh-cn: Open Graph
+  zh-tw: 開放圖譜
   ja: Open Graph
   ko: Open Graph
-  de: Open Graph
-  ru: Open Graph
+  de: Diagramm öffnen
+  ru: Открыть график
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4216,12 +4216,12 @@ terms:
     ru: draft
 - canonical: Web App Manifest
   slug: web-app-manifest
-  zh-cn: WebApp清单
-  zh-tw: WebApp清单
+  zh-cn: Web App Manifest
+  zh-tw: Web 應用程式清單
   ja: Web App Manifest
-  ko: Web App Manifest
-  de: Web App Manifest
-  ru: Web App Manifest
+  ko: 웹 앱 매니페스트
+  de: Web-App-Manifest
+  ru: Манифест веб-приложения
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4231,12 +4231,12 @@ terms:
     ru: draft
 - canonical: Space
   slug: space
-  zh-cn: 间距
-  zh-tw: 间距
-  ja: Space
-  ko: Space
-  de: Space
-  ru: Space
+  zh-cn: 空间
+  zh-tw: 空間
+  ja: スペース
+  ko: 여백
+  de: Abstand
+  ru: Интервал
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4246,12 +4246,12 @@ terms:
     ru: draft
 - canonical: Margin
   slug: margin
-  zh-cn: 外边距
-  zh-tw: 外边距
-  ja: Margin
-  ko: Margin
-  de: Margin
-  ru: Margin
+  zh-cn: 外边距（Margin）
+  zh-tw: 外距
+  ja: マージン
+  ko: 여백
+  de: Außenabstand
+  ru: Внешний отступ
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4261,12 +4261,12 @@ terms:
     ru: draft
 - canonical: Padding
   slug: padding
-  zh-cn: 内边距
-  zh-tw: 内边距
-  ja: Padding
-  ko: Padding
-  de: Padding
-  ru: Padding
+  zh-cn: 填充
+  zh-tw: 內距
+  ja: パディング
+  ko: 패딩
+  de: Polsterung
+  ru: Заполнение
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4276,12 +4276,12 @@ terms:
     ru: draft
 - canonical: Flexbox
   slug: flexbox
-  zh-cn: 弹性布局
-  zh-tw: 弹性布局
-  ja: Flexbox
-  ko: Flexbox
+  zh-cn: 弹性盒
+  zh-tw: Flexbox
+  ja: フレックスボックス
+  ko: 플렉스박스
   de: Flexbox
-  ru: Flexbox
+  ru: Флексбокс
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4291,11 +4291,11 @@ terms:
     ru: draft
 - canonical: CSS Grid
   slug: css-grid
-  zh-cn: CSS网格
-  zh-tw: CSS網格
-  ja: CSS Grid
-  ko: CSS Grid
-  de: CSS Grid
+  zh-cn: CSS 网格
+  zh-tw: CSS 網格
+  ja: CSSグリッド
+  ko: CSS 그리드
+  de: CSS-Raster
   ru: CSS Grid
   status:
     zh-cn: draft
@@ -4306,12 +4306,12 @@ terms:
     ru: draft
 - canonical: Z-Index
   slug: z-index
-  zh-cn: Z-索引
-  zh-tw: Z-索引
-  ja: Z-Index
-  ko: Z-Index
+  zh-cn: z-index
+  zh-tw: Z-Index
+  ja: z-index
+  ko: z-index
   de: Z-Index
-  ru: Z-Index
+  ru: Z-индекс
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4322,9 +4322,9 @@ terms:
 - canonical: Sticky Positioning
   slug: sticky-positioning
   zh-cn: 粘性定位
-  zh-tw: 粘性定位
-  ja: Sticky Positioning
-  ko: Sticky Positioning
+  zh-tw: 黏性定位
+  ja: スティッキーポジショニング
+  ko: 스티키 포지셔닝
   de: Sticky Positioning
   ru: Sticky Positioning
   status:
@@ -4336,12 +4336,12 @@ terms:
     ru: draft
 - canonical: Position
   slug: position
-  zh-cn: 定位
-  zh-tw: 定位
-  ja: Position
-  ko: Position
+  zh-cn: 定位（Position）
+  zh-tw: 位置
+  ja: ポジション
+  ko: 위치
   de: Position
-  ru: Position
+  ru: Позиция
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4352,11 +4352,11 @@ terms:
 - canonical: Centering
   slug: centering
   zh-cn: 居中
-  zh-tw: 居中
-  ja: Centering
-  ko: Centering
-  de: Centering
-  ru: Centering
+  zh-tw: 置中
+  ja: センタリング
+  ko: 센터링
+  de: Zentrierung
+  ru: Центрирование
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4366,12 +4366,12 @@ terms:
     ru: draft
 - canonical: Box Model
   slug: box-model
-  zh-cn: 盒模型
-  zh-tw: 盒模型
-  ja: Box Model
-  ko: Box Model
-  de: Box Model
-  ru: Box Model
+  zh-cn: 盒子模型
+  zh-tw: 盒子模型
+  ja: ボックスモデル
+  ko: 박스 모델
+  de: Box-Modell
+  ru: Блочная модель
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4382,11 +4382,11 @@ terms:
 - canonical: Overflow
   slug: overflow
   zh-cn: 溢出
-  zh-tw: 溢出
-  ja: Overflow
-  ko: Overflow
-  de: Overflow
-  ru: Overflow
+  zh-tw: 溢位
+  ja: オーバーフロー
+  ko: 오버플로
+  de: Überlauf
+  ru: Переполнение
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4396,12 +4396,12 @@ terms:
     ru: draft
 - canonical: Typography
   slug: typography
-  zh-cn: 排版
-  zh-tw: 排版
-  ja: Typography
-  ko: Typography
-  de: Typography
-  ru: Typography
+  zh-cn: 版式
+  zh-tw: 版式
+  ja: タイポグラフィー
+  ko: 타이포그래피
+  de: Typografie
+  ru: Типография
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4411,11 +4411,11 @@ terms:
     ru: draft
 - canonical: Serif vs Sans Serif
   slug: serif-vs-sans-serif
-  zh-cn: 衬线体与无衬线体
-  zh-tw: 衬線體與无衬線體
-  ja: Serif vs Sans Serif
-  ko: Serif vs Sans Serif
-  de: Serif vs Sans Serif
+  zh-cn: 衬线与无衬线
+  zh-tw: Serif 與 Sans Serif
+  ja: セリフ対サンセリフ
+  ko: 세리프 vs 산세리프
+  de: Serif vs. Sans Serif
   ru: Serif vs Sans Serif
   status:
     zh-cn: draft
@@ -4427,11 +4427,11 @@ terms:
 - canonical: Text Truncation
   slug: text-truncation
   zh-cn: 文本截断
-  zh-tw: 文本截断
-  ja: Text Truncation
-  ko: Text Truncation
-  de: Text Truncation
-  ru: Text Truncation
+  zh-tw: 文字截斷
+  ja: テキストの切り詰め
+  ko: 텍스트 잘림
+  de: Textkürzung
+  ru: Усечение текста
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4441,12 +4441,12 @@ terms:
     ru: draft
 - canonical: Divider
   slug: divider
-  zh-cn: 分隔线
-  zh-tw: 分隔線
-  ja: Divider
-  ko: Divider
-  de: Divider
-  ru: Divider
+  zh-cn: 分频器
+  zh-tw: 分隔符號
+  ja: ディバイダー
+  ko: 구분선
+  de: Trennlinie
+  ru: Разделитель
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4456,12 +4456,12 @@ terms:
     ru: draft
 - canonical: Border Radius
   slug: border-radius
-  zh-cn: 边框圆角
-  zh-tw: 边框圆角
-  ja: Border Radius
-  ko: Border Radius
-  de: Border Radius
-  ru: Border Radius
+  zh-cn: 边界半径
+  zh-tw: 邊框半徑
+  ja: ボーダー半径
+  ko: 테두리 반경
+  de: Rahmenradius
+  ru: Граница радиуса
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4471,12 +4471,12 @@ terms:
     ru: draft
 - canonical: Shadow
   slug: shadow
-  zh-cn: 阴影
-  zh-tw: 阴影
-  ja: Shadow
-  ko: Shadow
-  de: Shadow
-  ru: Shadow
+  zh-cn: 阴影（Shadow）
+  zh-tw: 陰影
+  ja: シャドウ
+  ko: 그림자
+  de: Schatten
+  ru: Тень
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4486,12 +4486,12 @@ terms:
     ru: draft
 - canonical: Opacity
   slug: opacity
-  zh-cn: 透明度
-  zh-tw: 透明度
-  ja: Opacity
-  ko: Opacity
-  de: Opacity
-  ru: Opacity
+  zh-cn: 不透明度
+  zh-tw: 不透明度
+  ja: 不透明度
+  ko: 불투명도
+  de: Opazität
+  ru: Непрозрачность
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4502,11 +4502,11 @@ terms:
 - canonical: Gradient
   slug: gradient
   zh-cn: 渐变
-  zh-tw: 渐变
-  ja: Gradient
-  ko: Gradient
-  de: Gradient
-  ru: Gradient
+  zh-tw: 漸層
+  ja: グラデーション
+  ko: 그라데이션
+  de: Farbverlauf
+  ru: Градиент
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4516,12 +4516,12 @@ terms:
     ru: draft
 - canonical: Corner Radius Consistency
   slug: corner-radius-consistency
-  zh-cn: 圆角一致性
-  zh-tw: 圆角一致性
-  ja: Corner Radius Consistency
-  ko: Corner Radius Consistency
-  de: Corner Radius Consistency
-  ru: Corner Radius Consistency
+  zh-cn: 圆角半径一致性
+  zh-tw: 圓角半徑一致性
+  ja: コーナー半径の一貫性
+  ko: 코너 반경 일관성
+  de: Konsistenz von Eckenradien
+  ru: Согласованность углового радиуса
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4533,10 +4533,10 @@ terms:
   slug: backdrop-blur
   zh-cn: 背景模糊
   zh-tw: 背景模糊
-  ja: Backdrop Blur
-  ko: Backdrop Blur
-  de: Backdrop Blur
-  ru: Backdrop Blur
+  ja: 背景のぼかし
+  ko: 배경 흐림
+  de: Hintergrundunschärfe
+  ru: Размытие фона
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4546,12 +4546,12 @@ terms:
     ru: draft
 - canonical: Dark Mode
   slug: dark-mode
-  zh-cn: 深色Mode
-  zh-tw: 深色Mode
-  ja: Dark Mode
-  ko: Dark Mode
-  de: Dark Mode
-  ru: Dark Mode
+  zh-cn: 深色模式
+  zh-tw: 深色模式
+  ja: ダークモード
+  ko: 다크 모드
+  de: Dunkler Modus
+  ru: Темный режим
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4561,12 +4561,12 @@ terms:
     ru: draft
 - canonical: Design Token
   slug: design-token
-  zh-cn: 设计词元
-  zh-tw: 设計词元
-  ja: Design Token
-  ko: Design Token
-  de: Design Token
-  ru: Design Token
+  zh-cn: Design Token（设计令牌）
+  zh-tw: 設計 Token
+  ja: デザイントークン
+  ko: 디자인 토큰
+  de: Design-Token
+  ru: Дизайнерский токен
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4577,11 +4577,11 @@ terms:
 - canonical: Transition
   slug: transition
   zh-cn: 过渡
-  zh-tw: 过渡
-  ja: Transition
-  ko: Transition
-  de: Transition
-  ru: Transition
+  zh-tw: 轉場
+  ja: トランジション
+  ko: 트랜지션
+  de: Übergang
+  ru: Переход
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4592,11 +4592,11 @@ terms:
 - canonical: Animation
   slug: animation
   zh-cn: 动画
-  zh-tw: 動画
-  ja: Animation
-  ko: Animation
+  zh-tw: 動畫
+  ja: アニメーション
+  ko: 애니메이션
   de: Animation
-  ru: Animation
+  ru: Анимация
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4606,12 +4606,12 @@ terms:
     ru: draft
 - canonical: Easing
   slug: easing
-  zh-cn: 缓动
-  zh-tw: 缓動
-  ja: Easing
-  ko: Easing
+  zh-cn: 缓动（Easing）
+  zh-tw: 緩動
+  ja: イージング
+  ko: 이징
   de: Easing
-  ru: Easing
+  ru: Easing (плавность анимации)
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4621,12 +4621,12 @@ terms:
     ru: draft
 - canonical: Spring Animation
   slug: spring-animation
-  zh-cn: 弹簧动画
-  zh-tw: 弹簧動画
-  ja: Spring Animation
-  ko: Spring Animation
-  de: Spring Animation
-  ru: Spring Animation
+  zh-cn: Spring Animation（弹簧动画）
+  zh-tw: 彈簧動畫
+  ja: スプリングアニメーション
+  ko: 스프링 애니메이션
+  de: Spring-Animation
+  ru: Весенняя анимация
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4638,10 +4638,10 @@ terms:
   slug: fade-in-out
   zh-cn: 淡入/淡出
   zh-tw: 淡入/淡出
-  ja: Fade In / Out
-  ko: Fade In / Out
-  de: Fade In / Out
-  ru: Fade In / Out
+  ja: フェードイン/フェードアウト
+  ko: 페이드 인/아웃
+  de: Ein-/Ausblenden
+  ru: Постепенное появление/исчезновение
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4652,11 +4652,11 @@ terms:
 - canonical: Hover
   slug: hover
   zh-cn: 悬停
-  zh-tw: 悬停
-  ja: Hover
-  ko: Hover
+  zh-tw: 滑入
+  ja: ホバー
+  ko: 호버
   de: Hover
-  ru: Hover
+  ru: Состояние наведения
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4666,12 +4666,12 @@ terms:
     ru: draft
 - canonical: Active State
   slug: active-state
-  zh-cn: 按下状态
-  zh-tw: 按下状態
-  ja: Active State
-  ko: Active State
-  de: Active State
-  ru: Active State
+  zh-cn: 活动状态
+  zh-tw: 活動狀態
+  ja: アクティブ状態
+  ko: 활성 상태
+  de: Aktiver Zustand
+  ru: Активное состояние
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4682,11 +4682,11 @@ terms:
 - canonical: Focus
   slug: focus
   zh-cn: 焦点
-  zh-tw: 焦点
-  ja: Focus
-  ko: Focus
-  de: Focus
-  ru: Focus
+  zh-tw: 焦點
+  ja: フォーカス
+  ko: 포커스
+  de: Fokus
+  ru: Фокус
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4698,10 +4698,10 @@ terms:
   slug: drag-and-drop
   zh-cn: 拖放
   zh-tw: 拖放
-  ja: Drag and Drop
-  ko: Drag and Drop
-  de: Drag and Drop
-  ru: Drag and Drop
+  ja: ドラッグアンドドロップ
+  ko: 드래그 앤 드롭
+  de: Drag-and-Drop
+  ru: Перетащите
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4711,12 +4711,12 @@ terms:
     ru: draft
 - canonical: Disabled State
   slug: disabled-state
-  zh-cn: 禁用状态
-  zh-tw: 禁用状態
-  ja: Disabled State
-  ko: Disabled State
-  de: Disabled State
-  ru: Disabled State
+  zh-cn: 残疾状态
+  zh-tw: 停用狀態
+  ja: 無効状態
+  ko: 비활성화된 상태
+  de: Deaktivierter Zustand
+  ru: Отключенное состояние
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4727,11 +4727,11 @@ terms:
 - canonical: Cursor
   slug: cursor
   zh-cn: 光标
-  zh-tw: 光標
-  ja: Cursor
-  ko: Cursor
+  zh-tw: 遊標
+  ja: カーソル
+  ko: 커서
   de: Cursor
-  ru: Cursor
+  ru: Курсор
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4742,11 +4742,11 @@ terms:
 - canonical: Text Selection
   slug: text-selection
   zh-cn: 文本选择
-  zh-tw: 文本选择
-  ja: Text Selection
-  ko: Text Selection
-  de: Text Selection
-  ru: Text Selection
+  zh-tw: 文字選擇
+  ja: テキストの選択
+  ko: 텍스트 선택
+  de: Textauswahl
+  ru: Выбор текста
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4801,8 +4801,8 @@ terms:
     ru: draft
 - canonical: Tailwind CSS
   slug: tailwind-css
-  zh-cn: TailwindCSS
-  zh-tw: TailwindCSS
+  zh-cn: Tailwind CSS
+  zh-tw: Tailwind CSS
   ja: Tailwind CSS
   ko: Tailwind CSS
   de: Tailwind CSS
@@ -4832,11 +4832,11 @@ terms:
 - canonical: Media Query
   slug: media-query
   zh-cn: 媒体查询
-  zh-tw: 媒體查询
-  ja: Media Query
-  ko: Media Query
-  de: Media Query
-  ru: Media Query
+  zh-tw: 媒體查詢
+  ja: メディアクエリ
+  ko: 미디어 쿼리
+  de: Medienabfrage
+  ru: Медиа-запрос
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4846,12 +4846,12 @@ terms:
     ru: draft
 - canonical: CSS Custom Property
   slug: css-custom-property
-  zh-cn: CSS自定义属性
-  zh-tw: CSS自定义属性
-  ja: CSS Custom Property
-  ko: CSS Custom Property
-  de: CSS Custom Property
-  ru: CSS Custom Property
+  zh-cn: CSS 自定义属性
+  zh-tw: CSS 自訂屬性
+  ja: CSSカスタムプロパティ
+  ko: CSS 사용자 정의 속성
+  de: CSS-Custom-Property
+  ru: Пользовательское свойство CSS
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4862,11 +4862,11 @@ terms:
 - canonical: Responsive Breakpoint
   slug: responsive-breakpoint
   zh-cn: 响应式断点
-  zh-tw: 响應式断点
-  ja: Responsive Breakpoint
-  ko: Responsive Breakpoint
-  de: Responsive Breakpoint
-  ru: Responsive Breakpoint
+  zh-tw: 響應式斷點
+  ja: レスポンシブブレークポイント
+  ko: 반응형 중단점
+  de: Reaktionsfreudiger Haltepunkt
+  ru: Адаптивная точка останова
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4876,7 +4876,7 @@ terms:
     ru: draft
 - canonical: API
   slug: api
-  zh-cn: API
+  zh-cn: API（应用程序编程接口）
   zh-tw: API
   ja: API
   ko: API
@@ -4911,7 +4911,7 @@ terms:
   ja: CORS
   ko: CORS
   de: CORS
-  ru: CORS
+  ru: КОРС
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4921,12 +4921,12 @@ terms:
     ru: draft
 - canonical: Validation
   slug: validation
-  zh-cn: 校验
-  zh-tw: 校驗
-  ja: Validation
-  ko: Validation
-  de: Validation
-  ru: Validation
+  zh-cn: 验证
+  zh-tw: 驗證
+  ja: 検証
+  ko: 검증
+  de: Validierung
+  ru: Валидация
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4938,10 +4938,10 @@ terms:
   slug: backend
   zh-cn: 后端
   zh-tw: 後端
-  ja: Backend
-  ko: Backend
+  ja: バックエンド
+  ko: 백엔드
   de: Backend
-  ru: Backend
+  ru: Бэкенд
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4953,10 +4953,10 @@ terms:
   slug: backend-framework
   zh-cn: 后端框架
   zh-tw: 後端框架
-  ja: Backend Framework
-  ko: Backend Framework
-  de: Backend Framework
-  ru: Backend Framework
+  ja: バックエンドフレームワーク
+  ko: 백엔드 프레임워크
+  de: Backend-Framework
+  ru: Бэкэнд-фреймворк
   status:
     zh-cn: draft
     zh-tw: draft
@@ -4966,12 +4966,12 @@ terms:
     ru: draft
 - canonical: Endpoint
   slug: endpoint
-  zh-cn: Endpoint
-  zh-tw: Endpoint
-  ja: Endpoint
-  ko: Endpoint
-  de: Endpoint
-  ru: Endpoint
+  zh-cn: 端点
+  zh-tw: 端點
+  ja: エンドポイント
+  ko: 엔드포인트
+  de: Endpunkt
+  ru: Конечная точка
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5026,12 +5026,12 @@ terms:
     ru: draft
 - canonical: Request Handler
   slug: request-handler
-  zh-cn: 请求处理器
-  zh-tw: 请求處理器
-  ja: Request Handler
-  ko: Request Handler
-  de: Request Handler
-  ru: Request Handler
+  zh-cn: 请求处理程序
+  zh-tw: 請求處理程式
+  ja: リクエストハンドラー
+  ko: 요청 핸들러
+  de: Request-Handler
+  ru: Обработчик запросов
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5042,11 +5042,11 @@ terms:
 - canonical: Middleware
   slug: middleware
   zh-cn: 中间件
-  zh-tw: 中间件
-  ja: Middleware
-  ko: Middleware
+  zh-tw: 中介軟體
+  ja: ミドルウェア
+  ko: 미들웨어
   de: Middleware
-  ru: Middleware
+  ru: Промежуточное ПО
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5058,10 +5058,10 @@ terms:
   slug: controller
   zh-cn: 控制器
   zh-tw: 控制器
-  ja: Controller
-  ko: Controller
+  ja: コントローラー
+  ko: 컨트롤러
   de: Controller
-  ru: Controller
+  ru: Контроллер
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5073,10 +5073,10 @@ terms:
   slug: service-layer
   zh-cn: 服务层
   zh-tw: 服務層
-  ja: Service Layer
-  ko: Service Layer
-  de: Service Layer
-  ru: Service Layer
+  ja: サービス層
+  ko: 서비스 계층
+  de: Service-Schicht
+  ru: Сервисный уровень
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5086,12 +5086,12 @@ terms:
     ru: draft
 - canonical: API Contract
   slug: api-contract
-  zh-cn: API契约
-  zh-tw: API契约
-  ja: API Contract
-  ko: API Contract
-  de: API Contract
-  ru: API Contract
+  zh-cn: API 契约
+  zh-tw: API 合約
+  ja: API契約
+  ko: API 계약
+  de: API-Vertrag
+  ru: Контракт API
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5118,10 +5118,10 @@ terms:
   slug: serialization
   zh-cn: 序列化
   zh-tw: 序列化
-  ja: Serialization
-  ko: Serialization
-  de: Serialization
-  ru: Serialization
+  ja: シリアライズ
+  ko: 직렬화
+  de: Serialisierung
+  ru: Сериализация
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5133,10 +5133,10 @@ terms:
   slug: deserialization
   zh-cn: 反序列化
   zh-tw: 反序列化
-  ja: Deserialization
-  ko: Deserialization
-  de: Deserialization
-  ru: Deserialization
+  ja: デシリアライズ
+  ko: 역직렬화
+  de: Deserialisierung
+  ru: Десериализация
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5147,11 +5147,11 @@ terms:
 - canonical: Query Parameter
   slug: query-parameter
   zh-cn: 查询参数
-  zh-tw: 查询參數
-  ja: Query Parameter
-  ko: Query Parameter
-  de: Query Parameter
-  ru: Query Parameter
+  zh-tw: 查詢引數
+  ja: クエリパラメータ
+  ko: 쿼리 매개변수
+  de: Abfrageparameter
+  ru: Параметр запроса
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5162,11 +5162,11 @@ terms:
 - canonical: Path Parameter
   slug: path-parameter
   zh-cn: 路径参数
-  zh-tw: 路径參數
-  ja: Path Parameter
-  ko: Path Parameter
-  de: Path Parameter
-  ru: Path Parameter
+  zh-tw: 路徑引數
+  ja: パスパラメータ
+  ko: 경로 매개변수
+  de: Pfadparameter
+  ru: Параметр пути
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5176,8 +5176,8 @@ terms:
     ru: draft
 - canonical: CRUD
   slug: crud
-  zh-cn: 增删改查
-  zh-tw: 增删改查
+  zh-cn: CRUD
+  zh-tw: CRUD
   ja: CRUD
   ko: CRUD
   de: CRUD
@@ -5194,9 +5194,9 @@ terms:
   zh-cn: Webhook
   zh-tw: Webhook
   ja: Webhook
-  ko: Webhook
+  ko: 웹훅
   de: Webhook
-  ru: Webhook
+  ru: Вебхук
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5207,11 +5207,11 @@ terms:
 - canonical: Polling
   slug: polling
   zh-cn: 轮询
-  zh-tw: 轮询
-  ja: Polling
-  ko: Polling
-  de: Polling
-  ru: Polling
+  zh-tw: 輪詢
+  ja: ポーリング
+  ko: 폴링
+  de: Umfrage
+  ru: Опрос
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5222,11 +5222,11 @@ terms:
 - canonical: Throttling
   slug: throttling
   zh-cn: 节流
-  zh-tw: 节流
-  ja: Throttling
-  ko: Throttling
+  zh-tw: 限制
+  ja: スロットリング
+  ko: 조절
   de: Throttling
-  ru: Throttling
+  ru: Регулирование
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5237,11 +5237,11 @@ terms:
 - canonical: Quota
   slug: quota
   zh-cn: 配额
-  zh-tw: 配额
-  ja: Quota
-  ko: Quota
-  de: Quota
-  ru: Quota
+  zh-tw: 配額
+  ja: クォータ
+  ko: 할당량
+  de: Kontingent
+  ru: Квота
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5252,11 +5252,11 @@ terms:
 - canonical: Idempotency
   slug: idempotency
   zh-cn: 幂等性
-  zh-tw: 幂等性
-  ja: Idempotency
-  ko: Idempotency
-  de: Idempotency
-  ru: Idempotency
+  zh-tw: 冪等性
+  ja: べき等性
+  ko: 멱등성
+  de: Idempotenz
+  ru: Идемпотентность
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5268,10 +5268,10 @@ terms:
   slug: retry
   zh-cn: 重试
   zh-tw: 重試
-  ja: Retry
-  ko: Retry
-  de: Retry
-  ru: Retry
+  ja: 再試行
+  ko: 재시도
+  de: Wiederholung
+  ru: Повторная попытка
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5283,10 +5283,10 @@ terms:
   slug: exponential-backoff
   zh-cn: 指数退避
   zh-tw: 指數退避
-  ja: Exponential Backoff
-  ko: Exponential Backoff
-  de: Exponential Backoff
-  ru: Exponential Backoff
+  ja: 指数バックオフ
+  ko: 지수 백오프
+  de: Exponentieller Backoff
+  ru: Экспоненциальный откат
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5297,11 +5297,11 @@ terms:
 - canonical: Queue
   slug: queue
   zh-cn: 队列
-  zh-tw: 队列
-  ja: Queue
-  ko: Queue
-  de: Queue
-  ru: Queue
+  zh-tw: 佇列
+  ja: キュー
+  ko: 대기열
+  de: Warteschlange
+  ru: Очередь
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5311,12 +5311,12 @@ terms:
     ru: draft
 - canonical: Worker
   slug: worker
-  zh-cn: 工作进程
-  zh-tw: 工作进程
+  zh-cn: Worker（工作线程）
+  zh-tw: 工作執行緒
   ja: Worker
   ko: Worker
   de: Worker
-  ru: Worker
+  ru: Воркер
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5326,12 +5326,12 @@ terms:
     ru: draft
 - canonical: Background Job
   slug: background-job
-  zh-cn: 后台任务
-  zh-tw: 後台任務
-  ja: Background Job
-  ko: Background Job
-  de: Background Job
-  ru: Background Job
+  zh-cn: 后台作业
+  zh-tw: 背景工作
+  ja: バックグラウンドジョブ
+  ko: 백그라운드 작업
+  de: Hintergrundjob
+  ru: Фоновое задание
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5341,12 +5341,12 @@ terms:
     ru: draft
 - canonical: Cron Job
   slug: cron-job
-  zh-cn: 定时任务
-  zh-tw: 定时任務
-  ja: Cron Job
-  ko: Cron Job
-  de: Cron Job
-  ru: Cron Job
+  zh-cn: 计划任务
+  zh-tw: Cron 作業
+  ja: クロンジョブ
+  ko: 크론 작업
+  de: Cron-Job
+  ru: Крон Джоб
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5357,11 +5357,11 @@ terms:
 - canonical: File Upload
   slug: file-upload
   zh-cn: 文件上传
-  zh-tw: 文件上传
-  ja: File Upload
-  ko: File Upload
-  de: File Upload
-  ru: File Upload
+  zh-tw: 檔案上傳
+  ja: ファイルのアップロード
+  ko: 파일 업로드
+  de: Datei-Upload
+  ru: Загрузка файла
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5372,11 +5372,11 @@ terms:
 - canonical: Object Storage
   slug: object-storage
   zh-cn: 对象存储
-  zh-tw: 对象存儲
-  ja: Object Storage
-  ko: Object Storage
-  de: Object Storage
-  ru: Object Storage
+  zh-tw: 物件儲存
+  ja: オブジェクトストレージ
+  ko: 객체 스토리지
+  de: Objektspeicher
+  ru: Объектное хранилище
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5386,12 +5386,12 @@ terms:
     ru: draft
 - canonical: API Gateway
   slug: api-gateway
-  zh-cn: API网关
-  zh-tw: API網關
-  ja: API Gateway
-  ko: API Gateway
-  de: API Gateway
-  ru: API Gateway
+  zh-cn: API 网关
+  zh-tw: API 閘道
+  ja: APIゲートウェイ
+  ko: API 게이트웨이
+  de: API-Gateway
+  ru: Шлюз API
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5402,11 +5402,11 @@ terms:
 - canonical: Browser Storage
   slug: browser-storage
   zh-cn: 浏览器存储
-  zh-tw: 浏覽器存儲
-  ja: Browser Storage
-  ko: Browser Storage
-  de: Browser Storage
-  ru: Browser Storage
+  zh-tw: 瀏覽器儲存
+  ja: ブラウザストレージ
+  ko: 브라우저 저장 공간
+  de: Browserspeicher
+  ru: Хранилище браузера
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5417,11 +5417,11 @@ terms:
 - canonical: Database
   slug: database
   zh-cn: 数据库
-  zh-tw: 數據庫
-  ja: Database
-  ko: Database
-  de: Database
-  ru: Database
+  zh-tw: 資料庫
+  ja: データベース
+  ko: 데이터베이스
+  de: Datenbank
+  ru: База данных
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5446,12 +5446,12 @@ terms:
     ru: draft
 - canonical: Relational Database
   slug: relational-database
-  zh-cn: 关系型数据库
-  zh-tw: 關系型數據庫
-  ja: Relational Database
-  ko: Relational Database
-  de: Relational Database
-  ru: Relational Database
+  zh-cn: 关系数据库
+  zh-tw: 關聯式資料庫
+  ja: リレーショナルデータベース
+  ko: 관계형 데이터베이스
+  de: Relationale Datenbank
+  ru: Реляционная база данных
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5477,11 +5477,11 @@ terms:
 - canonical: Document Database
   slug: document-database
   zh-cn: 文档数据库
-  zh-tw: 文檔數據庫
-  ja: Document Database
-  ko: Document Database
-  de: Document Database
-  ru: Document Database
+  zh-tw: 檔案資料庫
+  ja: 文書データベース
+  ko: 문서 데이터베이스
+  de: Dokumentdatenbank
+  ru: База данных документов
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5491,12 +5491,12 @@ terms:
     ru: draft
 - canonical: Key-Value Store
   slug: key-value-store
-  zh-cn: 键-价值Store
-  zh-tw: 键-价值Store
-  ja: Key-Value Store
-  ko: Key-Value Store
-  de: Key-Value Store
-  ru: Key-Value Store
+  zh-cn: 键值存储
+  zh-tw: 鍵值儲存
+  ja: キーバリューストア
+  ko: 키-값 저장소
+  de: Schlüsselwertspeicher
+  ru: Хранилище ключей и значений
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5506,12 +5506,12 @@ terms:
     ru: draft
 - canonical: Graph Database
   slug: graph-database
-  zh-cn: 图数据库
-  zh-tw: 圖數據庫
-  ja: Graph Database
-  ko: Graph Database
-  de: Graph Database
-  ru: Graph Database
+  zh-cn: 图数据库（Graph Database）
+  zh-tw: 圖形資料庫
+  ja: グラフデータベース
+  ko: 그래프 데이터베이스
+  de: Graphdatenbank
+  ru: База данных графов
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5522,11 +5522,11 @@ terms:
 - canonical: Database Table
   slug: database-table
   zh-cn: 数据库表
-  zh-tw: 數據庫表
-  ja: Database Table
-  ko: Database Table
-  de: Database Table
-  ru: Database Table
+  zh-tw: 資料表
+  ja: データベーステーブル
+  ko: 데이터베이스 테이블
+  de: Datenbanktabelle
+  ru: Таблица базы данных
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5536,12 +5536,12 @@ terms:
     ru: draft
 - canonical: Row
   slug: row
-  zh-cn: Row
-  zh-tw: Row
-  ja: Row
-  ko: Row
-  de: Row
-  ru: Row
+  zh-cn: 行
+  zh-tw: 行
+  ja: 行
+  ko: 행
+  de: Zeile
+  ru: Строка
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5551,12 +5551,12 @@ terms:
     ru: draft
 - canonical: Column
   slug: column
-  zh-cn: 栏
-  zh-tw: 栏
-  ja: Column
-  ko: Column
-  de: Column
-  ru: Column
+  zh-cn: 列（Column）
+  zh-tw: 列
+  ja: カラム
+  ko: 컬럼
+  de: Spalte
+  ru: Столбец
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5566,12 +5566,12 @@ terms:
     ru: draft
 - canonical: Schema
   slug: schema
-  zh-cn: Schema
-  zh-tw: Schema
-  ja: Schema
-  ko: Schema
+  zh-cn: Schema（模式）
+  zh-tw: 綱要
+  ja: スキーマ
+  ko: 스키마
   de: Schema
-  ru: Schema
+  ru: Схема
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5582,11 +5582,11 @@ terms:
 - canonical: Record
   slug: record
   zh-cn: 记录
-  zh-tw: 记錄
-  ja: Record
-  ko: Record
-  de: Record
-  ru: Record
+  zh-tw: 記錄
+  ja: レコード
+  ko: 레코드
+  de: Datensatz
+  ru: Запись
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5596,12 +5596,12 @@ terms:
     ru: draft
 - canonical: Field
   slug: field
-  zh-cn: 字段
-  zh-tw: 字段
-  ja: Field
-  ko: Field
-  de: Field
-  ru: Field
+  zh-cn: 领域
+  zh-tw: 欄位
+  ja: フィールド
+  ko: 필드
+  de: Feld
+  ru: Поле
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5612,11 +5612,11 @@ terms:
 - canonical: Primary Key
   slug: primary-key
   zh-cn: 主键
-  zh-tw: 主键
-  ja: Primary Key
-  ko: Primary Key
-  de: Primary Key
-  ru: Primary Key
+  zh-tw: 主鍵
+  ja: 主キー
+  ko: 기본 키
+  de: Primärschlüssel
+  ru: Первичный ключ
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5626,12 +5626,12 @@ terms:
     ru: draft
 - canonical: Foreign Key
   slug: foreign-key
-  zh-cn: 外键键
-  zh-tw: 外键键
-  ja: Foreign Key
-  ko: Foreign Key
-  de: Foreign Key
-  ru: Foreign Key
+  zh-cn: 外键
+  zh-tw: 外來鍵
+  ja: 外部キー
+  ko: 외래 키
+  de: Fremdschlüssel
+  ru: Внешний ключ
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5642,11 +5642,11 @@ terms:
 - canonical: Relationship
   slug: relationship
   zh-cn: 关系
-  zh-tw: 關系
-  ja: Relationship
-  ko: Relationship
-  de: Relationship
-  ru: Relationship
+  zh-tw: 關係
+  ja: 関係性
+  ko: 관계
+  de: Beziehung
+  ru: Отношение
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5656,12 +5656,12 @@ terms:
     ru: draft
 - canonical: One-to-one
   slug: one-to-one
-  zh-cn: One-to-one
-  zh-tw: One-to-one
-  ja: One-to-one
-  ko: One-to-one
-  de: One-to-one
-  ru: One-to-one
+  zh-cn: 一对一
+  zh-tw: 一對一
+  ja: 1対1
+  ko: 일대일
+  de: Eins zu eins
+  ru: Один к одному
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5671,12 +5671,12 @@ terms:
     ru: draft
 - canonical: One-to-many
   slug: one-to-many
-  zh-cn: One-to-many
-  zh-tw: One-to-many
-  ja: One-to-many
-  ko: One-to-many
-  de: One-to-many
-  ru: One-to-many
+  zh-cn: 一对多
+  zh-tw: 一對多
+  ja: 1対多
+  ko: 일대다
+  de: Eins-zu-viele
+  ru: Один ко многим
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5686,12 +5686,12 @@ terms:
     ru: draft
 - canonical: Many-to-many
   slug: many-to-many
-  zh-cn: Many-to-many
-  zh-tw: Many-to-many
-  ja: Many-to-many
-  ko: Many-to-many
-  de: Many-to-many
-  ru: Many-to-many
+  zh-cn: 多对多
+  zh-tw: 多對多
+  ja: 多対多
+  ko: 다대다
+  de: Viele-zu-viele
+  ru: Многие ко многим
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5702,11 +5702,11 @@ terms:
 - canonical: Query
   slug: query
   zh-cn: 查询
-  zh-tw: 查询
-  ja: Query
-  ko: Query
-  de: Query
-  ru: Query
+  zh-tw: 查詢
+  ja: クエリ
+  ko: 쿼리
+  de: Abfrage
+  ru: Запрос
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5716,11 +5716,11 @@ terms:
     ru: draft
 - canonical: JOIN
   slug: join
-  zh-cn: 连接查询
-  zh-tw: 连接查询
+  zh-cn: JOIN（连接）
+  zh-tw: JOIN
   ja: JOIN
   ko: JOIN
-  de: JOIN
+  de: Join
   ru: JOIN
   status:
     zh-cn: draft
@@ -5733,10 +5733,10 @@ terms:
   slug: index
   zh-cn: 索引
   zh-tw: 索引
-  ja: Index
-  ko: Index
+  ja: インデックス
+  ko: 인덱스
   de: Index
-  ru: Index
+  ru: Индекс
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5747,11 +5747,11 @@ terms:
 - canonical: Database Constraint
   slug: database-constraint
   zh-cn: 数据库约束
-  zh-tw: 數據庫约束
-  ja: Database Constraint
-  ko: Database Constraint
-  de: Database Constraint
-  ru: Database Constraint
+  zh-tw: 資料庫約束
+  ja: データベースの制約
+  ko: 데이터베이스 제약
+  de: Datenbankeinschränkung
+  ru: Ограничение базы данных
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5761,12 +5761,12 @@ terms:
     ru: draft
 - canonical: Unique Key
   slug: unique-key
-  zh-cn: 唯一键
-  zh-tw: 唯一键
-  ja: Unique Key
-  ko: Unique Key
-  de: Unique Key
-  ru: Unique Key
+  zh-cn: 唯一键（Unique Key）
+  zh-tw: 唯一鍵
+  ja: 一意キー
+  ko: 고유 키
+  de: Eindeutiger Schlüssel
+  ru: Уникальный ключ
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5776,12 +5776,12 @@ terms:
     ru: draft
 - canonical: Transaction
   slug: transaction
-  zh-cn: 事务
-  zh-tw: 事務
-  ja: Transaction
-  ko: Transaction
-  de: Transaction
-  ru: Transaction
+  zh-cn: 交易
+  zh-tw: 交易
+  ja: トランザクション
+  ko: 트랜잭션
+  de: Transaktion
+  ru: Сделка
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5796,7 +5796,7 @@ terms:
   ja: ACID
   ko: ACID
   de: ACID
-  ru: ACID
+  ru: КИСЛОТА
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5807,11 +5807,11 @@ terms:
 - canonical: Isolation Level
   slug: isolation-level
   zh-cn: 隔离级别
-  zh-tw: 隔离級别
-  ja: Isolation Level
-  ko: Isolation Level
-  de: Isolation Level
-  ru: Isolation Level
+  zh-tw: 隔離等級
+  ja: 分離レベル
+  ko: 격리 수준
+  de: Isolationsstufe
+  ru: Уровень изоляции
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5822,11 +5822,11 @@ terms:
 - canonical: Database Migration
   slug: database-migration
   zh-cn: 数据库迁移
-  zh-tw: 數據庫遷移
-  ja: Database Migration
-  ko: Database Migration
-  de: Database Migration
-  ru: Database Migration
+  zh-tw: 資料庫遷移
+  ja: データベースの移行
+  ko: 데이터베이스 마이그레이션
+  de: Datenbankmigration
+  ru: Миграция базы данных
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5841,7 +5841,7 @@ terms:
   ja: ORM
   ko: ORM
   de: ORM
-  ru: ORM
+  ru: ОРМ
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5851,7 +5851,7 @@ terms:
     ru: draft
 - canonical: Git
   slug: git
-  zh-cn: Git
+  zh-cn: git
   zh-tw: Git
   ja: Git
   ko: Git
@@ -5868,10 +5868,10 @@ terms:
   slug: commit
   zh-cn: 提交
   zh-tw: 提交
-  ja: Commit
-  ko: Commit
+  ja: コミット
+  ko: 커밋
   de: Commit
-  ru: Commit
+  ru: Коммит
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5881,12 +5881,12 @@ terms:
     ru: draft
 - canonical: Branch
   slug: branch
-  zh-cn: 分支
+  zh-cn: 分支（Branch）
   zh-tw: 分支
-  ja: Branch
-  ko: Branch
+  ja: ブランチ
+  ko: 브랜치
   de: Branch
-  ru: Branch
+  ru: Ветка
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5897,11 +5897,11 @@ terms:
 - canonical: Merge
   slug: merge
   zh-cn: 合并
-  zh-tw: 合并
-  ja: Merge
-  ko: Merge
+  zh-tw: 合併
+  ja: マージ
+  ko: 병합
   de: Merge
-  ru: Merge
+  ru: Слияние
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5911,8 +5911,8 @@ terms:
     ru: draft
 - canonical: Pull
   slug: pull
-  zh-cn: 拉取
-  zh-tw: 拉取
+  zh-cn: 拉取（Pull）
+  zh-tw: Pull
   ja: Pull
   ko: Pull
   de: Pull
@@ -5926,10 +5926,10 @@ terms:
     ru: draft
 - canonical: Push
   slug: push
-  zh-cn: 推送
-  zh-tw: 推送
+  zh-cn: 推送（Push）
+  zh-tw: Push
   ja: Push
-  ko: Push
+  ko: 푸시
   de: Push
   ru: Push
   status:
@@ -5942,11 +5942,11 @@ terms:
 - canonical: Clone
   slug: clone
   zh-cn: 克隆
-  zh-tw: 克隆
-  ja: Clone
-  ko: Clone
-  de: Clone
-  ru: Clone
+  zh-tw: 複製
+  ja: クローン
+  ko: 클론
+  de: Klon
+  ru: Клонирование
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5956,12 +5956,12 @@ terms:
     ru: draft
 - canonical: Pull Request
   slug: pull-request
-  zh-cn: 拉取请求
-  zh-tw: 拉取请求
-  ja: Pull Request
-  ko: Pull Request
+  zh-cn: 请求请求
+  zh-tw: Pull 請求
+  ja: プルリクエスト
+  ko: 풀 리퀘스트
   de: Pull Request
-  ru: Pull Request
+  ru: Pull request
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5971,12 +5971,12 @@ terms:
     ru: draft
 - canonical: Worktree
   slug: worktree
-  zh-cn: 工作树
-  zh-tw: 工作树
+  zh-cn: Worktree
+  zh-tw: Worktree
   ja: Worktree
-  ko: Worktree
+  ko: 워크트리
   de: Worktree
-  ru: Worktree
+  ru: Рабочее дерево
   status:
     zh-cn: draft
     zh-tw: draft
@@ -5986,10 +5986,10 @@ terms:
     ru: draft
 - canonical: Stash
   slug: stash
-  zh-cn: 暂存改动
-  zh-tw: 暂存改動
-  ja: Stash
-  ko: Stash
+  zh-cn: 暂存（Stash）
+  zh-tw: Stash
+  ja: stash
+  ko: stash
   de: Stash
   ru: Stash
   status:
@@ -6017,11 +6017,11 @@ terms:
 - canonical: Diff
   slug: diff
   zh-cn: 差异
-  zh-tw: 差異
-  ja: Diff
-  ko: Diff
+  zh-tw: Diff
+  ja: 差分
+  ko: diff
   de: Diff
-  ru: Diff
+  ru: Разница
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6031,12 +6031,12 @@ terms:
     ru: draft
 - canonical: Repository
   slug: repository
-  zh-cn: 仓库
-  zh-tw: 仓庫
-  ja: Repository
-  ko: Repository
+  zh-cn: 代码仓库（Repository）
+  zh-tw: 儲存庫
+  ja: リポジトリ
+  ko: 저장소
   de: Repository
-  ru: Repository
+  ru: Репозиторий
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6046,12 +6046,12 @@ terms:
     ru: draft
 - canonical: Working Tree
   slug: working-tree
-  zh-cn: 工作树
-  zh-tw: 工作树
-  ja: Working Tree
-  ko: Working Tree
-  de: Working Tree
-  ru: Working Tree
+  zh-cn: 工作树（Working Tree）
+  zh-tw: 工作樹
+  ja: ワーキングツリー
+  ko: 워킹 트리
+  de: Arbeitsbaum
+  ru: Рабочее дерево
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6061,11 +6061,11 @@ terms:
     ru: draft
 - canonical: Staging Area
   slug: staging-area
-  zh-cn: 暂存区
-  zh-tw: 暂存区
-  ja: Staging Area
-  ko: Staging Area
-  de: Staging Area
+  zh-cn: 暂存区（Staging Area）
+  zh-tw: 預備區域
+  ja: ステージングエリア
+  ko: 스테이징 영역
+  de: Staging-Bereich
   ru: Staging Area
   status:
     zh-cn: draft
@@ -6091,12 +6091,12 @@ terms:
     ru: draft
 - canonical: Remote
   slug: remote
-  zh-cn: 远程仓库
-  zh-tw: 远程仓庫
-  ja: Remote
-  ko: Remote
+  zh-cn: 远程
+  zh-tw: 遠端
+  ja: リモート
+  ko: 원격
   de: Remote
-  ru: Remote
+  ru: Удаленный
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6106,10 +6106,10 @@ terms:
     ru: draft
 - canonical: Origin
   slug: origin
-  zh-cn: Origin
-  zh-tw: Origin
-  ja: Origin
-  ko: Origin
+  zh-cn: Origin（来源）
+  zh-tw: 來源
+  ja: オリジン
+  ko: origin
   de: Origin
   ru: Origin
   status:
@@ -6123,10 +6123,10 @@ terms:
   slug: upstream
   zh-cn: 上游
   zh-tw: 上游
-  ja: Upstream
-  ko: Upstream
+  ja: 上流
+  ko: 업스트림
   de: Upstream
-  ru: Upstream
+  ru: вверх по течению
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6136,9 +6136,9 @@ terms:
     ru: draft
 - canonical: Fetch
   slug: fetch
-  zh-cn: 获取
-  zh-tw: 获取
-  ja: Fetch
+  zh-cn: Fetch（获取请求）
+  zh-tw: 取得
+  ja: フェッチ
   ko: Fetch
   de: Fetch
   ru: Fetch
@@ -6152,11 +6152,11 @@ terms:
 - canonical: Merge Conflict
   slug: merge-conflict
   zh-cn: 合并冲突
-  zh-tw: 合并冲突
-  ja: Merge Conflict
-  ko: Merge Conflict
-  de: Merge Conflict
-  ru: Merge Conflict
+  zh-tw: 合併衝突
+  ja: マージ競合
+  ko: 병합 충돌
+  de: Merge-Konflikt
+  ru: Конфликт слияния
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6167,11 +6167,11 @@ terms:
 - canonical: Rebase
   slug: rebase
   zh-cn: 变基
-  zh-tw: 变基
-  ja: Rebase
-  ko: Rebase
+  zh-tw: Rebase
+  ja: リベース
+  ko: 리베이스
   de: Rebase
-  ru: Rebase
+  ru: Перебазирование
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6181,12 +6181,12 @@ terms:
     ru: draft
 - canonical: Revert
   slug: revert
-  zh-cn: 反向提交
-  zh-tw: 反向提交
-  ja: Revert
-  ko: Revert
+  zh-cn: 恢复
+  zh-tw: 恢復
+  ja: 元に戻す
+  ko: 되돌리기
   de: Revert
-  ru: Revert
+  ru: Возвращаться
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6197,11 +6197,11 @@ terms:
 - canonical: Reset
   slug: reset
   zh-cn: 重置
-  zh-tw: 重置
-  ja: Reset
-  ko: Reset
-  de: Reset
-  ru: Reset
+  zh-tw: 重設
+  ja: リセット
+  ko: 재설정
+  de: Zurücksetzen
+  ru: Сброс (reset)
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6211,11 +6211,11 @@ terms:
     ru: draft
 - canonical: Cherry-pick
   slug: cherry-pick
-  zh-cn: Cherry-pick
+  zh-cn: 樱桃采摘
   zh-tw: Cherry-pick
-  ja: Cherry-pick
-  ko: Cherry-pick
-  de: Cherry-pick
+  ja: チェリーピック
+  ko: 체리픽
+  de: Cherry-Pick
   ru: Cherry-pick
   status:
     zh-cn: draft
@@ -6227,11 +6227,11 @@ terms:
 - canonical: Acceptance Criteria
   slug: acceptance-criteria
   zh-cn: 验收标准
-  zh-tw: 驗收標准
-  ja: Acceptance Criteria
-  ko: Acceptance Criteria
-  de: Acceptance Criteria
-  ru: Acceptance Criteria
+  zh-tw: 驗收標準
+  ja: 受入基準
+  ko: 수락 기준
+  de: Akzeptanzkriterien
+  ru: Критерии приемки
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6241,12 +6241,12 @@ terms:
     ru: draft
 - canonical: Test Case
   slug: test-case
-  zh-cn: 测试案例
+  zh-cn: 测试用例
   zh-tw: 測試案例
-  ja: Test Case
-  ko: Test Case
-  de: Test Case
-  ru: Test Case
+  ja: テストケース
+  ko: 테스트 케이스
+  de: Testfall
+  ru: Тестовый пример
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6257,11 +6257,11 @@ terms:
 - canonical: Unit Test
   slug: unit-test
   zh-cn: 单元测试
-  zh-tw: 单元測試
-  ja: Unit Test
-  ko: Unit Test
-  de: Unit Test
-  ru: Unit Test
+  zh-tw: 單元測試
+  ja: 単体テスト
+  ko: 단위 테스트
+  de: Unit-Test
+  ru: Юнит-тест
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6272,11 +6272,11 @@ terms:
 - canonical: Integration Test
   slug: integration-test
   zh-cn: 集成测试
-  zh-tw: 集成測試
-  ja: Integration Test
-  ko: Integration Test
-  de: Integration Test
-  ru: Integration Test
+  zh-tw: 整合測試
+  ja: 結合テスト
+  ko: 통합 테스트
+  de: Integrationstest
+  ru: Интеграционный тест
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6286,12 +6286,12 @@ terms:
     ru: draft
 - canonical: End-to-End Test
   slug: end-to-end-test
-  zh-cn: End-to-End测试
-  zh-tw: End-to-End測試
-  ja: End-to-End Test
-  ko: End-to-End Test
-  de: End-to-End Test
-  ru: End-to-End Test
+  zh-cn: 端到端测试
+  zh-tw: 端對端測試
+  ja: エンドツーエンドのテスト
+  ko: 엔드투엔드 테스트
+  de: End-to-End-Test
+  ru: Сквозное тестирование
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6302,11 +6302,11 @@ terms:
 - canonical: Smoke Test
   slug: smoke-test
   zh-cn: 冒烟测试
-  zh-tw: 冒烟測試
-  ja: Smoke Test
-  ko: Smoke Test
-  de: Smoke Test
-  ru: Smoke Test
+  zh-tw: 冒煙測試
+  ja: スモークテスト
+  ko: 스모크 테스트
+  de: Smoke-Test
+  ru: Дымовой тест
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6317,11 +6317,11 @@ terms:
 - canonical: Regression Test
   slug: regression-test
   zh-cn: 回归测试
-  zh-tw: 回归測試
-  ja: Regression Test
-  ko: Regression Test
-  de: Regression Test
-  ru: Regression Test
+  zh-tw: 回歸測試
+  ja: 回帰テスト
+  ko: 회귀 테스트
+  de: Regressionstest
+  ru: Регрессионный тест
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6332,11 +6332,11 @@ terms:
 - canonical: Test Coverage
   slug: test-coverage
   zh-cn: 测试覆盖率
-  zh-tw: 測試覆盖率
-  ja: Test Coverage
-  ko: Test Coverage
-  de: Test Coverage
-  ru: Test Coverage
+  zh-tw: 測試覆蓋率
+  ja: テスト範囲
+  ko: 테스트 범위
+  de: Testabdeckung
+  ru: Тестовое покрытие
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6347,11 +6347,11 @@ terms:
 - canonical: Test Double
   slug: test-double
   zh-cn: 测试替身
-  zh-tw: 測試替身
-  ja: Test Double
-  ko: Test Double
+  zh-tw: Test Double
+  ja: テストダブル
+  ko: 테스트 더블
   de: Test Double
-  ru: Test Double
+  ru: Тестовый дубль
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6361,12 +6361,12 @@ terms:
     ru: draft
 - canonical: Test Data and Fixture
   slug: test-data-and-fixture
-  zh-cn: 测试数据与夹具
-  zh-tw: 測試數據與夹具
-  ja: Test Data and Fixture
-  ko: Test Data and Fixture
-  de: Test Data and Fixture
-  ru: Test Data and Fixture
+  zh-cn: 测试数据及夹具
+  zh-tw: 測試資料和夾具
+  ja: テストデータとフィクスチャ
+  ko: 테스트 데이터 및 픽스처
+  de: Testdaten und Fixture
+  ru: Тестовые данные и приспособление
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6376,12 +6376,12 @@ terms:
     ru: draft
 - canonical: Flaky Test
   slug: flaky-test
-  zh-cn: 不稳定测试
-  zh-tw: 不稳定測試
-  ja: Flaky Test
-  ko: Flaky Test
+  zh-cn: 不稳定测试（Flaky Test）
+  zh-tw: Flaky Test
+  ja: フレークテスト
+  ko: 불안정한 테스트
   de: Flaky Test
-  ru: Flaky Test
+  ru: Сложный тест
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6393,10 +6393,10 @@ terms:
   slug: testing
   zh-cn: 测试
   zh-tw: 測試
-  ja: Testing
-  ko: Testing
-  de: Testing
-  ru: Testing
+  ja: テスト
+  ko: 테스트
+  de: Testen
+  ru: Тестирование
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6406,12 +6406,12 @@ terms:
     ru: draft
 - canonical: Bug
   slug: bug
-  zh-cn: 缺陷
-  zh-tw: 缺陷
-  ja: Bug
-  ko: Bug
+  zh-cn: 错误
+  zh-tw: Bug
+  ja: バグ
+  ko: 버그
   de: Bug
-  ru: Bug
+  ru: Ошибка
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6422,11 +6422,11 @@ terms:
 - canonical: Error
   slug: error
   zh-cn: 错误
-  zh-tw: 错误
-  ja: Error
-  ko: Error
-  de: Error
-  ru: Error
+  zh-tw: 錯誤
+  ja: エラー
+  ko: 오류
+  de: Fehler
+  ru: Ошибка
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6438,10 +6438,10 @@ terms:
   slug: exception
   zh-cn: 异常
   zh-tw: 異常
-  ja: Exception
-  ko: Exception
-  de: Exception
-  ru: Exception
+  ja: 例外
+  ko: 예외
+  de: Ausnahme
+  ru: Исключение
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6452,11 +6452,11 @@ terms:
 - canonical: Stack Trace
   slug: stack-trace
   zh-cn: 堆栈跟踪
-  zh-tw: 堆栈跟踪
-  ja: Stack Trace
-  ko: Stack Trace
+  zh-tw: 堆疊追蹤
+  ja: スタックトレース
+  ko: 스택 추적
   de: Stack Trace
-  ru: Stack Trace
+  ru: Трассировка стека
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6467,11 +6467,11 @@ terms:
 - canonical: Console
   slug: console
   zh-cn: 控制台
-  zh-tw: 控制台
-  ja: Console
-  ko: Console
-  de: Console
-  ru: Console
+  zh-tw: 主控臺
+  ja: コンソール
+  ko: 콘솔
+  de: Konsole
+  ru: Консоль
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6481,12 +6481,12 @@ terms:
     ru: draft
 - canonical: Browser DevTools
   slug: browser-devtools
-  zh-cn: 浏览器开发者工具
-  zh-tw: 浏覽器開發者工具
-  ja: Browser DevTools
-  ko: Browser DevTools
+  zh-cn: 浏览器开发工具
+  zh-tw: 瀏覽器 DevTools
+  ja: ブラウザ開発ツール
+  ko: 브라우저 개발 도구
   de: Browser DevTools
-  ru: Browser DevTools
+  ru: Инструменты разработчика браузера
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6497,11 +6497,11 @@ terms:
 - canonical: Debugger
   slug: debugger
   zh-cn: 调试器
-  zh-tw: 調試器
-  ja: Debugger
-  ko: Debugger
+  zh-tw: 偵錯器
+  ja: デバッガ
+  ko: 디버거
   de: Debugger
-  ru: Debugger
+  ru: Отладчик
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6512,11 +6512,11 @@ terms:
 - canonical: Breakpoint
   slug: breakpoint
   zh-cn: 断点
-  zh-tw: 断点
-  ja: Breakpoint
-  ko: Breakpoint
+  zh-tw: 斷點
+  ja: ブレークポイント
+  ko: 중단점
   de: Breakpoint
-  ru: Breakpoint
+  ru: Точка останова
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6526,12 +6526,12 @@ terms:
     ru: draft
 - canonical: Reproduction Steps
   slug: reproduction-steps
-  zh-cn: 复现步骤
-  zh-tw: 複現步骤
-  ja: Reproduction Steps
-  ko: Reproduction Steps
-  de: Reproduction Steps
-  ru: Reproduction Steps
+  zh-cn: 复制步骤
+  zh-tw: 重現步驟
+  ja: 再現手順
+  ko: 재현 단계
+  de: Reproduktionsschritte
+  ru: Этапы воспроизведения
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6541,12 +6541,12 @@ terms:
     ru: draft
 - canonical: Root Cause
   slug: root-cause
-  zh-cn: 根因原因
-  zh-tw: 根因原因
-  ja: Root Cause
-  ko: Root Cause
+  zh-cn: 根本原因
+  zh-tw: 根本原因
+  ja: 根本原因
+  ko: 근본 원인
   de: Root Cause
-  ru: Root Cause
+  ru: Корневая причина
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6557,11 +6557,11 @@ terms:
 - canonical: Log
   slug: log
   zh-cn: 日志
-  zh-tw: 日志
-  ja: Log
-  ko: Log
-  de: Log
-  ru: Log
+  zh-tw: 日誌
+  ja: ログ
+  ko: 로그
+  de: Protokoll
+  ru: Бревно
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6572,11 +6572,11 @@ terms:
 - canonical: Log Level
   slug: log-level
   zh-cn: 日志级别
-  zh-tw: 日志級别
-  ja: Log Level
-  ko: Log Level
-  de: Log Level
-  ru: Log Level
+  zh-tw: 日誌等級
+  ja: ログレベル
+  ko: 로그 수준
+  de: Protokollebene
+  ru: Уровень журнала
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6587,11 +6587,11 @@ terms:
 - canonical: Structured Log
   slug: structured-log
   zh-cn: 结构化日志
-  zh-tw: 结構化日志
-  ja: Structured Log
-  ko: Structured Log
-  de: Structured Log
-  ru: Structured Log
+  zh-tw: 結構化日誌
+  ja: 構造化ログ
+  ko: 구조화된 로그
+  de: Strukturiertes Protokoll
+  ru: Структурированный журнал
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6601,12 +6601,12 @@ terms:
     ru: draft
 - canonical: Mock
   slug: mock
-  zh-cn: 模拟对象
-  zh-tw: 模拟对象
-  ja: Mock
-  ko: Mock
+  zh-cn: 模拟
+  zh-tw: 模擬
+  ja: モック
+  ko: 목
   de: Mock
-  ru: Mock
+  ru: Мок
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6616,12 +6616,12 @@ terms:
     ru: draft
 - canonical: Stub
   slug: stub
-  zh-cn: 桩
-  zh-tw: 桩
-  ja: Stub
-  ko: Stub
+  zh-cn: 存根
+  zh-tw: 存根
+  ja: スタブ
+  ko: 스텁
   de: Stub
-  ru: Stub
+  ru: Заглушка
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6631,12 +6631,12 @@ terms:
     ru: draft
 - canonical: Fake
   slug: fake
-  zh-cn: 简化实现
-  zh-tw: 简化实現
-  ja: Fake
-  ko: Fake
+  zh-cn: Fake（伪造替身）
+  zh-tw: Fake
+  ja: フェイク
+  ko: 페이크
   de: Fake
-  ru: Fake
+  ru: Фейк
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6648,10 +6648,10 @@ terms:
   slug: test-pyramid
   zh-cn: 测试金字塔
   zh-tw: 測試金字塔
-  ja: Test Pyramid
-  ko: Test Pyramid
-  de: Test Pyramid
-  ru: Test Pyramid
+  ja: テストピラミッド
+  ko: 테스트 피라미드
+  de: Testpyramide
+  ru: Тестовая пирамида
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6662,11 +6662,11 @@ terms:
 - canonical: Test-Driven Development
   slug: test-driven-development
   zh-cn: 测试驱动开发
-  zh-tw: 測試驱動開發
-  ja: Test-Driven Development
-  ko: Test-Driven Development
-  de: Test-Driven Development
-  ru: Test-Driven Development
+  zh-tw: 測試驅動開發
+  ja: テスト駆動開発
+  ko: 테스트 주도 개발
+  de: Testgetriebene Entwicklung
+  ru: Разработка через тестирование
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6677,9 +6677,9 @@ terms:
 - canonical: Behavior-Driven Development
   slug: behavior-driven-development
   zh-cn: 行为驱动开发
-  zh-tw: 行为驱動開發
-  ja: Behavior-Driven Development
-  ko: Behavior-Driven Development
+  zh-tw: 行為驅動開發
+  ja: ビヘイビア駆動開発
+  ko: 행동 주도 개발
   de: Behavior-Driven Development
   ru: Behavior-Driven Development
   status:
@@ -6693,10 +6693,10 @@ terms:
   slug: snapshot-test
   zh-cn: 快照测试
   zh-tw: 快照測試
-  ja: Snapshot Test
-  ko: Snapshot Test
-  de: Snapshot Test
-  ru: Snapshot Test
+  ja: スナップショットテスト
+  ko: 스냅샷 테스트
+  de: Snapshot-Test
+  ru: Тест моментальных снимков
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6706,12 +6706,12 @@ terms:
     ru: draft
 - canonical: Contract Test
   slug: contract-test
-  zh-cn: 契约测试
-  zh-tw: 契约測試
-  ja: Contract Test
-  ko: Contract Test
-  de: Contract Test
-  ru: Contract Test
+  zh-cn: 合同测试
+  zh-tw: 契約測試
+  ja: コントラクトテスト
+  ko: 계약 테스트
+  de: Vertragstest
+  ru: Контрактный тест
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6722,11 +6722,11 @@ terms:
 - canonical: Load Test
   slug: load-test
   zh-cn: 负载测试
-  zh-tw: 负载測試
-  ja: Load Test
-  ko: Load Test
-  de: Load Test
-  ru: Load Test
+  zh-tw: 負載測試
+  ja: 負荷テスト
+  ko: 부하 테스트
+  de: Belastungstest
+  ru: Нагрузочный тест
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6737,11 +6737,11 @@ terms:
 - canonical: Stress Test
   slug: stress-test
   zh-cn: 压力测试
-  zh-tw: 压力測試
-  ja: Stress Test
-  ko: Stress Test
-  de: Stress Test
-  ru: Stress Test
+  zh-tw: 壓力測試
+  ja: ストレステスト
+  ko: 스트레스 테스트
+  de: Belastungstest
+  ru: Стресс-тест
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6751,12 +6751,12 @@ terms:
     ru: draft
 - canonical: Authentication
   slug: authentication
-  zh-cn: 身份认证
-  zh-tw: 身份认證
-  ja: Authentication
-  ko: Authentication
-  de: Authentication
-  ru: Authentication
+  zh-cn: 认证
+  zh-tw: 身分驗證
+  ja: 認証
+  ko: 인증
+  de: Authentifizierung
+  ru: Аутентификация
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6766,12 +6766,12 @@ terms:
     ru: draft
 - canonical: Authorization
   slug: authorization
-  zh-cn: 权限授权
-  zh-tw: 權限授權
-  ja: Authorization
-  ko: Authorization
-  de: Authorization
-  ru: Authorization
+  zh-cn: 授权
+  zh-tw: 授權
+  ja: 認可
+  ko: 인가
+  de: Autorisierung
+  ru: Авторизация
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6782,11 +6782,11 @@ terms:
 - canonical: Identity
   slug: identity
   zh-cn: 身份
-  zh-tw: 身份
-  ja: Identity
-  ko: Identity
-  de: Identity
-  ru: Identity
+  zh-tw: 身分
+  ja: アイデンティティ
+  ko: 아이덴티티
+  de: Identität
+  ru: Идентификационные данные
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6796,12 +6796,12 @@ terms:
     ru: draft
 - canonical: Session
   slug: session
-  zh-cn: 会话
-  zh-tw: 会话
-  ja: Session
-  ko: Session
-  de: Session
-  ru: Session
+  zh-cn: 会话（Session）
+  zh-tw: 工作階段
+  ja: セッション
+  ko: 세션
+  de: Sitzung
+  ru: Сессия
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6811,12 +6811,12 @@ terms:
     ru: draft
 - canonical: Cookie
   slug: cookie
-  zh-cn: Cookie
+  zh-cn: Cookie（浏览器 Cookie）
   zh-tw: Cookie
   ja: Cookie
-  ko: Cookie
+  ko: 쿠키
   de: Cookie
-  ru: Cookie
+  ru: Cookie (куки)
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6871,12 +6871,12 @@ terms:
     ru: draft
 - canonical: Access Token
   slug: access-token
-  zh-cn: 访问词元
-  zh-tw: 访问词元
-  ja: Access Token
-  ko: Access Token
+  zh-cn: 访问令牌（Access Token）
+  zh-tw: 存取權杖
+  ja: アクセストークン
+  ko: 액세스 토큰
   de: Access Token
-  ru: Access Token
+  ru: Токен доступа
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6886,12 +6886,12 @@ terms:
     ru: draft
 - canonical: Refresh Token
   slug: refresh-token
-  zh-cn: 刷新词元
-  zh-tw: 刷新词元
-  ja: Refresh Token
-  ko: Refresh Token
-  de: Refresh Token
-  ru: Refresh Token
+  zh-cn: 刷新令牌
+  zh-tw: 重新整理權杖
+  ja: リフレッシュトークン
+  ko: 리프레시 토큰
+  de: Refresh-Token
+  ru: Обновить токен
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6902,11 +6902,11 @@ terms:
 - canonical: Password Hashing
   slug: password-hashing
   zh-cn: 密码哈希
-  zh-tw: 密碼哈希
-  ja: Password Hashing
-  ko: Password Hashing
-  de: Password Hashing
-  ru: Password Hashing
+  zh-tw: 密碼雜湊
+  ja: パスワードのハッシュ化
+  ko: 비밀번호 해싱
+  de: Passwort-Hashing
+  ru: Хеширование паролей
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6916,12 +6916,12 @@ terms:
     ru: draft
 - canonical: Multi-factor Authentication
   slug: multi-factor-authentication
-  zh-cn: 多因素认证
-  zh-tw: 多因素认證
-  ja: Multi-factor Authentication
-  ko: Multi-factor Authentication
-  de: Multi-factor Authentication
-  ru: Multi-factor Authentication
+  zh-cn: 多重身份验证
+  zh-tw: 多因素身分驗證
+  ja: 多要素認証
+  ko: 다단계 인증
+  de: Multi-Faktor-Authentifizierung
+  ru: Многофакторная аутентификация
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6936,7 +6936,7 @@ terms:
   ja: RBAC
   ko: RBAC
   de: RBAC
-  ru: RBAC
+  ru: РБАК
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6946,7 +6946,7 @@ terms:
     ru: draft
 - canonical: ABAC
   slug: abac
-  zh-cn: ABAC
+  zh-cn: ABAC（基于属性的访问控制）
   zh-tw: ABAC
   ja: ABAC
   ko: ABAC
@@ -6961,12 +6961,12 @@ terms:
     ru: draft
 - canonical: Least Privilege
   slug: least-privilege
-  zh-cn: 最小权限
+  zh-cn: 最低权限
   zh-tw: 最小權限
-  ja: Least Privilege
-  ko: Least Privilege
-  de: Least Privilege
-  ru: Least Privilege
+  ja: 最小権限
+  ko: 최소 권한
+  de: Prinzip der geringsten Rechte
+  ru: Наименьшие привилегии
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6977,11 +6977,11 @@ terms:
 - canonical: Threat Model
   slug: threat-model
   zh-cn: 威胁模型
-  zh-tw: 威胁模型
-  ja: Threat Model
-  ko: Threat Model
-  de: Threat Model
-  ru: Threat Model
+  zh-tw: 威脅模型
+  ja: 脅威モデル
+  ko: 위협 모델
+  de: Bedrohungsmodell
+  ru: Модель угроз
   status:
     zh-cn: draft
     zh-tw: draft
@@ -6992,11 +6992,11 @@ terms:
 - canonical: Attack Surface
   slug: attack-surface
   zh-cn: 攻击面
-  zh-tw: 攻击面
-  ja: Attack Surface
-  ko: Attack Surface
-  de: Attack Surface
-  ru: Attack Surface
+  zh-tw: 攻擊面
+  ja: 攻撃対象領域
+  ko: 공격 표면
+  de: Angriffsfläche
+  ru: Поверхность атаки
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7036,12 +7036,12 @@ terms:
     ru: draft
 - canonical: SQL Injection
   slug: sql-injection
-  zh-cn: SQL注入
-  zh-tw: SQL注入
-  ja: SQL Injection
-  ko: SQL Injection
-  de: SQL Injection
-  ru: SQL Injection
+  zh-cn: SQL 注入
+  zh-tw: SQL 注入攻擊
+  ja: SQLインジェクション
+  ko: SQL 주입
+  de: SQL-Injection
+  ru: SQL-инъекция
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7051,12 +7051,12 @@ terms:
     ru: draft
 - canonical: Sanitization
   slug: sanitization
-  zh-cn: 净化
-  zh-tw: 净化
-  ja: Sanitization
-  ko: Sanitization
-  de: Sanitization
-  ru: Sanitization
+  zh-cn: 输入清理（Sanitization）
+  zh-tw: 清理
+  ja: サニタイズ
+  ko: 새니타이제이션
+  de: Bereinigung
+  ru: Санитарная обработка
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7067,11 +7067,11 @@ terms:
 - canonical: Output Encoding
   slug: output-encoding
   zh-cn: 输出编码
-  zh-tw: 輸出编碼
-  ja: Output Encoding
-  ko: Output Encoding
-  de: Output Encoding
-  ru: Output Encoding
+  zh-tw: 輸出編碼
+  ja: 出力エンコーディング
+  ko: 출력 인코딩
+  de: Ausgabekodierung
+  ru: Выходное кодирование
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7081,12 +7081,12 @@ terms:
     ru: draft
 - canonical: Content Security Policy
   slug: content-security-policy
-  zh-cn: 内容安全策略
-  zh-tw: 内容安全策略
-  ja: Content Security Policy
-  ko: Content Security Policy
-  de: Content Security Policy
-  ru: Content Security Policy
+  zh-cn: 内容安全政策
+  zh-tw: 內容安全性政策
+  ja: コンテンツセキュリティポリシー
+  ko: 콘텐츠 보안 정책
+  de: Content-Security-Policy
+  ru: Политика безопасности контента
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7096,12 +7096,12 @@ terms:
     ru: draft
 - canonical: Secret Management
   slug: secret-management
-  zh-cn: 密钥管理
-  zh-tw: 密钥管理
-  ja: Secret Management
-  ko: Secret Management
-  de: Secret Management
-  ru: Secret Management
+  zh-cn: 秘密管理
+  zh-tw: 秘密管理
+  ja: 機密管理
+  ko: 비밀 관리
+  de: Geheimnisverwaltung
+  ru: Секретное управление
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7113,10 +7113,10 @@ terms:
   slug: encryption
   zh-cn: 加密
   zh-tw: 加密
-  ja: Encryption
-  ko: Encryption
-  de: Encryption
-  ru: Encryption
+  ja: 暗号化
+  ko: 암호화
+  de: Verschlüsselung
+  ru: Шифрование
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7128,10 +7128,10 @@ terms:
   slug: deployment
   zh-cn: 部署
   zh-tw: 部署
-  ja: Deployment
-  ko: Deployment
+  ja: デプロイ
+  ko: 배포
   de: Deployment
-  ru: Deployment
+  ru: Развертывание
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7141,12 +7141,12 @@ terms:
     ru: draft
 - canonical: CD
   slug: cd
-  zh-cn: CD
+  zh-cn: CD（持续交付）
   zh-tw: CD
   ja: CD
   ko: CD
   de: CD
-  ru: CD
+  ru: компакт-диск
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7156,12 +7156,12 @@ terms:
     ru: draft
 - canonical: Staging
   slug: staging
-  zh-cn: 预发布
-  zh-tw: 预發布
-  ja: Staging
-  ko: Staging
-  de: Staging
-  ru: Staging
+  zh-cn: 预发布环境（Staging）
+  zh-tw: 預備環境
+  ja: ステージング
+  ko: 스테이징
+  de: Staging-Umgebung
+  ru: Стейджинг
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7173,10 +7173,10 @@ terms:
   slug: monitoring
   zh-cn: 监控
   zh-tw: 監控
-  ja: Monitoring
-  ko: Monitoring
+  ja: モニタリング
+  ko: 모니터링
   de: Monitoring
-  ru: Monitoring
+  ru: Мониторинг
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7188,10 +7188,10 @@ terms:
   slug: rollback
   zh-cn: 回滚
   zh-tw: 回滾
-  ja: Rollback
-  ko: Rollback
+  ja: ロールバック
+  ko: 롤백
   de: Rollback
-  ru: Rollback
+  ru: Откат
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7201,12 +7201,12 @@ terms:
     ru: draft
 - canonical: Feature Flag
   slug: feature-flag
-  zh-cn: 功能选项
-  zh-tw: 功能选項
-  ja: Feature Flag
-  ko: Feature Flag
-  de: Feature Flag
-  ru: Feature Flag
+  zh-cn: 功能开关（Feature Flag）
+  zh-tw: 功能旗標
+  ja: 機能フラグ
+  ko: 기능 플래그
+  de: Feature-Flag
+  ru: Флаг функции
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7217,11 +7217,11 @@ terms:
 - canonical: Canary Release
   slug: canary-release
   zh-cn: 金丝雀发布
-  zh-tw: 金丝雀發布
-  ja: Canary Release
-  ko: Canary Release
-  de: Canary Release
-  ru: Canary Release
+  zh-tw: 金絲雀發布
+  ja: カナリアリリース
+  ko: 카나리 릴리스
+  de: Canary-Release
+  ru: Канарский релиз
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7231,12 +7231,12 @@ terms:
     ru: draft
 - canonical: Blue-Green Deployment
   slug: blue-green-deployment
-  zh-cn: Blue-Green部署
-  zh-tw: Blue-Green部署
-  ja: Blue-Green Deployment
-  ko: Blue-Green Deployment
-  de: Blue-Green Deployment
-  ru: Blue-Green Deployment
+  zh-cn: 蓝绿部署
+  zh-tw: 藍綠部署
+  ja: Blue-Greenデプロイ
+  ko: 블루-그린 배포
+  de: Blue-Green-Deployment
+  ru: Сине-зеленое развертывание
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7247,11 +7247,11 @@ terms:
 - canonical: Serverless
   slug: serverless
   zh-cn: 无服务器
-  zh-tw: 无服務器
-  ja: Serverless
-  ko: Serverless
+  zh-tw: 無伺服器
+  ja: サーバーレス
+  ko: 서버리스
   de: Serverless
-  ru: Serverless
+  ru: Бессерверный
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7262,11 +7262,11 @@ terms:
 - canonical: Server Logs
   slug: server-logs
   zh-cn: 服务器日志
-  zh-tw: 服務器日志
-  ja: Server Logs
-  ko: Server Logs
-  de: Server Logs
-  ru: Server Logs
+  zh-tw: 伺服器日誌
+  ja: サーバーログ
+  ko: 서버 로그
+  de: Serverprotokolle
+  ru: Журналы сервера
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7276,12 +7276,12 @@ terms:
     ru: draft
 - canonical: Production
   slug: production
-  zh-cn: 生产
-  zh-tw: 生产
-  ja: Production
-  ko: Production
-  de: Production
-  ru: Production
+  zh-cn: 生产环境（Production）
+  zh-tw: 正式環境
+  ja: 本番
+  ko: 프로덕션
+  de: Produktion
+  ru: Производство
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7293,10 +7293,10 @@ terms:
   slug: development-environment
   zh-cn: 开发环境
   zh-tw: 開發環境
-  ja: Development Environment
-  ko: Development Environment
-  de: Development Environment
-  ru: Development Environment
+  ja: 開発環境
+  ko: 개발 환경
+  de: Entwicklungsumgebung
+  ru: Среда разработки
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7307,11 +7307,11 @@ terms:
 - canonical: Production Environment
   slug: production-environment
   zh-cn: 生产环境
-  zh-tw: 生产環境
-  ja: Production Environment
-  ko: Production Environment
-  de: Production Environment
-  ru: Production Environment
+  zh-tw: 正式環境
+  ja: 本番環境
+  ko: 프로덕션 환경
+  de: Produktionsumgebung
+  ru: Продакшен-окружение
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7321,8 +7321,8 @@ terms:
     ru: draft
 - canonical: CI
   slug: ci
-  zh-cn: 持续集成
-  zh-tw: 持续集成
+  zh-cn: CI
+  zh-tw: CI
   ja: CI
   ko: CI
   de: CI
@@ -7336,12 +7336,12 @@ terms:
     ru: draft
 - canonical: Pipeline
   slug: pipeline
-  zh-cn: 流水线
-  zh-tw: 流水線
-  ja: Pipeline
-  ko: Pipeline
+  zh-cn: 流水线（Pipeline）
+  zh-tw: 管線
+  ja: パイプライン
+  ko: 파이프라인
   de: Pipeline
-  ru: Pipeline
+  ru: Пайплайн
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7351,12 +7351,12 @@ terms:
     ru: draft
 - canonical: Container
   slug: container
-  zh-cn: 容器
+  zh-cn: 容器（Container）
   zh-tw: 容器
-  ja: Container
-  ko: Container
+  ja: コンテナ
+  ko: 컨테이너
   de: Container
-  ru: Container
+  ru: Контейнер
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7367,11 +7367,11 @@ terms:
 - canonical: Container Image
   slug: container-image
   zh-cn: 容器镜像
-  zh-tw: 容器镜像
-  ja: Container Image
-  ko: Container Image
-  de: Container Image
-  ru: Container Image
+  zh-tw: 容器映像
+  ja: コンテナイメージ
+  ko: 컨테이너 이미지
+  de: Container-Image
+  ru: Изображение контейнера
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7384,7 +7384,7 @@ terms:
   zh-cn: Docker
   zh-tw: Docker
   ja: Docker
-  ko: Docker
+  ko: 도커
   de: Docker
   ru: Docker
   status:
@@ -7399,7 +7399,7 @@ terms:
   zh-cn: Dockerfile
   zh-tw: Dockerfile
   ja: Dockerfile
-  ko: Dockerfile
+  ko: 도커파일
   de: Dockerfile
   ru: Dockerfile
   status:
@@ -7414,7 +7414,7 @@ terms:
   zh-cn: Kubernetes
   zh-tw: Kubernetes
   ja: Kubernetes
-  ko: Kubernetes
+  ko: 쿠버네티스
   de: Kubernetes
   ru: Kubernetes
   status:
@@ -7426,12 +7426,12 @@ terms:
     ru: draft
 - canonical: Edge Function
   slug: edge-function
-  zh-cn: 边缘函数
-  zh-tw: 边缘函數
-  ja: Edge Function
-  ko: Edge Function
+  zh-cn: 边缘功能
+  zh-tw: Edge 函式
+  ja: エッジ機能
+  ko: 엣지 함수
   de: Edge Function
-  ru: Edge Function
+  ru: Функция края
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7442,11 +7442,11 @@ terms:
 - canonical: Cold Start
   slug: cold-start
   zh-cn: 冷启动
-  zh-tw: 冷启動
-  ja: Cold Start
-  ko: Cold Start
-  de: Cold Start
-  ru: Cold Start
+  zh-tw: 冷啟動
+  ja: コールドスタート
+  ko: 콜드 스타트
+  de: Kaltstart
+  ru: Холодный старт
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7456,12 +7456,12 @@ terms:
     ru: draft
 - canonical: Observability
   slug: observability
-  zh-cn: 可观测性
-  zh-tw: 可觀測性
-  ja: Observability
-  ko: Observability
-  de: Observability
-  ru: Observability
+  zh-cn: 可观察性
+  zh-tw: 可觀察性
+  ja: 可観測性
+  ko: 옵저버빌리티
+  de: Beobachtbarkeit
+  ru: Наблюдаемость
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7471,12 +7471,12 @@ terms:
     ru: draft
 - canonical: Incident
   slug: incident
-  zh-cn: 事故
-  zh-tw: 事故
-  ja: Incident
-  ko: Incident
-  de: Incident
-  ru: Incident
+  zh-cn: 事件
+  zh-tw: 事件
+  ja: インシデント
+  ko: 사건
+  de: Vorfall
+  ru: Инцидент
   status:
     zh-cn: draft
     zh-tw: draft
@@ -7487,10 +7487,10 @@ terms:
 - canonical: Infrastructure as Code
   slug: infrastructure-as-code
   zh-cn: 基础设施即代码
-  zh-tw: 基础设施即代碼
+  zh-tw: 基礎架構即程式碼
   ja: Infrastructure as Code
-  ko: Infrastructure as Code
-  de: Infrastructure as Code
+  ko: 코드로서의 인프라
+  de: Infrastruktur als Code
   ru: Infrastructure as Code
   status:
     zh-cn: draft

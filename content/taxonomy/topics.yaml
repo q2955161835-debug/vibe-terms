@@ -15,7 +15,7 @@ topics:
     zh-tw: 學習提示與上下文相關的核心概念。
     ja: プロンプトとコンテキストに関する基本概念を学びます。
     ko: 프롬프트와 컨텍스트의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Prompts und Kontext.
+    de: Grundbegriffe rund um Prompts und Kontext.
     ru: Основные понятия по теме «Промпты и контекст».
   terms:
   - context-engineering
@@ -51,7 +51,7 @@ topics:
     zh-tw: 學習模型與生成相關的核心概念。
     ja: モデルと生成に関する基本概念を学びます。
     ko: 모델과 생성의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Modelle und Generierung.
+    de: Grundbegriffe rund um Modelle und Generierung.
     ru: Основные понятия по теме «Модели и генерация».
   terms:
   - ai-application
@@ -77,7 +77,7 @@ topics:
     en: Agents, Tools & Memory
     zh-cn: 智能体、工具与记忆
     zh-tw: 智慧代理、工具與記憶
-    ja: エージェント、ツールとメモリ
+    ja: エージェント、ツール、メモリ
     ko: 에이전트, 도구 및 메모리
     de: Agenten, Werkzeuge und Speicher
     ru: Агенты, инструменты и память
@@ -85,9 +85,9 @@ topics:
     en: Core concepts for agents, tools & memory.
     zh-cn: 学习智能体、工具与记忆相关的核心概念。
     zh-tw: 學習智慧代理、工具與記憶相關的核心概念。
-    ja: エージェント、ツールとメモリに関する基本概念を学びます。
+    ja: エージェント、ツール、メモリに関する基本概念を学びます。
     ko: 에이전트, 도구 및 메모리의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Agenten, Werkzeuge und Speicher.
+    de: Grundbegriffe rund um Agenten, Werkzeuge und Speicher.
     ru: Основные понятия по теме «Агенты, инструменты и память».
   terms:
   - agent-loop
@@ -108,18 +108,18 @@ topics:
   names:
     en: Retrieval, Evaluation & Safety
     zh-cn: 检索、评估与安全
-    zh-tw: 檢索、評估與安全
-    ja: 検索、評価と安全性
+    zh-tw: 檢索、評估與安全性
+    ja: 検索、評価、安全性
     ko: 검색, 평가 및 안전
     de: Abruf, Bewertung und Sicherheit
     ru: Поиск, оценка и безопасность
   descriptions:
     en: Core concepts for retrieval, evaluation & safety.
     zh-cn: 学习检索、评估与安全相关的核心概念。
-    zh-tw: 學習檢索、評估與安全相關的核心概念。
-    ja: 検索、評価と安全性に関する基本概念を学びます。
+    zh-tw: 學習檢索、評估與安全性相關的核心概念。
+    ja: 検索、評価、安全性に関する基本概念を学びます。
     ko: 검색, 평가 및 안전의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Abruf, Bewertung und Sicherheit.
+    de: Grundbegriffe rund um Abruf, Bewertung und Sicherheit.
     ru: Основные понятия по теме «Поиск, оценка и безопасность».
   terms:
   - chunking
@@ -151,7 +151,7 @@ topics:
     zh-tw: 學習命令列工作流程相關的核心概念。
     ja: コマンドラインのワークフローに関する基本概念を学びます。
     ko: 명령줄 워크플로의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Kommandozeilen-Workflow.
+    de: Grundbegriffe rund um Kommandozeilen-Workflow.
     ru: Основные понятия по теме «Работа в командной строке».
   terms:
   - argument
@@ -177,7 +177,7 @@ topics:
     zh-tw: 學習軟體建構要素相關的核心概念。
     ja: ソフトウェアの構成要素に関する基本概念を学びます。
     ko: 소프트웨어 구성 요소의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Softwarebausteine.
+    de: Grundbegriffe rund um Softwarebausteine.
     ru: Основные понятия по теме «Компоненты программного обеспечения».
   terms:
   - application
@@ -195,7 +195,7 @@ topics:
     en: Runtimes, Packages & Dependencies
     zh-cn: 运行时、包与依赖
     zh-tw: 執行環境、套件與相依性
-    ja: ランタイム、パッケージと依存関係
+    ja: ランタイム、パッケージ、依存関係
     ko: 런타임, 패키지 및 종속성
     de: Laufzeiten, Pakete und Abhängigkeiten
     ru: Среды выполнения, пакеты и зависимости
@@ -203,9 +203,9 @@ topics:
     en: Core concepts for runtimes, packages & dependencies.
     zh-cn: 学习运行时、包与依赖相关的核心概念。
     zh-tw: 學習執行環境、套件與相依性相關的核心概念。
-    ja: ランタイム、パッケージと依存関係に関する基本概念を学びます。
+    ja: ランタイム、パッケージ、依存関係に関する基本概念を学びます。
     ko: 런타임, 패키지 및 종속성의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Laufzeiten, Pakete und Abhängigkeiten.
+    de: Grundbegriffe rund um Laufzeiten, Pakete und Abhängigkeiten.
     ru: Основные понятия по теме «Среды выполнения, пакеты и зависимости».
   terms:
   - dependency
@@ -226,7 +226,7 @@ topics:
     en: Files, Processes & Environment
     zh-cn: 文件、进程与环境
     zh-tw: 檔案、程序與環境
-    ja: ファイル、プロセスと環境
+    ja: ファイル、プロセス、環境
     ko: 파일, 프로세스 및 환경
     de: Dateien, Prozesse und Umgebung
     ru: Файлы, процессы и окружение
@@ -234,9 +234,9 @@ topics:
     en: Core concepts for files, processes & environment.
     zh-cn: 学习文件、进程与环境相关的核心概念。
     zh-tw: 學習檔案、程序與環境相關的核心概念。
-    ja: ファイル、プロセスと環境に関する基本概念を学びます。
+    ja: ファイル、プロセス、環境に関する基本概念を学びます。
     ko: 파일, 프로세스 및 환경의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Dateien, Prozesse und Umgebung.
+    de: Grundbegriffe rund um Dateien, Prozesse und Umgebung.
     ru: Основные понятия по теме «Файлы, процессы и окружение».
   terms:
   - configuration-file
@@ -262,7 +262,7 @@ topics:
     zh-tw: 學習 Web 協定與 HTTP 相關的核心概念。
     ja: WebプロトコルとHTTPに関する基本概念を学びます。
     ko: 웹 프로토콜과 HTTP의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Webprotokolle und HTTP.
+    de: Grundbegriffe rund um Webprotokolle und HTTP.
     ru: Основные понятия по теме «Веб-протоколы и HTTP».
   terms:
   - http
@@ -281,7 +281,7 @@ topics:
     en: Naming, Addressing & Routing
     zh-cn: 命名、寻址与路由
     zh-tw: 命名、定址與路由
-    ja: 名前解決、アドレス指定とルーティング
+    ja: 名前解決、アドレス指定、ルーティング
     ko: 이름, 주소 지정 및 라우팅
     de: Namensgebung, Adressierung und Routing
     ru: Имена, адресация и маршрутизация
@@ -289,9 +289,9 @@ topics:
     en: Core concepts for naming, addressing & routing.
     zh-cn: 学习命名、寻址与路由相关的核心概念。
     zh-tw: 學習命名、定址與路由相關的核心概念。
-    ja: 名前解決、アドレス指定とルーティングに関する基本概念を学びます。
+    ja: 名前解決、アドレス指定、ルーティングに関する基本概念を学びます。
     ko: 이름, 주소 지정 및 라우팅의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Namensgebung, Adressierung und Routing.
+    de: Grundbegriffe rund um Namensgebung, Adressierung und Routing.
     ru: Основные понятия по теме «Имена, адресация и маршрутизация».
   terms:
   - dns
@@ -307,7 +307,7 @@ topics:
   names:
     en: Network Connections & Delivery
     zh-cn: 网络连接与交付
-    zh-tw: 網路連線與傳遞
+    zh-tw: 網路連線與傳輸
     ja: ネットワーク接続と配信
     ko: 네트워크 연결과 전송
     de: Netzwerkverbindungen und Auslieferung
@@ -315,10 +315,10 @@ topics:
   descriptions:
     en: Core concepts for network connections & delivery.
     zh-cn: 学习网络连接与交付相关的核心概念。
-    zh-tw: 學習網路連線與傳遞相關的核心概念。
+    zh-tw: 學習網路連線與傳輸相關的核心概念。
     ja: ネットワーク接続と配信に関する基本概念を学びます。
     ko: 네트워크 연결과 전송의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Netzwerkverbindungen und Auslieferung.
+    de: Grundbegriffe rund um Netzwerkverbindungen und Auslieferung.
     ru: Основные понятия по теме «Сетевые соединения и доставка».
   terms:
   - browser
@@ -349,7 +349,7 @@ topics:
     zh-tw: 學習探索與問題界定相關的核心概念。
     ja: 発見と課題設定に関する基本概念を学びます。
     ko: 발견과 문제 정의의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Entdeckung und Problemrahmung.
+    de: Grundbegriffe rund um Entdeckung und Problemrahmung.
     ru: Основные понятия по теме «Исследование и формулировка проблемы».
   terms:
   - assumption
@@ -383,7 +383,7 @@ topics:
     zh-tw: 學習需求與規劃相關的核心概念。
     ja: 要件と計画に関する基本概念を学びます。
     ko: 요구사항과 계획의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Anforderungen und Planung.
+    de: Grundbegriffe rund um Anforderungen und Planung.
     ru: Основные понятия по теме «Требования и планирование».
   terms:
   - feature
@@ -410,7 +410,7 @@ topics:
     zh-tw: 學習指標與實驗相關的核心概念。
     ja: 指標と実験に関する基本概念を学びます。
     ko: 지표와 실험의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Metriken und Experimente.
+    de: Grundbegriffe rund um Metriken und Experimente.
     ru: Основные понятия по теме «Метрики и эксперименты».
   terms:
   - a-b-test
@@ -436,7 +436,7 @@ topics:
     zh-tw: 學習介面結構與導覽相關的核心概念。
     ja: インターフェース構造とナビゲーションに関する基本概念を学びます。
     ko: 인터페이스 구조와 탐색의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Oberflächenstruktur und Navigation.
+    de: Grundbegriffe rund um Oberflächenstruktur und Navigation.
     ru: Основные понятия по теме «Структура интерфейса и навигация».
   terms:
   - bento-grid
@@ -464,7 +464,7 @@ topics:
     en: Inputs, Feedback & Controls
     zh-cn: 输入、反馈与控件
     zh-tw: 輸入、回饋與控制項
-    ja: 入力、フィードバックとコントロール
+    ja: 入力、フィードバック、コントロール
     ko: 입력, 피드백 및 컨트롤
     de: Eingaben, Rückmeldung und Steuerelemente
     ru: Ввод, обратная связь и элементы управления
@@ -472,9 +472,9 @@ topics:
     en: Core concepts for inputs, feedback & controls.
     zh-cn: 学习输入、反馈与控件相关的核心概念。
     zh-tw: 學習輸入、回饋與控制項相關的核心概念。
-    ja: 入力、フィードバックとコントロールに関する基本概念を学びます。
+    ja: 入力、フィードバック、コントロールに関する基本概念を学びます。
     ko: 입력, 피드백 및 컨트롤의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Eingaben, Rückmeldung und Steuerelemente.
+    de: Grundbegriffe rund um Eingaben, Rückmeldung und Steuerelemente.
     ru: Основные понятия по теме «Ввод, обратная связь и элементы управления».
   terms:
   - alert
@@ -521,7 +521,7 @@ topics:
     zh-tw: 學習無障礙與響應式設計相關的核心概念。
     ja: アクセシビリティとレスポンシブデザインに関する基本概念を学びます。
     ko: 접근성과 반응형 디자인의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Barrierefreiheit und responsives Design.
+    de: Grundbegriffe rund um Barrierefreiheit und responsives Design.
     ru: Основные понятия по теме «Доступность и адаптивный дизайн».
   terms:
   - accessibility
@@ -548,7 +548,7 @@ topics:
     zh-tw: 學習視覺設計系統相關的核心概念。
     ja: ビジュアルデザインシステムに関する基本概念を学びます。
     ko: 시각 디자인 시스템의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Visuelle Designsysteme.
+    de: Grundbegriffe rund um Visuelle Designsysteme.
     ru: Основные понятия по теме «Системы визуального дизайна».
   terms:
   - autocomplete
@@ -581,7 +581,7 @@ topics:
     zh-tw: 學習版面配置與元件相關的核心概念。
     ja: レイアウトとコンポーネントに関する基本概念を学びます。
     ko: 레이아웃과 컴포넌트의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Layouts und Komponenten.
+    de: Grundbegriffe rund um Layouts und Komponenten.
     ru: Основные понятия по теме «Макеты и компоненты».
   terms:
   - accordion
@@ -619,7 +619,7 @@ topics:
     zh-tw: 學習設計風格與模式相關的核心概念。
     ja: デザインスタイルとパターンに関する基本概念を学びます。
     ko: 디자인 스타일과 패턴의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Designstile und Muster.
+    de: Grundbegriffe rund um Designstile und Muster.
     ru: Основные понятия по теме «Стили и паттерны дизайна».
   terms:
   - app-icon
@@ -655,17 +655,17 @@ topics:
     en: HTML, CSS & Layout
     zh-cn: HTML、CSS 与布局
     zh-tw: HTML、CSS 與版面
-    ja: HTML、CSSとレイアウト
+    ja: HTML、CSS、レイアウト
     ko: HTML, CSS 및 레이아웃
     de: HTML, CSS und Layout
     ru: HTML, CSS и макет
   descriptions:
     en: Core concepts for html, css & layout.
-    zh-cn: 学习HTML、CSS 与布局相关的核心概念。
+    zh-cn: 学习 HTML、CSS 与布局相关的核心概念。
     zh-tw: 學習 HTML、CSS 與版面相關的核心概念。
-    ja: HTML、CSSとレイアウトに関する基本概念を学びます。
+    ja: HTML、CSS、レイアウトに関する基本概念を学びます。
     ko: HTML, CSS 및 레이아웃의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu HTML, CSS und Layout.
+    de: Grundbegriffe rund um HTML, CSS und Layout.
     ru: Основные понятия по теме «HTML, CSS и макет».
   terms:
   - border-radius
@@ -690,7 +690,7 @@ topics:
     en: Components, State & Frameworks
     zh-cn: 组件、状态与框架
     zh-tw: 元件、狀態與框架
-    ja: コンポーネント、状態とフレームワーク
+    ja: コンポーネント、状態、フレームワーク
     ko: 컴포넌트, 상태 및 프레임워크
     de: Komponenten, Zustand und Frameworks
     ru: Компоненты, состояние и фреймворки
@@ -698,9 +698,9 @@ topics:
     en: Core concepts for components, state & frameworks.
     zh-cn: 学习组件、状态与框架相关的核心概念。
     zh-tw: 學習元件、狀態與框架相關的核心概念。
-    ja: コンポーネント、状態とフレームワークに関する基本概念を学びます。
+    ja: コンポーネント、状態、フレームワークに関する基本概念を学びます。
     ko: 컴포넌트, 상태 및 프레임워크의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Komponenten, Zustand und Frameworks.
+    de: Grundbegriffe rund um Komponenten, Zustand und Frameworks.
     ru: Основные понятия по теме «Компоненты, состояние и фреймворки».
   terms:
   - active-state
@@ -729,7 +729,7 @@ topics:
     zh-tw: 學習響應式介面與視覺效果相關的核心概念。
     ja: レスポンシブUIと視覚効果に関する基本概念を学びます。
     ko: 반응형 UI와 시각 효과의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Responsive UI und visuelle Effekte.
+    de: Grundbegriffe rund um Responsive UI und visuelle Effekte.
     ru: Основные понятия по теме «Адаптивный интерфейс и визуальные эффекты».
   terms:
   - animation
@@ -767,7 +767,7 @@ topics:
     zh-tw: 學習中繼資料與平台整合相關的核心概念。
     ja: メタデータとプラットフォーム統合に関する基本概念を学びます。
     ko: 메타데이터와 플랫폼 통합의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Metadaten und Plattformintegration.
+    de: Grundbegriffe rund um Metadaten und Plattformintegration.
     ru: Основные понятия по теме «Метаданные и интеграция платформ».
   terms:
   - design-token
@@ -796,7 +796,7 @@ topics:
     zh-tw: 學習 API 合約與端點相關的核心概念。
     ja: API契約とエンドポイントに関する基本概念を学びます。
     ko: API 계약과 엔드포인트의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu API-Verträge und Endpunkte.
+    de: Grundbegriffe rund um API-Verträge und Endpunkte.
     ru: Основные понятия по теме «Контракты API и конечные точки».
   terms:
   - api
@@ -819,7 +819,7 @@ topics:
     en: Handlers, Services & Processing
     zh-cn: 处理器、服务与处理流程
     zh-tw: 處理常式、服務與處理流程
-    ja: ハンドラー、サービスと処理
+    ja: ハンドラー、サービス、処理
     ko: 핸들러, 서비스 및 처리
     de: Handler, Dienste und Verarbeitung
     ru: Обработчики, сервисы и обработка
@@ -827,9 +827,9 @@ topics:
     en: Core concepts for handlers, services & processing.
     zh-cn: 学习处理器、服务与处理流程相关的核心概念。
     zh-tw: 學習處理常式、服務與處理流程相關的核心概念。
-    ja: ハンドラー、サービスと処理に関する基本概念を学びます。
+    ja: ハンドラー、サービス、処理に関する基本概念を学びます。
     ko: 핸들러, 서비스 및 처리의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Handler, Dienste und Verarbeitung.
+    de: Grundbegriffe rund um Handler, Dienste und Verarbeitung.
     ru: Основные понятия по теме «Обработчики, сервисы и обработка».
   terms:
   - backend
@@ -851,7 +851,7 @@ topics:
     en: Delivery, Reliability & Integration
     zh-cn: 交付、可靠性与集成
     zh-tw: 交付、可靠性與整合
-    ja: 配信、信頼性と統合
+    ja: 配信、信頼性、統合
     ko: 전달, 신뢰성 및 통합
     de: Auslieferung, Zuverlässigkeit und Integration
     ru: Доставка, надежность и интеграция
@@ -859,9 +859,9 @@ topics:
     en: Core concepts for delivery, reliability & integration.
     zh-cn: 学习交付、可靠性与集成相关的核心概念。
     zh-tw: 學習交付、可靠性與整合相關的核心概念。
-    ja: 配信、信頼性と統合に関する基本概念を学びます。
+    ja: 配信、信頼性、統合に関する基本概念を学びます。
     ko: 전달, 신뢰성 및 통합의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Auslieferung, Zuverlässigkeit und Integration.
+    de: Grundbegriffe rund um Auslieferung, Zuverlässigkeit und Integration.
     ru: Основные понятия по теме «Доставка, надежность и интеграция».
   terms:
   - cors
@@ -888,7 +888,7 @@ topics:
     zh-tw: 學習關聯式資料建模相關的核心概念。
     ja: リレーショナルデータモデリングに関する基本概念を学びます。
     ko: 관계형 데이터 모델링의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Relationale Datenmodellierung.
+    de: Grundbegriffe rund um Relationale Datenmodellierung.
     ru: Основные понятия по теме «Реляционное моделирование данных».
   terms:
   - database-table
@@ -904,7 +904,7 @@ topics:
     en: Queries, Schemas & Constraints
     zh-cn: 查询、模式与约束
     zh-tw: 查詢、綱要與限制
-    ja: クエリ、スキーマと制約
+    ja: クエリ、スキーマ、制約
     ko: 쿼리, 스키마 및 제약
     de: Abfragen, Schemata und Einschränkungen
     ru: Запросы, схемы и ограничения
@@ -912,9 +912,9 @@ topics:
     en: Core concepts for queries, schemas & constraints.
     zh-cn: 学习查询、模式与约束相关的核心概念。
     zh-tw: 學習查詢、綱要與限制相關的核心概念。
-    ja: クエリ、スキーマと制約に関する基本概念を学びます。
+    ja: クエリ、スキーマ、制約に関する基本概念を学びます。
     ko: 쿼리, 스키마 및 제약의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Abfragen, Schemata und Einschränkungen.
+    de: Grundbegriffe rund um Abfragen, Schemata und Einschränkungen.
     ru: Основные понятия по теме «Запросы, схемы и ограничения».
   terms:
   - column
@@ -946,7 +946,7 @@ topics:
     zh-tw: 學習資料庫系統與儲存相關的核心概念。
     ja: データベースシステムとストレージに関する基本概念を学びます。
     ko: 데이터베이스 시스템과 저장소의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Datenbanksysteme und Speicher.
+    de: Grundbegriffe rund um Datenbanksysteme und Speicher.
     ru: Основные понятия по теме «Системы баз данных и хранение».
   terms:
   - acid
@@ -965,7 +965,7 @@ topics:
     en: Repositories, History & Branches
     zh-cn: 仓库、历史与分支
     zh-tw: 儲存庫、歷史與分支
-    ja: リポジトリ、履歴とブランチ
+    ja: リポジトリ、履歴、ブランチ
     ko: 리포지토리, 기록 및 브랜치
     de: Repositories, Historie und Branches
     ru: Репозитории, история и ветки
@@ -973,9 +973,9 @@ topics:
     en: Core concepts for repositories, history & branches.
     zh-cn: 学习仓库、历史与分支相关的核心概念。
     zh-tw: 學習儲存庫、歷史與分支相關的核心概念。
-    ja: リポジトリ、履歴とブランチに関する基本概念を学びます。
+    ja: リポジトリ、履歴、ブランチに関する基本概念を学びます。
     ko: 리포지토리, 기록 및 브랜치의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Repositories, Historie und Branches.
+    de: Grundbegriffe rund um Repositories, Historie und Branches.
     ru: Основные понятия по теме «Репозитории, история и ветки».
   terms:
   - branch
@@ -990,7 +990,7 @@ topics:
     en: Collaboration, Remotes & Integration
     zh-cn: 协作、远程与集成
     zh-tw: 協作、遠端與整合
-    ja: 共同作業、リモートと統合
+    ja: 共同作業、リモート、統合
     ko: 협업, 원격 및 통합
     de: Zusammenarbeit, Remotes und Integration
     ru: Совместная работа, удаленные репозитории и интеграция
@@ -998,9 +998,9 @@ topics:
     en: Core concepts for collaboration, remotes & integration.
     zh-cn: 学习协作、远程与集成相关的核心概念。
     zh-tw: 學習協作、遠端與整合相關的核心概念。
-    ja: 共同作業、リモートと統合に関する基本概念を学びます。
+    ja: 共同作業、リモート、統合に関する基本概念を学びます。
     ko: 협업, 원격 및 통합의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Zusammenarbeit, Remotes und Integration.
+    de: Grundbegriffe rund um Zusammenarbeit, Remotes und Integration.
     ru: Основные понятия по теме «Совместная работа, удаленные репозитории и интеграция».
   terms:
   - cherry-pick
@@ -1030,7 +1030,7 @@ topics:
     zh-tw: 學習變更管理與復原相關的核心概念。
     ja: 変更管理と復旧に関する基本概念を学びます。
     ko: 변경 관리와 복구의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Änderungsmanagement und Wiederherstellung.
+    de: Grundbegriffe rund um Änderungsmanagement und Wiederherstellung.
     ru: Основные понятия по теме «Управление изменениями и восстановление».
   terms:
   - diff
@@ -1057,7 +1057,7 @@ topics:
     zh-tw: 學習測試策略與層級相關的核心概念。
     ja: テスト戦略とレベルに関する基本概念を学びます。
     ko: 테스트 전략과 수준의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Teststrategie und Ebenen.
+    de: Grundbegriffe rund um Teststrategie und Ebenen.
     ru: Основные понятия по теме «Стратегия и уровни тестирования».
   terms:
   - acceptance-criteria
@@ -1080,7 +1080,7 @@ topics:
     en: Test Doubles, Data & Coverage
     zh-cn: 测试替身、数据与覆盖率
     zh-tw: 測試替身、資料與覆蓋率
-    ja: テストダブル、データとカバレッジ
+    ja: テストダブル、データ、カバレッジ
     ko: 테스트 대역, 데이터 및 커버리지
     de: Test-Doubles, Daten und Abdeckung
     ru: Тестовые двойники, данные и покрытие
@@ -1088,9 +1088,9 @@ topics:
     en: Core concepts for test doubles, data & coverage.
     zh-cn: 学习测试替身、数据与覆盖率相关的核心概念。
     zh-tw: 學習測試替身、資料與覆蓋率相關的核心概念。
-    ja: テストダブル、データとカバレッジに関する基本概念を学びます。
+    ja: テストダブル、データ、カバレッジに関する基本概念を学びます。
     ko: 테스트 대역, 데이터 및 커버리지의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Test-Doubles, Daten und Abdeckung.
+    de: Grundbegriffe rund um Test-Doubles, Daten und Abdeckung.
     ru: Основные понятия по теме «Тестовые двойники, данные и покрытие».
   terms:
   - fake
@@ -1106,7 +1106,7 @@ topics:
     en: Debugging, Diagnosis & Observability
     zh-cn: 调试、诊断与可观测性
     zh-tw: 除錯、診斷與可觀測性
-    ja: デバッグ、診断と可観測性
+    ja: デバッグ、診断、可観測性
     ko: 디버깅, 진단 및 관측성
     de: Debugging, Diagnose und Beobachtbarkeit
     ru: Отладка, диагностика и наблюдаемость
@@ -1114,9 +1114,9 @@ topics:
     en: Core concepts for debugging, diagnosis & observability.
     zh-cn: 学习调试、诊断与可观测性相关的核心概念。
     zh-tw: 學習除錯、診斷與可觀測性相關的核心概念。
-    ja: デバッグ、診断と可観測性に関する基本概念を学びます。
+    ja: デバッグ、診断、可観測性に関する基本概念を学びます。
     ko: 디버깅, 진단 및 관측성의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Debugging, Diagnose und Beobachtbarkeit.
+    de: Grundbegriffe rund um Debugging, Diagnose und Beobachtbarkeit.
     ru: Основные понятия по теме «Отладка, диагностика и наблюдаемость».
   terms:
   - breakpoint
@@ -1149,7 +1149,7 @@ topics:
     zh-tw: 學習身分與存取控制相關的核心概念。
     ja: アイデンティティとアクセス制御に関する基本概念を学びます。
     ko: ID 및 접근 제어의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Identität und Zugriffskontrolle.
+    de: Grundbegriffe rund um Identität und Zugriffskontrolle.
     ru: Основные понятия по теме «Идентификация и контроль доступа».
   terms:
   - abac
@@ -1166,18 +1166,18 @@ topics:
   names:
     en: Tokens, Sessions & Credentials
     zh-cn: 令牌、会话与凭据
-    zh-tw: 權杖、工作階段與憑證
-    ja: トークン、セッションと資格情報
+    zh-tw: 詞元（Token）、工作階段與憑證
+    ja: トークン、セッション、資格情報
     ko: 토큰, 세션 및 자격 증명
     de: Token, Sitzungen und Anmeldedaten
     ru: Токены, сессии и учетные данные
   descriptions:
     en: Core concepts for tokens, sessions & credentials.
     zh-cn: 学习令牌、会话与凭据相关的核心概念。
-    zh-tw: 學習權杖、工作階段與憑證相關的核心概念。
-    ja: トークン、セッションと資格情報に関する基本概念を学びます。
+    zh-tw: 學習詞元（Token）、工作階段與憑證相關的核心概念。
+    ja: トークン、セッション、資格情報に関する基本概念を学びます。
     ko: 토큰, 세션 및 자격 증명의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Token, Sitzungen und Anmeldedaten.
+    de: Grundbegriffe rund um Token, Sitzungen und Anmeldedaten.
     ru: Основные понятия по теме «Токены, сессии и учетные данные».
   terms:
   - access-token
@@ -1192,18 +1192,18 @@ topics:
   names:
     en: Application & Web Defenses
     zh-cn: 应用与 Web 防御
-    zh-tw: 應用與 Web 防禦
-    ja: アプリケーションとWeb防御
+    zh-tw: 應用程式與 Web 防護
+    ja: アプリケーションとWebの防御
     ko: 애플리케이션 및 웹 방어
     de: Anwendungs- und Webschutz
     ru: Защита приложений и веба
   descriptions:
     en: Core concepts for application & web defenses.
     zh-cn: 学习应用与 Web 防御相关的核心概念。
-    zh-tw: 學習應用與 Web 防禦相關的核心概念。
-    ja: アプリケーションとWeb防御に関する基本概念を学びます。
+    zh-tw: 學習應用程式與 Web 防護相關的核心概念。
+    ja: アプリケーションとWebの防御に関する基本概念を学びます。
     ko: 애플리케이션 및 웹 방어의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Anwendungs- und Webschutz.
+    de: Grundbegriffe rund um Anwendungs- und Webschutz.
     ru: Основные понятия по теме «Защита приложений и веба».
   terms:
   - attack-surface
@@ -1231,7 +1231,7 @@ topics:
     zh-tw: 學習發布管線與環境相關的核心概念。
     ja: リリースパイプラインと環境に関する基本概念を学びます。
     ko: 릴리스 파이프라인과 환경의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Release-Pipelines und Umgebungen.
+    de: Grundbegriffe rund um Release-Pipelines und Umgebungen.
     ru: Основные понятия по теме «Конвейеры релиза и окружения».
   terms:
   - blue-green-deployment
@@ -1262,7 +1262,7 @@ topics:
     zh-tw: 學習容器與基礎架構相關的核心概念。
     ja: コンテナとインフラストラクチャに関する基本概念を学びます。
     ko: 컨테이너와 인프라의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Container und Infrastruktur.
+    de: Grundbegriffe rund um Container und Infrastruktur.
     ru: Основные понятия по теме «Контейнеры и инфраструктура».
   terms:
   - container
@@ -1288,7 +1288,7 @@ topics:
     zh-tw: 學習維運與可靠性相關的核心概念。
     ja: 運用と信頼性に関する基本概念を学びます。
     ko: 운영과 신뢰성의 핵심 개념을 배웁니다.
-    de: Grundbegriffe zu Betrieb und Zuverlässigkeit.
+    de: Grundbegriffe rund um Betrieb und Zuverlässigkeit.
     ru: Основные понятия по теме «Эксплуатация и надежность».
   terms:
   - cold-start
