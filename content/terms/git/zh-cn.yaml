@@ -1,4 +1,4 @@
-title: "git"
+title: "Git"
 short_definition: "记录代码更改并让你安全地使用分支的版本控制系统。"
 analogy: "项目的时间机器，带有标记的保存点。"
 why_it_matters: "AI可以快速更改许多文件； git 为你提供了一种可靠的方法来检查和撤消这些更改。"

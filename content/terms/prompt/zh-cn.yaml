@@ -1,4 +1,4 @@
-title: "提示"
+title: "提示词（Prompt）"
 short_definition: "你为 AI 模型提供指导其下一步响应或行动的指令或上下文。"
 analogy: "提示是你在工作开始之前向承包商提交的简报。"
 why_it_matters: "清晰的提示减少了猜测，并使 AI 编辑更易于审核。"

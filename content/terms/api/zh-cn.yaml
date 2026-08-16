@@ -1,5 +1,5 @@
 title: "API（应用程序编程接口）"
-short_definition: "一个软件向另一个软件请求数据或操作的一种定义方式。"
+short_definition: "软件之间约定如何请求数据或执行操作的接口定义。"
 analogy: "餐厅菜单告诉你无需进入厨房即可点餐。"
 why_it_matters: "AI 编码通常通过 API（应用程序编程接口） 连接前端、数据库、模型提供者和第三方服务。"
 ai_prompt_example: "在实现之前创建一个包含请求参数、响应字段和错误情况的 GET /api/terms 端点合约。"
