@@ -5,7 +5,7 @@ status: draft
 source_content_version: 1
 chapters:
 - id: product-scope
-  title: 제품 조각 프레임 지정
+  title: 제품 범위 정의
   summary: 좁은 사용자 결과를 선택하고 관찰 가능한 허용 기준을 작성합니다.
   outcome: 허용 기준이 포함된 범위의 제품 개요입니다.
   checkpoint: 첫 번째 릴리스에서 의도적으로 제외된 내용을 명시할 수 있습니다.
@@ -35,7 +35,7 @@ chapters:
   outcome: 기본 사용자 흐름에 대한 작업 화면입니다.
   checkpoint: 브라우저 상태는 최근의 성공적인 서버 응답과 일관되게 유지됩니다.
 - id: validation-and-errors
-  title: 실패를 실행 가능하게 만들기
+  title: 실패를 해결 가능하게 만들기
   summary: 입력 및 서버 경계에서 유효성을 확인한 다음 수정하거나 다시 시도할 수 있는 부분을 사람들에게 보여줍니다.
   outcome: 필드 오류 및 복구 가능한 요청 오류.
   checkpoint: 잘못된 데이터는 유용한 메시지로 거부되며 부분 쓰기는 불가능합니다.

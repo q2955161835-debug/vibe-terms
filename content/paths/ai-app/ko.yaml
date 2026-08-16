@@ -5,7 +5,7 @@ status: draft
 source_content_version: 1
 chapters:
 - id: problem-and-scope
-  title: 보조자의 직업을 정의하라
+  title: 어시스턴트의 역할 정의
   summary: 하나의 청중 문제를 선택하고 보조자가 무엇을 할 것인지, 무엇을 하지 않을 것인지 적어 보십시오.
   outcome: 한정된 제품 개요.
   checkpoint: 범위 밖의 요청에는 명확한 거부 또는 전달이 있습니다.
@@ -15,7 +15,7 @@ chapters:
   outcome: 버전이 지정된 모델 지침 및 설정.
   checkpoint: 어시스턴트는 의도된 어조를 따르고 근거가 없는 주장을 거부합니다.
 - id: conversation-ui
-  title: 대화 표면 구축
+  title: 대화 화면 구축
   summary: 명확한 입력, 응답, 로드 및 빈 상태로 읽을 수 있는 채팅 인터페이스를 만듭니다.
   outcome: 접근 가능한 대화 화면.
   checkpoint: 사용자는 메시지, 보조자 응답, 대기 중인 작업을 구분할 수 있습니다.
@@ -30,7 +30,7 @@ chapters:
   outcome: 요청 및 응답 계약의 예입니다.
   checkpoint: 잘못된 입력은 유용하고 문서화된 오류 형태를 반환합니다.
 - id: context-and-retrieval
-  title: 기반 컨텍스트 추가
+  title: 근거 있는 컨텍스트 추가
   summary: 승인된 소규모 지식 세트를 선택하고 답변을 생성하기 전에 관련 구절을 검색하세요.
   outcome: 추적 가능한 컨텍스트 선택 흐름.
   checkpoint: 답변은 소스를 만드는 대신 제공된 컨텍스트를 식별할 수 있습니다.
@@ -50,7 +50,7 @@ chapters:
   outcome: 오류 상태 및 최소한의 운영 로그 계획.
   checkpoint: 시간 초과, 제한 및 네트워크 오류에는 이해할 수 있는 사용자 메시지가 있습니다.
 - id: release-and-feedback
-  title: 피드백 경계가 있는 릴리스
+  title: 피드백 범위를 정한 릴리스
   summary: 주요 여정을 확인하고, 소규모 릴리스를 배포하고, 정의된 작업을 개선하는 피드백만 수집하세요.
   outcome: 릴리스 체크리스트 및 피드백 질문.
   checkpoint: 배치된 어시스턴트가 평가를 통과했으며 알려진 제한사항이 표시됩니다.

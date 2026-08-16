@@ -5,6 +5,6 @@ mechanism: 데이터베이스는 정해진 스키마와 인덱스를 바탕으�
 why_it_matters: 사용자 계정, 콘텐츠, 학습 진도, 제품 데이터는 보통 영구 저장이 필요합니다.
 project_example: 이 정적 프로토타입은 데이터베이스 대신 브라우저의 IndexedDB에 게스트 학습 진행을 저장합니다.
 ai_prompt_example: 먼저 테이블과 관계를 설계하고 마이그레이션을 보여 준 뒤 애플리케이션 코드를 작성하세요.
-common_mistake: 데이터 모델 없이 데이터베이스를 거대한 비정형 JSON 서랍처럼 사용하는 것.
+common_mistake: 데이터 모델 없이 데이터베이스를 거대한 비정형 JSON 저장소처럼 사용하는 것.
 status: draft
 source_content_version: 1

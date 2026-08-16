@@ -4,8 +4,8 @@ analogy: OpenID Connect를 워크숍의 보안 및 개인정보 보호 부분에
 mechanism: OpenID Connect의 작동은 기술 스택, 구성 및 데이터 흐름에 따라 달라집니다. 관련 코드와 테스트를 확인해 실제 동작을 검증하세요.
 why_it_matters: OpenID Connect를 알면 Vibe Coding 초보자는 보안 및 개인정보 보호에 대한 정확한 우려 사항을 지정하고 AI 코딩 에이전트에 변경 사항과 동작이 정확하다는 증거를 요청할
   수 있습니다.
-project_example: Vibe Terms에서는 학습자가 테스트 보호 단계에 도달하면 OpenID Connect를 어휘 체크포인트로 사용합니다. 정의를 따로 가르치기보다는 눈에 보이는 하나의 페이지, 파일, 요청, 데이터
-  구조 또는 검증 단계에 정의를 연결하세요.
+project_example: Vibe Terms에서는 학습자가 테스트 보호 단계에 도달하면 OpenID Connect를 어휘 체크포인트로 사용합니다. 정의를 따로 가르치기보다는 눈에 보이는 하나의 페이지, 파일, 요청,
+  데이터 구조 또는 검증 단계에 정의를 연결하세요.
 ai_prompt_example: OpenID Connect가 이 프로젝트에 어떻게 적용되는지 설명하세요. 관련된 정확한 파일이나 시스템 경계를 가리키고, 필요한 최소한의 변경만 수행하고, 결과를 확인하는 데 사용할 수
   있는 명령이나 사용자 흐름을 보여 주세요.
 common_mistake: 실제 동작, 데이터 흐름, 권한, 실패 사례 또는 관련 테스트를 확인하지 않고 구현이 정확하다는 증거로 OpenID Connect라는 용어를 취급합니다.

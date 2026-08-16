@@ -1,6 +1,6 @@
 locale: ko
-title: 개인 사이트 시작
-summary: 귀하가 누구인지, 귀하에게 연락하는 방법을 설명하는 소규모 개인 사이트를 계획, 구축, 테스트 및 게시하십시오.
+title: 개인 사이트 시작하기
+summary: 내가 누구인지와 연락 방법을 설명하는 작은 개인 사이트를 계획하고, 구축하고, 테스트하고, 게시합니다.
 status: draft
 source_content_version: 1
 chapters:
@@ -10,12 +10,12 @@ chapters:
   outcome: 한 문장의 목표이자 주요 방문자 행동입니다.
   checkpoint: 사이트가 누구에게 도움을 주고 방문자가 무엇을 할 수 있는지 설명할 수 있습니다.
 - id: audience-and-content
-  title: 청중과 콘텐츠 나열
+  title: 청중과 콘텐츠 정리
   summary: 방문자의 요구 사항을 짧은 콘텐츠 인벤토리와 간단한 사용자 스토리로 전환하세요.
   outcome: 방문자의 필요에 따라 정렬된 페이지 콘텐츠 목록입니다.
   checkpoint: 모든 섹션은 방문자의 질문에 답변하거나 주요 작업으로 연결됩니다.
 - id: information-architecture
-  title: 정보를 정리하다
+  title: 정보 구조 정리
   summary: 콘텐츠를 작은 탐색으로 그룹화하고 방문자가 따르는 순서를 정의합니다.
   outcome: 탐색 라벨이 있는 페이지 개요입니다.
   checkpoint: 다음에 어디로 가야할지 추측하지 않고도 주요 작업에 도달할 수 있습니다.
@@ -30,7 +30,7 @@ chapters:
   outcome: 명확한 제목 개요가 있는 의미론적 HTML 페이지입니다.
   checkpoint: 소스 순서대로 문서를 읽는 것은 여전히 페이지를 전달합니다.
 - id: visual-system
-  title: 시각적 시스템 만들기
+  title: 시각 시스템 만들기
   summary: 일회성 스타일 대신 작은 유형, 간격, 색상 및 표면 규칙 세트를 적용합니다.
   outcome: 재사용 가능한 CSS 변수 및 일관된 섹션 스타일.
   checkpoint: 유사한 요소는 동일한 시각적 결정을 사용합니다.
