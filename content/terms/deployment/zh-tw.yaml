@@ -2,7 +2,7 @@ title: "部署"
 short_definition: "將建置的應用程式放入使用者可以存取的環境中的流程。"
 analogy: "從您的工作室搬到實際的商店。"
 why_it_matters: "了解部署後，Vibe Coding 初學者可以準確指出相關的部署與維運問題，並要求 AI 編碼助理作出有針對性的修改，同時提供可驗證的結果。"
-ai_prompt_example: "產生靜態構建，驗證所有區域設定路由，然後部署準確的建置工件，而無需在生產中重建。"
+ai_prompt_example: "產生靜態構建，驗證所有區域設定路由，然後部署準確的建置建置產物，而無需在生產中重建。"
 common_mistake: "在部署期間修改設定而不將其記錄在儲存庫中。"
 status: draft
 source_content_version: 1

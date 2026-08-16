@@ -3,6 +3,6 @@ short_definition: "一個 AI 系統，可以重複決定採取什麼操作、使
 analogy: "可以閱讀簡報、使用核准的工具、檢查結果並採取下一步行動的工作人員。"
 why_it_matters: "了解 AI 代理後，Vibe Coding 初學者可以準確指出相關的 AI 與 Vibe Coding 問題，並要求 AI 編碼助理作出有針對性的修改，同時提供可驗證的結果。"
 ai_prompt_example: "檢查儲存庫，提出計劃，僅編輯批准的檔案，執行測試，然後停止並報告差異。"
-common_mistake: "給予代理廣泛的權限和沒有驗證閘的開放式目標。"
+common_mistake: "給予代理過大的權限與沒有驗證、防護的開放式目標，卻沒有設定可停止、可追蹤的執行邊界。"
 status: draft
 source_content_version: 1
