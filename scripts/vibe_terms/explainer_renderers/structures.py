@@ -43,7 +43,11 @@ def render_hierarchy(explainer: dict[str, Any], page_locale: str) -> str:
     roots = [node["id"] for node in nodes if node["id"] not in targets]
     tree = "".join(branch(root, set()) for root in roots)
     tree += "".join(branch(node["id"], set()) for node in nodes)
-    canvas = f'<div class="visual-hierarchy"><ul class="visual-hierarchy-tree">{tree}</ul></div>'
+    canvas = (
+        '<div class="visual-hierarchy"><ul class="visual-hierarchy-tree">'
+        f'<li class="visual-hierarchy-root"><ul class="visual-hierarchy-children">{tree}</ul></li>'
+        "</ul></div>"
+    )
     return render_shell(explainer, page_locale, canvas)
 
 

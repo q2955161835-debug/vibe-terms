@@ -34,16 +34,29 @@ def render_pipeline(explainer: dict[str, Any], page_locale: str) -> str:
 def render_request_response(explainer: dict[str, Any], page_locale: str) -> str:
     copy, state = _render_context(explainer, page_locale)
     nodes = explainer["scene"]["nodes"]
-    request, response = nodes[0], nodes[-1]
-    contract_nodes = nodes[1:-1]
+    request = nodes[0]
+    response = nodes[-1] if len(nodes) > 1 else None
+    contract_nodes = nodes[1:-1] if response else []
     contract = "".join(render_node(node, copy, state) for node in contract_nodes)
+    relations = "".join(
+        f'<li data-contract-from="{_esc(relation["from"])}" data-contract-to="{_esc(relation["to"])}">'
+        f'{_esc(relation["from"])} to {_esc(relation["to"])}</li>'
+        for relation in explainer["scene"]["relations"]
+    )
+    response_label = (
+        _esc(copy["labels"][response["label_key"]])
+        if response is not None
+        else "Response endpoint"
+    )
+    response_node = render_node(response, copy, state) if response is not None else ""
     canvas = (
         '<div class="visual-request-response">'
         f'<section class="visual-request-endpoint" aria-label="{_esc(copy["labels"][request["label_key"]])}">'
         f"{render_node(request, copy, state)}</section>"
-        f'<section class="visual-contract-panel" aria-label="Contract">{contract}</section>'
-        f'<section class="visual-request-endpoint" aria-label="{_esc(copy["labels"][response["label_key"]])}">'
-        f"{render_node(response, copy, state)}</section></div>"
+        f'<section class="visual-contract-panel" aria-label="Contract"><p>Contract</p>{contract}'
+        f'<ol class="visual-contract-relations">{relations}</ol></section>'
+        f'<section class="visual-request-endpoint" aria-label="{response_label}">'
+        f"{response_node}</section></div>"
     )
     return render_shell(explainer, page_locale, canvas)
 

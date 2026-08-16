@@ -152,3 +152,41 @@ def test_renderer_uses_simplified_chinese_fallback_for_traditional_chinese() -> 
     assert 'data-explainer-locale="zh-cn"' in html
     assert "中文 anatomy heading" in html
     assert "English anatomy heading" not in html
+
+
+def test_request_response_keeps_a_single_validated_node_unique() -> None:
+    explainer = _valid_explainer("request-response", 1)
+    explainer["scene"]["nodes"] = explainer["scene"]["nodes"][:1]
+    explainer["scene"]["relations"] = []
+
+    html = render_visual_explainer(explainer, "en")
+
+    assert html.count('class="visual-request-endpoint"') == 2
+    assert 'class="visual-contract-panel"' in html
+    assert html.count('data-explainer-node="request-response-source"') == 1
+
+
+def test_request_response_describes_a_contract_without_reusing_endpoint_nodes() -> None:
+    explainer = _valid_explainer("request-response", 1)
+    explainer["scene"]["nodes"] = explainer["scene"]["nodes"][:2]
+    explainer["scene"]["relations"] = [
+        {"from": "request-response-source", "to": "request-response-middle"}
+    ]
+
+    html = render_visual_explainer(explainer, "en")
+
+    assert 'class="visual-contract-relations"' in html
+    assert 'data-contract-from="request-response-source"' in html
+    assert 'data-contract-to="request-response-middle"' in html
+    assert html.count('data-explainer-node="request-response-source"') == 1
+    assert html.count('data-explainer-node="request-response-middle"') == 1
+
+
+def test_hierarchy_keeps_nested_list_structure_without_declared_relations() -> None:
+    explainer = _valid_explainer("hierarchy", 1)
+    explainer["scene"]["relations"] = []
+
+    html = render_visual_explainer(explainer, "en")
+
+    assert html.count('<ul class="visual-hierarchy') >= 2
+    assert html.count("data-explainer-node=") == len(explainer["scene"]["nodes"])
