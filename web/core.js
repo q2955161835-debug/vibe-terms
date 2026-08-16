@@ -12,6 +12,13 @@
   const DAY_MS = 86_400_000;
   const MINUTE_MS = 60_000;
   const DEFAULT_DAILY_COUNT = 3;
+  const LOCAL_STATE_KEYS = Object.freeze({
+    termProgress: 'slug',
+    exerciseAttempts: 'exerciseId',
+    pathProgress: 'pathId',
+    bookmarks: 'id',
+    recentViews: 'id',
+  });
 
   function normalizeSearchText(value) {
     return String(value ?? '')
@@ -154,6 +161,49 @@
     };
   }
 
+  function isLocalStateRow(store, row) {
+    if (!row || typeof row !== 'object' || Array.isArray(row)) return false;
+    const key = LOCAL_STATE_KEYS[store];
+    if (typeof row[key] !== 'string' || !row[key].trim()) return false;
+    if (!Number.isFinite(row.updatedAt) || row.updatedAt < 0) return false;
+    if (store === 'exerciseAttempts') {
+      if (typeof row.slug !== 'string' || !row.slug.trim()) return false;
+      if (typeof row.correct !== 'boolean' || !Array.isArray(row.selected)) return false;
+      if (!row.selected.every((value) => typeof value === 'string')) return false;
+    }
+    if (store === 'pathProgress' && typeof row.completed !== 'boolean') return false;
+    if (store === 'bookmarks') {
+      if (typeof row.slug !== 'string' || !row.slug.trim()) return false;
+      if (typeof row.selected !== 'boolean') return false;
+    }
+    if (store === 'recentViews' && (typeof row.slug !== 'string' || !row.slug.trim())) return false;
+    return true;
+  }
+
+  function validateLocalStateV2(payload) {
+    if (!payload || typeof payload !== 'object' || Array.isArray(payload)) return false;
+    if (payload.schemaVersion !== 2) return false;
+    return Object.keys(LOCAL_STATE_KEYS).every(
+      (store) => Array.isArray(payload[store]) && payload[store].every((row) => isLocalStateRow(store, row)),
+    );
+  }
+
+  function mergeLocalStateV2(current, incoming) {
+    if (!validateLocalStateV2(current) || !validateLocalStateV2(incoming)) {
+      throw new TypeError('Invalid Vibe Terms schema v2 local state.');
+    }
+    const merged = { schemaVersion: 2 };
+    for (const [store, key] of Object.entries(LOCAL_STATE_KEYS)) {
+      const byId = new Map(current[store].map((row) => [row[key], { ...row }]));
+      for (const row of incoming[store]) {
+        const previous = byId.get(row[key]);
+        if (!previous || row.updatedAt >= previous.updatedAt) byId.set(row[key], { ...row });
+      }
+      merged[store] = [...byId.values()];
+    }
+    return merged;
+  }
+
   function clampDailyCount(value) {
     const parsed = Number(value);
     if (!Number.isFinite(parsed)) return DEFAULT_DAILY_COUNT;
@@ -274,10 +324,12 @@
     gradeExercise,
     groupSearchResults,
     localDateKey,
+    mergeLocalStateV2,
     migrateLocalStateV1,
     normalizeSearchText,
     scheduleReview,
     scoreSearchDocument,
     scoreTerm,
+    validateLocalStateV2,
   };
 });

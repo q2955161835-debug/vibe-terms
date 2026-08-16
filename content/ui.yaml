@@ -37,6 +37,7 @@ en:
   storage_error: Local learning data could not be opened in this browser.
   added: Added to learning
   copy: Copy prompt
+  copy_markdown: Copy as Markdown
   copied: Copied
   theme: Theme
   category_intro: Browse {count} beginner-friendly terms in {domain}.
@@ -134,6 +135,7 @@ zh-cn:
   storage_error: 当前浏览器无法打开本地学习数据。
   added: 已加入学习
   copy: 复制提示词
+  copy_markdown: 复制为 Markdown
   copied: 已复制
   theme: 主题
   category_intro: 浏览“{domain}”中的 {count} 个新手友好术语。
@@ -231,6 +233,7 @@ zh-tw:
   storage_error: 目前瀏覽器無法開啟本機學習資料。
   added: 已加入學習
   copy: 複製提示詞
+  copy_markdown: 複製為 Markdown
   copied: 已複製
   theme: 主題
   category_intro: 瀏覽「{domain}」中的 {count} 個新手友善術語。
@@ -328,6 +331,7 @@ ja:
   storage_error: このブラウザではローカル学習データを開けません。
   added: 学習に追加済み
   copy: プロンプトをコピー
+  copy_markdown: Markdown としてコピー
   copied: コピーしました
   theme: テーマ
   category_intro: 「{domain}」の初心者向け用語を {count} 件見る。
@@ -425,6 +429,7 @@ ko:
   storage_error: 이 브라우저에서 로컬 학습 데이터를 열 수 없습니다.
   added: 학습에 추가됨
   copy: 프롬프트 복사
+  copy_markdown: Markdown으로 복사
   copied: 복사됨
   theme: 테마
   category_intro: '{domain}의 초보자용 용어 {count}개를 살펴보세요.'
@@ -522,6 +527,7 @@ de:
   storage_error: Lokale Lerndaten konnten in diesem Browser nicht geöffnet werden.
   added: Zum Lernen hinzugefügt
   copy: Prompt kopieren
+  copy_markdown: Als Markdown kopieren
   copied: Kopiert
   theme: Darstellung
   category_intro: Entdecke {count} einsteigerfreundliche Begriffe aus „{domain}“.
@@ -619,6 +625,7 @@ ru:
   storage_error: Не удалось открыть локальные учебные данные в этом браузере.
   added: Добавлено в обучение
   copy: Копировать запрос
+  copy_markdown: Копировать как Markdown
   copied: Скопировано
   theme: Тема
   category_intro: Посмотрите {count} понятных новичку терминов из раздела «{domain}».
@@ -716,6 +723,7 @@ hi:
   storage_error: इस ब्राउज़र में लोकल सीखने का डेटा नहीं खुल सका।
   added: सीखने में जोड़ा गया
   copy: प्रॉम्प्ट कॉपी करें
+  copy_markdown: Markdown के रूप में कॉपी करें
   copied: कॉपी हो गया
   theme: थीम
   category_intro: “{domain}” के {count} शुरुआती-अनुकूल शब्द देखें।

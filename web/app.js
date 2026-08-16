@@ -41,11 +41,11 @@
   });
 
   const themeButton = document.querySelector('.theme-toggle');
-  const themeOrder = ['system', 'light', 'dark'];
+  const themeOrder = ['light', 'dark', 'system'];
   const themeIcons = { system: '◐', light: '☀', dark: '☾' };
 
   function setTheme(theme) {
-    const normalized = themeOrder.includes(theme) ? theme : 'system';
+    const normalized = themeOrder.includes(theme) ? theme : 'light';
     root.dataset.theme = normalized;
 
     if (themeButton) {
@@ -62,9 +62,9 @@
     }
   }
 
-  setTheme(root.dataset.theme || 'system');
+  setTheme(root.dataset.theme || 'light');
   themeButton?.addEventListener('click', () => {
-    const current = root.dataset.theme || 'system';
+    const current = root.dataset.theme || 'light';
     const next = themeOrder[(themeOrder.indexOf(current) + 1) % themeOrder.length];
     setTheme(next);
   });
@@ -638,6 +638,10 @@
           rows.splice(0, rows.length, ...bySlug.values());
         }
       }
+      if (!rows.length) {
+        localStorage.removeItem(marker);
+        return;
+      }
       const migrated = core.migrateLocalStateV1(rows, Date.now());
       for (const row of migrated.termProgress) await put('termProgress', row);
       localStorage.setItem(marker, '1');
@@ -798,15 +802,49 @@
     });
   });
 
-  document.querySelectorAll('[data-bookmark]').forEach((button) => {
+  const bookmarkButtons = Array.from(document.querySelectorAll('[data-bookmark]'));
+  const changedBookmarks = new Set();
+  getAll('bookmarks').then((rows) => {
+    const selected = new Map(rows.map((row) => [row.id, Boolean(row.selected)]));
+    bookmarkButtons.forEach((button) => {
+      const slug = button.dataset.termSlug;
+      if (slug && !changedBookmarks.has(slug)) {
+        button.setAttribute('aria-pressed', String(selected.get(slug) === true));
+      }
+    });
+  });
+  bookmarkButtons.forEach((button) => {
     const slug = button.dataset.termSlug;
     if (!slug) return;
     button.addEventListener('click', async () => {
       const selected = button.getAttribute('aria-pressed') !== 'true';
-      button.setAttribute('aria-pressed', String(selected));
+      changedBookmarks.add(slug);
+      bookmarkButtons
+        .filter((item) => item.dataset.termSlug === slug)
+        .forEach((item) => item.setAttribute('aria-pressed', String(selected)));
       await put('bookmarks', { id: slug, slug, selected, updatedAt: Date.now() });
     });
   });
+
+  const pathChapter = document.querySelector('.path-chapter[data-path-slug][data-chapter-id]');
+  const pathComplete = pathChapter?.querySelector('[data-path-complete]');
+  if (pathChapter && pathComplete) {
+    const pathId = `${pathChapter.dataset.pathSlug}:${pathChapter.dataset.chapterId}`;
+    let changedSinceLoad = false;
+    getAll('pathProgress').then((rows) => {
+      if (changedSinceLoad) return;
+      const saved = rows.find((row) => row.pathId === pathId);
+      pathComplete.checked = Boolean(saved?.completed);
+    });
+    pathComplete.addEventListener('change', () => {
+      changedSinceLoad = true;
+      void put('pathProgress', {
+        pathId,
+        completed: pathComplete.checked,
+        updatedAt: Date.now(),
+      });
+    });
+  }
 
   const currentTerm = document.querySelector('[data-term-page]')?.dataset.termSlug;
   if (currentTerm) put('recentViews', { id: currentTerm, slug: currentTerm, updatedAt: Date.now() });
@@ -860,36 +898,74 @@
     URL.revokeObjectURL(link.href);
   });
 
+  async function importLocalState(payload) {
+    const current = { schemaVersion: 2 };
+    for (const store of stores) current[store] = await getAll(store);
+    const merged = core.mergeLocalStateV2(current, payload);
+    const database = await openDatabase();
+    if (!database) {
+      if (!writeFallback(merged)) throw new Error('Local fallback storage is unavailable.');
+      return;
+    }
+    await new Promise((resolve, reject) => {
+      const transaction = database.transaction(stores, 'readwrite');
+      transaction.oncomplete = resolve;
+      transaction.onerror = () => reject(transaction.error || new Error('Local import failed.'));
+      transaction.onabort = () => reject(transaction.error || new Error('Local import was aborted.'));
+      for (const store of stores) {
+        const target = transaction.objectStore(store);
+        target.clear();
+        for (const row of merged[store]) target.put(row);
+      }
+    });
+    database.close();
+  }
+
   document.querySelector('[data-import-local]')?.addEventListener('change', async (event) => {
-    const file = event.currentTarget.files?.[0];
+    const input = event.currentTarget;
+    const file = input.files?.[0];
     if (!file) return;
     let payload;
     try { payload = JSON.parse(await file.text()); }
-    catch { event.currentTarget.setCustomValidity('Invalid JSON file.'); event.currentTarget.reportValidity(); return; }
-    const valid = payload?.schemaVersion === 2 && stores.every((store) => Array.isArray(payload[store]));
-    if (!valid) { event.currentTarget.setCustomValidity('This is not a Vibe Terms schema v2 export.'); event.currentTarget.reportValidity(); return; }
-    event.currentTarget.setCustomValidity('');
-    for (const store of stores) {
-      const current = await getAll(store);
-      const idKey = store === 'termProgress' ? 'slug' : store === 'exerciseAttempts' ? 'exerciseId' : store === 'pathProgress' ? 'pathId' : 'id';
-      const byId = new Map(current.map((row) => [row[idKey], row]));
-      for (const row of payload[store]) {
-        if (!row || typeof row !== 'object' || !row[idKey]) continue;
-        const previous = byId.get(row[idKey]);
-        if (!previous || Number(row.updatedAt || 0) >= Number(previous.updatedAt || 0)) await put(store, row);
-      }
+    catch { input.setCustomValidity('Invalid JSON file.'); input.reportValidity(); return; }
+    if (!core.validateLocalStateV2(payload)) {
+      input.setCustomValidity('This is not a complete Vibe Terms schema v2 export.');
+      input.reportValidity();
+      return;
     }
-    location.reload();
+    input.setCustomValidity('');
+    try {
+      await importLocalState(payload);
+      location.reload();
+    } catch {
+      input.setCustomValidity('The local data import could not be completed.');
+      input.reportValidity();
+    }
   });
+
+  function deleteLocalDatabase(name) {
+    return new Promise((resolve, reject) => {
+      const request = indexedDB.deleteDatabase(name);
+      request.onsuccess = resolve;
+      request.onerror = () => reject(request.error || new Error(`Could not delete ${name}.`));
+    });
+  }
 
   document.querySelector('[data-clear-local]')?.addEventListener('click', async (event) => {
     const button = event.currentTarget;
     if (button.dataset.confirm !== 'true') { button.dataset.confirm = 'true'; button.textContent = button.dataset.confirmLabel || 'Confirm clear'; return; }
-    await new Promise((resolve) => {
-      const request = indexedDB.deleteDatabase(databaseName);
-      request.onsuccess = request.onerror = request.onblocked = resolve;
-    });
-    try { localStorage.removeItem(localStateKey); localStorage.removeItem('vibe-terms-progress-v1'); } catch { /* ignored */ }
-    location.reload();
+    try {
+      await deleteLocalDatabase(databaseName);
+      await deleteLocalDatabase('vibe-terms-guest-v1');
+      try {
+        localStorage.removeItem(localStateKey);
+        localStorage.removeItem('vibe-terms-progress-v1');
+        localStorage.removeItem('vibe-terms-v2-migration-complete');
+      } catch { /* ignored */ }
+      location.reload();
+    } catch {
+      button.dataset.clearError = 'true';
+      button.textContent = platformMessage('clear_failed', 'Local data could not be cleared.');
+    }
   });
 })();

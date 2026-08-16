@@ -18,7 +18,10 @@
       });
       states.forEach((state) => {
         const active = state.dataset.exampleState === stateId;
-        state.hidden = !active;
+        state.hidden = false;
+        state.classList.toggle('is-active', active);
+        if (active) state.setAttribute('aria-current', 'step');
+        else state.removeAttribute('aria-current');
       });
     };
 

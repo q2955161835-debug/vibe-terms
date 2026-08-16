@@ -8,10 +8,12 @@ const {
   gradeExercise,
   groupSearchResults,
   migrateLocalStateV1,
+  mergeLocalStateV2,
   normalizeSearchText,
   scheduleReview,
   scoreSearchDocument,
   scoreTerm,
+  validateLocalStateV2,
 } = require('../../web/core.js');
 
 test('normalizes Unicode, separators, and case for multilingual search', () => {
@@ -140,4 +142,44 @@ test('v1 migration is idempotent', () => {
   assert.deepEqual(migrateLocalStateV1(once, 200), once);
   assert.equal(once.schemaVersion, 2);
   assert.equal(once.termProgress[0].slug, 'api');
+});
+
+test('validates every local v2 row before import and merges by timestamp', () => {
+  const empty = {
+    schemaVersion: 2,
+    termProgress: [],
+    exerciseAttempts: [],
+    pathProgress: [],
+    bookmarks: [],
+    recentViews: [],
+  };
+  const incoming = {
+    ...empty,
+    termProgress: [{ slug: 'api', rating: 'mastered', updatedAt: 200 }],
+    bookmarks: [{ id: 'api', slug: 'api', selected: true, updatedAt: 200 }],
+  };
+  assert.equal(validateLocalStateV2(incoming), true);
+  assert.equal(
+    validateLocalStateV2({ ...incoming, bookmarks: [{ id: '', updatedAt: 200 }] }),
+    false,
+  );
+  assert.equal(
+    validateLocalStateV2({ ...incoming, recentViews: [{ id: 'api', updatedAt: 'later' }] }),
+    false,
+  );
+
+  const merged = mergeLocalStateV2(
+    {
+      ...empty,
+      termProgress: [{ slug: 'api', rating: 'again', updatedAt: 100 }],
+      bookmarks: [{ id: 'css', slug: 'css', selected: true, updatedAt: 300 }],
+    },
+    incoming,
+  );
+  assert.equal(merged.termProgress[0].rating, 'mastered');
+  assert.deepEqual(merged.bookmarks.map((row) => row.id).sort(), ['api', 'css']);
+  assert.throws(
+    () => mergeLocalStateV2(empty, { ...incoming, pathProgress: [{ pathId: '' }] }),
+    /schema v2/i,
+  );
 });

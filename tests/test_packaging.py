@@ -26,6 +26,7 @@ def test_static_archive_is_ready_for_direct_hosting() -> None:
         "404.html",
         "manifest.webmanifest",
         "assets/app.js",
+        "assets/clarity.css",
         "assets/core.js",
         "assets/examples.js",
         "assets/search-index.en.json",

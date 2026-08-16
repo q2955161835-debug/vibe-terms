@@ -146,6 +146,12 @@ def test_rich_term_page_is_readable_without_javascript(generated_site: Path) -> 
     assert "data-exercise-feedback" in html
     assert "data-bookmark" in html
     assert 'class="term-pagination"' in html
+    assert 'class="term-page-toolbar"' in html
+    assert 'class="term-voice"' in html
+    assert 'class="term-definition-summary"' in html
+    assert 'class="example-journey"' in html
+    assert html.count('class="example-stage') >= 4
+    assert "data-copy-markdown" in html
     for localized_label in (
         "你可以这样说",
         "简短定义",
@@ -161,6 +167,18 @@ def test_rich_term_page_is_readable_without_javascript(generated_site: Path) -> 
         assert localized_label in html
     assert "<h2>Short definition</h2>" not in html
     assert "<h2>Exercise</h2>" not in html
+
+
+def test_home_is_a_clear_domain_topic_and_term_card_explorer(generated_site: Path) -> None:
+    html = (generated_site / "zh-cn" / "index.html").read_text(encoding="utf-8")
+    assert 'class="explorer-tabs"' in html
+    assert 'class="topic-sidebar"' in html
+    assert 'class="term-card-grid"' in html
+    assert 'class="term-card-example"' in html
+    assert 'class="term-card-quote"' in html
+    assert "前端工程 VibeCoding 术语" in html
+    assert 'href="/assets/clarity.css"' in html
+    assert "从一句想法，走到真正上线。" not in html
 
 
 def test_static_example_pages_do_not_render_inert_controls(generated_site: Path) -> None:

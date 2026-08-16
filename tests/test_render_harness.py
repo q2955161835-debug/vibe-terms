@@ -28,7 +28,10 @@ def _launch_browser(playwright):
 
 def _inline_document(relative_path: str) -> str:
     html = (SITE / relative_path).read_text(encoding="utf-8")
-    css = (WEB / "styles.css").read_text(encoding="utf-8")
+    css = "\n".join(
+        (WEB / name).read_text(encoding="utf-8")
+        for name in ("styles.css", "clarity.css")
+    )
     logo = quote((WEB / "logo.svg").read_text(encoding="utf-8"))
 
     html = re.sub(r'<link\b[^>]*>', '', html)
@@ -90,11 +93,11 @@ def test_home_search_theme_and_mobile_layout_without_http_navigation() -> None:
             page = browser.new_page(viewport={"width": 1280, "height": 900})
             errors = _mount(page, "zh-cn/index.html", "zh-cn")
 
-            assert page.locator("h1").inner_text() == "从一句想法，走到真正上线。"
-            field = page.locator("#home-search")
+            assert page.locator("h1").inner_text() == "前端工程 VibeCoding 术语"
+            field = page.locator(".desktop-search [data-search-input]")
             field.fill("Authentication")
-            page.wait_for_selector("#search-results a")
-            first = page.locator("#search-results a").first
+            page.wait_for_selector(".desktop-search [data-search-results] a")
+            first = page.locator(".desktop-search [data-search-results] a").first
             assert first.get_attribute("href") == "/zh-cn/terms/authentication/"
             field.press("ArrowDown")
             assert field.get_attribute("aria-activedescendant") == "global-search-term-0"
@@ -114,9 +117,9 @@ def test_home_search_theme_and_mobile_layout_without_http_navigation() -> None:
                 "() => ({ innerWidth: window.innerWidth, scrollWidth: document.documentElement.scrollWidth })"
             )
             assert dimensions["scrollWidth"] <= dimensions["innerWidth"]
-            assert mobile.locator(".domain-card").count() == 12
-            assert mobile.locator(".path-card").count() == 3
-            assert mobile.locator(".brand span").is_visible()
+            assert mobile.locator(".term-card").count() >= 3
+            assert mobile.locator(".desktop-search [data-search-input]").is_visible()
+            assert not mobile.locator(".brand span").is_visible()
         finally:
             browser.close()
 
@@ -167,16 +170,18 @@ def test_all_locales_render_home_and_term_pages_without_horizontal_overflow() ->
                     "() => ({ innerWidth: window.innerWidth, scrollWidth: document.documentElement.scrollWidth })"
                 )
                 assert dimensions["scrollWidth"] <= dimensions["innerWidth"], locale
-                assert home.locator(".domain-card").count() == 12
-                assert home.locator("#home-search").is_visible()
+                assert home.locator(".term-card").count() >= 3
+                assert home.locator(".desktop-search [data-search-input]").is_visible()
                 if locale == "hi":
-                    typography = home.locator(".hero h1").evaluate(
+                    typography = home.locator(".explorer-heading h1").evaluate(
                         """element => {
                           const style = getComputedStyle(element);
                           return {
                             fontSize: parseFloat(style.fontSize),
                             lineHeight: parseFloat(style.lineHeight),
-                            letterSpacing: parseFloat(style.letterSpacing),
+                            letterSpacing: style.letterSpacing === 'normal'
+                              ? 0
+                              : parseFloat(style.letterSpacing),
                           };
                         }"""
                     )
@@ -192,7 +197,7 @@ def test_all_locales_render_home_and_term_pages_without_horizontal_overflow() ->
                 )
                 assert dimensions["scrollWidth"] <= dimensions["innerWidth"], locale
                 assert term.locator(".term-heading h1").is_visible()
-                assert term.locator(".lead").inner_text().strip()
+                assert term.locator(".term-definition-summary").inner_text().strip()
                 assert errors == []
                 term.close()
         finally:

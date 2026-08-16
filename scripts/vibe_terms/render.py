@@ -86,7 +86,14 @@ class SiteRenderer:
         if self.output.exists():
             shutil.rmtree(self.output)
         self.assets.mkdir(parents=True)
-        for filename in ("app.js", "core.js", "examples.js", "styles.css", "logo.svg"):
+        for filename in (
+            "app.js",
+            "core.js",
+            "examples.js",
+            "styles.css",
+            "clarity.css",
+            "logo.svg",
+        ):
             source = self.web / filename
             if not source.is_file():
                 raise ValueError(f"missing required browser asset: {source}")
@@ -140,9 +147,10 @@ class SiteRenderer:
             f'<meta property="og:url" content="{_esc(self.urls.absolute(canonical_route))}"/>'
             f'<link rel="icon" href="{_esc(self.urls.asset("assets/logo.svg"))}" type="image/svg+xml"/>'
             f'<link rel="stylesheet" href="{_esc(self.urls.asset("assets/styles.css"))}"/>'
+            f'<link rel="stylesheet" href="{_esc(self.urls.asset("assets/clarity.css"))}"/>'
             f'<link rel="manifest" href="{_esc(self.urls.page("manifest.webmanifest"))}"/>'
             f'<link rel="canonical" href="{_esc(self.urls.absolute(canonical_route))}"/>'
-            f'{alternate_links}<script>try{{document.documentElement.dataset.theme=localStorage.getItem("vibe-theme")||"system"}}catch(e){{document.documentElement.dataset.theme="system"}}</script>'
+            f'{alternate_links}<script>try{{document.documentElement.dataset.theme=localStorage.getItem("vibe-theme")||"light"}}catch(e){{document.documentElement.dataset.theme="light"}}</script>'
             f'{structured}</head>'
         )
 
@@ -269,7 +277,7 @@ class SiteRenderer:
         page = (
             f'<!doctype html><html lang="en" data-base-path="{_esc(self.config.base_path)}" data-search-index="{_esc(self.urls.asset("assets/search-index.en.json"))}" data-exercise-index="{_esc(self.urls.asset("assets/exercises.en.json"))}"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>'
             f'<title>Choose language · {PRODUCT_NAME}</title><meta name="robots" content="index,follow"/>'
-            f'<link rel="icon" href="{_esc(self.urls.asset("assets/logo.svg"))}"/><link rel="stylesheet" href="{_esc(self.urls.asset("assets/styles.css"))}"/>'
+            f'<link rel="icon" href="{_esc(self.urls.asset("assets/logo.svg"))}"/><link rel="stylesheet" href="{_esc(self.urls.asset("assets/styles.css"))}"/><link rel="stylesheet" href="{_esc(self.urls.asset("assets/clarity.css"))}"/>'
             f'<link rel="manifest" href="{_esc(self.urls.page("manifest.webmanifest"))}"/><link rel="canonical" href="{_esc(self.urls.absolute("/"))}"/></head><body data-base-path="{_esc(self.config.base_path)}">'
             f'<a class="skip-link" href="#main-content">Skip to content</a>{self.header("en", "/")}<main id="main-content" class="language-fallback"><p class="gateway-brand">VIBE TERMS</p><h1>Choose your language</h1><p>A local-first Vibe Coding terminology guide with no account required.</p><div class="language-grid">{cards}</div>'
             f'<noscript><section><h2>Language links</h2><div class="language-list">{fallback}</div></section></noscript></main><script type="application/json" id="ui-messages">{_json(self.ui["en"])}</script>'
@@ -293,36 +301,90 @@ class SiteRenderer:
         for filename, payload in payloads.items():
             (self.assets / filename).write_text(_json(payload), encoding="utf-8")
 
+    def explorer_domains(self) -> list[dict[str, Any]]:
+        priority = (
+            "frontend-engineering",
+            "backend-apis",
+            "product-requirements",
+            "ai-vibe",
+            "web-network",
+            "ui-ux",
+            "git-collaboration",
+            "data-databases",
+            "testing-debugging",
+            "security-privacy",
+            "deployment-operations",
+            "computing-env",
+        )
+        positions = {domain_id: index for index, domain_id in enumerate(priority)}
+        return sorted(
+            self.catalog.domains,
+            key=lambda domain: positions.get(str(domain["id"]), len(positions)),
+        )
+
+    def term_card(self, locale: str, term: dict[str, Any]) -> str:
+        localized = term["localized"][locale]
+        canonical = (
+            f'<span>{_esc(term["canonical_name"])}</span>'
+            if localized["title"].casefold() != term["canonical_name"].casefold()
+            else ""
+        )
+        return (
+            '<article class="term-card" data-term-card '
+            f'data-domain="{_esc(term["primary_domain"])}">'
+            '<div class="term-card-head">'
+            f'<a href="{_esc(self.urls.page(f"/{locale}/terms/{term["slug"]}/"))}"><h3><strong>{_esc(localized["title"])}</strong>{canonical}</h3></a>'
+            f'<button type="button" data-bookmark data-term-slug="{_esc(term["slug"])}" aria-pressed="false">{_esc(self.label(locale, "bookmark", "Bookmark"))}</button></div>'
+            f'<p class="term-card-quote"><span>{_esc(self.label(locale, "user_says", "You may say"))}</span>“{_esc(localized["user_says"])}”</p>'
+            '<div class="term-card-example">'
+            f'<div><span>01 · {_esc(self.label(locale, "project_example", "Project example"))}</span><p>{_esc(localized["project_example"])}</p></div>'
+            f'<div><span>02 · {_esc(self.label(locale, "mechanism", "How it works"))}</span><p>{_esc(localized["mechanism"])}</p></div>'
+            f'<div><span>03 · {_esc(self.label(locale, "verify", "Verify"))}</span><p>{_esc(localized["boundary"])}</p></div>'
+            '</div></article>'
+        )
+
+    def explorer_body(self, locale: str, domain: dict[str, Any]) -> str:
+        domain_id = str(domain["id"])
+        domains = self.explorer_domains()
+        tabs = "".join(
+            (
+                f'<a class="explorer-tab{" is-active" if item["id"] == domain_id else ""}" '
+                f'href="{_esc(self.urls.page(f"/{locale}/" if item["id"] == "frontend-engineering" else f"/{locale}/knowledge/{item["id"]}/"))}" '
+                f'aria-current="{"page" if item["id"] == domain_id else "false"}">'
+                f'{_esc(_domain_name(item, locale))}<span>{sum(term["primary_domain"] == item["id"] for term in self.catalog.terms)}</span></a>'
+            )
+            for item in domains
+        )
+        topics = [
+            topic for topic in self.catalog.topics if topic["domain"] == domain_id
+        ]
+        topic_nav = "".join(
+            f'<a href="#topic-{_esc(topic["id"])}">{_esc(topic["names"][locale])}</a>'
+            for topic in topics
+        )
+        sections = "".join(
+            '<section class="explorer-topic" '
+            f'id="topic-{_esc(topic["id"])}"><div class="topic-heading"><h2>{_esc(topic["names"][locale])}</h2><span>{len(topic["terms"])} {_esc(self.label(locale, "terms_unit", "terms"))}</span></div>'
+            f'<div class="term-card-grid">{"".join(self.term_card(locale, self.term_by_slug[slug]) for slug in topic["terms"])}</div></section>'
+            for topic in topics
+        )
+        title = f'{_domain_name(domain, locale)} VibeCoding {self.label(locale, "terms", "Terms")}'
+        return (
+            f'<nav class="explorer-tabs" aria-label="{_esc(self.label(locale, "knowledge", "Knowledge map"))}">{tabs}</nav>'
+            '<div class="terminology-explorer">'
+            f'<aside class="topic-sidebar"><nav aria-label="{_esc(self.label(locale, "related", "Topics"))}">{topic_nav}</nav></aside>'
+            f'<div class="explorer-main"><header class="explorer-heading"><p>{_esc(self.label(locale, "knowledge", "Knowledge map"))}</p><h1>{_esc(title)}</h1></header>{sections}</div>'
+            '</div>'
+        )
+
     def build_home(self, locale: str) -> None:
         ui = self.ui[locale]
-        cards: list[str] = []
-        for domain in self.catalog.domains:
-            terms = [
-                term
-                for term in self.catalog.terms
-                if term["primary_domain"] == domain["id"]
-            ]
-            topics = [
-                topic for topic in self.catalog.topics if topic["domain"] == domain["id"]
-            ]
-            samples = " · ".join(topic["names"][locale] for topic in topics[:3])
-            cards.append(
-                f'<a class="domain-card" href="{_esc(self.urls.page(f"/{locale}/knowledge/{domain["id"]}/"))}"><span class="domain-name">{_esc(_domain_name(domain, locale))}</span><span class="domain-examples">{_esc(samples)}</span><strong>{len(terms)} {_esc(self.label(locale, "terms_unit", "terms"))}</strong></a>'
-            )
-        paths = "".join(
-            f'<a class="path-card" href="{_esc(self.urls.page(f"/{locale}/paths/{path["slug"]}/"))}"><span class="domain-name">{_esc(path["localized"][locale]["title"])}</span><span class="domain-examples">{_esc(path["localized"][locale]["summary"])}</span><strong>{len(path["chapters"])} chapters</strong></a>'
-            for path in self.catalog.paths
+        selected = next(
+            domain
+            for domain in self.catalog.domains
+            if domain["id"] == "frontend-engineering"
         )
-        first_terms = "".join(
-            self.term_link(locale, term) for term in self.catalog.terms[:6]
-        )
-        body = (
-            f'<section class="hero"><div class="eyebrow">{_esc(ui["hero_eyebrow"])}</div><h1>{_esc(ui["hero"])}</h1><p>{_esc(ui["sub"])}</p>'
-            f'<form id="home-search-form" class="search-wrap" data-global-search role="search"><div class="search-shell"><input id="home-search" type="search" data-search-input autocomplete="off" placeholder="{_esc(ui["search"])}" aria-label="{_esc(ui["search"])}" role="combobox" aria-autocomplete="list" aria-controls="search-results" aria-expanded="false"/><button type="submit">{_esc(ui["search_btn"])}</button></div><div id="search-results" class="search-results" data-search-results role="listbox" aria-live="polite" hidden></div></form></section>'
-            f'<section><div class="section-head"><h2>{_esc(ui["knowledge"])}</h2><a href="{_esc(self.urls.page(f"/{locale}/knowledge/"))}">{_esc(ui["all_terms"])}</a></div><div class="domain-grid">{"".join(cards)}</div></section>'
-            f'<section><div class="section-head"><h2>{_esc(ui["route"])}</h2><a href="{_esc(self.urls.page(f"/{locale}/paths/"))}">{_esc(ui["route"])}</a></div><div class="domain-grid">{paths}</div></section>'
-            f'<section><div class="section-head"><h2>{_esc(ui["trending"])}</h2></div><div class="chip-row">{first_terms}</div></section>'
-        )
+        body = self.explorer_body(locale, selected)
         indexable = all(
             term["localized"][locale]["status"] == "published"
             for term in self.catalog.terms
@@ -389,11 +451,7 @@ class SiteRenderer:
             topics = [
                 topic for topic in self.catalog.topics if topic["domain"] == domain_id
             ]
-            topic_links = "".join(
-                f'<a class="chip" href="{_esc(self.urls.page(f"/{locale}/knowledge/{domain_id}/{topic["id"]}/"))}">{_esc(topic["names"][locale])} ({len(topic["terms"])})</a>'
-                for topic in topics
-            )
-            body = f'<section class="category-hero"><a class="back" href="{_esc(self.urls.page(f"/{locale}/knowledge/"))}">← {_esc(self.label(locale, "knowledge", "Knowledge"))}</a><h1>{_esc(domain_title)}</h1><div class="chip-row">{topic_links}</div></section>{self.term_list(locale, domain_terms)}'
+            body = self.explorer_body(locale, domain)
             indexable = all(
                 term["localized"][locale]["status"] == "published"
                 for term in domain_terms
@@ -428,7 +486,10 @@ class SiteRenderer:
             for topic in topics:
                 topic_terms = [self.term_by_slug[slug] for slug in topic["terms"]]
                 topic_title = topic["names"][locale]
-                topic_body = f'<section class="category-hero"><a class="back" href="{_esc(self.urls.page(route))}">← {_esc(domain_title)}</a><h1>{_esc(topic_title)}</h1><p>{_esc(topic["descriptions"][locale])}</p></section>{self.term_list(locale, topic_terms)}'
+                topic_body = (
+                    f'<section class="category-hero"><a class="back" href="{_esc(self.urls.page(route))}">← {_esc(domain_title)}</a><h1>{_esc(topic_title)}</h1><p>{_esc(topic["descriptions"][locale])}</p></section>'
+                    f'<div class="term-card-grid">{"".join(self.term_card(locale, term) for term in topic_terms)}</div>'
+                )
                 topic_indexable = all(
                     term["localized"][locale]["status"] == "published"
                     for term in topic_terms
@@ -452,17 +513,46 @@ class SiteRenderer:
     ) -> str:
         example = term["example"]
         heading = _esc(self.label(locale, "example", "Dynamic example"))
-        if example["mode"] == "static":
-            return (
-                f'<section id="example" data-section="example"><h2>{heading}</h2><div class="example-module" data-example-root data-example-id="{_esc(example["id"])}" data-example-mode="static">'
-                f'<p>{_esc(localized["project_example"])}</p><div data-example-state="context"><strong>{_esc(localized["title"])}</strong><p>{_esc(localized["mechanism"])}</p><p>{_esc(localized["boundary"])}</p></div></div></section>'
+        stages = (
+            (
+                "context",
+                self.label(locale, "user_says", "You may say"),
+                localized["user_says"],
+            ),
+            (
+                "concept",
+                self.label(locale, "short_definition", "Short definition"),
+                localized["short_definition"],
+            ),
+            (
+                "apply",
+                self.label(locale, "project_example", "Project example"),
+                localized["project_example"],
+            ),
+            (
+                "verify",
+                self.label(locale, "verification_boundary", "Verification boundary"),
+                localized["boundary"],
+            ),
+        )
+        stage_html = "".join(
+            f'<article class="example-stage{" is-active" if index == 0 else ""}" data-example-state="{_esc(stage_id)}"><span>{index + 1:02d}</span><strong>{_esc(title)}</strong><p>{_esc(copy)}</p></article>'
+            for index, (stage_id, title, copy) in enumerate(stages)
+        )
+        controls = ""
+        if example["mode"] != "static":
+            controls = (
+                '<div class="example-controls" role="group">'
+                + "".join(
+                    f'<button type="button" data-example-control="{_esc(stage_id)}" aria-pressed="{"true" if index == 0 else "false"}">{index + 1} · {_esc(title)}</button>'
+                    for index, (stage_id, title, _copy) in enumerate(stages)
+                )
+                + "</div>"
             )
         return (
-            f'<section id="example" data-section="example"><h2>{heading}</h2><div class="example-module" data-example-root data-example-id="{_esc(example["id"])}" data-example-mode="{_esc(example["mode"])}">'
-            f'<p>{_esc(localized["project_example"])}</p><div class="example-controls"><button type="button" data-example-control="context" aria-pressed="true">{_esc(self.label(locale, "context", "Context"))}</button><button type="button" data-example-control="verify" aria-pressed="false">{_esc(self.label(locale, "verify", "Verify"))}</button></div>'
-            f'<div data-example-state="context"><strong>{_esc(localized["title"])}</strong><p>{_esc(localized["mechanism"])}</p></div>'
-            f'<div data-example-state="verify"><strong>{_esc(self.label(locale, "verification_boundary", "Verification boundary"))}</strong><p>{_esc(localized["boundary"])}</p></div>'
-            f'<noscript><p>{_esc(self.label(locale, "example_noscript", "Both example states are shown in the text above; JavaScript only enhances the controls."))}</p></noscript></div></section>'
+            f'<section id="example" class="example-section" data-section="example"><div class="section-title"><div><p>{heading}</p><h2>{_esc(localized["title"])} · {_esc(self.label(locale, "mechanism", "How it works"))}</h2></div><p>{_esc(localized["mechanism"])}</p></div>'
+            f'<div class="example-journey" data-example-root data-example-id="{_esc(example["id"])}" data-example-mode="{_esc(example["mode"])}"><div class="example-stage-track">{stage_html}</div>{controls}'
+            f'<noscript><p>{_esc(self.label(locale, "example_noscript", "All example stages are available above; JavaScript only highlights the selected stage."))}</p></noscript></div></section>'
         )
 
     def exercise_html(self, locale: str, term: dict[str, Any]) -> str:
@@ -525,17 +615,33 @@ class SiteRenderer:
                 following = ordered_terms[index + 1]
                 next_link = f'<a rel="next" href="{_esc(self.urls.page(f"/{locale}/terms/{following["slug"]}/"))}">{_esc(following["localized"][locale]["title"])} →</a>'
             aliases = " · ".join(str(alias) for alias in term.get("aliases", [])) or "—"
+            markdown_copy = (
+                f'# {localized["title"]} ({term["canonical_name"]})\n\n'
+                f'> {localized["user_says"]}\n\n'
+                f'{localized["short_definition"]}\n\n'
+                f'## {self.label(locale, "project_example", "Project example")}\n\n'
+                f'{localized["project_example"]}\n\n'
+                f'## {self.label(locale, "boundary", "Boundary")}\n\n'
+                f'{localized["boundary"]}'
+            )
+            canonical_heading = (
+                f'<span>{_esc(term["canonical_name"])}</span>'
+                if localized["title"].casefold() != term["canonical_name"].casefold()
+                else ""
+            )
             body = (
-                f'<article class="term-detail" data-term-page data-term-slug="{_esc(term["slug"])}"><a class="back" href="{_esc(self.urls.page(f"/{locale}/terms/"))}">← {_esc(self.label(locale, "back", "Back"))}</a>'
-                f'<div class="term-heading"><div><div class="meta-line"><a href="{_esc(self.urls.page(f"/{locale}/knowledge/{term["primary_domain"]}/"))}">{_esc(term["primary_domain"])}</a>{status}</div><h1>{_esc(localized["title"])}</h1><p class="canonical">{_esc(term["canonical_name"])}</p><div class="term-fields"><span class="term-field">{_esc(term.get("difficulty", "—"))}</span><span class="term-field">{_esc(" / ".join(term.get("lifecycle_stages", [])))}</span></div><p><strong>{_esc(self.label(locale, "aliases", "Aliases"))}:</strong> {_esc(aliases)}</p></div><button type="button" data-bookmark data-term-slug="{_esc(term["slug"])}" aria-pressed="false">☆ {_esc(self.label(locale, "bookmark", "Bookmark"))}</button></div>'
-                f'<section data-section="user-says"><h2>{_esc(self.label(locale, "user_says", "You may say"))}</h2><p>{_esc(localized["user_says"])}</p></section>'
-                f'<section data-section="definition"><h2>{_esc(self.label(locale, "short_definition", "Short definition"))}</h2><p class="lead">{_esc(localized["short_definition"])}</p></section>'
-                f'<section data-section="prerequisites"><h2>{_esc(self.label(locale, "prerequisites", "Prerequisites"))}</h2><div class="chip-row">{prerequisites}</div></section>'
+                f'<article class="term-detail" data-term-page data-term-slug="{_esc(term["slug"])}">'
+                f'<div class="term-page-toolbar"><nav aria-label="{_esc(self.label(locale, "back", "Back"))}"><a class="back" href="{_esc(self.urls.page(f"/{locale}/"))}">← {_esc(self.label(locale, "terms", "Terms"))}</a><span>›</span><strong>{_esc(localized["title"])}</strong></nav><div class="term-actions"><button type="button" data-bookmark data-term-slug="{_esc(term["slug"])}" aria-pressed="false">{_esc(self.label(locale, "bookmark", "Bookmark"))}</button><button type="button" data-copy="{_esc(markdown_copy)}" data-copy-markdown>{_esc(self.label(locale, "copy_markdown", "Copy as Markdown"))}</button></div></div>'
+                f'<header class="term-heading"><div><div class="meta-line"><a href="{_esc(self.urls.page(f"/{locale}/knowledge/{term["primary_domain"]}/"))}">{_esc(term["primary_domain"])}</a>{status}</div><h1><strong>{_esc(localized["title"])}</strong>{canonical_heading}</h1><div class="term-fields"><span class="term-field">{_esc(term.get("difficulty", "—"))}</span><span class="term-field">{_esc(" / ".join(term.get("lifecycle_stages", [])))}</span><span class="term-field">{_esc(self.label(locale, "aliases", "Aliases"))}: {_esc(aliases)}</span></div></div></header>'
+                f'<section class="term-voice" data-section="user-says"><span>{_esc(self.label(locale, "user_says", "You may say"))}</span><p>“{_esc(localized["user_says"])}”</p></section>'
+                f'<section class="term-definition-summary" data-section="definition"><h2 class="visually-hidden">{_esc(self.label(locale, "short_definition", "Short definition"))}</h2><p><strong>{_esc(localized["short_definition"])}</strong><span> · {_esc(localized["why_it_matters"])}</span></p></section>'
+                + self.example_html(locale, term, localized)
+                + '<div class="term-reference-grid">'
                 f'<section data-section="mechanism"><h2>{_esc(self.label(locale, "mechanism", "How it works"))}</h2><p>{_esc(localized["mechanism"])}</p></section>'
                 f'<section data-section="boundary"><h2>{_esc(self.label(locale, "boundary", "Boundary"))}</h2><p>{_esc(localized["boundary"])}</p></section>'
-                + self.example_html(locale, term, localized)
-                + f'<section data-section="why-it-matters"><h2>{_esc(self.label(locale, "why", "Why it matters"))}</h2><p>{_esc(localized["why_it_matters"])}</p></section>'
-                f'<section data-section="project-example"><h2>{_esc(self.label(locale, "project_example", "Project example"))}</h2><p>{_esc(localized["project_example"])}</p></section>'
+                f'<section data-section="prerequisites"><h2>{_esc(self.label(locale, "prerequisites", "Prerequisites"))}</h2><div class="chip-row">{prerequisites}</div></section>'
+                f'<section data-section="why-it-matters"><h2>{_esc(self.label(locale, "why", "Why it matters"))}</h2><p>{_esc(localized["why_it_matters"])}</p></section>'
+                f'<section data-section="project-example"><h2>{_esc(self.label(locale, "project_example", "Project example"))}</h2><p>{_esc(localized["project_example"])}</p></section></div>'
                 + self.exercise_html(locale, term)
                 + f'<section class="prompt-box" data-section="agent-prompt"><h2>{_esc(self.label(locale, "prompt", "Tell your AI"))}</h2><pre>{_esc(localized["ai_prompt_example"])}</pre><button type="button" data-copy="{_esc(localized["ai_prompt_example"])}">{_esc(self.label(locale, "copy", "Copy"))}</button></section>'
                 f'<section data-section="common-mistake"><h2>{_esc(self.label(locale, "mistake", "Common mistake"))}</h2><p>{_esc(localized["common_mistake"])}</p></section>'
