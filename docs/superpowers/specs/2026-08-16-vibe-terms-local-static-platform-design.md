@@ -1,8 +1,8 @@
 # Vibe Terms 本地静态平台设计规范
 
-> 状态：待用户审阅；本文件只定义后续实现，不授权本轮修改网页、推送或部署。  
-> 修订日期：2026-08-16  
-> 取代：`2026-08-15-vibe-terms-platform-design.md`  
+> 状态：待用户审阅；本文件只定义后续实现，不授权本轮修改网页、推送或部署。
+> 修订日期：2026-08-16
+> 取代：`2026-08-15-vibe-terms-platform-design.md`
 > 配套计划：`docs/superpowers/plans/2026-08-16-vibe-terms-local-static-expansion.md`
 
 ## 1. 摘要

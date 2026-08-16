@@ -140,7 +140,7 @@ def test_every_term_has_v2_relationships_example_exercise_and_source() -> None:
 
 - [ ] **Step 2: Run the tests and confirm the old content contract fails**
 
-Run: `python3 -m pytest tests/test_content_schema.py -q`  
+Run: `python3 -m pytest tests/test_content_schema.py -q`
 Expected: FAIL because `scripts.vibe_terms` and the v2 fields do not exist.
 
 - [ ] **Step 3: Implement focused loader types and validation**
@@ -177,12 +177,12 @@ Use the eight IDs from the design: `ai-vibe`, `web-ui`, `app-platform`, `backend
 
 - [ ] **Step 6: Run local verification**
 
-Run: `python3 -m pytest tests/test_content_schema.py tests/test_static_site.py -q`  
+Run: `python3 -m pytest tests/test_content_schema.py tests/test_static_site.py -q`
 Expected: PASS with 12 terms and all existing routes still generated.
 
 - [ ] **Step 7: Request independent module acceptance and commit**
 
-Acceptance scope: Schema v2, eight-domain taxonomy, 12-term migration, existing static build only.  
+Acceptance scope: Schema v2, eight-domain taxonomy, 12-term migration, existing static build only.
 Commit: `feat: define rich local content contracts`
 
 ### Task 2: Split the Generator and Add Host-independent URLs
@@ -218,7 +218,7 @@ def test_root_host_uses_empty_base_path() -> None:
 
 - [ ] **Step 2: Confirm tests fail against hard-coded root paths**
 
-Run: `python3 -m pytest tests/test_urls.py -q`  
+Run: `python3 -m pytest tests/test_urls.py -q`
 Expected: FAIL because `UrlBuilder` does not exist.
 
 - [ ] **Step 3: Implement URL normalization and configuration parsing**
@@ -235,8 +235,8 @@ Build twice into isolated pytest temporary directories. Parse every internal `hr
 
 - [ ] **Step 6: Verify both hosts and commit**
 
-Run: `python3 -m pytest tests/test_urls.py tests/test_static_site.py tests/test_packaging.py -q`  
-Expected: PASS for empty and project base paths.  
+Run: `python3 -m pytest tests/test_urls.py tests/test_static_site.py tests/test_packaging.py -q`
+Expected: PASS for empty and project base paths.
 Commit: `refactor: make the static generator host independent`
 
 ### Task 3: Put Search in the Global Header and Expand the Search Model
@@ -276,7 +276,7 @@ Browser tests must assert `/`, `ControlOrMeta+K`, arrows, Enter and Escape, plus
 
 - [ ] **Step 2: Confirm old search fails the new contracts**
 
-Run: `npm run test:js` and `python3 -m pytest tests/test_render_harness.py -q`  
+Run: `npm run test:js` and `python3 -m pytest tests/test_render_harness.py -q`
 Expected: FAIL because indexes contain terms only and the search input is homepage-only.
 
 - [ ] **Step 3: Generate grouped search documents**
@@ -293,9 +293,9 @@ Empty query shows recent views/bookmarks when available and fixed popular terms 
 
 - [ ] **Step 6: Run search-focused verification and commit**
 
-Run: `npm run test:js`  
-Run: `python3 -m pytest tests/test_render_harness.py::test_home_search_theme_and_mobile_layout_without_http_navigation tests/test_browser.py::test_search_keyboard_and_locale_switch -q`  
-Expected: PASS with no horizontal overflow and correct focus behavior.  
+Run: `npm run test:js`
+Run: `python3 -m pytest tests/test_render_harness.py::test_home_search_theme_and_mobile_layout_without_http_navigation tests/test_browser.py::test_search_keyboard_and_locale_switch -q`
+Expected: PASS with no horizontal overflow and correct focus behavior.
 Commit: `feat: make multilingual search globally accessible`
 
 ### Task 4: Build Knowledge-map and Topic Browse Pages
@@ -326,7 +326,7 @@ def test_knowledge_routes_and_accessible_list_cover_the_same_terms(build_site) -
 
 - [ ] **Step 2: Confirm the routes are missing**
 
-Run: `python3 -m pytest tests/test_static_site.py -q -k knowledge`  
+Run: `python3 -m pytest tests/test_static_site.py -q -k knowledge`
 Expected: FAIL because only legacy category pages exist.
 
 - [ ] **Step 3: Render overview, domain and topic pages**
@@ -343,8 +343,8 @@ Generate `/{locale}/categories/{domain-id}/` compatibility pages with a canonica
 
 - [ ] **Step 6: Verify and commit**
 
-Run: `python3 -m pytest tests/test_static_site.py tests/test_render_harness.py -q -k "knowledge or category or locale"`  
-Expected: PASS in all eight locales.  
+Run: `python3 -m pytest tests/test_static_site.py tests/test_render_harness.py -q -k "knowledge or category or locale"`
+Expected: PASS in all eight locales.
 Commit: `feat: add the browsable Vibe Terms knowledge map`
 
 ### Task 5: Render a Dense but Progressive Term Detail Page
@@ -380,7 +380,7 @@ def test_term_page_contains_learning_sections_without_javascript(build_site) -> 
 
 - [ ] **Step 2: Confirm the existing sparse template fails**
 
-Run: `python3 -m pytest tests/test_static_site.py -q -k term_page`  
+Run: `python3 -m pytest tests/test_static_site.py -q -k term_page`
 Expected: FAIL on missing prerequisites, exercise and sources.
 
 - [ ] **Step 3: Implement the progressive layout**
@@ -393,8 +393,8 @@ Interactive controls may hide/reveal states, but the initial example, question, 
 
 - [ ] **Step 5: Verify representative terms and commit**
 
-Run: `python3 -m pytest tests/test_static_site.py tests/test_render_harness.py -q -k "term or no_javascript or overflow"`  
-Expected: PASS for `prompt`, `state`, `api`, `database`, `authentication`, `git`, `testing` and `deployment`.  
+Run: `python3 -m pytest tests/test_static_site.py tests/test_render_harness.py -q -k "term or no_javascript or overflow"`
+Expected: PASS for `prompt`, `state`, `api`, `database`, `authentication`, `git`, `testing` and `deployment`.
 Commit: `feat: enrich every static term detail page`
 
 ### Task 6: Add the Registered Dynamic-example Framework
@@ -426,7 +426,7 @@ test('unknown example identifiers cannot create executable definitions', () => {
 
 - [ ] **Step 2: Confirm there is no example registry**
 
-Run: `npm run test:js` and `python3 -m pytest tests/test_render_harness.py -q -k example`  
+Run: `npm run test:js` and `python3 -m pytest tests/test_render_harness.py -q -k example`
 Expected: FAIL before `web/examples.js` exists.
 
 - [ ] **Step 3: Implement four renderer modes**
@@ -439,10 +439,10 @@ Implement exact IDs for `prompt-constraint-builder`, `context-window-budget`, `a
 
 - [ ] **Step 5: Verify CSP-safe output and commit**
 
-Assert generated pages contain no `eval(`, `new Function`, inline user script or third-party iframe.  
-Run: `npm run test:js`  
-Run: `python3 -m pytest tests/test_static_site.py tests/test_render_harness.py -q -k example`  
-Expected: PASS.  
+Assert generated pages contain no `eval(`, `new Function`, inline user script or third-party iframe.
+Run: `npm run test:js`
+Run: `python3 -m pytest tests/test_static_site.py tests/test_render_harness.py -q -k example`
+Expected: PASS.
 Commit: `feat: add safe progressive term examples`
 
 ### Task 7: Add Per-term Exercises, Practice Queues, and Local Data v2
@@ -485,7 +485,7 @@ test('v1 migration is idempotent', () => {
 
 - [ ] **Step 2: Confirm the new functions and practice route are absent**
 
-Run: `npm run test:js` and `python3 -m pytest tests/test_browser.py -q -k practice`  
+Run: `npm run test:js` and `python3 -m pytest tests/test_browser.py -q -k practice`
 Expected: FAIL.
 
 - [ ] **Step 3: Implement local v2 stores and transactional migration**
@@ -502,9 +502,9 @@ Export includes `schemaVersion: 2`. Import validates shape before a transaction 
 
 - [ ] **Step 6: Verify persistence and commit**
 
-Run: `npm run test:js`  
-Run: `RUN_HTTP_E2E=1 python3 -m pytest tests/test_browser.py -q -k "practice or persists or migration"`  
-Expected: PASS with browser reload and no account UI.  
+Run: `npm run test:js`
+Run: `RUN_HTTP_E2E=1 python3 -m pytest tests/test_browser.py -q -k "practice or persists or migration"`
+Expected: PASS with browser reload and no account UI.
 Commit: `feat: add anonymous local practice and progress`
 
 ### Task 8: Implement the First Real Project Path
@@ -543,7 +543,7 @@ def test_paths_have_ordered_chapters_tasks_outputs_and_acceptance() -> None:
 
 - [ ] **Step 2: Confirm the prototype term list fails the course contract**
 
-Run: `python3 -m pytest tests/test_content_schema.py -q -k path`  
+Run: `python3 -m pytest tests/test_content_schema.py -q -k path`
 Expected: FAIL because the old file has no chapters, tasks or localized content.
 
 - [ ] **Step 3: Author the ten exact chapters**
@@ -556,9 +556,9 @@ Directory cards show final artifact and chapter count. Detail page shows 0–10 
 
 - [ ] **Step 5: Verify the full path and commit**
 
-Run: `python3 -m pytest tests/test_content_schema.py tests/test_static_site.py -q -k path`  
-Run: `RUN_HTTP_E2E=1 python3 -m pytest tests/test_browser.py -q -k path`  
-Expected: PASS across eight locales with reload persistence.  
+Run: `python3 -m pytest tests/test_content_schema.py tests/test_static_site.py -q -k path`
+Run: `RUN_HTTP_E2E=1 python3 -m pytest tests/test_browser.py -q -k path`
+Expected: PASS across eight locales with reload persistence.
 Commit: `feat: add the product-site learning path`
 
 ### Task 9: Expand the Corpus to 24 Terms — AI and Web Foundations
@@ -577,7 +577,7 @@ Assert that all 12 slugs above exist, every locale is `reviewed`, every `source_
 
 - [ ] **Step 2: Confirm the corpus test fails at 12**
 
-Run: `python3 -m pytest tests/test_content_schema.py -q -k corpus`  
+Run: `python3 -m pytest tests/test_content_schema.py -q -k corpus`
 Expected: FAIL with the 12 exact missing slugs.
 
 - [ ] **Step 3: Author English canonical records in groups of four**
@@ -586,13 +586,13 @@ For each term, write boundary-aware definitions, a beginner phrase, real work sc
 
 - [ ] **Step 4: Add eight-language files and verify each four-term group**
 
-Run after each group: `python3 -m pytest tests/test_content_schema.py -q -k "schema or translation"`  
+Run after each group: `python3 -m pytest tests/test_content_schema.py -q -k "schema or translation"`
 Expected: PASS for completed groups; final run reaches 24 terms.
 
 - [ ] **Step 5: Render, inspect and commit the batch**
 
-Run: `python3 -m pytest tests/test_static_site.py tests/test_render_harness.py -q -k "term or locale or search"`  
-Expected: PASS with new terms in knowledge pages and search.  
+Run: `python3 -m pytest tests/test_static_site.py tests/test_render_harness.py -q -k "term or locale or search"`
+Expected: PASS with new terms in knowledge pages and search.
 Commit: `content: add AI and web foundation terms`
 
 ### Task 10: Expand the Corpus to 36 Terms — App, Backend, and Data
@@ -609,7 +609,7 @@ Commit: `content: add AI and web foundation terms`
 
 - [ ] **Step 2: Confirm the missing-term failure**
 
-Run: `python3 -m pytest tests/test_content_schema.py -q -k corpus`  
+Run: `python3 -m pytest tests/test_content_schema.py -q -k corpus`
 Expected: FAIL listing those 12 slugs.
 
 - [ ] **Step 3: Author English and eight-language content in three four-term review groups**
@@ -618,8 +618,8 @@ Expected: FAIL listing those 12 slugs.
 
 - [ ] **Step 4: Verify the batch and commit**
 
-Run: `python3 -m pytest tests/test_content_schema.py tests/test_static_site.py tests/test_render_harness.py -q -k "content or term or search"`  
-Expected: PASS with all eight domains non-empty.  
+Run: `python3 -m pytest tests/test_content_schema.py tests/test_static_site.py tests/test_render_harness.py -q -k "content or term or search"`
+Expected: PASS with all eight domains non-empty.
 Commit: `content: add app backend and data foundation terms`
 
 ### Task 11: Expand the Corpus to 48 Terms — Data, Security, and Git
@@ -636,7 +636,7 @@ Commit: `content: add app backend and data foundation terms`
 
 - [ ] **Step 2: Confirm the missing-term failure**
 
-Run: `python3 -m pytest tests/test_content_schema.py -q -k corpus`  
+Run: `python3 -m pytest tests/test_content_schema.py -q -k corpus`
 Expected: FAIL listing those 12 slugs.
 
 - [ ] **Step 3: Author and review the batch**
@@ -645,9 +645,9 @@ The `secret` and `environment-variable` entries must state that client-side stat
 
 - [ ] **Step 4: Run content/security scans and commit**
 
-Run: `python3 -m pytest tests/test_content_schema.py tests/test_static_site.py -q`  
-Run: `rg -n -i "api[_-]?key\s*[:=]|secret\s*[:=]|password\s*[:=]" content README.md docs AGENTS.md`  
-Expected: tests PASS; scan finds only explanatory placeholders, never real values.  
+Run: `python3 -m pytest tests/test_content_schema.py tests/test_static_site.py -q`
+Run: `rg -n -i "api[_-]?key\s*[:=]|secret\s*[:=]|password\s*[:=]" content README.md docs AGENTS.md`
+Expected: tests PASS; scan finds only explanatory placeholders, never real values.
 Commit: `content: add data security and Git terms`
 
 ### Task 12: Expand the Corpus to 60 Terms — Workflow, Quality, and Product
@@ -666,7 +666,7 @@ Keep the threshold in configuration/test fixtures; do not hard-code 60 into the 
 
 - [ ] **Step 2: Confirm the final batch is missing**
 
-Run: `python3 -m pytest tests/test_content_schema.py -q -k corpus`  
+Run: `python3 -m pytest tests/test_content_schema.py -q -k corpus`
 Expected: FAIL listing the 12 exact new slugs.
 
 - [ ] **Step 3: Author English and eight-language content in four-term review groups**
@@ -675,8 +675,8 @@ Expected: FAIL listing the 12 exact new slugs.
 
 - [ ] **Step 4: Run the 60-term content gate and commit**
 
-Run: `python3 -m pytest tests/test_content_schema.py tests/test_static_site.py tests/test_render_harness.py -q`  
-Expected: PASS with 60 terms × 8 locale pages, search entries, example modules, exercises and valid relationships.  
+Run: `python3 -m pytest tests/test_content_schema.py tests/test_static_site.py tests/test_render_harness.py -q`
+Expected: PASS with 60 terms × 8 locale pages, search entries, example modules, exercises and valid relationships.
 Commit: `content: complete the 60-term core corpus`
 
 ### Task 13: Complete Three Paths and the 20-example Coverage Gate
@@ -712,7 +712,7 @@ def test_core_release_has_three_paths_and_twenty_dynamic_examples() -> None:
 
 - [ ] **Step 2: Confirm only one path and six dynamic examples exist**
 
-Run: `python3 -m pytest tests/test_content_schema.py -q -k core_release`  
+Run: `python3 -m pytest tests/test_content_schema.py -q -k core_release`
 Expected: FAIL with path and example counts.
 
 - [ ] **Step 3: Author the local CRUD path**
@@ -729,9 +729,9 @@ Ensure interactive/stepper coverage for: `prompt`, `context-window`, `ai-agent`,
 
 - [ ] **Step 6: Verify paths, examples and practice coverage**
 
-Run: `python3 -m pytest tests/test_content_schema.py tests/test_static_site.py tests/test_render_harness.py -q -k "path or example or exercise"`  
-Run: `RUN_HTTP_E2E=1 python3 -m pytest tests/test_browser.py -q -k "path or practice"`  
-Expected: PASS for three paths, 20 dynamic examples and at least one exercise per term.  
+Run: `python3 -m pytest tests/test_content_schema.py tests/test_static_site.py tests/test_render_harness.py -q -k "path or example or exercise"`
+Run: `RUN_HTTP_E2E=1 python3 -m pytest tests/test_browser.py -q -k "path or practice"`
+Expected: PASS for three paths, 20 dynamic examples and at least one exercise per term.
 Commit: `feat: complete project paths and example coverage`
 
 ### Task 14: Finish Accessibility, SEO, GitHub Pages, and Deployment Readiness
@@ -757,7 +757,7 @@ Tests must assert `hreflang` + `x-default`, `DefinedTerm`, path `ItemList`/`Cour
 
 - [ ] **Step 2: Confirm the Pages deployment contract fails**
 
-Run: `python3 -m pytest tests/test_static_site.py tests/test_packaging.py -q -k "seo or base_path or workflow or account"`  
+Run: `python3 -m pytest tests/test_static_site.py tests/test_packaging.py -q -k "seo or base_path or workflow or account"`
 Expected: FAIL before the workflow and new structured data exist.
 
 - [ ] **Step 3: Implement semantic metadata and accessibility fixes**
@@ -770,16 +770,16 @@ Trigger on pushes to `main` and manual dispatch. Grant `contents: read`, `pages:
 
 - [ ] **Step 5: Verify local release artifacts**
 
-Run: `python3 -m pip install -r requirements-dev.txt`  
-Run: `./scripts/verify_public_site.sh`  
-Run: `npm ci`  
-Run: `npm run build`  
-Run: `BASE_PATH=/vibe-terms SITE_URL=https://q2955161835-debug.github.io/vibe-terms python3 scripts/build_static_site.py`  
+Run: `python3 -m pip install -r requirements-dev.txt`
+Run: `./scripts/verify_public_site.sh`
+Run: `npm ci`
+Run: `npm run build`
+Run: `BASE_PATH=/vibe-terms SITE_URL=https://q2955161835-debug.github.io/vibe-terms python3 scripts/build_static_site.py`
 Expected: all commands exit 0; generated project-path links and assets resolve.
 
 - [ ] **Step 6: Commit without pushing or deploying yet**
 
-Commit: `ci: prepare verified GitHub Pages deployment`  
+Commit: `ci: prepare verified GitHub Pages deployment`
 Do not push, enable Pages, or trigger deployment until the user separately authorizes that external action.
 
 ### Task 15: Update Project Records and Run Formal Independent Acceptance
@@ -804,9 +804,9 @@ Module checks cover content, search, knowledge, paths, term pages, practice, loc
 
 - [ ] **Step 2: Run the complete local gate**
 
-Run: `./scripts/verify_public_site.sh`  
-Run: `RUN_HTTP_E2E=1 ./scripts/verify_public_site.sh`  
-Run: `npm ci && npm run build`  
+Run: `./scripts/verify_public_site.sh`
+Run: `RUN_HTTP_E2E=1 ./scripts/verify_public_site.sh`
+Run: `npm ci && npm run build`
 Expected: every command exits 0; test counts are recorded from actual output.
 
 - [ ] **Step 3: Dispatch a fresh independent acceptance subagent**
