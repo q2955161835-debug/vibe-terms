@@ -112,7 +112,7 @@ zh-cn:
   topics: 主题
   learn: 学习
   search: 搜索术语、缩写或中文含义…
-  search_btn: 搜尋
+  search_btn: 搜索
   hero_eyebrow: 从想法到上线
   hero: 从一句想法，走到真正上线。
   sub: 为 Vibe Coding 新手准备的知识地图。遇到看不懂的词就搜，也可以按做项目的顺序探索。
@@ -122,7 +122,7 @@ zh-cn:
   all_terms: 全部术语
   learn_title: 今日学习
   learning_eyebrow: 本地优先学习
-  learn_sub: 自定义今天的新词数量。游客进度直接保存在当前浏览器。
+  learn_sub: 选择今天要学习的新词数量。学习进度仅保存在当前浏览器。
   daily: 每天新词数
   start: 开始学习
   reveal: 查看解释
@@ -130,7 +130,7 @@ zh-cn:
   partial: 有点印象
   mastered: 已经掌握
   progress: 今日进度
-  local: 游客学习记录只保存在当前浏览器。
+  local: 游客的学习记录只保存在当前浏览器。
   draft: 待审校
   why: 为什么重要
   analogy: 简单类比
@@ -139,8 +139,8 @@ zh-cn:
   related: 相关术语
   back: 回到探索
   no_results: 没有匹配的术语。
-  loading: 正在载入术语…
-  load_error: 术语索引载入失败。
+  loading: 正在加载术语…
+  load_error: 术语索引加载失败。
   done: 今天的学习已完成。
   storage_error: 当前浏览器无法打开本地学习数据。
   added: 已加入学习
@@ -160,7 +160,7 @@ zh-cn:
   copy_failed: 复制失败
   queued: 已加入学习
   category_back: 返回知识地图
-  search_error: 术语索引载入失败。
+  search_error: 术语索引加载失败。
   practice: 练习
   language: 语言
   close: 关闭
@@ -172,11 +172,11 @@ zh-cn:
   user_says: 你可以这样说
   short_definition: 简短定义
   prerequisites: 前置知识
-  no_prerequisites: 无必需前置知识
+  no_prerequisites: 无需前置知识
   mechanism: 工作方式
   boundary: 适用边界
   example: 动态示例
-  context: 情境
+  context: 上下文
   verify: 验证
   verification_boundary: 验证边界
   example_noscript: 上方文字已包含示例的两种状态；JavaScript 只用于增强切换控件。
@@ -190,7 +190,7 @@ zh-cn:
   knowledge_intro: 按领域、主题和前置关系浏览术语。
   compatibility_notice: 此分类地址仅为兼容旧链接而保留。
   path_intro: 按真实项目会用到这些术语的顺序学习。
-  chapters_unit: 个章节
+  chapters_unit: 章
   next_chapter: 下一章
   outcome: 学习成果
   checkpoint: 阶段检查
@@ -206,7 +206,7 @@ zh-cn:
   practice_complete: 本轮练习已完成。
   open_exercise: 打开练习
   next: 下一题
-  practice_unavailable: 暂时无法载入练习数据。
+  practice_unavailable: 暂时无法加载练习数据。
   invalid_json: 所选文件不是有效的 JSON。
   invalid_import: 这不是完整的 Vibe Terms v2 数据导出。
   import_failed: 无法完成本地数据导入。
