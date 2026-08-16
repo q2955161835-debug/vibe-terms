@@ -3,7 +3,7 @@ from __future__ import annotations
 from html import escape
 from typing import Any
 
-from scripts.vibe_terms.explainers import resolve_explainer_locale
+from ..explainers import resolve_explainer_locale
 
 _UI_LABELS = {
     "en": {

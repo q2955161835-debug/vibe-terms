@@ -8,6 +8,7 @@ from typing import Any
 import yaml
 
 from .config import LOCALES
+from .explainers import load_explainer
 from .models import Catalog
 
 
@@ -248,6 +249,16 @@ def load_catalog(content_root: Path, minimum_terms: int) -> Catalog:
         str(meta["canonical_name"]): str(meta["slug"]) for meta in raw_metas
     }
     slug_set = {str(meta["slug"]) for meta in raw_metas}
+    explainer_root = content_root / "explainers"
+    explainer_paths = sorted(explainer_root.glob("*.yaml")) if explainer_root.is_dir() else []
+    visual_explainers: dict[str, dict[str, Any]] = {}
+    for explainer_path in explainer_paths:
+        explainer_slug = explainer_path.stem
+        if explainer_slug not in slug_set:
+            raise ValueError(f"explainer has no canonical term: {explainer_slug}")
+        visual_explainers[explainer_slug] = load_explainer(
+            explainer_path, explainer_slug
+        )
 
     topics_path = content_root / "taxonomy" / "topics.yaml"
     if topics_path.is_file():
@@ -317,6 +328,8 @@ def load_catalog(content_root: Path, minimum_terms: int) -> Catalog:
             "example": {"mode": mode, "id": example_id},
             "localized": localized,
         }
+        if slug in visual_explainers:
+            term["visual_explainer"] = visual_explainers[slug]
         terms.append(term)
 
     catalog = Catalog(
@@ -390,6 +403,9 @@ def validate_catalog(
                 raise ValueError(f"unknown prerequisite for {slug}: {prerequisite}")
         if stage_ids is not None and not set(term.get("lifecycle_stages", [])) <= stage_ids:
             raise ValueError(f"unknown lifecycle stage for {slug}")
+        if explainer := term.get("visual_explainer"):
+            if explainer.get("term") != slug:
+                raise ValueError(f"visual explainer term mismatch for {slug}")
         if set(term.get("localized", {})) != set(LOCALES):
             raise ValueError(f"{slug} must have all eight localized records")
         for locale, localized in term["localized"].items():

@@ -2,8 +2,8 @@ from __future__ import annotations
 
 from typing import Any
 
-from scripts.vibe_terms.explainers import resolve_explainer_locale
-from scripts.vibe_terms.explainer_renderers.base import _esc, render_node, render_shell, ui_label
+from ..explainers import resolve_explainer_locale
+from .base import _esc, render_node, render_shell, ui_label
 
 
 def _render_context(explainer: dict[str, Any], page_locale: str) -> tuple[dict[str, Any], dict[str, Any]]:

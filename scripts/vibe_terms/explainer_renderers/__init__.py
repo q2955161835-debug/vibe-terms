@@ -2,20 +2,20 @@ from __future__ import annotations
 
 from typing import Any, Callable
 
-from scripts.vibe_terms.explainer_renderers.decisions import (
+from .decisions import (
     render_code_result,
     render_compare,
     render_evidence,
     render_state_machine,
 )
-from scripts.vibe_terms.explainer_renderers.flows import (
+from .flows import (
     render_lifecycle,
     render_pipeline,
     render_request_response,
     render_sequence,
     render_timeline,
 )
-from scripts.vibe_terms.explainer_renderers.structures import (
+from .structures import (
     render_anatomy,
     render_boundary,
     render_data_mapping,
