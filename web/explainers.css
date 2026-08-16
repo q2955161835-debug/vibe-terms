@@ -1,0 +1,239 @@
+:root {
+  --explainer-canvas: var(--canvas-subtle);
+  --explainer-surface: var(--panel-raised);
+  --explainer-muted-surface: var(--panel-muted);
+  --explainer-border: var(--border);
+  --explainer-border-strong: var(--border-strong);
+  --explainer-text: var(--text-primary);
+  --explainer-muted-text: var(--text-secondary);
+  --explainer-accent: var(--accent);
+  --explainer-accent-surface: var(--accent-surface);
+  --explainer-accent-contrast: var(--accent-contrast);
+}
+
+body { overflow-x: clip; }
+
+[data-visual-explainer] {
+  display: grid;
+  min-width: 0;
+  max-width: 100%;
+  gap: 16px;
+  overflow: clip;
+  border: 1px solid var(--explainer-border);
+  border-radius: 20px;
+  padding: clamp(16px, 3vw, 28px);
+  background: var(--explainer-canvas);
+  color: var(--explainer-text);
+}
+
+[data-visual-explainer] > h2 { margin: 0; font-size: clamp(22px, 3vw, 32px); line-height: 1.15; }
+[data-visual-explainer] > p { margin: 0; color: var(--explainer-muted-text); }
+[data-visual-explainer] [data-explainer-conclusion] {
+  border-left: 4px solid var(--explainer-accent);
+  margin: 0;
+  padding: 12px 14px;
+  background: var(--explainer-accent-surface);
+  color: var(--explainer-text);
+}
+
+.visual-state-controls {
+  display: flex;
+  max-width: 100%;
+  gap: 8px;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  padding: 2px;
+  scrollbar-color: var(--explainer-border-strong) transparent;
+}
+
+.visual-state-controls button {
+  flex: 0 0 auto;
+  border: 1px solid var(--explainer-border-strong);
+  border-radius: 999px;
+  padding: 8px 12px;
+  background: var(--explainer-surface);
+  color: var(--explainer-text);
+  cursor: pointer;
+}
+
+.visual-state-controls button.is-active,
+.visual-state-controls button[aria-pressed="true"] {
+  border-color: var(--explainer-accent);
+  background: var(--explainer-accent);
+  color: var(--explainer-accent-contrast);
+}
+
+.visual-node {
+  display: grid;
+  min-width: 0;
+  gap: 8px;
+  border: 1px solid var(--explainer-border);
+  border-radius: 14px;
+  padding: 14px;
+  background: var(--explainer-surface);
+  color: var(--explainer-text);
+  transition: border-color 140ms ease, background-color 140ms ease;
+}
+
+.visual-node.is-active {
+  border-color: var(--explainer-accent);
+  background: var(--explainer-accent-surface);
+}
+
+.visual-node strong { font-size: 14px; }
+.visual-node code {
+  overflow-wrap: anywhere;
+  color: var(--explainer-muted-text);
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: 13px;
+}
+
+.visual-compare,
+.visual-code-result,
+.visual-state-machine,
+.visual-evidence,
+.visual-request-response,
+.visual-data-mapping,
+.visual-boundary {
+  display: grid;
+  min-width: 0;
+  gap: 12px;
+}
+
+.visual-compare,
+.visual-code-result,
+.visual-state-machine,
+.visual-evidence,
+.visual-data-mapping,
+.visual-boundary { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.visual-request-response { grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr) minmax(0, 1fr); }
+
+.visual-compare-column,
+.visual-code-result-source,
+.visual-code-result-output,
+.visual-contract-panel,
+.visual-request-endpoint,
+.visual-mapping-source-column,
+.visual-mapping-target-column,
+.visual-evidence-claim {
+  display: grid;
+  min-width: 0;
+  align-content: start;
+  gap: 10px;
+  margin: 0;
+  border: 1px solid var(--explainer-border);
+  border-radius: 16px;
+  padding: 14px;
+  background: var(--explainer-muted-surface);
+}
+
+.visual-contract-panel > p { margin: 0; color: var(--explainer-muted-text); font-size: 13px; font-weight: 700; }
+
+.visual-sequence-steps,
+.visual-pipeline-stages,
+.visual-lifecycle-phases,
+.visual-timeline-events,
+.visual-layout-grid,
+.visual-state-machine-states {
+  display: grid;
+  min-width: 0;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.visual-sequence-step,
+.visual-pipeline-stage,
+.visual-lifecycle-phase,
+.visual-timeline-event,
+.visual-layout-cell,
+.visual-state-machine-state { min-width: 0; }
+
+.visual-state-machine-transitions,
+.visual-contract-relations,
+.visual-mapping-relations,
+.visual-boundary-relations,
+.visual-hierarchy-relations {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--explainer-muted-text);
+  font-size: 13px;
+}
+
+.visual-state-machine-transitions li,
+.visual-contract-relations li,
+.visual-mapping-relations li,
+.visual-boundary-relations li,
+.visual-hierarchy-relations li {
+  display: flex;
+  min-width: 0;
+  justify-content: space-between;
+  gap: 12px;
+  border-bottom: 1px solid var(--explainer-border);
+  padding: 8px 0;
+}
+
+.visual-anatomy-parts,
+.visual-hierarchy-tree,
+.visual-hierarchy-children,
+.visual-evidence-sources,
+.visual-mapping-nodes {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.visual-anatomy-parts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.visual-anatomy-parts > div { display: grid; min-width: 0; gap: 6px; }
+.visual-anatomy-parts dt { color: var(--explainer-muted-text); font-size: 13px; }
+.visual-anatomy-parts dd { min-width: 0; margin: 0; }
+.visual-hierarchy-root > .visual-hierarchy-children { padding-left: 18px; border-left: 1px solid var(--explainer-border); }
+.visual-hierarchy-reference { color: var(--explainer-muted-text); font-size: 13px; }
+
+.visual-layout { display: grid; gap: 12px; }
+.visual-layout-dimension { display: flex; justify-content: space-between; margin: 0; color: var(--explainer-muted-text); font-size: 12px; }
+.visual-mapping-nodes { grid-column: 1 / -1; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+.visual-transcript {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding-left: 20px;
+  color: var(--explainer-muted-text);
+}
+
+.visual-transcript-item p { margin: 4px 0 0; }
+
+@media (max-width: 720px) {
+  [data-visual-explainer] { border-radius: 16px; }
+  .visual-compare,
+  .visual-code-result,
+  .visual-state-machine,
+  .visual-evidence,
+  .visual-request-response,
+  .visual-data-mapping,
+  .visual-boundary,
+  .visual-anatomy-parts { grid-template-columns: 1fr; }
+  .visual-sequence,
+  .visual-pipeline,
+  .visual-lifecycle,
+  .visual-timeline,
+  .visual-layout { max-width: 100%; overflow-x: auto; overscroll-behavior-inline: contain; }
+  .visual-sequence-steps,
+  .visual-pipeline-stages,
+  .visual-lifecycle-phases,
+  .visual-timeline-events,
+  .visual-layout-grid { min-width: 560px; grid-template-columns: repeat(4, minmax(124px, 1fr)); }
+  .visual-mapping-nodes { grid-template-columns: 1fr; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-visual-explainer] * { scroll-behavior: auto; transition-duration: 0.01ms !important; }
+}
