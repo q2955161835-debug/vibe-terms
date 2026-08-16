@@ -417,6 +417,19 @@ class SiteRenderer:
             self.shell("en", "Sources and licenses", "Licensing and source notes for Vibe Terms.", body, "/license/", indexable=True),
             indexable=True,
         )
+        for locale in self.catalog.locales:
+            self.add_page(
+                f"/{locale}/license/",
+                self.shell(
+                    locale,
+                    "Sources and licenses",
+                    "Licensing and source notes for Vibe Terms.",
+                    body,
+                    "/license/",
+                    indexable=True,
+                ),
+                indexable=True,
+            )
 
     def build_indexes(self, locale: str) -> None:
         payloads = {
