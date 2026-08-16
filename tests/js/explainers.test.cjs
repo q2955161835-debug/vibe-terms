@@ -1,10 +1,10 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 
-const { mount } = require('../../web/explainers.js');
+const { mount, mountAll } = require('../../web/explainers.js');
 
 class FixtureElement {
-  constructor({ attributes = {}, classes = [], textContent = '' } = {}) {
+  constructor({ attributes = {}, classes = [], textContent = '', tagName = 'div' } = {}) {
     this.attributes = new Map(Object.entries(attributes));
     this.dataset = Object.fromEntries(
       Object.entries(attributes)
@@ -16,6 +16,8 @@ class FixtureElement {
     );
     this.children = [];
     this.hidden = false;
+    this.tagName = tagName;
+    this.focusCount = 0;
     this.textContent = textContent;
     this.listeners = new Map();
     this.classList = {
@@ -72,6 +74,7 @@ class FixtureElement {
   }
 
   focus() {
+    this.focusCount += 1;
     document.activeElement = this;
   }
 
@@ -90,6 +93,7 @@ class FixtureElement {
 
 function matches(element, selector) {
   if (selector.startsWith('.')) return element.classList.contains(selector.slice(1));
+  if (/^[a-z]+$/.test(selector)) return element.tagName === selector;
   const attribute = /^\[([^=\]]+)(?:="([^"]*)")?\]$/.exec(selector);
   return Boolean(attribute) && element.getAttribute(attribute[1]) !== null &&
     (attribute[2] === undefined || element.getAttribute(attribute[1]) === attribute[2]);
@@ -112,10 +116,25 @@ function makeExplainerFixture(stateIds) {
     attributes: {
       'data-explainer-state': id,
       'data-explainer-conclusion': `${id} conclusion`,
-      'aria-current': index === 0 ? 'step' : '',
+      'aria-hidden': 'true',
     },
-    textContent: `${id} value`,
-  }));
+  }).append(
+    ...['primary-rule', 'computed-value'].map((nodeId) => new FixtureElement({
+      attributes: { 'data-explainer-state-focus': index === 0 ? nodeId : nodeId === 'primary-rule' ? 'override-rule' : nodeId },
+    })),
+    new FixtureElement({
+      attributes: { 'data-explainer-state-value-for': 'computed-value' },
+      textContent: `#${index}0${index}0${index}0`,
+    }),
+  ));
+  const nodes = [
+    ['primary-rule', '.primary { color: blue; }'],
+    ['override-rule', '.primary { color: pink; }'],
+    ['computed-value', '#000000'],
+  ].map(([id, value]) => new FixtureElement({
+    attributes: { 'data-explainer-node': id },
+    classes: ['visual-node'],
+  }).append(new FixtureElement({ tagName: 'code', textContent: value })));
 
   root.append(
     controls.append(...stateIds.map((id, index) => new FixtureElement({
@@ -126,6 +145,7 @@ function makeExplainerFixture(stateIds) {
       textContent: id,
     }))),
     conclusion,
+    ...nodes,
     ...states,
     transcript.append(...stateIds.map((id) => new FixtureElement({
       classes: ['visual-transcript-item'],
@@ -148,9 +168,45 @@ test('mount activates one state and preserves the transcript', () => {
   assert.equal(root.querySelectorAll('.visual-transcript-item').length, 3);
 });
 
+test('mount applies producer state metadata to the unique static canvas', () => {
+  const root = makeExplainerFixture(['base', 'override']);
+  assert.equal(mount(root), true);
+  root.querySelector('[data-explainer-state-control="override"]').click();
+
+  assert.equal(root.querySelector('[data-explainer-state="override"]').hidden, true);
+  assert.equal(root.querySelector('[data-explainer-state="override"]').getAttribute('aria-current'), 'step');
+  assert.equal(root.querySelector('[data-explainer-node="primary-rule"]').classList.contains('is-active'), false);
+  assert.equal(root.querySelector('[data-explainer-node="override-rule"]').classList.contains('is-active'), true);
+  assert.equal(
+    root.querySelector('[data-explainer-node="computed-value"]').querySelector('code').textContent,
+    '#101010',
+  );
+  assert.equal(root.querySelector('[data-explainer-conclusion]').textContent, 'override conclusion');
+  assert.equal(root.querySelectorAll('.visual-transcript-item').length, 2);
+});
+
 test('arrow keys move between state buttons without wrapping page focus', () => {
   const root = makeExplainerFixture(['one', 'two', 'three']);
   mount(root);
   root.querySelector('[data-explainer-state-control="one"]').dispatchEvent(key('ArrowRight'));
   assert.equal(document.activeElement.dataset.explainerStateControl, 'two');
+});
+
+test('mount and mountAll do not duplicate state-control listeners', () => {
+  const root = makeExplainerFixture(['one', 'two']);
+  assert.equal(mount(root), true);
+  assert.equal(mount(root), true);
+  root.querySelector('[data-explainer-state-control="one"]').dispatchEvent(key('ArrowRight'));
+  assert.equal(root.querySelector('[data-explainer-state-control="two"]').focusCount, 1);
+
+  const secondRoot = makeExplainerFixture(['one', 'two']);
+  const fixtureDocument = {
+    querySelectorAll(selector) {
+      return selector === '[data-visual-explainer]' ? [secondRoot] : [];
+    },
+  };
+  assert.equal(mountAll(fixtureDocument), 1);
+  assert.equal(mountAll(fixtureDocument), 1);
+  secondRoot.querySelector('[data-explainer-state-control="one"]').dispatchEvent(key('ArrowRight'));
+  assert.equal(secondRoot.querySelector('[data-explainer-state-control="two"]').focusCount, 1);
 });

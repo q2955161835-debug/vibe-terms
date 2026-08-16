@@ -75,6 +75,30 @@ def render_transcript(states: list[dict[str, Any]], copy: dict[str, Any]) -> str
     return f'<ol class="visual-transcript">{items}</ol>'
 
 
+def render_state_metadata(explainer: dict[str, Any], copy: dict[str, Any]) -> str:
+    dynamic_nodes = [
+        node for node in explainer["scene"]["nodes"] if node.get("value_from")
+    ]
+    metadata = []
+    for state in explainer["states"]:
+        state_id = state["id"]
+        focus = "".join(
+            f'<span data-explainer-state-focus="{_esc(node_id)}"></span>'
+            for node_id in state["focus"]
+        )
+        values = "".join(
+            f'<span data-explainer-state-value-for="{_esc(node["id"])}">'
+            f'{_esc(state["values"][node["value_from"]])}</span>'
+            for node in dynamic_nodes
+        )
+        metadata.append(
+            f'<div data-explainer-state="{_esc(state_id)}" '
+            f'data-explainer-conclusion="{_esc(copy["states"][state_id]["conclusion"])}" '
+            f'hidden aria-hidden="true">{focus}{values}</div>'
+        )
+    return "".join(metadata)
+
+
 def render_shell(explainer: dict[str, Any], page_locale: str, canvas: str) -> str:
     copy_locale = resolve_explainer_locale(page_locale)
     copy = explainer["copy"][copy_locale]
@@ -85,5 +109,6 @@ def render_shell(explainer: dict[str, Any], page_locale: str, canvas: str) -> st
         f'data-explainer-locale="{_esc(copy_locale)}"><h2>{_esc(copy["heading"])}</h2>'
         f'<p>{_esc(copy["intro"])}</p>{render_state_controls(states, copy, copy_locale)}{canvas}'
         f'<p data-explainer-conclusion aria-live="polite">{_esc(copy["states"][first]["conclusion"])}</p>'
+        f"{render_state_metadata(explainer, copy)}"
         f"{render_transcript(states, copy)}</section>"
     )

@@ -8,20 +8,36 @@
   const CONTROL_SELECTOR = '[data-explainer-state-control]';
   const STATE_SELECTOR = '[data-explainer-state]';
   const CONCLUSION_SELECTOR = '[data-explainer-conclusion]';
+  const NODE_SELECTOR = '[data-explainer-node]';
+  const FOCUS_SELECTOR = '[data-explainer-state-focus]';
+  const VALUE_SELECTOR = '[data-explainer-state-value-for]';
   const NAVIGATION_KEYS = new Set(['ArrowLeft', 'ArrowRight', 'Home', 'End']);
+  const mountedRoots = new WeakSet();
 
   function stateId(element, attribute) {
     return element?.dataset?.[attribute] || '';
   }
 
-  function stateConclusion(state) {
-    const direct = state?.dataset?.explainerConclusion;
-    if (direct) return direct;
-    return state?.querySelector?.(CONCLUSION_SELECTOR)?.textContent || '';
+  function stateFocus(state) {
+    return new Set(
+      Array.from(state.querySelectorAll(FOCUS_SELECTOR)).map((item) =>
+        stateId(item, 'explainerStateFocus'),
+      ),
+    );
+  }
+
+  function stateValues(state) {
+    return new Map(
+      Array.from(state.querySelectorAll(VALUE_SELECTOR)).map((item) => [
+        stateId(item, 'explainerStateValueFor'),
+        item.textContent,
+      ]),
+    );
   }
 
   function mount(root) {
     if (!root || typeof root.querySelectorAll !== 'function') return false;
+    if (mountedRoots.has(root)) return true;
 
     const controls = Array.from(root.querySelectorAll(CONTROL_SELECTOR));
     const states = Array.from(root.querySelectorAll(STATE_SELECTOR));
@@ -31,6 +47,7 @@
     const availableControls = controls.filter((control) =>
       stateIds.has(stateId(control, 'explainerStateControl')),
     );
+    const nodes = Array.from(root.querySelectorAll(NODE_SELECTOR));
     const conclusions = Array.from(root.querySelectorAll(CONCLUSION_SELECTOR));
     const conclusion = conclusions.find((item) => !stateId(item, 'explainerState'));
 
@@ -44,16 +61,25 @@
       });
       states.forEach((state) => {
         const active = stateId(state, 'explainerState') === nextStateId;
-        state.hidden = !active;
+        state.hidden = true;
         state.classList.toggle('is-active', active);
         if (active) state.setAttribute('aria-current', 'step');
         else state.removeAttribute('aria-current');
       });
 
-      if (conclusion) {
-        const activeState = states.find((state) => stateId(state, 'explainerState') === nextStateId);
-        const nextConclusion = stateConclusion(activeState);
-        if (nextConclusion) conclusion.textContent = nextConclusion;
+      const activeState = states.find((state) => stateId(state, 'explainerState') === nextStateId);
+      const focus = stateFocus(activeState);
+      const values = stateValues(activeState);
+      nodes.forEach((node) => {
+        const nodeId = stateId(node, 'explainerNode');
+        node.classList.toggle('is-active', focus.has(nodeId));
+        const value = values.get(nodeId);
+        const code = node.querySelector('code');
+        if (value !== undefined && code) code.textContent = value;
+      });
+
+      if (conclusion && activeState?.dataset?.explainerConclusion) {
+        conclusion.textContent = activeState.dataset.explainerConclusion;
       }
       return true;
     }
@@ -78,12 +104,15 @@
     const current = states.find((state) => state.getAttribute('aria-current') === 'step');
     const initial = stateId(selected, 'explainerStateControl') ||
       stateId(current, 'explainerState') || stateId(states[0], 'explainerState');
-    return activate(initial);
+    const mounted = activate(initial);
+    if (mounted) mountedRoots.add(root);
+    return mounted;
   }
 
   function mountAll(root) {
     if (!root || typeof root.querySelectorAll !== 'function') return 0;
     const roots = Array.from(root.querySelectorAll('[data-visual-explainer]'));
+    if (root.getAttribute?.('data-visual-explainer') != null) roots.unshift(root);
     return roots.reduce((mounted, explainer) => mounted + Number(mount(explainer)), 0);
   }
 

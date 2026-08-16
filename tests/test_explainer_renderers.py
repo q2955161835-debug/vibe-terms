@@ -99,6 +99,26 @@ def test_renderer_escapes_code_and_keeps_every_state_in_transcript(
     assert html.count('class="visual-transcript-item"') == len(broken["states"])
 
 
+def test_renderer_emits_hidden_state_metadata_for_the_unique_canvas(
+    css_explainer: dict[str, Any],
+) -> None:
+    html = render_visual_explainer(css_explainer, "en")
+
+    assert html.count("data-explainer-state=") == len(css_explainer["states"])
+    assert html.count('data-explainer-node="computed-value"') == 1
+    for state in css_explainer["states"]:
+        state_id = state["id"]
+        conclusion = css_explainer["copy"]["en"]["states"][state_id]["conclusion"]
+        assert (
+            f'data-explainer-state="{state_id}" '
+            f'data-explainer-conclusion="{conclusion}" hidden aria-hidden="true"'
+        ) in html
+        for node_id in state["focus"]:
+            assert f'data-explainer-state-focus="{node_id}"' in html
+    assert 'data-explainer-state-value-for="computed-value">#4338ca<' in html
+    assert 'data-explainer-state-value-for="computed-value">#db2777<' in html
+
+
 @pytest.mark.parametrize(
     ("pattern", "state_count", "markers"),
     [
