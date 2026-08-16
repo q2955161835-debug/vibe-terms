@@ -1,13 +1,16 @@
 from __future__ import annotations
 
+import argparse
 from copy import deepcopy
 from pathlib import Path
+import shutil
 import subprocess
 import sys
 
 import pytest
 import yaml
 
+from scripts import audit_explainers
 from scripts.vibe_terms.explainers import load_explainer, resolve_explainer_locale
 
 
@@ -100,6 +103,84 @@ def test_explainer_rejects_invalid_contract_variants(
         load_explainer(path, "css")
 
 
+def test_every_dynamic_node_resolves_in_every_renderer_state(tmp_path: Path) -> None:
+    """The renderer reads every scene node for every state, not only focused nodes."""
+    item = yaml.safe_load(FIXTURE.read_text(encoding="utf-8"))
+    item["states"][1]["values"].pop("computed-color")
+    path = tmp_path / "css.yaml"
+    path.write_text(yaml.safe_dump(item, allow_unicode=True), encoding="utf-8")
+
+    with pytest.raises(
+        ValueError, match="state override is missing value_from key computed-color"
+    ):
+        load_explainer(path, "css")
+
+
+@pytest.mark.parametrize(
+    ("mutate", "error"),
+    [
+        (
+            lambda item: item.__setitem__("schema_version", True),
+            "schema_version must be exactly integer 1",
+        ),
+        (
+            lambda item: item.__setitem__("unexpected", True),
+            "unknown root keys: unexpected",
+        ),
+        (
+            lambda item: item["states"][0].__setitem__("unexpected", True),
+            "unknown state keys: unexpected",
+        ),
+        (
+            lambda item: item["scene"].__setitem__("unexpected", True),
+            "unknown scene keys: unexpected",
+        ),
+        (
+            lambda item: item["scene"]["nodes"][0].__setitem__("unexpected", True),
+            "unknown node keys: unexpected",
+        ),
+        (
+            lambda item: item["scene"]["relations"][0].__setitem__(
+                "unexpected", True
+            ),
+            "unknown relation keys: unexpected",
+        ),
+        (
+            lambda item: item["copy"]["en"].__setitem__("unexpected", True),
+            "unknown copy/en keys: unexpected",
+        ),
+        (
+            lambda item: item["copy"]["en"]["states"]["base"].__setitem__(
+                "unexpected", True
+            ),
+            "unknown copy/en state base keys: unexpected",
+        ),
+        (
+            lambda item: item["copy"]["en"]["labels"].__setitem__(
+                "unexpected", "Unexpected"
+            ),
+            "unknown copy/en label keys: unexpected",
+        ),
+        (
+            lambda item: item["states"][0]["values"].__setitem__(
+                "unexpected", "Unexpected"
+            ),
+            "unknown state base value keys: unexpected",
+        ),
+    ],
+)
+def test_explainer_rejects_unknown_contract_keys(
+    tmp_path: Path, mutate, error: str
+) -> None:
+    item = yaml.safe_load(FIXTURE.read_text(encoding="utf-8"))
+    mutate(item)
+    path = tmp_path / "css.yaml"
+    path.write_text(yaml.safe_dump(item, allow_unicode=True), encoding="utf-8")
+
+    with pytest.raises(ValueError, match=error):
+        load_explainer(path, "css")
+
+
 def test_audit_lists_only_missing_requested_domain_slugs() -> None:
     completed = subprocess.run(
         [
@@ -128,3 +209,27 @@ def test_audit_lists_only_missing_requested_domain_slugs() -> None:
     assert "frontend-engineering: 0/" in completed.stderr
     assert "patterns: none" in completed.stderr
     assert "complexities: none" in completed.stderr
+
+
+def test_audit_list_missing_emits_no_blank_line_when_subset_is_complete(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]
+) -> None:
+    content = tmp_path / "content"
+    explainer_dir = content / "explainers"
+    explainer_dir.mkdir(parents=True)
+    shutil.copy(FIXTURE, explainer_dir / "css.yaml")
+    arguments = argparse.Namespace(
+        domains=["frontend-engineering"], list_missing=True, require_complete=False
+    )
+    monkeypatch.setattr(audit_explainers, "CONTENT", content)
+    monkeypatch.setattr(audit_explainers, "parse_args", lambda: arguments)
+    monkeypatch.setattr(
+        audit_explainers,
+        "_selected_terms",
+        lambda _domains: ({"css": "frontend-engineering"}, ["frontend-engineering"]),
+    )
+
+    assert audit_explainers.main() == 0
+    captured = capsys.readouterr()
+    assert captured.out == ""
+    assert "frontend-engineering: 1/1" in captured.err

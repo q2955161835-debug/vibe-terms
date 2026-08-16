@@ -90,7 +90,7 @@ def main() -> int:
         print(f"ERROR: {error}", file=sys.stderr)
         return 1
 
-    if args.list_missing:
+    if args.list_missing and missing:
         print("\n".join(missing))
     _print_counts(requested, selected, loaded)
     if extras:
