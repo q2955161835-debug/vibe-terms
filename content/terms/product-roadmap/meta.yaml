@@ -1,0 +1,11 @@
+id: term_product_roadmap
+slug: product-roadmap
+canonical_name: Product Roadmap
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Product Backlog
+- Gantt Chart
+content_version: 1

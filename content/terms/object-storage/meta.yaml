@@ -1,0 +1,11 @@
+id: term_object_storage
+slug: object-storage
+canonical_name: Object Storage
+aliases: []
+primary_domain: backend-apis
+lifecycle_stage: data-identity
+difficulty: advanced
+related_terms:
+- File Upload
+- API Gateway
+content_version: 1

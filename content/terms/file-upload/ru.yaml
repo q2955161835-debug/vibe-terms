@@ -1,0 +1,10 @@
+title: File Upload
+short_definition: 'File Upload — термин из раздела «Бэкенд и API». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The process of transferring a file from a client to an application or storage service with validation and progress handling.'
+analogy: File Upload можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'File Upload — термин из раздела «Бэкенд и API». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The process of transferring a file from a client to an application or storage service with validation and progress handling.'
+why_it_matters: Понимание File Upload помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание File Upload помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль File Upload в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название File Upload доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

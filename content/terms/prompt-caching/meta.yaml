@@ -1,0 +1,11 @@
+id: term_prompt_caching
+slug: prompt-caching
+canonical_name: Prompt Caching
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Model Routing
+- Fine-tuning
+content_version: 1

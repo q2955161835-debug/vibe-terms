@@ -1,0 +1,11 @@
+id: term_anchor
+slug: anchor
+canonical_name: Anchor
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Dropdown
+- Back-to-top Button
+content_version: 1

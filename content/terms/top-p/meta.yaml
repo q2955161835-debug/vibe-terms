@@ -1,0 +1,11 @@
+id: term_top_p
+slug: top-p
+canonical_name: Top P
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Temperature
+- Determinism
+content_version: 1

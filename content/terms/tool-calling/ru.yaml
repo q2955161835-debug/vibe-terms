@@ -1,0 +1,10 @@
+title: Tool Calling
+short_definition: 'Tool Calling — термин из раздела «ИИ и Vibe Coding». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The capability for a model to request execution of a defined external function or tool with structured arguments.'
+analogy: Tool Calling можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Tool Calling — термин из раздела «ИИ и Vibe Coding». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The capability for a model to request execution of a defined external function or tool with structured arguments.'
+why_it_matters: Понимание Tool Calling помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Tool Calling помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Tool Calling в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Tool Calling доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

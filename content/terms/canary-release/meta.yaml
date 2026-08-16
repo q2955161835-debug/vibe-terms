@@ -1,0 +1,11 @@
+id: term_canary_release
+slug: canary-release
+canonical_name: Canary Release
+aliases: []
+primary_domain: deployment-operations
+lifecycle_stage: deploy-maintain
+difficulty: beginner
+related_terms:
+- Feature Flag
+- Blue-Green Deployment
+content_version: 1

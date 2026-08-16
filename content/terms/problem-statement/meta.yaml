@@ -1,0 +1,11 @@
+id: term_problem_statement
+slug: problem-statement
+canonical_name: Problem Statement
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Feature
+- Persona
+content_version: 1

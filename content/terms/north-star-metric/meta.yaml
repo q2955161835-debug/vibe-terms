@@ -1,0 +1,11 @@
+id: term_north_star_metric
+slug: north-star-metric
+canonical_name: North Star Metric
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- KPI
+- Guardrail Metric
+content_version: 1

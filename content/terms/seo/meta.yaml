@@ -1,0 +1,10 @@
+id: term_seo
+slug: seo
+canonical_name: SEO
+aliases: []
+primary_domain: web-network
+lifecycle_stage: environment
+difficulty: advanced
+related_terms:
+- Reverse Proxy
+content_version: 1

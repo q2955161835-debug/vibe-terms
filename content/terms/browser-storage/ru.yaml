@@ -1,0 +1,10 @@
+title: Browser Storage
+short_definition: 'Browser Storage — термин из раздела «Данные и базы данных». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Persistence mechanisms available inside a browser, such as localStorage or IndexedDB, for saving data on one client device.'
+analogy: Browser Storage можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Browser Storage — термин из раздела «Данные и базы данных». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Persistence mechanisms available inside a browser, such as localStorage or IndexedDB, for saving data on one client device.'
+why_it_matters: Понимание Browser Storage помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Browser Storage помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Browser Storage в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Browser Storage доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

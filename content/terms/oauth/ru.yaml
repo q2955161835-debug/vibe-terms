@@ -1,0 +1,10 @@
+title: OAuth
+short_definition: 'OAuth — термин из раздела «Безопасность и приватность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: An authorization framework that lets a user grant one application limited access to another service without sharing the user''s password.'
+analogy: OAuth можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'OAuth — термин из раздела «Безопасность и приватность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: An authorization framework that lets a user grant one application limited access to another service without sharing the user''s password.'
+why_it_matters: Понимание OAuth помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание OAuth помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль OAuth в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название OAuth доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

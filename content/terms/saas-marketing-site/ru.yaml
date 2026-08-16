@@ -1,0 +1,10 @@
+title: SaaS Marketing Site
+short_definition: 'SaaS Marketing Site — термин из раздела «UI/UX и доступность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A website pattern for software products that combines a clear value proposition, product evidence, trust signals, and conversion actions.'
+analogy: SaaS Marketing Site можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'SaaS Marketing Site — термин из раздела «UI/UX и доступность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A website pattern for software products that combines a clear value proposition, product evidence, trust signals, and conversion actions.'
+why_it_matters: Понимание SaaS Marketing Site помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание SaaS Marketing Site помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль SaaS Marketing Site в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название SaaS Marketing Site доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

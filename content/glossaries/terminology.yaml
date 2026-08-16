@@ -1,0 +1,8501 @@
+terms:
+- canonical: AI Application
+  slug: ai-application
+  zh-cn: AI应用
+  zh-tw: AI應用
+  ja: AI Application
+  ko: AI Application
+  de: AI Application
+  ru: AI Application
+  hi: AI Application
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Hallucination
+  slug: hallucination
+  zh-cn: 幻觉
+  zh-tw: 幻觉
+  ja: Hallucination
+  ko: Hallucination
+  de: Hallucination
+  ru: Hallucination
+  hi: Hallucination
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Vibe Coding
+  slug: vibe-coding
+  zh-cn: VibeCoding
+  zh-tw: VibeCoding
+  ja: Vibe Coding
+  ko: Vibe Coding
+  de: Vibe Coding
+  ru: Vibe Coding
+  hi: Vibe Coding
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Multimodal AI
+  slug: multimodal-ai
+  zh-cn: 多模态AI
+  zh-tw: 多模態AI
+  ja: Multimodal AI
+  ko: Multimodal AI
+  de: Multimodal AI
+  ru: Multimodal AI
+  hi: Multimodal AI
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Context Engineering
+  slug: context-engineering
+  zh-cn: 上下文工程
+  zh-tw: 上下文工程
+  ja: Context Engineering
+  ko: Context Engineering
+  de: Context Engineering
+  ru: Context Engineering
+  hi: Context Engineering
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Token
+  slug: token
+  zh-cn: 词元
+  zh-tw: 词元
+  ja: Token
+  ko: Token
+  de: Token
+  ru: Token
+  hi: Token
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Context Window
+  slug: context-window
+  zh-cn: 上下文窗口
+  zh-tw: 上下文窗口
+  ja: Context Window
+  ko: Context Window
+  de: Context Window
+  ru: Context Window
+  hi: Context Window
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: System Prompt
+  slug: system-prompt
+  zh-cn: 系统提示词
+  zh-tw: 系统提示词
+  ja: System Prompt
+  ko: System Prompt
+  de: System Prompt
+  ru: System Prompt
+  hi: System Prompt
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Conversation History
+  slug: conversation-history
+  zh-cn: 对话历史
+  zh-tw: 对话歷史
+  ja: Conversation History
+  ko: Conversation History
+  de: Conversation History
+  ru: Conversation History
+  hi: Conversation History
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Stateless Request
+  slug: stateless-request
+  zh-cn: 无状态请求
+  zh-tw: 无状態请求
+  ja: Stateless Request
+  ko: Stateless Request
+  de: Stateless Request
+  ru: Stateless Request
+  hi: Stateless Request
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Structured Output
+  slug: structured-output
+  zh-cn: 结构化输出
+  zh-tw: 结構化輸出
+  ja: Structured Output
+  ko: Structured Output
+  de: Structured Output
+  ru: Structured Output
+  hi: Structured Output
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Streaming Response
+  slug: streaming-response
+  zh-cn: 流式响应
+  zh-tw: 流式响應
+  ja: Streaming Response
+  ko: Streaming Response
+  de: Streaming Response
+  ru: Streaming Response
+  hi: Streaming Response
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: AI Agent
+  slug: ai-agent
+  zh-cn: AI智能体
+  zh-tw: AI智能體
+  ja: AI Agent
+  ko: AI Agent
+  de: AI Agent
+  ru: AI Agent
+  hi: AI Agent
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Harness Engineering
+  slug: harness-engineering
+  zh-cn: 运行框架工程
+  zh-tw: 运行框架工程
+  ja: Harness Engineering
+  ko: Harness Engineering
+  de: Harness Engineering
+  ru: Harness Engineering
+  hi: Harness Engineering
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Human-in-the-loop
+  slug: human-in-the-loop
+  zh-cn: 人在回路
+  zh-tw: 人在回路
+  ja: Human-in-the-loop
+  ko: Human-in-the-loop
+  de: Human-in-the-loop
+  ru: Human-in-the-loop
+  hi: Human-in-the-loop
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Model Context Protocol
+  slug: model-context-protocol
+  zh-cn: 模型上下文协议
+  zh-tw: 模型上下文协议
+  ja: Model Context Protocol
+  ko: Model Context Protocol
+  de: Model Context Protocol
+  ru: Model Context Protocol
+  hi: Model Context Protocol
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Skill
+  slug: skill
+  zh-cn: 技能
+  zh-tw: 技能
+  ja: Skill
+  ko: Skill
+  de: Skill
+  ru: Skill
+  hi: Skill
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Sub-agent
+  slug: sub-agent
+  zh-cn: Sub-agent
+  zh-tw: Sub-agent
+  ja: Sub-agent
+  ko: Sub-agent
+  de: Sub-agent
+  ru: Sub-agent
+  hi: Sub-agent
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Tool Calling
+  slug: tool-calling
+  zh-cn: 工具调用
+  zh-tw: 工具調用
+  ja: Tool Calling
+  ko: Tool Calling
+  de: Tool Calling
+  ru: Tool Calling
+  hi: Tool Calling
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: ReAct
+  slug: react-agent-pattern
+  zh-cn: ReAct
+  zh-tw: ReAct
+  ja: ReAct
+  ko: ReAct
+  de: ReAct
+  ru: ReAct
+  hi: ReAct
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Agent Loop
+  slug: agent-loop
+  zh-cn: 智能体循环
+  zh-tw: 智能體循環
+  ja: Agent Loop
+  ko: Agent Loop
+  de: Agent Loop
+  ru: Agent Loop
+  hi: Agent Loop
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: AI Latency Metrics
+  slug: ai-latency-metrics
+  zh-cn: AI 延迟指标
+  zh-tw: AI 延迟指標
+  ja: AI Latency Metrics
+  ko: AI Latency Metrics
+  de: AI Latency Metrics
+  ru: AI Latency Metrics
+  hi: AI Latency Metrics
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Token Cost
+  slug: token-cost
+  zh-cn: Token 成本
+  zh-tw: Token 成本
+  ja: Token Cost
+  ko: Token Cost
+  de: Token Cost
+  ru: Token Cost
+  hi: Token Cost
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Rate Limit
+  slug: rate-limit
+  zh-cn: 速率限制
+  zh-tw: 速率限制
+  ja: Rate Limit
+  ko: Rate Limit
+  de: Rate Limit
+  ru: Rate Limit
+  hi: Rate Limit
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Large Language Model
+  slug: large-language-model
+  zh-cn: 大语言模型
+  zh-tw: 大语言模型
+  ja: Large Language Model
+  ko: Large Language Model
+  de: Large Language Model
+  ru: Large Language Model
+  hi: Large Language Model
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Model Provider
+  slug: model-provider
+  zh-cn: 模型提供商
+  zh-tw: 模型提供商
+  ja: Model Provider
+  ko: Model Provider
+  de: Model Provider
+  ru: Model Provider
+  hi: Model Provider
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Inference
+  slug: inference
+  zh-cn: 推理
+  zh-tw: 推理
+  ja: Inference
+  ko: Inference
+  de: Inference
+  ru: Inference
+  hi: Inference
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Prompt
+  slug: prompt
+  zh-cn: 提示词
+  zh-tw: 提示词
+  ja: Prompt
+  ko: Prompt
+  de: Prompt
+  ru: Prompt
+  hi: Prompt
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Prompt Engineering
+  slug: prompt-engineering
+  zh-cn: 提示词工程
+  zh-tw: 提示词工程
+  ja: Prompt Engineering
+  ko: Prompt Engineering
+  de: Prompt Engineering
+  ru: Prompt Engineering
+  hi: Prompt Engineering
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Prompt Template
+  slug: prompt-template
+  zh-cn: 提示词模板
+  zh-tw: 提示词模板
+  ja: Prompt Template
+  ko: Prompt Template
+  de: Prompt Template
+  ru: Prompt Template
+  hi: Prompt Template
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Instruction Hierarchy
+  slug: instruction-hierarchy
+  zh-cn: 指令层级
+  zh-tw: 指令層級
+  ja: Instruction Hierarchy
+  ko: Instruction Hierarchy
+  de: Instruction Hierarchy
+  ru: Instruction Hierarchy
+  hi: Instruction Hierarchy
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Grounding
+  slug: grounding
+  zh-cn: 事实锚定
+  zh-tw: 事实锚定
+  ja: Grounding
+  ko: Grounding
+  de: Grounding
+  ru: Grounding
+  hi: Grounding
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Retrieval-Augmented Generation
+  slug: retrieval-augmented-generation
+  zh-cn: 检索增强生成
+  zh-tw: 检索增强生成
+  ja: Retrieval-Augmented Generation
+  ko: Retrieval-Augmented Generation
+  de: Retrieval-Augmented Generation
+  ru: Retrieval-Augmented Generation
+  hi: Retrieval-Augmented Generation
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Embedding
+  slug: embedding
+  zh-cn: 嵌入
+  zh-tw: 嵌入
+  ja: Embedding
+  ko: Embedding
+  de: Embedding
+  ru: Embedding
+  hi: Embedding
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Vector Database
+  slug: vector-database
+  zh-cn: 向量数据库
+  zh-tw: 向量數據庫
+  ja: Vector Database
+  ko: Vector Database
+  de: Vector Database
+  ru: Vector Database
+  hi: Vector Database
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Semantic Search
+  slug: semantic-search
+  zh-cn: 语义搜索
+  zh-tw: 语义搜索
+  ja: Semantic Search
+  ko: Semantic Search
+  de: Semantic Search
+  ru: Semantic Search
+  hi: Semantic Search
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Chunking
+  slug: chunking
+  zh-cn: 分块
+  zh-tw: 分塊
+  ja: Chunking
+  ko: Chunking
+  de: Chunking
+  ru: Chunking
+  hi: Chunking
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Reranking
+  slug: reranking
+  zh-cn: 重排序
+  zh-tw: 重排序
+  ja: Reranking
+  ko: Reranking
+  de: Reranking
+  ru: Reranking
+  hi: Reranking
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Agent Memory
+  slug: agent-memory
+  zh-cn: 智能体记忆
+  zh-tw: 智能體记忆
+  ja: Agent Memory
+  ko: Agent Memory
+  de: Agent Memory
+  ru: Agent Memory
+  hi: Agent Memory
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Short-Term Memory
+  slug: short-term-memory
+  zh-cn: Short-Term记忆
+  zh-tw: Short-Term记忆
+  ja: Short-Term Memory
+  ko: Short-Term Memory
+  de: Short-Term Memory
+  ru: Short-Term Memory
+  hi: Short-Term Memory
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Long-Term Memory
+  slug: long-term-memory
+  zh-cn: Long-Term记忆
+  zh-tw: Long-Term记忆
+  ja: Long-Term Memory
+  ko: Long-Term Memory
+  de: Long-Term Memory
+  ru: Long-Term Memory
+  hi: Long-Term Memory
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Function Calling
+  slug: function-calling
+  zh-cn: 函数调用
+  zh-tw: 函數調用
+  ja: Function Calling
+  ko: Function Calling
+  de: Function Calling
+  ru: Function Calling
+  hi: Function Calling
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Evaluation
+  slug: evaluation
+  zh-cn: 评测
+  zh-tw: 评測
+  ja: Evaluation
+  ko: Evaluation
+  de: Evaluation
+  ru: Evaluation
+  hi: Evaluation
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Benchmark
+  slug: benchmark
+  zh-cn: 基准
+  zh-tw: 基准
+  ja: Benchmark
+  ko: Benchmark
+  de: Benchmark
+  ru: Benchmark
+  hi: Benchmark
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Eval Dataset
+  slug: eval-dataset
+  zh-cn: 评测数据集
+  zh-tw: 评測數據集
+  ja: Eval Dataset
+  ko: Eval Dataset
+  de: Eval Dataset
+  ru: Eval Dataset
+  hi: Eval Dataset
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Guardrail
+  slug: guardrail
+  zh-cn: 护栏
+  zh-tw: 護栏
+  ja: Guardrail
+  ko: Guardrail
+  de: Guardrail
+  ru: Guardrail
+  hi: Guardrail
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Prompt Injection
+  slug: prompt-injection
+  zh-cn: 提示词注入
+  zh-tw: 提示词注入
+  ja: Prompt Injection
+  ko: Prompt Injection
+  de: Prompt Injection
+  ru: Prompt Injection
+  hi: Prompt Injection
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Jailbreak
+  slug: jailbreak
+  zh-cn: 越狱
+  zh-tw: 越狱
+  ja: Jailbreak
+  ko: Jailbreak
+  de: Jailbreak
+  ru: Jailbreak
+  hi: Jailbreak
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Model Routing
+  slug: model-routing
+  zh-cn: 模型路由
+  zh-tw: 模型路由
+  ja: Model Routing
+  ko: Model Routing
+  de: Model Routing
+  ru: Model Routing
+  hi: Model Routing
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Prompt Caching
+  slug: prompt-caching
+  zh-cn: 提示词缓存
+  zh-tw: 提示词缓存
+  ja: Prompt Caching
+  ko: Prompt Caching
+  de: Prompt Caching
+  ru: Prompt Caching
+  hi: Prompt Caching
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Fine-tuning
+  slug: fine-tuning
+  zh-cn: Fine-tuning
+  zh-tw: Fine-tuning
+  ja: Fine-tuning
+  ko: Fine-tuning
+  de: Fine-tuning
+  ru: Fine-tuning
+  hi: Fine-tuning
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Temperature
+  slug: temperature
+  zh-cn: 温度
+  zh-tw: 温度
+  ja: Temperature
+  ko: Temperature
+  de: Temperature
+  ru: Temperature
+  hi: Temperature
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Top P
+  slug: top-p
+  zh-cn: TopP
+  zh-tw: TopP
+  ja: Top P
+  ko: Top P
+  de: Top P
+  ru: Top P
+  hi: Top P
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Determinism
+  slug: determinism
+  zh-cn: 确定性
+  zh-tw: 确定性
+  ja: Determinism
+  ko: Determinism
+  de: Determinism
+  ru: Determinism
+  hi: Determinism
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Reasoning Model
+  slug: reasoning-model
+  zh-cn: 推理模型
+  zh-tw: 推理模型
+  ja: Reasoning Model
+  ko: Reasoning Model
+  de: Reasoning Model
+  ru: Reasoning Model
+  hi: Reasoning Model
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Vision Model
+  slug: vision-model
+  zh-cn: 视觉模型
+  zh-tw: 视觉模型
+  ja: Vision Model
+  ko: Vision Model
+  de: Vision Model
+  ru: Vision Model
+  hi: Vision Model
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Speech Model
+  slug: speech-model
+  zh-cn: 语音模型
+  zh-tw: 语音模型
+  ja: Speech Model
+  ko: Speech Model
+  de: Speech Model
+  ru: Speech Model
+  hi: Speech Model
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Text-to-Image
+  slug: text-to-image
+  zh-cn: 文生图
+  zh-tw: 文生圖
+  ja: Text-to-Image
+  ko: Text-to-Image
+  de: Text-to-Image
+  ru: Text-to-Image
+  hi: Text-to-Image
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Agentic Workflow
+  slug: agentic-workflow
+  zh-cn: 智能体工作流
+  zh-tw: 智能體工作流
+  ja: Agentic Workflow
+  ko: Agentic Workflow
+  de: Agentic Workflow
+  ru: Agentic Workflow
+  hi: Agentic Workflow
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Multi-agent System
+  slug: multi-agent-system
+  zh-cn: 多智能体系统
+  zh-tw: 多智能體系统
+  ja: Multi-agent System
+  ko: Multi-agent System
+  de: Multi-agent System
+  ru: Multi-agent System
+  hi: Multi-agent System
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Terminal
+  slug: terminal
+  zh-cn: 终端
+  zh-tw: 终端
+  ja: Terminal
+  ko: Terminal
+  de: Terminal
+  ru: Terminal
+  hi: Terminal
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: npm
+  slug: npm
+  zh-cn: npm
+  zh-tw: npm
+  ja: npm
+  ko: npm
+  de: npm
+  ru: npm
+  hi: npm
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Build
+  slug: build
+  zh-cn: 构建
+  zh-tw: 構建
+  ja: Build
+  ko: Build
+  de: Build
+  ru: Build
+  hi: Build
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Lint
+  slug: lint
+  zh-cn: 代码检查
+  zh-tw: 代碼检查
+  ja: Lint
+  ko: Lint
+  de: Lint
+  ru: Lint
+  hi: Lint
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Tech Stack
+  slug: tech-stack
+  zh-cn: 技术堆栈
+  zh-tw: 技术堆栈
+  ja: Tech Stack
+  ko: Tech Stack
+  de: Tech Stack
+  ru: Tech Stack
+  hi: Tech Stack
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: JavaScript
+  slug: javascript
+  zh-cn: JavaScript
+  zh-tw: JavaScript
+  ja: JavaScript
+  ko: JavaScript
+  de: JavaScript
+  ru: JavaScript
+  hi: JavaScript
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: TypeScript
+  slug: typescript
+  zh-cn: TypeScript
+  zh-tw: TypeScript
+  ja: TypeScript
+  ko: TypeScript
+  de: TypeScript
+  ru: TypeScript
+  hi: TypeScript
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Python
+  slug: python
+  zh-cn: Python
+  zh-tw: Python
+  ja: Python
+  ko: Python
+  de: Python
+  ru: Python
+  hi: Python
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Software
+  slug: software
+  zh-cn: 软件
+  zh-tw: 软件
+  ja: Software
+  ko: Software
+  de: Software
+  ru: Software
+  hi: Software
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Application
+  slug: application
+  zh-cn: 应用
+  zh-tw: 應用
+  ja: Application
+  ko: Application
+  de: Application
+  ru: Application
+  hi: Application
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Source Code
+  slug: source-code
+  zh-cn: 源代码
+  zh-tw: 源代碼
+  ja: Source Code
+  ko: Source Code
+  de: Source Code
+  ru: Source Code
+  hi: Source Code
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Runtime
+  slug: runtime
+  zh-cn: 运行时
+  zh-tw: 运行时
+  ja: Runtime
+  ko: Runtime
+  de: Runtime
+  ru: Runtime
+  hi: Runtime
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Framework
+  slug: framework
+  zh-cn: 框架
+  zh-tw: 框架
+  ja: Framework
+  ko: Framework
+  de: Framework
+  ru: Framework
+  hi: Framework
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Library
+  slug: library
+  zh-cn: 库
+  zh-tw: 庫
+  ja: Library
+  ko: Library
+  de: Library
+  ru: Library
+  hi: Library
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: SDK
+  slug: sdk
+  zh-cn: SDK
+  zh-tw: SDK
+  ja: SDK
+  ko: SDK
+  de: SDK
+  ru: SDK
+  hi: SDK
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Dependency
+  slug: dependency
+  zh-cn: 依赖
+  zh-tw: 依赖
+  ja: Dependency
+  ko: Dependency
+  de: Dependency
+  ru: Dependency
+  hi: Dependency
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Package Manager
+  slug: package-manager
+  zh-cn: 包管理器
+  zh-tw: 包管理器
+  ja: Package Manager
+  ko: Package Manager
+  de: Package Manager
+  ru: Package Manager
+  hi: Package Manager
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Package
+  slug: package
+  zh-cn: 包
+  zh-tw: 包
+  ja: Package
+  ko: Package
+  de: Package
+  ru: Package
+  hi: Package
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Semantic Versioning
+  slug: semantic-versioning
+  zh-cn: 语义版本控制
+  zh-tw: 语义版本控制
+  ja: Semantic Versioning
+  ko: Semantic Versioning
+  de: Semantic Versioning
+  ru: Semantic Versioning
+  hi: Semantic Versioning
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Lockfile
+  slug: lockfile
+  zh-cn: 锁文件
+  zh-tw: 锁文件
+  ja: Lockfile
+  ko: Lockfile
+  de: Lockfile
+  ru: Lockfile
+  hi: Lockfile
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Operating System
+  slug: operating-system
+  zh-cn: 操作系统
+  zh-tw: 操作系统
+  ja: Operating System
+  ko: Operating System
+  de: Operating System
+  ru: Operating System
+  hi: Operating System
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: File System
+  slug: file-system
+  zh-cn: 文件系统
+  zh-tw: 文件系统
+  ja: File System
+  ko: File System
+  de: File System
+  ru: File System
+  hi: File System
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Path
+  slug: path
+  zh-cn: 路径
+  zh-tw: 路径
+  ja: Path
+  ko: Path
+  de: Path
+  ru: Path
+  hi: Path
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Directory
+  slug: directory
+  zh-cn: 目录
+  zh-tw: 目錄
+  ja: Directory
+  ko: Directory
+  de: Directory
+  ru: Directory
+  hi: Directory
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Working Directory
+  slug: working-directory
+  zh-cn: 工作目录
+  zh-tw: 工作目錄
+  ja: Working Directory
+  ko: Working Directory
+  de: Working Directory
+  ru: Working Directory
+  hi: Working Directory
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Shell
+  slug: shell
+  zh-cn: Shell
+  zh-tw: Shell
+  ja: Shell
+  ko: Shell
+  de: Shell
+  ru: Shell
+  hi: Shell
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: CLI
+  slug: cli
+  zh-cn: CLI
+  zh-tw: CLI
+  ja: CLI
+  ko: CLI
+  de: CLI
+  ru: CLI
+  hi: CLI
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Command
+  slug: command
+  zh-cn: 命令
+  zh-tw: 命令
+  ja: Command
+  ko: Command
+  de: Command
+  ru: Command
+  hi: Command
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Argument
+  slug: argument
+  zh-cn: 参数
+  zh-tw: 參數
+  ja: Argument
+  ko: Argument
+  de: Argument
+  ru: Argument
+  hi: Argument
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Flag
+  slug: flag
+  zh-cn: 选项
+  zh-tw: 选項
+  ja: Flag
+  ko: Flag
+  de: Flag
+  ru: Flag
+  hi: Flag
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Process
+  slug: process
+  zh-cn: 进程
+  zh-tw: 进程
+  ja: Process
+  ko: Process
+  de: Process
+  ru: Process
+  hi: Process
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Environment Variable
+  slug: environment-variable
+  zh-cn: 环境变量
+  zh-tw: 環境变量
+  ja: Environment Variable
+  ko: Environment Variable
+  de: Environment Variable
+  ru: Environment Variable
+  hi: Environment Variable
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Configuration File
+  slug: configuration-file
+  zh-cn: 配置文件
+  zh-tw: 配置文件
+  ja: Configuration File
+  ko: Configuration File
+  de: Configuration File
+  ru: Configuration File
+  hi: Configuration File
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Artifact
+  slug: artifact
+  zh-cn: 产物
+  zh-tw: 产物
+  ja: Artifact
+  ko: Artifact
+  de: Artifact
+  ru: Artifact
+  hi: Artifact
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Dependency Tree
+  slug: dependency-tree
+  zh-cn: 依赖树
+  zh-tw: 依赖树
+  ja: Dependency Tree
+  ko: Dependency Tree
+  de: Dependency Tree
+  ru: Dependency Tree
+  hi: Dependency Tree
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Domain
+  slug: domain
+  zh-cn: 域名
+  zh-tw: 域名
+  ja: Domain
+  ko: Domain
+  de: Domain
+  ru: Domain
+  hi: Domain
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: DNS
+  slug: dns
+  zh-cn: DNS
+  zh-tw: DNS
+  ja: DNS
+  ko: DNS
+  de: DNS
+  ru: DNS
+  hi: DNS
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: URL
+  slug: url
+  zh-cn: URL
+  zh-tw: URL
+  ja: URL
+  ko: URL
+  de: URL
+  ru: URL
+  hi: URL
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: HTTP
+  slug: http
+  zh-cn: HTTP
+  zh-tw: HTTP
+  ja: HTTP
+  ko: HTTP
+  de: HTTP
+  ru: HTTP
+  hi: HTTP
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: HTTPS
+  slug: https
+  zh-cn: HTTPS
+  zh-tw: HTTPS
+  ja: HTTPS
+  ko: HTTPS
+  de: HTTPS
+  ru: HTTPS
+  hi: HTTPS
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: CDN
+  slug: cdn
+  zh-cn: CDN
+  zh-tw: CDN
+  ja: CDN
+  ko: CDN
+  de: CDN
+  ru: CDN
+  hi: CDN
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Port
+  slug: port
+  zh-cn: 端口
+  zh-tw: 端口
+  ja: Port
+  ko: Port
+  de: Port
+  ru: Port
+  hi: Port
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Redirect
+  slug: redirect
+  zh-cn: 重定向
+  zh-tw: 重定向
+  ja: Redirect
+  ko: Redirect
+  de: Redirect
+  ru: Redirect
+  hi: Redirect
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Internet
+  slug: internet
+  zh-cn: 互联网
+  zh-tw: 互联網
+  ja: Internet
+  ko: Internet
+  de: Internet
+  ru: Internet
+  hi: Internet
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Web
+  slug: web
+  zh-cn: Web
+  zh-tw: Web
+  ja: Web
+  ko: Web
+  de: Web
+  ru: Web
+  hi: Web
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Browser
+  slug: browser
+  zh-cn: 浏览器
+  zh-tw: 浏覽器
+  ja: Browser
+  ko: Browser
+  de: Browser
+  ru: Browser
+  hi: Browser
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: IP Address
+  slug: ip-address
+  zh-cn: IP地址
+  zh-tw: IP地址
+  ja: IP Address
+  ko: IP Address
+  de: IP Address
+  ru: IP Address
+  hi: IP Address
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Hostname
+  slug: hostname
+  zh-cn: 主机名
+  zh-tw: 主機名
+  ja: Hostname
+  ko: Hostname
+  de: Hostname
+  ru: Hostname
+  hi: Hostname
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: URI
+  slug: uri
+  zh-cn: URI
+  zh-tw: URI
+  ja: URI
+  ko: URI
+  de: URI
+  ru: URI
+  hi: URI
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Query String
+  slug: query-string
+  zh-cn: 查询字符串
+  zh-tw: 查询字符串
+  ja: Query String
+  ko: Query String
+  de: Query String
+  ru: Query String
+  hi: Query String
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: URL Fragment
+  slug: url-fragment
+  zh-cn: URL片段
+  zh-tw: URL片段
+  ja: URL Fragment
+  ko: URL Fragment
+  de: URL Fragment
+  ru: URL Fragment
+  hi: URL Fragment
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: HTTP Method
+  slug: http-method
+  zh-cn: HTTP方法
+  zh-tw: HTTP方法
+  ja: HTTP Method
+  ko: HTTP Method
+  de: HTTP Method
+  ru: HTTP Method
+  hi: HTTP Method
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: HTTP Status Code
+  slug: http-status-code
+  zh-cn: HTTP状态代码
+  zh-tw: HTTP状態代碼
+  ja: HTTP Status Code
+  ko: HTTP Status Code
+  de: HTTP Status Code
+  ru: HTTP Status Code
+  hi: HTTP Status Code
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Request
+  slug: request
+  zh-cn: 请求
+  zh-tw: 请求
+  ja: Request
+  ko: Request
+  de: Request
+  ru: Request
+  hi: Request
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Response
+  slug: response
+  zh-cn: 响应
+  zh-tw: 响應
+  ja: Response
+  ko: Response
+  de: Response
+  ru: Response
+  hi: Response
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: HTTP Header
+  slug: http-header
+  zh-cn: HTTP头部
+  zh-tw: HTTP头部
+  ja: HTTP Header
+  ko: HTTP Header
+  de: HTTP Header
+  ru: HTTP Header
+  hi: HTTP Header
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Request Body
+  slug: request-body
+  zh-cn: 请求正文
+  zh-tw: 请求正文
+  ja: Request Body
+  ko: Request Body
+  de: Request Body
+  ru: Request Body
+  hi: Request Body
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: TLS
+  slug: tls
+  zh-cn: TLS
+  zh-tw: TLS
+  ja: TLS
+  ko: TLS
+  de: TLS
+  ru: TLS
+  hi: TLS
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: TCP
+  slug: tcp
+  zh-cn: TCP
+  zh-tw: TCP
+  ja: TCP
+  ko: TCP
+  de: TCP
+  ru: TCP
+  hi: TCP
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: UDP
+  slug: udp
+  zh-cn: UDP
+  zh-tw: UDP
+  ja: UDP
+  ko: UDP
+  de: UDP
+  ru: UDP
+  hi: UDP
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: WebSocket
+  slug: websocket
+  zh-cn: WebSocket
+  zh-tw: WebSocket
+  ja: WebSocket
+  ko: WebSocket
+  de: WebSocket
+  ru: WebSocket
+  hi: WebSocket
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Server-Sent Events
+  slug: server-sent-events
+  zh-cn: 服务器-Sent事件
+  zh-tw: 服務器-Sent事件
+  ja: Server-Sent Events
+  ko: Server-Sent Events
+  de: Server-Sent Events
+  ru: Server-Sent Events
+  hi: Server-Sent Events
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Proxy
+  slug: proxy
+  zh-cn: 代理
+  zh-tw: 代理
+  ja: Proxy
+  ko: Proxy
+  de: Proxy
+  ru: Proxy
+  hi: Proxy
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Reverse Proxy
+  slug: reverse-proxy
+  zh-cn: 反向代理
+  zh-tw: 反向代理
+  ja: Reverse Proxy
+  ko: Reverse Proxy
+  de: Reverse Proxy
+  ru: Reverse Proxy
+  hi: Reverse Proxy
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: SEO
+  slug: seo
+  zh-cn: SEO
+  zh-tw: SEO
+  ja: SEO
+  ko: SEO
+  de: SEO
+  ru: SEO
+  hi: SEO
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: User Story
+  slug: user-story
+  zh-cn: 用户故事
+  zh-tw: 用戶故事
+  ja: User Story
+  ko: User Story
+  de: User Story
+  ru: User Story
+  hi: User Story
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Use Case
+  slug: use-case
+  zh-cn: 用例案例
+  zh-tw: 用例案例
+  ja: Use Case
+  ko: Use Case
+  de: Use Case
+  ru: Use Case
+  hi: Use Case
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: User Flow
+  slug: user-flow
+  zh-cn: 用户流程
+  zh-tw: 用戶流程
+  ja: User Flow
+  ko: User Flow
+  de: User Flow
+  ru: User Flow
+  hi: User Flow
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: User Journey
+  slug: user-journey
+  zh-cn: 用户旅程
+  zh-tw: 用戶旅程
+  ja: User Journey
+  ko: User Journey
+  de: User Journey
+  ru: User Journey
+  hi: User Journey
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: PRD
+  slug: prd
+  zh-cn: PRD
+  zh-tw: PRD
+  ja: PRD
+  ko: PRD
+  de: PRD
+  ru: PRD
+  hi: PRD
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: MVP
+  slug: mvp
+  zh-cn: MVP
+  zh-tw: MVP
+  ja: MVP
+  ko: MVP
+  de: MVP
+  ru: MVP
+  hi: MVP
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Product Backlog
+  slug: product-backlog
+  zh-cn: 产品待办列表
+  zh-tw: 产品待办列表
+  ja: Product Backlog
+  ko: Product Backlog
+  de: Product Backlog
+  ru: Product Backlog
+  hi: Product Backlog
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Product Roadmap
+  slug: product-roadmap
+  zh-cn: 产品路线图
+  zh-tw: 产品路線圖
+  ja: Product Roadmap
+  ko: Product Roadmap
+  de: Product Roadmap
+  ru: Product Roadmap
+  hi: Product Roadmap
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Gantt Chart
+  slug: gantt-chart
+  zh-cn: 甘特图表
+  zh-tw: 甘特圖表
+  ja: Gantt Chart
+  ko: Gantt Chart
+  de: Gantt Chart
+  ru: Gantt Chart
+  hi: Gantt Chart
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: A/B Test
+  slug: a-b-test
+  zh-cn: A/B 测试
+  zh-tw: A/B 測試
+  ja: A/B Test
+  ko: A/B Test
+  de: A/B Test
+  ru: A/B Test
+  hi: A/B Test
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Conversion Funnel
+  slug: conversion-funnel
+  zh-cn: 转化漏斗
+  zh-tw: 轉化漏斗
+  ja: Conversion Funnel
+  ko: Conversion Funnel
+  de: Conversion Funnel
+  ru: Conversion Funnel
+  hi: Conversion Funnel
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Product
+  slug: product
+  zh-cn: 产品
+  zh-tw: 产品
+  ja: Product
+  ko: Product
+  de: Product
+  ru: Product
+  hi: Product
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Requirement
+  slug: requirement
+  zh-cn: 需求
+  zh-tw: 需求
+  ja: Requirement
+  ko: Requirement
+  de: Requirement
+  ru: Requirement
+  hi: Requirement
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Constraint
+  slug: constraint
+  zh-cn: 约束
+  zh-tw: 约束
+  ja: Constraint
+  ko: Constraint
+  de: Constraint
+  ru: Constraint
+  hi: Constraint
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Feature
+  slug: feature
+  zh-cn: 功能
+  zh-tw: 功能
+  ja: Feature
+  ko: Feature
+  de: Feature
+  ru: Feature
+  hi: Feature
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Problem Statement
+  slug: problem-statement
+  zh-cn: 问题陈述
+  zh-tw: 问题陈述
+  ja: Problem Statement
+  ko: Problem Statement
+  de: Problem Statement
+  ru: Problem Statement
+  hi: Problem Statement
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Persona
+  slug: persona
+  zh-cn: 用户画像
+  zh-tw: 用戶画像
+  ja: Persona
+  ko: Persona
+  de: Persona
+  ru: Persona
+  hi: Persona
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Jobs to Be Done
+  slug: jobs-to-be-done
+  zh-cn: 待完成任务理论
+  zh-tw: 待完成任務理论
+  ja: Jobs to Be Done
+  ko: Jobs to Be Done
+  de: Jobs to Be Done
+  ru: Jobs to Be Done
+  hi: Jobs to Be Done
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: User Need
+  slug: user-need
+  zh-cn: 用户需求
+  zh-tw: 用戶需求
+  ja: User Need
+  ko: User Need
+  de: User Need
+  ru: User Need
+  hi: User Need
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Value Proposition
+  slug: value-proposition
+  zh-cn: 价值主张
+  zh-tw: 价值主张
+  ja: Value Proposition
+  ko: Value Proposition
+  de: Value Proposition
+  ru: Value Proposition
+  hi: Value Proposition
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Hypothesis
+  slug: hypothesis
+  zh-cn: 假设
+  zh-tw: 假设
+  ja: Hypothesis
+  ko: Hypothesis
+  de: Hypothesis
+  ru: Hypothesis
+  hi: Hypothesis
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Assumption
+  slug: assumption
+  zh-cn: 前提假设
+  zh-tw: 前提假设
+  ja: Assumption
+  ko: Assumption
+  de: Assumption
+  ru: Assumption
+  hi: Assumption
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Wireframe
+  slug: wireframe
+  zh-cn: 线框图
+  zh-tw: 線框圖
+  ja: Wireframe
+  ko: Wireframe
+  de: Wireframe
+  ru: Wireframe
+  hi: Wireframe
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Mockup
+  slug: mockup
+  zh-cn: 视觉稿
+  zh-tw: 视觉稿
+  ja: Mockup
+  ko: Mockup
+  de: Mockup
+  ru: Mockup
+  hi: Mockup
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: User Research
+  slug: user-research
+  zh-cn: 用户研究
+  zh-tw: 用戶研究
+  ja: User Research
+  ko: User Research
+  de: User Research
+  ru: User Research
+  hi: User Research
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: KPI
+  slug: kpi
+  zh-cn: KPI
+  zh-tw: KPI
+  ja: KPI
+  ko: KPI
+  de: KPI
+  ru: KPI
+  hi: KPI
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: North Star Metric
+  slug: north-star-metric
+  zh-cn: 北极星星指标
+  zh-tw: 北极星星指標
+  ja: North Star Metric
+  ko: North Star Metric
+  de: North Star Metric
+  ru: North Star Metric
+  hi: North Star Metric
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Guardrail Metric
+  slug: guardrail-metric
+  zh-cn: 护栏指标
+  zh-tw: 護栏指標
+  ja: Guardrail Metric
+  ko: Guardrail Metric
+  de: Guardrail Metric
+  ru: Guardrail Metric
+  hi: Guardrail Metric
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Event Tracking
+  slug: event-tracking
+  zh-cn: 事件埋点
+  zh-tw: 事件埋点
+  ja: Event Tracking
+  ko: Event Tracking
+  de: Event Tracking
+  ru: Event Tracking
+  hi: Event Tracking
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Prioritization
+  slug: prioritization
+  zh-cn: 优先级
+  zh-tw: 優先級
+  ja: Prioritization
+  ko: Prioritization
+  de: Prioritization
+  ru: Prioritization
+  hi: Prioritization
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Button
+  slug: button
+  zh-cn: 按钮
+  zh-tw: 按钮
+  ja: Button
+  ko: Button
+  de: Button
+  ru: Button
+  hi: Button
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Link
+  slug: link
+  zh-cn: 链接
+  zh-tw: 鏈接
+  ja: Link
+  ko: Link
+  de: Link
+  ru: Link
+  hi: Link
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Input
+  slug: input
+  zh-cn: 输入框
+  zh-tw: 輸入框
+  ja: Input
+  ko: Input
+  de: Input
+  ru: Input
+  hi: Input
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Textarea
+  slug: textarea
+  zh-cn: 多行文本框
+  zh-tw: 多行文本框
+  ja: Textarea
+  ko: Textarea
+  de: Textarea
+  ru: Textarea
+  hi: Textarea
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Number Input
+  slug: number-input
+  zh-cn: 数字输入框
+  zh-tw: 數字輸入框
+  ja: Number Input
+  ko: Number Input
+  de: Number Input
+  ru: Number Input
+  hi: Number Input
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Radio
+  slug: radio
+  zh-cn: 单选框
+  zh-tw: 单选框
+  ja: Radio
+  ko: Radio
+  de: Radio
+  ru: Radio
+  hi: Radio
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Checkbox
+  slug: checkbox
+  zh-cn: 复选框
+  zh-tw: 複选框
+  ja: Checkbox
+  ko: Checkbox
+  de: Checkbox
+  ru: Checkbox
+  hi: Checkbox
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Switch
+  slug: switch
+  zh-cn: 开关
+  zh-tw: 開關
+  ja: Switch
+  ko: Switch
+  de: Switch
+  ru: Switch
+  hi: Switch
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Slider
+  slug: slider
+  zh-cn: 滑块
+  zh-tw: 滑塊
+  ja: Slider
+  ko: Slider
+  de: Slider
+  ru: Slider
+  hi: Slider
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Rating Control
+  slug: rating-control
+  zh-cn: 评分控件
+  zh-tw: 评分控件
+  ja: Rating Control
+  ko: Rating Control
+  de: Rating Control
+  ru: Rating Control
+  hi: Rating Control
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Select
+  slug: select
+  zh-cn: 选择器
+  zh-tw: 选择器
+  ja: Select
+  ko: Select
+  de: Select
+  ru: Select
+  hi: Select
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: AutoComplete
+  slug: autocomplete
+  zh-cn: 自动完成
+  zh-tw: 自動完成
+  ja: AutoComplete
+  ko: AutoComplete
+  de: AutoComplete
+  ru: AutoComplete
+  hi: AutoComplete
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Cascading Select
+  slug: cascading-select
+  zh-cn: 级联选择器
+  zh-tw: 級联选择器
+  ja: Cascading Select
+  ko: Cascading Select
+  de: Cascading Select
+  ru: Cascading Select
+  hi: Cascading Select
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Tree Select
+  slug: tree-select
+  zh-cn: 树选择器
+  zh-tw: 树选择器
+  ja: Tree Select
+  ko: Tree Select
+  de: Tree Select
+  ru: Tree Select
+  hi: Tree Select
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Date Picker
+  slug: date-picker
+  zh-cn: 日期选择器
+  zh-tw: 日期选择器
+  ja: Date Picker
+  ko: Date Picker
+  de: Date Picker
+  ru: Date Picker
+  hi: Date Picker
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Time Picker
+  slug: time-picker
+  zh-cn: 时间选择器
+  zh-tw: 时间选择器
+  ja: Time Picker
+  ko: Time Picker
+  de: Time Picker
+  ru: Time Picker
+  hi: Time Picker
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Upload
+  slug: upload
+  zh-cn: 上传
+  zh-tw: 上传
+  ja: Upload
+  ko: Upload
+  de: Upload
+  ru: Upload
+  hi: Upload
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Form
+  slug: form
+  zh-cn: 表单
+  zh-tw: 表单
+  ja: Form
+  ko: Form
+  de: Form
+  ru: Form
+  hi: Form
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Color Picker
+  slug: color-picker
+  zh-cn: 颜色选择器
+  zh-tw: 颜色选择器
+  ja: Color Picker
+  ko: Color Picker
+  de: Color Picker
+  ru: Color Picker
+  hi: Color Picker
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Label
+  slug: label
+  zh-cn: 标签
+  zh-tw: 標籤
+  ja: Label
+  ko: Label
+  de: Label
+  ru: Label
+  hi: Label
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Table
+  slug: table
+  zh-cn: 表格
+  zh-tw: 表格
+  ja: Table
+  ko: Table
+  de: Table
+  ru: Table
+  hi: Table
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: List
+  slug: list
+  zh-cn: 列表
+  zh-tw: 列表
+  ja: List
+  ko: List
+  de: List
+  ru: List
+  hi: List
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Card
+  slug: card
+  zh-cn: 卡片
+  zh-tw: 卡片
+  ja: Card
+  ko: Card
+  de: Card
+  ru: Card
+  hi: Card
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Tag
+  slug: tag
+  zh-cn: 标签
+  zh-tw: 標籤
+  ja: Tag
+  ko: Tag
+  de: Tag
+  ru: Tag
+  hi: Tag
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Badge
+  slug: badge
+  zh-cn: 徽标
+  zh-tw: 徽標
+  ja: Badge
+  ko: Badge
+  de: Badge
+  ru: Badge
+  hi: Badge
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Avatar
+  slug: avatar
+  zh-cn: 头像
+  zh-tw: 头像
+  ja: Avatar
+  ko: Avatar
+  de: Avatar
+  ru: Avatar
+  hi: Avatar
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Description List
+  slug: description-list
+  zh-cn: 描述列表
+  zh-tw: 描述列表
+  ja: Description List
+  ko: Description List
+  de: Description List
+  ru: Description List
+  hi: Description List
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Statistic
+  slug: statistic
+  zh-cn: 统计值
+  zh-tw: 统計值
+  ja: Statistic
+  ko: Statistic
+  de: Statistic
+  ru: Statistic
+  hi: Statistic
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Tabs
+  slug: tabs
+  zh-cn: 标签页
+  zh-tw: 標籤頁
+  ja: Tabs
+  ko: Tabs
+  de: Tabs
+  ru: Tabs
+  hi: Tabs
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Segmented Control
+  slug: segmented-control
+  zh-cn: 分段控件
+  zh-tw: 分段控件
+  ja: Segmented Control
+  ko: Segmented Control
+  de: Segmented Control
+  ru: Segmented Control
+  hi: Segmented Control
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Accordion
+  slug: accordion
+  zh-cn: 折叠面板
+  zh-tw: 折疊面板
+  ja: Accordion
+  ko: Accordion
+  de: Accordion
+  ru: Accordion
+  hi: Accordion
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Timeline
+  slug: timeline
+  zh-cn: 时间线
+  zh-tw: 时间線
+  ja: Timeline
+  ko: Timeline
+  de: Timeline
+  ru: Timeline
+  hi: Timeline
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Tree
+  slug: tree
+  zh-cn: 树
+  zh-tw: 树
+  ja: Tree
+  ko: Tree
+  de: Tree
+  ru: Tree
+  hi: Tree
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Carousel
+  slug: carousel
+  zh-cn: 轮播
+  zh-tw: 轮播
+  ja: Carousel
+  ko: Carousel
+  de: Carousel
+  ru: Carousel
+  hi: Carousel
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Empty State
+  slug: empty-state
+  zh-cn: 空状态
+  zh-tw: 空状態
+  ja: Empty State
+  ko: Empty State
+  de: Empty State
+  ru: Empty State
+  hi: Empty State
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Image
+  slug: image
+  zh-cn: 图片
+  zh-tw: 圖片
+  ja: Image
+  ko: Image
+  de: Image
+  ru: Image
+  hi: Image
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: File
+  slug: file
+  zh-cn: 文件
+  zh-tw: 文件
+  ja: File
+  ko: File
+  de: File
+  ru: File
+  hi: File
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Icon
+  slug: icon
+  zh-cn: 图标
+  zh-tw: 圖標
+  ja: Icon
+  ko: Icon
+  de: Icon
+  ru: Icon
+  hi: Icon
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Quote
+  slug: quote
+  zh-cn: 引用
+  zh-tw: 引用
+  ja: Quote
+  ko: Quote
+  de: Quote
+  ru: Quote
+  hi: Quote
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Video
+  slug: video
+  zh-cn: 视频
+  zh-tw: 视频
+  ja: Video
+  ko: Video
+  de: Video
+  ru: Video
+  hi: Video
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Chat UI
+  slug: chat-ui
+  zh-cn: 聊天UI
+  zh-tw: 聊天UI
+  ja: Chat UI
+  ko: Chat UI
+  de: Chat UI
+  ru: Chat UI
+  hi: Chat UI
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Filter
+  slug: filter
+  zh-cn: 筛选
+  zh-tw: 筛选
+  ja: Filter
+  ko: Filter
+  de: Filter
+  ru: Filter
+  hi: Filter
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Chart
+  slug: chart
+  zh-cn: 图表
+  zh-tw: 圖表
+  ja: Chart
+  ko: Chart
+  de: Chart
+  ru: Chart
+  hi: Chart
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: App Icon
+  slug: app-icon
+  zh-cn: App图标
+  zh-tw: App圖標
+  ja: App Icon
+  ko: App Icon
+  de: App Icon
+  ru: App Icon
+  hi: App Icon
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Alert
+  slug: alert
+  zh-cn: 警告
+  zh-tw: 警告
+  ja: Alert
+  ko: Alert
+  de: Alert
+  ru: Alert
+  hi: Alert
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Toast
+  slug: toast
+  zh-cn: 轻提示
+  zh-tw: 轻提示
+  ja: Toast
+  ko: Toast
+  de: Toast
+  ru: Toast
+  hi: Toast
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Notification
+  slug: notification
+  zh-cn: 通知
+  zh-tw: 通知
+  ja: Notification
+  ko: Notification
+  de: Notification
+  ru: Notification
+  hi: Notification
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Modal
+  slug: modal
+  zh-cn: 模态框
+  zh-tw: 模態框
+  ja: Modal
+  ko: Modal
+  de: Modal
+  ru: Modal
+  hi: Modal
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Drawer
+  slug: drawer
+  zh-cn: 抽屉
+  zh-tw: 抽屉
+  ja: Drawer
+  ko: Drawer
+  de: Drawer
+  ru: Drawer
+  hi: Drawer
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Inline Confirmation
+  slug: inline-confirmation
+  zh-cn: 行内确认
+  zh-tw: 行内确认
+  ja: Inline Confirmation
+  ko: Inline Confirmation
+  de: Inline Confirmation
+  ru: Inline Confirmation
+  hi: Inline Confirmation
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Popover
+  slug: popover
+  zh-cn: 浮层
+  zh-tw: 浮層
+  ja: Popover
+  ko: Popover
+  de: Popover
+  ru: Popover
+  hi: Popover
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Tooltip
+  slug: tooltip
+  zh-cn: 工具提示
+  zh-tw: 工具提示
+  ja: Tooltip
+  ko: Tooltip
+  de: Tooltip
+  ru: Tooltip
+  hi: Tooltip
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Progress
+  slug: progress
+  zh-cn: 进度
+  zh-tw: 进度
+  ja: Progress
+  ko: Progress
+  de: Progress
+  ru: Progress
+  hi: Progress
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Skeleton
+  slug: skeleton
+  zh-cn: 骨架屏
+  zh-tw: 骨架屏
+  ja: Skeleton
+  ko: Skeleton
+  de: Skeleton
+  ru: Skeleton
+  hi: Skeleton
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Result
+  slug: result
+  zh-cn: 结果
+  zh-tw: 结果
+  ja: Result
+  ko: Result
+  de: Result
+  ru: Result
+  hi: Result
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Spinner
+  slug: spinner
+  zh-cn: 加载指示器
+  zh-tw: 加载指示器
+  ja: Spinner
+  ko: Spinner
+  de: Spinner
+  ru: Spinner
+  hi: Spinner
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Menu
+  slug: menu
+  zh-cn: 菜单
+  zh-tw: 菜单
+  ja: Menu
+  ko: Menu
+  de: Menu
+  ru: Menu
+  hi: Menu
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Breadcrumb
+  slug: breadcrumb
+  zh-cn: 面包屑
+  zh-tw: 面包屑
+  ja: Breadcrumb
+  ko: Breadcrumb
+  de: Breadcrumb
+  ru: Breadcrumb
+  hi: Breadcrumb
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Pagination
+  slug: pagination
+  zh-cn: 分页
+  zh-tw: 分頁
+  ja: Pagination
+  ko: Pagination
+  de: Pagination
+  ru: Pagination
+  hi: Pagination
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Steps
+  slug: steps
+  zh-cn: 步骤
+  zh-tw: 步骤
+  ja: Steps
+  ko: Steps
+  de: Steps
+  ru: Steps
+  hi: Steps
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Dropdown
+  slug: dropdown
+  zh-cn: 下拉菜单
+  zh-tw: 下拉菜单
+  ja: Dropdown
+  ko: Dropdown
+  de: Dropdown
+  ru: Dropdown
+  hi: Dropdown
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Anchor
+  slug: anchor
+  zh-cn: 锚点
+  zh-tw: 锚点
+  ja: Anchor
+  ko: Anchor
+  de: Anchor
+  ru: Anchor
+  hi: Anchor
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Back-to-top Button
+  slug: back-to-top-button
+  zh-cn: 返回顶部按钮
+  zh-tw: 返回顶部按钮
+  ja: Back-to-top Button
+  ko: Back-to-top Button
+  de: Back-to-top Button
+  ru: Back-to-top Button
+  hi: Back-to-top Button
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Skip Link
+  slug: skip-link
+  zh-cn: 跳过链接
+  zh-tw: 跳过鏈接
+  ja: Skip Link
+  ko: Skip Link
+  de: Skip Link
+  ru: Skip Link
+  hi: Skip Link
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Search
+  slug: search
+  zh-cn: 搜索
+  zh-tw: 搜索
+  ja: Search
+  ko: Search
+  de: Search
+  ru: Search
+  hi: Search
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Hero
+  slug: hero
+  zh-cn: 首屏主视觉
+  zh-tw: 首屏主视觉
+  ja: Hero
+  ko: Hero
+  de: Hero
+  ru: Hero
+  hi: Hero
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: CTA
+  slug: cta
+  zh-cn: 行动号召
+  zh-tw: 行動号召
+  ja: CTA
+  ko: CTA
+  de: CTA
+  ru: CTA
+  hi: CTA
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Customer Testimonial
+  slug: customer-testimonial
+  zh-cn: 客户证言
+  zh-tw: 客戶證言
+  ja: Customer Testimonial
+  ko: Customer Testimonial
+  de: Customer Testimonial
+  ru: Customer Testimonial
+  hi: Customer Testimonial
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Header
+  slug: header
+  zh-cn: 头部
+  zh-tw: 头部
+  ja: Header
+  ko: Header
+  de: Header
+  ru: Header
+  hi: Header
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Logo
+  slug: logo
+  zh-cn: Logo
+  zh-tw: Logo
+  ja: Logo
+  ko: Logo
+  de: Logo
+  ru: Logo
+  hi: Logo
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Navbar
+  slug: navbar
+  zh-cn: 导航栏
+  zh-tw: 導航栏
+  ja: Navbar
+  ko: Navbar
+  de: Navbar
+  ru: Navbar
+  hi: Navbar
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Footer
+  slug: footer
+  zh-cn: 页脚
+  zh-tw: 頁脚
+  ja: Footer
+  ko: Footer
+  de: Footer
+  ru: Footer
+  hi: Footer
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: FAQ
+  slug: faq
+  zh-cn: 常见问题
+  zh-tw: 常见问题
+  ja: FAQ
+  ko: FAQ
+  de: FAQ
+  ru: FAQ
+  hi: FAQ
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Pricing
+  slug: pricing
+  zh-cn: 定价
+  zh-tw: 定价
+  ja: Pricing
+  ko: Pricing
+  de: Pricing
+  ru: Pricing
+  hi: Pricing
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Social Proof
+  slug: social-proof
+  zh-cn: 社会认同
+  zh-tw: 社会认同
+  ja: Social Proof
+  ko: Social Proof
+  de: Social Proof
+  ru: Social Proof
+  hi: Social Proof
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Top Nav Layout
+  slug: top-nav-layout
+  zh-cn: 顶部导航布局
+  zh-tw: 顶部導航布局
+  ja: Top Nav Layout
+  ko: Top Nav Layout
+  de: Top Nav Layout
+  ru: Top Nav Layout
+  hi: Top Nav Layout
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Sidebar Layout
+  slug: sidebar-layout
+  zh-cn: 侧栏布局
+  zh-tw: 侧栏布局
+  ja: Sidebar Layout
+  ko: Sidebar Layout
+  de: Sidebar Layout
+  ru: Sidebar Layout
+  hi: Sidebar Layout
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Single Page Layout
+  slug: single-page-layout
+  zh-cn: 单页布局
+  zh-tw: 单頁布局
+  ja: Single Page Layout
+  ko: Single Page Layout
+  de: Single Page Layout
+  ru: Single Page Layout
+  hi: Single Page Layout
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Documentation Layout
+  slug: documentation-layout
+  zh-cn: 文档布局
+  zh-tw: 文檔布局
+  ja: Documentation Layout
+  ko: Documentation Layout
+  de: Documentation Layout
+  ru: Documentation Layout
+  hi: Documentation Layout
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Card Grid
+  slug: card-grid
+  zh-cn: 卡片网格
+  zh-tw: 卡片網格
+  ja: Card Grid
+  ko: Card Grid
+  de: Card Grid
+  ru: Card Grid
+  hi: Card Grid
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Centered Column
+  slug: centered-column
+  zh-cn: 居中栏
+  zh-tw: 居中栏
+  ja: Centered Column
+  ko: Centered Column
+  de: Centered Column
+  ru: Centered Column
+  hi: Centered Column
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Masonry
+  slug: masonry
+  zh-cn: 瀑布流
+  zh-tw: 瀑布流
+  ja: Masonry
+  ko: Masonry
+  de: Masonry
+  ru: Masonry
+  hi: Masonry
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Split-screen
+  slug: split-screen
+  zh-cn: Split-screen
+  zh-tw: Split-screen
+  ja: Split-screen
+  ko: Split-screen
+  de: Split-screen
+  ru: Split-screen
+  hi: Split-screen
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Responsive Design
+  slug: responsive-design
+  zh-cn: 响应式设计
+  zh-tw: 响應式设計
+  ja: Responsive Design
+  ko: Responsive Design
+  de: Responsive Design
+  ru: Responsive Design
+  hi: Responsive Design
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Minimalism
+  slug: minimalism
+  zh-cn: 极简主义
+  zh-tw: 极简主义
+  ja: Minimalism
+  ko: Minimalism
+  de: Minimalism
+  ru: Minimalism
+  hi: Minimalism
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Apple HIG
+  slug: apple-hig
+  zh-cn: AppleHIG
+  zh-tw: AppleHIG
+  ja: Apple HIG
+  ko: Apple HIG
+  de: Apple HIG
+  ru: Apple HIG
+  hi: Apple HIG
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Notion Style
+  slug: notion-style
+  zh-cn: NotionStyle
+  zh-tw: NotionStyle
+  ja: Notion Style
+  ko: Notion Style
+  de: Notion Style
+  ru: Notion Style
+  hi: Notion Style
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Bento Grid
+  slug: bento-grid
+  zh-cn: Bento网格
+  zh-tw: Bento網格
+  ja: Bento Grid
+  ko: Bento Grid
+  de: Bento Grid
+  ru: Bento Grid
+  hi: Bento Grid
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Glassmorphism
+  slug: glassmorphism
+  zh-cn: 玻璃拟态
+  zh-tw: 玻璃拟態
+  ja: Glassmorphism
+  ko: Glassmorphism
+  de: Glassmorphism
+  ru: Glassmorphism
+  hi: Glassmorphism
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Neo-Brutalism
+  slug: neo-brutalism
+  zh-cn: Neo-Brutalism
+  zh-tw: Neo-Brutalism
+  ja: Neo-Brutalism
+  ko: Neo-Brutalism
+  de: Neo-Brutalism
+  ru: Neo-Brutalism
+  hi: Neo-Brutalism
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Swiss Style
+  slug: swiss-style
+  zh-cn: 瑞士Style
+  zh-tw: 瑞士Style
+  ja: Swiss Style
+  ko: Swiss Style
+  de: Swiss Style
+  ru: Swiss Style
+  hi: Swiss Style
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Editorial
+  slug: editorial
+  zh-cn: 编辑式
+  zh-tw: 编辑式
+  ja: Editorial
+  ko: Editorial
+  de: Editorial
+  ru: Editorial
+  hi: Editorial
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Skeuomorphism
+  slug: skeuomorphism
+  zh-cn: 拟物化
+  zh-tw: 拟物化
+  ja: Skeuomorphism
+  ko: Skeuomorphism
+  de: Skeuomorphism
+  ru: Skeuomorphism
+  hi: Skeuomorphism
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Flat Design
+  slug: flat-design
+  zh-cn: 扁平设计
+  zh-tw: 扁平设計
+  ja: Flat Design
+  ko: Flat Design
+  de: Flat Design
+  ru: Flat Design
+  hi: Flat Design
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Material Design
+  slug: material-design
+  zh-cn: Material设计
+  zh-tw: Material设計
+  ja: Material Design
+  ko: Material Design
+  de: Material Design
+  ru: Material Design
+  hi: Material Design
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Neumorphism
+  slug: neumorphism
+  zh-cn: 新拟物
+  zh-tw: 新拟物
+  ja: Neumorphism
+  ko: Neumorphism
+  de: Neumorphism
+  ru: Neumorphism
+  hi: Neumorphism
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: SaaS Marketing Site
+  slug: saas-marketing-site
+  zh-cn: SaaS 营销站
+  zh-tw: SaaS 营销站
+  ja: SaaS Marketing Site
+  ko: SaaS Marketing Site
+  de: SaaS Marketing Site
+  ru: SaaS Marketing Site
+  hi: SaaS Marketing Site
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: B2B Corporate Site
+  slug: b2b-corporate-site
+  zh-cn: B2B 企业站
+  zh-tw: B2B 企业站
+  ja: B2B Corporate Site
+  ko: B2B Corporate Site
+  de: B2B Corporate Site
+  ru: B2B Corporate Site
+  hi: B2B Corporate Site
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: DTC E-commerce
+  slug: dtc-e-commerce
+  zh-cn: DTC 电商
+  zh-tw: DTC 电商
+  ja: DTC E-commerce
+  ko: DTC E-commerce
+  de: DTC E-commerce
+  ru: DTC E-commerce
+  hi: DTC E-commerce
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Dark UI
+  slug: dark-ui
+  zh-cn: 深色UI
+  zh-tw: 深色UI
+  ja: Dark UI
+  ko: Dark UI
+  de: Dark UI
+  ru: Dark UI
+  hi: Dark UI
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Playful Illustration
+  slug: playful-illustration
+  zh-cn: 趣味插画
+  zh-tw: 趣味插画
+  ja: Playful Illustration
+  ko: Playful Illustration
+  de: Playful Illustration
+  ru: Playful Illustration
+  hi: Playful Illustration
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Organic Design
+  slug: organic-design
+  zh-cn: 有机设计
+  zh-tw: 有機设計
+  ja: Organic Design
+  ko: Organic Design
+  de: Organic Design
+  ru: Organic Design
+  hi: Organic Design
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Y2K
+  slug: y2k
+  zh-cn: Y2K
+  zh-tw: Y2K
+  ja: Y2K
+  ko: Y2K
+  de: Y2K
+  ru: Y2K
+  hi: Y2K
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Memphis
+  slug: memphis
+  zh-cn: 孟菲斯
+  zh-tw: 孟菲斯
+  ja: Memphis
+  ko: Memphis
+  de: Memphis
+  ru: Memphis
+  hi: Memphis
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Terminal Aesthetic
+  slug: terminal-aesthetic
+  zh-cn: 终端美学
+  zh-tw: 终端美学
+  ja: Terminal Aesthetic
+  ko: Terminal Aesthetic
+  de: Terminal Aesthetic
+  ru: Terminal Aesthetic
+  hi: Terminal Aesthetic
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Wabi-sabi
+  slug: wabi-sabi
+  zh-cn: Wabi-sabi
+  zh-tw: Wabi-sabi
+  ja: Wabi-sabi
+  ko: Wabi-sabi
+  de: Wabi-sabi
+  ru: Wabi-sabi
+  hi: Wabi-sabi
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Bauhaus
+  slug: bauhaus
+  zh-cn: Bauhaus
+  zh-tw: Bauhaus
+  ja: Bauhaus
+  ko: Bauhaus
+  de: Bauhaus
+  ru: Bauhaus
+  hi: Bauhaus
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Art Deco
+  slug: art-deco
+  zh-cn: ArtDeco
+  zh-tw: ArtDeco
+  ja: Art Deco
+  ko: Art Deco
+  de: Art Deco
+  ru: Art Deco
+  hi: Art Deco
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Accessibility
+  slug: accessibility
+  zh-cn: 无障碍
+  zh-tw: 无障碍
+  ja: Accessibility
+  ko: Accessibility
+  de: Accessibility
+  ru: Accessibility
+  hi: Accessibility
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: WCAG
+  slug: wcag
+  zh-cn: WCAG
+  zh-tw: WCAG
+  ja: WCAG
+  ko: WCAG
+  de: WCAG
+  ru: WCAG
+  hi: WCAG
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: ARIA
+  slug: aria
+  zh-cn: ARIA
+  zh-tw: ARIA
+  ja: ARIA
+  ko: ARIA
+  de: ARIA
+  ru: ARIA
+  hi: ARIA
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Screen Reader
+  slug: screen-reader
+  zh-cn: 屏幕阅读器
+  zh-tw: 屏幕阅读器
+  ja: Screen Reader
+  ko: Screen Reader
+  de: Screen Reader
+  ru: Screen Reader
+  hi: Screen Reader
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Keyboard Navigation
+  slug: keyboard-navigation
+  zh-cn: 键盘导航
+  zh-tw: 键盘導航
+  ja: Keyboard Navigation
+  ko: Keyboard Navigation
+  de: Keyboard Navigation
+  ru: Keyboard Navigation
+  hi: Keyboard Navigation
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Information Architecture
+  slug: information-architecture
+  zh-cn: 信息架构
+  zh-tw: 信息架構
+  ja: Information Architecture
+  ko: Information Architecture
+  de: Information Architecture
+  ru: Information Architecture
+  hi: Information Architecture
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Usability
+  slug: usability
+  zh-cn: 可用性
+  zh-tw: 可用性
+  ja: Usability
+  ko: Usability
+  de: Usability
+  ru: Usability
+  hi: Usability
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Frontend
+  slug: frontend
+  zh-cn: 前端
+  zh-tw: 前端
+  ja: Frontend
+  ko: Frontend
+  de: Frontend
+  ru: Frontend
+  hi: Frontend
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Component
+  slug: component
+  zh-cn: 组件
+  zh-tw: 組件
+  ja: Component
+  ko: Component
+  de: Component
+  ru: Component
+  hi: Component
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: State
+  slug: state
+  zh-cn: 状态
+  zh-tw: 状態
+  ja: State
+  ko: State
+  de: State
+  ru: State
+  hi: State
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Markdown
+  slug: markdown
+  zh-cn: Markdown
+  zh-tw: Markdown
+  ja: Markdown
+  ko: Markdown
+  de: Markdown
+  ru: Markdown
+  hi: Markdown
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: HTML
+  slug: html
+  zh-cn: HTML
+  zh-tw: HTML
+  ja: HTML
+  ko: HTML
+  de: HTML
+  ru: HTML
+  hi: HTML
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: CSS
+  slug: css
+  zh-cn: CSS
+  zh-tw: CSS
+  ja: CSS
+  ko: CSS
+  de: CSS
+  ru: CSS
+  hi: CSS
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: DOM
+  slug: dom
+  zh-cn: DOM
+  zh-tw: DOM
+  ja: DOM
+  ko: DOM
+  de: DOM
+  ru: DOM
+  hi: DOM
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Title Tag
+  slug: title-tag
+  zh-cn: 标题标签
+  zh-tw: 標题標籤
+  ja: Title Tag
+  ko: Title Tag
+  de: Title Tag
+  ru: Title Tag
+  hi: Title Tag
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Page Metadata
+  slug: page-metadata
+  zh-cn: Page元数据
+  zh-tw: Page元數據
+  ja: Page Metadata
+  ko: Page Metadata
+  de: Page Metadata
+  ru: Page Metadata
+  hi: Page Metadata
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Favicon
+  slug: favicon
+  zh-cn: 网站图标
+  zh-tw: 網站圖標
+  ja: Favicon
+  ko: Favicon
+  de: Favicon
+  ru: Favicon
+  hi: Favicon
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Open Graph
+  slug: open-graph
+  zh-cn: 开放图
+  zh-tw: 開放圖
+  ja: Open Graph
+  ko: Open Graph
+  de: Open Graph
+  ru: Open Graph
+  hi: Open Graph
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Web App Manifest
+  slug: web-app-manifest
+  zh-cn: WebApp清单
+  zh-tw: WebApp清单
+  ja: Web App Manifest
+  ko: Web App Manifest
+  de: Web App Manifest
+  ru: Web App Manifest
+  hi: Web App Manifest
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Space
+  slug: space
+  zh-cn: 间距
+  zh-tw: 间距
+  ja: Space
+  ko: Space
+  de: Space
+  ru: Space
+  hi: Space
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Margin
+  slug: margin
+  zh-cn: 外边距
+  zh-tw: 外边距
+  ja: Margin
+  ko: Margin
+  de: Margin
+  ru: Margin
+  hi: Margin
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Padding
+  slug: padding
+  zh-cn: 内边距
+  zh-tw: 内边距
+  ja: Padding
+  ko: Padding
+  de: Padding
+  ru: Padding
+  hi: Padding
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Flexbox
+  slug: flexbox
+  zh-cn: 弹性布局
+  zh-tw: 弹性布局
+  ja: Flexbox
+  ko: Flexbox
+  de: Flexbox
+  ru: Flexbox
+  hi: Flexbox
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: CSS Grid
+  slug: css-grid
+  zh-cn: CSS网格
+  zh-tw: CSS網格
+  ja: CSS Grid
+  ko: CSS Grid
+  de: CSS Grid
+  ru: CSS Grid
+  hi: CSS Grid
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Z-Index
+  slug: z-index
+  zh-cn: Z-索引
+  zh-tw: Z-索引
+  ja: Z-Index
+  ko: Z-Index
+  de: Z-Index
+  ru: Z-Index
+  hi: Z-Index
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Sticky Positioning
+  slug: sticky-positioning
+  zh-cn: 粘性定位
+  zh-tw: 粘性定位
+  ja: Sticky Positioning
+  ko: Sticky Positioning
+  de: Sticky Positioning
+  ru: Sticky Positioning
+  hi: Sticky Positioning
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Position
+  slug: position
+  zh-cn: 定位
+  zh-tw: 定位
+  ja: Position
+  ko: Position
+  de: Position
+  ru: Position
+  hi: Position
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Centering
+  slug: centering
+  zh-cn: 居中
+  zh-tw: 居中
+  ja: Centering
+  ko: Centering
+  de: Centering
+  ru: Centering
+  hi: Centering
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Box Model
+  slug: box-model
+  zh-cn: 盒模型
+  zh-tw: 盒模型
+  ja: Box Model
+  ko: Box Model
+  de: Box Model
+  ru: Box Model
+  hi: Box Model
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Overflow
+  slug: overflow
+  zh-cn: 溢出
+  zh-tw: 溢出
+  ja: Overflow
+  ko: Overflow
+  de: Overflow
+  ru: Overflow
+  hi: Overflow
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Typography
+  slug: typography
+  zh-cn: 排版
+  zh-tw: 排版
+  ja: Typography
+  ko: Typography
+  de: Typography
+  ru: Typography
+  hi: Typography
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Serif vs Sans Serif
+  slug: serif-vs-sans-serif
+  zh-cn: 衬线体与无衬线体
+  zh-tw: 衬線體與无衬線體
+  ja: Serif vs Sans Serif
+  ko: Serif vs Sans Serif
+  de: Serif vs Sans Serif
+  ru: Serif vs Sans Serif
+  hi: Serif vs Sans Serif
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Text Truncation
+  slug: text-truncation
+  zh-cn: 文本截断
+  zh-tw: 文本截断
+  ja: Text Truncation
+  ko: Text Truncation
+  de: Text Truncation
+  ru: Text Truncation
+  hi: Text Truncation
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Divider
+  slug: divider
+  zh-cn: 分隔线
+  zh-tw: 分隔線
+  ja: Divider
+  ko: Divider
+  de: Divider
+  ru: Divider
+  hi: Divider
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Border Radius
+  slug: border-radius
+  zh-cn: 边框圆角
+  zh-tw: 边框圆角
+  ja: Border Radius
+  ko: Border Radius
+  de: Border Radius
+  ru: Border Radius
+  hi: Border Radius
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Shadow
+  slug: shadow
+  zh-cn: 阴影
+  zh-tw: 阴影
+  ja: Shadow
+  ko: Shadow
+  de: Shadow
+  ru: Shadow
+  hi: Shadow
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Opacity
+  slug: opacity
+  zh-cn: 透明度
+  zh-tw: 透明度
+  ja: Opacity
+  ko: Opacity
+  de: Opacity
+  ru: Opacity
+  hi: Opacity
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Gradient
+  slug: gradient
+  zh-cn: 渐变
+  zh-tw: 渐变
+  ja: Gradient
+  ko: Gradient
+  de: Gradient
+  ru: Gradient
+  hi: Gradient
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Corner Radius Consistency
+  slug: corner-radius-consistency
+  zh-cn: 圆角一致性
+  zh-tw: 圆角一致性
+  ja: Corner Radius Consistency
+  ko: Corner Radius Consistency
+  de: Corner Radius Consistency
+  ru: Corner Radius Consistency
+  hi: Corner Radius Consistency
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Backdrop Blur
+  slug: backdrop-blur
+  zh-cn: 背景模糊
+  zh-tw: 背景模糊
+  ja: Backdrop Blur
+  ko: Backdrop Blur
+  de: Backdrop Blur
+  ru: Backdrop Blur
+  hi: Backdrop Blur
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Dark Mode
+  slug: dark-mode
+  zh-cn: 深色Mode
+  zh-tw: 深色Mode
+  ja: Dark Mode
+  ko: Dark Mode
+  de: Dark Mode
+  ru: Dark Mode
+  hi: Dark Mode
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Design Token
+  slug: design-token
+  zh-cn: 设计词元
+  zh-tw: 设計词元
+  ja: Design Token
+  ko: Design Token
+  de: Design Token
+  ru: Design Token
+  hi: Design Token
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Transition
+  slug: transition
+  zh-cn: 过渡
+  zh-tw: 过渡
+  ja: Transition
+  ko: Transition
+  de: Transition
+  ru: Transition
+  hi: Transition
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Animation
+  slug: animation
+  zh-cn: 动画
+  zh-tw: 動画
+  ja: Animation
+  ko: Animation
+  de: Animation
+  ru: Animation
+  hi: Animation
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Easing
+  slug: easing
+  zh-cn: 缓动
+  zh-tw: 缓動
+  ja: Easing
+  ko: Easing
+  de: Easing
+  ru: Easing
+  hi: Easing
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Spring Animation
+  slug: spring-animation
+  zh-cn: 弹簧动画
+  zh-tw: 弹簧動画
+  ja: Spring Animation
+  ko: Spring Animation
+  de: Spring Animation
+  ru: Spring Animation
+  hi: Spring Animation
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Fade In / Out
+  slug: fade-in-out
+  zh-cn: 淡入/淡出
+  zh-tw: 淡入/淡出
+  ja: Fade In / Out
+  ko: Fade In / Out
+  de: Fade In / Out
+  ru: Fade In / Out
+  hi: Fade In / Out
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Hover
+  slug: hover
+  zh-cn: 悬停
+  zh-tw: 悬停
+  ja: Hover
+  ko: Hover
+  de: Hover
+  ru: Hover
+  hi: Hover
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Active State
+  slug: active-state
+  zh-cn: 按下状态
+  zh-tw: 按下状態
+  ja: Active State
+  ko: Active State
+  de: Active State
+  ru: Active State
+  hi: Active State
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Focus
+  slug: focus
+  zh-cn: 焦点
+  zh-tw: 焦点
+  ja: Focus
+  ko: Focus
+  de: Focus
+  ru: Focus
+  hi: Focus
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Drag and Drop
+  slug: drag-and-drop
+  zh-cn: 拖放
+  zh-tw: 拖放
+  ja: Drag and Drop
+  ko: Drag and Drop
+  de: Drag and Drop
+  ru: Drag and Drop
+  hi: Drag and Drop
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Disabled State
+  slug: disabled-state
+  zh-cn: 禁用状态
+  zh-tw: 禁用状態
+  ja: Disabled State
+  ko: Disabled State
+  de: Disabled State
+  ru: Disabled State
+  hi: Disabled State
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Cursor
+  slug: cursor
+  zh-cn: 光标
+  zh-tw: 光標
+  ja: Cursor
+  ko: Cursor
+  de: Cursor
+  ru: Cursor
+  hi: Cursor
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Text Selection
+  slug: text-selection
+  zh-cn: 文本选择
+  zh-tw: 文本选择
+  ja: Text Selection
+  ko: Text Selection
+  de: Text Selection
+  ru: Text Selection
+  hi: Text Selection
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: React
+  slug: react
+  zh-cn: React
+  zh-tw: React
+  ja: React
+  ko: React
+  de: React
+  ru: React
+  hi: React
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Vue
+  slug: vue
+  zh-cn: Vue
+  zh-tw: Vue
+  ja: Vue
+  ko: Vue
+  de: Vue
+  ru: Vue
+  hi: Vue
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Next.js
+  slug: next-js
+  zh-cn: Next.js
+  zh-tw: Next.js
+  ja: Next.js
+  ko: Next.js
+  de: Next.js
+  ru: Next.js
+  hi: Next.js
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Tailwind CSS
+  slug: tailwind-css
+  zh-cn: TailwindCSS
+  zh-tw: TailwindCSS
+  ja: Tailwind CSS
+  ko: Tailwind CSS
+  de: Tailwind CSS
+  ru: Tailwind CSS
+  hi: Tailwind CSS
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: shadcn/ui
+  slug: shadcn-ui
+  zh-cn: shadcn/ui
+  zh-tw: shadcn/ui
+  ja: shadcn/ui
+  ko: shadcn/ui
+  de: shadcn/ui
+  ru: shadcn/ui
+  hi: shadcn/ui
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Media Query
+  slug: media-query
+  zh-cn: 媒体查询
+  zh-tw: 媒體查询
+  ja: Media Query
+  ko: Media Query
+  de: Media Query
+  ru: Media Query
+  hi: Media Query
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: CSS Custom Property
+  slug: css-custom-property
+  zh-cn: CSS自定义属性
+  zh-tw: CSS自定义属性
+  ja: CSS Custom Property
+  ko: CSS Custom Property
+  de: CSS Custom Property
+  ru: CSS Custom Property
+  hi: CSS Custom Property
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Responsive Breakpoint
+  slug: responsive-breakpoint
+  zh-cn: 响应式断点
+  zh-tw: 响應式断点
+  ja: Responsive Breakpoint
+  ko: Responsive Breakpoint
+  de: Responsive Breakpoint
+  ru: Responsive Breakpoint
+  hi: Responsive Breakpoint
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: API
+  slug: api
+  zh-cn: API
+  zh-tw: API
+  ja: API
+  ko: API
+  de: API
+  ru: API
+  hi: API
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: JSON
+  slug: json
+  zh-cn: JSON
+  zh-tw: JSON
+  ja: JSON
+  ko: JSON
+  de: JSON
+  ru: JSON
+  hi: JSON
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: CORS
+  slug: cors
+  zh-cn: CORS
+  zh-tw: CORS
+  ja: CORS
+  ko: CORS
+  de: CORS
+  ru: CORS
+  hi: CORS
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Validation
+  slug: validation
+  zh-cn: 校验
+  zh-tw: 校驗
+  ja: Validation
+  ko: Validation
+  de: Validation
+  ru: Validation
+  hi: Validation
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Backend
+  slug: backend
+  zh-cn: 后端
+  zh-tw: 後端
+  ja: Backend
+  ko: Backend
+  de: Backend
+  ru: Backend
+  hi: Backend
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Backend Framework
+  slug: backend-framework
+  zh-cn: 后端框架
+  zh-tw: 後端框架
+  ja: Backend Framework
+  ko: Backend Framework
+  de: Backend Framework
+  ru: Backend Framework
+  hi: Backend Framework
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Endpoint
+  slug: endpoint
+  zh-cn: Endpoint
+  zh-tw: Endpoint
+  ja: Endpoint
+  ko: Endpoint
+  de: Endpoint
+  ru: Endpoint
+  hi: Endpoint
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: REST
+  slug: rest
+  zh-cn: REST
+  zh-tw: REST
+  ja: REST
+  ko: REST
+  de: REST
+  ru: REST
+  hi: REST
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: GraphQL
+  slug: graphql
+  zh-cn: GraphQL
+  zh-tw: GraphQL
+  ja: GraphQL
+  ko: GraphQL
+  de: GraphQL
+  ru: GraphQL
+  hi: GraphQL
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: RPC
+  slug: rpc
+  zh-cn: RPC
+  zh-tw: RPC
+  ja: RPC
+  ko: RPC
+  de: RPC
+  ru: RPC
+  hi: RPC
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Request Handler
+  slug: request-handler
+  zh-cn: 请求处理器
+  zh-tw: 请求處理器
+  ja: Request Handler
+  ko: Request Handler
+  de: Request Handler
+  ru: Request Handler
+  hi: Request Handler
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Middleware
+  slug: middleware
+  zh-cn: 中间件
+  zh-tw: 中间件
+  ja: Middleware
+  ko: Middleware
+  de: Middleware
+  ru: Middleware
+  hi: Middleware
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Controller
+  slug: controller
+  zh-cn: 控制器
+  zh-tw: 控制器
+  ja: Controller
+  ko: Controller
+  de: Controller
+  ru: Controller
+  hi: Controller
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Service Layer
+  slug: service-layer
+  zh-cn: 服务层
+  zh-tw: 服務層
+  ja: Service Layer
+  ko: Service Layer
+  de: Service Layer
+  ru: Service Layer
+  hi: Service Layer
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: API Contract
+  slug: api-contract
+  zh-cn: API契约
+  zh-tw: API契约
+  ja: API Contract
+  ko: API Contract
+  de: API Contract
+  ru: API Contract
+  hi: API Contract
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: OpenAPI
+  slug: openapi
+  zh-cn: OpenAPI
+  zh-tw: OpenAPI
+  ja: OpenAPI
+  ko: OpenAPI
+  de: OpenAPI
+  ru: OpenAPI
+  hi: OpenAPI
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Serialization
+  slug: serialization
+  zh-cn: 序列化
+  zh-tw: 序列化
+  ja: Serialization
+  ko: Serialization
+  de: Serialization
+  ru: Serialization
+  hi: Serialization
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Deserialization
+  slug: deserialization
+  zh-cn: 反序列化
+  zh-tw: 反序列化
+  ja: Deserialization
+  ko: Deserialization
+  de: Deserialization
+  ru: Deserialization
+  hi: Deserialization
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Query Parameter
+  slug: query-parameter
+  zh-cn: 查询参数
+  zh-tw: 查询參數
+  ja: Query Parameter
+  ko: Query Parameter
+  de: Query Parameter
+  ru: Query Parameter
+  hi: Query Parameter
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Path Parameter
+  slug: path-parameter
+  zh-cn: 路径参数
+  zh-tw: 路径參數
+  ja: Path Parameter
+  ko: Path Parameter
+  de: Path Parameter
+  ru: Path Parameter
+  hi: Path Parameter
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: CRUD
+  slug: crud
+  zh-cn: 增删改查
+  zh-tw: 增删改查
+  ja: CRUD
+  ko: CRUD
+  de: CRUD
+  ru: CRUD
+  hi: CRUD
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Webhook
+  slug: webhook
+  zh-cn: Webhook
+  zh-tw: Webhook
+  ja: Webhook
+  ko: Webhook
+  de: Webhook
+  ru: Webhook
+  hi: Webhook
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Polling
+  slug: polling
+  zh-cn: 轮询
+  zh-tw: 轮询
+  ja: Polling
+  ko: Polling
+  de: Polling
+  ru: Polling
+  hi: Polling
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Throttling
+  slug: throttling
+  zh-cn: 节流
+  zh-tw: 节流
+  ja: Throttling
+  ko: Throttling
+  de: Throttling
+  ru: Throttling
+  hi: Throttling
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Quota
+  slug: quota
+  zh-cn: 配额
+  zh-tw: 配额
+  ja: Quota
+  ko: Quota
+  de: Quota
+  ru: Quota
+  hi: Quota
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Idempotency
+  slug: idempotency
+  zh-cn: 幂等性
+  zh-tw: 幂等性
+  ja: Idempotency
+  ko: Idempotency
+  de: Idempotency
+  ru: Idempotency
+  hi: Idempotency
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Retry
+  slug: retry
+  zh-cn: 重试
+  zh-tw: 重試
+  ja: Retry
+  ko: Retry
+  de: Retry
+  ru: Retry
+  hi: Retry
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Exponential Backoff
+  slug: exponential-backoff
+  zh-cn: 指数退避
+  zh-tw: 指數退避
+  ja: Exponential Backoff
+  ko: Exponential Backoff
+  de: Exponential Backoff
+  ru: Exponential Backoff
+  hi: Exponential Backoff
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Queue
+  slug: queue
+  zh-cn: 队列
+  zh-tw: 队列
+  ja: Queue
+  ko: Queue
+  de: Queue
+  ru: Queue
+  hi: Queue
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Worker
+  slug: worker
+  zh-cn: 工作进程
+  zh-tw: 工作进程
+  ja: Worker
+  ko: Worker
+  de: Worker
+  ru: Worker
+  hi: Worker
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Background Job
+  slug: background-job
+  zh-cn: 后台任务
+  zh-tw: 後台任務
+  ja: Background Job
+  ko: Background Job
+  de: Background Job
+  ru: Background Job
+  hi: Background Job
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Cron Job
+  slug: cron-job
+  zh-cn: 定时任务
+  zh-tw: 定时任務
+  ja: Cron Job
+  ko: Cron Job
+  de: Cron Job
+  ru: Cron Job
+  hi: Cron Job
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: File Upload
+  slug: file-upload
+  zh-cn: 文件上传
+  zh-tw: 文件上传
+  ja: File Upload
+  ko: File Upload
+  de: File Upload
+  ru: File Upload
+  hi: File Upload
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Object Storage
+  slug: object-storage
+  zh-cn: 对象存储
+  zh-tw: 对象存儲
+  ja: Object Storage
+  ko: Object Storage
+  de: Object Storage
+  ru: Object Storage
+  hi: Object Storage
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: API Gateway
+  slug: api-gateway
+  zh-cn: API网关
+  zh-tw: API網關
+  ja: API Gateway
+  ko: API Gateway
+  de: API Gateway
+  ru: API Gateway
+  hi: API Gateway
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Browser Storage
+  slug: browser-storage
+  zh-cn: 浏览器存储
+  zh-tw: 浏覽器存儲
+  ja: Browser Storage
+  ko: Browser Storage
+  de: Browser Storage
+  ru: Browser Storage
+  hi: Browser Storage
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Database
+  slug: database
+  zh-cn: 数据库
+  zh-tw: 數據庫
+  ja: Database
+  ko: Database
+  de: Database
+  ru: Database
+  hi: Database
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: SQL
+  slug: sql
+  zh-cn: SQL
+  zh-tw: SQL
+  ja: SQL
+  ko: SQL
+  de: SQL
+  ru: SQL
+  hi: SQL
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Relational Database
+  slug: relational-database
+  zh-cn: 关系型数据库
+  zh-tw: 關系型數據庫
+  ja: Relational Database
+  ko: Relational Database
+  de: Relational Database
+  ru: Relational Database
+  hi: Relational Database
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: NoSQL
+  slug: nosql
+  zh-cn: NoSQL
+  zh-tw: NoSQL
+  ja: NoSQL
+  ko: NoSQL
+  de: NoSQL
+  ru: NoSQL
+  hi: NoSQL
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Document Database
+  slug: document-database
+  zh-cn: 文档数据库
+  zh-tw: 文檔數據庫
+  ja: Document Database
+  ko: Document Database
+  de: Document Database
+  ru: Document Database
+  hi: Document Database
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Key-Value Store
+  slug: key-value-store
+  zh-cn: 键-价值Store
+  zh-tw: 键-价值Store
+  ja: Key-Value Store
+  ko: Key-Value Store
+  de: Key-Value Store
+  ru: Key-Value Store
+  hi: Key-Value Store
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Graph Database
+  slug: graph-database
+  zh-cn: 图数据库
+  zh-tw: 圖數據庫
+  ja: Graph Database
+  ko: Graph Database
+  de: Graph Database
+  ru: Graph Database
+  hi: Graph Database
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Database Table
+  slug: database-table
+  zh-cn: 数据库表
+  zh-tw: 數據庫表
+  ja: Database Table
+  ko: Database Table
+  de: Database Table
+  ru: Database Table
+  hi: Database Table
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Row
+  slug: row
+  zh-cn: Row
+  zh-tw: Row
+  ja: Row
+  ko: Row
+  de: Row
+  ru: Row
+  hi: Row
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Column
+  slug: column
+  zh-cn: 栏
+  zh-tw: 栏
+  ja: Column
+  ko: Column
+  de: Column
+  ru: Column
+  hi: Column
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Schema
+  slug: schema
+  zh-cn: Schema
+  zh-tw: Schema
+  ja: Schema
+  ko: Schema
+  de: Schema
+  ru: Schema
+  hi: Schema
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Record
+  slug: record
+  zh-cn: 记录
+  zh-tw: 记錄
+  ja: Record
+  ko: Record
+  de: Record
+  ru: Record
+  hi: Record
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Field
+  slug: field
+  zh-cn: 字段
+  zh-tw: 字段
+  ja: Field
+  ko: Field
+  de: Field
+  ru: Field
+  hi: Field
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Primary Key
+  slug: primary-key
+  zh-cn: 主键
+  zh-tw: 主键
+  ja: Primary Key
+  ko: Primary Key
+  de: Primary Key
+  ru: Primary Key
+  hi: Primary Key
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Foreign Key
+  slug: foreign-key
+  zh-cn: 外键键
+  zh-tw: 外键键
+  ja: Foreign Key
+  ko: Foreign Key
+  de: Foreign Key
+  ru: Foreign Key
+  hi: Foreign Key
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Relationship
+  slug: relationship
+  zh-cn: 关系
+  zh-tw: 關系
+  ja: Relationship
+  ko: Relationship
+  de: Relationship
+  ru: Relationship
+  hi: Relationship
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: One-to-one
+  slug: one-to-one
+  zh-cn: One-to-one
+  zh-tw: One-to-one
+  ja: One-to-one
+  ko: One-to-one
+  de: One-to-one
+  ru: One-to-one
+  hi: One-to-one
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: One-to-many
+  slug: one-to-many
+  zh-cn: One-to-many
+  zh-tw: One-to-many
+  ja: One-to-many
+  ko: One-to-many
+  de: One-to-many
+  ru: One-to-many
+  hi: One-to-many
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Many-to-many
+  slug: many-to-many
+  zh-cn: Many-to-many
+  zh-tw: Many-to-many
+  ja: Many-to-many
+  ko: Many-to-many
+  de: Many-to-many
+  ru: Many-to-many
+  hi: Many-to-many
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Query
+  slug: query
+  zh-cn: 查询
+  zh-tw: 查询
+  ja: Query
+  ko: Query
+  de: Query
+  ru: Query
+  hi: Query
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: JOIN
+  slug: join
+  zh-cn: 连接查询
+  zh-tw: 连接查询
+  ja: JOIN
+  ko: JOIN
+  de: JOIN
+  ru: JOIN
+  hi: JOIN
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Index
+  slug: index
+  zh-cn: 索引
+  zh-tw: 索引
+  ja: Index
+  ko: Index
+  de: Index
+  ru: Index
+  hi: Index
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Database Constraint
+  slug: database-constraint
+  zh-cn: 数据库约束
+  zh-tw: 數據庫约束
+  ja: Database Constraint
+  ko: Database Constraint
+  de: Database Constraint
+  ru: Database Constraint
+  hi: Database Constraint
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Unique Key
+  slug: unique-key
+  zh-cn: 唯一键
+  zh-tw: 唯一键
+  ja: Unique Key
+  ko: Unique Key
+  de: Unique Key
+  ru: Unique Key
+  hi: Unique Key
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Transaction
+  slug: transaction
+  zh-cn: 事务
+  zh-tw: 事務
+  ja: Transaction
+  ko: Transaction
+  de: Transaction
+  ru: Transaction
+  hi: Transaction
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: ACID
+  slug: acid
+  zh-cn: ACID
+  zh-tw: ACID
+  ja: ACID
+  ko: ACID
+  de: ACID
+  ru: ACID
+  hi: ACID
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Isolation Level
+  slug: isolation-level
+  zh-cn: 隔离级别
+  zh-tw: 隔离級别
+  ja: Isolation Level
+  ko: Isolation Level
+  de: Isolation Level
+  ru: Isolation Level
+  hi: Isolation Level
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Database Migration
+  slug: database-migration
+  zh-cn: 数据库迁移
+  zh-tw: 數據庫遷移
+  ja: Database Migration
+  ko: Database Migration
+  de: Database Migration
+  ru: Database Migration
+  hi: Database Migration
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: ORM
+  slug: orm
+  zh-cn: ORM
+  zh-tw: ORM
+  ja: ORM
+  ko: ORM
+  de: ORM
+  ru: ORM
+  hi: ORM
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Git
+  slug: git
+  zh-cn: Git
+  zh-tw: Git
+  ja: Git
+  ko: Git
+  de: Git
+  ru: Git
+  hi: Git
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Commit
+  slug: commit
+  zh-cn: 提交
+  zh-tw: 提交
+  ja: Commit
+  ko: Commit
+  de: Commit
+  ru: Commit
+  hi: Commit
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Branch
+  slug: branch
+  zh-cn: 分支
+  zh-tw: 分支
+  ja: Branch
+  ko: Branch
+  de: Branch
+  ru: Branch
+  hi: Branch
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Merge
+  slug: merge
+  zh-cn: 合并
+  zh-tw: 合并
+  ja: Merge
+  ko: Merge
+  de: Merge
+  ru: Merge
+  hi: Merge
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Pull
+  slug: pull
+  zh-cn: 拉取
+  zh-tw: 拉取
+  ja: Pull
+  ko: Pull
+  de: Pull
+  ru: Pull
+  hi: Pull
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Push
+  slug: push
+  zh-cn: 推送
+  zh-tw: 推送
+  ja: Push
+  ko: Push
+  de: Push
+  ru: Push
+  hi: Push
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Clone
+  slug: clone
+  zh-cn: 克隆
+  zh-tw: 克隆
+  ja: Clone
+  ko: Clone
+  de: Clone
+  ru: Clone
+  hi: Clone
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Pull Request
+  slug: pull-request
+  zh-cn: 拉取请求
+  zh-tw: 拉取请求
+  ja: Pull Request
+  ko: Pull Request
+  de: Pull Request
+  ru: Pull Request
+  hi: Pull Request
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Worktree
+  slug: worktree
+  zh-cn: 工作树
+  zh-tw: 工作树
+  ja: Worktree
+  ko: Worktree
+  de: Worktree
+  ru: Worktree
+  hi: Worktree
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Stash
+  slug: stash
+  zh-cn: 暂存改动
+  zh-tw: 暂存改動
+  ja: Stash
+  ko: Stash
+  de: Stash
+  ru: Stash
+  hi: Stash
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: .gitignore
+  slug: gitignore
+  zh-cn: .gitignore
+  zh-tw: .gitignore
+  ja: .gitignore
+  ko: .gitignore
+  de: .gitignore
+  ru: .gitignore
+  hi: .gitignore
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Diff
+  slug: diff
+  zh-cn: 差异
+  zh-tw: 差異
+  ja: Diff
+  ko: Diff
+  de: Diff
+  ru: Diff
+  hi: Diff
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Repository
+  slug: repository
+  zh-cn: 仓库
+  zh-tw: 仓庫
+  ja: Repository
+  ko: Repository
+  de: Repository
+  ru: Repository
+  hi: Repository
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Working Tree
+  slug: working-tree
+  zh-cn: 工作树
+  zh-tw: 工作树
+  ja: Working Tree
+  ko: Working Tree
+  de: Working Tree
+  ru: Working Tree
+  hi: Working Tree
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Staging Area
+  slug: staging-area
+  zh-cn: 暂存区
+  zh-tw: 暂存区
+  ja: Staging Area
+  ko: Staging Area
+  de: Staging Area
+  ru: Staging Area
+  hi: Staging Area
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: HEAD
+  slug: head
+  zh-cn: HEAD
+  zh-tw: HEAD
+  ja: HEAD
+  ko: HEAD
+  de: HEAD
+  ru: HEAD
+  hi: HEAD
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Remote
+  slug: remote
+  zh-cn: 远程仓库
+  zh-tw: 远程仓庫
+  ja: Remote
+  ko: Remote
+  de: Remote
+  ru: Remote
+  hi: Remote
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Origin
+  slug: origin
+  zh-cn: Origin
+  zh-tw: Origin
+  ja: Origin
+  ko: Origin
+  de: Origin
+  ru: Origin
+  hi: Origin
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Upstream
+  slug: upstream
+  zh-cn: 上游
+  zh-tw: 上游
+  ja: Upstream
+  ko: Upstream
+  de: Upstream
+  ru: Upstream
+  hi: Upstream
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Fetch
+  slug: fetch
+  zh-cn: 获取
+  zh-tw: 获取
+  ja: Fetch
+  ko: Fetch
+  de: Fetch
+  ru: Fetch
+  hi: Fetch
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Merge Conflict
+  slug: merge-conflict
+  zh-cn: 合并冲突
+  zh-tw: 合并冲突
+  ja: Merge Conflict
+  ko: Merge Conflict
+  de: Merge Conflict
+  ru: Merge Conflict
+  hi: Merge Conflict
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Rebase
+  slug: rebase
+  zh-cn: 变基
+  zh-tw: 变基
+  ja: Rebase
+  ko: Rebase
+  de: Rebase
+  ru: Rebase
+  hi: Rebase
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Revert
+  slug: revert
+  zh-cn: 反向提交
+  zh-tw: 反向提交
+  ja: Revert
+  ko: Revert
+  de: Revert
+  ru: Revert
+  hi: Revert
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Reset
+  slug: reset
+  zh-cn: 重置
+  zh-tw: 重置
+  ja: Reset
+  ko: Reset
+  de: Reset
+  ru: Reset
+  hi: Reset
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Cherry-pick
+  slug: cherry-pick
+  zh-cn: Cherry-pick
+  zh-tw: Cherry-pick
+  ja: Cherry-pick
+  ko: Cherry-pick
+  de: Cherry-pick
+  ru: Cherry-pick
+  hi: Cherry-pick
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Acceptance Criteria
+  slug: acceptance-criteria
+  zh-cn: 验收标准
+  zh-tw: 驗收標准
+  ja: Acceptance Criteria
+  ko: Acceptance Criteria
+  de: Acceptance Criteria
+  ru: Acceptance Criteria
+  hi: Acceptance Criteria
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Test Case
+  slug: test-case
+  zh-cn: 测试案例
+  zh-tw: 測試案例
+  ja: Test Case
+  ko: Test Case
+  de: Test Case
+  ru: Test Case
+  hi: Test Case
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Unit Test
+  slug: unit-test
+  zh-cn: 单元测试
+  zh-tw: 单元測試
+  ja: Unit Test
+  ko: Unit Test
+  de: Unit Test
+  ru: Unit Test
+  hi: Unit Test
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Integration Test
+  slug: integration-test
+  zh-cn: 集成测试
+  zh-tw: 集成測試
+  ja: Integration Test
+  ko: Integration Test
+  de: Integration Test
+  ru: Integration Test
+  hi: Integration Test
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: End-to-End Test
+  slug: end-to-end-test
+  zh-cn: End-to-End测试
+  zh-tw: End-to-End測試
+  ja: End-to-End Test
+  ko: End-to-End Test
+  de: End-to-End Test
+  ru: End-to-End Test
+  hi: End-to-End Test
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Smoke Test
+  slug: smoke-test
+  zh-cn: 冒烟测试
+  zh-tw: 冒烟測試
+  ja: Smoke Test
+  ko: Smoke Test
+  de: Smoke Test
+  ru: Smoke Test
+  hi: Smoke Test
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Regression Test
+  slug: regression-test
+  zh-cn: 回归测试
+  zh-tw: 回归測試
+  ja: Regression Test
+  ko: Regression Test
+  de: Regression Test
+  ru: Regression Test
+  hi: Regression Test
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Test Coverage
+  slug: test-coverage
+  zh-cn: 测试覆盖率
+  zh-tw: 測試覆盖率
+  ja: Test Coverage
+  ko: Test Coverage
+  de: Test Coverage
+  ru: Test Coverage
+  hi: Test Coverage
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Test Double
+  slug: test-double
+  zh-cn: 测试替身
+  zh-tw: 測試替身
+  ja: Test Double
+  ko: Test Double
+  de: Test Double
+  ru: Test Double
+  hi: Test Double
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Test Data and Fixture
+  slug: test-data-and-fixture
+  zh-cn: 测试数据与夹具
+  zh-tw: 測試數據與夹具
+  ja: Test Data and Fixture
+  ko: Test Data and Fixture
+  de: Test Data and Fixture
+  ru: Test Data and Fixture
+  hi: Test Data and Fixture
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Flaky Test
+  slug: flaky-test
+  zh-cn: 不稳定测试
+  zh-tw: 不稳定測試
+  ja: Flaky Test
+  ko: Flaky Test
+  de: Flaky Test
+  ru: Flaky Test
+  hi: Flaky Test
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Testing
+  slug: testing
+  zh-cn: 测试
+  zh-tw: 測試
+  ja: Testing
+  ko: Testing
+  de: Testing
+  ru: Testing
+  hi: Testing
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Bug
+  slug: bug
+  zh-cn: 缺陷
+  zh-tw: 缺陷
+  ja: Bug
+  ko: Bug
+  de: Bug
+  ru: Bug
+  hi: Bug
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Error
+  slug: error
+  zh-cn: 错误
+  zh-tw: 错误
+  ja: Error
+  ko: Error
+  de: Error
+  ru: Error
+  hi: Error
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Exception
+  slug: exception
+  zh-cn: 异常
+  zh-tw: 異常
+  ja: Exception
+  ko: Exception
+  de: Exception
+  ru: Exception
+  hi: Exception
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Stack Trace
+  slug: stack-trace
+  zh-cn: 堆栈跟踪
+  zh-tw: 堆栈跟踪
+  ja: Stack Trace
+  ko: Stack Trace
+  de: Stack Trace
+  ru: Stack Trace
+  hi: Stack Trace
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Console
+  slug: console
+  zh-cn: 控制台
+  zh-tw: 控制台
+  ja: Console
+  ko: Console
+  de: Console
+  ru: Console
+  hi: Console
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Browser DevTools
+  slug: browser-devtools
+  zh-cn: 浏览器开发者工具
+  zh-tw: 浏覽器開發者工具
+  ja: Browser DevTools
+  ko: Browser DevTools
+  de: Browser DevTools
+  ru: Browser DevTools
+  hi: Browser DevTools
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Debugger
+  slug: debugger
+  zh-cn: 调试器
+  zh-tw: 調試器
+  ja: Debugger
+  ko: Debugger
+  de: Debugger
+  ru: Debugger
+  hi: Debugger
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Breakpoint
+  slug: breakpoint
+  zh-cn: 断点
+  zh-tw: 断点
+  ja: Breakpoint
+  ko: Breakpoint
+  de: Breakpoint
+  ru: Breakpoint
+  hi: Breakpoint
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Reproduction Steps
+  slug: reproduction-steps
+  zh-cn: 复现步骤
+  zh-tw: 複現步骤
+  ja: Reproduction Steps
+  ko: Reproduction Steps
+  de: Reproduction Steps
+  ru: Reproduction Steps
+  hi: Reproduction Steps
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Root Cause
+  slug: root-cause
+  zh-cn: 根因原因
+  zh-tw: 根因原因
+  ja: Root Cause
+  ko: Root Cause
+  de: Root Cause
+  ru: Root Cause
+  hi: Root Cause
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Log
+  slug: log
+  zh-cn: 日志
+  zh-tw: 日志
+  ja: Log
+  ko: Log
+  de: Log
+  ru: Log
+  hi: Log
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Log Level
+  slug: log-level
+  zh-cn: 日志级别
+  zh-tw: 日志級别
+  ja: Log Level
+  ko: Log Level
+  de: Log Level
+  ru: Log Level
+  hi: Log Level
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Structured Log
+  slug: structured-log
+  zh-cn: 结构化日志
+  zh-tw: 结構化日志
+  ja: Structured Log
+  ko: Structured Log
+  de: Structured Log
+  ru: Structured Log
+  hi: Structured Log
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Mock
+  slug: mock
+  zh-cn: 模拟对象
+  zh-tw: 模拟对象
+  ja: Mock
+  ko: Mock
+  de: Mock
+  ru: Mock
+  hi: Mock
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Stub
+  slug: stub
+  zh-cn: 桩
+  zh-tw: 桩
+  ja: Stub
+  ko: Stub
+  de: Stub
+  ru: Stub
+  hi: Stub
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Fake
+  slug: fake
+  zh-cn: 简化实现
+  zh-tw: 简化实現
+  ja: Fake
+  ko: Fake
+  de: Fake
+  ru: Fake
+  hi: Fake
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Test Pyramid
+  slug: test-pyramid
+  zh-cn: 测试金字塔
+  zh-tw: 測試金字塔
+  ja: Test Pyramid
+  ko: Test Pyramid
+  de: Test Pyramid
+  ru: Test Pyramid
+  hi: Test Pyramid
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Test-Driven Development
+  slug: test-driven-development
+  zh-cn: 测试驱动开发
+  zh-tw: 測試驱動開發
+  ja: Test-Driven Development
+  ko: Test-Driven Development
+  de: Test-Driven Development
+  ru: Test-Driven Development
+  hi: Test-Driven Development
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Behavior-Driven Development
+  slug: behavior-driven-development
+  zh-cn: 行为驱动开发
+  zh-tw: 行为驱動開發
+  ja: Behavior-Driven Development
+  ko: Behavior-Driven Development
+  de: Behavior-Driven Development
+  ru: Behavior-Driven Development
+  hi: Behavior-Driven Development
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Snapshot Test
+  slug: snapshot-test
+  zh-cn: 快照测试
+  zh-tw: 快照測試
+  ja: Snapshot Test
+  ko: Snapshot Test
+  de: Snapshot Test
+  ru: Snapshot Test
+  hi: Snapshot Test
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Contract Test
+  slug: contract-test
+  zh-cn: 契约测试
+  zh-tw: 契约測試
+  ja: Contract Test
+  ko: Contract Test
+  de: Contract Test
+  ru: Contract Test
+  hi: Contract Test
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Load Test
+  slug: load-test
+  zh-cn: 负载测试
+  zh-tw: 负载測試
+  ja: Load Test
+  ko: Load Test
+  de: Load Test
+  ru: Load Test
+  hi: Load Test
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Stress Test
+  slug: stress-test
+  zh-cn: 压力测试
+  zh-tw: 压力測試
+  ja: Stress Test
+  ko: Stress Test
+  de: Stress Test
+  ru: Stress Test
+  hi: Stress Test
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Authentication
+  slug: authentication
+  zh-cn: 身份认证
+  zh-tw: 身份认證
+  ja: Authentication
+  ko: Authentication
+  de: Authentication
+  ru: Authentication
+  hi: Authentication
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Authorization
+  slug: authorization
+  zh-cn: 权限授权
+  zh-tw: 權限授權
+  ja: Authorization
+  ko: Authorization
+  de: Authorization
+  ru: Authorization
+  hi: Authorization
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Identity
+  slug: identity
+  zh-cn: 身份
+  zh-tw: 身份
+  ja: Identity
+  ko: Identity
+  de: Identity
+  ru: Identity
+  hi: Identity
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Session
+  slug: session
+  zh-cn: 会话
+  zh-tw: 会话
+  ja: Session
+  ko: Session
+  de: Session
+  ru: Session
+  hi: Session
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Cookie
+  slug: cookie
+  zh-cn: Cookie
+  zh-tw: Cookie
+  ja: Cookie
+  ko: Cookie
+  de: Cookie
+  ru: Cookie
+  hi: Cookie
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: OAuth
+  slug: oauth
+  zh-cn: OAuth
+  zh-tw: OAuth
+  ja: OAuth
+  ko: OAuth
+  de: OAuth
+  ru: OAuth
+  hi: OAuth
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: OpenID Connect
+  slug: openid-connect
+  zh-cn: OpenID Connect
+  zh-tw: OpenID Connect
+  ja: OpenID Connect
+  ko: OpenID Connect
+  de: OpenID Connect
+  ru: OpenID Connect
+  hi: OpenID Connect
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: JWT
+  slug: jwt
+  zh-cn: JWT
+  zh-tw: JWT
+  ja: JWT
+  ko: JWT
+  de: JWT
+  ru: JWT
+  hi: JWT
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Access Token
+  slug: access-token
+  zh-cn: 访问词元
+  zh-tw: 访问词元
+  ja: Access Token
+  ko: Access Token
+  de: Access Token
+  ru: Access Token
+  hi: Access Token
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Refresh Token
+  slug: refresh-token
+  zh-cn: 刷新词元
+  zh-tw: 刷新词元
+  ja: Refresh Token
+  ko: Refresh Token
+  de: Refresh Token
+  ru: Refresh Token
+  hi: Refresh Token
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Password Hashing
+  slug: password-hashing
+  zh-cn: 密码哈希
+  zh-tw: 密碼哈希
+  ja: Password Hashing
+  ko: Password Hashing
+  de: Password Hashing
+  ru: Password Hashing
+  hi: Password Hashing
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Multi-factor Authentication
+  slug: multi-factor-authentication
+  zh-cn: 多因素认证
+  zh-tw: 多因素认證
+  ja: Multi-factor Authentication
+  ko: Multi-factor Authentication
+  de: Multi-factor Authentication
+  ru: Multi-factor Authentication
+  hi: Multi-factor Authentication
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: RBAC
+  slug: rbac
+  zh-cn: RBAC
+  zh-tw: RBAC
+  ja: RBAC
+  ko: RBAC
+  de: RBAC
+  ru: RBAC
+  hi: RBAC
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: ABAC
+  slug: abac
+  zh-cn: ABAC
+  zh-tw: ABAC
+  ja: ABAC
+  ko: ABAC
+  de: ABAC
+  ru: ABAC
+  hi: ABAC
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Least Privilege
+  slug: least-privilege
+  zh-cn: 最小权限
+  zh-tw: 最小權限
+  ja: Least Privilege
+  ko: Least Privilege
+  de: Least Privilege
+  ru: Least Privilege
+  hi: Least Privilege
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Threat Model
+  slug: threat-model
+  zh-cn: 威胁模型
+  zh-tw: 威胁模型
+  ja: Threat Model
+  ko: Threat Model
+  de: Threat Model
+  ru: Threat Model
+  hi: Threat Model
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Attack Surface
+  slug: attack-surface
+  zh-cn: 攻击面
+  zh-tw: 攻击面
+  ja: Attack Surface
+  ko: Attack Surface
+  de: Attack Surface
+  ru: Attack Surface
+  hi: Attack Surface
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: XSS
+  slug: xss
+  zh-cn: XSS
+  zh-tw: XSS
+  ja: XSS
+  ko: XSS
+  de: XSS
+  ru: XSS
+  hi: XSS
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: CSRF
+  slug: csrf
+  zh-cn: CSRF
+  zh-tw: CSRF
+  ja: CSRF
+  ko: CSRF
+  de: CSRF
+  ru: CSRF
+  hi: CSRF
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: SQL Injection
+  slug: sql-injection
+  zh-cn: SQL注入
+  zh-tw: SQL注入
+  ja: SQL Injection
+  ko: SQL Injection
+  de: SQL Injection
+  ru: SQL Injection
+  hi: SQL Injection
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Sanitization
+  slug: sanitization
+  zh-cn: 净化
+  zh-tw: 净化
+  ja: Sanitization
+  ko: Sanitization
+  de: Sanitization
+  ru: Sanitization
+  hi: Sanitization
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Output Encoding
+  slug: output-encoding
+  zh-cn: 输出编码
+  zh-tw: 輸出编碼
+  ja: Output Encoding
+  ko: Output Encoding
+  de: Output Encoding
+  ru: Output Encoding
+  hi: Output Encoding
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Content Security Policy
+  slug: content-security-policy
+  zh-cn: 内容安全策略
+  zh-tw: 内容安全策略
+  ja: Content Security Policy
+  ko: Content Security Policy
+  de: Content Security Policy
+  ru: Content Security Policy
+  hi: Content Security Policy
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Secret Management
+  slug: secret-management
+  zh-cn: 密钥管理
+  zh-tw: 密钥管理
+  ja: Secret Management
+  ko: Secret Management
+  de: Secret Management
+  ru: Secret Management
+  hi: Secret Management
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Encryption
+  slug: encryption
+  zh-cn: 加密
+  zh-tw: 加密
+  ja: Encryption
+  ko: Encryption
+  de: Encryption
+  ru: Encryption
+  hi: Encryption
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Deployment
+  slug: deployment
+  zh-cn: 部署
+  zh-tw: 部署
+  ja: Deployment
+  ko: Deployment
+  de: Deployment
+  ru: Deployment
+  hi: Deployment
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: CD
+  slug: cd
+  zh-cn: CD
+  zh-tw: CD
+  ja: CD
+  ko: CD
+  de: CD
+  ru: CD
+  hi: CD
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Staging
+  slug: staging
+  zh-cn: 预发布
+  zh-tw: 预發布
+  ja: Staging
+  ko: Staging
+  de: Staging
+  ru: Staging
+  hi: Staging
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Monitoring
+  slug: monitoring
+  zh-cn: 监控
+  zh-tw: 監控
+  ja: Monitoring
+  ko: Monitoring
+  de: Monitoring
+  ru: Monitoring
+  hi: Monitoring
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Rollback
+  slug: rollback
+  zh-cn: 回滚
+  zh-tw: 回滾
+  ja: Rollback
+  ko: Rollback
+  de: Rollback
+  ru: Rollback
+  hi: Rollback
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Feature Flag
+  slug: feature-flag
+  zh-cn: 功能选项
+  zh-tw: 功能选項
+  ja: Feature Flag
+  ko: Feature Flag
+  de: Feature Flag
+  ru: Feature Flag
+  hi: Feature Flag
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Canary Release
+  slug: canary-release
+  zh-cn: 金丝雀发布
+  zh-tw: 金丝雀發布
+  ja: Canary Release
+  ko: Canary Release
+  de: Canary Release
+  ru: Canary Release
+  hi: Canary Release
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Blue-Green Deployment
+  slug: blue-green-deployment
+  zh-cn: Blue-Green部署
+  zh-tw: Blue-Green部署
+  ja: Blue-Green Deployment
+  ko: Blue-Green Deployment
+  de: Blue-Green Deployment
+  ru: Blue-Green Deployment
+  hi: Blue-Green Deployment
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Serverless
+  slug: serverless
+  zh-cn: 无服务器
+  zh-tw: 无服務器
+  ja: Serverless
+  ko: Serverless
+  de: Serverless
+  ru: Serverless
+  hi: Serverless
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Server Logs
+  slug: server-logs
+  zh-cn: 服务器日志
+  zh-tw: 服務器日志
+  ja: Server Logs
+  ko: Server Logs
+  de: Server Logs
+  ru: Server Logs
+  hi: Server Logs
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Production
+  slug: production
+  zh-cn: 生产
+  zh-tw: 生产
+  ja: Production
+  ko: Production
+  de: Production
+  ru: Production
+  hi: Production
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Development Environment
+  slug: development-environment
+  zh-cn: 开发环境
+  zh-tw: 開發環境
+  ja: Development Environment
+  ko: Development Environment
+  de: Development Environment
+  ru: Development Environment
+  hi: Development Environment
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Production Environment
+  slug: production-environment
+  zh-cn: 生产环境
+  zh-tw: 生产環境
+  ja: Production Environment
+  ko: Production Environment
+  de: Production Environment
+  ru: Production Environment
+  hi: Production Environment
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: CI
+  slug: ci
+  zh-cn: 持续集成
+  zh-tw: 持续集成
+  ja: CI
+  ko: CI
+  de: CI
+  ru: CI
+  hi: CI
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Pipeline
+  slug: pipeline
+  zh-cn: 流水线
+  zh-tw: 流水線
+  ja: Pipeline
+  ko: Pipeline
+  de: Pipeline
+  ru: Pipeline
+  hi: Pipeline
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Container
+  slug: container
+  zh-cn: 容器
+  zh-tw: 容器
+  ja: Container
+  ko: Container
+  de: Container
+  ru: Container
+  hi: Container
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Container Image
+  slug: container-image
+  zh-cn: 容器镜像
+  zh-tw: 容器镜像
+  ja: Container Image
+  ko: Container Image
+  de: Container Image
+  ru: Container Image
+  hi: Container Image
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Docker
+  slug: docker
+  zh-cn: Docker
+  zh-tw: Docker
+  ja: Docker
+  ko: Docker
+  de: Docker
+  ru: Docker
+  hi: Docker
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Dockerfile
+  slug: dockerfile
+  zh-cn: Dockerfile
+  zh-tw: Dockerfile
+  ja: Dockerfile
+  ko: Dockerfile
+  de: Dockerfile
+  ru: Dockerfile
+  hi: Dockerfile
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Kubernetes
+  slug: kubernetes
+  zh-cn: Kubernetes
+  zh-tw: Kubernetes
+  ja: Kubernetes
+  ko: Kubernetes
+  de: Kubernetes
+  ru: Kubernetes
+  hi: Kubernetes
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Edge Function
+  slug: edge-function
+  zh-cn: 边缘函数
+  zh-tw: 边缘函數
+  ja: Edge Function
+  ko: Edge Function
+  de: Edge Function
+  ru: Edge Function
+  hi: Edge Function
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Cold Start
+  slug: cold-start
+  zh-cn: 冷启动
+  zh-tw: 冷启動
+  ja: Cold Start
+  ko: Cold Start
+  de: Cold Start
+  ru: Cold Start
+  hi: Cold Start
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Observability
+  slug: observability
+  zh-cn: 可观测性
+  zh-tw: 可觀測性
+  ja: Observability
+  ko: Observability
+  de: Observability
+  ru: Observability
+  hi: Observability
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Incident
+  slug: incident
+  zh-cn: 事故
+  zh-tw: 事故
+  ja: Incident
+  ko: Incident
+  de: Incident
+  ru: Incident
+  hi: Incident
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft
+- canonical: Infrastructure as Code
+  slug: infrastructure-as-code
+  zh-cn: 基础设施即代码
+  zh-tw: 基础设施即代碼
+  ja: Infrastructure as Code
+  ko: Infrastructure as Code
+  de: Infrastructure as Code
+  ru: Infrastructure as Code
+  hi: Infrastructure as Code
+  status:
+    zh-cn: draft
+    zh-tw: draft
+    ja: draft
+    ko: draft
+    de: draft
+    ru: draft
+    hi: draft

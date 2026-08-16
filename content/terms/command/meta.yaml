@@ -1,0 +1,11 @@
+id: term_command
+slug: command
+canonical_name: Command
+aliases: []
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: intermediate
+related_terms:
+- CLI
+- Argument
+content_version: 1

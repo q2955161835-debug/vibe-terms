@@ -1,0 +1,10 @@
+title: Model Provider
+short_definition: 'Model Provider — термин из раздела «ИИ и Vibe Coding». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A company or service that hosts models and exposes them through products or APIs.'
+analogy: Model Provider можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Model Provider — термин из раздела «ИИ и Vibe Coding». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A company or service that hosts models and exposes them through products or APIs.'
+why_it_matters: Понимание Model Provider помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Model Provider помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Model Provider в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Model Provider доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

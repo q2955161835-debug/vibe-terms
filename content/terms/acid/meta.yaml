@@ -1,0 +1,11 @@
+id: term_acid
+slug: acid
+canonical_name: ACID
+aliases: []
+primary_domain: data-databases
+lifecycle_stage: data-identity
+difficulty: intermediate
+related_terms:
+- Transaction
+- Isolation Level
+content_version: 1

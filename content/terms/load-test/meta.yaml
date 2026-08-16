@@ -1,0 +1,11 @@
+id: term_load_test
+slug: load-test
+canonical_name: Load Test
+aliases: []
+primary_domain: testing-debugging
+lifecycle_stage: test-protect
+difficulty: advanced
+related_terms:
+- Contract Test
+- Stress Test
+content_version: 1

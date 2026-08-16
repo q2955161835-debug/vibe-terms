@@ -1,0 +1,11 @@
+id: term_timeline
+slug: timeline
+canonical_name: Timeline
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Accordion
+- Tree
+content_version: 1

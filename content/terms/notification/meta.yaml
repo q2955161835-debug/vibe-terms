@@ -1,0 +1,11 @@
+id: term_notification
+slug: notification
+canonical_name: Notification
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Toast
+- Modal
+content_version: 1

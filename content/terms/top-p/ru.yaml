@@ -1,0 +1,10 @@
+title: Top P
+short_definition: 'Top P — термин из раздела «ИИ и Vibe Coding». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A sampling setting that restricts token choices to the smallest set whose cumulative probability reaches a chosen threshold.'
+analogy: Top P можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Top P — термин из раздела «ИИ и Vibe Coding». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A sampling setting that restricts token choices to the smallest set whose cumulative probability reaches a chosen threshold.'
+why_it_matters: Понимание Top P помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Top P помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Top P в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Top P доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

@@ -2,11 +2,10 @@ id: term_backend
 slug: backend
 canonical_name: Backend
 aliases: []
-primary_domain: backend-data
-lifecycle_stage: interface-logic
+primary_domain: backend-apis
+lifecycle_stage: data-identity
 difficulty: beginner
 related_terms:
-- Frontend
-- Database
-- API
+- Validation
+- Backend Framework
 content_version: 1

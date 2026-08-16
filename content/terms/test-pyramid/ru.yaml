@@ -1,0 +1,10 @@
+title: Test Pyramid
+short_definition: 'Test Pyramid — термин из раздела «Тестирование и отладка». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A testing strategy that uses many fast low-level tests, fewer integration tests, and a smaller number of slower end-to-end tests.'
+analogy: Test Pyramid можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Test Pyramid — термин из раздела «Тестирование и отладка». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A testing strategy that uses many fast low-level tests, fewer integration tests, and a smaller number of slower end-to-end tests.'
+why_it_matters: Понимание Test Pyramid помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Test Pyramid помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Test Pyramid в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Test Pyramid доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

@@ -1,0 +1,10 @@
+title: Database Migration
+short_definition: 'Database Migration — термин из раздела «Данные и базы данных». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A versioned change to database structure or data that can be applied consistently across environments.'
+analogy: Database Migration можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Database Migration — термин из раздела «Данные и базы данных». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A versioned change to database structure or data that can be applied consistently across environments.'
+why_it_matters: Понимание Database Migration помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Database Migration помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Database Migration в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Database Migration доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

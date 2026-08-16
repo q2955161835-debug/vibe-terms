@@ -1,0 +1,12 @@
+id: term_flexbox
+slug: flexbox
+canonical_name: Flexbox
+aliases:
+- Flex
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- Padding
+- CSS Grid
+content_version: 1

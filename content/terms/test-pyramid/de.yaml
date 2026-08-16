@@ -1,0 +1,10 @@
+title: Test Pyramid
+short_definition: 'Test Pyramid ist ein Begriff aus „Testen & Debugging“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A testing strategy that uses many fast low-level tests, fewer integration tests, and a smaller number of slower end-to-end tests.'
+analogy: Man kann Test Pyramid zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
+mechanism: 'Test Pyramid ist ein Begriff aus „Testen & Debugging“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A testing strategy that uses many fast low-level tests, fewer integration tests, and a smaller number of slower end-to-end tests.'
+why_it_matters: Wer Test Pyramid versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
+project_example: Wer Test Pyramid versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
+ai_prompt_example: Erkläre, wie Test Pyramid in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
+common_mistake: Den Begriff Test Pyramid als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+status: draft
+source_content_version: 1

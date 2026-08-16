@@ -1,0 +1,11 @@
+id: term_test_coverage
+slug: test-coverage
+canonical_name: Test Coverage
+aliases: []
+primary_domain: testing-debugging
+lifecycle_stage: test-protect
+difficulty: beginner
+related_terms:
+- Regression Test
+- Test Double
+content_version: 1

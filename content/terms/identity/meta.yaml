@@ -1,0 +1,11 @@
+id: term_identity
+slug: identity
+canonical_name: Identity
+aliases: []
+primary_domain: security-privacy
+lifecycle_stage: test-protect
+difficulty: beginner
+related_terms:
+- Authorization
+- Session
+content_version: 1

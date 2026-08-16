@@ -1,0 +1,11 @@
+id: term_http_method
+slug: http-method
+canonical_name: HTTP Method
+aliases: []
+primary_domain: web-network
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- URL Fragment
+- HTTP Status Code
+content_version: 1

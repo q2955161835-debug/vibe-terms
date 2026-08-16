@@ -1,0 +1,10 @@
+title: ABAC
+short_definition: 'ABAC ist ein Begriff aus „Sicherheit & Datenschutz“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: Attribute-based access control, where access decisions evaluate attributes of the subject, resource, action, and context.'
+analogy: Man kann ABAC zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
+mechanism: 'ABAC ist ein Begriff aus „Sicherheit & Datenschutz“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: Attribute-based access control, where access decisions evaluate attributes of the subject, resource, action, and context.'
+why_it_matters: Wer ABAC versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
+project_example: Wer ABAC versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
+ai_prompt_example: Erkläre, wie ABAC in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
+common_mistake: Den Begriff ABAC als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+status: draft
+source_content_version: 1

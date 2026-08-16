@@ -1,0 +1,10 @@
+title: Apple HIG
+short_definition: 'Apple HIG — термин из раздела «UI/UX и доступность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Apple''s Human Interface Guidelines, a set of platform design principles and interaction conventions for Apple software.'
+analogy: Apple HIG можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Apple HIG — термин из раздела «UI/UX и доступность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Apple''s Human Interface Guidelines, a set of platform design principles and interaction conventions for Apple software.'
+why_it_matters: Понимание Apple HIG помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Apple HIG помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Apple HIG в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Apple HIG доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

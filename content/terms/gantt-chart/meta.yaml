@@ -1,0 +1,11 @@
+id: term_gantt_chart
+slug: gantt-chart
+canonical_name: Gantt Chart
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Product Roadmap
+- A/B Test
+content_version: 1

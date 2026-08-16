@@ -1,0 +1,11 @@
+id: term_jobs_to_be_done
+slug: jobs-to-be-done
+canonical_name: Jobs to Be Done
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Persona
+- User Need
+content_version: 1

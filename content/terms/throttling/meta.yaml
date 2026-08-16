@@ -1,0 +1,11 @@
+id: term_throttling
+slug: throttling
+canonical_name: Throttling
+aliases: []
+primary_domain: backend-apis
+lifecycle_stage: data-identity
+difficulty: intermediate
+related_terms:
+- Polling
+- Quota
+content_version: 1

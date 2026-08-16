@@ -1,0 +1,12 @@
+id: term_semantic_versioning
+slug: semantic-versioning
+canonical_name: Semantic Versioning
+aliases:
+- SemVer
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- Package
+- Lockfile
+content_version: 1

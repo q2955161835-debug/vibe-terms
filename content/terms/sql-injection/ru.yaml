@@ -1,0 +1,10 @@
+title: SQL Injection
+short_definition: 'SQL Injection — термин из раздела «Безопасность и приватность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A vulnerability where untrusted input changes the structure of a database query instead of remaining data.'
+analogy: SQL Injection можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'SQL Injection — термин из раздела «Безопасность и приватность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A vulnerability where untrusted input changes the structure of a database query instead of remaining data.'
+why_it_matters: Понимание SQL Injection помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание SQL Injection помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль SQL Injection в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название SQL Injection доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

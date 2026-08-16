@@ -1,0 +1,11 @@
+id: term_grounding
+slug: grounding
+canonical_name: Grounding
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Instruction Hierarchy
+- Retrieval-Augmented Generation
+content_version: 1

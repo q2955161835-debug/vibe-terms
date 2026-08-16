@@ -1,0 +1,11 @@
+id: term_library
+slug: library
+canonical_name: Library
+aliases: []
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- Framework
+- SDK
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_context_engineering
+slug: context-engineering
+canonical_name: Context Engineering
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Multimodal AI
+- Token
+content_version: 1

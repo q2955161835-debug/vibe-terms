@@ -1,0 +1,11 @@
+id: term_long_term_memory
+slug: long-term-memory
+canonical_name: Long-Term Memory
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Short-Term Memory
+- Function Calling
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_validation
+slug: validation
+canonical_name: Validation
+aliases: []
+primary_domain: backend-apis
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- CORS
+- Backend
+content_version: 1

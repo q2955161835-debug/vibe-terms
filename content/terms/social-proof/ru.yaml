@@ -1,0 +1,10 @@
+title: Social Proof
+short_definition: 'Social Proof — термин из раздела «UI/UX и доступность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Evidence from real users, customers, usage, reviews, or recognized organizations intended to increase trust.'
+analogy: Social Proof можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Social Proof — термин из раздела «UI/UX и доступность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Evidence from real users, customers, usage, reviews, or recognized organizations intended to increase trust.'
+why_it_matters: Понимание Social Proof помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Social Proof помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Social Proof в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Social Proof доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

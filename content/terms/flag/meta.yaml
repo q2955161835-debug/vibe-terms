@@ -1,0 +1,11 @@
+id: term_flag
+slug: flag
+canonical_name: Flag
+aliases: []
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: intermediate
+related_terms:
+- Argument
+- Process
+content_version: 1

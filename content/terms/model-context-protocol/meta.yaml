@@ -1,0 +1,12 @@
+id: term_model_context_protocol
+slug: model-context-protocol
+canonical_name: Model Context Protocol
+aliases:
+- MCP
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Human-in-the-loop
+- Skill
+content_version: 1

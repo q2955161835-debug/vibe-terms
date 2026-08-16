@@ -1,0 +1,10 @@
+title: Corner Radius Consistency
+short_definition: 'Corner Radius Consistency — термин из раздела «Фронтенд-разработка». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The design-system practice of using a small, intentional set of corner radii across related components.'
+analogy: Corner Radius Consistency можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Corner Radius Consistency — термин из раздела «Фронтенд-разработка». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The design-system practice of using a small, intentional set of corner radii across related components.'
+why_it_matters: Понимание Corner Radius Consistency помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Corner Radius Consistency помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Corner Radius Consistency в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Corner Radius Consistency доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

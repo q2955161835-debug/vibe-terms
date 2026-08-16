@@ -1,0 +1,11 @@
+id: term_position
+slug: position
+canonical_name: Position
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- Sticky Positioning
+- Centering
+content_version: 1

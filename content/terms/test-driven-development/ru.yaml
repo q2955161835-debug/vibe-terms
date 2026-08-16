@@ -1,0 +1,10 @@
+title: Test-Driven Development
+short_definition: 'Test-Driven Development — термин из раздела «Тестирование и отладка». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A development workflow that writes a failing test first, implements the minimum code to pass, then refactors while keeping tests green.'
+analogy: Test-Driven Development можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Test-Driven Development — термин из раздела «Тестирование и отладка». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A development workflow that writes a failing test first, implements the minimum code to pass, then refactors while keeping tests green.'
+why_it_matters: Понимание Test-Driven Development помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Test-Driven Development помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Test-Driven Development в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Test-Driven Development доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

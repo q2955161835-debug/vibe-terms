@@ -1,0 +1,11 @@
+id: term_model_routing
+slug: model-routing
+canonical_name: Model Routing
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Jailbreak
+- Prompt Caching
+content_version: 1

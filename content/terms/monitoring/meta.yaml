@@ -1,0 +1,11 @@
+id: term_monitoring
+slug: monitoring
+canonical_name: Monitoring
+aliases: []
+primary_domain: deployment-operations
+lifecycle_stage: deploy-maintain
+difficulty: beginner
+related_terms:
+- Staging
+- Rollback
+content_version: 1

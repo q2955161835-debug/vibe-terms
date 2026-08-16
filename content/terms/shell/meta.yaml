@@ -1,0 +1,11 @@
+id: term_shell
+slug: shell
+canonical_name: Shell
+aliases: []
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: intermediate
+related_terms:
+- Working Directory
+- CLI
+content_version: 1

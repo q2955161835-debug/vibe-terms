@@ -1,0 +1,10 @@
+title: Editorial
+short_definition: 'Editorial — термин из раздела «UI/UX и доступность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A layout style inspired by magazines and publishing, using expressive typography, imagery, and varied composition to guide reading.'
+analogy: Editorial можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Editorial — термин из раздела «UI/UX и доступность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A layout style inspired by magazines and publishing, using expressive typography, imagery, and varied composition to guide reading.'
+why_it_matters: Понимание Editorial помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Editorial помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Editorial в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Editorial доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

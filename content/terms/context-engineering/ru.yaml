@@ -1,0 +1,10 @@
+title: Context Engineering
+short_definition: 'Context Engineering — термин из раздела «ИИ и Vibe Coding». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The practice of selecting and organizing the instructions, history, files, tools, and results that a model needs for the current task.'
+analogy: Context Engineering можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Context Engineering — термин из раздела «ИИ и Vibe Coding». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The practice of selecting and organizing the instructions, history, files, tools, and results that a model needs for the current task.'
+why_it_matters: Понимание Context Engineering помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Context Engineering помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Context Engineering в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Context Engineering доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

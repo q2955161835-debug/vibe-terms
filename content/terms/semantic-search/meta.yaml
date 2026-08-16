@@ -1,0 +1,11 @@
+id: term_semantic_search
+slug: semantic-search
+canonical_name: Semantic Search
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Vector Database
+- Chunking
+content_version: 1

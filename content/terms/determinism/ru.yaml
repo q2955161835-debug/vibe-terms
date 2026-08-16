@@ -1,0 +1,10 @@
+title: Determinism
+short_definition: 'Determinism — термин из раздела «ИИ и Vibe Coding». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The degree to which the same input and configuration produce the same output across repeated runs.'
+analogy: Determinism можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Determinism — термин из раздела «ИИ и Vibe Coding». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The degree to which the same input and configuration produce the same output across repeated runs.'
+why_it_matters: Понимание Determinism помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Determinism помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Determinism в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Determinism доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

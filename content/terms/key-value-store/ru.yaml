@@ -1,0 +1,10 @@
+title: Key-Value Store
+short_definition: 'Key-Value Store — термин из раздела «Данные и базы данных». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A datastore that retrieves values primarily by unique keys and is optimized for simple, fast lookups.'
+analogy: Key-Value Store можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Key-Value Store — термин из раздела «Данные и базы данных». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A datastore that retrieves values primarily by unique keys and is optimized for simple, fast lookups.'
+why_it_matters: Понимание Key-Value Store помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Key-Value Store помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Key-Value Store в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Key-Value Store доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

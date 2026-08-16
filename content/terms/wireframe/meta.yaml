@@ -1,0 +1,11 @@
+id: term_wireframe
+slug: wireframe
+canonical_name: Wireframe
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Assumption
+- Mockup
+content_version: 1

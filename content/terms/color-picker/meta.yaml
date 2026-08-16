@@ -1,0 +1,12 @@
+id: term_color_picker
+slug: color-picker
+canonical_name: Color Picker
+aliases:
+- ColorPicker
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Form
+- Label
+content_version: 1

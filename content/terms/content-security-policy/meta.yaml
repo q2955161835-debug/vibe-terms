@@ -1,0 +1,12 @@
+id: term_content_security_policy
+slug: content-security-policy
+canonical_name: Content Security Policy
+aliases:
+- CSP
+primary_domain: security-privacy
+lifecycle_stage: test-protect
+difficulty: advanced
+related_terms:
+- Output Encoding
+- Secret Management
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_aria
+slug: aria
+canonical_name: ARIA
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: advanced
+related_terms:
+- WCAG
+- Screen Reader
+content_version: 1

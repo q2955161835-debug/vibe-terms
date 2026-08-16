@@ -1,0 +1,11 @@
+id: term_uri
+slug: uri
+canonical_name: URI
+aliases: []
+primary_domain: web-network
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- Hostname
+- Query String
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_quote
+slug: quote
+canonical_name: Quote
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Icon
+- Video
+content_version: 1

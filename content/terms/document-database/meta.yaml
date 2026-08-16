@@ -1,0 +1,11 @@
+id: term_document_database
+slug: document-database
+canonical_name: Document Database
+aliases: []
+primary_domain: data-databases
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- NoSQL
+- Key-Value Store
+content_version: 1

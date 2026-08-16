@@ -1,0 +1,10 @@
+title: User Story
+short_definition: 'User Story — термин из раздела «Продукт и требования». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A short requirement written from a user''s perspective that states who needs something, what they need, and why it matters.'
+analogy: User Story можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'User Story — термин из раздела «Продукт и требования». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A short requirement written from a user''s perspective that states who needs something, what they need, and why it matters.'
+why_it_matters: Понимание User Story помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание User Story помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль User Story в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название User Story доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

@@ -1,0 +1,12 @@
+id: term_drag_and_drop
+slug: drag-and-drop
+canonical_name: Drag and Drop
+aliases:
+- Drag
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: intermediate
+related_terms:
+- Focus
+- Disabled State
+content_version: 1

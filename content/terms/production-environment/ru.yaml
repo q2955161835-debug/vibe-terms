@@ -1,0 +1,10 @@
+title: Production Environment
+short_definition: 'Production Environment — термин из раздела «Развертывание и эксплуатация». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The infrastructure, configuration, secrets, services, and data context used by the live application.'
+analogy: Production Environment можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Production Environment — термин из раздела «Развертывание и эксплуатация». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The infrastructure, configuration, secrets, services, and data context used by the live application.'
+why_it_matters: Понимание Production Environment помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Production Environment помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Production Environment в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Production Environment доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

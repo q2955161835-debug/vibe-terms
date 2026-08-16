@@ -1,0 +1,11 @@
+id: term_user_need
+slug: user-need
+canonical_name: User Need
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Jobs to Be Done
+- Value Proposition
+content_version: 1

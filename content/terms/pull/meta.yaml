@@ -1,0 +1,11 @@
+id: term_pull
+slug: pull
+canonical_name: Pull
+aliases: []
+primary_domain: git-collaboration
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- Merge
+- Push
+content_version: 1

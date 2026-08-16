@@ -1,0 +1,11 @@
+id: term_prompt_template
+slug: prompt-template
+canonical_name: Prompt Template
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Prompt Engineering
+- Instruction Hierarchy
+content_version: 1

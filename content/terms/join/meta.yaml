@@ -1,0 +1,11 @@
+id: term_join
+slug: join
+canonical_name: JOIN
+aliases: []
+primary_domain: data-databases
+lifecycle_stage: data-identity
+difficulty: intermediate
+related_terms:
+- Query
+- Index
+content_version: 1

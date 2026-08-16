@@ -1,0 +1,10 @@
+title: Development Environment
+short_definition: 'Development Environment — термин из раздела «Развертывание и эксплуатация». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: An environment optimized for building and debugging software, usually using local or non-production data and settings.'
+analogy: Development Environment можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Development Environment — термин из раздела «Развертывание и эксплуатация». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: An environment optimized for building and debugging software, usually using local or non-production data and settings.'
+why_it_matters: Понимание Development Environment помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Development Environment помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Development Environment в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Development Environment доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

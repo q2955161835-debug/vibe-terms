@@ -1,0 +1,11 @@
+id: term_artifact
+slug: artifact
+canonical_name: Artifact
+aliases: []
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: advanced
+related_terms:
+- Configuration File
+- Dependency Tree
+content_version: 1

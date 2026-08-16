@@ -1,0 +1,10 @@
+id: term_user_story
+slug: user-story
+canonical_name: User Story
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Use Case
+content_version: 1

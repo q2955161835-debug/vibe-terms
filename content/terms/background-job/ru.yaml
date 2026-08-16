@@ -1,0 +1,10 @@
+title: Background Job
+short_definition: 'Background Job — термин из раздела «Бэкенд и API». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Work executed asynchronously outside the user''s foreground request, such as sending email or processing media.'
+analogy: Background Job можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Background Job — термин из раздела «Бэкенд и API». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Work executed asynchronously outside the user''s foreground request, such as sending email or processing media.'
+why_it_matters: Понимание Background Job помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Background Job помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Background Job в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Background Job доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

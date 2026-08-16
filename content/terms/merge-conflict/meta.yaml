@@ -1,0 +1,11 @@
+id: term_merge_conflict
+slug: merge-conflict
+canonical_name: Merge Conflict
+aliases: []
+primary_domain: git-collaboration
+lifecycle_stage: environment
+difficulty: intermediate
+related_terms:
+- Fetch
+- Rebase
+content_version: 1

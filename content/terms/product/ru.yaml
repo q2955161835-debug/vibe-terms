@@ -1,0 +1,10 @@
+title: Product
+short_definition: 'Product — термин из раздела «Продукт и требования». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A deliberately designed offering that solves a problem for users and is maintained through a lifecycle of discovery, delivery, and improvement.'
+analogy: Product можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Product — термин из раздела «Продукт и требования». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A deliberately designed offering that solves a problem for users and is maintained through a lifecycle of discovery, delivery, and improvement.'
+why_it_matters: Понимание Product помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Product помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Product в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Product доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

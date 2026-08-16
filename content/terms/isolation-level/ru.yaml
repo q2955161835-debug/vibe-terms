@@ -1,0 +1,10 @@
+title: Isolation Level
+short_definition: 'Isolation Level — термин из раздела «Данные и базы данных». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A database setting that controls how concurrent transactions can observe one another''s intermediate changes.'
+analogy: Isolation Level можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Isolation Level — термин из раздела «Данные и базы данных». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A database setting that controls how concurrent transactions can observe one another''s intermediate changes.'
+why_it_matters: Понимание Isolation Level помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Isolation Level помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Isolation Level в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Isolation Level доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

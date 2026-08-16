@@ -1,0 +1,11 @@
+id: term_css
+slug: css
+canonical_name: CSS
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- HTML
+- DOM
+content_version: 1

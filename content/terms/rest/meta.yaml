@@ -1,0 +1,11 @@
+id: term_rest
+slug: rest
+canonical_name: REST
+aliases: []
+primary_domain: backend-apis
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- Endpoint
+- GraphQL
+content_version: 1

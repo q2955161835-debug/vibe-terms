@@ -1,0 +1,10 @@
+title: Mockup
+short_definition: 'Mockup ist ein Begriff aus „Produkt & Anforderungen“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A higher-fidelity static representation of how a screen or visual design is expected to look.'
+analogy: Man kann Mockup zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
+mechanism: 'Mockup ist ein Begriff aus „Produkt & Anforderungen“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A higher-fidelity static representation of how a screen or visual design is expected to look.'
+why_it_matters: Wer Mockup versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
+project_example: Wer Mockup versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
+ai_prompt_example: Erkläre, wie Mockup in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
+common_mistake: Den Begriff Mockup als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+status: draft
+source_content_version: 1

@@ -1,0 +1,11 @@
+id: term_test_case
+slug: test-case
+canonical_name: Test Case
+aliases: []
+primary_domain: testing-debugging
+lifecycle_stage: test-protect
+difficulty: beginner
+related_terms:
+- Acceptance Criteria
+- Unit Test
+content_version: 1

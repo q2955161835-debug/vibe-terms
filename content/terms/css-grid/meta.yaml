@@ -1,0 +1,12 @@
+id: term_css_grid
+slug: css-grid
+canonical_name: CSS Grid
+aliases:
+- Grid
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- Flexbox
+- Z-Index
+content_version: 1

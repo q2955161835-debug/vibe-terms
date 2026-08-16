@@ -1,0 +1,32 @@
+title: Test Double
+short_definition: A controllable substitute for a real dependency used during testing, including mocks, stubs, fakes, and spies.
+analogy: 'Think of Test Double as a labeled tool in the testing & debugging part of a workshop: the label tells you what problem area to inspect, but the real behavior still comes from the implementation.'
+mechanism: A controllable substitute for a real dependency used during testing, including mocks, stubs, fakes, and spies. In a real project, its exact behavior depends on the surrounding technology, configuration, and data flow, so verify the concrete implementation rather than relying on the label alone.
+why_it_matters: Knowing Test Double lets a Vibe Coding beginner name the exact testing & debugging concern they mean and ask an AI coding agent for a change plus evidence that the behavior is correct.
+project_example: In Vibe Terms, use Test Double as a vocabulary checkpoint when a learner reaches the test-protect stage; connect the definition to one visible page, file, request, data structure, or verification step rather than teaching it in isolation.
+ai_prompt_example: Explain how Test Double applies to this project. Point to the exact files or system boundary involved, make only the smallest necessary change, and show the command or user flow I can use to verify the result.
+common_mistake: Treating the term Test Double as proof that an implementation is correct without checking actual behavior, data flow, permissions, failure cases, or the relevant test.
+quiz:
+- question: Which description best matches Test Double?
+  options:
+  - A controllable substitute for a real dependency used during testing, including mocks, stubs, fakes, and spies.
+  - A visual decoration that has no effect on software behavior.
+  - A guarantee that every implementation is secure and correct.
+  answer: 0
+- question: When an AI says it used Test Double, what should you do next?
+  options:
+  - Accept the label as proof.
+  - Check the concrete implementation and verify the relevant behavior.
+  - Rename the files so the term appears in the project.
+  answer: 1
+- question: Which prompt is more useful for working with Test Double?
+  options:
+  - “Make Test Double better.”
+  - “Explain where Test Double appears, change the smallest necessary part, and show how to verify it.”
+  - “Rewrite the whole project.”
+  answer: 1
+sources:
+- url: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing
+- url: https://playwright.dev/docs/intro
+status: published
+source_content_version: 1

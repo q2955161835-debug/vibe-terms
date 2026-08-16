@@ -1,0 +1,10 @@
+title: Server Logs
+short_definition: 'Server Logs — термин из раздела «Развертывание и эксплуатация». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Logs produced by backend processes and infrastructure, used to understand requests, errors, decisions, and production behavior.'
+analogy: Server Logs можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Server Logs — термин из раздела «Развертывание и эксплуатация». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Logs produced by backend processes and infrastructure, used to understand requests, errors, decisions, and production behavior.'
+why_it_matters: Понимание Server Logs помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Server Logs помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Server Logs в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Server Logs доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

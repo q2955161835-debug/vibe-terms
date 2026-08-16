@@ -1,0 +1,10 @@
+title: Value Proposition
+short_definition: 'Value Proposition — термин из раздела «Продукт и требования». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A concise explanation of who a product helps, what valuable outcome it enables, and why it is preferable to alternatives.'
+analogy: Value Proposition можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Value Proposition — термин из раздела «Продукт и требования». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A concise explanation of who a product helps, what valuable outcome it enables, and why it is preferable to alternatives.'
+why_it_matters: Понимание Value Proposition помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Value Proposition помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Value Proposition в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Value Proposition доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

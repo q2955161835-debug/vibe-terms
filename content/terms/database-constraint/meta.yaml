@@ -1,0 +1,11 @@
+id: term_database_constraint
+slug: database-constraint
+canonical_name: Database Constraint
+aliases: []
+primary_domain: data-databases
+lifecycle_stage: data-identity
+difficulty: intermediate
+related_terms:
+- Index
+- Unique Key
+content_version: 1

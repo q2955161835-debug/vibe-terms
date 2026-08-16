@@ -1,0 +1,10 @@
+id: term_api_gateway
+slug: api-gateway
+canonical_name: API Gateway
+aliases: []
+primary_domain: backend-apis
+lifecycle_stage: data-identity
+difficulty: advanced
+related_terms:
+- Object Storage
+content_version: 1

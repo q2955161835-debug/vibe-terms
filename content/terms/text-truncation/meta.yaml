@@ -1,0 +1,12 @@
+id: term_text_truncation
+slug: text-truncation
+canonical_name: Text Truncation
+aliases:
+- Text Truncate
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- Serif vs Sans Serif
+- Divider
+content_version: 1

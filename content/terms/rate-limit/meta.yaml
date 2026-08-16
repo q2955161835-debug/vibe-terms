@@ -1,0 +1,11 @@
+id: term_rate_limit
+slug: rate-limit
+canonical_name: Rate Limit
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Token Cost
+- Large Language Model
+content_version: 1

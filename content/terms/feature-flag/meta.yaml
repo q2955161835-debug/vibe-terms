@@ -1,0 +1,11 @@
+id: term_feature_flag
+slug: feature-flag
+canonical_name: Feature Flag
+aliases: []
+primary_domain: deployment-operations
+lifecycle_stage: deploy-maintain
+difficulty: beginner
+related_terms:
+- Rollback
+- Canary Release
+content_version: 1

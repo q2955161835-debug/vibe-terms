@@ -1,0 +1,10 @@
+title: Harness Engineering
+short_definition: 'Harness Engineering — термин из раздела «ИИ и Vibe Coding». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Engineering the execution environment, tools, permissions, feedback loops, and guardrails around an AI agent so it behaves reliably.'
+analogy: Harness Engineering можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Harness Engineering — термин из раздела «ИИ и Vibe Coding». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Engineering the execution environment, tools, permissions, feedback loops, and guardrails around an AI agent so it behaves reliably.'
+why_it_matters: Понимание Harness Engineering помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Harness Engineering помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Harness Engineering в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Harness Engineering доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

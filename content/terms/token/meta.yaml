@@ -1,0 +1,11 @@
+id: term_token
+slug: token
+canonical_name: Token
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Context Engineering
+- Context Window
+content_version: 1

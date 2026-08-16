@@ -1,0 +1,11 @@
+id: term_container_image
+slug: container-image
+canonical_name: Container Image
+aliases: []
+primary_domain: deployment-operations
+lifecycle_stage: deploy-maintain
+difficulty: intermediate
+related_terms:
+- Container
+- Docker
+content_version: 1

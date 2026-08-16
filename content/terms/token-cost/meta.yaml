@@ -1,0 +1,12 @@
+id: term_token_cost
+slug: token-cost
+canonical_name: Token Cost
+aliases:
+- Token Usage & Cost
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- AI Latency Metrics
+- Rate Limit
+content_version: 1

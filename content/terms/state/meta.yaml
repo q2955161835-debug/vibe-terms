@@ -1,0 +1,11 @@
+id: term_state
+slug: state
+canonical_name: State
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- Component
+- Markdown
+content_version: 1

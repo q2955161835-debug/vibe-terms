@@ -1,0 +1,11 @@
+id: term_short_term_memory
+slug: short-term-memory
+canonical_name: Short-Term Memory
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Agent Memory
+- Long-Term Memory
+content_version: 1

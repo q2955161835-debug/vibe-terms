@@ -1,0 +1,11 @@
+id: term_stateless_request
+slug: stateless-request
+canonical_name: Stateless Request
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Conversation History
+- Structured Output
+content_version: 1

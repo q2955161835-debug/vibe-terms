@@ -1,0 +1,11 @@
+id: term_feature
+slug: feature
+canonical_name: Feature
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Constraint
+- Problem Statement
+content_version: 1

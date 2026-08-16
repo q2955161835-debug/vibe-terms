@@ -1,0 +1,11 @@
+id: term_configuration_file
+slug: configuration-file
+canonical_name: Configuration File
+aliases: []
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: advanced
+related_terms:
+- Environment Variable
+- Artifact
+content_version: 1

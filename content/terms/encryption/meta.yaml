@@ -1,0 +1,10 @@
+id: term_encryption
+slug: encryption
+canonical_name: Encryption
+aliases: []
+primary_domain: security-privacy
+lifecycle_stage: test-protect
+difficulty: advanced
+related_terms:
+- Secret Management
+content_version: 1

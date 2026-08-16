@@ -1,0 +1,11 @@
+id: term_vector_database
+slug: vector-database
+canonical_name: Vector Database
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Embedding
+- Semantic Search
+content_version: 1

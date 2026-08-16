@@ -1,0 +1,11 @@
+id: term_deserialization
+slug: deserialization
+canonical_name: Deserialization
+aliases: []
+primary_domain: backend-apis
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- Serialization
+- Query Parameter
+content_version: 1

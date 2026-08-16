@@ -1,0 +1,11 @@
+id: term_structured_log
+slug: structured-log
+canonical_name: Structured Log
+aliases: []
+primary_domain: testing-debugging
+lifecycle_stage: test-protect
+difficulty: intermediate
+related_terms:
+- Log Level
+- Mock
+content_version: 1

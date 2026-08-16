@@ -1,0 +1,10 @@
+title: Product Roadmap
+short_definition: 'Product Roadmap ist ein Begriff aus „Produkt & Anforderungen“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A time-oriented view of product direction and intended outcomes that communicates priorities without turning every item into a fixed promise.'
+analogy: Man kann Product Roadmap zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
+mechanism: 'Product Roadmap ist ein Begriff aus „Produkt & Anforderungen“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A time-oriented view of product direction and intended outcomes that communicates priorities without turning every item into a fixed promise.'
+why_it_matters: Wer Product Roadmap versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
+project_example: Wer Product Roadmap versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
+ai_prompt_example: Erkläre, wie Product Roadmap in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
+common_mistake: Den Begriff Product Roadmap als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+status: draft
+source_content_version: 1

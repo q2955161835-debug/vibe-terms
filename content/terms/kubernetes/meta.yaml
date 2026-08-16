@@ -1,0 +1,11 @@
+id: term_kubernetes
+slug: kubernetes
+canonical_name: Kubernetes
+aliases: []
+primary_domain: deployment-operations
+lifecycle_stage: deploy-maintain
+difficulty: intermediate
+related_terms:
+- Dockerfile
+- Edge Function
+content_version: 1

@@ -1,0 +1,10 @@
+title: Constraint
+short_definition: 'Constraint ist ein Begriff aus „Produkt & Anforderungen“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A boundary the solution must respect, such as a platform, budget, compliance rule, performance limit, or fixed integration.'
+analogy: Man kann Constraint zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
+mechanism: 'Constraint ist ein Begriff aus „Produkt & Anforderungen“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A boundary the solution must respect, such as a platform, budget, compliance rule, performance limit, or fixed integration.'
+why_it_matters: Wer Constraint versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
+project_example: Wer Constraint versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
+ai_prompt_example: Erkläre, wie Constraint in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
+common_mistake: Den Begriff Constraint als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+status: draft
+source_content_version: 1

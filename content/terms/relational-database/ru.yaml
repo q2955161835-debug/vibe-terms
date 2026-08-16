@@ -1,0 +1,10 @@
+title: Relational Database
+short_definition: 'Relational Database — термин из раздела «Данные и базы данных». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A database model that stores data in tables connected through keys and queried using relational operations.'
+analogy: Relational Database можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Relational Database — термин из раздела «Данные и базы данных». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A database model that stores data in tables connected through keys and queried using relational operations.'
+why_it_matters: Понимание Relational Database помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Relational Database помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Relational Database в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Relational Database доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

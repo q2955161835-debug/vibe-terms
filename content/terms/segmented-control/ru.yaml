@@ -1,0 +1,10 @@
+title: Segmented Control
+short_definition: 'Segmented Control — термин из раздела «UI/UX и доступность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A compact row of mutually exclusive options used to switch between a few closely related modes or views.'
+analogy: Segmented Control можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Segmented Control — термин из раздела «UI/UX и доступность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A compact row of mutually exclusive options used to switch between a few closely related modes or views.'
+why_it_matters: Понимание Segmented Control помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Segmented Control помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Segmented Control в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Segmented Control доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

@@ -1,0 +1,11 @@
+id: term_tree
+slug: tree
+canonical_name: Tree
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Timeline
+- Carousel
+content_version: 1

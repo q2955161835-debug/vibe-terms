@@ -1,0 +1,11 @@
+id: term_blue_green_deployment
+slug: blue-green-deployment
+canonical_name: Blue-Green Deployment
+aliases: []
+primary_domain: deployment-operations
+lifecycle_stage: deploy-maintain
+difficulty: beginner
+related_terms:
+- Canary Release
+- Serverless
+content_version: 1

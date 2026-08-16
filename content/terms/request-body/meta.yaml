@@ -1,0 +1,11 @@
+id: term_request_body
+slug: request-body
+canonical_name: Request Body
+aliases: []
+primary_domain: web-network
+lifecycle_stage: environment
+difficulty: intermediate
+related_terms:
+- HTTP Header
+- TLS
+content_version: 1

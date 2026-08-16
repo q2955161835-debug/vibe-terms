@@ -1,0 +1,10 @@
+title: Gantt Chart
+short_definition: 'Gantt Chart — термин из раздела «Продукт и требования». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A timeline visualization that shows tasks or workstreams as time spans, often with milestones and dependencies.'
+analogy: Gantt Chart можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Gantt Chart — термин из раздела «Продукт и требования». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A timeline visualization that shows tasks or workstreams as time spans, often with milestones and dependencies.'
+why_it_matters: Понимание Gantt Chart помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Gantt Chart помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Gantt Chart в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Gantt Chart доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

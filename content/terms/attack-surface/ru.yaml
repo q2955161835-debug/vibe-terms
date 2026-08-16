@@ -1,0 +1,10 @@
+title: Attack Surface
+short_definition: 'Attack Surface — термин из раздела «Безопасность и приватность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The collection of reachable interfaces, inputs, privileges, and components through which a system could be attacked.'
+analogy: Attack Surface можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Attack Surface — термин из раздела «Безопасность и приватность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The collection of reachable interfaces, inputs, privileges, and components through which a system could be attacked.'
+why_it_matters: Понимание Attack Surface помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Attack Surface помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Attack Surface в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Attack Surface доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

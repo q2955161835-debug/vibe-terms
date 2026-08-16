@@ -1,0 +1,11 @@
+id: term_https
+slug: https
+canonical_name: HTTPS
+aliases: []
+primary_domain: web-network
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- HTTP
+- CDN
+content_version: 1

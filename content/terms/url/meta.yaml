@@ -1,0 +1,11 @@
+id: term_url
+slug: url
+canonical_name: URL
+aliases: []
+primary_domain: web-network
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- DNS
+- HTTP
+content_version: 1

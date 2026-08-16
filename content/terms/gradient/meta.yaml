@@ -1,0 +1,11 @@
+id: term_gradient
+slug: gradient
+canonical_name: Gradient
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- Opacity
+- Corner Radius Consistency
+content_version: 1

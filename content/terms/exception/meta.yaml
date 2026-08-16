@@ -1,0 +1,11 @@
+id: term_exception
+slug: exception
+canonical_name: Exception
+aliases: []
+primary_domain: testing-debugging
+lifecycle_stage: test-protect
+difficulty: beginner
+related_terms:
+- Error
+- Stack Trace
+content_version: 1

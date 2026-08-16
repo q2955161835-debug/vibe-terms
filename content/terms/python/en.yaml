@@ -1,0 +1,32 @@
+title: Python
+short_definition: A general-purpose programming language known for readable syntax and broad use in automation, data work, web backends, and AI.
+analogy: 'Think of Python as a labeled tool in the computing & development environment part of a workshop: the label tells you what problem area to inspect, but the real behavior still comes from the implementation.'
+mechanism: A general-purpose programming language known for readable syntax and broad use in automation, data work, web backends, and AI. In a real project, its exact behavior depends on the surrounding technology, configuration, and data flow, so verify the concrete implementation rather than relying on the label alone.
+why_it_matters: Knowing Python lets a Vibe Coding beginner name the exact computing & development environment concern they mean and ask an AI coding agent for a change plus evidence that the behavior is correct.
+project_example: In Vibe Terms, use Python as a vocabulary checkpoint when a learner reaches the environment stage; connect the definition to one visible page, file, request, data structure, or verification step rather than teaching it in isolation.
+ai_prompt_example: Explain how Python applies to this project. Point to the exact files or system boundary involved, make only the smallest necessary change, and show the command or user flow I can use to verify the result.
+common_mistake: Treating the term Python as proof that an implementation is correct without checking actual behavior, data flow, permissions, failure cases, or the relevant test.
+quiz:
+- question: Which description best matches Python?
+  options:
+  - A general-purpose programming language known for readable syntax and broad use in automation, data work, web backends, and AI.
+  - A visual decoration that has no effect on software behavior.
+  - A guarantee that every implementation is secure and correct.
+  answer: 0
+- question: When an AI says it used Python, what should you do next?
+  options:
+  - Accept the label as proof.
+  - Check the concrete implementation and verify the relevant behavior.
+  - Rename the files so the term appears in the project.
+  answer: 1
+- question: Which prompt is more useful for working with Python?
+  options:
+  - “Make Python better.”
+  - “Explain where Python appears, change the smallest necessary part, and show how to verify it.”
+  - “Rewrite the whole project.”
+  answer: 1
+sources:
+- url: https://developer.mozilla.org/
+- url: https://git-scm.com/docs
+status: published
+source_content_version: 1

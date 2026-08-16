@@ -1,0 +1,11 @@
+id: term_udp
+slug: udp
+canonical_name: UDP
+aliases: []
+primary_domain: web-network
+lifecycle_stage: environment
+difficulty: intermediate
+related_terms:
+- TCP
+- WebSocket
+content_version: 1

@@ -1,0 +1,12 @@
+id: term_border_radius
+slug: border-radius
+canonical_name: Border Radius
+aliases:
+- BorderRadius
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- Divider
+- Shadow
+content_version: 1

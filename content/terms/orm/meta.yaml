@@ -1,0 +1,10 @@
+id: term_orm
+slug: orm
+canonical_name: ORM
+aliases: []
+primary_domain: data-databases
+lifecycle_stage: data-identity
+difficulty: advanced
+related_terms:
+- Database Migration
+content_version: 1

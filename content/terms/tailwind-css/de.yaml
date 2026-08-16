@@ -1,0 +1,10 @@
+title: Tailwind CSS
+short_definition: 'Tailwind CSS ist ein Begriff aus „Frontend-Entwicklung“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A utility-first CSS framework that composes small predefined classes directly in markup to build custom designs.'
+analogy: Man kann Tailwind CSS zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
+mechanism: 'Tailwind CSS ist ein Begriff aus „Frontend-Entwicklung“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A utility-first CSS framework that composes small predefined classes directly in markup to build custom designs.'
+why_it_matters: Wer Tailwind CSS versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
+project_example: Wer Tailwind CSS versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
+ai_prompt_example: Erkläre, wie Tailwind CSS in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
+common_mistake: Den Begriff Tailwind CSS als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+status: draft
+source_content_version: 1

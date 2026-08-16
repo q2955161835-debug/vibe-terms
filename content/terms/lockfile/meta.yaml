@@ -1,0 +1,11 @@
+id: term_lockfile
+slug: lockfile
+canonical_name: Lockfile
+aliases: []
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- Semantic Versioning
+- Operating System
+content_version: 1

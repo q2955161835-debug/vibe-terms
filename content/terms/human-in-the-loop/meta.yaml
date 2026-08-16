@@ -1,0 +1,12 @@
+id: term_human_in_the_loop
+slug: human-in-the-loop
+canonical_name: Human-in-the-loop
+aliases:
+- HITL
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Harness Engineering
+- Model Context Protocol
+content_version: 1

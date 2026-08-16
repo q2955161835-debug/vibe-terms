@@ -1,0 +1,10 @@
+title: Least Privilege
+short_definition: 'Least Privilege — термин из раздела «Безопасность и приватность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The security principle of granting only the permissions needed for a task and no broader access than necessary.'
+analogy: Least Privilege можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Least Privilege — термин из раздела «Безопасность и приватность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The security principle of granting only the permissions needed for a task and no broader access than necessary.'
+why_it_matters: Понимание Least Privilege помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Least Privilege помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Least Privilege в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Least Privilege доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

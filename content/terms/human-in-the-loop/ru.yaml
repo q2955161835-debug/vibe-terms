@@ -1,0 +1,10 @@
+title: Human-in-the-loop
+short_definition: 'Human-in-the-loop — термин из раздела «ИИ и Vibe Coding». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A workflow that deliberately requires a person to review, approve, correct, or take over at important decision points.'
+analogy: Human-in-the-loop можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Human-in-the-loop — термин из раздела «ИИ и Vibe Coding». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A workflow that deliberately requires a person to review, approve, correct, or take over at important decision points.'
+why_it_matters: Понимание Human-in-the-loop помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Human-in-the-loop помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Human-in-the-loop в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Human-in-the-loop доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

@@ -1,0 +1,11 @@
+id: term_alert
+slug: alert
+canonical_name: Alert
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- App Icon
+- Toast
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_vision_model
+slug: vision-model
+canonical_name: Vision Model
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: advanced
+related_terms:
+- Reasoning Model
+- Speech Model
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_diff
+slug: diff
+canonical_name: Diff
+aliases: []
+primary_domain: git-collaboration
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- .gitignore
+- Repository
+content_version: 1

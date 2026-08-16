@@ -1,0 +1,10 @@
+title: Access Token
+short_definition: 'Access Token — термин из раздела «Безопасность и приватность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A credential presented to an API to authorize access to specific resources or operations for a limited scope or lifetime.'
+analogy: Access Token можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Access Token — термин из раздела «Безопасность и приватность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A credential presented to an API to authorize access to specific resources or operations for a limited scope or lifetime.'
+why_it_matters: Понимание Access Token помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Access Token помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Access Token в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Access Token доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

@@ -1,0 +1,11 @@
+id: term_npm
+slug: npm
+canonical_name: npm
+aliases: []
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- Terminal
+- Build
+content_version: 1

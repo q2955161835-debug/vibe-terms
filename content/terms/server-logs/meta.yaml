@@ -1,0 +1,11 @@
+id: term_server_logs
+slug: server-logs
+canonical_name: Server Logs
+aliases: []
+primary_domain: deployment-operations
+lifecycle_stage: deploy-maintain
+difficulty: beginner
+related_terms:
+- Serverless
+- Production
+content_version: 1

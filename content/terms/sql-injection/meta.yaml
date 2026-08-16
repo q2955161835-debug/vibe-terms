@@ -1,0 +1,11 @@
+id: term_sql_injection
+slug: sql-injection
+canonical_name: SQL Injection
+aliases: []
+primary_domain: security-privacy
+lifecycle_stage: test-protect
+difficulty: intermediate
+related_terms:
+- CSRF
+- Sanitization
+content_version: 1

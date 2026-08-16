@@ -1,0 +1,11 @@
+id: term_test_pyramid
+slug: test-pyramid
+canonical_name: Test Pyramid
+aliases: []
+primary_domain: testing-debugging
+lifecycle_stage: test-protect
+difficulty: intermediate
+related_terms:
+- Fake
+- Test-Driven Development
+content_version: 1

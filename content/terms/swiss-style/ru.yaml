@@ -1,0 +1,10 @@
+title: Swiss Style
+short_definition: 'Swiss Style — термин из раздела «UI/UX и доступность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A modernist graphic-design approach emphasizing grids, strong typography, asymmetry, clarity, and disciplined alignment.'
+analogy: Swiss Style можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Swiss Style — термин из раздела «UI/UX и доступность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A modernist graphic-design approach emphasizing grids, strong typography, asymmetry, clarity, and disciplined alignment.'
+why_it_matters: Понимание Swiss Style помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Swiss Style помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Swiss Style в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Swiss Style доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

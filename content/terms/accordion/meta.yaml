@@ -1,0 +1,12 @@
+id: term_accordion
+slug: accordion
+canonical_name: Accordion
+aliases:
+- Collapse
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Segmented Control
+- Timeline
+content_version: 1

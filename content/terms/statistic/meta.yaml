@@ -1,0 +1,11 @@
+id: term_statistic
+slug: statistic
+canonical_name: Statistic
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Description List
+- Tabs
+content_version: 1

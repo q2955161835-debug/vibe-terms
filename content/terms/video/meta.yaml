@@ -1,0 +1,11 @@
+id: term_video
+slug: video
+canonical_name: Video
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Quote
+- Chat UI
+content_version: 1

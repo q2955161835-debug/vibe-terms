@@ -1,0 +1,10 @@
+title: Browser DevTools
+short_definition: 'Browser DevTools — термин из раздела «Тестирование и отладка». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Browser-integrated tools for inspecting DOM, CSS, network requests, storage, performance, console output, and debugging.'
+analogy: Browser DevTools можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Browser DevTools — термин из раздела «Тестирование и отладка». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Browser-integrated tools for inspecting DOM, CSS, network requests, storage, performance, console output, and debugging.'
+why_it_matters: Понимание Browser DevTools помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Browser DevTools помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Browser DevTools в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Browser DevTools доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

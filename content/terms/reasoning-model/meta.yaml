@@ -1,0 +1,11 @@
+id: term_reasoning_model
+slug: reasoning-model
+canonical_name: Reasoning Model
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: advanced
+related_terms:
+- Determinism
+- Vision Model
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_select
+slug: select
+canonical_name: Select
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Rating Control
+- AutoComplete
+content_version: 1

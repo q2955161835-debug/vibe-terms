@@ -1,0 +1,11 @@
+id: term_webhook
+slug: webhook
+canonical_name: Webhook
+aliases: []
+primary_domain: backend-apis
+lifecycle_stage: data-identity
+difficulty: intermediate
+related_terms:
+- CRUD
+- Polling
+content_version: 1

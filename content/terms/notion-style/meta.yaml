@@ -1,0 +1,11 @@
+id: term_notion_style
+slug: notion-style
+canonical_name: Notion Style
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: intermediate
+related_terms:
+- Apple HIG
+- Bento Grid
+content_version: 1

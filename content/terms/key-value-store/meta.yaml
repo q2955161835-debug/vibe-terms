@@ -1,0 +1,11 @@
+id: term_key_value_store
+slug: key-value-store
+canonical_name: Key-Value Store
+aliases: []
+primary_domain: data-databases
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- Document Database
+- Graph Database
+content_version: 1

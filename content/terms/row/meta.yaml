@@ -1,0 +1,11 @@
+id: term_row
+slug: row
+canonical_name: Row
+aliases: []
+primary_domain: data-databases
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- Database Table
+- Column
+content_version: 1

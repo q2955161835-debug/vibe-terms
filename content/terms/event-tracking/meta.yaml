@@ -1,0 +1,11 @@
+id: term_event_tracking
+slug: event-tracking
+canonical_name: Event Tracking
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: advanced
+related_terms:
+- Guardrail Metric
+- Prioritization
+content_version: 1

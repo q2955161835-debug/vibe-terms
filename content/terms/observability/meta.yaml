@@ -1,0 +1,11 @@
+id: term_observability
+slug: observability
+canonical_name: Observability
+aliases: []
+primary_domain: deployment-operations
+lifecycle_stage: deploy-maintain
+difficulty: advanced
+related_terms:
+- Cold Start
+- Incident
+content_version: 1

@@ -1,0 +1,10 @@
+title: JavaScript
+short_definition: 'JavaScript — термин из раздела «Компьютеры и среда разработки». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A programming language used extensively in browsers and server runtimes to implement application logic and interactivity.'
+analogy: JavaScript можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'JavaScript — термин из раздела «Компьютеры и среда разработки». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A programming language used extensively in browsers and server runtimes to implement application logic and interactivity.'
+why_it_matters: Понимание JavaScript помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание JavaScript помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль JavaScript в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название JavaScript доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

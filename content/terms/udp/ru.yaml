@@ -1,0 +1,10 @@
+title: UDP
+short_definition: 'UDP — термин из раздела «Web и сети». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A connectionless transport protocol that sends datagrams with low overhead but without built-in delivery or ordering guarantees.'
+analogy: UDP можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'UDP — термин из раздела «Web и сети». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A connectionless transport protocol that sends datagrams with low overhead but without built-in delivery or ordering guarantees.'
+why_it_matters: Понимание UDP помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание UDP помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль UDP в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название UDP доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

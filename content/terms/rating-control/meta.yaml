@@ -1,0 +1,12 @@
+id: term_rating_control
+slug: rating-control
+canonical_name: Rating Control
+aliases:
+- Rate
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Slider
+- Select
+content_version: 1

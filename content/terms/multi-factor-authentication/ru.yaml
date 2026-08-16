@@ -1,0 +1,10 @@
+title: Multi-factor Authentication
+short_definition: 'Multi-factor Authentication — термин из раздела «Безопасность и приватность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Authentication that requires evidence from two or more independent factor types, such as password and device possession.'
+analogy: Multi-factor Authentication можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Multi-factor Authentication — термин из раздела «Безопасность и приватность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Authentication that requires evidence from two or more independent factor types, such as password and device possession.'
+why_it_matters: Понимание Multi-factor Authentication помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Multi-factor Authentication помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Multi-factor Authentication в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Multi-factor Authentication доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

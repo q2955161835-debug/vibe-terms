@@ -1,0 +1,10 @@
+id: term_browser_storage
+slug: browser-storage
+canonical_name: Browser Storage
+aliases: []
+primary_domain: data-databases
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- Database
+content_version: 1

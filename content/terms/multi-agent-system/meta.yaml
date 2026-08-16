@@ -1,0 +1,10 @@
+id: term_multi_agent_system
+slug: multi-agent-system
+canonical_name: Multi-agent System
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: advanced
+related_terms:
+- Agentic Workflow
+content_version: 1

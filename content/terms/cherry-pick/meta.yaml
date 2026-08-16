@@ -1,0 +1,10 @@
+id: term_cherry_pick
+slug: cherry-pick
+canonical_name: Cherry-pick
+aliases: []
+primary_domain: git-collaboration
+lifecycle_stage: environment
+difficulty: advanced
+related_terms:
+- Reset
+content_version: 1

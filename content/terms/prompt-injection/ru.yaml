@@ -1,0 +1,10 @@
+title: Prompt Injection
+short_definition: 'Prompt Injection — термин из раздела «ИИ и Vibe Coding». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: An attack or failure mode in which untrusted content attempts to override instructions or manipulate an AI system''s behavior.'
+analogy: Prompt Injection можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Prompt Injection — термин из раздела «ИИ и Vibe Coding». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: An attack or failure mode in which untrusted content attempts to override instructions or manipulate an AI system''s behavior.'
+why_it_matters: Понимание Prompt Injection помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Prompt Injection помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Prompt Injection в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Prompt Injection доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

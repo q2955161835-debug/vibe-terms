@@ -1,0 +1,11 @@
+id: term_tabs
+slug: tabs
+canonical_name: Tabs
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Statistic
+- Segmented Control
+content_version: 1

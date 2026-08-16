@@ -1,0 +1,11 @@
+id: term_mvp
+slug: mvp
+canonical_name: MVP
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- PRD
+- Product Backlog
+content_version: 1

@@ -1,0 +1,12 @@
+id: term_javascript
+slug: javascript
+canonical_name: JavaScript
+aliases:
+- JS
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- Tech Stack
+- TypeScript
+content_version: 1

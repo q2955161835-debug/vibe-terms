@@ -1,0 +1,11 @@
+id: term_reranking
+slug: reranking
+canonical_name: Reranking
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Chunking
+- Agent Memory
+content_version: 1

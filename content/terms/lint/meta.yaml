@@ -1,0 +1,11 @@
+id: term_lint
+slug: lint
+canonical_name: Lint
+aliases: []
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- Build
+- Tech Stack
+content_version: 1

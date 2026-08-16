@@ -1,0 +1,11 @@
+id: term_fine_tuning
+slug: fine-tuning
+canonical_name: Fine-tuning
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Prompt Caching
+- Temperature
+content_version: 1

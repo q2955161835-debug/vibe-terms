@@ -1,0 +1,11 @@
+id: term_request
+slug: request
+canonical_name: Request
+aliases: []
+primary_domain: web-network
+lifecycle_stage: environment
+difficulty: intermediate
+related_terms:
+- HTTP Status Code
+- Response
+content_version: 1

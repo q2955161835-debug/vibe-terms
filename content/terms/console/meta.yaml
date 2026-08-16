@@ -1,0 +1,11 @@
+id: term_console
+slug: console
+canonical_name: Console
+aliases: []
+primary_domain: testing-debugging
+lifecycle_stage: test-protect
+difficulty: beginner
+related_terms:
+- Stack Trace
+- Browser DevTools
+content_version: 1

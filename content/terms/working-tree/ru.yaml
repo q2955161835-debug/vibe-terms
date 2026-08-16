@@ -1,0 +1,10 @@
+title: Working Tree
+short_definition: 'Working Tree — термин из раздела «Git и совместная работа». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The checked-out files on disk that a developer currently edits before staging or committing changes.'
+analogy: Working Tree можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Working Tree — термин из раздела «Git и совместная работа». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The checked-out files on disk that a developer currently edits before staging or committing changes.'
+why_it_matters: Понимание Working Tree помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Working Tree помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Working Tree в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Working Tree доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

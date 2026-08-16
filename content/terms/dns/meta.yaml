@@ -1,0 +1,11 @@
+id: term_dns
+slug: dns
+canonical_name: DNS
+aliases: []
+primary_domain: web-network
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- Domain
+- URL
+content_version: 1

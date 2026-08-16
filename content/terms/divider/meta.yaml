@@ -1,0 +1,11 @@
+id: term_divider
+slug: divider
+canonical_name: Divider
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- Text Truncation
+- Border Radius
+content_version: 1

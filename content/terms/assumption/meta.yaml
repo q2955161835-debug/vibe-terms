@@ -1,0 +1,11 @@
+id: term_assumption
+slug: assumption
+canonical_name: Assumption
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Hypothesis
+- Wireframe
+content_version: 1

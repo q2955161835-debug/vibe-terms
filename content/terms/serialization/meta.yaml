@@ -1,0 +1,11 @@
+id: term_serialization
+slug: serialization
+canonical_name: Serialization
+aliases: []
+primary_domain: backend-apis
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- OpenAPI
+- Deserialization
+content_version: 1

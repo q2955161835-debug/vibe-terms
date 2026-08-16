@@ -1,0 +1,10 @@
+title: Human-in-the-loop
+short_definition: 'Human-in-the-loop ‘AI और Vibe Coding’ से जुड़ा एक शब्द है। हिन्दी सामग्री अभी मानव समीक्षा से पहले का मसौदा है। अंग्रेज़ी मानक परिभाषा: A workflow that deliberately requires a person to review, approve, correct, or take over at important decision points.'
+analogy: Human-in-the-loop को सॉफ़्टवेयर विकास के औज़ारों के डिब्बे पर लगे स्पष्ट उपयोग वाले लेबल की तरह समझ सकते हैं; असली काम में कोड, डेटा प्रवाह और उपयोगकर्ता संदर्भ भी जाँचें।
+mechanism: 'Human-in-the-loop ‘AI और Vibe Coding’ से जुड़ा एक शब्द है। हिन्दी सामग्री अभी मानव समीक्षा से पहले का मसौदा है। अंग्रेज़ी मानक परिभाषा: A workflow that deliberately requires a person to review, approve, correct, or take over at important decision points.'
+why_it_matters: Human-in-the-loop समझने से आप AI को साफ़ बता सकते हैं कि सिस्टम के किस हिस्से की बात हो रही है और उससे सत्यापित करने योग्य परिणाम माँग सकते हैं।
+project_example: Human-in-the-loop समझने से आप AI को साफ़ बता सकते हैं कि सिस्टम के किस हिस्से की बात हो रही है और उससे सत्यापित करने योग्य परिणाम माँग सकते हैं।
+ai_prompt_example: इस प्रोजेक्ट में Human-in-the-loop की भूमिका समझाओ। संबंधित फ़ाइल या सिस्टम सीमा बताओ, केवल न्यूनतम आवश्यक बदलाव करो और सत्यापन के चरण दो।
+common_mistake: सिर्फ़ Human-in-the-loop नाम देखकर कार्यान्वयन को सही मान लेना और वास्तविक व्यवहार, डेटा प्रवाह तथा विफलता की स्थितियाँ न जाँचना।
+status: draft
+source_content_version: 1

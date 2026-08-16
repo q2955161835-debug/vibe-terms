@@ -1,0 +1,11 @@
+id: term_title_tag
+slug: title-tag
+canonical_name: Title Tag
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- DOM
+- Page Metadata
+content_version: 1

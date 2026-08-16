@@ -1,0 +1,10 @@
+title: AI Latency Metrics
+short_definition: 'AI Latency Metrics — термин из раздела «ИИ и Vibe Coding». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Measurements such as time to first token and tokens per second that describe how quickly an AI response starts and streams.'
+analogy: AI Latency Metrics можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'AI Latency Metrics — термин из раздела «ИИ и Vibe Coding». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Measurements such as time to first token and tokens per second that describe how quickly an AI response starts and streams.'
+why_it_matters: Понимание AI Latency Metrics помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание AI Latency Metrics помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль AI Latency Metrics в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название AI Latency Metrics доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

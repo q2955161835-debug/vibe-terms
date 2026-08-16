@@ -1,0 +1,11 @@
+id: term_nosql
+slug: nosql
+canonical_name: NoSQL
+aliases: []
+primary_domain: data-databases
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- Relational Database
+- Document Database
+content_version: 1

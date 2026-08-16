@@ -1,0 +1,12 @@
+id: term_retrieval_augmented_generation
+slug: retrieval-augmented-generation
+canonical_name: Retrieval-Augmented Generation
+aliases:
+- RAG
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Grounding
+- Embedding
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_persona
+slug: persona
+canonical_name: Persona
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Problem Statement
+- Jobs to Be Done
+content_version: 1

@@ -2,9 +2,10 @@ id: term_database
 slug: database
 canonical_name: Database
 aliases: []
-primary_domain: backend-data
+primary_domain: data-databases
 lifecycle_stage: data-identity
 difficulty: beginner
 related_terms:
-- Backend
+- Browser Storage
+- SQL
 content_version: 1

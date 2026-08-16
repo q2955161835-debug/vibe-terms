@@ -1,0 +1,12 @@
+id: term_disabled_state
+slug: disabled-state
+canonical_name: Disabled State
+aliases:
+- Disabled
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: intermediate
+related_terms:
+- Drag and Drop
+- Cursor
+content_version: 1

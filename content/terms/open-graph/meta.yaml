@@ -1,0 +1,11 @@
+id: term_open_graph
+slug: open-graph
+canonical_name: Open Graph
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- Favicon
+- Web App Manifest
+content_version: 1

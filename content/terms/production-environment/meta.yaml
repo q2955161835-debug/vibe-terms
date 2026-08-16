@@ -1,0 +1,11 @@
+id: term_production_environment
+slug: production-environment
+canonical_name: Production Environment
+aliases: []
+primary_domain: deployment-operations
+lifecycle_stage: deploy-maintain
+difficulty: beginner
+related_terms:
+- Development Environment
+- CI
+content_version: 1

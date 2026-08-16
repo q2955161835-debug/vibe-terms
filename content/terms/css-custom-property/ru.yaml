@@ -1,0 +1,10 @@
+title: CSS Custom Property
+short_definition: 'CSS Custom Property — термин из раздела «Фронтенд-разработка». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A named CSS value beginning with `--` that participates in the cascade and can be reused through `var()`.'
+analogy: CSS Custom Property можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'CSS Custom Property — термин из раздела «Фронтенд-разработка». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A named CSS value beginning with `--` that participates in the cascade and can be reused through `var()`.'
+why_it_matters: Понимание CSS Custom Property помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание CSS Custom Property помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль CSS Custom Property в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название CSS Custom Property доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

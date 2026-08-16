@@ -1,0 +1,11 @@
+id: term_benchmark
+slug: benchmark
+canonical_name: Benchmark
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Evaluation
+- Eval Dataset
+content_version: 1

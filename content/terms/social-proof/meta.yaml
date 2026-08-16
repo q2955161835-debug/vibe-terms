@@ -1,0 +1,12 @@
+id: term_social_proof
+slug: social-proof
+canonical_name: Social Proof
+aliases:
+- SocialProof
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: intermediate
+related_terms:
+- Pricing
+- Top Nav Layout
+content_version: 1

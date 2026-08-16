@@ -1,0 +1,12 @@
+id: term_environment_variable
+slug: environment-variable
+canonical_name: Environment Variable
+aliases:
+- Env Var
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: advanced
+related_terms:
+- Process
+- Configuration File
+content_version: 1

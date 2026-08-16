@@ -1,0 +1,12 @@
+id: term_number_input
+slug: number-input
+canonical_name: Number Input
+aliases:
+- InputNumber
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Textarea
+- Radio
+content_version: 1

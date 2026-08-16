@@ -1,0 +1,10 @@
+title: Reverse Proxy
+short_definition: 'Reverse Proxy — термин из раздела «Web и сети». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A server that receives requests on behalf of backend services and forwards them based on routing, security, or load rules.'
+analogy: Reverse Proxy можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Reverse Proxy — термин из раздела «Web и сети». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A server that receives requests on behalf of backend services and forwards them based on routing, security, or load rules.'
+why_it_matters: Понимание Reverse Proxy помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Reverse Proxy помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Reverse Proxy в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Reverse Proxy доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

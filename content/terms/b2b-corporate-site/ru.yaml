@@ -1,0 +1,10 @@
+title: B2B Corporate Site
+short_definition: 'B2B Corporate Site — термин из раздела «UI/UX и доступность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A business-facing website pattern designed to establish organizational trust through clear capabilities, evidence, compliance, and customer context.'
+analogy: B2B Corporate Site можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'B2B Corporate Site — термин из раздела «UI/UX и доступность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A business-facing website pattern designed to establish organizational trust through clear capabilities, evidence, compliance, and customer context.'
+why_it_matters: Понимание B2B Corporate Site помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание B2B Corporate Site помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль B2B Corporate Site в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название B2B Corporate Site доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

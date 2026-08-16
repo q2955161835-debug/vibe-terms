@@ -1,0 +1,12 @@
+id: term_inline_confirmation
+slug: inline-confirmation
+canonical_name: Inline Confirmation
+aliases:
+- Popconfirm
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Drawer
+- Popover
+content_version: 1

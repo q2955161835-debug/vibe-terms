@@ -1,0 +1,10 @@
+title: Event Tracking
+short_definition: 'Event Tracking — термин из раздела «Продукт и требования». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Recording defined user or system events with consistent properties so behavior can be analyzed later.'
+analogy: Event Tracking можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Event Tracking — термин из раздела «Продукт и требования». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Recording defined user or system events with consistent properties so behavior can be analyzed later.'
+why_it_matters: Понимание Event Tracking помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Event Tracking помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Event Tracking в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Event Tracking доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

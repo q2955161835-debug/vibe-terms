@@ -1,0 +1,11 @@
+id: term_markdown
+slug: markdown
+canonical_name: Markdown
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- State
+- HTML
+content_version: 1

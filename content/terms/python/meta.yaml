@@ -1,0 +1,11 @@
+id: term_python
+slug: python
+canonical_name: Python
+aliases: []
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- TypeScript
+- Software
+content_version: 1

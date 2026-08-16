@@ -1,0 +1,11 @@
+id: term_conversation_history
+slug: conversation-history
+canonical_name: Conversation History
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- System Prompt
+- Stateless Request
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_path_parameter
+slug: path-parameter
+canonical_name: Path Parameter
+aliases: []
+primary_domain: backend-apis
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- Query Parameter
+- CRUD
+content_version: 1

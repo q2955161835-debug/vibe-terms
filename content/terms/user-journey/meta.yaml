@@ -1,0 +1,11 @@
+id: term_user_journey
+slug: user-journey
+canonical_name: User Journey
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- User Flow
+- PRD
+content_version: 1

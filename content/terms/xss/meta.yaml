@@ -1,0 +1,11 @@
+id: term_xss
+slug: xss
+canonical_name: XSS
+aliases: []
+primary_domain: security-privacy
+lifecycle_stage: test-protect
+difficulty: intermediate
+related_terms:
+- Attack Surface
+- CSRF
+content_version: 1

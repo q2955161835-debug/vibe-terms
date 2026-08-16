@@ -1,0 +1,11 @@
+id: term_unique_key
+slug: unique-key
+canonical_name: Unique Key
+aliases: []
+primary_domain: data-databases
+lifecycle_stage: data-identity
+difficulty: intermediate
+related_terms:
+- Database Constraint
+- Transaction
+content_version: 1

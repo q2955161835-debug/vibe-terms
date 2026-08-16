@@ -1,0 +1,11 @@
+id: term_function_calling
+slug: function-calling
+canonical_name: Function Calling
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Long-Term Memory
+- Evaluation
+content_version: 1

@@ -1,0 +1,12 @@
+id: term_time_picker
+slug: time-picker
+canonical_name: Time Picker
+aliases:
+- TimePicker
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Date Picker
+- Upload
+content_version: 1

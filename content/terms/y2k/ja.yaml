@@ -1,0 +1,10 @@
+title: Y2K
+short_definition: 'Y2K は「UI/UX とアクセシビリティ」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A retro-futurist visual style inspired by late-1990s and early-2000s digital culture, metallic surfaces, glossy plastics, and bright colors.'
+analogy: Y2K は、ソフトウェア開発の道具箱に付いた用途ラベルのように考えると理解しやすいです。実際にはコード、データの流れ、利用場面を確認します。
+mechanism: 'Y2K は「UI/UX とアクセシビリティ」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A retro-futurist visual style inspired by late-1990s and early-2000s digital culture, metallic surfaces, glossy plastics, and bright colors.'
+why_it_matters: Y2K を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
+project_example: Y2K を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
+ai_prompt_example: このプロジェクトで Y2K がどのように関係するか説明してください。対象ファイルまたは境界を示し、必要最小限の変更と確認手順を提示してください。
+common_mistake: Y2K という名前だけで実装が正しいと判断し、実際の動作・データフロー・失敗時の挙動を確認しないことです。
+status: draft
+source_content_version: 1

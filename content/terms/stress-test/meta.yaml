@@ -1,0 +1,10 @@
+id: term_stress_test
+slug: stress-test
+canonical_name: Stress Test
+aliases: []
+primary_domain: testing-debugging
+lifecycle_stage: test-protect
+difficulty: advanced
+related_terms:
+- Load Test
+content_version: 1

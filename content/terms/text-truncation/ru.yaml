@@ -1,0 +1,10 @@
+title: Text Truncation
+short_definition: 'Text Truncation — термин из раздела «Фронтенд-разработка». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Limiting visible text to a fixed space, often using clipping or an ellipsis while preserving access to the full value when needed.'
+analogy: Text Truncation можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Text Truncation — термин из раздела «Фронтенд-разработка». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Limiting visible text to a fixed space, often using clipping or an ellipsis while preserving access to the full value when needed.'
+why_it_matters: Понимание Text Truncation помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Text Truncation помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Text Truncation в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Text Truncation доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

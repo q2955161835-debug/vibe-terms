@@ -1,0 +1,11 @@
+id: term_filter
+slug: filter
+canonical_name: Filter
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Chat UI
+- Chart
+content_version: 1

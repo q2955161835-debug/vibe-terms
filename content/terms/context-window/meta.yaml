@@ -6,5 +6,6 @@ primary_domain: ai-vibe
 lifecycle_stage: requirements
 difficulty: beginner
 related_terms:
-- Prompt
+- Token
+- System Prompt
 content_version: 1

@@ -1,0 +1,10 @@
+title: Middleware
+short_definition: 'Middleware — термин из раздела «Бэкенд и API». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Code that runs in the request or application pipeline to add shared behavior such as logging, authentication, parsing, or error handling.'
+analogy: Middleware можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Middleware — термин из раздела «Бэкенд и API». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Code that runs in the request or application pipeline to add shared behavior such as logging, authentication, parsing, or error handling.'
+why_it_matters: Понимание Middleware помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Middleware помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Middleware в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Middleware доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

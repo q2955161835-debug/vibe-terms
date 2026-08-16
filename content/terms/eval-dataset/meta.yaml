@@ -1,0 +1,11 @@
+id: term_eval_dataset
+slug: eval-dataset
+canonical_name: Eval Dataset
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Benchmark
+- Guardrail
+content_version: 1

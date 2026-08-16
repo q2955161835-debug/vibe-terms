@@ -1,0 +1,11 @@
+id: term_use_case
+slug: use-case
+canonical_name: Use Case
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- User Story
+- User Flow
+content_version: 1

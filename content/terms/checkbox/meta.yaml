@@ -1,0 +1,11 @@
+id: term_checkbox
+slug: checkbox
+canonical_name: Checkbox
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Radio
+- Switch
+content_version: 1

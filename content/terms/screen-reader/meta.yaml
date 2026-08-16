@@ -1,0 +1,11 @@
+id: term_screen_reader
+slug: screen-reader
+canonical_name: Screen Reader
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: advanced
+related_terms:
+- ARIA
+- Keyboard Navigation
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_textarea
+slug: textarea
+canonical_name: Textarea
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Input
+- Number Input
+content_version: 1

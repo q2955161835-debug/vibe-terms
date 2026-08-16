@@ -1,0 +1,10 @@
+title: Contract Test
+short_definition: 'Contract Test — термин из раздела «Тестирование и отладка». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A test that verifies an interface between components or services conforms to an agreed request, response, or message contract.'
+analogy: Contract Test можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Contract Test — термин из раздела «Тестирование и отладка». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A test that verifies an interface between components or services conforms to an agreed request, response, or message contract.'
+why_it_matters: Понимание Contract Test помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Contract Test помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Contract Test в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Contract Test доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

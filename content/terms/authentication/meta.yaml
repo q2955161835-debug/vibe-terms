@@ -1,11 +1,10 @@
 id: term_authentication
 slug: authentication
 canonical_name: Authentication
-aliases:
-- Auth
-primary_domain: security
-lifecycle_stage: data-identity
+aliases: []
+primary_domain: security-privacy
+lifecycle_stage: test-protect
 difficulty: beginner
 related_terms:
-- Backend
+- Authorization
 content_version: 1

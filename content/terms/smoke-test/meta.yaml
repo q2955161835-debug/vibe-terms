@@ -1,0 +1,11 @@
+id: term_smoke_test
+slug: smoke-test
+canonical_name: Smoke Test
+aliases: []
+primary_domain: testing-debugging
+lifecycle_stage: test-protect
+difficulty: beginner
+related_terms:
+- End-to-End Test
+- Regression Test
+content_version: 1

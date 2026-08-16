@@ -1,0 +1,11 @@
+id: term_split_screen
+slug: split-screen
+canonical_name: Split-screen
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: intermediate
+related_terms:
+- Masonry
+- Responsive Design
+content_version: 1

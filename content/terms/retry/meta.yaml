@@ -1,0 +1,11 @@
+id: term_retry
+slug: retry
+canonical_name: Retry
+aliases: []
+primary_domain: backend-apis
+lifecycle_stage: data-identity
+difficulty: intermediate
+related_terms:
+- Idempotency
+- Exponential Backoff
+content_version: 1

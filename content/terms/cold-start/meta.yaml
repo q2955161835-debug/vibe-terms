@@ -1,0 +1,11 @@
+id: term_cold_start
+slug: cold-start
+canonical_name: Cold Start
+aliases: []
+primary_domain: deployment-operations
+lifecycle_stage: deploy-maintain
+difficulty: intermediate
+related_terms:
+- Edge Function
+- Observability
+content_version: 1

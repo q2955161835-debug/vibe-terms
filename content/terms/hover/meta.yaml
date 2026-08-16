@@ -1,0 +1,11 @@
+id: term_hover
+slug: hover
+canonical_name: Hover
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: intermediate
+related_terms:
+- Fade In / Out
+- Active State
+content_version: 1

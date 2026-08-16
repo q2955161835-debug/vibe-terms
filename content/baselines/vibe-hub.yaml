@@ -1,0 +1,1041 @@
+name: VibeHub observed terminology baseline
+captured_at: '2026-08-16'
+source: https://vibe-hub.org/
+note: Union of terms observed across current VibeHub category/index pages during audit. VibeHub counters were not perfectly consistent across cached pages, so this union intentionally preserves every observed term rather than enforcing one displayed total.
+mappings:
+- source_term: Frontend
+  canonical_name: Frontend
+  slug: frontend
+  relationship: canonical
+- source_term: Component
+  canonical_name: Component
+  slug: component
+  relationship: canonical
+- source_term: State
+  canonical_name: State
+  slug: state
+  relationship: canonical
+- source_term: Markdown
+  canonical_name: Markdown
+  slug: markdown
+  relationship: canonical
+- source_term: HTML
+  canonical_name: HTML
+  slug: html
+  relationship: canonical
+- source_term: CSS
+  canonical_name: CSS
+  slug: css
+  relationship: canonical
+- source_term: DOM
+  canonical_name: DOM
+  slug: dom
+  relationship: canonical
+- source_term: Title Tag
+  canonical_name: Title Tag
+  slug: title-tag
+  relationship: canonical
+- source_term: Page Metadata
+  canonical_name: Page Metadata
+  slug: page-metadata
+  relationship: canonical
+- source_term: Favicon
+  canonical_name: Favicon
+  slug: favicon
+  relationship: canonical
+- source_term: Open Graph
+  canonical_name: Open Graph
+  slug: open-graph
+  relationship: canonical
+- source_term: Web App Manifest
+  canonical_name: Web App Manifest
+  slug: web-app-manifest
+  relationship: canonical
+- source_term: Button
+  canonical_name: Button
+  slug: button
+  relationship: canonical
+- source_term: Link
+  canonical_name: Link
+  slug: link
+  relationship: canonical
+- source_term: Input
+  canonical_name: Input
+  slug: input
+  relationship: canonical
+- source_term: Textarea
+  canonical_name: Textarea
+  slug: textarea
+  relationship: canonical
+- source_term: InputNumber
+  canonical_name: Number Input
+  slug: number-input
+  relationship: alias
+- source_term: Radio
+  canonical_name: Radio
+  slug: radio
+  relationship: canonical
+- source_term: Checkbox
+  canonical_name: Checkbox
+  slug: checkbox
+  relationship: canonical
+- source_term: Switch
+  canonical_name: Switch
+  slug: switch
+  relationship: canonical
+- source_term: Slider
+  canonical_name: Slider
+  slug: slider
+  relationship: canonical
+- source_term: Rate
+  canonical_name: Rating Control
+  slug: rating-control
+  relationship: alias
+- source_term: Select
+  canonical_name: Select
+  slug: select
+  relationship: canonical
+- source_term: AutoComplete
+  canonical_name: AutoComplete
+  slug: autocomplete
+  relationship: canonical
+- source_term: Cascader
+  canonical_name: Cascading Select
+  slug: cascading-select
+  relationship: alias
+- source_term: TreeSelect
+  canonical_name: Tree Select
+  slug: tree-select
+  relationship: alias
+- source_term: DatePicker
+  canonical_name: Date Picker
+  slug: date-picker
+  relationship: alias
+- source_term: TimePicker
+  canonical_name: Time Picker
+  slug: time-picker
+  relationship: alias
+- source_term: Upload
+  canonical_name: Upload
+  slug: upload
+  relationship: canonical
+- source_term: Form
+  canonical_name: Form
+  slug: form
+  relationship: canonical
+- source_term: ColorPicker
+  canonical_name: Color Picker
+  slug: color-picker
+  relationship: alias
+- source_term: Label
+  canonical_name: Label
+  slug: label
+  relationship: canonical
+- source_term: Table
+  canonical_name: Table
+  slug: table
+  relationship: canonical
+- source_term: List
+  canonical_name: List
+  slug: list
+  relationship: canonical
+- source_term: Card
+  canonical_name: Card
+  slug: card
+  relationship: canonical
+- source_term: Tag
+  canonical_name: Tag
+  slug: tag
+  relationship: canonical
+- source_term: Badge
+  canonical_name: Badge
+  slug: badge
+  relationship: canonical
+- source_term: Avatar
+  canonical_name: Avatar
+  slug: avatar
+  relationship: canonical
+- source_term: Descriptions
+  canonical_name: Description List
+  slug: description-list
+  relationship: alias
+- source_term: Statistic
+  canonical_name: Statistic
+  slug: statistic
+  relationship: canonical
+- source_term: Tabs
+  canonical_name: Tabs
+  slug: tabs
+  relationship: canonical
+- source_term: Segmented
+  canonical_name: Segmented Control
+  slug: segmented-control
+  relationship: alias
+- source_term: Collapse
+  canonical_name: Accordion
+  slug: accordion
+  relationship: alias
+- source_term: Timeline
+  canonical_name: Timeline
+  slug: timeline
+  relationship: canonical
+- source_term: Tree
+  canonical_name: Tree
+  slug: tree
+  relationship: canonical
+- source_term: Carousel
+  canonical_name: Carousel
+  slug: carousel
+  relationship: canonical
+- source_term: Empty
+  canonical_name: Empty State
+  slug: empty-state
+  relationship: alias
+- source_term: Image
+  canonical_name: Image
+  slug: image
+  relationship: canonical
+- source_term: File
+  canonical_name: File
+  slug: file
+  relationship: canonical
+- source_term: Icon
+  canonical_name: Icon
+  slug: icon
+  relationship: canonical
+- source_term: Quote
+  canonical_name: Quote
+  slug: quote
+  relationship: canonical
+- source_term: Video
+  canonical_name: Video
+  slug: video
+  relationship: canonical
+- source_term: Chat UI
+  canonical_name: Chat UI
+  slug: chat-ui
+  relationship: canonical
+- source_term: Filter
+  canonical_name: Filter
+  slug: filter
+  relationship: canonical
+- source_term: Chart
+  canonical_name: Chart
+  slug: chart
+  relationship: canonical
+- source_term: App Icon
+  canonical_name: App Icon
+  slug: app-icon
+  relationship: canonical
+- source_term: Alert
+  canonical_name: Alert
+  slug: alert
+  relationship: canonical
+- source_term: Toast
+  canonical_name: Toast
+  slug: toast
+  relationship: canonical
+- source_term: Notification
+  canonical_name: Notification
+  slug: notification
+  relationship: canonical
+- source_term: Modal
+  canonical_name: Modal
+  slug: modal
+  relationship: canonical
+- source_term: Drawer
+  canonical_name: Drawer
+  slug: drawer
+  relationship: canonical
+- source_term: Popconfirm
+  canonical_name: Inline Confirmation
+  slug: inline-confirmation
+  relationship: alias
+- source_term: Popover
+  canonical_name: Popover
+  slug: popover
+  relationship: canonical
+- source_term: Tooltip
+  canonical_name: Tooltip
+  slug: tooltip
+  relationship: canonical
+- source_term: Progress
+  canonical_name: Progress
+  slug: progress
+  relationship: canonical
+- source_term: Skeleton
+  canonical_name: Skeleton
+  slug: skeleton
+  relationship: canonical
+- source_term: Result
+  canonical_name: Result
+  slug: result
+  relationship: canonical
+- source_term: Spinner
+  canonical_name: Spinner
+  slug: spinner
+  relationship: canonical
+- source_term: Menu
+  canonical_name: Menu
+  slug: menu
+  relationship: canonical
+- source_term: Breadcrumb
+  canonical_name: Breadcrumb
+  slug: breadcrumb
+  relationship: canonical
+- source_term: Pagination
+  canonical_name: Pagination
+  slug: pagination
+  relationship: canonical
+- source_term: Steps
+  canonical_name: Steps
+  slug: steps
+  relationship: canonical
+- source_term: Dropdown
+  canonical_name: Dropdown
+  slug: dropdown
+  relationship: canonical
+- source_term: Anchor
+  canonical_name: Anchor
+  slug: anchor
+  relationship: canonical
+- source_term: BackTop
+  canonical_name: Back-to-top Button
+  slug: back-to-top-button
+  relationship: alias
+- source_term: SkipLink
+  canonical_name: Skip Link
+  slug: skip-link
+  relationship: alias
+- source_term: Search
+  canonical_name: Search
+  slug: search
+  relationship: canonical
+- source_term: Hero
+  canonical_name: Hero
+  slug: hero
+  relationship: canonical
+- source_term: CTA
+  canonical_name: CTA
+  slug: cta
+  relationship: canonical
+- source_term: UserVoice
+  canonical_name: Customer Testimonial
+  slug: customer-testimonial
+  relationship: alias
+- source_term: Header
+  canonical_name: Header
+  slug: header
+  relationship: canonical
+- source_term: Logo
+  canonical_name: Logo
+  slug: logo
+  relationship: canonical
+- source_term: Navbar
+  canonical_name: Navbar
+  slug: navbar
+  relationship: canonical
+- source_term: Footer
+  canonical_name: Footer
+  slug: footer
+  relationship: canonical
+- source_term: FAQ
+  canonical_name: FAQ
+  slug: faq
+  relationship: canonical
+- source_term: Pricing
+  canonical_name: Pricing
+  slug: pricing
+  relationship: canonical
+- source_term: SocialProof
+  canonical_name: Social Proof
+  slug: social-proof
+  relationship: alias
+- source_term: Top Nav
+  canonical_name: Top Nav Layout
+  slug: top-nav-layout
+  relationship: alias
+- source_term: Sidebar
+  canonical_name: Sidebar Layout
+  slug: sidebar-layout
+  relationship: alias
+- source_term: Single Page
+  canonical_name: Single Page Layout
+  slug: single-page-layout
+  relationship: alias
+- source_term: Doc Layout
+  canonical_name: Documentation Layout
+  slug: documentation-layout
+  relationship: alias
+- source_term: Card Grid
+  canonical_name: Card Grid
+  slug: card-grid
+  relationship: canonical
+- source_term: Centered Column
+  canonical_name: Centered Column
+  slug: centered-column
+  relationship: canonical
+- source_term: Masonry
+  canonical_name: Masonry
+  slug: masonry
+  relationship: canonical
+- source_term: Split-screen
+  canonical_name: Split-screen
+  slug: split-screen
+  relationship: canonical
+- source_term: Responsive Design
+  canonical_name: Responsive Design
+  slug: responsive-design
+  relationship: canonical
+- source_term: Space
+  canonical_name: Space
+  slug: space
+  relationship: canonical
+- source_term: Margin
+  canonical_name: Margin
+  slug: margin
+  relationship: canonical
+- source_term: Padding
+  canonical_name: Padding
+  slug: padding
+  relationship: canonical
+- source_term: Flex
+  canonical_name: Flexbox
+  slug: flexbox
+  relationship: alias
+- source_term: Grid
+  canonical_name: CSS Grid
+  slug: css-grid
+  relationship: alias
+- source_term: Z-Index
+  canonical_name: Z-Index
+  slug: z-index
+  relationship: canonical
+- source_term: Sticky
+  canonical_name: Sticky Positioning
+  slug: sticky-positioning
+  relationship: alias
+- source_term: Position
+  canonical_name: Position
+  slug: position
+  relationship: canonical
+- source_term: Centering
+  canonical_name: Centering
+  slug: centering
+  relationship: canonical
+- source_term: Box Model
+  canonical_name: Box Model
+  slug: box-model
+  relationship: canonical
+- source_term: Overflow
+  canonical_name: Overflow
+  slug: overflow
+  relationship: canonical
+- source_term: Typography
+  canonical_name: Typography
+  slug: typography
+  relationship: canonical
+- source_term: Serif & Sans
+  canonical_name: Serif vs Sans Serif
+  slug: serif-vs-sans-serif
+  relationship: alias
+- source_term: Text Truncate
+  canonical_name: Text Truncation
+  slug: text-truncation
+  relationship: alias
+- source_term: Divider
+  canonical_name: Divider
+  slug: divider
+  relationship: canonical
+- source_term: BorderRadius
+  canonical_name: Border Radius
+  slug: border-radius
+  relationship: alias
+- source_term: Shadow
+  canonical_name: Shadow
+  slug: shadow
+  relationship: canonical
+- source_term: Opacity
+  canonical_name: Opacity
+  slug: opacity
+  relationship: canonical
+- source_term: Gradient
+  canonical_name: Gradient
+  slug: gradient
+  relationship: canonical
+- source_term: Corner Feel
+  canonical_name: Corner Radius Consistency
+  slug: corner-radius-consistency
+  relationship: alias
+- source_term: Backdrop Blur
+  canonical_name: Backdrop Blur
+  slug: backdrop-blur
+  relationship: canonical
+- source_term: Dark Mode
+  canonical_name: Dark Mode
+  slug: dark-mode
+  relationship: canonical
+- source_term: Design Token
+  canonical_name: Design Token
+  slug: design-token
+  relationship: canonical
+- source_term: Transition
+  canonical_name: Transition
+  slug: transition
+  relationship: canonical
+- source_term: Animation
+  canonical_name: Animation
+  slug: animation
+  relationship: canonical
+- source_term: Easing
+  canonical_name: Easing
+  slug: easing
+  relationship: canonical
+- source_term: Spring
+  canonical_name: Spring Animation
+  slug: spring-animation
+  relationship: alias
+- source_term: Fade In / Out
+  canonical_name: Fade In / Out
+  slug: fade-in-out
+  relationship: canonical
+- source_term: Hover
+  canonical_name: Hover
+  slug: hover
+  relationship: canonical
+- source_term: Active
+  canonical_name: Active State
+  slug: active-state
+  relationship: alias
+- source_term: Focus
+  canonical_name: Focus
+  slug: focus
+  relationship: canonical
+- source_term: Drag
+  canonical_name: Drag and Drop
+  slug: drag-and-drop
+  relationship: alias
+- source_term: Disabled
+  canonical_name: Disabled State
+  slug: disabled-state
+  relationship: alias
+- source_term: Cursor
+  canonical_name: Cursor
+  slug: cursor
+  relationship: canonical
+- source_term: Selection
+  canonical_name: Text Selection
+  slug: text-selection
+  relationship: alias
+- source_term: Domain
+  canonical_name: Domain
+  slug: domain
+  relationship: canonical
+- source_term: DNS
+  canonical_name: DNS
+  slug: dns
+  relationship: canonical
+- source_term: URL
+  canonical_name: URL
+  slug: url
+  relationship: canonical
+- source_term: HTTP
+  canonical_name: HTTP
+  slug: http
+  relationship: canonical
+- source_term: HTTPS
+  canonical_name: HTTPS
+  slug: https
+  relationship: canonical
+- source_term: CDN
+  canonical_name: CDN
+  slug: cdn
+  relationship: canonical
+- source_term: Port
+  canonical_name: Port
+  slug: port
+  relationship: canonical
+- source_term: Redirect
+  canonical_name: Redirect
+  slug: redirect
+  relationship: canonical
+- source_term: API
+  canonical_name: API
+  slug: api
+  relationship: canonical
+- source_term: JSON
+  canonical_name: JSON
+  slug: json
+  relationship: canonical
+- source_term: CORS
+  canonical_name: CORS
+  slug: cors
+  relationship: canonical
+- source_term: Validation
+  canonical_name: Validation
+  slug: validation
+  relationship: canonical
+- source_term: Browser Storage
+  canonical_name: Browser Storage
+  slug: browser-storage
+  relationship: canonical
+- source_term: Database
+  canonical_name: Database
+  slug: database
+  relationship: canonical
+- source_term: SQL
+  canonical_name: SQL
+  slug: sql
+  relationship: canonical
+- source_term: Backend
+  canonical_name: Backend
+  slug: backend
+  relationship: canonical
+- source_term: Backend Framework
+  canonical_name: Backend Framework
+  slug: backend-framework
+  relationship: canonical
+- source_term: Route & Endpoint
+  canonical_name: Endpoint
+  slug: endpoint
+  relationship: alias
+- source_term: Authentication
+  canonical_name: Authentication
+  slug: authentication
+  relationship: canonical
+- source_term: Authorization
+  canonical_name: Authorization
+  slug: authorization
+  relationship: canonical
+- source_term: SEO
+  canonical_name: SEO
+  slug: seo
+  relationship: canonical
+- source_term: Env Var
+  canonical_name: Environment Variable
+  slug: environment-variable
+  relationship: alias
+- source_term: Deployment
+  canonical_name: Deployment
+  slug: deployment
+  relationship: canonical
+- source_term: CD
+  canonical_name: CD
+  slug: cd
+  relationship: canonical
+- source_term: Staging
+  canonical_name: Staging
+  slug: staging
+  relationship: canonical
+- source_term: Monitoring
+  canonical_name: Monitoring
+  slug: monitoring
+  relationship: canonical
+- source_term: Rollback
+  canonical_name: Rollback
+  slug: rollback
+  relationship: canonical
+- source_term: Feature Flag
+  canonical_name: Feature Flag
+  slug: feature-flag
+  relationship: canonical
+- source_term: Canary Release
+  canonical_name: Canary Release
+  slug: canary-release
+  relationship: canonical
+- source_term: Blue-Green Deployment
+  canonical_name: Blue-Green Deployment
+  slug: blue-green-deployment
+  relationship: canonical
+- source_term: Serverless
+  canonical_name: Serverless
+  slug: serverless
+  relationship: canonical
+- source_term: Server Logs
+  canonical_name: Server Logs
+  slug: server-logs
+  relationship: canonical
+- source_term: User Story
+  canonical_name: User Story
+  slug: user-story
+  relationship: canonical
+- source_term: Use Case
+  canonical_name: Use Case
+  slug: use-case
+  relationship: canonical
+- source_term: User Flow
+  canonical_name: User Flow
+  slug: user-flow
+  relationship: canonical
+- source_term: User Journey
+  canonical_name: User Journey
+  slug: user-journey
+  relationship: canonical
+- source_term: PRD
+  canonical_name: PRD
+  slug: prd
+  relationship: canonical
+- source_term: MVP
+  canonical_name: MVP
+  slug: mvp
+  relationship: canonical
+- source_term: Product Backlog
+  canonical_name: Product Backlog
+  slug: product-backlog
+  relationship: canonical
+- source_term: Product Roadmap
+  canonical_name: Product Roadmap
+  slug: product-roadmap
+  relationship: canonical
+- source_term: Gantt Chart
+  canonical_name: Gantt Chart
+  slug: gantt-chart
+  relationship: canonical
+- source_term: A/B Test
+  canonical_name: A/B Test
+  slug: a-b-test
+  relationship: canonical
+- source_term: Conversion Funnel
+  canonical_name: Conversion Funnel
+  slug: conversion-funnel
+  relationship: canonical
+- source_term: Terminal
+  canonical_name: Terminal
+  slug: terminal
+  relationship: canonical
+- source_term: npm
+  canonical_name: npm
+  slug: npm
+  relationship: canonical
+- source_term: Build
+  canonical_name: Build
+  slug: build
+  relationship: canonical
+- source_term: CI
+  canonical_name: CI
+  slug: ci
+  relationship: canonical
+- source_term: Lint
+  canonical_name: Lint
+  slug: lint
+  relationship: canonical
+- source_term: Acceptance Criteria
+  canonical_name: Acceptance Criteria
+  slug: acceptance-criteria
+  relationship: canonical
+- source_term: Test Case
+  canonical_name: Test Case
+  slug: test-case
+  relationship: canonical
+- source_term: Unit Test
+  canonical_name: Unit Test
+  slug: unit-test
+  relationship: canonical
+- source_term: Integration Test
+  canonical_name: Integration Test
+  slug: integration-test
+  relationship: canonical
+- source_term: End-to-End Test
+  canonical_name: End-to-End Test
+  slug: end-to-end-test
+  relationship: canonical
+- source_term: Smoke Test
+  canonical_name: Smoke Test
+  slug: smoke-test
+  relationship: canonical
+- source_term: Regression Test
+  canonical_name: Regression Test
+  slug: regression-test
+  relationship: canonical
+- source_term: Test Coverage
+  canonical_name: Test Coverage
+  slug: test-coverage
+  relationship: canonical
+- source_term: Test Double
+  canonical_name: Test Double
+  slug: test-double
+  relationship: canonical
+- source_term: Test Data and Fixture
+  canonical_name: Test Data and Fixture
+  slug: test-data-and-fixture
+  relationship: canonical
+- source_term: Flaky Test
+  canonical_name: Flaky Test
+  slug: flaky-test
+  relationship: canonical
+- source_term: Tech Stack
+  canonical_name: Tech Stack
+  slug: tech-stack
+  relationship: canonical
+- source_term: JavaScript
+  canonical_name: JavaScript
+  slug: javascript
+  relationship: canonical
+- source_term: TypeScript
+  canonical_name: TypeScript
+  slug: typescript
+  relationship: canonical
+- source_term: Python
+  canonical_name: Python
+  slug: python
+  relationship: canonical
+- source_term: React
+  canonical_name: React
+  slug: react
+  relationship: canonical
+- source_term: Vue
+  canonical_name: Vue
+  slug: vue
+  relationship: canonical
+- source_term: Next.js
+  canonical_name: Next.js
+  slug: next-js
+  relationship: canonical
+- source_term: Tailwind CSS
+  canonical_name: Tailwind CSS
+  slug: tailwind-css
+  relationship: canonical
+- source_term: shadcn/ui
+  canonical_name: shadcn/ui
+  slug: shadcn-ui
+  relationship: canonical
+- source_term: AI Application Basics
+  canonical_name: AI Application
+  slug: ai-application
+  relationship: alias
+- source_term: AI Hallucination
+  canonical_name: Hallucination
+  slug: hallucination
+  relationship: alias
+- source_term: Vibe Coding
+  canonical_name: Vibe Coding
+  slug: vibe-coding
+  relationship: canonical
+- source_term: Multimodal AI
+  canonical_name: Multimodal AI
+  slug: multimodal-ai
+  relationship: canonical
+- source_term: Context Engineering
+  canonical_name: Context Engineering
+  slug: context-engineering
+  relationship: canonical
+- source_term: Token
+  canonical_name: Token
+  slug: token
+  relationship: canonical
+- source_term: Context Window
+  canonical_name: Context Window
+  slug: context-window
+  relationship: canonical
+- source_term: System Prompt
+  canonical_name: System Prompt
+  slug: system-prompt
+  relationship: canonical
+- source_term: Conversation History
+  canonical_name: Conversation History
+  slug: conversation-history
+  relationship: canonical
+- source_term: Stateless Request
+  canonical_name: Stateless Request
+  slug: stateless-request
+  relationship: canonical
+- source_term: Structured Output
+  canonical_name: Structured Output
+  slug: structured-output
+  relationship: canonical
+- source_term: Streaming Response
+  canonical_name: Streaming Response
+  slug: streaming-response
+  relationship: canonical
+- source_term: AI Agent
+  canonical_name: AI Agent
+  slug: ai-agent
+  relationship: canonical
+- source_term: Harness Engineering
+  canonical_name: Harness Engineering
+  slug: harness-engineering
+  relationship: canonical
+- source_term: Human-in-the-loop
+  canonical_name: Human-in-the-loop
+  slug: human-in-the-loop
+  relationship: canonical
+- source_term: Model Context Protocol
+  canonical_name: Model Context Protocol
+  slug: model-context-protocol
+  relationship: canonical
+- source_term: Skill
+  canonical_name: Skill
+  slug: skill
+  relationship: canonical
+- source_term: Sub-agent
+  canonical_name: Sub-agent
+  slug: sub-agent
+  relationship: canonical
+- source_term: Tool Calling
+  canonical_name: Tool Calling
+  slug: tool-calling
+  relationship: canonical
+- source_term: ReAct
+  canonical_name: ReAct
+  slug: react-agent-pattern
+  relationship: canonical
+- source_term: Agent Loop
+  canonical_name: Agent Loop
+  slug: agent-loop
+  relationship: canonical
+- source_term: TTFT / TPS
+  canonical_name: AI Latency Metrics
+  slug: ai-latency-metrics
+  relationship: alias
+- source_term: Token Usage & Cost
+  canonical_name: Token Cost
+  slug: token-cost
+  relationship: alias
+- source_term: Rate Limit
+  canonical_name: Rate Limit
+  slug: rate-limit
+  relationship: canonical
+- source_term: Git
+  canonical_name: Git
+  slug: git
+  relationship: canonical
+- source_term: Commit
+  canonical_name: Commit
+  slug: commit
+  relationship: canonical
+- source_term: Branch
+  canonical_name: Branch
+  slug: branch
+  relationship: canonical
+- source_term: Merge
+  canonical_name: Merge
+  slug: merge
+  relationship: canonical
+- source_term: Pull
+  canonical_name: Pull
+  slug: pull
+  relationship: canonical
+- source_term: Push
+  canonical_name: Push
+  slug: push
+  relationship: canonical
+- source_term: Clone
+  canonical_name: Clone
+  slug: clone
+  relationship: canonical
+- source_term: Pull Request
+  canonical_name: Pull Request
+  slug: pull-request
+  relationship: canonical
+- source_term: Worktree
+  canonical_name: Worktree
+  slug: worktree
+  relationship: canonical
+- source_term: Stash
+  canonical_name: Stash
+  slug: stash
+  relationship: canonical
+- source_term: .gitignore
+  canonical_name: .gitignore
+  slug: gitignore
+  relationship: canonical
+- source_term: Diff
+  canonical_name: Diff
+  slug: diff
+  relationship: canonical
+- source_term: Minimalism
+  canonical_name: Minimalism
+  slug: minimalism
+  relationship: canonical
+- source_term: Apple HIG
+  canonical_name: Apple HIG
+  slug: apple-hig
+  relationship: canonical
+- source_term: Notion Style
+  canonical_name: Notion Style
+  slug: notion-style
+  relationship: canonical
+- source_term: Bento Grid
+  canonical_name: Bento Grid
+  slug: bento-grid
+  relationship: canonical
+- source_term: Glassmorphism
+  canonical_name: Glassmorphism
+  slug: glassmorphism
+  relationship: canonical
+- source_term: Neo-Brutalism
+  canonical_name: Neo-Brutalism
+  slug: neo-brutalism
+  relationship: canonical
+- source_term: Swiss Style
+  canonical_name: Swiss Style
+  slug: swiss-style
+  relationship: canonical
+- source_term: Editorial
+  canonical_name: Editorial
+  slug: editorial
+  relationship: canonical
+- source_term: Skeuomorphism
+  canonical_name: Skeuomorphism
+  slug: skeuomorphism
+  relationship: canonical
+- source_term: Flat Design
+  canonical_name: Flat Design
+  slug: flat-design
+  relationship: canonical
+- source_term: Material Design
+  canonical_name: Material Design
+  slug: material-design
+  relationship: canonical
+- source_term: Neumorphism
+  canonical_name: Neumorphism
+  slug: neumorphism
+  relationship: canonical
+- source_term: SaaS Marketing Site
+  canonical_name: SaaS Marketing Site
+  slug: saas-marketing-site
+  relationship: canonical
+- source_term: B2B Corporate Site
+  canonical_name: B2B Corporate Site
+  slug: b2b-corporate-site
+  relationship: canonical
+- source_term: DTC E-commerce
+  canonical_name: DTC E-commerce
+  slug: dtc-e-commerce
+  relationship: canonical
+- source_term: Dark UI
+  canonical_name: Dark UI
+  slug: dark-ui
+  relationship: canonical
+- source_term: Playful Illustration
+  canonical_name: Playful Illustration
+  slug: playful-illustration
+  relationship: canonical
+- source_term: Organic Design
+  canonical_name: Organic Design
+  slug: organic-design
+  relationship: canonical
+- source_term: Y2K
+  canonical_name: Y2K
+  slug: y2k
+  relationship: canonical
+- source_term: Memphis
+  canonical_name: Memphis
+  slug: memphis
+  relationship: canonical
+- source_term: Terminal Aesthetic
+  canonical_name: Terminal Aesthetic
+  slug: terminal-aesthetic
+  relationship: canonical
+- source_term: Wabi-sabi
+  canonical_name: Wabi-sabi
+  slug: wabi-sabi
+  relationship: canonical
+- source_term: Bauhaus
+  canonical_name: Bauhaus
+  slug: bauhaus
+  relationship: canonical
+- source_term: Art Deco
+  canonical_name: Art Deco
+  slug: art-deco
+  relationship: canonical

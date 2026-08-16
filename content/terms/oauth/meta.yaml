@@ -1,0 +1,11 @@
+id: term_oauth
+slug: oauth
+canonical_name: OAuth
+aliases: []
+primary_domain: security-privacy
+lifecycle_stage: test-protect
+difficulty: beginner
+related_terms:
+- Cookie
+- OpenID Connect
+content_version: 1

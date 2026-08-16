@@ -1,0 +1,11 @@
+id: term_temperature
+slug: temperature
+canonical_name: Temperature
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Fine-tuning
+- Top P
+content_version: 1

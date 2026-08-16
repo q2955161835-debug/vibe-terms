@@ -1,0 +1,10 @@
+title: Incident
+short_definition: 'Incident — термин из раздела «Развертывание и эксплуатация». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: An unplanned event that degrades or interrupts a service and requires coordinated detection, mitigation, recovery, and learning.'
+analogy: Incident можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Incident — термин из раздела «Развертывание и эксплуатация». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: An unplanned event that degrades or interrupts a service and requires coordinated detection, mitigation, recovery, and learning.'
+why_it_matters: Понимание Incident помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Incident помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Incident в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Incident доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

@@ -1,0 +1,11 @@
+id: term_upstream
+slug: upstream
+canonical_name: Upstream
+aliases: []
+primary_domain: git-collaboration
+lifecycle_stage: environment
+difficulty: intermediate
+related_terms:
+- Origin
+- Fetch
+content_version: 1

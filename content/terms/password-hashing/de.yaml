@@ -1,0 +1,10 @@
+title: Password Hashing
+short_definition: 'Password Hashing ist ein Begriff aus „Sicherheit & Datenschutz“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: Transforming passwords with a slow one-way password-hashing function so the original password is not stored directly.'
+analogy: Man kann Password Hashing zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
+mechanism: 'Password Hashing ist ein Begriff aus „Sicherheit & Datenschutz“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: Transforming passwords with a slow one-way password-hashing function so the original password is not stored directly.'
+why_it_matters: Wer Password Hashing versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
+project_example: Wer Password Hashing versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
+ai_prompt_example: Erkläre, wie Password Hashing in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
+common_mistake: Den Begriff Password Hashing als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+status: draft
+source_content_version: 1

@@ -1,0 +1,10 @@
+title: 上下文工程
+short_definition: 上下文工程 是「AI 與 Vibe Coding」中的術語。目前為待人工審校的草稿。英文標準定義：The practice of selecting and organizing the instructions, history, files, tools, and results that a model needs for the current task.
+analogy: 可以先把 上下文工程 想成軟體開發工具箱裡一個有明確用途的標籤；真正使用時仍要結合所在程式碼、資料流與使用者情境判斷。
+mechanism: 上下文工程 是「AI 與 Vibe Coding」中的術語。目前為待人工審校的草稿。英文標準定義：The practice of selecting and organizing the instructions, history, files, tools, and results that a model needs for the current task.
+why_it_matters: 理解 上下文工程 後，你能更準確地告訴 AI 你指的是系統的哪一部分，並要求它提供可驗證的實作證據。
+project_example: 理解 上下文工程 後，你能更準確地告訴 AI 你指的是系統的哪一部分，並要求它提供可驗證的實作證據。
+ai_prompt_example: 解釋 上下文工程 在這個專案中的作用。指出涉及的檔案或系統邊界，只做最小必要修改，並給出我可以驗證結果的步驟。
+common_mistake: 只記住 上下文工程 這個名詞，卻沒有檢查它在目前專案裡的真實行為、資料流與失敗情況。
+status: draft
+source_content_version: 1

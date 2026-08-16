@@ -1,0 +1,11 @@
+id: term_determinism
+slug: determinism
+canonical_name: Determinism
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: advanced
+related_terms:
+- Top P
+- Reasoning Model
+content_version: 1

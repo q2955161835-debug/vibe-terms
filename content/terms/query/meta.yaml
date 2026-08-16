@@ -1,0 +1,11 @@
+id: term_query
+slug: query
+canonical_name: Query
+aliases: []
+primary_domain: data-databases
+lifecycle_stage: data-identity
+difficulty: intermediate
+related_terms:
+- Many-to-many
+- JOIN
+content_version: 1

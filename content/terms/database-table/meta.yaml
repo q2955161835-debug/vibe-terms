@@ -1,0 +1,11 @@
+id: term_database_table
+slug: database-table
+canonical_name: Database Table
+aliases: []
+primary_domain: data-databases
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- Graph Database
+- Row
+content_version: 1

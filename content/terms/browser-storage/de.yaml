@@ -1,0 +1,10 @@
+title: Browser Storage
+short_definition: 'Browser Storage ist ein Begriff aus „Daten & Datenbanken“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: Persistence mechanisms available inside a browser, such as localStorage or IndexedDB, for saving data on one client device.'
+analogy: Man kann Browser Storage zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
+mechanism: 'Browser Storage ist ein Begriff aus „Daten & Datenbanken“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: Persistence mechanisms available inside a browser, such as localStorage or IndexedDB, for saving data on one client device.'
+why_it_matters: Wer Browser Storage versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
+project_example: Wer Browser Storage versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
+ai_prompt_example: Erkläre, wie Browser Storage in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
+common_mistake: Den Begriff Browser Storage als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+status: draft
+source_content_version: 1

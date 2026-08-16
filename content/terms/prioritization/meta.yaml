@@ -1,0 +1,10 @@
+id: term_prioritization
+slug: prioritization
+canonical_name: Prioritization
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: advanced
+related_terms:
+- Event Tracking
+content_version: 1

@@ -1,0 +1,10 @@
+title: Vision Model
+short_definition: 'Vision Model は「AI と Vibe Coding」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A model capable of interpreting images or visual documents, often together with text.'
+analogy: Vision Model は、ソフトウェア開発の道具箱に付いた用途ラベルのように考えると理解しやすいです。実際にはコード、データの流れ、利用場面を確認します。
+mechanism: 'Vision Model は「AI と Vibe Coding」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A model capable of interpreting images or visual documents, often together with text.'
+why_it_matters: Vision Model を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
+project_example: Vision Model を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
+ai_prompt_example: このプロジェクトで Vision Model がどのように関係するか説明してください。対象ファイルまたは境界を示し、必要最小限の変更と確認手順を提示してください。
+common_mistake: Vision Model という名前だけで実装が正しいと判断し、実際の動作・データフロー・失敗時の挙動を確認しないことです。
+status: draft
+source_content_version: 1

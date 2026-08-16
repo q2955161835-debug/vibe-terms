@@ -1,0 +1,11 @@
+id: term_form
+slug: form
+canonical_name: Form
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Upload
+- Color Picker
+content_version: 1

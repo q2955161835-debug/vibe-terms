@@ -1,0 +1,11 @@
+id: term_controller
+slug: controller
+canonical_name: Controller
+aliases: []
+primary_domain: backend-apis
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- Middleware
+- Service Layer
+content_version: 1

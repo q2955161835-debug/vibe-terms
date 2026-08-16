@@ -1,0 +1,11 @@
+id: term_queue
+slug: queue
+canonical_name: Queue
+aliases: []
+primary_domain: backend-apis
+lifecycle_stage: data-identity
+difficulty: intermediate
+related_terms:
+- Exponential Backoff
+- Worker
+content_version: 1

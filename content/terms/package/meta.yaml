@@ -1,0 +1,11 @@
+id: term_package
+slug: package
+canonical_name: Package
+aliases: []
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- Package Manager
+- Semantic Versioning
+content_version: 1

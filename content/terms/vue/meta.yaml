@@ -1,0 +1,11 @@
+id: term_vue
+slug: vue
+canonical_name: Vue
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: intermediate
+related_terms:
+- React
+- Next.js
+content_version: 1

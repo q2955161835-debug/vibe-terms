@@ -1,0 +1,10 @@
+title: Dark UI
+short_definition: 'Dark UI은(는) ‘UI/UX 및 접근성’에서 사용하는 용어입니다. 현재 한국어 본문은 검토 전 초안입니다. 영어 기준 정의: An interface direction built primarily on dark surfaces with carefully tuned text, border, illustration, and semantic colors.'
+analogy: Dark UI을(를) 소프트웨어 개발 도구 상자에 붙은 용도 라벨처럼 생각하면 이해하기 쉽습니다. 실제 사용에서는 코드, 데이터 흐름, 사용자 상황을 함께 확인해야 합니다.
+mechanism: 'Dark UI은(는) ‘UI/UX 및 접근성’에서 사용하는 용어입니다. 현재 한국어 본문은 검토 전 초안입니다. 영어 기준 정의: An interface direction built primarily on dark surfaces with carefully tuned text, border, illustration, and semantic colors.'
+why_it_matters: Dark UI을(를) 이해하면 AI에게 시스템의 어느 부분을 말하는지 더 정확히 전달하고 검증 가능한 결과를 요구할 수 있습니다.
+project_example: Dark UI을(를) 이해하면 AI에게 시스템의 어느 부분을 말하는지 더 정확히 전달하고 검증 가능한 결과를 요구할 수 있습니다.
+ai_prompt_example: 이 프로젝트에서 Dark UI의 역할을 설명하세요. 관련 파일이나 시스템 경계를 지정하고 최소한의 변경만 수행한 뒤 검증 절차를 제시하세요.
+common_mistake: Dark UI이라는 이름만 보고 구현이 올바르다고 가정하고 실제 동작, 데이터 흐름, 실패 조건을 확인하지 않는 것입니다.
+status: draft
+source_content_version: 1

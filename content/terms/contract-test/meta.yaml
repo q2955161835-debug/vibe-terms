@@ -1,0 +1,11 @@
+id: term_contract_test
+slug: contract-test
+canonical_name: Contract Test
+aliases: []
+primary_domain: testing-debugging
+lifecycle_stage: test-protect
+difficulty: advanced
+related_terms:
+- Snapshot Test
+- Load Test
+content_version: 1

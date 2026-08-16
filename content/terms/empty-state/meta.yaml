@@ -1,0 +1,12 @@
+id: term_empty_state
+slug: empty-state
+canonical_name: Empty State
+aliases:
+- Empty
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Carousel
+- Image
+content_version: 1

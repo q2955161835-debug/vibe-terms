@@ -1,0 +1,11 @@
+id: term_index
+slug: index
+canonical_name: Index
+aliases: []
+primary_domain: data-databases
+lifecycle_stage: data-identity
+difficulty: intermediate
+related_terms:
+- JOIN
+- Database Constraint
+content_version: 1

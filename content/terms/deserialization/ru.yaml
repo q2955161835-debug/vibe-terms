@@ -1,0 +1,10 @@
+title: Deserialization
+short_definition: 'Deserialization — термин из раздела «Бэкенд и API». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Converting serialized input back into in-memory data structures that application code can use.'
+analogy: Deserialization можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Deserialization — термин из раздела «Бэкенд и API». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Converting serialized input back into in-memory data structures that application code can use.'
+why_it_matters: Понимание Deserialization помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Deserialization помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Deserialization в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Deserialization доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

@@ -1,0 +1,11 @@
+id: term_http_header
+slug: http-header
+canonical_name: HTTP Header
+aliases: []
+primary_domain: web-network
+lifecycle_stage: environment
+difficulty: intermediate
+related_terms:
+- Response
+- Request Body
+content_version: 1

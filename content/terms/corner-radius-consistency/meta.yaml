@@ -1,0 +1,12 @@
+id: term_corner_radius_consistency
+slug: corner-radius-consistency
+canonical_name: Corner Radius Consistency
+aliases:
+- Corner Feel
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: intermediate
+related_terms:
+- Gradient
+- Backdrop Blur
+content_version: 1

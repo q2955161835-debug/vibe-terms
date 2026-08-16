@@ -1,0 +1,11 @@
+id: term_remote
+slug: remote
+canonical_name: Remote
+aliases: []
+primary_domain: git-collaboration
+lifecycle_stage: environment
+difficulty: intermediate
+related_terms:
+- HEAD
+- Origin
+content_version: 1

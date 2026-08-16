@@ -1,0 +1,11 @@
+id: term_output_encoding
+slug: output-encoding
+canonical_name: Output Encoding
+aliases: []
+primary_domain: security-privacy
+lifecycle_stage: test-protect
+difficulty: intermediate
+related_terms:
+- Sanitization
+- Content Security Policy
+content_version: 1

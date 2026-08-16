@@ -1,0 +1,11 @@
+id: term_many_to_many
+slug: many-to-many
+canonical_name: Many-to-many
+aliases: []
+primary_domain: data-databases
+lifecycle_stage: data-identity
+difficulty: intermediate
+related_terms:
+- One-to-many
+- Query
+content_version: 1

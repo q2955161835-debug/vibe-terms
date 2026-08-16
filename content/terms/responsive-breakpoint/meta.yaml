@@ -1,0 +1,10 @@
+id: term_responsive_breakpoint
+slug: responsive-breakpoint
+canonical_name: Responsive Breakpoint
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: advanced
+related_terms:
+- CSS Custom Property
+content_version: 1

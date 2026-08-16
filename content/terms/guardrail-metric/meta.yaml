@@ -1,0 +1,11 @@
+id: term_guardrail_metric
+slug: guardrail-metric
+canonical_name: Guardrail Metric
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: advanced
+related_terms:
+- North Star Metric
+- Event Tracking
+content_version: 1

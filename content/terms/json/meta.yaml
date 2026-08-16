@@ -1,0 +1,11 @@
+id: term_json
+slug: json
+canonical_name: JSON
+aliases: []
+primary_domain: backend-apis
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- API
+- CORS
+content_version: 1

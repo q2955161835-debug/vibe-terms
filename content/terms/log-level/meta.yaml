@@ -1,0 +1,11 @@
+id: term_log_level
+slug: log-level
+canonical_name: Log Level
+aliases: []
+primary_domain: testing-debugging
+lifecycle_stage: test-protect
+difficulty: intermediate
+related_terms:
+- Log
+- Structured Log
+content_version: 1

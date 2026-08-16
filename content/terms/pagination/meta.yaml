@@ -1,0 +1,11 @@
+id: term_pagination
+slug: pagination
+canonical_name: Pagination
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Breadcrumb
+- Steps
+content_version: 1

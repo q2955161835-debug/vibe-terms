@@ -1,0 +1,11 @@
+id: term_browser_devtools
+slug: browser-devtools
+canonical_name: Browser DevTools
+aliases: []
+primary_domain: testing-debugging
+lifecycle_stage: test-protect
+difficulty: beginner
+related_terms:
+- Console
+- Debugger
+content_version: 1

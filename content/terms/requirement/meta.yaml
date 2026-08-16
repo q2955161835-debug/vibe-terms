@@ -1,0 +1,11 @@
+id: term_requirement
+slug: requirement
+canonical_name: Requirement
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Product
+- Constraint
+content_version: 1

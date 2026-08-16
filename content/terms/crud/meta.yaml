@@ -1,0 +1,11 @@
+id: term_crud
+slug: crud
+canonical_name: CRUD
+aliases: []
+primary_domain: backend-apis
+lifecycle_stage: data-identity
+difficulty: intermediate
+related_terms:
+- Path Parameter
+- Webhook
+content_version: 1

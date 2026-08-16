@@ -1,0 +1,11 @@
+id: term_cors
+slug: cors
+canonical_name: CORS
+aliases: []
+primary_domain: backend-apis
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- JSON
+- Validation
+content_version: 1

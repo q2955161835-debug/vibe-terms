@@ -1,0 +1,11 @@
+id: term_request_handler
+slug: request-handler
+canonical_name: Request Handler
+aliases: []
+primary_domain: backend-apis
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- RPC
+- Middleware
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_software
+slug: software
+canonical_name: Software
+aliases: []
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- Python
+- Application
+content_version: 1

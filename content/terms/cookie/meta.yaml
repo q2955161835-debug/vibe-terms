@@ -1,0 +1,11 @@
+id: term_cookie
+slug: cookie
+canonical_name: Cookie
+aliases: []
+primary_domain: security-privacy
+lifecycle_stage: test-protect
+difficulty: beginner
+related_terms:
+- Session
+- OAuth
+content_version: 1

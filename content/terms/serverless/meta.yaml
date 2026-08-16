@@ -1,0 +1,11 @@
+id: term_serverless
+slug: serverless
+canonical_name: Serverless
+aliases: []
+primary_domain: deployment-operations
+lifecycle_stage: deploy-maintain
+difficulty: beginner
+related_terms:
+- Blue-Green Deployment
+- Server Logs
+content_version: 1

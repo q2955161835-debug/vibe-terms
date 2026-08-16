@@ -1,0 +1,10 @@
+title: Infrastructure as Code
+short_definition: 'Infrastructure as Code — термин из раздела «Развертывание и эксплуатация». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Managing infrastructure configuration through versioned, reviewable code rather than manual console changes.'
+analogy: Infrastructure as Code можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Infrastructure as Code — термин из раздела «Развертывание и эксплуатация». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Managing infrastructure configuration through versioned, reviewable code rather than manual console changes.'
+why_it_matters: Понимание Infrastructure as Code помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Infrastructure as Code помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Infrastructure as Code в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Infrastructure as Code доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

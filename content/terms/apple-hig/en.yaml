@@ -1,0 +1,32 @@
+title: Apple HIG
+short_definition: Apple's Human Interface Guidelines, a set of platform design principles and interaction conventions for Apple software.
+analogy: 'Think of Apple HIG as a labeled tool in the ui/ux & accessibility part of a workshop: the label tells you what problem area to inspect, but the real behavior still comes from the implementation.'
+mechanism: Apple's Human Interface Guidelines, a set of platform design principles and interaction conventions for Apple software. In a real project, its exact behavior depends on the surrounding technology, configuration, and data flow, so verify the concrete implementation rather than relying on the label alone.
+why_it_matters: Knowing Apple HIG lets a Vibe Coding beginner name the exact ui/ux & accessibility concern they mean and ask an AI coding agent for a change plus evidence that the behavior is correct.
+project_example: In Vibe Terms, use Apple HIG as a vocabulary checkpoint when a learner reaches the design stage; connect the definition to one visible page, file, request, data structure, or verification step rather than teaching it in isolation.
+ai_prompt_example: Explain how Apple HIG applies to this project. Point to the exact files or system boundary involved, make only the smallest necessary change, and show the command or user flow I can use to verify the result.
+common_mistake: Treating the term Apple HIG as proof that an implementation is correct without checking actual behavior, data flow, permissions, failure cases, or the relevant test.
+quiz:
+- question: Which description best matches Apple HIG?
+  options:
+  - Apple's Human Interface Guidelines, a set of platform design principles and interaction conventions for Apple software.
+  - A visual decoration that has no effect on software behavior.
+  - A guarantee that every implementation is secure and correct.
+  answer: 0
+- question: When an AI says it used Apple HIG, what should you do next?
+  options:
+  - Accept the label as proof.
+  - Check the concrete implementation and verify the relevant behavior.
+  - Rename the files so the term appears in the project.
+  answer: 1
+- question: Which prompt is more useful for working with Apple HIG?
+  options:
+  - “Make Apple HIG better.”
+  - “Explain where Apple HIG appears, change the smallest necessary part, and show how to verify it.”
+  - “Rewrite the whole project.”
+  answer: 1
+sources:
+- url: https://www.w3.org/WAI/standards-guidelines/wcag/
+- url: https://developer.mozilla.org/
+status: published
+source_content_version: 1

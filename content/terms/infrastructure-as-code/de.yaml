@@ -1,0 +1,10 @@
+title: Infrastructure as Code
+short_definition: 'Infrastructure as Code ist ein Begriff aus „Deployment & Betrieb“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: Managing infrastructure configuration through versioned, reviewable code rather than manual console changes.'
+analogy: Man kann Infrastructure as Code zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
+mechanism: 'Infrastructure as Code ist ein Begriff aus „Deployment & Betrieb“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: Managing infrastructure configuration through versioned, reviewable code rather than manual console changes.'
+why_it_matters: Wer Infrastructure as Code versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
+project_example: Wer Infrastructure as Code versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
+ai_prompt_example: Erkläre, wie Infrastructure as Code in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
+common_mistake: Den Begriff Infrastructure as Code als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+status: draft
+source_content_version: 1

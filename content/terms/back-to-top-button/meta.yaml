@@ -1,0 +1,12 @@
+id: term_back_to_top_button
+slug: back-to-top-button
+canonical_name: Back-to-top Button
+aliases:
+- BackTop
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Anchor
+- Skip Link
+content_version: 1

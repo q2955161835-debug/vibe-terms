@@ -1,0 +1,11 @@
+id: term_revert
+slug: revert
+canonical_name: Revert
+aliases: []
+primary_domain: git-collaboration
+lifecycle_stage: environment
+difficulty: advanced
+related_terms:
+- Rebase
+- Reset
+content_version: 1

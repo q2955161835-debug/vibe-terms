@@ -1,0 +1,11 @@
+id: term_model_provider
+slug: model-provider
+canonical_name: Model Provider
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Large Language Model
+- Inference
+content_version: 1

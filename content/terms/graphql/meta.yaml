@@ -1,0 +1,11 @@
+id: term_graphql
+slug: graphql
+canonical_name: GraphQL
+aliases: []
+primary_domain: backend-apis
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- REST
+- RPC
+content_version: 1

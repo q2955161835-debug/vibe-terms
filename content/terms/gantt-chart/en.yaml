@@ -1,0 +1,32 @@
+title: Gantt Chart
+short_definition: A timeline visualization that shows tasks or workstreams as time spans, often with milestones and dependencies.
+analogy: 'Think of Gantt Chart as a labeled tool in the product & requirements part of a workshop: the label tells you what problem area to inspect, but the real behavior still comes from the implementation.'
+mechanism: A timeline visualization that shows tasks or workstreams as time spans, often with milestones and dependencies. In a real project, its exact behavior depends on the surrounding technology, configuration, and data flow, so verify the concrete implementation rather than relying on the label alone.
+why_it_matters: Knowing Gantt Chart lets a Vibe Coding beginner name the exact product & requirements concern they mean and ask an AI coding agent for a change plus evidence that the behavior is correct.
+project_example: In Vibe Terms, use Gantt Chart as a vocabulary checkpoint when a learner reaches the requirements stage; connect the definition to one visible page, file, request, data structure, or verification step rather than teaching it in isolation.
+ai_prompt_example: Explain how Gantt Chart applies to this project. Point to the exact files or system boundary involved, make only the smallest necessary change, and show the command or user flow I can use to verify the result.
+common_mistake: Treating the term Gantt Chart as proof that an implementation is correct without checking actual behavior, data flow, permissions, failure cases, or the relevant test.
+quiz:
+- question: Which description best matches Gantt Chart?
+  options:
+  - A timeline visualization that shows tasks or workstreams as time spans, often with milestones and dependencies.
+  - A visual decoration that has no effect on software behavior.
+  - A guarantee that every implementation is secure and correct.
+  answer: 0
+- question: When an AI says it used Gantt Chart, what should you do next?
+  options:
+  - Accept the label as proof.
+  - Check the concrete implementation and verify the relevant behavior.
+  - Rename the files so the term appears in the project.
+  answer: 1
+- question: Which prompt is more useful for working with Gantt Chart?
+  options:
+  - “Make Gantt Chart better.”
+  - “Explain where Gantt Chart appears, change the smallest necessary part, and show how to verify it.”
+  - “Rewrite the whole project.”
+  answer: 1
+sources:
+- url: https://www.atlassian.com/agile
+- url: https://www.nngroup.com/
+status: published
+source_content_version: 1

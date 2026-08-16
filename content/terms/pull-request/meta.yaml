@@ -1,0 +1,12 @@
+id: term_pull_request
+slug: pull-request
+canonical_name: Pull Request
+aliases:
+- PR
+primary_domain: git-collaboration
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- Clone
+- Worktree
+content_version: 1

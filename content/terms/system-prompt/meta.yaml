@@ -1,0 +1,11 @@
+id: term_system_prompt
+slug: system-prompt
+canonical_name: System Prompt
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Context Window
+- Conversation History
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_access_token
+slug: access-token
+canonical_name: Access Token
+aliases: []
+primary_domain: security-privacy
+lifecycle_stage: test-protect
+difficulty: beginner
+related_terms:
+- JWT
+- Refresh Token
+content_version: 1

@@ -90,7 +90,7 @@ stages: list[dict[str, str]] = read_yaml(CONTENT / "taxonomy/lifecycle.yaml")[
     "stages"
 ]
 learning_path: dict[str, Any] = read_yaml(
-    CONTENT / "paths/zero-to-vibe.prototype.yaml"
+    CONTENT / "paths/zero-to-vibe.yaml"
 )
 LEARNING_ORDER = {
     slug: index for index, slug in enumerate(learning_path["terms"], start=1)
@@ -127,7 +127,7 @@ def validate_content() -> None:
     path_slugs = set(learning_path["terms"])
     if slugs != path_slugs:
         raise ValueError(
-            "prototype learning path must include every term exactly once: "
+            "canonical learning path must include every term exactly once: "
             f"missing={sorted(slugs - path_slugs)}, extra={sorted(path_slugs - slugs)}"
         )
 

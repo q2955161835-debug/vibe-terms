@@ -1,0 +1,11 @@
+id: term_conversion_funnel
+slug: conversion-funnel
+canonical_name: Conversion Funnel
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- A/B Test
+- Product
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_z_index
+slug: z-index
+canonical_name: Z-Index
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- CSS Grid
+- Sticky Positioning
+content_version: 1

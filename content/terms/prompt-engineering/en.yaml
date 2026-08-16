@@ -1,0 +1,32 @@
+title: Prompt Engineering
+short_definition: Designing prompts, examples, constraints, and output formats to improve the reliability of model responses.
+analogy: 'Think of Prompt Engineering as a labeled tool in the ai & vibe coding part of a workshop: the label tells you what problem area to inspect, but the real behavior still comes from the implementation.'
+mechanism: Designing prompts, examples, constraints, and output formats to improve the reliability of model responses. In a real project, its exact behavior depends on the surrounding technology, configuration, and data flow, so verify the concrete implementation rather than relying on the label alone.
+why_it_matters: Knowing Prompt Engineering lets a Vibe Coding beginner name the exact ai & vibe coding concern they mean and ask an AI coding agent for a change plus evidence that the behavior is correct.
+project_example: In Vibe Terms, use Prompt Engineering as a vocabulary checkpoint when a learner reaches the requirements stage; connect the definition to one visible page, file, request, data structure, or verification step rather than teaching it in isolation.
+ai_prompt_example: Explain how Prompt Engineering applies to this project. Point to the exact files or system boundary involved, make only the smallest necessary change, and show the command or user flow I can use to verify the result.
+common_mistake: Treating the term Prompt Engineering as proof that an implementation is correct without checking actual behavior, data flow, permissions, failure cases, or the relevant test.
+quiz:
+- question: Which description best matches Prompt Engineering?
+  options:
+  - Designing prompts, examples, constraints, and output formats to improve the reliability of model responses.
+  - A visual decoration that has no effect on software behavior.
+  - A guarantee that every implementation is secure and correct.
+  answer: 0
+- question: When an AI says it used Prompt Engineering, what should you do next?
+  options:
+  - Accept the label as proof.
+  - Check the concrete implementation and verify the relevant behavior.
+  - Rename the files so the term appears in the project.
+  answer: 1
+- question: Which prompt is more useful for working with Prompt Engineering?
+  options:
+  - “Make Prompt Engineering better.”
+  - “Explain where Prompt Engineering appears, change the smallest necessary part, and show how to verify it.”
+  - “Rewrite the whole project.”
+  answer: 1
+sources:
+- url: https://modelcontextprotocol.io/
+- url: https://owasp.org/www-project-top-10-for-large-language-model-applications/
+status: published
+source_content_version: 1

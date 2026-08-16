@@ -1,0 +1,10 @@
+title: Conversion Funnel
+short_definition: 'Conversion Funnel — термин из раздела «Продукт и требования». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A sequence of measurable stages that shows how many users progress toward a target action and where they drop out.'
+analogy: Conversion Funnel можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Conversion Funnel — термин из раздела «Продукт и требования». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A sequence of measurable stages that shows how many users progress toward a target action and where they drop out.'
+why_it_matters: Понимание Conversion Funnel помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Conversion Funnel помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Conversion Funnel в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Conversion Funnel доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

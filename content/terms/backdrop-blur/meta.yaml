@@ -1,0 +1,11 @@
+id: term_backdrop_blur
+slug: backdrop-blur
+canonical_name: Backdrop Blur
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: intermediate
+related_terms:
+- Corner Radius Consistency
+- Dark Mode
+content_version: 1

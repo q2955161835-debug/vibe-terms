@@ -1,0 +1,10 @@
+title: Tech Stack
+short_definition: 'Tech Stack ist ein Begriff aus „Computer & Entwicklungsumgebung“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: The set of languages, frameworks, libraries, databases, and infrastructure chosen to build and operate a product.'
+analogy: Man kann Tech Stack zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
+mechanism: 'Tech Stack ist ein Begriff aus „Computer & Entwicklungsumgebung“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: The set of languages, frameworks, libraries, databases, and infrastructure chosen to build and operate a product.'
+why_it_matters: Wer Tech Stack versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
+project_example: Wer Tech Stack versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
+ai_prompt_example: Erkläre, wie Tech Stack in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
+common_mistake: Den Begriff Tech Stack als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+status: draft
+source_content_version: 1

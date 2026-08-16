@@ -1,0 +1,11 @@
+id: term_jwt
+slug: jwt
+canonical_name: JWT
+aliases: []
+primary_domain: security-privacy
+lifecycle_stage: test-protect
+difficulty: beginner
+related_terms:
+- OpenID Connect
+- Access Token
+content_version: 1

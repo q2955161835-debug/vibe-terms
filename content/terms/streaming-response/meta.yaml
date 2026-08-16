@@ -1,0 +1,11 @@
+id: term_streaming_response
+slug: streaming-response
+canonical_name: Streaming Response
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Structured Output
+- AI Agent
+content_version: 1

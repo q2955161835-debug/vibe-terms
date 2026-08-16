@@ -1,0 +1,10 @@
+title: Instruction Hierarchy
+short_definition: 'Instruction Hierarchy — термин из раздела «ИИ и Vibe Coding». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The precedence rules that determine which instructions a model should follow when system, developer, user, and other instructions conflict.'
+analogy: Instruction Hierarchy можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Instruction Hierarchy — термин из раздела «ИИ и Vibe Coding». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The precedence rules that determine which instructions a model should follow when system, developer, user, and other instructions conflict.'
+why_it_matters: Понимание Instruction Hierarchy помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Instruction Hierarchy помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Instruction Hierarchy в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Instruction Hierarchy доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

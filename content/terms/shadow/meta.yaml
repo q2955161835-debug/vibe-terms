@@ -1,0 +1,11 @@
+id: term_shadow
+slug: shadow
+canonical_name: Shadow
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- Border Radius
+- Opacity
+content_version: 1

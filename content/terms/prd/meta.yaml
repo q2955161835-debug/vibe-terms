@@ -1,0 +1,11 @@
+id: term_prd
+slug: prd
+canonical_name: PRD
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- User Journey
+- MVP
+content_version: 1

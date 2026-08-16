@@ -1,0 +1,12 @@
+id: term_large_language_model
+slug: large-language-model
+canonical_name: Large Language Model
+aliases:
+- LLM
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Rate Limit
+- Model Provider
+content_version: 1

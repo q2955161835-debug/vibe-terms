@@ -1,0 +1,11 @@
+id: term_snapshot_test
+slug: snapshot-test
+canonical_name: Snapshot Test
+aliases: []
+primary_domain: testing-debugging
+lifecycle_stage: test-protect
+difficulty: advanced
+related_terms:
+- Behavior-Driven Development
+- Contract Test
+content_version: 1

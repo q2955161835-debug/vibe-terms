@@ -1,0 +1,12 @@
+id: term_server_sent_events
+slug: server-sent-events
+canonical_name: Server-Sent Events
+aliases:
+- SSE
+primary_domain: web-network
+lifecycle_stage: environment
+difficulty: intermediate
+related_terms:
+- WebSocket
+- Proxy
+content_version: 1

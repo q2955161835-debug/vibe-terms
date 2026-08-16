@@ -1,0 +1,11 @@
+id: term_api_contract
+slug: api-contract
+canonical_name: API Contract
+aliases: []
+primary_domain: backend-apis
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- Service Layer
+- OpenAPI
+content_version: 1

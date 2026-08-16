@@ -1,0 +1,11 @@
+id: term_link
+slug: link
+canonical_name: Link
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Button
+- Input
+content_version: 1

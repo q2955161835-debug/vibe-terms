@@ -1,0 +1,11 @@
+id: term_abac
+slug: abac
+canonical_name: ABAC
+aliases: []
+primary_domain: security-privacy
+lifecycle_stage: test-protect
+difficulty: beginner
+related_terms:
+- RBAC
+- Least Privilege
+content_version: 1

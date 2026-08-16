@@ -1,0 +1,10 @@
+id: term_button
+slug: button
+canonical_name: Button
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Link
+content_version: 1

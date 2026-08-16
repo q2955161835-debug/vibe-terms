@@ -1,0 +1,11 @@
+id: term_sanitization
+slug: sanitization
+canonical_name: Sanitization
+aliases: []
+primary_domain: security-privacy
+lifecycle_stage: test-protect
+difficulty: intermediate
+related_terms:
+- SQL Injection
+- Output Encoding
+content_version: 1

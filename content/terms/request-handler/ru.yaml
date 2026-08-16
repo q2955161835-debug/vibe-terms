@@ -1,0 +1,10 @@
+title: Request Handler
+short_definition: 'Request Handler — термин из раздела «Бэкенд и API». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Server code responsible for receiving a request, validating or transforming input, invoking logic, and producing a response.'
+analogy: Request Handler можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Request Handler — термин из раздела «Бэкенд и API». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Server code responsible for receiving a request, validating or transforming input, invoking logic, and producing a response.'
+why_it_matters: Понимание Request Handler помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Request Handler помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Request Handler в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Request Handler доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

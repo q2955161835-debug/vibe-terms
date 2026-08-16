@@ -6,6 +6,6 @@ primary_domain: ai-vibe
 lifecycle_stage: requirements
 difficulty: beginner
 related_terms:
-- Vibe Coding
-- Context Window
+- Inference
+- Prompt Engineering
 content_version: 1

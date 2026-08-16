@@ -1,0 +1,11 @@
+id: term_a_b_test
+slug: a-b-test
+canonical_name: A/B Test
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Gantt Chart
+- Conversion Funnel
+content_version: 1

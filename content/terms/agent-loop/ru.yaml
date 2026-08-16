@@ -1,0 +1,10 @@
+title: Agent Loop
+short_definition: 'Agent Loop — термин из раздела «ИИ и Vibe Coding». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The repeated cycle in which an agent observes state, chooses an action, executes it, evaluates the result, and decides whether to continue.'
+analogy: Agent Loop можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Agent Loop — термин из раздела «ИИ и Vibe Coding». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The repeated cycle in which an agent observes state, chooses an action, executes it, evaluates the result, and decides whether to continue.'
+why_it_matters: Понимание Agent Loop помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Agent Loop помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Agent Loop в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Agent Loop доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

@@ -1,0 +1,11 @@
+id: term_ip_address
+slug: ip-address
+canonical_name: IP Address
+aliases: []
+primary_domain: web-network
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- Browser
+- Hostname
+content_version: 1

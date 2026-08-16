@@ -1,0 +1,11 @@
+id: term_dark_mode
+slug: dark-mode
+canonical_name: Dark Mode
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: intermediate
+related_terms:
+- Backdrop Blur
+- Design Token
+content_version: 1

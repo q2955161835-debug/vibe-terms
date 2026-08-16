@@ -1,0 +1,10 @@
+title: Glassmorphism
+short_definition: 'Glassmorphism — термин из раздела «UI/UX и доступность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A visual style using translucent surfaces, background blur, subtle borders, and layered depth to suggest frosted glass.'
+analogy: Glassmorphism можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Glassmorphism — термин из раздела «UI/UX и доступность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A visual style using translucent surfaces, background blur, subtle borders, and layered depth to suggest frosted glass.'
+why_it_matters: Понимание Glassmorphism помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Glassmorphism помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Glassmorphism в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Glassmorphism доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

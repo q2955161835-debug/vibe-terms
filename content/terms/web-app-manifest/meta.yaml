@@ -1,0 +1,11 @@
+id: term_web_app_manifest
+slug: web-app-manifest
+canonical_name: Web App Manifest
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- Open Graph
+- Space
+content_version: 1

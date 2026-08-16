@@ -1,0 +1,11 @@
+id: term_authorization
+slug: authorization
+canonical_name: Authorization
+aliases: []
+primary_domain: security-privacy
+lifecycle_stage: test-protect
+difficulty: beginner
+related_terms:
+- Authentication
+- Identity
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_structured_output
+slug: structured-output
+canonical_name: Structured Output
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Stateless Request
+- Streaming Response
+content_version: 1

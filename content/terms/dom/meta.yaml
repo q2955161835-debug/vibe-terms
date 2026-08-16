@@ -1,0 +1,11 @@
+id: term_dom
+slug: dom
+canonical_name: DOM
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- CSS
+- Title Tag
+content_version: 1

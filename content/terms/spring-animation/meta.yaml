@@ -1,0 +1,12 @@
+id: term_spring_animation
+slug: spring-animation
+canonical_name: Spring Animation
+aliases:
+- Spring
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: intermediate
+related_terms:
+- Easing
+- Fade In / Out
+content_version: 1

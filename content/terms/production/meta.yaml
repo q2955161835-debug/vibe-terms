@@ -1,0 +1,11 @@
+id: term_production
+slug: production
+canonical_name: Production
+aliases: []
+primary_domain: deployment-operations
+lifecycle_stage: deploy-maintain
+difficulty: beginner
+related_terms:
+- Server Logs
+- Development Environment
+content_version: 1

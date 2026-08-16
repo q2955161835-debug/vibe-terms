@@ -1,0 +1,11 @@
+id: term_value_proposition
+slug: value-proposition
+canonical_name: Value Proposition
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- User Need
+- Hypothesis
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_refresh_token
+slug: refresh-token
+canonical_name: Refresh Token
+aliases: []
+primary_domain: security-privacy
+lifecycle_stage: test-protect
+difficulty: beginner
+related_terms:
+- Access Token
+- Password Hashing
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_session
+slug: session
+canonical_name: Session
+aliases: []
+primary_domain: security-privacy
+lifecycle_stage: test-protect
+difficulty: beginner
+related_terms:
+- Identity
+- Cookie
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_centered_column
+slug: centered-column
+canonical_name: Centered Column
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: intermediate
+related_terms:
+- Card Grid
+- Masonry
+content_version: 1

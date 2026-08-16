@@ -1,11 +1,11 @@
 id: term_testing
 slug: testing
 canonical_name: Testing
-aliases:
-- Software Testing
-primary_domain: testing-release
+aliases: []
+primary_domain: testing-debugging
 lifecycle_stage: test-protect
 difficulty: beginner
 related_terms:
-- Deployment
+- Flaky Test
+- Bug
 content_version: 1

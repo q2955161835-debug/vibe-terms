@@ -1,0 +1,10 @@
+title: Blue-Green Deployment
+short_definition: 'Blue-Green Deployment — термин из раздела «Развертывание и эксплуатация». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A release strategy that keeps two production-like environments and switches traffic from the current version to the validated new one.'
+analogy: Blue-Green Deployment можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Blue-Green Deployment — термин из раздела «Развертывание и эксплуатация». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A release strategy that keeps two production-like environments and switches traffic from the current version to the validated new one.'
+why_it_matters: Понимание Blue-Green Deployment помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Blue-Green Deployment помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Blue-Green Deployment в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Blue-Green Deployment доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

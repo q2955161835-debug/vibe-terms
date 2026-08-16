@@ -1,0 +1,12 @@
+id: term_cascading_select
+slug: cascading-select
+canonical_name: Cascading Select
+aliases:
+- Cascader
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- AutoComplete
+- Tree Select
+content_version: 1

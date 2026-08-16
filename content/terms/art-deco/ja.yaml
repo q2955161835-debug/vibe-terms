@@ -1,0 +1,10 @@
+title: Art Deco
+short_definition: 'Art Deco は「UI/UX とアクセシビリティ」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A decorative style characterized by geometric ornament, symmetry, strong verticals, luxurious materials, and 1920s–1930s visual references.'
+analogy: Art Deco は、ソフトウェア開発の道具箱に付いた用途ラベルのように考えると理解しやすいです。実際にはコード、データの流れ、利用場面を確認します。
+mechanism: 'Art Deco は「UI/UX とアクセシビリティ」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A decorative style characterized by geometric ornament, symmetry, strong verticals, luxurious materials, and 1920s–1930s visual references.'
+why_it_matters: Art Deco を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
+project_example: Art Deco を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
+ai_prompt_example: このプロジェクトで Art Deco がどのように関係するか説明してください。対象ファイルまたは境界を示し、必要最小限の変更と確認手順を提示してください。
+common_mistake: Art Deco という名前だけで実装が正しいと判断し、実際の動作・データフロー・失敗時の挙動を確認しないことです。
+status: draft
+source_content_version: 1

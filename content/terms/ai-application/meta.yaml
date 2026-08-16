@@ -1,0 +1,11 @@
+id: term_ai_application
+slug: ai-application
+canonical_name: AI Application
+aliases:
+- AI Application Basics
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Hallucination
+content_version: 1

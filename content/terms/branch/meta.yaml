@@ -1,0 +1,11 @@
+id: term_branch
+slug: branch
+canonical_name: Branch
+aliases: []
+primary_domain: git-collaboration
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- Commit
+- Merge
+content_version: 1

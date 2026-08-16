@@ -1,0 +1,11 @@
+id: term_relationship
+slug: relationship
+canonical_name: Relationship
+aliases: []
+primary_domain: data-databases
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- Foreign Key
+- One-to-one
+content_version: 1

@@ -1,0 +1,10 @@
+title: Behavior-Driven Development
+short_definition: 'Behavior-Driven Development — термин из раздела «Тестирование и отладка». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A development approach that describes expected system behavior in examples and scenarios shared across technical and product roles.'
+analogy: Behavior-Driven Development можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Behavior-Driven Development — термин из раздела «Тестирование и отладка». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A development approach that describes expected system behavior in examples and scenarios shared across technical and product roles.'
+why_it_matters: Понимание Behavior-Driven Development помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Behavior-Driven Development помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Behavior-Driven Development в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Behavior-Driven Development доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

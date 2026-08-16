@@ -1,0 +1,11 @@
+id: term_breakpoint
+slug: breakpoint
+canonical_name: Breakpoint
+aliases: []
+primary_domain: testing-debugging
+lifecycle_stage: test-protect
+difficulty: beginner
+related_terms:
+- Debugger
+- Reproduction Steps
+content_version: 1

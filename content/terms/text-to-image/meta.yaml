@@ -1,0 +1,11 @@
+id: term_text_to_image
+slug: text-to-image
+canonical_name: Text-to-Image
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: advanced
+related_terms:
+- Speech Model
+- Agentic Workflow
+content_version: 1

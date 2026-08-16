@@ -1,0 +1,11 @@
+id: term_repository
+slug: repository
+canonical_name: Repository
+aliases: []
+primary_domain: git-collaboration
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- Diff
+- Working Tree
+content_version: 1

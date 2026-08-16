@@ -1,0 +1,10 @@
+title: Backdrop Blur
+short_definition: 'Backdrop Blur — термин из раздела «Фронтенд-разработка». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A visual effect that blurs content behind a translucent element rather than blurring the element''s own content.'
+analogy: Backdrop Blur можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Backdrop Blur — термин из раздела «Фронтенд-разработка». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A visual effect that blurs content behind a translucent element rather than blurring the element''s own content.'
+why_it_matters: Понимание Backdrop Blur помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Backdrop Blur помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Backdrop Blur в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Backdrop Blur доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

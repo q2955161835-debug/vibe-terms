@@ -1,0 +1,11 @@
+id: term_shadcn_ui
+slug: shadcn-ui
+canonical_name: shadcn/ui
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: advanced
+related_terms:
+- Tailwind CSS
+- Media Query
+content_version: 1

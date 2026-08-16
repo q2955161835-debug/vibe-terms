@@ -1,0 +1,11 @@
+id: term_graph_database
+slug: graph-database
+canonical_name: Graph Database
+aliases: []
+primary_domain: data-databases
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- Key-Value Store
+- Database Table
+content_version: 1

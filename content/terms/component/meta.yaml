@@ -1,0 +1,11 @@
+id: term_component
+slug: component
+canonical_name: Component
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- Frontend
+- State
+content_version: 1

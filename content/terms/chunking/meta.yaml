@@ -1,0 +1,11 @@
+id: term_chunking
+slug: chunking
+canonical_name: Chunking
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Semantic Search
+- Reranking
+content_version: 1

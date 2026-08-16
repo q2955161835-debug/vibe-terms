@@ -1,0 +1,11 @@
+id: term_radio
+slug: radio
+canonical_name: Radio
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Number Input
+- Checkbox
+content_version: 1

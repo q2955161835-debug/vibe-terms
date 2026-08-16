@@ -1,0 +1,10 @@
+title: HTTP Header
+short_definition: 'HTTP Header — термин из раздела «Web и сети». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Metadata attached to an HTTP request or response that carries information such as content type, caching, authentication, or cookies.'
+analogy: HTTP Header можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'HTTP Header — термин из раздела «Web и сети». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: Metadata attached to an HTTP request or response that carries information such as content type, caching, authentication, or cookies.'
+why_it_matters: Понимание HTTP Header помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание HTTP Header помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль HTTP Header в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название HTTP Header доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

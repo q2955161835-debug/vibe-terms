@@ -1,0 +1,11 @@
+id: term_skill
+slug: skill
+canonical_name: Skill
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Model Context Protocol
+- Sub-agent
+content_version: 1

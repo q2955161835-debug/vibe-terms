@@ -1,0 +1,11 @@
+id: term_sql
+slug: sql
+canonical_name: SQL
+aliases: []
+primary_domain: data-databases
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- Database
+- Relational Database
+content_version: 1

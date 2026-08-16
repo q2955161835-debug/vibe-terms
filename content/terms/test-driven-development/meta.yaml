@@ -1,0 +1,12 @@
+id: term_test_driven_development
+slug: test-driven-development
+canonical_name: Test-Driven Development
+aliases:
+- TDD
+primary_domain: testing-debugging
+lifecycle_stage: test-protect
+difficulty: intermediate
+related_terms:
+- Test Pyramid
+- Behavior-Driven Development
+content_version: 1

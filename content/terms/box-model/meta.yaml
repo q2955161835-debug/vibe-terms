@@ -1,0 +1,11 @@
+id: term_box_model
+slug: box-model
+canonical_name: Box Model
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- Centering
+- Overflow
+content_version: 1

@@ -2,10 +2,9 @@ id: term_frontend
 slug: frontend
 canonical_name: Frontend
 aliases: []
-primary_domain: frontend
+primary_domain: frontend-engineering
 lifecycle_stage: interface-logic
 difficulty: beginner
 related_terms:
-- Backend
-- API
+- Component
 content_version: 1

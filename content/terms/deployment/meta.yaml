@@ -1,12 +1,10 @@
 id: term_deployment
 slug: deployment
 canonical_name: Deployment
-aliases:
-- Deploy
-primary_domain: testing-release
+aliases: []
+primary_domain: deployment-operations
 lifecycle_stage: deploy-maintain
 difficulty: beginner
 related_terms:
-- Testing
-- Git
+- CD
 content_version: 1

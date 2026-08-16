@@ -1,0 +1,11 @@
+id: term_embedding
+slug: embedding
+canonical_name: Embedding
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Retrieval-Augmented Generation
+- Vector Database
+content_version: 1

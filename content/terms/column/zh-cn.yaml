@@ -1,0 +1,10 @@
+title: 栏
+short_definition: 栏 是“数据与数据库”中的术语。当前为待人工审校的草稿。英文标准定义：A named field in a relational table that defines one attribute and usually a data type.
+analogy: 可以先把 栏 想成软件开发工具箱里一个有明确用途的标签；真正使用时仍要结合所在代码、数据流和用户场景判断。
+mechanism: 栏 是“数据与数据库”中的术语。当前为待人工审校的草稿。英文标准定义：A named field in a relational table that defines one attribute and usually a data type.
+why_it_matters: 理解 栏 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
+project_example: 理解 栏 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
+ai_prompt_example: 解释 栏 在这个项目中的作用。指出涉及的文件或系统边界，只做最小必要改动，并给出我可以验证结果的步骤。
+common_mistake: 只记住 栏 这个名词，却没有检查它在当前项目里的真实行为、数据流和失败情况。
+status: draft
+source_content_version: 1

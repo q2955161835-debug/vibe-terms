@@ -1,0 +1,11 @@
+id: term_build
+slug: build
+canonical_name: Build
+aliases: []
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- npm
+- Lint
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_easing
+slug: easing
+canonical_name: Easing
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: intermediate
+related_terms:
+- Animation
+- Spring Animation
+content_version: 1

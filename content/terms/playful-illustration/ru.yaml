@@ -1,0 +1,10 @@
+title: Playful Illustration
+short_definition: 'Playful Illustration — термин из раздела «UI/UX и доступность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A visual direction using expressive illustration, friendly shapes, or characters to make an interface feel lighter and more approachable.'
+analogy: Playful Illustration можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Playful Illustration — термин из раздела «UI/UX и доступность». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A visual direction using expressive illustration, friendly shapes, or characters to make an interface feel lighter and more approachable.'
+why_it_matters: Понимание Playful Illustration помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Playful Illustration помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Playful Illustration в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Playful Illustration доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

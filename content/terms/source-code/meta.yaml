@@ -1,0 +1,11 @@
+id: term_source_code
+slug: source-code
+canonical_name: Source Code
+aliases: []
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- Application
+- Runtime
+content_version: 1

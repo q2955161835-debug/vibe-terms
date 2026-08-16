@@ -1,0 +1,10 @@
+title: Working Tree
+short_definition: 'Working Tree は「Git と共同作業」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: The checked-out files on disk that a developer currently edits before staging or committing changes.'
+analogy: Working Tree は、ソフトウェア開発の道具箱に付いた用途ラベルのように考えると理解しやすいです。実際にはコード、データの流れ、利用場面を確認します。
+mechanism: 'Working Tree は「Git と共同作業」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: The checked-out files on disk that a developer currently edits before staging or committing changes.'
+why_it_matters: Working Tree を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
+project_example: Working Tree を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
+ai_prompt_example: このプロジェクトで Working Tree がどのように関係するか説明してください。対象ファイルまたは境界を示し、必要最小限の変更と確認手順を提示してください。
+common_mistake: Working Tree という名前だけで実装が正しいと判断し、実際の動作・データフロー・失敗時の挙動を確認しないことです。
+status: draft
+source_content_version: 1

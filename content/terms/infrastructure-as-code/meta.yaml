@@ -1,0 +1,11 @@
+id: term_infrastructure_as_code
+slug: infrastructure-as-code
+canonical_name: Infrastructure as Code
+aliases:
+- IaC
+primary_domain: deployment-operations
+lifecycle_stage: deploy-maintain
+difficulty: advanced
+related_terms:
+- Incident
+content_version: 1

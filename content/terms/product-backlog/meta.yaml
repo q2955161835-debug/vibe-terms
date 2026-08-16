@@ -1,0 +1,11 @@
+id: term_product_backlog
+slug: product-backlog
+canonical_name: Product Backlog
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- MVP
+- Product Roadmap
+content_version: 1

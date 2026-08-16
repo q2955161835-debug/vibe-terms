@@ -1,0 +1,11 @@
+id: term_toast
+slug: toast
+canonical_name: Toast
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Alert
+- Notification
+content_version: 1

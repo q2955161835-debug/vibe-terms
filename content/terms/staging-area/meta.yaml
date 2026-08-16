@@ -1,0 +1,11 @@
+id: term_staging_area
+slug: staging-area
+canonical_name: Staging Area
+aliases: []
+primary_domain: git-collaboration
+lifecycle_stage: environment
+difficulty: intermediate
+related_terms:
+- Working Tree
+- HEAD
+content_version: 1

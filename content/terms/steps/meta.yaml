@@ -1,0 +1,11 @@
+id: term_steps
+slug: steps
+canonical_name: Steps
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Pagination
+- Dropdown
+content_version: 1

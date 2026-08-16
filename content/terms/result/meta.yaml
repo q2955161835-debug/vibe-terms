@@ -1,0 +1,11 @@
+id: term_result
+slug: result
+canonical_name: Result
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Skeleton
+- Spinner
+content_version: 1

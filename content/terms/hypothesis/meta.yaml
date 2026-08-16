@@ -1,0 +1,11 @@
+id: term_hypothesis
+slug: hypothesis
+canonical_name: Hypothesis
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Value Proposition
+- Assumption
+content_version: 1

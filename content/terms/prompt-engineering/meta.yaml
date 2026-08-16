@@ -1,0 +1,11 @@
+id: term_prompt_engineering
+slug: prompt-engineering
+canonical_name: Prompt Engineering
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Prompt
+- Prompt Template
+content_version: 1

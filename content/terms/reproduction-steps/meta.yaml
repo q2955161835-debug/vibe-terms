@@ -1,0 +1,11 @@
+id: term_reproduction_steps
+slug: reproduction-steps
+canonical_name: Reproduction Steps
+aliases: []
+primary_domain: testing-debugging
+lifecycle_stage: test-protect
+difficulty: intermediate
+related_terms:
+- Breakpoint
+- Root Cause
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_cron_job
+slug: cron-job
+canonical_name: Cron Job
+aliases: []
+primary_domain: backend-apis
+lifecycle_stage: data-identity
+difficulty: advanced
+related_terms:
+- Background Job
+- File Upload
+content_version: 1

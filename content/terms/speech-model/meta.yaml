@@ -1,0 +1,11 @@
+id: term_speech_model
+slug: speech-model
+canonical_name: Speech Model
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: advanced
+related_terms:
+- Vision Model
+- Text-to-Image
+content_version: 1

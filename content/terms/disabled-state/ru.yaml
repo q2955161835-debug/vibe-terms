@@ -1,0 +1,10 @@
+title: Disabled State
+short_definition: 'Disabled State — термин из раздела «Фронтенд-разработка». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A state in which a control is intentionally unavailable and must communicate both its condition and any relevant reason.'
+analogy: Disabled State можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Disabled State — термин из раздела «Фронтенд-разработка». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A state in which a control is intentionally unavailable and must communicate both its condition and any relevant reason.'
+why_it_matters: Понимание Disabled State помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Disabled State помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Disabled State в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Disabled State доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

@@ -1,0 +1,10 @@
+id: term_terminal
+slug: terminal
+canonical_name: Terminal
+aliases: []
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- npm
+content_version: 1

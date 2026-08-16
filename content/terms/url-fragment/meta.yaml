@@ -1,0 +1,11 @@
+id: term_url_fragment
+slug: url-fragment
+canonical_name: URL Fragment
+aliases: []
+primary_domain: web-network
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- Query String
+- HTTP Method
+content_version: 1

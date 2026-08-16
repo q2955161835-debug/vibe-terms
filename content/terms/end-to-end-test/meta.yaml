@@ -1,0 +1,11 @@
+id: term_end_to_end_test
+slug: end-to-end-test
+canonical_name: End-to-End Test
+aliases: []
+primary_domain: testing-debugging
+lifecycle_stage: test-protect
+difficulty: beginner
+related_terms:
+- Integration Test
+- Smoke Test
+content_version: 1

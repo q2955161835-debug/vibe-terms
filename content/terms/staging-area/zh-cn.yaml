@@ -1,0 +1,10 @@
+title: 暂存区
+short_definition: 暂存区 是“Git 与协作”中的术语。当前为待人工审校的草稿。英文标准定义：The Git index containing the exact changes selected for the next commit.
+analogy: 可以先把 暂存区 想成软件开发工具箱里一个有明确用途的标签；真正使用时仍要结合所在代码、数据流和用户场景判断。
+mechanism: 暂存区 是“Git 与协作”中的术语。当前为待人工审校的草稿。英文标准定义：The Git index containing the exact changes selected for the next commit.
+why_it_matters: 理解 暂存区 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
+project_example: 理解 暂存区 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
+ai_prompt_example: 解释 暂存区 在这个项目中的作用。指出涉及的文件或系统边界，只做最小必要改动，并给出我可以验证结果的步骤。
+common_mistake: 只记住 暂存区 这个名词，却没有检查它在当前项目里的真实行为、数据流和失败情况。
+status: draft
+source_content_version: 1

@@ -1,0 +1,11 @@
+id: term_reset
+slug: reset
+canonical_name: Reset
+aliases: []
+primary_domain: git-collaboration
+lifecycle_stage: environment
+difficulty: advanced
+related_terms:
+- Revert
+- Cherry-pick
+content_version: 1

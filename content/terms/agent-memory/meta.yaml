@@ -1,0 +1,11 @@
+id: term_agent_memory
+slug: agent-memory
+canonical_name: Agent Memory
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Reranking
+- Short-Term Memory
+content_version: 1

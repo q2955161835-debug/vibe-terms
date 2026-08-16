@@ -1,0 +1,10 @@
+title: Server-Sent Events
+short_definition: 'Server-Sent Events ist ein Begriff aus „Web & Netzwerk“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A browser API and HTTP streaming format that lets a server continuously push text events to a client over one connection.'
+analogy: Man kann Server-Sent Events zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
+mechanism: 'Server-Sent Events ist ein Begriff aus „Web & Netzwerk“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A browser API and HTTP streaming format that lets a server continuously push text events to a client over one connection.'
+why_it_matters: Wer Server-Sent Events versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
+project_example: Wer Server-Sent Events versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
+ai_prompt_example: Erkläre, wie Server-Sent Events in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
+common_mistake: Den Begriff Server-Sent Events als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+status: draft
+source_content_version: 1

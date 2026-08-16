@@ -1,0 +1,11 @@
+id: term_menu
+slug: menu
+canonical_name: Menu
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Spinner
+- Breadcrumb
+content_version: 1

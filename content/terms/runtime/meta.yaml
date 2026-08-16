@@ -1,0 +1,11 @@
+id: term_runtime
+slug: runtime
+canonical_name: Runtime
+aliases: []
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- Source Code
+- Framework
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_rbac
+slug: rbac
+canonical_name: RBAC
+aliases: []
+primary_domain: security-privacy
+lifecycle_stage: test-protect
+difficulty: beginner
+related_terms:
+- Multi-factor Authentication
+- ABAC
+content_version: 1

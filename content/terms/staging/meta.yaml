@@ -1,0 +1,11 @@
+id: term_staging
+slug: staging
+canonical_name: Staging
+aliases: []
+primary_domain: deployment-operations
+lifecycle_stage: deploy-maintain
+difficulty: beginner
+related_terms:
+- CD
+- Monitoring
+content_version: 1

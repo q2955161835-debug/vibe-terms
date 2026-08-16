@@ -1,0 +1,12 @@
+id: term_evaluation
+slug: evaluation
+canonical_name: Evaluation
+aliases:
+- Eval
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Function Calling
+- Benchmark
+content_version: 1

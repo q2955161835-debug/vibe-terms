@@ -1,0 +1,10 @@
+title: Dependency
+short_definition: 'Dependency は「コンピュータと開発環境」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: External code, package, service, or component that another part of a system relies on.'
+analogy: Dependency は、ソフトウェア開発の道具箱に付いた用途ラベルのように考えると理解しやすいです。実際にはコード、データの流れ、利用場面を確認します。
+mechanism: 'Dependency は「コンピュータと開発環境」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: External code, package, service, or component that another part of a system relies on.'
+why_it_matters: Dependency を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
+project_example: Dependency を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
+ai_prompt_example: このプロジェクトで Dependency がどのように関係するか説明してください。対象ファイルまたは境界を示し、必要最小限の変更と確認手順を提示してください。
+common_mistake: Dependency という名前だけで実装が正しいと判断し、実際の動作・データフロー・失敗時の挙動を確認しないことです。
+status: draft
+source_content_version: 1

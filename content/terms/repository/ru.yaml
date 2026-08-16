@@ -1,0 +1,10 @@
+title: Repository
+short_definition: 'Repository — термин из раздела «Git и совместная работа». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The Git database and working project that contain version history, refs, configuration, and tracked content.'
+analogy: Repository можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Repository — термин из раздела «Git и совместная работа». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: The Git database and working project that contain version history, refs, configuration, and tracked content.'
+why_it_matters: Понимание Repository помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Repository помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Repository в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Repository доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

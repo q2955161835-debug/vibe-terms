@@ -1,0 +1,11 @@
+id: term_threat_model
+slug: threat-model
+canonical_name: Threat Model
+aliases: []
+primary_domain: security-privacy
+lifecycle_stage: test-protect
+difficulty: intermediate
+related_terms:
+- Least Privilege
+- Attack Surface
+content_version: 1

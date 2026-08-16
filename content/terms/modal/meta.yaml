@@ -1,0 +1,11 @@
+id: term_modal
+slug: modal
+canonical_name: Modal
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Notification
+- Drawer
+content_version: 1

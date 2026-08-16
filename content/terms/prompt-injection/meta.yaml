@@ -1,0 +1,11 @@
+id: term_prompt_injection
+slug: prompt-injection
+canonical_name: Prompt Injection
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Guardrail
+- Jailbreak
+content_version: 1

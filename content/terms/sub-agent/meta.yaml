@@ -1,0 +1,11 @@
+id: term_sub_agent
+slug: sub-agent
+canonical_name: Sub-agent
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Skill
+- Tool Calling
+content_version: 1

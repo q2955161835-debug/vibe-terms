@@ -1,0 +1,12 @@
+id: term_openid_connect
+slug: openid-connect
+canonical_name: OpenID Connect
+aliases:
+- OIDC
+primary_domain: security-privacy
+lifecycle_stage: test-protect
+difficulty: beginner
+related_terms:
+- OAuth
+- JWT
+content_version: 1

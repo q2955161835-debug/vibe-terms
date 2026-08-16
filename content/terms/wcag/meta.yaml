@@ -1,0 +1,11 @@
+id: term_wcag
+slug: wcag
+canonical_name: WCAG
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: advanced
+related_terms:
+- Accessibility
+- ARIA
+content_version: 1

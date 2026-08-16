@@ -1,0 +1,11 @@
+id: term_csrf
+slug: csrf
+canonical_name: CSRF
+aliases: []
+primary_domain: security-privacy
+lifecycle_stage: test-protect
+difficulty: intermediate
+related_terms:
+- XSS
+- SQL Injection
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_padding
+slug: padding
+canonical_name: Padding
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- Margin
+- Flexbox
+content_version: 1

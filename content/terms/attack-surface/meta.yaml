@@ -1,0 +1,11 @@
+id: term_attack_surface
+slug: attack-surface
+canonical_name: Attack Surface
+aliases: []
+primary_domain: security-privacy
+lifecycle_stage: test-protect
+difficulty: intermediate
+related_terms:
+- Threat Model
+- XSS
+content_version: 1

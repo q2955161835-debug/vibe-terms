@@ -1,0 +1,12 @@
+id: term_css_custom_property
+slug: css-custom-property
+canonical_name: CSS Custom Property
+aliases:
+- CSS Variable
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: advanced
+related_terms:
+- Media Query
+- Responsive Breakpoint
+content_version: 1

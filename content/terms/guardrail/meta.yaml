@@ -1,0 +1,11 @@
+id: term_guardrail
+slug: guardrail
+canonical_name: Guardrail
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- Eval Dataset
+- Prompt Injection
+content_version: 1

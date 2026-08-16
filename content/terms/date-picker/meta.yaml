@@ -1,0 +1,12 @@
+id: term_date_picker
+slug: date-picker
+canonical_name: Date Picker
+aliases:
+- DatePicker
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Tree Select
+- Time Picker
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_application
+slug: application
+canonical_name: Application
+aliases: []
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- Software
+- Source Code
+content_version: 1

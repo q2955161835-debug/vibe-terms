@@ -1,0 +1,11 @@
+id: term_cd
+slug: cd
+canonical_name: CD
+aliases: []
+primary_domain: deployment-operations
+lifecycle_stage: deploy-maintain
+difficulty: beginner
+related_terms:
+- Deployment
+- Staging
+content_version: 1

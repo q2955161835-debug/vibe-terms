@@ -1,0 +1,11 @@
+id: term_card
+slug: card
+canonical_name: Card
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- List
+- Tag
+content_version: 1

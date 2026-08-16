@@ -1,0 +1,11 @@
+id: term_slider
+slug: slider
+canonical_name: Slider
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Switch
+- Rating Control
+content_version: 1

@@ -1,12 +1,11 @@
 id: term_ai_agent
 slug: ai-agent
 canonical_name: AI Agent
-aliases:
-- Agent
+aliases: []
 primary_domain: ai-vibe
-lifecycle_stage: interface-logic
+lifecycle_stage: requirements
 difficulty: beginner
 related_terms:
-- Prompt
-- API
+- Streaming Response
+- Harness Engineering
 content_version: 1

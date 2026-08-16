@@ -1,0 +1,11 @@
+id: term_idempotency
+slug: idempotency
+canonical_name: Idempotency
+aliases: []
+primary_domain: backend-apis
+lifecycle_stage: data-identity
+difficulty: intermediate
+related_terms:
+- Quota
+- Retry
+content_version: 1

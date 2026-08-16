@@ -1,0 +1,11 @@
+id: term_next_js
+slug: next-js
+canonical_name: Next.js
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: advanced
+related_terms:
+- Vue
+- Tailwind CSS
+content_version: 1

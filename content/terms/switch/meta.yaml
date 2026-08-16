@@ -1,0 +1,11 @@
+id: term_switch
+slug: switch
+canonical_name: Switch
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: beginner
+related_terms:
+- Checkbox
+- Slider
+content_version: 1

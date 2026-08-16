@@ -1,0 +1,11 @@
+id: term_transaction
+slug: transaction
+canonical_name: Transaction
+aliases: []
+primary_domain: data-databases
+lifecycle_stage: data-identity
+difficulty: intermediate
+related_terms:
+- Unique Key
+- ACID
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_product
+slug: product
+canonical_name: Product
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Conversion Funnel
+- Requirement
+content_version: 1

@@ -1,0 +1,10 @@
+title: Jobs to Be Done
+short_definition: 'Jobs to Be Done — термин из раздела «Продукт и требования». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A framework for describing the progress a person is trying to make in a situation rather than defining them only by demographics.'
+analogy: Jobs to Be Done можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Jobs to Be Done — термин из раздела «Продукт и требования». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A framework for describing the progress a person is trying to make in a situation rather than defining them only by demographics.'
+why_it_matters: Понимание Jobs to Be Done помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Jobs to Be Done помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Jobs to Be Done в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Jobs to Be Done доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

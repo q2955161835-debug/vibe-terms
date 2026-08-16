@@ -1,0 +1,11 @@
+id: term_focus
+slug: focus
+canonical_name: Focus
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: intermediate
+related_terms:
+- Active State
+- Drag and Drop
+content_version: 1

@@ -1,0 +1,10 @@
+title: Pull
+short_definition: 'Pull は「Git と共同作業」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: Fetching remote Git changes and integrating them into the current branch, usually by merge or rebase.'
+analogy: Pull は、ソフトウェア開発の道具箱に付いた用途ラベルのように考えると理解しやすいです。実際にはコード、データの流れ、利用場面を確認します。
+mechanism: 'Pull は「Git と共同作業」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: Fetching remote Git changes and integrating them into the current branch, usually by merge or rebase.'
+why_it_matters: Pull を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
+project_example: Pull を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
+ai_prompt_example: このプロジェクトで Pull がどのように関係するか説明してください。対象ファイルまたは境界を示し、必要最小限の変更と確認手順を提示してください。
+common_mistake: Pull という名前だけで実装が正しいと判断し、実際の動作・データフロー・失敗時の挙動を確認しないことです。
+status: draft
+source_content_version: 1

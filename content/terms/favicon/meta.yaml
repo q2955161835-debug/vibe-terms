@@ -1,0 +1,11 @@
+id: term_favicon
+slug: favicon
+canonical_name: Favicon
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- Page Metadata
+- Open Graph
+content_version: 1

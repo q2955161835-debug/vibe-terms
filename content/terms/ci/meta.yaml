@@ -1,0 +1,11 @@
+id: term_ci
+slug: ci
+canonical_name: CI
+aliases: []
+primary_domain: deployment-operations
+lifecycle_stage: deploy-maintain
+difficulty: beginner
+related_terms:
+- Production Environment
+- Pipeline
+content_version: 1

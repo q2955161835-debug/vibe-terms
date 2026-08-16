@@ -1,0 +1,11 @@
+id: term_reverse_proxy
+slug: reverse-proxy
+canonical_name: Reverse Proxy
+aliases: []
+primary_domain: web-network
+lifecycle_stage: environment
+difficulty: advanced
+related_terms:
+- Proxy
+- SEO
+content_version: 1

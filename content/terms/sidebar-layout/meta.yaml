@@ -1,0 +1,12 @@
+id: term_sidebar_layout
+slug: sidebar-layout
+canonical_name: Sidebar Layout
+aliases:
+- Sidebar
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: intermediate
+related_terms:
+- Top Nav Layout
+- Single Page Layout
+content_version: 1

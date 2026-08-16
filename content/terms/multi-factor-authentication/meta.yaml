@@ -1,0 +1,12 @@
+id: term_multi_factor_authentication
+slug: multi-factor-authentication
+canonical_name: Multi-factor Authentication
+aliases:
+- MFA
+primary_domain: security-privacy
+lifecycle_stage: test-protect
+difficulty: beginner
+related_terms:
+- Password Hashing
+- RBAC
+content_version: 1

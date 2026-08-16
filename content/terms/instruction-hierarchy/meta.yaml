@@ -1,0 +1,11 @@
+id: term_instruction_hierarchy
+slug: instruction-hierarchy
+canonical_name: Instruction Hierarchy
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Prompt Template
+- Grounding
+content_version: 1

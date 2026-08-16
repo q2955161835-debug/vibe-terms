@@ -1,0 +1,12 @@
+id: term_sticky_positioning
+slug: sticky-positioning
+canonical_name: Sticky Positioning
+aliases:
+- Sticky
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- Z-Index
+- Position
+content_version: 1

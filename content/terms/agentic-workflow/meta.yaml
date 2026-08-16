@@ -1,0 +1,11 @@
+id: term_agentic_workflow
+slug: agentic-workflow
+canonical_name: Agentic Workflow
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: advanced
+related_terms:
+- Text-to-Image
+- Multi-agent System
+content_version: 1

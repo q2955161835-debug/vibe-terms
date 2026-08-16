@@ -6,5 +6,5 @@ primary_domain: git-collaboration
 lifecycle_stage: environment
 difficulty: beginner
 related_terms:
-- Deployment
+- Commit
 content_version: 1

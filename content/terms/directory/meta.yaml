@@ -1,0 +1,11 @@
+id: term_directory
+slug: directory
+canonical_name: Directory
+aliases: []
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: intermediate
+related_terms:
+- Path
+- Working Directory
+content_version: 1

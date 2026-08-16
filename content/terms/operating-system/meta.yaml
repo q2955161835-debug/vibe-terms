@@ -1,0 +1,11 @@
+id: term_operating_system
+slug: operating-system
+canonical_name: Operating System
+aliases: []
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: intermediate
+related_terms:
+- Lockfile
+- File System
+content_version: 1

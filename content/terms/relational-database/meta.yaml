@@ -1,0 +1,11 @@
+id: term_relational_database
+slug: relational-database
+canonical_name: Relational Database
+aliases: []
+primary_domain: data-databases
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- SQL
+- NoSQL
+content_version: 1

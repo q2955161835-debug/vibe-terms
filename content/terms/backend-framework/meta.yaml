@@ -1,0 +1,11 @@
+id: term_backend_framework
+slug: backend-framework
+canonical_name: Backend Framework
+aliases: []
+primary_domain: backend-apis
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- Backend
+- Endpoint
+content_version: 1

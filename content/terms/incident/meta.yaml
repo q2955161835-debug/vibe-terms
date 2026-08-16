@@ -1,0 +1,11 @@
+id: term_incident
+slug: incident
+canonical_name: Incident
+aliases: []
+primary_domain: deployment-operations
+lifecycle_stage: deploy-maintain
+difficulty: advanced
+related_terms:
+- Observability
+- Infrastructure as Code
+content_version: 1

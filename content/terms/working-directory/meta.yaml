@@ -1,0 +1,11 @@
+id: term_working_directory
+slug: working-directory
+canonical_name: Working Directory
+aliases: []
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: intermediate
+related_terms:
+- Directory
+- Shell
+content_version: 1

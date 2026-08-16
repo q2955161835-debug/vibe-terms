@@ -1,12 +1,10 @@
 id: term_api
 slug: api
 canonical_name: API
-aliases:
-- Application Programming Interface
-primary_domain: web-basics
-lifecycle_stage: interface-logic
+aliases: []
+primary_domain: backend-apis
+lifecycle_stage: data-identity
 difficulty: beginner
 related_terms:
-- Frontend
-- Backend
+- JSON
 content_version: 1

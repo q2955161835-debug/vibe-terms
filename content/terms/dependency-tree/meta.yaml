@@ -1,0 +1,10 @@
+id: term_dependency_tree
+slug: dependency-tree
+canonical_name: Dependency Tree
+aliases: []
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: advanced
+related_terms:
+- Artifact
+content_version: 1

@@ -1,0 +1,11 @@
+id: term_margin
+slug: margin
+canonical_name: Margin
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- Space
+- Padding
+content_version: 1

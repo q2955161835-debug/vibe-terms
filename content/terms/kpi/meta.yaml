@@ -1,0 +1,11 @@
+id: term_kpi
+slug: kpi
+canonical_name: KPI
+aliases: []
+primary_domain: product-requirements
+lifecycle_stage: requirements
+difficulty: intermediate
+related_terms:
+- User Research
+- North Star Metric
+content_version: 1

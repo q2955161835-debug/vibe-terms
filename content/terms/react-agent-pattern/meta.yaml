@@ -1,0 +1,11 @@
+id: term_react_agent_pattern
+slug: react-agent-pattern
+canonical_name: ReAct
+aliases: []
+primary_domain: ai-vibe
+lifecycle_stage: requirements
+difficulty: beginner
+related_terms:
+- Tool Calling
+- Agent Loop
+content_version: 1

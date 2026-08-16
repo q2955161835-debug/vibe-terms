@@ -1,0 +1,11 @@
+id: term_field
+slug: field
+canonical_name: Field
+aliases: []
+primary_domain: data-databases
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- Record
+- Primary Key
+content_version: 1

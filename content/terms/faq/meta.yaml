@@ -1,0 +1,11 @@
+id: term_faq
+slug: faq
+canonical_name: FAQ
+aliases: []
+primary_domain: ui-ux
+lifecycle_stage: design
+difficulty: intermediate
+related_terms:
+- Footer
+- Pricing
+content_version: 1

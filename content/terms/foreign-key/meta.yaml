@@ -1,0 +1,11 @@
+id: term_foreign_key
+slug: foreign-key
+canonical_name: Foreign Key
+aliases: []
+primary_domain: data-databases
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- Primary Key
+- Relationship
+content_version: 1

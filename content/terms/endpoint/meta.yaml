@@ -1,0 +1,12 @@
+id: term_endpoint
+slug: endpoint
+canonical_name: Endpoint
+aliases:
+- Route & Endpoint
+primary_domain: backend-apis
+lifecycle_stage: data-identity
+difficulty: beginner
+related_terms:
+- Backend Framework
+- REST
+content_version: 1

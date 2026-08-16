@@ -1,0 +1,10 @@
+title: Tailwind CSS
+short_definition: 'Tailwind CSS — термин из раздела «Фронтенд-разработка». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A utility-first CSS framework that composes small predefined classes directly in markup to build custom designs.'
+analogy: Tailwind CSS можно представить как подписанный инструмент в наборе разработчика; на практике всё равно нужно проверить код, поток данных и пользовательский сценарий.
+mechanism: 'Tailwind CSS — термин из раздела «Фронтенд-разработка». Русский текст пока является черновиком до редакторской проверки. Эталонное определение на английском: A utility-first CSS framework that composes small predefined classes directly in markup to build custom designs.'
+why_it_matters: Понимание Tailwind CSS помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+project_example: Понимание Tailwind CSS помогает точнее объяснить ИИ, какую часть системы вы имеете в виду, и потребовать проверяемые доказательства результата.
+ai_prompt_example: Объясни роль Tailwind CSS в этом проекте. Укажи затронутые файлы или границы системы, внеси минимально необходимое изменение и опиши способ проверки.
+common_mistake: Считать само название Tailwind CSS доказательством правильности реализации и не проверять поведение, поток данных и сценарии отказа.
+status: draft
+source_content_version: 1

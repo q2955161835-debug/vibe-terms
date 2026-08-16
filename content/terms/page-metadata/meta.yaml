@@ -1,0 +1,11 @@
+id: term_page_metadata
+slug: page-metadata
+canonical_name: Page Metadata
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- Title Tag
+- Favicon
+content_version: 1

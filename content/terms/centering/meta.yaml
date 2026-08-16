@@ -1,0 +1,11 @@
+id: term_centering
+slug: centering
+canonical_name: Centering
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- Position
+- Box Model
+content_version: 1

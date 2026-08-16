@@ -1,0 +1,11 @@
+id: term_path
+slug: path
+canonical_name: Path
+aliases: []
+primary_domain: computing-env
+lifecycle_stage: environment
+difficulty: intermediate
+related_terms:
+- File System
+- Directory
+content_version: 1

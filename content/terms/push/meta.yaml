@@ -1,0 +1,11 @@
+id: term_push
+slug: push
+canonical_name: Push
+aliases: []
+primary_domain: git-collaboration
+lifecycle_stage: environment
+difficulty: beginner
+related_terms:
+- Pull
+- Clone
+content_version: 1

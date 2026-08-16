@@ -1,0 +1,11 @@
+id: term_overflow
+slug: overflow
+canonical_name: Overflow
+aliases: []
+primary_domain: frontend-engineering
+lifecycle_stage: interface-logic
+difficulty: beginner
+related_terms:
+- Box Model
+- Typography
+content_version: 1
