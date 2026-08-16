@@ -54,6 +54,22 @@ CSS_FALLBACK_LOCALES = {
     "de": "en",
     "ru": "en",
 }
+CANONICAL_EXPLAINER_SLUGS = (
+    "access-token",
+    "api",
+    "authentication",
+    "box-model",
+    "component",
+    "css",
+    "dom",
+    "git",
+    "mock",
+    "orm",
+    "request",
+    "retrieval-augmented-generation",
+    "state",
+    "testing",
+)
 
 
 def _transition_milliseconds(value: str) -> float:
@@ -188,7 +204,11 @@ def test_root_landing_exposes_search_faq_and_all_visual_links(
         assert page.locator(".desktop-search [data-search-input]").is_visible()
         assert page.locator(".landing-faq").is_visible()
         assert page.locator(".landing-visuals li").count() == 14
-        assert page.locator(".landing-visuals li a").first.is_visible()
+        for slug in CANONICAL_EXPLAINER_SLUGS:
+            link = page.locator(f'.landing-visuals a[href="/en/terms/{slug}/"]')
+            assert link.count() == 1, slug
+            assert link.is_visible(), slug
+            assert link.get_attribute("href") == f"/en/terms/{slug}/"
         assert page.evaluate(
             "document.documentElement.scrollWidth <= document.documentElement.clientWidth"
         )
