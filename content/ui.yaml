@@ -52,6 +52,49 @@ en:
   queued: Added to learning
   category_back: Back to knowledge map
   search_error: The term index could not be loaded.
+  practice: Practice
+  language: Language
+  close: Close
+  aliases: Aliases
+  bookmark: Bookmark
+  user_says: You may say
+  short_definition: Short definition
+  prerequisites: Prerequisites
+  no_prerequisites: No required prerequisite
+  mechanism: How it works
+  boundary: Boundary
+  example: Dynamic example
+  context: Context
+  verify: Verify
+  verification_boundary: Verification boundary
+  example_noscript: Both example states are shown in the text above; JavaScript only enhances the controls.
+  project_example: Project example
+  exercise: Exercise
+  check_answer: Check answer
+  project_paths: Project paths
+  sources: Sources and provenance
+  internal_provenance: internal provenance
+  term_sequence: Term sequence
+  knowledge_intro: Browse domains, topics, and prerequisite relationships.
+  compatibility_notice: This category route is kept for compatibility.
+  path_intro: Learn terms in the order a real project needs them.
+  chapters_unit: chapters
+  next_chapter: Next chapter
+  outcome: Outcome
+  checkpoint: Checkpoint
+  mark_complete: Mark complete locally
+  practice_eyebrow: LOCAL PRACTICE
+  practice_intro: Questions are static; attempts and review timing stay in this browser.
+  scope: Scope
+  local_data: Local data
+  export: Export
+  import: Import
+  clear_local: Clear local data
+  all_questions: All questions
+  practice_complete: Practice complete.
+  open_exercise: Open exercise
+  next: Next
+  practice_unavailable: Practice data is unavailable.
 zh-cn:
   skip: 跳到主要内容
   home: 探索
@@ -106,6 +149,49 @@ zh-cn:
   queued: 已加入学习
   category_back: 返回知识地图
   search_error: 术语索引载入失败。
+  practice: 练习
+  language: 语言
+  close: 关闭
+  aliases: 别名
+  bookmark: 收藏
+  user_says: 你可以这样说
+  short_definition: 简短定义
+  prerequisites: 前置知识
+  no_prerequisites: 无必需前置知识
+  mechanism: 工作方式
+  boundary: 适用边界
+  example: 动态示例
+  context: 情境
+  verify: 验证
+  verification_boundary: 验证边界
+  example_noscript: 上方文字已包含示例的两种状态；JavaScript 只用于增强切换控件。
+  project_example: 项目示例
+  exercise: 小练习
+  check_answer: 检查答案
+  project_paths: 项目路径
+  sources: 来源与依据
+  internal_provenance: 站内内容依据
+  term_sequence: 词条顺序
+  knowledge_intro: 按领域、主题和前置关系浏览术语。
+  compatibility_notice: 此分类地址仅为兼容旧链接而保留。
+  path_intro: 按真实项目会用到这些术语的顺序学习。
+  chapters_unit: 个章节
+  next_chapter: 下一章
+  outcome: 学习成果
+  checkpoint: 阶段检查
+  mark_complete: 在本地标记完成
+  practice_eyebrow: 本地练习
+  practice_intro: 题目为静态内容；答题记录和复习时间只保存在当前浏览器。
+  scope: 练习范围
+  local_data: 本地数据
+  export: 导出
+  import: 导入
+  clear_local: 清除本地数据
+  all_questions: 全部题目
+  practice_complete: 本轮练习已完成。
+  open_exercise: 打开练习
+  next: 下一题
+  practice_unavailable: 暂时无法载入练习数据。
 zh-tw:
   skip: 跳到主要內容
   home: 探索
@@ -160,6 +246,49 @@ zh-tw:
   queued: 已加入學習
   category_back: 返回知識地圖
   search_error: 術語索引載入失敗。
+  practice: 練習
+  language: 語言
+  close: 關閉
+  aliases: 別名
+  bookmark: 收藏
+  user_says: 你可以這樣說
+  short_definition: 簡短定義
+  prerequisites: 前置知識
+  no_prerequisites: 無必需前置知識
+  mechanism: 運作方式
+  boundary: 適用邊界
+  example: 動態範例
+  context: 情境
+  verify: 驗證
+  verification_boundary: 驗證邊界
+  example_noscript: 上方文字已包含範例的兩種狀態；JavaScript 僅用於增強切換控制。
+  project_example: 專案範例
+  exercise: 小練習
+  check_answer: 檢查答案
+  project_paths: 專案路徑
+  sources: 來源與依據
+  internal_provenance: 站內內容依據
+  term_sequence: 詞條順序
+  knowledge_intro: 依領域、主題與前置關係瀏覽術語。
+  compatibility_notice: 此分類網址僅為相容舊連結而保留。
+  path_intro: 依真實專案會用到這些術語的順序學習。
+  chapters_unit: 個章節
+  next_chapter: 下一章
+  outcome: 學習成果
+  checkpoint: 階段檢查
+  mark_complete: 在本機標記完成
+  practice_eyebrow: 本機練習
+  practice_intro: 題目為靜態內容；作答記錄和複習時間只保存在目前瀏覽器。
+  scope: 練習範圍
+  local_data: 本機資料
+  export: 匯出
+  import: 匯入
+  clear_local: 清除本機資料
+  all_questions: 全部題目
+  practice_complete: 本輪練習已完成。
+  open_exercise: 開啟練習
+  next: 下一題
+  practice_unavailable: 暫時無法載入練習資料。
 ja:
   skip: メインコンテンツへ移動
   home: 探索
@@ -214,6 +343,49 @@ ja:
   queued: 学習に追加しました
   category_back: 知識マップへ戻る
   search_error: 用語インデックスを読み込めませんでした。
+  practice: 練習
+  language: 言語
+  close: 閉じる
+  aliases: 別名
+  bookmark: ブックマーク
+  user_says: こう言えます
+  short_definition: 短い定義
+  prerequisites: 前提知識
+  no_prerequisites: 必須の前提知識はありません
+  mechanism: 仕組み
+  boundary: 適用範囲
+  example: 動的な例
+  context: 文脈
+  verify: 検証
+  verification_boundary: 検証の境界
+  example_noscript: 上の文章には両方の状態が含まれています。JavaScript は切り替え操作だけを拡張します。
+  project_example: プロジェクト例
+  exercise: ミニ練習
+  check_answer: 答えを確認
+  project_paths: プロジェクトパス
+  sources: 出典と根拠
+  internal_provenance: サイト内の根拠
+  term_sequence: 用語の順序
+  knowledge_intro: 分野、トピック、前提関係から用語を探せます。
+  compatibility_notice: この分類 URL は古いリンクとの互換性のために残しています。
+  path_intro: 実際のプロジェクトで必要になる順番に用語を学びます。
+  chapters_unit: 章
+  next_chapter: 次の章
+  outcome: 学習成果
+  checkpoint: チェックポイント
+  mark_complete: この端末で完了にする
+  practice_eyebrow: ローカル練習
+  practice_intro: 問題は静的です。回答履歴と復習時刻はこのブラウザだけに保存されます。
+  scope: 練習範囲
+  local_data: ローカルデータ
+  export: エクスポート
+  import: インポート
+  clear_local: ローカルデータを消去
+  all_questions: すべての問題
+  practice_complete: 今回の練習は完了です。
+  open_exercise: 練習を開く
+  next: 次へ
+  practice_unavailable: 練習データを読み込めません。
 ko:
   skip: 주요 콘텐츠로 건너뛰기
   home: 탐색
@@ -268,6 +440,49 @@ ko:
   queued: 학습에 추가됨
   category_back: 지식 지도로 돌아가기
   search_error: 용어 색인을 불러오지 못했습니다.
+  practice: 연습
+  language: 언어
+  close: 닫기
+  aliases: 별칭
+  bookmark: 북마크
+  user_says: 이렇게 말할 수 있어요
+  short_definition: 짧은 정의
+  prerequisites: 선수 지식
+  no_prerequisites: 필수 선수 지식 없음
+  mechanism: 작동 방식
+  boundary: 적용 경계
+  example: 동적 예시
+  context: 맥락
+  verify: 검증
+  verification_boundary: 검증 경계
+  example_noscript: 위의 텍스트에 두 상태가 모두 포함되어 있으며 JavaScript는 전환 컨트롤만 향상합니다.
+  project_example: 프로젝트 예시
+  exercise: 미니 연습
+  check_answer: 답 확인
+  project_paths: 프로젝트 경로
+  sources: 출처와 근거
+  internal_provenance: 사이트 내부 근거
+  term_sequence: 용어 순서
+  knowledge_intro: 분야, 주제, 선수 관계로 용어를 살펴보세요.
+  compatibility_notice: 이 분류 주소는 이전 링크 호환을 위해 유지됩니다.
+  path_intro: 실제 프로젝트에서 필요한 순서대로 용어를 학습하세요.
+  chapters_unit: 개 챕터
+  next_chapter: 다음 챕터
+  outcome: 학습 결과
+  checkpoint: 체크포인트
+  mark_complete: 이 브라우저에서 완료로 표시
+  practice_eyebrow: 로컬 연습
+  practice_intro: 문제는 정적이며 답안 기록과 복습 시각은 이 브라우저에만 저장됩니다.
+  scope: 연습 범위
+  local_data: 로컬 데이터
+  export: 내보내기
+  import: 가져오기
+  clear_local: 로컬 데이터 지우기
+  all_questions: 모든 문제
+  practice_complete: 이번 연습을 마쳤습니다.
+  open_exercise: 연습 열기
+  next: 다음
+  practice_unavailable: 연습 데이터를 불러올 수 없습니다.
 de:
   skip: Zum Hauptinhalt springen
   home: Entdecken
@@ -322,6 +537,49 @@ de:
   queued: Zum Lernen hinzugefügt
   category_back: Zurück zur Wissenskarte
   search_error: Der Begriffsindex konnte nicht geladen werden.
+  practice: Üben
+  language: Sprache
+  close: Schließen
+  aliases: Aliasse
+  bookmark: Merken
+  user_says: So könntest du es sagen
+  short_definition: Kurzdefinition
+  prerequisites: Voraussetzungen
+  no_prerequisites: Keine erforderlichen Vorkenntnisse
+  mechanism: Funktionsweise
+  boundary: Abgrenzung
+  example: Dynamisches Beispiel
+  context: Kontext
+  verify: Prüfen
+  verification_boundary: Prüfgrenze
+  example_noscript: Beide Beispielzustände stehen im Text oben; JavaScript erweitert nur die Bedienelemente.
+  project_example: Projektbeispiel
+  exercise: Miniübung
+  check_answer: Antwort prüfen
+  project_paths: Projektpfade
+  sources: Quellen und Herkunft
+  internal_provenance: interne Herkunft
+  term_sequence: Begriffsfolge
+  knowledge_intro: Durchsuche Bereiche, Themen und Voraussetzungen.
+  compatibility_notice: Diese Kategorie-URL bleibt für alte Links erhalten.
+  path_intro: Lerne Begriffe in der Reihenfolge, in der ein echtes Projekt sie braucht.
+  chapters_unit: Kapitel
+  next_chapter: Nächstes Kapitel
+  outcome: Lernergebnis
+  checkpoint: Kontrollpunkt
+  mark_complete: Lokal als abgeschlossen markieren
+  practice_eyebrow: LOKALES ÜBEN
+  practice_intro: Die Fragen sind statisch; Antworten und Wiederholungszeiten bleiben in diesem Browser.
+  scope: Übungsbereich
+  local_data: Lokale Daten
+  export: Exportieren
+  import: Importieren
+  clear_local: Lokale Daten löschen
+  all_questions: Alle Fragen
+  practice_complete: Übung abgeschlossen.
+  open_exercise: Übung öffnen
+  next: Weiter
+  practice_unavailable: Übungsdaten sind nicht verfügbar.
 ru:
   skip: Перейти к основному содержимому
   home: Обзор
@@ -376,6 +634,49 @@ ru:
   queued: Добавлено в обучение
   category_back: Назад к карте знаний
   search_error: Не удалось загрузить индекс терминов.
+  practice: Практика
+  language: Язык
+  close: Закрыть
+  aliases: Псевдонимы
+  bookmark: В закладки
+  user_says: Можно сказать так
+  short_definition: Краткое определение
+  prerequisites: Предварительные знания
+  no_prerequisites: Обязательных предварительных знаний нет
+  mechanism: Как это работает
+  boundary: Граница применения
+  example: Динамический пример
+  context: Контекст
+  verify: Проверить
+  verification_boundary: Граница проверки
+  example_noscript: Оба состояния примера описаны выше; JavaScript лишь улучшает элементы переключения.
+  project_example: Пример в проекте
+  exercise: Мини-упражнение
+  check_answer: Проверить ответ
+  project_paths: Пути проекта
+  sources: Источники и происхождение
+  internal_provenance: внутреннее происхождение
+  term_sequence: Порядок терминов
+  knowledge_intro: Просматривайте термины по областям, темам и предварительным связям.
+  compatibility_notice: Этот адрес категории сохранён для совместимости со старыми ссылками.
+  path_intro: Изучайте термины в порядке, в котором они нужны реальному проекту.
+  chapters_unit: глав
+  next_chapter: Следующая глава
+  outcome: Результат обучения
+  checkpoint: Контрольная точка
+  mark_complete: Отметить выполненным локально
+  practice_eyebrow: ЛОКАЛЬНАЯ ПРАКТИКА
+  practice_intro: Вопросы статичны; ответы и время повторения хранятся только в этом браузере.
+  scope: Область практики
+  local_data: Локальные данные
+  export: Экспорт
+  import: Импорт
+  clear_local: Очистить локальные данные
+  all_questions: Все вопросы
+  practice_complete: Практика завершена.
+  open_exercise: Открыть упражнение
+  next: Далее
+  practice_unavailable: Данные практики недоступны.
 hi:
   skip: मुख्य सामग्री पर जाएँ
   home: खोजें
@@ -430,3 +731,46 @@ hi:
   queued: सीखने में जोड़ा गया
   category_back: ज्ञान मानचित्र पर लौटें
   search_error: शब्द सूची लोड नहीं हो सकी।
+  practice: अभ्यास
+  language: भाषा
+  close: बंद करें
+  aliases: अन्य नाम
+  bookmark: सहेजें
+  user_says: आप ऐसे कह सकते हैं
+  short_definition: संक्षिप्त परिभाषा
+  prerequisites: पहले की ज़रूरी जानकारी
+  no_prerequisites: कोई अनिवार्य पूर्वज्ञान नहीं
+  mechanism: यह कैसे काम करता है
+  boundary: उपयोग की सीमा
+  example: गतिशील उदाहरण
+  context: संदर्भ
+  verify: जाँचें
+  verification_boundary: सत्यापन सीमा
+  example_noscript: उदाहरण की दोनों अवस्थाएँ ऊपर के पाठ में हैं; JavaScript केवल नियंत्रण बेहतर करता है।
+  project_example: प्रोजेक्ट उदाहरण
+  exercise: छोटा अभ्यास
+  check_answer: उत्तर जाँचें
+  project_paths: प्रोजेक्ट पथ
+  sources: स्रोत और आधार
+  internal_provenance: साइट के भीतर का आधार
+  term_sequence: शब्द क्रम
+  knowledge_intro: क्षेत्रों, विषयों और पूर्वज्ञान संबंधों से शब्द देखें।
+  compatibility_notice: यह श्रेणी पता पुराने लिंक की संगतता के लिए रखा गया है।
+  path_intro: शब्दों को उसी क्रम में सीखें जिसमें वास्तविक प्रोजेक्ट को उनकी आवश्यकता होती है।
+  chapters_unit: अध्याय
+  next_chapter: अगला अध्याय
+  outcome: सीखने का परिणाम
+  checkpoint: जाँच बिंदु
+  mark_complete: लोकल रूप से पूरा चिह्नित करें
+  practice_eyebrow: लोकल अभ्यास
+  practice_intro: प्रश्न स्थिर हैं; उत्तर और दोहराने का समय केवल इसी ब्राउज़र में रहता है।
+  scope: अभ्यास सीमा
+  local_data: लोकल डेटा
+  export: निर्यात
+  import: आयात
+  clear_local: लोकल डेटा साफ़ करें
+  all_questions: सभी प्रश्न
+  practice_complete: अभ्यास पूरा हुआ।
+  open_exercise: अभ्यास खोलें
+  next: अगला
+  practice_unavailable: अभ्यास डेटा उपलब्ध नहीं है।

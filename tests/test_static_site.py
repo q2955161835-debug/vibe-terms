@@ -146,6 +146,21 @@ def test_rich_term_page_is_readable_without_javascript(generated_site: Path) -> 
     assert "data-exercise-feedback" in html
     assert "data-bookmark" in html
     assert 'class="term-pagination"' in html
+    for localized_label in (
+        "你可以这样说",
+        "简短定义",
+        "前置知识",
+        "工作方式",
+        "适用边界",
+        "动态示例",
+        "项目示例",
+        "小练习",
+        "项目路径",
+        "来源与依据",
+    ):
+        assert localized_label in html
+    assert "<h2>Short definition</h2>" not in html
+    assert "<h2>Exercise</h2>" not in html
 
 
 def test_static_example_pages_do_not_render_inert_controls(generated_site: Path) -> None:
@@ -154,6 +169,28 @@ def test_static_example_pages_do_not_render_inert_controls(generated_site: Path)
     ).read_text(encoding="utf-8")
     assert 'data-example-mode="static"' in html
     assert "data-example-control" not in html
+
+
+def test_project_path_and_practice_chrome_are_localized(generated_site: Path) -> None:
+    chapter = (
+        generated_site
+        / "zh-cn"
+        / "paths"
+        / "personal-site"
+        / "project-goal"
+        / "index.html"
+    ).read_text(encoding="utf-8")
+    for label in ("学习成果", "术语", "阶段检查", "在本地标记完成"):
+        assert label in chapter
+    assert "<h2>Outcome</h2>" not in chapter
+
+    practice = (
+        generated_site / "zh-cn" / "practice" / "index.html"
+    ).read_text(encoding="utf-8")
+    for label in ("<h1>练习</h1>", "练习范围", "本地数据", "导出", "导入", "清除本地数据"):
+        assert label in practice
+    assert '"open_exercise":"打开练习"' in practice
+    assert "<h1>Practice</h1>" not in practice
 
 
 def test_global_header_search_and_mobile_dialog_exist_on_every_page_kind(

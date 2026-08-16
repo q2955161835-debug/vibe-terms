@@ -172,16 +172,16 @@ class SiteRenderer:
             f'<a href="{_esc(self.urls.page(f"/{locale}/terms/"))}">{_esc(self.label(locale, "terms", "Terms"))}</a>'
             f'<a href="{_esc(self.urls.page(f"/{locale}/knowledge/"))}">{_esc(self.label(locale, "knowledge", "Knowledge"))}</a>'
             f'<a href="{_esc(self.urls.page(f"/{locale}/paths/"))}">{_esc(self.label(locale, "route", "Paths"))}</a>'
-            f'<a href="{_esc(self.urls.page(f"/{locale}/practice/"))}">Practice</a>'
+            f'<a href="{_esc(self.urls.page(f"/{locale}/practice/"))}">{_esc(self.label(locale, "practice", "Practice"))}</a>'
             '</nav>'
             f'{self.search_form(locale)}'
             '<div class="nav-actions">'
             f'<button type="button" data-search-open aria-haspopup="dialog">{_esc(self.label(locale, "search_btn", "Search"))}</button>'
-            f'<select class="locale-picker" data-locale-picker data-path="{_esc(locale_path)}" aria-label="Language">{options}</select>'
+            f'<select class="locale-picker" data-locale-picker data-path="{_esc(locale_path)}" aria-label="{_esc(self.label(locale, "language", "Language"))}">{options}</select>'
             f'<button class="theme-toggle" type="button" aria-label="{_esc(self.label(locale, "theme_system", "Use system theme"))}">◐</button>'
             '</div></header>'
             '<dialog id="mobile-search-dialog">'
-            f'<button type="button" data-search-close aria-label="Close">×</button>{self.search_form(locale, mobile=True)}'
+            f'<button type="button" data-search-close aria-label="{_esc(self.label(locale, "close", "Close"))}">×</button>{self.search_form(locale, mobile=True)}'
             '</dialog>'
         )
 
@@ -212,6 +212,10 @@ class SiteRenderer:
             "theme_system",
             "theme_light",
             "theme_dark",
+            "practice_complete",
+            "open_exercise",
+            "next",
+            "practice_unavailable",
         )
         runtime = {key: self.ui[locale].get(key, key) for key in runtime_keys}
         return (
@@ -364,7 +368,7 @@ class SiteRenderer:
             domain_sections.append(
                 f'<section><h2><a href="{_esc(self.urls.page(f"/{locale}/knowledge/{domain["id"]}/"))}">{_esc(_domain_name(domain, locale))}</a></h2><ul class="topic-list">{topic_links}</ul><details><summary>{_esc(self.label(locale, "all_terms", "All terms"))}</summary><ul>{term_links}</ul></details></section>'
             )
-        body = f'<section class="category-hero"><div class="eyebrow">{_esc(title)}</div><h1>{_esc(title)}</h1><p>Browse domains, topics, and prerequisite relationships.</p></section><div class="knowledge-list">{"".join(domain_sections)}</div>'
+        body = f'<section class="category-hero"><div class="eyebrow">{_esc(title)}</div><h1>{_esc(title)}</h1><p>{_esc(self.label(locale, "knowledge_intro", "Browse domains, topics, and prerequisite relationships."))}</p></section><div class="knowledge-list">{"".join(domain_sections)}</div>'
         indexable = all(
             term["localized"][locale]["status"] == "published"
             for term in self.catalog.terms
@@ -408,7 +412,7 @@ class SiteRenderer:
                 indexable=indexable,
             )
             legacy_route = f"/{locale}/categories/{domain_id}/"
-            legacy_body = f'<section class="category-hero"><p>This category route is kept for compatibility.</p><h1>{_esc(domain_title)}</h1><a class="button" href="{_esc(self.urls.page(route))}">{_esc(self.label(locale, "knowledge", "Knowledge"))}</a></section>{self.term_list(locale, domain_terms)}'
+            legacy_body = f'<section class="category-hero"><p>{_esc(self.label(locale, "compatibility_notice", "This category route is kept for compatibility."))}</p><h1>{_esc(domain_title)}</h1><a class="button" href="{_esc(self.urls.page(route))}">{_esc(self.label(locale, "knowledge", "Knowledge"))}</a></section>{self.term_list(locale, domain_terms)}'
             self.add_page(
                 legacy_route,
                 self.shell(
@@ -443,19 +447,22 @@ class SiteRenderer:
                     indexable=topic_indexable,
                 )
 
-    def example_html(self, term: dict[str, Any], localized: dict[str, Any]) -> str:
+    def example_html(
+        self, locale: str, term: dict[str, Any], localized: dict[str, Any]
+    ) -> str:
         example = term["example"]
+        heading = _esc(self.label(locale, "example", "Dynamic example"))
         if example["mode"] == "static":
             return (
-                f'<section id="example" data-section="example"><h2>Example</h2><div class="example-module" data-example-root data-example-id="{_esc(example["id"])}" data-example-mode="static">'
+                f'<section id="example" data-section="example"><h2>{heading}</h2><div class="example-module" data-example-root data-example-id="{_esc(example["id"])}" data-example-mode="static">'
                 f'<p>{_esc(localized["project_example"])}</p><div data-example-state="context"><strong>{_esc(localized["title"])}</strong><p>{_esc(localized["mechanism"])}</p><p>{_esc(localized["boundary"])}</p></div></div></section>'
             )
         return (
-            f'<section id="example" data-section="example"><h2>Example</h2><div class="example-module" data-example-root data-example-id="{_esc(example["id"])}" data-example-mode="{_esc(example["mode"])}">'
-            f'<p>{_esc(localized["project_example"])}</p><div class="example-controls"><button type="button" data-example-control="context" aria-pressed="true">Context</button><button type="button" data-example-control="verify" aria-pressed="false">Verify</button></div>'
+            f'<section id="example" data-section="example"><h2>{heading}</h2><div class="example-module" data-example-root data-example-id="{_esc(example["id"])}" data-example-mode="{_esc(example["mode"])}">'
+            f'<p>{_esc(localized["project_example"])}</p><div class="example-controls"><button type="button" data-example-control="context" aria-pressed="true">{_esc(self.label(locale, "context", "Context"))}</button><button type="button" data-example-control="verify" aria-pressed="false">{_esc(self.label(locale, "verify", "Verify"))}</button></div>'
             f'<div data-example-state="context"><strong>{_esc(localized["title"])}</strong><p>{_esc(localized["mechanism"])}</p></div>'
-            f'<div data-example-state="verify"><strong>Verification boundary</strong><p>{_esc(localized["boundary"])}</p></div>'
-            '<noscript><p>Both example states are shown in the text above; JavaScript only enhances the controls.</p></noscript></div></section>'
+            f'<div data-example-state="verify"><strong>{_esc(self.label(locale, "verification_boundary", "Verification boundary"))}</strong><p>{_esc(localized["boundary"])}</p></div>'
+            f'<noscript><p>{_esc(self.label(locale, "example_noscript", "Both example states are shown in the text above; JavaScript only enhances the controls."))}</p></noscript></div></section>'
         )
 
     def exercise_html(self, locale: str, term: dict[str, Any]) -> str:
@@ -470,8 +477,8 @@ class SiteRenderer:
             for option in exercise["options"]
         )
         return (
-            f'<section id="exercise" data-section="exercise"><h2>Exercise</h2><div data-exercise data-content-status="{_esc(exercise["content_status"])}">'
-            f'<script type="application/json" data-exercise-payload>{_json(exercise)}</script><form><fieldset><legend>{_esc(exercise["prompt"])}</legend>{choices}</fieldset><button type="submit">Check answer</button></form><p data-exercise-feedback role="status" hidden></p></div></section>'
+            f'<section id="exercise" data-section="exercise"><h2>{_esc(self.label(locale, "exercise", "Exercise"))}</h2><div data-exercise data-content-status="{_esc(exercise["content_status"])}">'
+            f'<script type="application/json" data-exercise-payload>{_json(exercise)}</script><form><fieldset><legend>{_esc(exercise["prompt"])}</legend>{choices}</fieldset><button type="submit">{_esc(self.label(locale, "check_answer", "Check answer"))}</button></form><p data-exercise-feedback role="status" hidden></p></div></section>'
         )
 
     def build_term_pages(self, locale: str) -> None:
@@ -483,7 +490,7 @@ class SiteRenderer:
                 for slug in term.get("related_terms", [])
             ) or "—"
             sources = "".join(
-                f'<li><a href="{_esc(source["url"] if _is_external(source["url"]) else self.urls.page(source["url"]))}">{_esc(source["title"])}</a>{" <small>internal provenance</small>" if source.get("kind") == "internal-provenance" else ""}</li>'
+                f'<li><a href="{_esc(source["url"] if _is_external(source["url"]) else self.urls.page(source["url"]))}">{_esc(source["title"])}</a>{f" <small>{_esc(self.label(locale, 'internal_provenance', 'internal provenance'))}</small>" if source.get("kind") == "internal-provenance" else ""}</li>'
                 for source in localized["sources"]
             )
             status = (
@@ -494,7 +501,7 @@ class SiteRenderer:
             prerequisites = "".join(
                 self.term_link(locale, self.term_by_slug[slug])
                 for slug in term.get("prerequisites", [])
-            ) or "<span>No required prerequisite</span>"
+            ) or f'<span>{_esc(self.label(locale, "no_prerequisites", "No required prerequisite"))}</span>'
             memberships: list[str] = []
             for path in self.catalog.paths:
                 for chapter in path["chapters"]:
@@ -520,21 +527,21 @@ class SiteRenderer:
             aliases = " · ".join(str(alias) for alias in term.get("aliases", [])) or "—"
             body = (
                 f'<article class="term-detail" data-term-page data-term-slug="{_esc(term["slug"])}"><a class="back" href="{_esc(self.urls.page(f"/{locale}/terms/"))}">← {_esc(self.label(locale, "back", "Back"))}</a>'
-                f'<div class="term-heading"><div><div class="meta-line"><a href="{_esc(self.urls.page(f"/{locale}/knowledge/{term["primary_domain"]}/"))}">{_esc(term["primary_domain"])}</a>{status}</div><h1>{_esc(localized["title"])}</h1><p class="canonical">{_esc(term["canonical_name"])}</p><div class="term-fields"><span class="term-field">{_esc(term.get("difficulty", "—"))}</span><span class="term-field">{_esc(" / ".join(term.get("lifecycle_stages", [])))}</span></div><p><strong>Aliases:</strong> {_esc(aliases)}</p></div><button type="button" data-bookmark data-term-slug="{_esc(term["slug"])}" aria-pressed="false">☆ Bookmark</button></div>'
-                f'<section data-section="user-says"><h2>You may say</h2><p>{_esc(localized["user_says"])}</p></section>'
-                f'<section data-section="definition"><h2>Short definition</h2><p class="lead">{_esc(localized["short_definition"])}</p></section>'
-                f'<section data-section="prerequisites"><h2>Prerequisites</h2><div class="chip-row">{prerequisites}</div></section>'
-                f'<section data-section="mechanism"><h2>How it works</h2><p>{_esc(localized["mechanism"])}</p></section>'
-                f'<section data-section="boundary"><h2>Boundary</h2><p>{_esc(localized["boundary"])}</p></section>'
-                + self.example_html(term, localized)
+                f'<div class="term-heading"><div><div class="meta-line"><a href="{_esc(self.urls.page(f"/{locale}/knowledge/{term["primary_domain"]}/"))}">{_esc(term["primary_domain"])}</a>{status}</div><h1>{_esc(localized["title"])}</h1><p class="canonical">{_esc(term["canonical_name"])}</p><div class="term-fields"><span class="term-field">{_esc(term.get("difficulty", "—"))}</span><span class="term-field">{_esc(" / ".join(term.get("lifecycle_stages", [])))}</span></div><p><strong>{_esc(self.label(locale, "aliases", "Aliases"))}:</strong> {_esc(aliases)}</p></div><button type="button" data-bookmark data-term-slug="{_esc(term["slug"])}" aria-pressed="false">☆ {_esc(self.label(locale, "bookmark", "Bookmark"))}</button></div>'
+                f'<section data-section="user-says"><h2>{_esc(self.label(locale, "user_says", "You may say"))}</h2><p>{_esc(localized["user_says"])}</p></section>'
+                f'<section data-section="definition"><h2>{_esc(self.label(locale, "short_definition", "Short definition"))}</h2><p class="lead">{_esc(localized["short_definition"])}</p></section>'
+                f'<section data-section="prerequisites"><h2>{_esc(self.label(locale, "prerequisites", "Prerequisites"))}</h2><div class="chip-row">{prerequisites}</div></section>'
+                f'<section data-section="mechanism"><h2>{_esc(self.label(locale, "mechanism", "How it works"))}</h2><p>{_esc(localized["mechanism"])}</p></section>'
+                f'<section data-section="boundary"><h2>{_esc(self.label(locale, "boundary", "Boundary"))}</h2><p>{_esc(localized["boundary"])}</p></section>'
+                + self.example_html(locale, term, localized)
                 + f'<section data-section="why-it-matters"><h2>{_esc(self.label(locale, "why", "Why it matters"))}</h2><p>{_esc(localized["why_it_matters"])}</p></section>'
-                f'<section data-section="project-example"><h2>Project example</h2><p>{_esc(localized["project_example"])}</p></section>'
+                f'<section data-section="project-example"><h2>{_esc(self.label(locale, "project_example", "Project example"))}</h2><p>{_esc(localized["project_example"])}</p></section>'
                 + self.exercise_html(locale, term)
                 + f'<section class="prompt-box" data-section="agent-prompt"><h2>{_esc(self.label(locale, "prompt", "Tell your AI"))}</h2><pre>{_esc(localized["ai_prompt_example"])}</pre><button type="button" data-copy="{_esc(localized["ai_prompt_example"])}">{_esc(self.label(locale, "copy", "Copy"))}</button></section>'
                 f'<section data-section="common-mistake"><h2>{_esc(self.label(locale, "mistake", "Common mistake"))}</h2><p>{_esc(localized["common_mistake"])}</p></section>'
                 f'<section><h2>{_esc(self.label(locale, "related", "Related terms"))}</h2><div class="chip-row">{related}</div></section>'
-                f'<section data-section="project-paths"><h2>Project paths</h2><div class="chip-row">{"".join(memberships) or "—"}</div></section>'
-                f'<section data-section="sources"><h2>Sources and provenance</h2><ul>{sources}</ul></section><nav class="term-pagination" aria-label="Term sequence">{previous_link}{next_link}</nav></article>'
+                f'<section data-section="project-paths"><h2>{_esc(self.label(locale, "project_paths", "Project paths"))}</h2><div class="chip-row">{"".join(memberships) or "—"}</div></section>'
+                f'<section data-section="sources"><h2>{_esc(self.label(locale, "sources", "Sources and provenance"))}</h2><ul>{sources}</ul></section><nav class="term-pagination" aria-label="{_esc(self.label(locale, "term_sequence", "Term sequence"))}">{previous_link}{next_link}</nav></article>'
             )
             route = f"/{locale}/terms/{term['slug']}/"
             structured = {
@@ -564,10 +571,10 @@ class SiteRenderer:
     def build_paths(self, locale: str) -> None:
         title = self.label(locale, "route", "Project paths")
         cards = "".join(
-            f'<a class="path-card" href="{_esc(self.urls.page(f"/{locale}/paths/{path["slug"]}/"))}"><span class="domain-name">{_esc(path["localized"][locale]["title"])}</span><span class="domain-examples">{_esc(path["localized"][locale]["summary"])}</span><strong>{len(path["chapters"])} chapters</strong></a>'
+            f'<a class="path-card" href="{_esc(self.urls.page(f"/{locale}/paths/{path["slug"]}/"))}"><span class="domain-name">{_esc(path["localized"][locale]["title"])}</span><span class="domain-examples">{_esc(path["localized"][locale]["summary"])}</span><strong>{len(path["chapters"])} {_esc(self.label(locale, "chapters_unit", "chapters"))}</strong></a>'
             for path in self.catalog.paths
         )
-        body = f'<section class="category-hero"><div class="eyebrow">{_esc(title)}</div><h1>{_esc(title)}</h1><p>Learn terms in the order a real project needs them.</p></section><div class="domain-grid">{cards}</div>'
+        body = f'<section class="category-hero"><div class="eyebrow">{_esc(title)}</div><h1>{_esc(title)}</h1><p>{_esc(self.label(locale, "path_intro", "Learn terms in the order a real project needs them."))}</p></section><div class="domain-grid">{cards}</div>'
         indexable = all(
             path["localized"][locale]["status"] == "published"
             for path in self.catalog.paths
@@ -616,10 +623,10 @@ class SiteRenderer:
                 next_link = ""
                 if position + 1 < len(path["chapters"]):
                     next_chapter = path["chapters"][position + 1]
-                    next_link = f'<a class="button" href="{_esc(self.urls.page(f"/{locale}/paths/{path["slug"]}/{next_chapter["id"]}/"))}">Next chapter</a>'
+                    next_link = f'<a class="button" href="{_esc(self.urls.page(f"/{locale}/paths/{path["slug"]}/{next_chapter["id"]}/"))}">{_esc(self.label(locale, "next_chapter", "Next chapter"))}</a>'
                 chapter_body = (
                     f'<article class="path-chapter" data-path-slug="{_esc(path["slug"])}" data-chapter-id="{_esc(chapter["id"])}"><a class="back" href="{_esc(self.urls.page(route))}">← {_esc(localized["title"])}</a><p class="eyebrow">{chapter["order"]} / {len(path["chapters"])}</p><h1>{_esc(chapter_text["title"])}</h1><p class="lead">{_esc(chapter_text["summary"])}</p>'
-                    f'<section><h2>Outcome</h2><p>{_esc(chapter_text["outcome"])}</p></section><section><h2>Terms</h2><div class="chip-row">{term_links}</div></section><section><h2>Checkpoint</h2><p>{_esc(chapter_text["checkpoint"])}</p><label><input type="checkbox" data-path-complete/> Mark complete locally</label></section>{next_link}</article>'
+                    f'<section><h2>{_esc(self.label(locale, "outcome", "Outcome"))}</h2><p>{_esc(chapter_text["outcome"])}</p></section><section><h2>{_esc(self.label(locale, "terms", "Terms"))}</h2><div class="chip-row">{term_links}</div></section><section><h2>{_esc(self.label(locale, "checkpoint", "Checkpoint"))}</h2><p>{_esc(chapter_text["checkpoint"])}</p><label><input type="checkbox" data-path-complete/> {_esc(self.label(locale, "mark_complete", "Mark complete locally"))}</label></section>{next_link}</article>'
                 )
                 chapter_route = f"/{locale}/paths/{path['slug']}/{chapter['id']}/"
                 self.add_page(
@@ -646,15 +653,15 @@ class SiteRenderer:
             for exercise in exercises
         )
         body = (
-            '<section class="learn-header" data-practice-root><div><div class="eyebrow">LOCAL PRACTICE</div><h1>Practice</h1><p>Questions are static; attempts and review timing stay in this browser.</p></div>'
-            f'<label>Scope<select data-practice-scope><option value="all">All terms</option>{domains}</select></label><p data-practice-status role="status"></p><div data-practice-card></div></section>'
-            '<section><h2>Local data</h2><button type="button" data-export-local>Export</button><label>Import<input type="file" data-import-local accept="application/json"/></label><button type="button" data-clear-local>Clear local data</button></section>'
-            f'<noscript><section><h2>All questions</h2><ul>{fallback}</ul></section></noscript>'
+            f'<section class="learn-header" data-practice-root><div><div class="eyebrow">{_esc(self.label(locale, "practice_eyebrow", "LOCAL PRACTICE"))}</div><h1>{_esc(self.label(locale, "practice", "Practice"))}</h1><p>{_esc(self.label(locale, "practice_intro", "Questions are static; attempts and review timing stay in this browser."))}</p></div>'
+            f'<label>{_esc(self.label(locale, "scope", "Scope"))}<select data-practice-scope><option value="all">{_esc(self.label(locale, "all_terms", "All terms"))}</option>{domains}</select></label><p data-practice-status role="status"></p><div data-practice-card></div></section>'
+            f'<section><h2>{_esc(self.label(locale, "local_data", "Local data"))}</h2><button type="button" data-export-local>{_esc(self.label(locale, "export", "Export"))}</button><label>{_esc(self.label(locale, "import", "Import"))}<input type="file" data-import-local accept="application/json"/></label><button type="button" data-clear-local>{_esc(self.label(locale, "clear_local", "Clear local data"))}</button></section>'
+            f'<noscript><section><h2>{_esc(self.label(locale, "all_questions", "All questions"))}</h2><ul>{fallback}</ul></section></noscript>'
         )
         indexable = all(exercise["status"] == "published" for exercise in exercises)
         self.add_page(
             f"/{locale}/practice/",
-            self.shell(locale, "Practice", "Practice Vibe Coding terms", body, "/practice/", indexable=indexable),
+            self.shell(locale, self.label(locale, "practice", "Practice"), self.label(locale, "practice_intro", "Practice Vibe Coding terms"), body, "/practice/", indexable=indexable),
             indexable=indexable,
         )
 

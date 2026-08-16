@@ -34,6 +34,28 @@ CORE_EXAMPLE_MODES = {
     "testing": ("compare", "testing-evidence"),
 }
 
+BOUNDARY_TEMPLATES = {
+    "en": "Boundary: {definition} Check the concrete project context and the common mistake before treating the label as proof.",
+    "zh-cn": "边界：{definition} 使用这个术语前，请结合具体项目上下文，并核对下方的常见误区。",
+    "zh-tw": "邊界：{definition} 使用這個術語前，請結合具體專案脈絡，並核對下方的常見誤區。",
+    "ja": "境界：{definition} この用語を根拠として扱う前に、具体的なプロジェクトの文脈と下記のよくある誤解を確認してください。",
+    "ko": "경계: {definition} 이 용어를 근거로 사용하기 전에 구체적인 프로젝트 맥락과 아래의 흔한 오해를 확인하세요.",
+    "de": "Abgrenzung: {definition} Prüfe den konkreten Projektkontext und den häufigen Irrtum unten, bevor du die Bezeichnung als Beleg verwendest.",
+    "ru": "Граница: {definition} Прежде чем считать термин доказательством, проверьте контекст проекта и типичную ошибку ниже.",
+    "hi": "सीमा: {definition} इस नाम को प्रमाण मानने से पहले परियोजना का वास्तविक संदर्भ और नीचे दी गई सामान्य गलती जाँचें।",
+}
+
+EXERCISE_PROMPTS = {
+    "en": "{title}: choose the description that matches this term.",
+    "zh-cn": "{title}：选择最符合这个术语的描述。",
+    "zh-tw": "{title}：選擇最符合這個術語的描述。",
+    "ja": "{title}：この用語に最も合う説明を選んでください。",
+    "ko": "{title}: 이 용어와 가장 잘 맞는 설명을 선택하세요.",
+    "de": "{title}: Wähle die Beschreibung, die am besten zu diesem Begriff passt.",
+    "ru": "{title}: Выберите описание, которое лучше всего соответствует этому термину.",
+    "hi": "{title}: इस शब्द से सबसे मेल खाने वाला विवरण चुनें।",
+}
+
 
 def _read_yaml(path: Path) -> dict[str, Any]:
     try:
@@ -136,7 +158,7 @@ def _normalize_exercise(
     analogy = str(localized.get("analogy") or canonical_name)
     return {
         "type": "single-choice",
-        "prompt": f"{localized['title']}: choose the description that matches this term.",
+        "prompt": EXERCISE_PROMPTS[locale].format(title=localized["title"]),
         "options": [
             {"id": "definition", "label": definition},
             {"id": "mistake", "label": mistake},
@@ -179,7 +201,9 @@ def _normalize_localized(
     localized.setdefault("user_says", localized["project_example"])
     localized.setdefault(
         "boundary",
-        f"{localized['short_definition']} Check the concrete project context and the common mistake before treating the label as proof.",
+        BOUNDARY_TEMPLATES[locale].format(
+            definition=localized["short_definition"]
+        ),
     )
     localized["sources"] = _normalize_sources(slug, localized.get("sources"))
     localized["exercise"] = _normalize_exercise(localized, locale, canonical_name)

@@ -105,6 +105,24 @@ def test_non_english_drafts_remain_explicitly_unreviewed(catalog: Catalog) -> No
             assert localized["sources"] == term["localized"]["en"]["sources"]
 
 
+def test_generated_draft_learning_copy_uses_the_selected_locale(catalog: Catalog) -> None:
+    expected_markers = {
+        "zh-cn": ("边界：", "选择最符合这个术语的描述"),
+        "zh-tw": ("邊界：", "選擇最符合這個術語的描述"),
+        "ja": ("境界：", "この用語に最も合う説明を選んでください"),
+        "ko": ("경계:", "이 용어와 가장 잘 맞는 설명을 선택하세요"),
+        "de": ("Abgrenzung:", "Wähle die Beschreibung"),
+        "ru": ("Граница:", "Выберите описание"),
+        "hi": ("सीमा:", "इस शब्द से सबसे मेल खाने वाला विवरण चुनें"),
+    }
+    sample = next(term for term in catalog.terms if term["slug"] == "acceptance-criteria")
+    for locale, (boundary_marker, prompt_marker) in expected_markers.items():
+        localized = sample["localized"][locale]
+        assert boundary_marker in localized["boundary"]
+        assert prompt_marker in localized["exercise"]["prompt"]
+        assert "Check the concrete project context" not in localized["boundary"]
+
+
 def test_internal_source_fallback_is_labeled_as_provenance(catalog: Catalog) -> None:
     legacy = next(term for term in catalog.terms if term["slug"] == "api")
     assert legacy["localized"]["en"]["sources"] == [

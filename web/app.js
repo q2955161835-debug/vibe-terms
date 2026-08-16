@@ -523,6 +523,15 @@
   const localStateKey = 'vibe-terms-local-v2-fallback';
   const databaseName = 'vibe-terms-local-v2';
   const stores = ['termProgress', 'exerciseAttempts', 'pathProgress', 'bookmarks', 'recentViews'];
+  let platformMessages = {};
+  try {
+    platformMessages = JSON.parse(document.querySelector('#ui-messages')?.textContent || '{}');
+  } catch {
+    platformMessages = {};
+  }
+  const platformMessage = (key, fallback) => (
+    typeof platformMessages[key] === 'string' ? platformMessages[key] : fallback
+  );
 
   function escapeText(value) {
     return String(value ?? '').replace(/[&<>"']/g, (character) => ({
@@ -820,9 +829,9 @@
     let position = 0;
     const renderPractice = () => {
       const item = queue[position];
-      if (!item) { card.innerHTML = ''; status.textContent = 'Practice complete.'; return; }
+      if (!item) { card.innerHTML = ''; status.textContent = platformMessage('practice_complete', 'Practice complete.'); return; }
       status.textContent = `${position + 1} / ${queue.length}`;
-      card.innerHTML = `<h2>${escapeText(item.title)}</h2><p>${escapeText(item.question)}</p><a class="button-secondary" href="${escapeText(item.url)}">Open exercise</a><button type="button" data-practice-next>Next</button>`;
+      card.innerHTML = `<h2>${escapeText(item.title)}</h2><p>${escapeText(item.question)}</p><a class="button-secondary" href="${escapeText(item.url)}">${escapeText(platformMessage('open_exercise', 'Open exercise'))}</a><button type="button" data-practice-next>${escapeText(platformMessage('next', 'Next'))}</button>`;
       card.querySelector('[data-practice-next]').addEventListener('click', () => { position += 1; renderPractice(); });
     };
     const loadPractice = async () => {
@@ -836,7 +845,7 @@
       renderPractice();
     };
     scopeSelect?.addEventListener('change', loadPractice);
-    loadPractice().catch((error) => { console.error(error); status.textContent = 'Practice data is unavailable.'; });
+    loadPractice().catch((error) => { console.error(error); status.textContent = platformMessage('practice_unavailable', 'Practice data is unavailable.'); });
   }
 
   const exportButton = document.querySelector('[data-export-local]');
