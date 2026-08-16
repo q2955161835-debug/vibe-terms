@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import os
+from urllib.parse import urlsplit
 
 import pytest
 from playwright.sync_api import sync_playwright
@@ -81,6 +82,15 @@ def _transition_milliseconds(value: str) -> float:
         elif duration.endswith("s"):
             durations.append(float(duration.removesuffix("s")) * 1000)
     return max(durations, default=0.0)
+
+
+def _site_href(site_url: str, route: str) -> str:
+    """Use the test server's deployment path exactly once in link assertions."""
+    parsed = urlsplit(site_url)
+    prefix = parsed.path.rstrip("/")
+    assert not prefix or prefix.startswith("/")
+    assert route.startswith("/")
+    return f"{prefix}{route}"
 
 
 @pytest.mark.parametrize("viewport", EXPLAINER_VIEWPORTS)
@@ -205,10 +215,11 @@ def test_root_landing_exposes_search_faq_and_all_visual_links(
         assert page.locator(".landing-faq").is_visible()
         assert page.locator(".landing-visuals li").count() == 14
         for slug in CANONICAL_EXPLAINER_SLUGS:
-            link = page.locator(f'.landing-visuals a[href="/en/terms/{slug}/"]')
+            expected_href = _site_href(site_url, f"/en/terms/{slug}/")
+            link = page.locator(f'.landing-visuals a[href="{expected_href}"]')
             assert link.count() == 1, slug
             assert link.is_visible(), slug
-            assert link.get_attribute("href") == f"/en/terms/{slug}/"
+            assert link.get_attribute("href") == expected_href
         assert page.evaluate(
             "document.documentElement.scrollWidth <= document.documentElement.clientWidth"
         )
