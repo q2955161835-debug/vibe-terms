@@ -1,0 +1,56 @@
+locale: zh-cn
+title: 交付全栈应用
+summary: 将一个小型产品从范围定义推进到部署，连接浏览器界面、API、数据模型、测试和运行维护。
+status: published
+source_content_version: 1
+chapters:
+- id: product-scope
+  title: 界定产品范围
+  summary: 选择一个窄而明确的用户结果，并写出可观察的验收标准。
+  outcome: 包含验收标准的产品简介。
+  checkpoint: 你能说明首个版本刻意不做什么。
+- id: architecture
+  title: 绘制系统边界
+  summary: 画出浏览器、API 和数据职责，并标明重要流程的方向。
+  outcome: 小型架构图。
+  checkpoint: 每项职责只有一个所属层，不重复堆放业务规则。
+- id: data-model
+  title: 设计持久数据
+  summary: 在编写写入操作前定义记录、标识、关系和约束。
+  outcome: 有文档的数据模式。
+  checkpoint: 数据模型能防止产品不允许的重复或孤立数据。
+- id: api-design
+  title: 设计 API
+  summary: 为产品流程规定资源路由、请求验证、响应数据和状态码。
+  outcome: 含示例的 API 契约。
+  checkpoint: 客户端无需依赖未记录字段即可完成主要流程。
+- id: authentication
+  title: 保护用户访问
+  summary: 确定谁能执行操作，验证用户身份，并在服务端边界强制授权。
+  outcome: 访问策略和受保护端点流程。
+  checkpoint: 未认证或未授权请求不能读取或修改受保护数据。
+- id: frontend-flow
+  title: 构建浏览器流程
+  summary: 为主要任务实现清楚的加载、成功和空状态。
+  outcome: 主要用户流程的可用页面。
+  checkpoint: 浏览器状态与最近一次成功的服务端响应保持一致。
+- id: validation-and-errors
+  title: 让错误可行动
+  summary: 在输入和服务端边界进行验证，再告诉用户可以修复或重试什么。
+  outcome: 字段错误和可恢复请求错误。
+  checkpoint: 无效数据会被有用提示拒绝，且不会造成部分写入。
+- id: testing
+  title: 测试连接后的系统
+  summary: 以最小但有用的测试集覆盖业务规则、API 边界和主要浏览器旅程。
+  outcome: 关键流程的可重复测试套件。
+  checkpoint: 主要流程回归会让相关自动化测试失败。
+- id: deployment
+  title: 带运行检查地部署
+  summary: 配置非敏感环境变量名，自动化验证，并在发布后检查运行中的服务。
+  outcome: 部署流程和健康检查。
+  checkpoint: 已部署应用能在预期配置下完成主要流程。
+- id: iteration
+  title: 选择下一项改进
+  summary: 利用观察到的反馈和可衡量的产品信号，为一个小的后续改动排优先级。
+  outcome: 按优先级整理的下一迭代说明。
+  checkpoint: 下一项改动基于证据，而不是模糊的功能请求。

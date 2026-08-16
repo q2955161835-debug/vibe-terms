@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** 把当前 12 词匿名静态原型扩展为搜索入口清晰、知识地图与项目路径并立、词条信息完整、含动态示例与小练、可从 GitHub Pages 公开访问的 60 词核心版本。
+**Goal:** 把当前匿名静态原型扩展为 500 词、12 领域、8 语言的完整覆盖站点，并优先完成 60 个核心词的富内容体验、3 条项目路径、动态示例、小练和 GitHub Pages 公开上线。
 
 **Architecture:** 保留 Python 内容生成器、`content/` YAML、`web/` 原生 CSS/JavaScript 和主机无关静态产物。构建期完成 Schema/关系校验、页面与索引生成；浏览器只负责本地搜索、确定性交互示例、练习和 IndexedDB 进度，vinext/Worker 仍只是 Codex Sites 打包适配层。
 
@@ -16,17 +16,17 @@
 - 结构化学习数据使用 IndexedDB；localStorage 只保存小偏好和显式降级数据。
 - 所有核心页面关闭 JavaScript 后仍包含定义、示例说明、题目和普通链接。
 - 动态示例只使用已注册的确定性渲染器；禁止 `eval`、用户代码执行和第三方嵌入。
-- 首个内容门禁是 60 个规范词、3 条 8–12 章项目路径、每词至少 1 个示例模块和 1 道题、至少 20 个互动或分步示例。
+- 全量门禁是 500 个规范词、12 个一级领域、8 个语言文件和 3 条 8–12 章项目路径；每词至少 1 个示例模块和 1 道题，60 个核心词优先富化，至少 20 个互动或分步示例。
 - GitHub Pages 必须支持 `BASE_PATH=/vibe-terms`；自定义域名与 Codex Sites 使用空 `BASE_PATH`。
 - 不手工编辑或提交 `site/`、`dist/`、浏览器 profile、`.env` 或任何真实秘密。
-- 用户尚未传达正在整理的网页文件；开始 Task 1 前必须先由用户确认文件已落入仓库，再重新读取 `AGENTS.md`、分支、状态和差异。该门禁不授权创建 worktree。
-- 每个可观察行为先写失败测试；每个任务通过局部测试并由独立子 agent 验收后才提交。所有任务完成后再做一次独立正式验收。
+- 用户已在 2026-08-16 传达补充内容包并授权完整实施与 GitHub 静态网站上线；实施仍不授权创建 worktree。
+- 每个可观察行为先写失败测试；子任务只运行快速自动化检查，不设单独验收；所有任务完成后统一做一次独立正式验收。
 
 ---
 
 ## Scope and Release Boundary
 
-本计划只覆盖设计规范中的 M1 与 M2：完成体验骨架和 60 词核心体验。180 词、500 词和 8 条以上项目路径分别另写后续计划，不在本计划中顺带实现。
+补充内容包将本轮范围提升为“500 词完整覆盖 + 60 核心词优先富化”。本轮完成体验骨架、500 词/12 领域/8 语言静态页面、3 条项目路径与 GitHub Pages 上线；其余语言中的 `draft` 内容按真实状态展示并 `noindex`，不伪装为人工审校。
 
 执行时使用普通任务分支，不创建 Git worktree。网页整理文件进入仓库后，如果它们改变了下面的文件职责，先修订本计划的文件地图并让用户确认；不得用旧行号覆盖新实现。
 
@@ -63,7 +63,7 @@
 | `docs/deployment.md` | 根路径/子路径构建、发布和线上读回 |
 | `doc/验收/模块/验收-静态站点.md` | 长期模块验收项 |
 | `doc/验收/跨模块/验收-查词到项目学习.md` | 查词→示例→小练→路径的关键流程 |
-| `doc/验收/任务/验收-60词本地静态扩展.md` | 本任务汇总、风险和正式结论 |
+| `doc/验收/任务/验收-500词本地静态平台上线.md` | 本任务汇总、风险和正式结论 |
 
 ## Stable Interfaces
 
@@ -89,7 +89,7 @@ migrateLocalStateV1(rows, now)
 
 ---
 
-### Task 1: Define Content Schema v2 and the Eight-domain Taxonomy
+### Task 1: Define Content Schema v2 and the Twelve-domain Taxonomy
 
 **Files:**
 - Create: `scripts/vibe_terms/__init__.py`
@@ -119,9 +119,9 @@ from scripts.vibe_terms.content import load_catalog
 
 ROOT = Path(__file__).resolve().parents[1]
 
-def test_catalog_has_eight_domains_and_valid_topic_links() -> None:
+def test_catalog_has_twelve_domains_and_valid_topic_links() -> None:
     catalog = load_catalog(ROOT / "content", minimum_terms=12)
-    assert len(catalog.domains) == 8
+    assert len(catalog.domains) == 12
     domain_ids = {item["id"] for item in catalog.domains}
     assert {item["domain"] for item in catalog.topics} <= domain_ids
 
@@ -619,7 +619,7 @@ Expected: FAIL listing those 12 slugs.
 - [ ] **Step 4: Verify the batch and commit**
 
 Run: `python3 -m pytest tests/test_content_schema.py tests/test_static_site.py tests/test_render_harness.py -q -k "content or term or search"`
-Expected: PASS with all eight domains non-empty.
+Expected: PASS with all twelve domains non-empty.
 Commit: `content: add app backend and data foundation terms`
 
 ### Task 11: Expand the Corpus to 48 Terms — Data, Security, and Git
@@ -780,7 +780,7 @@ Expected: all commands exit 0; generated project-path links and assets resolve.
 - [ ] **Step 6: Commit without pushing or deploying yet**
 
 Commit: `ci: prepare verified GitHub Pages deployment`
-Do not push, enable Pages, or trigger deployment until the user separately authorizes that external action.
+The user's updated objective explicitly authorizes pushing the accepted `main`, enabling Pages, triggering deployment, and performing authoritative live read-back.
 
 ### Task 15: Update Project Records and Run Formal Independent Acceptance
 
@@ -790,7 +790,7 @@ Do not push, enable Pages, or trigger deployment until the user separately autho
 - Modify: `content/README.md`
 - Modify: `doc/验收/模块/验收-静态站点.md`
 - Create: `doc/验收/跨模块/验收-查词到项目学习.md`
-- Create: `doc/验收/任务/验收-60词本地静态扩展.md`
+- Create: `doc/验收/任务/验收-500词本地静态平台上线.md`
 - Modify: `doc/进展记录/<local-date>.md`
 - Move after completion: `docs/superpowers/plans/2026-08-16-vibe-terms-local-static-expansion.md` to `doc/归档/<acceptance-date>/`
 
@@ -823,7 +823,7 @@ The task acceptance conclusion is exactly one of `通过`、`有条件通过`、
 
 - [ ] **Step 6: Finish the branch according to repository rules**
 
-On `通过`, locally merge the task branch into `main`, verify `main`, then delete the old task branch. Push is separate and requires the user's decision. If acceptance is not `通过`, keep the branch and report the exact blocker.
+On `通过`, locally merge the task branch into `main`, verify `main`, delete the old task branch, push the accepted `main`, and verify GitHub Pages deployment. If acceptance is not `通过`, keep the branch and report the exact blocker.
 
 ---
 
@@ -831,7 +831,7 @@ On `通过`, locally merge the task branch into `main`, verify `main`, then dele
 
 | Area | Command or check | Required result |
 | --- | --- | --- |
-| Content | `python3 -m pytest tests/test_content_schema.py -q` | 60 terms, 8 locales, 3 paths, examples/exercises and valid relations |
+| Content | `python3 -m pytest tests/test_content_schema.py -q` | 500 terms, 12 domains, 8 locales, 3 paths, examples/exercises and valid relations |
 | Static output | `python3 -m pytest tests/test_static_site.py tests/test_packaging.py -q` | routes, links, indexes, SEO and archives pass |
 | JavaScript | `npm run test:js` | search, schedule, grading, queue and migration pass |
 | Render harness | `python3 -m pytest tests/test_render_harness.py -q` | desktop/mobile rendering, examples and no overflow pass |
@@ -843,8 +843,8 @@ On `通过`, locally merge the task branch into `main`, verify `main`, then dele
 
 ## Plan Self-review Record
 
-- Spec coverage: search position, taxonomy depth, rich term pages, examples, exercises, knowledge map, project paths, 60-term expansion, local-only persistence and GitHub Pages each map to explicit tasks.
-- Scope: stops at the 60-term M2 release; 180/500 expansion is intentionally deferred to new plans.
+- Spec coverage: search position, 12-domain taxonomy depth, rich term pages, examples, exercises, knowledge map, project paths, 500-term expansion, local-only persistence and GitHub Pages each map to explicit tasks.
+- Scope: delivers 500-term breadth with 60 core terms prioritized for richer interaction, while preserving truthful draft status for unreviewed translations.
 - Type consistency: all Python tasks use `BuildConfig`, `Catalog`, `load_catalog`, `UrlBuilder` and `build_site`; all browser tasks preserve existing `VibeCore` exports and add the five named functions.
-- Safety: execution is gated on receipt of the user's pending web files; no worktree, push, deployment or `AGENTS.md` edit is implied.
+- Safety: no worktree or `AGENTS.md` edit is implied; the updated user objective authorizes GitHub `main` synchronization and Pages deployment only after unified acceptance passes.
 - Placeholder scan: there are no undecided feature requirements or abbreviated implementation bodies.

@@ -1,0 +1,56 @@
+locale: zh-tw
+title: 交付全端應用
+summary: 將一個小型產品從範圍定義推進到部署，連接瀏覽器介面、API、資料模型、測試和營運維護。
+status: published
+source_content_version: 1
+chapters:
+- id: product-scope
+  title: 界定產品範圍
+  summary: 選擇一個窄而明確的使用者結果，並寫出可觀察的驗收標準。
+  outcome: 包含驗收標準的產品簡介。
+  checkpoint: 你能說明第一個版本刻意不做什麼。
+- id: architecture
+  title: 繪製系統邊界
+  summary: 畫出瀏覽器、API 和資料職責，並標明重要流程的方向。
+  outcome: 小型架構圖。
+  checkpoint: 每項職責只有一個所屬層，不重複堆放商業規則。
+- id: data-model
+  title: 設計持久資料
+  summary: 在編寫寫入操作前定義紀錄、識別碼、關係和約束。
+  outcome: 有文件的資料結構。
+  checkpoint: 資料模型能防止產品不允許的重複或孤立資料。
+- id: api-design
+  title: 設計 API
+  summary: 為產品流程規定資源路由、請求驗證、回應資料和狀態碼。
+  outcome: 含範例的 API 契約。
+  checkpoint: 用戶端無需依賴未記錄欄位即可完成主要流程。
+- id: authentication
+  title: 保護使用者存取
+  summary: 確定誰能執行操作，驗證使用者身分，並在伺服器端邊界強制授權。
+  outcome: 存取策略和受保護端點流程。
+  checkpoint: 未驗證或未授權請求不能讀取或修改受保護資料。
+- id: frontend-flow
+  title: 建構瀏覽器流程
+  summary: 為主要任務實作清楚的載入、成功和空白狀態。
+  outcome: 主要使用者流程的可用頁面。
+  checkpoint: 瀏覽器狀態與最近一次成功的伺服器端回應保持一致。
+- id: validation-and-errors
+  title: 讓錯誤可行動
+  summary: 在輸入和伺服器端邊界進行驗證，再告訴使用者可以修復或重試什麼。
+  outcome: 欄位錯誤和可恢復請求錯誤。
+  checkpoint: 無效資料會被有用提示拒絕，且不會造成部分寫入。
+- id: testing
+  title: 測試連接後的系統
+  summary: 以最小但有用的測試集覆蓋商業規則、API 邊界和主要瀏覽器旅程。
+  outcome: 關鍵流程的可重複測試套件。
+  checkpoint: 主要流程迴歸會讓相關自動化測試失敗。
+- id: deployment
+  title: 帶營運檢查地部署
+  summary: 設定非敏感環境變數名稱，自動化驗證，並在發布後檢查執行中的服務。
+  outcome: 部署流程和健康檢查。
+  checkpoint: 已部署應用能在預期設定下完成主要流程。
+- id: iteration
+  title: 選擇下一項改進
+  summary: 利用觀察到的回饋和可衡量的產品訊號，為一個小的後續改動排優先順序。
+  outcome: 按優先順序整理的下一次迭代說明。
+  checkpoint: 下一項改動基於證據，而不是模糊的功能請求。

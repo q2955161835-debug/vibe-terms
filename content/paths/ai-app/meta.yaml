@@ -1,0 +1,80 @@
+id: path_ai_app
+slug: ai-app
+status: published
+content_version: 1
+lifecycle_stages:
+- requirements
+- interface-logic
+- backend
+- delivery
+chapters:
+- id: problem-and-scope
+  order: 1
+  term_slugs:
+  - ai-application
+  - problem-statement
+  - mvp
+  - constraint
+- id: model-and-prompt
+  order: 2
+  term_slugs:
+  - large-language-model
+  - prompt
+  - system-prompt
+  - temperature
+- id: conversation-ui
+  order: 3
+  term_slugs:
+  - chat-ui
+  - streaming-response
+  - accessibility
+  - empty-state
+- id: application-state
+  order: 4
+  term_slugs:
+  - state
+  - conversation-history
+  - browser-storage
+  - stateless-request
+- id: api-contract
+  order: 5
+  term_slugs:
+  - api
+  - api-contract
+  - json
+  - endpoint
+- id: context-and-retrieval
+  order: 6
+  term_slugs:
+  - retrieval-augmented-generation
+  - embedding
+  - vector-database
+  - semantic-search
+- id: tool-safety
+  order: 7
+  term_slugs:
+  - tool-calling
+  - guardrail
+  - prompt-injection
+  - least-privilege
+- id: evaluation
+  order: 8
+  term_slugs:
+  - evaluation
+  - eval-dataset
+  - benchmark
+  - hallucination
+- id: error-and-observability
+  order: 9
+  term_slugs:
+  - error
+  - structured-log
+  - monitoring
+  - rate-limit
+- id: release-and-feedback
+  order: 10
+  term_slugs:
+  - deployment
+  - testing
+  - user-research
+  - product-backlog

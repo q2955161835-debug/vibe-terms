@@ -1,0 +1,79 @@
+id: path_personal_site
+slug: personal-site
+status: published
+content_version: 1
+lifecycle_stages:
+- requirements
+- interface-logic
+- delivery
+chapters:
+- id: project-goal
+  order: 1
+  term_slugs:
+  - problem-statement
+  - persona
+  - value-proposition
+  - mvp
+- id: audience-and-content
+  order: 2
+  term_slugs:
+  - user-research
+  - user-story
+  - faq
+  - cta
+- id: information-architecture
+  order: 3
+  term_slugs:
+  - information-architecture
+  - user-flow
+  - navbar
+  - footer
+- id: wireframe
+  order: 4
+  term_slugs:
+  - wireframe
+  - mockup
+  - card-grid
+  - card
+- id: html-structure
+  order: 5
+  term_slugs:
+  - html
+  - semantic-search
+  - header
+  - footer
+- id: visual-system
+  order: 6
+  term_slugs:
+  - css
+  - typography
+  - design-token
+  - space
+- id: responsive-accessibility
+  order: 7
+  term_slugs:
+  - responsive-design
+  - accessibility
+  - wcag
+  - keyboard-navigation
+- id: content-and-seo
+  order: 8
+  term_slugs:
+  - seo
+  - title-tag
+  - page-metadata
+  - open-graph
+- id: quality-check
+  order: 9
+  term_slugs:
+  - testing
+  - accessibility
+  - browser-devtools
+  - acceptance-criteria
+- id: publish-static-site
+  order: 10
+  term_slugs:
+  - git
+  - deployment
+  - ci
+  - rollback

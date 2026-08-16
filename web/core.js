@@ -47,6 +47,113 @@
     return 0;
   }
 
+  function scoreSearchDocument(document, rawQuery) {
+    const query = normalizeSearchText(rawQuery);
+    if (!query) return 0;
+
+    const title = normalizeSearchText(document?.title);
+    const canonicalName = normalizeSearchText(document?.canonical_name);
+    const aliases = Array.isArray(document?.aliases)
+      ? document.aliases.map(normalizeSearchText)
+      : [];
+    const summary = normalizeSearchText(
+      [document?.summary, document?.short_definition, document?.user_phrase]
+        .filter(Boolean)
+        .join(' '),
+    );
+    const typeBoost = document?.type === 'term' ? 8 : document?.type === 'topic' ? 4 : 0;
+
+    if (title === query || canonicalName === query) return 120 + typeBoost;
+    if (aliases.includes(query)) return 110 + typeBoost;
+    if (title.startsWith(query) || canonicalName.startsWith(query)) return 90 + typeBoost;
+    if (aliases.some((alias) => alias.startsWith(query))) return 84 + typeBoost;
+    if (
+      title.includes(query) ||
+      canonicalName.includes(query) ||
+      aliases.some((alias) => alias.includes(query))
+    ) return 68 + typeBoost;
+    if (summary.includes(query)) return 32 + typeBoost;
+    return 0;
+  }
+
+  function groupSearchResults(documents, query, limit = 8) {
+    const groups = { term: [], topic: [], path: [] };
+    const ranked = (Array.isArray(documents) ? documents : [])
+      .map((document) => ({ document, score: scoreSearchDocument(document, query) }))
+      .filter(({ document, score }) => score > 0 && groups[document.type])
+      .sort((left, right) =>
+        right.score - left.score ||
+        String(left.document.title).localeCompare(String(right.document.title)),
+      );
+
+    let used = 0;
+    for (const { document } of ranked) {
+      if (used >= Math.max(1, Number(limit) || 8)) break;
+      groups[document.type].push(document);
+      used += 1;
+    }
+    return groups;
+  }
+
+  function gradeExercise(exercise, selectedIds) {
+    const selected = [...new Set((Array.isArray(selectedIds) ? selectedIds : []).map(String))].sort();
+    const answer = (Array.isArray(exercise?.answer) ? exercise.answer : [exercise?.answer])
+      .filter((value) => value !== undefined && value !== null)
+      .map(String)
+      .sort();
+    return {
+      correct: selected.length === answer.length && selected.every((value, index) => value === answer[index]),
+      selected,
+      answer,
+      explanations: { ...(exercise?.explanations || {}) },
+    };
+  }
+
+  function buildPracticeQueue(exercises, attempts, scope = {}, now = Date.now()) {
+    const byId = new Map((attempts || []).map((attempt) => [attempt.exerciseId || attempt.id, attempt]));
+    const scoped = (exercises || []).filter((exercise) => {
+      if (scope.domain && exercise.domain !== scope.domain) return false;
+      if (scope.path && !(exercise.paths || []).includes(scope.path)) return false;
+      if (scope.bookmarks && !(scope.bookmarks || []).includes(exercise.slug)) return false;
+      return true;
+    });
+    return scoped.sort((left, right) => {
+      const leftAttempt = byId.get(left.id);
+      const rightAttempt = byId.get(right.id);
+      const priority = (attempt) => {
+        if (!attempt) return 2;
+        if (attempt.correct === false) return 0;
+        if (Number(attempt.nextReviewAt) <= now) return 1;
+        return 3;
+      };
+      return priority(leftAttempt) - priority(rightAttempt) ||
+        Number(leftAttempt?.nextReviewAt || 0) - Number(rightAttempt?.nextReviewAt || 0) ||
+        String(left.id).localeCompare(String(right.id));
+    });
+  }
+
+  function migrateLocalStateV1(input, now = Date.now()) {
+    if (input && !Array.isArray(input) && input.schemaVersion === 2) {
+      return {
+        schemaVersion: 2,
+        termProgress: Array.isArray(input.termProgress) ? input.termProgress.map((row) => ({ ...row })) : [],
+        exerciseAttempts: Array.isArray(input.exerciseAttempts) ? input.exerciseAttempts.map((row) => ({ ...row })) : [],
+        pathProgress: Array.isArray(input.pathProgress) ? input.pathProgress.map((row) => ({ ...row })) : [],
+        bookmarks: Array.isArray(input.bookmarks) ? [...input.bookmarks] : [],
+        recentViews: Array.isArray(input.recentViews) ? [...input.recentViews] : [],
+      };
+    }
+    const rows = Array.isArray(input) ? input : [];
+    return {
+      schemaVersion: 2,
+      termProgress: rows.map((row) => ({ ...row, updatedAt: Number(row.updatedAt) || now })),
+      exerciseAttempts: [],
+      pathProgress: [],
+      bookmarks: [],
+      recentViews: [],
+    };
+  }
+
   function clampDailyCount(value) {
     const parsed = Number(value);
     if (!Number.isFinite(parsed)) return DEFAULT_DAILY_COUNT;
@@ -162,10 +269,15 @@
   return {
     DAY_MS,
     buildDailyQueue,
+    buildPracticeQueue,
     clampDailyCount,
+    gradeExercise,
+    groupSearchResults,
     localDateKey,
+    migrateLocalStateV1,
     normalizeSearchText,
     scheduleReview,
+    scoreSearchDocument,
     scoreTerm,
   };
 });

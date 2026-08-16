@@ -9,6 +9,7 @@
 
   const root = document.documentElement;
   const locale = (root.lang || 'en').toLowerCase();
+  const basePath = String(root.dataset.basePath || '').replace(/\/$/, '');
   const messagesNode = document.querySelector('#ui-messages');
   let messages = {};
 
@@ -35,7 +36,7 @@
       } catch {
         // Navigation still works when locale persistence is blocked.
       }
-      window.location.href = `/${nextLocale}${path}`;
+      window.location.href = `${basePath}/${nextLocale}${path}`;
     });
   });
 
@@ -71,7 +72,7 @@
   let termsPromise;
   function loadTerms() {
     if (!termsPromise) {
-      termsPromise = fetch(`/assets/terms.${locale}.json`, {
+      termsPromise = fetch(`${basePath}/assets/terms.${locale}.json`, {
         credentials: 'same-origin',
       }).then((response) => {
         if (!response.ok) {
@@ -94,7 +95,7 @@
   }
 
   const homeSearchForm = document.querySelector('#home-search-form');
-  if (homeSearchForm) {
+  if (homeSearchForm && !homeSearchForm.hasAttribute('data-global-search')) {
     const input = homeSearchForm.querySelector('#home-search');
     const panel = homeSearchForm.querySelector('#search-results');
     let activeIndex = -1;
@@ -213,7 +214,7 @@
       event.preventDefault();
       const results = await renderResults();
       if (results[0]) {
-        window.location.href = `/${locale}/terms/${results[0].slug}/`;
+        window.location.href = `${basePath}/${locale}/terms/${results[0].slug}/`;
       } else {
         input.focus();
       }
@@ -507,4 +508,379 @@
 
     startButton?.addEventListener('click', beginLearning);
   }
+})();
+
+(() => {
+  'use strict';
+
+  const core = globalThis.VibeCore;
+  if (!core) return;
+
+  const root = document.documentElement;
+  const locale = (root.dataset.locale || root.lang || 'en').toLowerCase();
+  const basePath = String(root.dataset.basePath || '').replace(/\/$/, '');
+  const assetUrl = (name) => `${basePath}/assets/${name}`;
+  const localStateKey = 'vibe-terms-local-v2-fallback';
+  const databaseName = 'vibe-terms-local-v2';
+  const stores = ['termProgress', 'exerciseAttempts', 'pathProgress', 'bookmarks', 'recentViews'];
+
+  function escapeText(value) {
+    return String(value ?? '').replace(/[&<>"']/g, (character) => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+    })[character]);
+  }
+
+  function readFallback() {
+    try {
+      const parsed = JSON.parse(localStorage.getItem(localStateKey) || 'null');
+      return core.migrateLocalStateV1(parsed || [], Date.now());
+    } catch {
+      return core.migrateLocalStateV1([], Date.now());
+    }
+  }
+
+  function writeFallback(state) {
+    try {
+      localStorage.setItem(localStateKey, JSON.stringify(state));
+      return true;
+    } catch {
+      return false;
+    }
+  }
+
+  function openDatabase() {
+    if (!('indexedDB' in globalThis)) return Promise.resolve(null);
+    return new Promise((resolve) => {
+      const request = indexedDB.open(databaseName, 1);
+      request.onupgradeneeded = () => {
+        for (const store of stores) {
+          if (!request.result.objectStoreNames.contains(store)) {
+            const keyPath = store === 'termProgress' ? 'slug' : store === 'exerciseAttempts' ? 'exerciseId' : store === 'pathProgress' ? 'pathId' : 'id';
+            request.result.createObjectStore(store, { keyPath });
+          }
+        }
+      };
+      request.onsuccess = () => resolve(request.result);
+      request.onerror = () => resolve(null);
+      request.onblocked = () => resolve(null);
+    });
+  }
+
+  async function getAll(storeName) {
+    const database = await openDatabase();
+    if (!database) {
+      const fallback = readFallback();
+      const key = storeName === 'termProgress' ? 'termProgress' : storeName;
+      return Array.isArray(fallback[key]) ? fallback[key] : [];
+    }
+    return new Promise((resolve) => {
+      const request = database.transaction(storeName, 'readonly').objectStore(storeName).getAll();
+      request.onsuccess = () => { database.close(); resolve(request.result || []); };
+      request.onerror = () => { database.close(); resolve([]); };
+    });
+  }
+
+  async function put(storeName, row) {
+    const database = await openDatabase();
+    if (!database) {
+      const state = readFallback();
+      const key = storeName === 'termProgress' ? 'termProgress' : storeName;
+      const rows = Array.isArray(state[key]) ? state[key] : [];
+      const idKey = storeName === 'termProgress' ? 'slug' : storeName === 'exerciseAttempts' ? 'exerciseId' : storeName === 'pathProgress' ? 'pathId' : 'id';
+      const next = rows.filter((item) => item[idKey] !== row[idKey]);
+      next.push(row);
+      state[key] = next;
+      writeFallback(state);
+      return;
+    }
+    await new Promise((resolve) => {
+      const transaction = database.transaction(storeName, 'readwrite');
+      transaction.objectStore(storeName).put(row);
+      transaction.oncomplete = resolve;
+      transaction.onerror = resolve;
+    });
+    database.close();
+  }
+
+  async function migrateV1() {
+    const marker = 'vibe-terms-v2-migration-complete';
+    try {
+      if (localStorage.getItem(marker) === '1') return;
+      const rows = JSON.parse(localStorage.getItem('vibe-terms-progress-v1') || '[]');
+      if (typeof indexedDB.databases === 'function') {
+        const existing = await indexedDB.databases();
+        if (existing.some((entry) => entry.name === 'vibe-terms-guest-v1')) {
+          const legacyRows = await new Promise((resolve) => {
+            const request = indexedDB.open('vibe-terms-guest-v1');
+            request.onsuccess = () => {
+              const database = request.result;
+              if (!database.objectStoreNames.contains('progress')) { database.close(); resolve([]); return; }
+              const read = database.transaction('progress', 'readonly').objectStore('progress').getAll();
+              read.onsuccess = () => { database.close(); resolve(read.result || []); };
+              read.onerror = () => { database.close(); resolve([]); };
+            };
+            request.onerror = () => resolve([]);
+          });
+          const bySlug = new Map(rows.map((row) => [row.slug, row]));
+          for (const row of legacyRows) {
+            const previous = bySlug.get(row.slug);
+            if (!previous || Number(row.updatedAt || 0) > Number(previous.updatedAt || 0)) bySlug.set(row.slug, row);
+          }
+          rows.splice(0, rows.length, ...bySlug.values());
+        }
+      }
+      const migrated = core.migrateLocalStateV1(rows, Date.now());
+      for (const row of migrated.termProgress) await put('termProgress', row);
+      localStorage.setItem(marker, '1');
+    } catch {
+      // A failed migration remains retryable and never blocks browsing.
+    }
+  }
+
+  migrateV1();
+
+  let searchDocumentsPromise;
+  function loadSearchDocuments() {
+    if (!searchDocumentsPromise) {
+      const configured = root.dataset.searchIndex || assetUrl(`search-index.${locale}.json`);
+      searchDocumentsPromise = fetch(configured, { credentials: 'same-origin' }).then((response) => {
+        if (!response.ok) throw new Error(`Search index request failed (${response.status}).`);
+        return response.json();
+      }).then((payload) => Array.isArray(payload) ? payload : payload.documents || []);
+    }
+    return searchDocumentsPromise;
+  }
+
+  function searchGroupLabel(type) {
+    const labels = {
+      term: { en: 'Terms', 'zh-cn': '词条', 'zh-tw': '詞條' },
+      topic: { en: 'Topics', 'zh-cn': '主题', 'zh-tw': '主題' },
+      path: { en: 'Project paths', 'zh-cn': '项目路径', 'zh-tw': '專案路徑' },
+    };
+    return labels[type]?.[locale] || labels[type]?.en || type;
+  }
+
+  function renderGroupedResults(panel, groups) {
+    const rows = ['term', 'topic', 'path'].flatMap((type) => {
+      const documents = groups[type] || [];
+      if (!documents.length) return [];
+      return [
+        `<div class="search-group-label" role="presentation">${escapeText(searchGroupLabel(type))}</div>`,
+        ...documents.map((document, index) => `
+          <a class="search-result" role="option" aria-selected="false"
+             id="global-search-${type}-${index}" href="${escapeText(document.url)}">
+            <strong>${escapeText(document.title)}</strong>
+            <small>${escapeText(document.summary || document.short_definition || document.canonical_name)}</small>
+            <span>${escapeText(document.badge || searchGroupLabel(type))}</span>
+          </a>`),
+      ];
+    });
+    panel.innerHTML = rows.length
+      ? rows.join('')
+      : '<div class="search-empty" role="status">No matching term, topic, or path.</div>';
+    panel.hidden = false;
+  }
+
+  function bindGlobalSearch(form) {
+    if (form.dataset.searchBound === 'true') return;
+    form.dataset.searchBound = 'true';
+    const input = form.querySelector('[data-search-input], input[type="search"], input[role="combobox"]');
+    const panel = form.querySelector('[data-search-results], [role="listbox"]');
+    if (!input || !panel) return;
+    let active = -1;
+    let timer;
+
+    const options = () => Array.from(panel.querySelectorAll('[role="option"]'));
+    const activate = (index) => {
+      const rows = options();
+      if (!rows.length) return;
+      rows.forEach((row) => { row.classList.remove('is-active'); row.setAttribute('aria-selected', 'false'); });
+      active = (index + rows.length) % rows.length;
+      rows[active].classList.add('is-active');
+      rows[active].setAttribute('aria-selected', 'true');
+      input.setAttribute('aria-activedescendant', rows[active].id);
+      rows[active].scrollIntoView({ block: 'nearest' });
+    };
+
+    const render = async () => {
+      const query = core.normalizeSearchText(input.value);
+      if (!query) { panel.hidden = true; input.setAttribute('aria-expanded', 'false'); return; }
+      input.setAttribute('aria-expanded', 'true');
+      panel.hidden = false;
+      panel.setAttribute('aria-busy', 'true');
+      try {
+        renderGroupedResults(panel, core.groupSearchResults(await loadSearchDocuments(), query, 10));
+      } catch (error) {
+        console.error(error);
+        panel.innerHTML = '<div class="search-empty" role="status">Search is unavailable. Ordinary navigation still works.</div>';
+      } finally {
+        panel.setAttribute('aria-busy', 'false');
+        active = -1;
+      }
+    };
+
+    input.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(render, 80); });
+    input.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowDown') { event.preventDefault(); activate(active + 1); }
+      else if (event.key === 'ArrowUp') { event.preventDefault(); activate(active - 1); }
+      else if (event.key === 'Enter' && active >= 0) { event.preventDefault(); options()[active]?.click(); }
+      else if (event.key === 'Escape') { panel.hidden = true; input.setAttribute('aria-expanded', 'false'); input.removeAttribute('aria-activedescendant'); }
+    });
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      if (active >= 0) { options()[active]?.click(); return; }
+      await render();
+      options()[0]?.click();
+    });
+  }
+
+  const searchForms = Array.from(document.querySelectorAll('[data-global-search]'));
+  searchForms.forEach(bindGlobalSearch);
+
+  const mobileDialog = document.querySelector('#mobile-search-dialog');
+  let mobileTrigger = null;
+  document.querySelectorAll('[data-search-open]').forEach((button) => {
+    button.addEventListener('click', () => {
+      mobileTrigger = button;
+      if (mobileDialog?.showModal) mobileDialog.showModal();
+      else mobileDialog?.setAttribute('open', '');
+      mobileDialog?.querySelector('[data-search-input]')?.focus();
+    });
+  });
+  mobileDialog?.querySelector('[data-search-close]')?.addEventListener('click', () => mobileDialog.close());
+  mobileDialog?.addEventListener('close', () => mobileTrigger?.focus());
+  document.addEventListener('keydown', (event) => {
+    if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'k') {
+      event.preventDefault();
+      const desktop = document.querySelector('.desktop-search [data-search-input]');
+      if (desktop && getComputedStyle(desktop).display !== 'none') desktop.focus();
+      else document.querySelector('[data-search-open]')?.click();
+    }
+  });
+
+  document.querySelectorAll('[data-example-root]').forEach((element) => {
+    globalThis.VibeExamples?.mount(element, { id: element.dataset.exampleId });
+  });
+
+  document.querySelectorAll('[data-exercise]').forEach((container) => {
+    const payloadNode = container.querySelector('[data-exercise-payload]');
+    const form = container.matches('form') ? container : container.querySelector('form');
+    const feedback = container.querySelector('[data-exercise-feedback]');
+    if (!payloadNode || !form || !feedback) return;
+    let exercise;
+    try { exercise = JSON.parse(payloadNode.textContent || '{}'); } catch { return; }
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      const selected = Array.from(form.querySelectorAll('input:checked')).map((input) => input.value);
+      const result = core.gradeExercise(exercise, selected);
+      feedback.hidden = false;
+      feedback.dataset.correct = String(result.correct);
+      feedback.textContent = result.correct
+        ? (exercise.correct_feedback || 'Correct — the concept is connected.')
+        : (exercise.incorrect_feedback || 'Not quite. Review the explanation and try again.');
+      await put('exerciseAttempts', {
+        exerciseId: exercise.id,
+        slug: exercise.slug,
+        correct: result.correct,
+        selected,
+        nextReviewAt: Date.now() + (result.correct ? 3 * core.DAY_MS : 10 * 60_000),
+        updatedAt: Date.now(),
+      });
+    });
+  });
+
+  document.querySelectorAll('[data-bookmark]').forEach((button) => {
+    const slug = button.dataset.termSlug;
+    if (!slug) return;
+    button.addEventListener('click', async () => {
+      const selected = button.getAttribute('aria-pressed') !== 'true';
+      button.setAttribute('aria-pressed', String(selected));
+      await put('bookmarks', { id: slug, slug, selected, updatedAt: Date.now() });
+    });
+  });
+
+  const currentTerm = document.querySelector('[data-term-page]')?.dataset.termSlug;
+  if (currentTerm) put('recentViews', { id: currentTerm, slug: currentTerm, updatedAt: Date.now() });
+
+  document.querySelectorAll('[data-copy]').forEach((button) => {
+    if (button.dataset.copyBound === 'true') return;
+    button.dataset.copyBound = 'true';
+    button.addEventListener('click', async () => {
+      try { await navigator.clipboard.writeText(button.dataset.copy || ''); button.dataset.copied = 'true'; }
+      catch { button.dataset.copied = 'false'; }
+    });
+  });
+
+  const practiceRoot = document.querySelector('[data-practice-root]');
+  if (practiceRoot) {
+    const status = practiceRoot.querySelector('[data-practice-status]');
+    const card = practiceRoot.querySelector('[data-practice-card]');
+    const scopeSelect = practiceRoot.querySelector('[data-practice-scope]');
+    let queue = [];
+    let position = 0;
+    const renderPractice = () => {
+      const item = queue[position];
+      if (!item) { card.innerHTML = ''; status.textContent = 'Practice complete.'; return; }
+      status.textContent = `${position + 1} / ${queue.length}`;
+      card.innerHTML = `<h2>${escapeText(item.title)}</h2><p>${escapeText(item.question)}</p><a class="button-secondary" href="${escapeText(item.url)}">Open exercise</a><button type="button" data-practice-next>Next</button>`;
+      card.querySelector('[data-practice-next]').addEventListener('click', () => { position += 1; renderPractice(); });
+    };
+    const loadPractice = async () => {
+      const response = await fetch(root.dataset.exerciseIndex || assetUrl(`exercises.${locale}.json`));
+      const exercises = await response.json();
+      const attempts = await getAll('exerciseAttempts');
+      const scopeValue = scopeSelect?.value || 'all';
+      const scope = scopeValue.startsWith('domain:') ? { domain: scopeValue.slice(7) } : {};
+      queue = core.buildPracticeQueue(exercises, attempts, scope, Date.now());
+      position = 0;
+      renderPractice();
+    };
+    scopeSelect?.addEventListener('change', loadPractice);
+    loadPractice().catch((error) => { console.error(error); status.textContent = 'Practice data is unavailable.'; });
+  }
+
+  const exportButton = document.querySelector('[data-export-local]');
+  exportButton?.addEventListener('click', async () => {
+    const payload = { schemaVersion: 2 };
+    for (const store of stores) payload[store] = await getAll(store);
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = 'vibe-terms-local-data.json';
+    link.click();
+    URL.revokeObjectURL(link.href);
+  });
+
+  document.querySelector('[data-import-local]')?.addEventListener('change', async (event) => {
+    const file = event.currentTarget.files?.[0];
+    if (!file) return;
+    let payload;
+    try { payload = JSON.parse(await file.text()); }
+    catch { event.currentTarget.setCustomValidity('Invalid JSON file.'); event.currentTarget.reportValidity(); return; }
+    const valid = payload?.schemaVersion === 2 && stores.every((store) => Array.isArray(payload[store]));
+    if (!valid) { event.currentTarget.setCustomValidity('This is not a Vibe Terms schema v2 export.'); event.currentTarget.reportValidity(); return; }
+    event.currentTarget.setCustomValidity('');
+    for (const store of stores) {
+      const current = await getAll(store);
+      const idKey = store === 'termProgress' ? 'slug' : store === 'exerciseAttempts' ? 'exerciseId' : store === 'pathProgress' ? 'pathId' : 'id';
+      const byId = new Map(current.map((row) => [row[idKey], row]));
+      for (const row of payload[store]) {
+        if (!row || typeof row !== 'object' || !row[idKey]) continue;
+        const previous = byId.get(row[idKey]);
+        if (!previous || Number(row.updatedAt || 0) >= Number(previous.updatedAt || 0)) await put(store, row);
+      }
+    }
+    location.reload();
+  });
+
+  document.querySelector('[data-clear-local]')?.addEventListener('click', async (event) => {
+    const button = event.currentTarget;
+    if (button.dataset.confirm !== 'true') { button.dataset.confirm = 'true'; button.textContent = button.dataset.confirmLabel || 'Confirm clear'; return; }
+    await new Promise((resolve) => {
+      const request = indexedDB.deleteDatabase(databaseName);
+      request.onsuccess = request.onerror = request.onblocked = resolve;
+    });
+    try { localStorage.removeItem(localStateKey); localStorage.removeItem('vibe-terms-progress-v1'); } catch { /* ignored */ }
+    location.reload();
+  });
 })();

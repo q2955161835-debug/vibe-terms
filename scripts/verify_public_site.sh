@@ -4,15 +4,13 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 
-python3 -m py_compile scripts/build_static_site.py scripts/package_site.py
+python3 -m compileall -q scripts
 python3 scripts/build_static_site.py
-python3 -m pytest -q \
-  tests/test_static_site.py \
-  tests/test_packaging.py \
-  tests/test_render_harness.py
+python3 -m pytest -q --ignore=tests/test_browser.py
 node --check web/core.js
+node --check web/examples.js
 node --check web/app.js
-node --test tests/js/core.test.cjs tests/js/sites-routing.test.mjs
+npm run test:js
 
 if [[ "${RUN_HTTP_E2E:-0}" == "1" ]]; then
   python3 -m pytest -q tests/test_browser.py

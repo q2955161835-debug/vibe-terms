@@ -11,7 +11,7 @@
     "dev": "npm run prepare:site && vinext dev",
     "build": "npm run prepare:site && vinext build",
     "start": "vinext start",
-    "test:js": "node --test tests/js/core.test.cjs tests/js/sites-routing.test.mjs"
+    "test:js": "node --test tests/js/core.test.cjs tests/js/examples.test.cjs tests/js/sites-routing.test.mjs"
   },
   "dependencies": {
     "react": "19.2.6",

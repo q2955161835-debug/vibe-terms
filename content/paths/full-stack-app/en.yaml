@@ -1,0 +1,56 @@
+locale: en
+title: Ship a Full-Stack App
+summary: Take one small product from scope to deployment by connecting a browser interface, API, data model, tests, and operations.
+status: published
+source_content_version: 1
+chapters:
+- id: product-scope
+  title: Frame the product slice
+  summary: Choose a narrow user outcome and write observable acceptance criteria.
+  outcome: A scoped product brief with acceptance criteria.
+  checkpoint: You can state what is intentionally excluded from the first release.
+- id: architecture
+  title: Map the system boundary
+  summary: Draw the browser, API, and data responsibilities and name the direction of each important flow.
+  outcome: A small architecture diagram.
+  checkpoint: Each responsibility has one owning layer instead of duplicated business rules.
+- id: data-model
+  title: Model durable data
+  summary: Define records, identifiers, relationships, and constraints before building write operations.
+  outcome: A documented data schema.
+  checkpoint: The model prevents the duplicate or orphan data the product must not allow.
+- id: api-design
+  title: Design the API
+  summary: Specify resource routes, request validation, response data, and status codes for the product flow.
+  outcome: An API contract with examples.
+  checkpoint: A client can complete the main flow without relying on undocumented fields.
+- id: authentication
+  title: Protect user access
+  summary: Decide who can act, authenticate the user, and enforce authorization at the server boundary.
+  outcome: An access policy and protected endpoint flow.
+  checkpoint: An unauthenticated or unauthorized request cannot read or change protected data.
+- id: frontend-flow
+  title: Build the browser flow
+  summary: Implement the main task with visible loading, success, and empty states.
+  outcome: A working screen for the primary user flow.
+  checkpoint: The browser state stays consistent with the latest successful server response.
+- id: validation-and-errors
+  title: Make failures actionable
+  summary: Validate at the input and server boundaries, then show people what they can fix or retry.
+  outcome: Field errors and recoverable request errors.
+  checkpoint: Bad data is rejected with a useful message and no partial write.
+- id: testing
+  title: Test the connected system
+  summary: Cover business rules, API boundaries, and the primary browser journey with the smallest useful test set.
+  outcome: A repeatable test suite for the key flow.
+  checkpoint: A regression in the main flow fails a relevant automated test.
+- id: deployment
+  title: Deploy with operational checks
+  summary: Configure non-secret environment names, automate verification, and inspect the running service after release.
+  outcome: A deployment procedure and health check.
+  checkpoint: The deployed app completes the primary flow with the expected configuration.
+- id: iteration
+  title: Choose the next improvement
+  summary: Use observed feedback and a measured product signal to prioritize one small follow-up change.
+  outcome: A prioritized next-iteration note.
+  checkpoint: The next change connects to evidence rather than a vague feature request.

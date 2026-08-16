@@ -1,0 +1,56 @@
+locale: zh-tw
+title: 發布個人網站
+summary: 規劃、製作、測試並發布一個清楚介紹你是誰以及如何聯絡你的個人網站。
+status: published
+source_content_version: 1
+chapters:
+- id: project-goal
+  title: 確定網站目標
+  summary: 寫清一個訪客問題、一個目標受眾，以及網站要支援的一個行動。
+  outcome: 一句話目標和主要訪客行動。
+  checkpoint: 你能說明網站幫助誰，以及訪客可以完成什麼。
+- id: audience-and-content
+  title: 整理受眾與內容
+  summary: 把訪客需求轉成簡短的內容清單和使用者故事。
+  outcome: 按訪客需求排序的頁面內容清單。
+  checkpoint: 每個區塊都回答訪客問題或引導主要行動。
+- id: information-architecture
+  title: 組織資訊架構
+  summary: 把內容分成精簡導覽，並確定訪客瀏覽順序。
+  outcome: 帶導覽標籤的頁面大綱。
+  checkpoint: 訪客無需猜測就能找到主要行動。
+- id: wireframe
+  title: 繪製線框圖
+  summary: 在選擇顏色和視覺裝飾前，先製作低保真線框圖。
+  outcome: 桌面和窄螢幕的帶標註線框圖。
+  checkpoint: 即使只用方框和文字也能看懂資訊層級。
+- id: html-structure
+  title: 建立語意結構
+  summary: 用有意義的標題、地標、連結和內容順序編寫頁面。
+  outcome: 標題層級清楚的語意 HTML 頁面。
+  checkpoint: 按原始碼順序閱讀也能理解頁面內容。
+- id: visual-system
+  title: 建立視覺系統
+  summary: 使用少量字體、間距、顏色和表面規則，而不是到處單獨調整樣式。
+  outcome: 可重複使用的 CSS 變數和一致的區塊樣式。
+  checkpoint: 相似元素採用相同的視覺規則。
+- id: responsive-accessibility
+  title: 適配與無障礙
+  summary: 為窄螢幕調整版面，並檢查鍵盤焦點、可讀對比度和清楚連結文字。
+  outcome: 支援鍵盤可見焦點的響應式頁面。
+  checkpoint: 手機寬度下沒有關鍵內容被裁切或無法存取。
+- id: content-and-seo
+  title: 準備內容與 SEO
+  summary: 新增與頁面實際內容一致的描述性標題、摘要和分享預覽中繼資料。
+  outcome: 用於搜尋和分享的頁面中繼資料。
+  checkpoint: 標題和摘要與可見頁面表達同一件事。
+- id: quality-check
+  title: 檢查真實瀏覽器行為
+  summary: 在瀏覽器中測試主要連結、鍵盤導覽、文字溢位和聯絡行動。
+  outcome: 附結果的精簡手動測試清單。
+  checkpoint: 桌面和手機尺寸視口均通過所有列出的檢查。
+- id: publish-static-site
+  title: 發布靜態網站
+  summary: 提交已驗證的原始碼，部署靜態產物，並回讀公開路由。
+  outcome: 已發布的個人網站 URL 和部署紀錄。
+  checkpoint: 線上頁面與已驗證的本機版本一致，連結可用。

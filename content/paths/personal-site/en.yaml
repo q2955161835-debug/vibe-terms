@@ -1,0 +1,56 @@
+locale: en
+title: Launch a Personal Site
+summary: Plan, build, test, and publish a small personal site that explains who you are and how to contact you.
+status: published
+source_content_version: 1
+chapters:
+- id: project-goal
+  title: Choose a focused site goal
+  summary: State one visitor problem, one audience, and one action the site should support.
+  outcome: A one-sentence goal and a primary visitor action.
+  checkpoint: You can explain who the site helps and what that visitor can do.
+- id: audience-and-content
+  title: List the audience and content
+  summary: Turn visitor needs into a short content inventory and a simple user story.
+  outcome: A page-content list ordered by visitor need.
+  checkpoint: Every section answers a visitor question or leads to the main action.
+- id: information-architecture
+  title: Arrange the information
+  summary: Group the content into a small navigation and define the order a visitor follows.
+  outcome: A page outline with navigation labels.
+  checkpoint: The main action is reachable without guessing where to go next.
+- id: wireframe
+  title: Sketch the page
+  summary: Create a low-fidelity wireframe before choosing colors or visual decoration.
+  outcome: A labeled wireframe for desktop and narrow screens.
+  checkpoint: The hierarchy is understandable even with plain boxes and text.
+- id: html-structure
+  title: Build semantic structure
+  summary: Write the page with meaningful headings, landmarks, links, and content order.
+  outcome: A semantic HTML page with a clear heading outline.
+  checkpoint: Reading the document in source order still communicates the page.
+- id: visual-system
+  title: Create a visual system
+  summary: Apply a small set of type, spacing, color, and surface rules instead of one-off styling.
+  outcome: Reusable CSS variables and consistent section styling.
+  checkpoint: Similar elements use the same visual decisions.
+- id: responsive-accessibility
+  title: Make the site usable everywhere
+  summary: Adapt layout for narrow screens and verify keyboard focus, readable contrast, and useful link text.
+  outcome: A responsive page with keyboard-visible controls.
+  checkpoint: At phone width no essential content is clipped or unreachable.
+- id: content-and-seo
+  title: Prepare shareable page metadata
+  summary: Add a descriptive title, summary, and preview metadata that match the actual page.
+  outcome: Page metadata for search and sharing.
+  checkpoint: The title and summary tell the same story as the visible page.
+- id: quality-check
+  title: Check real browser behavior
+  summary: Test primary links, keyboard navigation, text overflow, and the contact action in a browser.
+  outcome: A concise manual test checklist with results.
+  checkpoint: All listed checks pass on a desktop and a phone-sized viewport.
+- id: publish-static-site
+  title: Publish the static site
+  summary: Commit the verified source, deploy the static artifact, and read the public route back.
+  outcome: A published personal-site URL and deployment record.
+  checkpoint: The live page matches the verified local version and its links work.

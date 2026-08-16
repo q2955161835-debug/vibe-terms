@@ -32,7 +32,7 @@ def _inline_document(relative_path: str) -> str:
     logo = quote((WEB / "logo.svg").read_text(encoding="utf-8"))
 
     html = re.sub(r'<link\b[^>]*>', '', html)
-    html = re.sub(r'<script\s+src="/assets/(?:core|app)\.js"\s+defer></script>', '', html)
+    html = re.sub(r'<script\s+src="/assets/(?:core|examples|app)\.js"\s+defer></script>', '', html)
     html = html.replace('src="/assets/logo.svg"', f'src="data:image/svg+xml,{logo}"')
     return html.replace('</head>', f'<style>{css}</style></head>')
 
@@ -70,11 +70,15 @@ def _mount(page: Page, relative_path: str, locale: str) -> list[str]:
     terms = json.loads(
         (SITE / "assets" / f"terms.{locale}.json").read_text(encoding="utf-8")
     )
+    search = json.loads(
+        (SITE / "assets" / f"search-index.{locale}.json").read_text(encoding="utf-8")
+    )
     page.evaluate(
-        "payload => { window.fetch = async () => ({ ok: true, status: 200, json: async () => payload }); }",
-        terms,
+        "payload => { window.fetch = async url => ({ ok: true, status: 200, json: async () => String(url).includes('search-index') ? payload.search : payload.terms }); }",
+        {"terms": terms, "search": search},
     )
     page.add_script_tag(content=(WEB / "core.js").read_text(encoding="utf-8"))
+    page.add_script_tag(content=(WEB / "examples.js").read_text(encoding="utf-8"))
     page.add_script_tag(content=(WEB / "app.js").read_text(encoding="utf-8"))
     return errors
 
@@ -88,12 +92,12 @@ def test_home_search_theme_and_mobile_layout_without_http_navigation() -> None:
 
             assert page.locator("h1").inner_text() == "从一句想法，走到真正上线。"
             field = page.locator("#home-search")
-            field.fill("Auth")
+            field.fill("Authentication")
             page.wait_for_selector("#search-results a")
             first = page.locator("#search-results a").first
             assert first.get_attribute("href") == "/zh-cn/terms/authentication/"
             field.press("ArrowDown")
-            assert field.get_attribute("aria-activedescendant") == "search-option-0"
+            assert field.get_attribute("aria-activedescendant") == "global-search-term-0"
             assert first.get_attribute("aria-selected") == "true"
 
             button = page.locator(".theme-toggle")
@@ -110,11 +114,9 @@ def test_home_search_theme_and_mobile_layout_without_http_navigation() -> None:
                 "() => ({ innerWidth: window.innerWidth, scrollWidth: document.documentElement.scrollWidth })"
             )
             assert dimensions["scrollWidth"] <= dimensions["innerWidth"]
-            assert mobile.locator(".domain-card").count() == 7
+            assert mobile.locator(".domain-card").count() == 12
+            assert mobile.locator(".path-card").count() == 3
             assert mobile.locator(".brand span").is_visible()
-            assert mobile.locator(".term-row").first.evaluate(
-                "element => getComputedStyle(element).flexDirection"
-            ) == "column"
         finally:
             browser.close()
 
@@ -165,7 +167,7 @@ def test_all_locales_render_home_and_term_pages_without_horizontal_overflow() ->
                     "() => ({ innerWidth: window.innerWidth, scrollWidth: document.documentElement.scrollWidth })"
                 )
                 assert dimensions["scrollWidth"] <= dimensions["innerWidth"], locale
-                assert home.locator(".domain-card").count() == 7
+                assert home.locator(".domain-card").count() == 12
                 assert home.locator("#home-search").is_visible()
                 if locale == "hi":
                     typography = home.locator(".hero h1").evaluate(

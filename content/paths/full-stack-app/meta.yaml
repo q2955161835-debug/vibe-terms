@@ -1,0 +1,84 @@
+id: path_full_stack_app
+slug: full-stack-app
+status: published
+content_version: 1
+lifecycle_stages:
+- requirements
+- backend
+- data
+- interface-logic
+- delivery
+chapters:
+- id: product-scope
+  order: 1
+  term_slugs:
+  - prd
+  - requirement
+  - acceptance-criteria
+  - mvp
+- id: architecture
+  order: 2
+  term_slugs:
+  - application
+  - frontend
+  - backend
+  - api
+  - database
+- id: data-model
+  order: 3
+  term_slugs:
+  - database
+  - schema
+  - database-table
+  - primary-key
+  - relationship
+- id: api-design
+  order: 4
+  term_slugs:
+  - api
+  - rest
+  - endpoint
+  - http-method
+  - api-contract
+- id: authentication
+  order: 5
+  term_slugs:
+  - authentication
+  - authorization
+  - session
+  - password-hashing
+- id: frontend-flow
+  order: 6
+  term_slugs:
+  - component
+  - state
+  - form
+  - user-flow
+- id: validation-and-errors
+  order: 7
+  term_slugs:
+  - validation
+  - error
+  - http-status-code
+  - toast
+- id: testing
+  order: 8
+  term_slugs:
+  - testing
+  - unit-test
+  - integration-test
+  - end-to-end-test
+- id: deployment
+  order: 9
+  term_slugs:
+  - deployment
+  - ci
+  - environment-variable
+  - monitoring
+- id: iteration
+  order: 10
+  term_slugs:
+  - user-research
+  - kpi
+  - product-backlog
+  - git

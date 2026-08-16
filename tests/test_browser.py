@@ -27,7 +27,7 @@ def test_search_keyboard_and_locale_switch(site_url: str) -> None:
         page.on("console", lambda message: errors.append(message.text) if message.type == "error" else None)
         page.goto(f"{site_url}/zh-cn/", wait_until="networkidle")
         field = page.locator("#home-search")
-        field.fill("Auth")
+        field.fill("Authentication")
         page.wait_for_selector("#search-results a")
         field.press("ArrowDown")
         assert field.get_attribute("aria-activedescendant")
@@ -123,6 +123,104 @@ def test_gateway_and_mobile_home_have_no_horizontal_overflow(site_url: str) -> N
         )
         assert dimensions["scrollWidth"] <= dimensions["innerWidth"]
         assert page.locator("h1").inner_text() == "从一句想法，走到真正上线。"
+    finally:
+        browser.close()
+        playwright.stop()
+
+
+def test_global_search_works_from_term_page_and_mobile_focus_returns(site_url: str) -> None:
+    playwright, browser = _browser()
+    try:
+        desktop = browser.new_page(viewport={"width": 1280, "height": 900})
+        errors: list[str] = []
+        desktop.on(
+            "console",
+            lambda message: errors.append(message.text)
+            if message.type == "error"
+            else None,
+        )
+        desktop.goto(f"{site_url}/zh-cn/terms/api/", wait_until="networkidle")
+        field = desktop.locator(".desktop-search [data-search-input]")
+        field.fill("Authentication")
+        desktop.wait_for_selector(".desktop-search [role='option']")
+        field.press("ArrowDown")
+        field.press("Enter")
+        desktop.wait_for_url("**/zh-cn/terms/authentication/")
+        assert errors == []
+
+        mobile = browser.new_page(viewport={"width": 390, "height": 844})
+        mobile.goto(f"{site_url}/zh-cn/knowledge/", wait_until="networkidle")
+        trigger = mobile.locator("[data-search-open]")
+        trigger.click()
+        assert mobile.locator("#mobile-search-dialog").get_attribute("open") is not None
+        mobile.locator("#mobile-search-dialog [data-search-close]").click()
+        assert trigger.evaluate("element => document.activeElement === element")
+    finally:
+        browser.close()
+        playwright.stop()
+
+
+def test_dynamic_example_and_inline_exercise_persist_in_local_v2(site_url: str) -> None:
+    playwright, browser = _browser()
+    try:
+        page = browser.new_page(viewport={"width": 1200, "height": 900})
+        page.goto(f"{site_url}/zh-cn/terms/api/", wait_until="networkidle")
+        example = page.locator("[data-example-root]")
+        example.locator('[data-example-control="verify"]').click()
+        assert example.locator('[data-example-state="verify"]').is_visible()
+        assert not example.locator('[data-example-state="context"]').is_visible()
+
+        exercise = page.locator("[data-exercise]")
+        exercise.locator('input[value="definition"]').check()
+        exercise.locator('button[type="submit"]').click()
+        feedback = exercise.locator("[data-exercise-feedback]")
+        assert feedback.get_attribute("data-correct") == "true"
+        rows = page.evaluate(
+            """
+            async () => {
+              const request = indexedDB.open('vibe-terms-local-v2', 1);
+              const db = await new Promise((resolve, reject) => {
+                request.onsuccess = () => resolve(request.result);
+                request.onerror = () => reject(request.error);
+              });
+              const read = db.transaction('exerciseAttempts', 'readonly')
+                .objectStore('exerciseAttempts').getAll();
+              const result = await new Promise((resolve, reject) => {
+                read.onsuccess = () => resolve(read.result);
+                read.onerror = () => reject(read.error);
+              });
+              db.close();
+              return result;
+            }
+            """
+        )
+        assert any(row["exerciseId"] == "api:zh-cn:1" and row["correct"] for row in rows)
+    finally:
+        browser.close()
+        playwright.stop()
+
+
+def test_project_path_chapter_and_practice_queue_are_reachable(site_url: str) -> None:
+    playwright, browser = _browser()
+    try:
+        page = browser.new_page(viewport={"width": 1280, "height": 900})
+        errors: list[str] = []
+        page.on(
+            "console",
+            lambda message: errors.append(message.text)
+            if message.type == "error"
+            else None,
+        )
+        page.goto(f"{site_url}/zh-cn/paths/personal-site/", wait_until="networkidle")
+        assert page.locator(".path-chapters li").count() == 10
+        page.locator(".path-chapters a").first.click()
+        page.wait_for_url("**/zh-cn/paths/personal-site/project-goal/")
+        assert page.locator("h1").inner_text().strip()
+
+        page.goto(f"{site_url}/zh-cn/practice/", wait_until="networkidle")
+        page.wait_for_selector("[data-practice-card] h2")
+        assert page.locator("[data-practice-status]").inner_text().startswith("1 /")
+        assert errors == []
     finally:
         browser.close()
         playwright.stop()

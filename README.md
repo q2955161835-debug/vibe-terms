@@ -8,22 +8,21 @@ static HTML, CSS, and JavaScript. Search, theme selection, and the daily learnin
 flow work without an account; guest progress is stored locally in the browser.
 There is no user database, OAuth flow, or cloud synchronization in this build.
 
-## Current public prototype
+## Current static platform
 
 - 8 locales: English, Simplified Chinese, Traditional Chinese, Japanese, Korean, German, Russian, and Hindi
-- 12 representative terms across 7 knowledge categories
-- category-first homepage plus project-lifecycle exploration
-- localized term pages, aliases, fuzzy search, and keyboard navigation
+- 500 canonical terms across 12 knowledge domains and 42 second-level topics
+- knowledge-map and three chaptered project-path navigation systems
+- dense localized term pages with examples, exercises, sources, aliases, and keyboard search
 - light, dark, and system themes
 - configurable daily new-term count from 1 to 30
-- three memory responses with scheduled local review
-- IndexedDB storage with a localStorage fallback
+- inline and standalone practice with scheduled local review
+- versioned IndexedDB storage with a localStorage fallback, export, and clear controls
 - static SEO metadata, language alternates, sitemap support, manifest, and a 404 page
 
-The approved product target remains roughly 500 canonical terms in all eight
-languages. The 12-term corpus is a vertical prototype that proves every public
-route and interaction before the content volume is multiplied by forty, because
-software already has enough ways to manufacture repetitive mistakes.
+English content is canonical and published. Localizations that have not been
+human-reviewed remain visibly marked `draft` and are emitted with `noindex`;
+the site never presents draft translation status as editorial approval.
 
 ## Requirements
 
@@ -74,6 +73,18 @@ Build command:   python3 scripts/build_static_site.py
 Output directory: site
 ```
 
+For this repository's GitHub Pages project site, build with the project prefix:
+
+```bash
+BASE_PATH=/vibe-terms \
+SITE_URL=https://q2955161835-debug.github.io/vibe-terms \
+GITHUB_URL=https://github.com/q2955161835-debug/vibe-terms \
+python3 scripts/build_static_site.py
+```
+
+`.github/workflows/deploy-pages.yml` publishes the same generated `site/`
+artifact after an accepted change reaches `main`.
+
 Codex Sites uses the tracked adapter in `app/`, `worker/`, `vite.config.ts`, and
 `.openai/hosting.json`. It preserves the generated static pages and packages
 them into the Worker-compatible build expected by Sites:
@@ -107,13 +118,13 @@ Chromium installation.
 ## Repository map
 
 ```text
-content/   canonical terminology, localization, taxonomy, and learning path
-scripts/   static build and verification commands
+content/   canonical terminology, localization, taxonomy, and project paths
+scripts/   modular static generator, packaging, and verification commands
 web/       browser runtime, styles, and logo
 app/       minimal vinext shell used only for Codex Sites packaging
 worker/    static-route adapter for the Sites runtime
 site/      generated deployable output, not committed
-tests/     static-contract, scheduling, and browser tests
+tests/     content, URL, static-contract, JavaScript, rendering, and browser tests
 docs/      product specifications, plans, and deployment notes
 ```
 

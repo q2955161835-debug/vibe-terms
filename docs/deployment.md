@@ -9,6 +9,7 @@ visitor's browser.
 - Build command: `python3 scripts/build_static_site.py`
 - Output directory: `site/`
 - Required environment variable for production SEO: `SITE_URL`
+- Optional project-site prefix: `BASE_PATH` (empty at a root host)
 - Optional source link: `GITHUB_URL`
 
 Example production build:
@@ -23,6 +24,25 @@ python3 scripts/build_static_site.py
 absolute canonical URLs, Open Graph URLs, and sitemap entries. When it is absent,
 the output remains locally testable but the sitemap intentionally contains no
 production URLs.
+
+## GitHub Pages project site
+
+The public repository is deployed at
+`https://q2955161835-debug.github.io/vibe-terms/`. GitHub Pages serves it below
+the repository name, so every internal page and asset URL must be generated with
+`BASE_PATH=/vibe-terms`:
+
+```bash
+BASE_PATH=/vibe-terms \
+SITE_URL=https://q2955161835-debug.github.io/vibe-terms \
+GITHUB_URL=https://github.com/q2955161835-debug/vibe-terms \
+python3 scripts/build_static_site.py
+```
+
+The `Deploy GitHub Pages` workflow builds `site/`, uploads it as a Pages
+artifact, and deploys only from `main`. A successful workflow is not the final
+gate: read back the live root, one locale, one term, the knowledge map, a path
+chapter, practice, and an asset after deployment.
 
 ## Direct-hosting archive
 

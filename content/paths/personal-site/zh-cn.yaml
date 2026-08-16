@@ -1,0 +1,56 @@
+locale: zh-cn
+title: 发布个人网站
+summary: 规划、制作、测试并发布一个清晰介绍你是谁以及如何联系你的个人网站。
+status: published
+source_content_version: 1
+chapters:
+- id: project-goal
+  title: 确定网站目标
+  summary: 写清一个访客问题、一个目标受众，以及网站要支持的一个行动。
+  outcome: 一句话目标和主要访客行动。
+  checkpoint: 你能说明网站帮助谁，以及访客可以完成什么。
+- id: audience-and-content
+  title: 整理受众与内容
+  summary: 把访客需求转成简短的内容清单和用户故事。
+  outcome: 按访客需求排序的页面内容清单。
+  checkpoint: 每个区块都回答访客问题或引导主要行动。
+- id: information-architecture
+  title: 组织信息架构
+  summary: 把内容分成精简导航，并确定访客浏览顺序。
+  outcome: 带导航标签的页面大纲。
+  checkpoint: 访客无需猜测就能找到主要行动。
+- id: wireframe
+  title: 绘制线框图
+  summary: 在选择颜色和视觉装饰前，先制作低保真线框图。
+  outcome: 桌面和窄屏的带标注线框图。
+  checkpoint: 即使只用方框和文字也能看懂信息层级。
+- id: html-structure
+  title: 搭建语义结构
+  summary: 用有意义的标题、地标、链接和内容顺序编写页面。
+  outcome: 标题层级清晰的语义 HTML 页面。
+  checkpoint: 按源码顺序阅读也能理解页面内容。
+- id: visual-system
+  title: 建立视觉系统
+  summary: 使用少量字体、间距、颜色和表面规则，而不是到处单独调整样式。
+  outcome: 可复用的 CSS 变量和一致的区块样式。
+  checkpoint: 相似元素采用相同的视觉规则。
+- id: responsive-accessibility
+  title: 适配与无障碍
+  summary: 为窄屏调整布局，并检查键盘焦点、可读对比度和清晰链接文字。
+  outcome: 支持键盘可见焦点的响应式页面。
+  checkpoint: 手机宽度下没有关键内容被裁切或无法访问。
+- id: content-and-seo
+  title: 准备内容与 SEO
+  summary: 添加与页面实际内容一致的描述性标题、摘要和分享预览元数据。
+  outcome: 用于搜索和分享的页面元数据。
+  checkpoint: 标题和摘要与可见页面表达同一件事。
+- id: quality-check
+  title: 检查真实浏览器行为
+  summary: 在浏览器中测试主要链接、键盘导航、文字溢出和联系行动。
+  outcome: 附结果的简明手工测试清单。
+  checkpoint: 桌面和手机尺寸视口均通过所有列出的检查。
+- id: publish-static-site
+  title: 发布静态网站
+  summary: 提交已验证的源码，部署静态产物，并回读公开路由。
+  outcome: 已发布的个人网站 URL 和部署记录。
+  checkpoint: 线上页面与已验证的本地版本一致，链接可用。

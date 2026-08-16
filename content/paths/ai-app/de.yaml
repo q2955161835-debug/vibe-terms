@@ -1,0 +1,56 @@
+locale: de
+title: Draft — Build an AI Assistant App
+summary: Draft — not human reviewed. Design a bounded AI assistant with a useful chat experience, explicit data flow, evaluation, and safe release checks.
+status: draft
+source_content_version: 1
+chapters:
+- id: problem-and-scope
+  title: Draft — Define the assistant's job
+  summary: Draft — not human reviewed. Choose one audience problem and write what the assistant will and will not do.
+  outcome: Draft — not human reviewed. A bounded product brief.
+  checkpoint: Draft — not human reviewed. A request outside the scope has a clear refusal or handoff.
+- id: model-and-prompt
+  title: Draft — Set model instructions
+  summary: Draft — not human reviewed. Write a focused system prompt and select predictable model settings for the chosen task.
+  outcome: Draft — not human reviewed. Versioned model instructions and settings.
+  checkpoint: Draft — not human reviewed. The assistant follows the intended tone and declines unsupported claims.
+- id: conversation-ui
+  title: Draft — Build the conversation surface
+  summary: Draft — not human reviewed. Create a readable chat interface with clear input, response, loading, and empty states.
+  outcome: Draft — not human reviewed. An accessible conversation screen.
+  checkpoint: Draft — not human reviewed. A user can distinguish their message, the assistant reply, and pending work.
+- id: application-state
+  title: Draft — Manage local conversation state
+  summary: Draft — not human reviewed. Decide what belongs in the current view, what can persist locally, and what each request must include.
+  outcome: Draft — not human reviewed. A documented client-state model.
+  checkpoint: Draft — not human reviewed. Refreshing has the intended effect on each kind of conversation data.
+- id: api-contract
+  title: Draft — Define the request contract
+  summary: Draft — not human reviewed. Specify the request fields, response shape, and error payload before wiring the user interface.
+  outcome: Draft — not human reviewed. An example request and response contract.
+  checkpoint: Draft — not human reviewed. Invalid input returns a useful, documented error shape.
+- id: context-and-retrieval
+  title: Draft — Add grounded context
+  summary: Draft — not human reviewed. Choose a small approved knowledge set and retrieve relevant passages before generating an answer.
+  outcome: Draft — not human reviewed. A traceable context-selection flow.
+  checkpoint: Draft — not human reviewed. Answers can identify the supplied context instead of inventing a source.
+- id: tool-safety
+  title: Draft — Constrain tools and inputs
+  summary: Draft — not human reviewed. Allow only named tools with narrow parameters and reject instructions that conflict with the task boundary.
+  outcome: Draft — not human reviewed. A documented tool allowlist and safety cases.
+  checkpoint: Draft — not human reviewed. Untrusted text cannot expand tool permissions or override the system goal.
+- id: evaluation
+  title: Draft — Evaluate useful behavior
+  summary: Draft — not human reviewed. Create representative prompts and expected properties, including a case where the assistant should say it does not know.
+  outcome: Draft — not human reviewed. A small repeatable evaluation set.
+  checkpoint: Draft — not human reviewed. The evaluation distinguishes helpful answers from unsupported ones.
+- id: error-and-observability
+  title: Draft — Handle failures visibly
+  summary: Draft — not human reviewed. Give users recoverable error states and record structured operational signals without collecting unnecessary content.
+  outcome: Draft — not human reviewed. Error states and a minimal operational log plan.
+  checkpoint: Draft — not human reviewed. Timeouts, limits, and network failures have understandable user messages.
+- id: release-and-feedback
+  title: Draft — Release with feedback boundaries
+  summary: Draft — not human reviewed. Verify the main journeys, deploy a small release, and collect only feedback that improves the defined job.
+  outcome: Draft — not human reviewed. A release checklist and feedback questions.
+  checkpoint: Draft — not human reviewed. The deployed assistant has passed its evaluation and known limitations are visible.

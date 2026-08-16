@@ -1,0 +1,56 @@
+locale: zh-tw
+title: 建構 AI 助手應用
+summary: 設計一個邊界明確的 AI 助手，具備實用對話體驗、清楚資料流、評估和安全發布檢查。
+status: published
+source_content_version: 1
+chapters:
+- id: problem-and-scope
+  title: 定義助手職責
+  summary: 選擇一個受眾問題，寫清助手能做什麼和不能做什麼。
+  outcome: 邊界明確的產品簡介。
+  checkpoint: 超出範圍的請求有清楚的拒絕或轉交方式。
+- id: model-and-prompt
+  title: 設定模型指令
+  summary: 為選定任務編寫聚焦的系統提示詞，並選擇可預測的模型設定。
+  outcome: 帶版本的模型指令和設定。
+  checkpoint: 助手遵循預期語氣，並拒絕沒有依據的斷言。
+- id: conversation-ui
+  title: 建構對話介面
+  summary: 建立易讀的對話介面，清楚呈現輸入、回答、載入和空白狀態。
+  outcome: 無障礙對話介面。
+  checkpoint: 使用者能區分自己的訊息、助手回答和等待中的工作。
+- id: application-state
+  title: 管理應用狀態
+  summary: 決定哪些資料屬於目前介面、哪些可本機保存，以及每個請求必須包含什麼。
+  outcome: 記錄清楚的用戶端狀態模型。
+  checkpoint: 重新整理頁面後，各類對話資料的結果符合預期。
+- id: api-contract
+  title: 定義 API 契約
+  summary: 在連接介面前規定請求欄位、回應形狀和錯誤承載。
+  outcome: 請求與回應契約範例。
+  checkpoint: 無效輸入會回傳有用且已記錄的錯誤形狀。
+- id: context-and-retrieval
+  title: 加入可追溯上下文
+  summary: 選擇小型已核准知識集，在生成回答前檢索相關段落。
+  outcome: 可追溯的上下文選擇流程。
+  checkpoint: 回答能指出提供的上下文，而不是編造來源。
+- id: tool-safety
+  title: 約束工具與輸入
+  summary: 僅允許參數範圍有限的指定工具，並拒絕與任務邊界衝突的指令。
+  outcome: 記錄清楚的工具白名單和安全案例。
+  checkpoint: 不受信任的文字不能擴大工具權限或覆蓋系統目標。
+- id: evaluation
+  title: 評估有用行為
+  summary: 建立代表性提示詞和預期屬性，包括助手應承認不知道的案例。
+  outcome: 小型可重複執行的評估集。
+  checkpoint: 評估能區分有幫助的回答和沒有依據的回答。
+- id: error-and-observability
+  title: 處理錯誤與可觀測性
+  summary: 向使用者提供可恢復的錯誤狀態，並記錄結構化執行訊號而不收集不必要內容。
+  outcome: 錯誤狀態和最小執行日誌計畫。
+  checkpoint: 逾時、限額和網路失敗都有易懂提示。
+- id: release-and-feedback
+  title: 帶邊界地發布並收集回饋
+  summary: 驗證主要旅程，發布小範圍版本，並只收集能改善既定職責的回饋。
+  outcome: 發布檢查清單和回饋問題。
+  checkpoint: 已發布助手通過評估，已知限制清楚可見。

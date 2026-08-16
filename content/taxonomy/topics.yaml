@@ -1,0 +1,1383 @@
+topics:
+- id: prompting-context
+  domain: ai-vibe
+  names:
+    en: Prompting & Context
+    zh-cn: 提示与上下文
+    zh-tw: 提示與上下文
+    ja: プロンプトとコンテキスト
+    ko: 프롬프트와 컨텍스트
+    de: Prompts und Kontext
+    ru: Промпты и контекст
+    hi: प्रॉम्प्ट और संदर्भ
+  descriptions:
+    en: Core concepts for prompting & context.
+    zh-cn: 学习提示与上下文相关的核心概念。
+    zh-tw: 學習提示與上下文相關的核心概念。
+    ja: プロンプトとコンテキストに関する基本概念を学びます。
+    ko: 프롬프트와 컨텍스트의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Prompts und Kontext.
+    ru: Основные понятия по теме «Промпты и контекст».
+    hi: प्रॉम्प्ट और संदर्भ की मुख्य अवधारणाएं।
+  terms:
+  - context-engineering
+  - context-window
+  - conversation-history
+  - instruction-hierarchy
+  - model-context-protocol
+  - prompt
+  - prompt-caching
+  - prompt-engineering
+  - prompt-template
+  - stateless-request
+  - streaming-response
+  - structured-output
+  - system-prompt
+  - temperature
+  - token
+  - token-cost
+  - top-p
+- id: models-generation
+  domain: ai-vibe
+  names:
+    en: Models & Generation
+    zh-cn: 模型与生成
+    zh-tw: 模型與生成
+    ja: モデルと生成
+    ko: 모델과 생성
+    de: Modelle und Generierung
+    ru: Модели и генерация
+    hi: मॉडल और जनरेशन
+  descriptions:
+    en: Core concepts for models & generation.
+    zh-cn: 学习模型与生成相关的核心概念。
+    zh-tw: 學習模型與生成相關的核心概念。
+    ja: モデルと生成に関する基本概念を学びます。
+    ko: 모델과 생성의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Modelle und Generierung.
+    ru: Основные понятия по теме «Модели и генерация».
+    hi: मॉडल और जनरेशन की मुख्य अवधारणाएं।
+  terms:
+  - ai-application
+  - ai-latency-metrics
+  - benchmark
+  - determinism
+  - fine-tuning
+  - harness-engineering
+  - inference
+  - large-language-model
+  - model-provider
+  - model-routing
+  - multimodal-ai
+  - rate-limit
+  - reasoning-model
+  - speech-model
+  - text-to-image
+  - vibe-coding
+  - vision-model
+- id: agents-tools-memory
+  domain: ai-vibe
+  names:
+    en: Agents, Tools & Memory
+    zh-cn: 智能体、工具与记忆
+    zh-tw: 智能體、工具與記憶
+    ja: エージェント、ツールと記憶
+    ko: 에이전트, 도구 및 메모리
+    de: Agenten, Werkzeuge und Speicher
+    ru: Агенты, инструменты и память
+    hi: एजेंट, टूल और मेमोरी
+  descriptions:
+    en: Core concepts for agents, tools & memory.
+    zh-cn: 学习智能体、工具与记忆相关的核心概念。
+    zh-tw: 學習智能體、工具與記憶相關的核心概念。
+    ja: エージェント、ツールと記憶に関する基本概念を学びます。
+    ko: 에이전트, 도구 및 메모리의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Agenten, Werkzeuge und Speicher.
+    ru: Основные понятия по теме «Агенты, инструменты и память».
+    hi: एजेंट, टूल और मेमोरी की मुख्य अवधारणाएं।
+  terms:
+  - agent-loop
+  - agent-memory
+  - agentic-workflow
+  - ai-agent
+  - function-calling
+  - human-in-the-loop
+  - long-term-memory
+  - multi-agent-system
+  - react-agent-pattern
+  - short-term-memory
+  - skill
+  - sub-agent
+  - tool-calling
+- id: retrieval-evaluation-safety
+  domain: ai-vibe
+  names:
+    en: Retrieval, Evaluation & Safety
+    zh-cn: 检索、评估与安全
+    zh-tw: 檢索、評估與安全
+    ja: 検索、評価と安全性
+    ko: 검색, 평가 및 안전
+    de: Abruf, Bewertung und Sicherheit
+    ru: Поиск, оценка и безопасность
+    hi: पुनर्प्राप्ति, मूल्यांकन और सुरक्षा
+  descriptions:
+    en: Core concepts for retrieval, evaluation & safety.
+    zh-cn: 学习检索、评估与安全相关的核心概念。
+    zh-tw: 學習檢索、評估與安全相關的核心概念。
+    ja: 検索、評価と安全性に関する基本概念を学びます。
+    ko: 검색, 평가 및 안전의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Abruf, Bewertung und Sicherheit.
+    ru: Основные понятия по теме «Поиск, оценка и безопасность».
+    hi: पुनर्प्राप्ति, मूल्यांकन और सुरक्षा की मुख्य अवधारणाएं।
+  terms:
+  - chunking
+  - embedding
+  - eval-dataset
+  - evaluation
+  - grounding
+  - guardrail
+  - hallucination
+  - jailbreak
+  - prompt-injection
+  - reranking
+  - retrieval-augmented-generation
+  - semantic-search
+  - vector-database
+- id: command-line-workflow
+  domain: computing-env
+  names:
+    en: Command Line Workflow
+    zh-cn: 命令行工作流
+    zh-tw: 命令列工作流程
+    ja: コマンドラインの作業
+    ko: 명령줄 워크플로
+    de: Kommandozeilen-Workflow
+    ru: Работа в командной строке
+    hi: कमांड लाइन कार्यप्रवाह
+  descriptions:
+    en: Core concepts for command line workflow.
+    zh-cn: 学习命令行工作流相关的核心概念。
+    zh-tw: 學習命令列工作流程相關的核心概念。
+    ja: コマンドラインの作業に関する基本概念を学びます。
+    ko: 명령줄 워크플로의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Kommandozeilen-Workflow.
+    ru: Основные понятия по теме «Работа в командной строке».
+    hi: कमांड लाइन कार्यप्रवाह की मुख्य अवधारणाएं।
+  terms:
+  - argument
+  - cli
+  - command
+  - flag
+  - shell
+  - terminal
+  - working-directory
+- id: software-building-blocks
+  domain: computing-env
+  names:
+    en: Software Building Blocks
+    zh-cn: 软件构成要素
+    zh-tw: 軟體建構要素
+    ja: ソフトウェアの構成要素
+    ko: 소프트웨어 구성 요소
+    de: Softwarebausteine
+    ru: Компоненты программного обеспечения
+    hi: सॉफ्टवेयर के निर्माण खंड
+  descriptions:
+    en: Core concepts for software building blocks.
+    zh-cn: 学习软件构成要素相关的核心概念。
+    zh-tw: 學習軟體建構要素相關的核心概念。
+    ja: ソフトウェアの構成要素に関する基本概念を学びます。
+    ko: 소프트웨어 구성 요소의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Softwarebausteine.
+    ru: Основные понятия по теме «Компоненты программного обеспечения».
+    hi: सॉफ्टवेयर के निर्माण खंड की मुख्य अवधारणाएं।
+  terms:
+  - application
+  - artifact
+  - build
+  - framework
+  - library
+  - lint
+  - software
+  - source-code
+  - tech-stack
+- id: runtimes-packages-dependencies
+  domain: computing-env
+  names:
+    en: Runtimes, Packages & Dependencies
+    zh-cn: 运行时、包与依赖
+    zh-tw: 執行環境、套件與相依性
+    ja: ランタイム、パッケージと依存関係
+    ko: 런타임, 패키지 및 종속성
+    de: Laufzeiten, Pakete und Abhängigkeiten
+    ru: Среды выполнения, пакеты и зависимости
+    hi: रनटाइम, पैकेज और निर्भरताएं
+  descriptions:
+    en: Core concepts for runtimes, packages & dependencies.
+    zh-cn: 学习运行时、包与依赖相关的核心概念。
+    zh-tw: 學習執行環境、套件與相依性相關的核心概念。
+    ja: ランタイム、パッケージと依存関係に関する基本概念を学びます。
+    ko: 런타임, 패키지 및 종속성의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Laufzeiten, Pakete und Abhängigkeiten.
+    ru: Основные понятия по теме «Среды выполнения, пакеты и зависимости».
+    hi: रनटाइम, पैकेज और निर्भरताएं की मुख्य अवधारणाएं।
+  terms:
+  - dependency
+  - dependency-tree
+  - javascript
+  - lockfile
+  - npm
+  - package
+  - package-manager
+  - python
+  - runtime
+  - sdk
+  - semantic-versioning
+  - typescript
+- id: files-processes-environment
+  domain: computing-env
+  names:
+    en: Files, Processes & Environment
+    zh-cn: 文件、进程与环境
+    zh-tw: 檔案、程序與環境
+    ja: ファイル、プロセスと環境
+    ko: 파일, 프로세스 및 환경
+    de: Dateien, Prozesse und Umgebung
+    ru: Файлы, процессы и окружение
+    hi: फ़ाइलें, प्रोसेस और पर्यावरण
+  descriptions:
+    en: Core concepts for files, processes & environment.
+    zh-cn: 学习文件、进程与环境相关的核心概念。
+    zh-tw: 學習檔案、程序與環境相關的核心概念。
+    ja: ファイル、プロセスと環境に関する基本概念を学びます。
+    ko: 파일, 프로세스 및 환경의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Dateien, Prozesse und Umgebung.
+    ru: Основные понятия по теме «Файлы, процессы и окружение».
+    hi: फ़ाइलें, प्रोसेस और पर्यावरण की मुख्य अवधारणाएं।
+  terms:
+  - configuration-file
+  - directory
+  - environment-variable
+  - file-system
+  - operating-system
+  - path
+  - process
+- id: web-protocol-http
+  domain: web-network
+  names:
+    en: Web Protocols & HTTP
+    zh-cn: Web 协议与 HTTP
+    zh-tw: Web 協定與 HTTP
+    ja: WebプロトコルとHTTP
+    ko: 웹 프로토콜과 HTTP
+    de: Webprotokolle und HTTP
+    ru: Веб-протоколы и HTTP
+    hi: वेब प्रोटोकॉल और HTTP
+  descriptions:
+    en: Core concepts for web protocols & http.
+    zh-cn: 学习Web 协议与 HTTP相关的核心概念。
+    zh-tw: 學習Web 協定與 HTTP相關的核心概念。
+    ja: WebプロトコルとHTTPに関する基本概念を学びます。
+    ko: 웹 프로토콜과 HTTP의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Webprotokolle und HTTP.
+    ru: Основные понятия по теме «Веб-протоколы и HTTP».
+    hi: वेब प्रोटोकॉल और HTTP की मुख्य अवधारणाएं।
+  terms:
+  - http
+  - http-header
+  - http-method
+  - http-status-code
+  - https
+  - request
+  - request-body
+  - response
+  - seo
+  - tls
+- id: naming-addressing-routing
+  domain: web-network
+  names:
+    en: Naming, Addressing & Routing
+    zh-cn: 命名、寻址与路由
+    zh-tw: 命名、定址與路由
+    ja: 名前解決、アドレス指定とルーティング
+    ko: 이름, 주소 지정 및 라우팅
+    de: Namensgebung, Adressierung und Routing
+    ru: Имена, адресация и маршрутизация
+    hi: नामकरण, एड्रेसिंग और रूटिंग
+  descriptions:
+    en: Core concepts for naming, addressing & routing.
+    zh-cn: 学习命名、寻址与路由相关的核心概念。
+    zh-tw: 學習命名、定址與路由相關的核心概念。
+    ja: 名前解決、アドレス指定とルーティングに関する基本概念を学びます。
+    ko: 이름, 주소 지정 및 라우팅의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Namensgebung, Adressierung und Routing.
+    ru: Основные понятия по теме «Имена, адресация и маршрутизация».
+    hi: नामकरण, एड्रेसिंग और रूटिंग की मुख्य अवधारणाएं।
+  terms:
+  - dns
+  - domain
+  - hostname
+  - query-string
+  - redirect
+  - uri
+  - url
+  - url-fragment
+- id: network-connections-delivery
+  domain: web-network
+  names:
+    en: Network Connections & Delivery
+    zh-cn: 网络连接与交付
+    zh-tw: 網路連線與傳遞
+    ja: ネットワーク接続と配信
+    ko: 네트워크 연결과 전송
+    de: Netzwerkverbindungen und Auslieferung
+    ru: Сетевые соединения и доставка
+    hi: नेटवर्क कनेक्शन और डिलीवरी
+  descriptions:
+    en: Core concepts for network connections & delivery.
+    zh-cn: 学习网络连接与交付相关的核心概念。
+    zh-tw: 學習網路連線與傳遞相關的核心概念。
+    ja: ネットワーク接続と配信に関する基本概念を学びます。
+    ko: 네트워크 연결과 전송의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Netzwerkverbindungen und Auslieferung.
+    ru: Основные понятия по теме «Сетевые соединения и доставка».
+    hi: नेटवर्क कनेक्शन और डिलीवरी की मुख्य अवधारणाएं।
+  terms:
+  - browser
+  - cdn
+  - internet
+  - ip-address
+  - port
+  - proxy
+  - reverse-proxy
+  - server-sent-events
+  - tcp
+  - udp
+  - web
+  - websocket
+- id: discovery-problem-framing
+  domain: product-requirements
+  names:
+    en: Discovery & Problem Framing
+    zh-cn: 发现与问题界定
+    zh-tw: 探索與問題界定
+    ja: 発見と課題設定
+    ko: 발견과 문제 정의
+    de: Entdeckung und Problemrahmung
+    ru: Исследование и формулировка проблемы
+    hi: खोज और समस्या निर्धारण
+  descriptions:
+    en: Core concepts for discovery & problem framing.
+    zh-cn: 学习发现与问题界定相关的核心概念。
+    zh-tw: 學習探索與問題界定相關的核心概念。
+    ja: 発見と課題設定に関する基本概念を学びます。
+    ko: 발견과 문제 정의의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Entdeckung und Problemrahmung.
+    ru: Основные понятия по теме «Исследование и формулировка проблемы».
+    hi: खोज और समस्या निर्धारण की मुख्य अवधारणाएं।
+  terms:
+  - assumption
+  - constraint
+  - jobs-to-be-done
+  - mockup
+  - persona
+  - problem-statement
+  - product
+  - use-case
+  - user-flow
+  - user-journey
+  - user-need
+  - user-research
+  - user-story
+  - value-proposition
+  - wireframe
+- id: requirements-planning
+  domain: product-requirements
+  names:
+    en: Requirements & Planning
+    zh-cn: 需求与规划
+    zh-tw: 需求與規劃
+    ja: 要件と計画
+    ko: 요구사항과 계획
+    de: Anforderungen und Planung
+    ru: Требования и планирование
+    hi: आवश्यकताएं और योजना
+  descriptions:
+    en: Core concepts for requirements & planning.
+    zh-cn: 学习需求与规划相关的核心概念。
+    zh-tw: 學習需求與規劃相關的核心概念。
+    ja: 要件と計画に関する基本概念を学びます。
+    ko: 요구사항과 계획의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Anforderungen und Planung.
+    ru: Основные понятия по теме «Требования и планирование».
+    hi: आवश्यकताएं और योजना की मुख्य अवधारणाएं।
+  terms:
+  - feature
+  - gantt-chart
+  - mvp
+  - prd
+  - prioritization
+  - product-backlog
+  - product-roadmap
+  - requirement
+- id: metrics-experimentation
+  domain: product-requirements
+  names:
+    en: Metrics & Experimentation
+    zh-cn: 指标与实验
+    zh-tw: 指標與實驗
+    ja: 指標と実験
+    ko: 지표와 실험
+    de: Metriken und Experimente
+    ru: Метрики и эксперименты
+    hi: मेट्रिक्स और प्रयोग
+  descriptions:
+    en: Core concepts for metrics & experimentation.
+    zh-cn: 学习指标与实验相关的核心概念。
+    zh-tw: 學習指標與實驗相關的核心概念。
+    ja: 指標と実験に関する基本概念を学びます。
+    ko: 지표와 실험의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Metriken und Experimente.
+    ru: Основные понятия по теме «Метрики и эксперименты».
+    hi: मेट्रिक्स और प्रयोग की मुख्य अवधारणाएं।
+  terms:
+  - a-b-test
+  - conversion-funnel
+  - event-tracking
+  - guardrail-metric
+  - hypothesis
+  - kpi
+  - north-star-metric
+- id: interface-structure-navigation
+  domain: ui-ux
+  names:
+    en: Interface Structure & Navigation
+    zh-cn: 界面结构与导航
+    zh-tw: 介面結構與導覽
+    ja: インターフェース構造とナビゲーション
+    ko: 인터페이스 구조와 탐색
+    de: Oberflächenstruktur und Navigation
+    ru: Структура интерфейса и навигация
+    hi: इंटरफ़ेस संरचना और नेविगेशन
+  descriptions:
+    en: Core concepts for interface structure & navigation.
+    zh-cn: 学习界面结构与导航相关的核心概念。
+    zh-tw: 學習介面結構與導覽相關的核心概念。
+    ja: インターフェース構造とナビゲーションに関する基本概念を学びます。
+    ko: 인터페이스 구조와 탐색의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Oberflächenstruktur und Navigation.
+    ru: Основные понятия по теме «Структура интерфейса и навигация».
+    hi: इंटरफ़ेस संरचना और नेविगेशन की मुख्य अवधारणाएं।
+  terms:
+  - bento-grid
+  - breadcrumb
+  - card
+  - card-grid
+  - centered-column
+  - description-list
+  - documentation-layout
+  - faq
+  - footer
+  - header
+  - hero
+  - list
+  - masonry
+  - menu
+  - sidebar-layout
+  - single-page-layout
+  - table
+  - top-nav-layout
+  - tree
+- id: inputs-feedback-controls
+  domain: ui-ux
+  names:
+    en: Inputs, Feedback & Controls
+    zh-cn: 输入、反馈与控件
+    zh-tw: 輸入、回饋與控制項
+    ja: 入力、フィードバックとコントロール
+    ko: 입력, 피드백 및 컨트롤
+    de: Eingaben, Rückmeldung und Steuerelemente
+    ru: Ввод, обратная связь и элементы управления
+    hi: इनपुट, फीडबैक और नियंत्रण
+  descriptions:
+    en: Core concepts for inputs, feedback & controls.
+    zh-cn: 学习输入、反馈与控件相关的核心概念。
+    zh-tw: 學習輸入、回饋與控制項相關的核心概念。
+    ja: 入力、フィードバックとコントロールに関する基本概念を学びます。
+    ko: 입력, 피드백 및 컨트롤의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Eingaben, Rückmeldung und Steuerelemente.
+    ru: Основные понятия по теме «Ввод, обратная связь и элементы управления».
+    hi: इनपुट, फीडबैक और नियंत्रण की मुख्य अवधारणाएं।
+  terms:
+  - alert
+  - back-to-top-button
+  - button
+  - cascading-select
+  - checkbox
+  - color-picker
+  - date-picker
+  - empty-state
+  - form
+  - inline-confirmation
+  - input
+  - modal
+  - notification
+  - number-input
+  - pagination
+  - popover
+  - progress
+  - radio
+  - rating-control
+  - select
+  - slider
+  - spinner
+  - switch
+  - time-picker
+  - toast
+  - tooltip
+  - tree-select
+  - upload
+- id: accessibility-responsive
+  domain: ui-ux
+  names:
+    en: Accessibility & Responsive Design
+    zh-cn: 无障碍与响应式设计
+    zh-tw: 無障礙與響應式設計
+    ja: アクセシビリティとレスポンシブデザイン
+    ko: 접근성과 반응형 디자인
+    de: Barrierefreiheit und responsives Design
+    ru: Доступность и адаптивный дизайн
+    hi: सुलभता और अनुक्रियाशील डिज़ाइन
+  descriptions:
+    en: Core concepts for accessibility & responsive design.
+    zh-cn: 学习无障碍与响应式设计相关的核心概念。
+    zh-tw: 學習無障礙與響應式設計相關的核心概念。
+    ja: アクセシビリティとレスポンシブデザインに関する基本概念を学びます。
+    ko: 접근성과 반응형 디자인의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Barrierefreiheit und responsives Design.
+    ru: Основные понятия по теме «Доступность и адаптивный дизайн».
+    hi: सुलभता और अनुक्रियाशील डिज़ाइन की मुख्य अवधारणाएं।
+  terms:
+  - accessibility
+  - aria
+  - keyboard-navigation
+  - responsive-design
+  - screen-reader
+  - skip-link
+  - split-screen
+  - wcag
+- id: visual-design-systems
+  domain: ui-ux
+  names:
+    en: Visual Design Systems
+    zh-cn: 视觉设计系统
+    zh-tw: 視覺設計系統
+    ja: ビジュアルデザインシステム
+    ko: 시각 디자인 시스템
+    de: Visuelle Designsysteme
+    ru: Системы визуального дизайна
+    hi: दृश्य डिज़ाइन सिस्टम
+  descriptions:
+    en: Core concepts for visual design systems.
+    zh-cn: 学习视觉设计系统相关的核心概念。
+    zh-tw: 學習視覺設計系統相關的核心概念。
+    ja: ビジュアルデザインシステムに関する基本概念を学びます。
+    ko: 시각 디자인 시스템의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Visuelle Designsysteme.
+    ru: Основные понятия по теме «Системы визуального дизайна».
+    hi: दृश्य डिज़ाइन सिस्टम की मुख्य अवधारणाएं।
+  terms:
+  - autocomplete
+  - b2b-corporate-site
+  - chat-ui
+  - drawer
+  - dropdown
+  - dtc-e-commerce
+  - information-architecture
+  - navbar
+  - result
+  - saas-marketing-site
+  - segmented-control
+  - skeleton
+  - textarea
+  - usability
+- id: layout-components
+  domain: ui-ux
+  names:
+    en: Layouts & Components
+    zh-cn: 布局与组件
+    zh-tw: 版面配置與元件
+    ja: レイアウトとコンポーネント
+    ko: 레이아웃과 컴포넌트
+    de: Layouts und Komponenten
+    ru: Макеты и компоненты
+    hi: लेआउट और कंपोनेंट
+  descriptions:
+    en: Core concepts for layouts & components.
+    zh-cn: 学习布局与组件相关的核心概念。
+    zh-tw: 學習版面配置與元件相關的核心概念。
+    ja: レイアウトとコンポーネントに関する基本概念を学びます。
+    ko: 레이아웃과 컴포넌트의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Layouts und Komponenten.
+    ru: Основные понятия по теме «Макеты и компоненты».
+    hi: लेआउट और कंपोनेंट की मुख्य अवधारणाएं।
+  terms:
+  - accordion
+  - anchor
+  - badge
+  - carousel
+  - chart
+  - cta
+  - file
+  - filter
+  - label
+  - link
+  - pricing
+  - search
+  - social-proof
+  - statistic
+  - steps
+  - tabs
+  - tag
+  - timeline
+  - video
+- id: design-styles-patterns
+  domain: ui-ux
+  names:
+    en: Design Styles & Patterns
+    zh-cn: 设计风格与模式
+    zh-tw: 設計風格與模式
+    ja: デザインスタイルとパターン
+    ko: 디자인 스타일과 패턴
+    de: Designstile und Muster
+    ru: Стили и паттерны дизайна
+    hi: डिज़ाइन शैली और पैटर्न
+  descriptions:
+    en: Core concepts for design styles & patterns.
+    zh-cn: 学习设计风格与模式相关的核心概念。
+    zh-tw: 學習設計風格與模式相關的核心概念。
+    ja: デザインスタイルとパターンに関する基本概念を学びます。
+    ko: 디자인 스타일과 패턴의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Designstile und Muster.
+    ru: Основные понятия по теме «Стили и паттерны дизайна».
+    hi: डिज़ाइन शैली और पैटर्न की मुख्य अवधारणाएं।
+  terms:
+  - app-icon
+  - apple-hig
+  - art-deco
+  - avatar
+  - bauhaus
+  - customer-testimonial
+  - dark-ui
+  - editorial
+  - flat-design
+  - glassmorphism
+  - icon
+  - image
+  - logo
+  - material-design
+  - memphis
+  - minimalism
+  - neo-brutalism
+  - neumorphism
+  - notion-style
+  - organic-design
+  - playful-illustration
+  - quote
+  - skeuomorphism
+  - swiss-style
+  - terminal-aesthetic
+  - wabi-sabi
+  - y2k
+- id: html-css-layout
+  domain: frontend-engineering
+  names:
+    en: HTML, CSS & Layout
+    zh-cn: HTML、CSS 与布局
+    zh-tw: HTML、CSS 與版面
+    ja: HTML、CSSとレイアウト
+    ko: HTML, CSS 및 레이아웃
+    de: HTML, CSS und Layout
+    ru: HTML, CSS и макет
+    hi: HTML, CSS और लेआउट
+  descriptions:
+    en: Core concepts for html, css & layout.
+    zh-cn: 学习HTML、CSS 与布局相关的核心概念。
+    zh-tw: 學習HTML、CSS 與版面相關的核心概念。
+    ja: HTML、CSSとレイアウトに関する基本概念を学びます。
+    ko: HTML, CSS 및 레이아웃의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu HTML, CSS und Layout.
+    ru: Основные понятия по теме «HTML, CSS и макет».
+    hi: HTML, CSS और लेआउट की मुख्य अवधारणाएं।
+  terms:
+  - border-radius
+  - box-model
+  - centering
+  - corner-radius-consistency
+  - css
+  - css-custom-property
+  - css-grid
+  - flexbox
+  - html
+  - margin
+  - overflow
+  - padding
+  - position
+  - space
+  - tailwind-css
+  - z-index
+- id: components-state-frameworks
+  domain: frontend-engineering
+  names:
+    en: Components, State & Frameworks
+    zh-cn: 组件、状态与框架
+    zh-tw: 元件、狀態與框架
+    ja: コンポーネント、状態とフレームワーク
+    ko: 컴포넌트, 상태 및 프레임워크
+    de: Komponenten, Zustand und Frameworks
+    ru: Компоненты, состояние и фреймворки
+    hi: कंपोनेंट, स्टेट और फ्रेमवर्क
+  descriptions:
+    en: Core concepts for components, state & frameworks.
+    zh-cn: 学习组件、状态与框架相关的核心概念。
+    zh-tw: 學習元件、狀態與框架相關的核心概念。
+    ja: コンポーネント、状態とフレームワークに関する基本概念を学びます。
+    ko: 컴포넌트, 상태 및 프레임워크의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Komponenten, Zustand und Frameworks.
+    ru: Основные понятия по теме «Компоненты, состояние и фреймворки».
+    hi: कंपोनेंट, स्टेट और फ्रेमवर्क की मुख्य अवधारणाएं।
+  terms:
+  - active-state
+  - component
+  - disabled-state
+  - frontend
+  - markdown
+  - next-js
+  - react
+  - shadcn-ui
+  - state
+  - vue
+- id: responsive-visual-effects
+  domain: frontend-engineering
+  names:
+    en: Responsive UI & Visual Effects
+    zh-cn: 响应式界面与视觉效果
+    zh-tw: 響應式介面與視覺效果
+    ja: レスポンシブUIと視覚効果
+    ko: 반응형 UI와 시각 효과
+    de: Responsive UI und visuelle Effekte
+    ru: Адаптивный интерфейс и визуальные эффекты
+    hi: रिस्पॉन्सिव UI और विज़ुअल प्रभाव
+  descriptions:
+    en: Core concepts for responsive ui & visual effects.
+    zh-cn: 学习响应式界面与视觉效果相关的核心概念。
+    zh-tw: 學習響應式介面與視覺效果相關的核心概念。
+    ja: レスポンシブUIと視覚効果に関する基本概念を学びます。
+    ko: 반응형 UI와 시각 효과의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Responsive UI und visuelle Effekte.
+    ru: Основные понятия по теме «Адаптивный интерфейс и визуальные эффекты».
+    hi: रिस्पॉन्सिव UI और विज़ुअल प्रभाव की मुख्य अवधारणाएं।
+  terms:
+  - animation
+  - backdrop-blur
+  - cursor
+  - dark-mode
+  - easing
+  - fade-in-out
+  - focus
+  - gradient
+  - hover
+  - media-query
+  - opacity
+  - responsive-breakpoint
+  - serif-vs-sans-serif
+  - shadow
+  - spring-animation
+  - text-selection
+  - text-truncation
+  - transition
+  - typography
+- id: metadata-platform-integration
+  domain: frontend-engineering
+  names:
+    en: Metadata & Platform Integration
+    zh-cn: 元数据与平台集成
+    zh-tw: 中繼資料與平台整合
+    ja: メタデータとプラットフォーム統合
+    ko: 메타데이터와 플랫폼 통합
+    de: Metadaten und Plattformintegration
+    ru: Метаданные и интеграция платформ
+    hi: मेटाडेटा और प्लेटफ़ॉर्म एकीकरण
+  descriptions:
+    en: Core concepts for metadata & platform integration.
+    zh-cn: 学习元数据与平台集成相关的核心概念。
+    zh-tw: 學習中繼資料與平台整合相關的核心概念。
+    ja: メタデータとプラットフォーム統合に関する基本概念を学びます。
+    ko: 메타데이터와 플랫폼 통합의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Metadaten und Plattformintegration.
+    ru: Основные понятия по теме «Метаданные и интеграция платформ».
+    hi: मेटाडेटा और प्लेटफ़ॉर्म एकीकरण की मुख्य अवधारणाएं।
+  terms:
+  - design-token
+  - divider
+  - dom
+  - drag-and-drop
+  - favicon
+  - open-graph
+  - page-metadata
+  - sticky-positioning
+  - title-tag
+  - web-app-manifest
+- id: api-contracts-endpoints
+  domain: backend-apis
+  names:
+    en: API Contracts & Endpoints
+    zh-cn: API 契约与端点
+    zh-tw: API 合約與端點
+    ja: API契約とエンドポイント
+    ko: API 계약과 엔드포인트
+    de: API-Verträge und Endpunkte
+    ru: Контракты API и конечные точки
+    hi: API अनुबंध और एंडपॉइंट
+  descriptions:
+    en: Core concepts for api contracts & endpoints.
+    zh-cn: 学习API 契约与端点相关的核心概念。
+    zh-tw: 學習API 合約與端點相關的核心概念。
+    ja: API契約とエンドポイントに関する基本概念を学びます。
+    ko: API 계약과 엔드포인트의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu API-Verträge und Endpunkte.
+    ru: Основные понятия по теме «Контракты API и конечные точки».
+    hi: API अनुबंध और एंडपॉइंट की मुख्य अवधारणाएं।
+  terms:
+  - api
+  - api-contract
+  - api-gateway
+  - crud
+  - deserialization
+  - endpoint
+  - graphql
+  - json
+  - openapi
+  - path-parameter
+  - query-parameter
+  - rest
+  - rpc
+  - serialization
+- id: handlers-services-processing
+  domain: backend-apis
+  names:
+    en: Handlers, Services & Processing
+    zh-cn: 处理器、服务与处理流程
+    zh-tw: 處理常式、服務與處理流程
+    ja: ハンドラー、サービスと処理
+    ko: 핸들러, 서비스 및 처리
+    de: Handler, Dienste und Verarbeitung
+    ru: Обработчики, сервисы и обработка
+    hi: हैंडलर, सेवाएं और प्रोसेसिंग
+  descriptions:
+    en: Core concepts for handlers, services & processing.
+    zh-cn: 学习处理器、服务与处理流程相关的核心概念。
+    zh-tw: 學習處理常式、服務與處理流程相關的核心概念。
+    ja: ハンドラー、サービスと処理に関する基本概念を学びます。
+    ko: 핸들러, 서비스 및 처리의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Handler, Dienste und Verarbeitung.
+    ru: Основные понятия по теме «Обработчики, сервисы и обработка».
+    hi: हैंडलर, सेवाएं और प्रोसेसिंग की मुख्य अवधारणाएं।
+  terms:
+  - backend
+  - backend-framework
+  - background-job
+  - controller
+  - cron-job
+  - file-upload
+  - middleware
+  - object-storage
+  - queue
+  - request-handler
+  - service-layer
+  - validation
+  - worker
+- id: delivery-reliability-integration
+  domain: backend-apis
+  names:
+    en: Delivery, Reliability & Integration
+    zh-cn: 交付、可靠性与集成
+    zh-tw: 交付、可靠性與整合
+    ja: 配信、信頼性と統合
+    ko: 전달, 신뢰성 및 통합
+    de: Auslieferung, Zuverlässigkeit und Integration
+    ru: Доставка, надежность и интеграция
+    hi: डिलीवरी, विश्वसनीयता और एकीकरण
+  descriptions:
+    en: Core concepts for delivery, reliability & integration.
+    zh-cn: 学习交付、可靠性与集成相关的核心概念。
+    zh-tw: 學習交付、可靠性與整合相關的核心概念。
+    ja: 配信、信頼性と統合に関する基本概念を学びます。
+    ko: 전달, 신뢰성 및 통합의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Auslieferung, Zuverlässigkeit und Integration.
+    ru: Основные понятия по теме «Доставка, надежность и интеграция».
+    hi: डिलीवरी, विश्वसनीयता और एकीकरण की मुख्य अवधारणाएं।
+  terms:
+  - cors
+  - exponential-backoff
+  - idempotency
+  - polling
+  - quota
+  - retry
+  - throttling
+  - webhook
+- id: relational-modeling
+  domain: data-databases
+  names:
+    en: Relational Data Modeling
+    zh-cn: 关系数据建模
+    zh-tw: 關聯式資料建模
+    ja: リレーショナルデータモデリング
+    ko: 관계형 데이터 모델링
+    de: Relationale Datenmodellierung
+    ru: Реляционное моделирование данных
+    hi: रिलेशनल डेटा मॉडलिंग
+  descriptions:
+    en: Core concepts for relational data modeling.
+    zh-cn: 学习关系数据建模相关的核心概念。
+    zh-tw: 學習關聯式資料建模相關的核心概念。
+    ja: リレーショナルデータモデリングに関する基本概念を学びます。
+    ko: 관계형 데이터 모델링의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Relationale Datenmodellierung.
+    ru: Основные понятия по теме «Реляционное моделирование данных».
+    hi: रिलेशनल डेटा मॉडलिंग की मुख्य अवधारणाएं।
+  terms:
+  - database-table
+  - many-to-many
+  - one-to-many
+  - one-to-one
+  - record
+  - relationship
+  - row
+- id: query-schema-constraints
+  domain: data-databases
+  names:
+    en: Queries, Schemas & Constraints
+    zh-cn: 查询、模式与约束
+    zh-tw: 查詢、綱要與限制
+    ja: クエリ、スキーマと制約
+    ko: 쿼리, 스키마 및 제약
+    de: Abfragen, Schemata und Einschränkungen
+    ru: Запросы, схемы и ограничения
+    hi: क्वेरी, स्कीमा और बाधाएं
+  descriptions:
+    en: Core concepts for queries, schemas & constraints.
+    zh-cn: 学习查询、模式与约束相关的核心概念。
+    zh-tw: 學習查詢、綱要與限制相關的核心概念。
+    ja: クエリ、スキーマと制約に関する基本概念を学びます。
+    ko: 쿼리, 스키마 및 제약의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Abfragen, Schemata und Einschränkungen.
+    ru: Основные понятия по теме «Запросы, схемы и ограничения».
+    hi: क्वेरी, स्कीमा और बाधाएं की मुख्य अवधारणाएं।
+  terms:
+  - column
+  - database-constraint
+  - database-migration
+  - field
+  - foreign-key
+  - index
+  - join
+  - key-value-store
+  - primary-key
+  - query
+  - schema
+  - sql
+  - unique-key
+- id: database-systems-storage
+  domain: data-databases
+  names:
+    en: Database Systems & Storage
+    zh-cn: 数据库系统与存储
+    zh-tw: 資料庫系統與儲存
+    ja: データベースシステムとストレージ
+    ko: 데이터베이스 시스템과 저장소
+    de: Datenbanksysteme und Speicher
+    ru: Системы баз данных и хранение
+    hi: डेटाबेस सिस्टम और स्टोरेज
+  descriptions:
+    en: Core concepts for database systems & storage.
+    zh-cn: 学习数据库系统与存储相关的核心概念。
+    zh-tw: 學習資料庫系統與儲存相關的核心概念。
+    ja: データベースシステムとストレージに関する基本概念を学びます。
+    ko: 데이터베이스 시스템과 저장소의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Datenbanksysteme und Speicher.
+    ru: Основные понятия по теме «Системы баз данных и хранение».
+    hi: डेटाबेस सिस्टम और स्टोरेज की मुख्य अवधारणाएं।
+  terms:
+  - acid
+  - browser-storage
+  - database
+  - document-database
+  - graph-database
+  - isolation-level
+  - nosql
+  - orm
+  - relational-database
+  - transaction
+- id: repository-history-branches
+  domain: git-collaboration
+  names:
+    en: Repositories, History & Branches
+    zh-cn: 仓库、历史与分支
+    zh-tw: 儲存庫、歷史與分支
+    ja: リポジトリ、履歴とブランチ
+    ko: 리포지토리, 기록 및 브랜치
+    de: Repositories, Historie und Branches
+    ru: Репозитории, история и ветки
+    hi: रिपॉजिटरी, इतिहास और ब्रांच
+  descriptions:
+    en: Core concepts for repositories, history & branches.
+    zh-cn: 学习仓库、历史与分支相关的核心概念。
+    zh-tw: 學習儲存庫、歷史與分支相關的核心概念。
+    ja: リポジトリ、履歴とブランチに関する基本概念を学びます。
+    ko: 리포지토리, 기록 및 브랜치의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Repositories, Historie und Branches.
+    ru: Основные понятия по теме «Репозитории, история и ветки».
+    hi: रिपॉजिटरी, इतिहास और ब्रांच की मुख्य अवधारणाएं।
+  terms:
+  - branch
+  - clone
+  - commit
+  - git
+  - head
+  - repository
+- id: collaboration-remotes-integration
+  domain: git-collaboration
+  names:
+    en: Collaboration, Remotes & Integration
+    zh-cn: 协作、远程与集成
+    zh-tw: 協作、遠端與整合
+    ja: 共同作業、リモートと統合
+    ko: 협업, 원격 및 통합
+    de: Zusammenarbeit, Remotes und Integration
+    ru: Совместная работа, удаленные репозитории и интеграция
+    hi: सहयोग, रिमोट और एकीकरण
+  descriptions:
+    en: Core concepts for collaboration, remotes & integration.
+    zh-cn: 学习协作、远程与集成相关的核心概念。
+    zh-tw: 學習協作、遠端與整合相關的核心概念。
+    ja: 共同作業、リモートと統合に関する基本概念を学びます。
+    ko: 협업, 원격 및 통합의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Zusammenarbeit, Remotes und Integration.
+    ru: Основные понятия по теме «Совместная работа, удаленные репозитории и интеграция».
+    hi: सहयोग, रिमोट और एकीकरण की मुख्य अवधारणाएं।
+  terms:
+  - cherry-pick
+  - fetch
+  - merge
+  - merge-conflict
+  - origin
+  - pull
+  - pull-request
+  - push
+  - rebase
+  - remote
+  - upstream
+- id: change-management-recovery
+  domain: git-collaboration
+  names:
+    en: Change Management & Recovery
+    zh-cn: 变更管理与恢复
+    zh-tw: 變更管理與復原
+    ja: 変更管理と復旧
+    ko: 변경 관리와 복구
+    de: Änderungsmanagement und Wiederherstellung
+    ru: Управление изменениями и восстановление
+    hi: परिवर्तन प्रबंधन और पुनर्प्राप्ति
+  descriptions:
+    en: Core concepts for change management & recovery.
+    zh-cn: 学习变更管理与恢复相关的核心概念。
+    zh-tw: 學習變更管理與復原相關的核心概念。
+    ja: 変更管理と復旧に関する基本概念を学びます。
+    ko: 변경 관리와 복구의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Änderungsmanagement und Wiederherstellung.
+    ru: Основные понятия по теме «Управление изменениями и восстановление».
+    hi: परिवर्तन प्रबंधन और पुनर्प्राप्ति की मुख्य अवधारणाएं।
+  terms:
+  - diff
+  - gitignore
+  - reset
+  - revert
+  - staging-area
+  - stash
+  - working-tree
+  - worktree
+- id: test-strategy-levels
+  domain: testing-debugging
+  names:
+    en: Test Strategy & Levels
+    zh-cn: 测试策略与层级
+    zh-tw: 測試策略與層級
+    ja: テスト戦略とレベル
+    ko: 테스트 전략과 수준
+    de: Teststrategie und Ebenen
+    ru: Стратегия и уровни тестирования
+    hi: परीक्षण रणनीति और स्तर
+  descriptions:
+    en: Core concepts for test strategy & levels.
+    zh-cn: 学习测试策略与层级相关的核心概念。
+    zh-tw: 學習測試策略與層級相關的核心概念。
+    ja: テスト戦略とレベルに関する基本概念を学びます。
+    ko: 테스트 전략과 수준의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Teststrategie und Ebenen.
+    ru: Основные понятия по теме «Стратегия и уровни тестирования».
+    hi: परीक्षण रणनीति और स्तर की मुख्य अवधारणाएं।
+  terms:
+  - acceptance-criteria
+  - behavior-driven-development
+  - contract-test
+  - end-to-end-test
+  - integration-test
+  - load-test
+  - regression-test
+  - smoke-test
+  - snapshot-test
+  - stress-test
+  - test-driven-development
+  - test-pyramid
+  - testing
+  - unit-test
+- id: test-doubles-data-coverage
+  domain: testing-debugging
+  names:
+    en: Test Doubles, Data & Coverage
+    zh-cn: 测试替身、数据与覆盖率
+    zh-tw: 測試替身、資料與覆蓋率
+    ja: テストダブル、データとカバレッジ
+    ko: 테스트 대역, 데이터 및 커버리지
+    de: Test-Doubles, Daten und Abdeckung
+    ru: Тестовые двойники, данные и покрытие
+    hi: टेस्ट डबल, डेटा और कवरेज
+  descriptions:
+    en: Core concepts for test doubles, data & coverage.
+    zh-cn: 学习测试替身、数据与覆盖率相关的核心概念。
+    zh-tw: 學習測試替身、資料與覆蓋率相關的核心概念。
+    ja: テストダブル、データとカバレッジに関する基本概念を学びます。
+    ko: 테스트 대역, 데이터 및 커버리지의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Test-Doubles, Daten und Abdeckung.
+    ru: Основные понятия по теме «Тестовые двойники, данные и покрытие».
+    hi: टेस्ट डबल, डेटा और कवरेज की मुख्य अवधारणाएं।
+  terms:
+  - fake
+  - mock
+  - stub
+  - test-case
+  - test-coverage
+  - test-data-and-fixture
+  - test-double
+- id: debugging-diagnosis-observability
+  domain: testing-debugging
+  names:
+    en: Debugging, Diagnosis & Observability
+    zh-cn: 调试、诊断与可观测性
+    zh-tw: 除錯、診斷與可觀測性
+    ja: デバッグ、診断と可観測性
+    ko: 디버깅, 진단 및 관측성
+    de: Debugging, Diagnose und Beobachtbarkeit
+    ru: Отладка, диагностика и наблюдаемость
+    hi: डीबगिंग, निदान और ऑब्ज़र्वेबिलिटी
+  descriptions:
+    en: Core concepts for debugging, diagnosis & observability.
+    zh-cn: 学习调试、诊断与可观测性相关的核心概念。
+    zh-tw: 學習除錯、診斷與可觀測性相關的核心概念。
+    ja: デバッグ、診断と可観測性に関する基本概念を学びます。
+    ko: 디버깅, 진단 및 관측성의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Debugging, Diagnose und Beobachtbarkeit.
+    ru: Основные понятия по теме «Отладка, диагностика и наблюдаемость».
+    hi: डीबगिंग, निदान और ऑब्ज़र्वेबिलिटी की मुख्य अवधारणाएं।
+  terms:
+  - breakpoint
+  - browser-devtools
+  - bug
+  - console
+  - debugger
+  - error
+  - exception
+  - flaky-test
+  - log
+  - log-level
+  - reproduction-steps
+  - root-cause
+  - stack-trace
+  - structured-log
+- id: identity-access-control
+  domain: security-privacy
+  names:
+    en: Identity & Access Control
+    zh-cn: 身份与访问控制
+    zh-tw: 身分與存取控制
+    ja: アイデンティティとアクセス制御
+    ko: ID 및 접근 제어
+    de: Identität und Zugriffskontrolle
+    ru: Идентификация и контроль доступа
+    hi: पहचान और अभिगम नियंत्रण
+  descriptions:
+    en: Core concepts for identity & access control.
+    zh-cn: 学习身份与访问控制相关的核心概念。
+    zh-tw: 學習身分與存取控制相關的核心概念。
+    ja: アイデンティティとアクセス制御に関する基本概念を学びます。
+    ko: ID 및 접근 제어의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Identität und Zugriffskontrolle.
+    ru: Основные понятия по теме «Идентификация и контроль доступа».
+    hi: पहचान और अभिगम नियंत्रण की मुख्य अवधारणाएं।
+  terms:
+  - abac
+  - authentication
+  - authorization
+  - identity
+  - least-privilege
+  - multi-factor-authentication
+  - oauth
+  - openid-connect
+  - rbac
+- id: tokens-sessions-credentials
+  domain: security-privacy
+  names:
+    en: Tokens, Sessions & Credentials
+    zh-cn: 令牌、会话与凭据
+    zh-tw: 權杖、工作階段與憑證
+    ja: トークン、セッションと資格情報
+    ko: 토큰, 세션 및 자격 증명
+    de: Token, Sitzungen und Anmeldedaten
+    ru: Токены, сессии и учетные данные
+    hi: टोकन, सत्र और क्रेडेंशियल
+  descriptions:
+    en: Core concepts for tokens, sessions & credentials.
+    zh-cn: 学习令牌、会话与凭据相关的核心概念。
+    zh-tw: 學習權杖、工作階段與憑證相關的核心概念。
+    ja: トークン、セッションと資格情報に関する基本概念を学びます。
+    ko: 토큰, 세션 및 자격 증명의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Token, Sitzungen und Anmeldedaten.
+    ru: Основные понятия по теме «Токены, сессии и учетные данные».
+    hi: टोकन, सत्र और क्रेडेंशियल की मुख्य अवधारणाएं।
+  terms:
+  - access-token
+  - cookie
+  - jwt
+  - password-hashing
+  - refresh-token
+  - secret-management
+  - session
+- id: application-web-defenses
+  domain: security-privacy
+  names:
+    en: Application & Web Defenses
+    zh-cn: 应用与 Web 防御
+    zh-tw: 應用與 Web 防禦
+    ja: アプリケーションとWeb防御
+    ko: 애플리케이션 및 웹 방어
+    de: Anwendungs- und Webschutz
+    ru: Защита приложений и веба
+    hi: एप्लिकेशन और वेब सुरक्षा
+  descriptions:
+    en: Core concepts for application & web defenses.
+    zh-cn: 学习应用与 Web 防御相关的核心概念。
+    zh-tw: 學習應用與 Web 防禦相關的核心概念。
+    ja: アプリケーションとWeb防御に関する基本概念を学びます。
+    ko: 애플리케이션 및 웹 방어의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Anwendungs- und Webschutz.
+    ru: Основные понятия по теме «Защита приложений и веба».
+    hi: एप्लिकेशन और वेब सुरक्षा की मुख्य अवधारणाएं।
+  terms:
+  - attack-surface
+  - content-security-policy
+  - csrf
+  - encryption
+  - output-encoding
+  - sanitization
+  - sql-injection
+  - threat-model
+  - xss
+- id: release-pipelines-environments
+  domain: deployment-operations
+  names:
+    en: Release Pipelines & Environments
+    zh-cn: 发布流水线与环境
+    zh-tw: 發布管線與環境
+    ja: リリースパイプラインと環境
+    ko: 릴리스 파이프라인과 환경
+    de: Release-Pipelines und Umgebungen
+    ru: Конвейеры релиза и окружения
+    hi: रिलीज़ पाइपलाइन और परिवेश
+  descriptions:
+    en: Core concepts for release pipelines & environments.
+    zh-cn: 学习发布流水线与环境相关的核心概念。
+    zh-tw: 學習發布管線與環境相關的核心概念。
+    ja: リリースパイプラインと環境に関する基本概念を学びます。
+    ko: 릴리스 파이프라인과 환경의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Release-Pipelines und Umgebungen.
+    ru: Основные понятия по теме «Конвейеры релиза и окружения».
+    hi: रिलीज़ पाइपलाइन और परिवेश की मुख्य अवधारणाएं।
+  terms:
+  - blue-green-deployment
+  - canary-release
+  - cd
+  - ci
+  - deployment
+  - development-environment
+  - feature-flag
+  - pipeline
+  - production
+  - production-environment
+  - rollback
+  - staging
+- id: containers-infrastructure
+  domain: deployment-operations
+  names:
+    en: Containers & Infrastructure
+    zh-cn: 容器与基础设施
+    zh-tw: 容器與基礎架構
+    ja: コンテナとインフラストラクチャ
+    ko: 컨테이너와 인프라
+    de: Container und Infrastruktur
+    ru: Контейнеры и инфраструктура
+    hi: कंटेनर और अवसंरचना
+  descriptions:
+    en: Core concepts for containers & infrastructure.
+    zh-cn: 学习容器与基础设施相关的核心概念。
+    zh-tw: 學習容器與基礎架構相關的核心概念。
+    ja: コンテナとインフラストラクチャに関する基本概念を学びます。
+    ko: 컨테이너와 인프라의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Container und Infrastruktur.
+    ru: Основные понятия по теме «Контейнеры и инфраструктура».
+    hi: कंटेनर और अवसंरचना की मुख्य अवधारणाएं।
+  terms:
+  - container
+  - container-image
+  - docker
+  - edge-function
+  - infrastructure-as-code
+  - kubernetes
+  - serverless
+- id: operations-reliability
+  domain: deployment-operations
+  names:
+    en: Operations & Reliability
+    zh-cn: 运维与可靠性
+    zh-tw: 維運與可靠性
+    ja: 運用と信頼性
+    ko: 운영과 신뢰성
+    de: Betrieb und Zuverlässigkeit
+    ru: Эксплуатация и надежность
+    hi: संचालन और विश्वसनीयता
+  descriptions:
+    en: Core concepts for operations & reliability.
+    zh-cn: 学习运维与可靠性相关的核心概念。
+    zh-tw: 學習維運與可靠性相關的核心概念。
+    ja: 運用と信頼性に関する基本概念を学びます。
+    ko: 운영과 신뢰성의 핵심 개념을 배웁니다.
+    de: Grundbegriffe zu Betrieb und Zuverlässigkeit.
+    ru: Основные понятия по теме «Эксплуатация и надежность».
+    hi: संचालन और विश्वसनीयता की मुख्य अवधारणाएं।
+  terms:
+  - cold-start
+  - dockerfile
+  - incident
+  - monitoring
+  - observability
+  - server-logs
