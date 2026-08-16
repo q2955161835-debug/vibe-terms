@@ -1,8 +1,8 @@
-title: Git
-short_definition: 记录代码版本、支持分支协作和回退的版本控制系统。
-analogy: 像项目的时间机器，每次提交都是一个可追溯存档点。
-why_it_matters: AI 一次能改很多文件，Git 让你看清并安全撤销这些改动。
-ai_prompt_example: 这次功能单独提交，继续前先展示 diff。
-common_mistake: 多轮无关 AI 修改最后塞进一个巨大提交。
+title: "git"
+short_definition: "记录代码更改并让你安全地使用分支的版本控制系统。"
+analogy: "项目的时间机器，带有标记的保存点。"
+why_it_matters: "AI可以快速更改许多文件； git 为你提供了一种可靠的方法来检查和撤消这些更改。"
+ai_prompt_example: "仅为此功能创建一个集中提交，并在继续之前向我展示差异。"
+common_mistake: "在进行了几次不相关的 AI 编辑后做出了一项巨大的承诺。"
 status: draft
 source_content_version: 1

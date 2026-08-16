@@ -1,10 +1,10 @@
-title: 刷新词元
-short_definition: 刷新词元 是“安全与隐私”中的术语。当前为待人工审校的草稿。英文标准定义：A longer-lived credential used to obtain new access tokens without making the user sign in again.
-analogy: 可以先把 刷新词元 想成软件开发工具箱里一个有明确用途的标签；真正使用时仍要结合所在代码、数据流和用户场景判断。
-mechanism: 刷新词元 是“安全与隐私”中的术语。当前为待人工审校的草稿。英文标准定义：A longer-lived credential used to obtain new access tokens without making the user sign in again.
-why_it_matters: 理解 刷新词元 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-project_example: 理解 刷新词元 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-ai_prompt_example: 解释 刷新词元 在这个项目中的作用。指出涉及的文件或系统边界，只做最小必要改动，并给出我可以验证结果的步骤。
-common_mistake: 只记住 刷新词元 这个名词，却没有检查它在当前项目里的真实行为、数据流和失败情况。
+title: "刷新令牌"
+short_definition: "一种寿命较长的凭据，用于获取新的访问令牌，而无需用户再次登录。"
+analogy: "将刷新令牌视为开发工作台安全和隐私部分中的带标签的工具：标签告诉你要检查哪些问题区域，但真正的行为仍然来自于实现。"
+mechanism: "一种寿命较长的凭据，用于获取新的访问令牌，而无需用户再次登录。在实际项目中，其确切行为取决于周围的技术、配置和数据流，因此请验证具体实现，而不是仅依赖标签。"
+why_it_matters: "了解刷新令牌可以让 Vibe Coding 初学者说出他们所指的确切安全和隐私问题，并要求 AI 编程代理进行更改以及证明行为正确的证据。"
+project_example: "在 Vibe Terms 中，当学习者到达测试保护阶段时，使用刷新令牌作为词汇检查点；将定义连接到一个可见的页面、文件、请求、数据结构或验证步骤，而不是孤立地教授它。"
+ai_prompt_example: "解释一下 刷新令牌 如何应用于这个项目。指出所涉及的确切文件或系统边界，仅进行最小的必要更改，并显示我可以用来验证结果的命令或用户流程。"
+common_mistake: "将术语“刷新令牌”视为实现正确的证据，而不检查实际行为、数据流、权限、失败案例或相关测试。"
 status: draft
 source_content_version: 1

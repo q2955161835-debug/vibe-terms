@@ -1,10 +1,10 @@
-title: 桩
-short_definition: 桩 是“测试与调试”中的术语。当前为待人工审校的草稿。英文标准定义：A test double that returns controlled values or errors to drive a test through a particular path.
-analogy: 可以先把 桩 想成软件开发工具箱里一个有明确用途的标签；真正使用时仍要结合所在代码、数据流和用户场景判断。
-mechanism: 桩 是“测试与调试”中的术语。当前为待人工审校的草稿。英文标准定义：A test double that returns controlled values or errors to drive a test through a particular path.
-why_it_matters: 理解 桩 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-project_example: 理解 桩 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-ai_prompt_example: 解释 桩 在这个项目中的作用。指出涉及的文件或系统边界，只做最小必要改动，并给出我可以验证结果的步骤。
-common_mistake: 只记住 桩 这个名词，却没有检查它在当前项目里的真实行为、数据流和失败情况。
+title: "存根"
+short_definition: "返回受控值或错误以驱动测试通过特定路径的测试替身。"
+analogy: "将 存根 视为开发工作台测试和调试部分中的带标签工具：标签告诉你要检查哪些问题区域，但真正的行为仍然来自实现。"
+mechanism: "返回受控值或错误以驱动测试通过特定路径的测试替身。在实际项目中，其确切行为取决于周围的技术、配置和数据流，因此请验证具体实现，而不是仅依赖标签。"
+why_it_matters: "了解存根可以让 Vibe Coding 初学者说出他们想要的确切测试和调试问题，并要求 AI 编程代理进行更改以及行为正确的证据。"
+project_example: "在 Vibe Terms 中，当学习者到达测试保护阶段时，使用 存根 作为词汇检查点；将定义连接到一个可见的页面、文件、请求、数据结构或验证步骤，而不是孤立地教授它。"
+ai_prompt_example: "解释一下 存根 如何应用于这个项目。指出所涉及的确切文件或系统边界，仅进行最小的必要更改，并显示我可以用来验证结果的命令或用户流程。"
+common_mistake: "将术语存根视为实现正确的证据，而不检查实际行为、数据流、权限、失败案例或相关测试。"
 status: draft
 source_content_version: 1

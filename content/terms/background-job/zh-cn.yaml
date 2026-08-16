@@ -1,10 +1,10 @@
-title: 后台任务
-short_definition: 后台任务 是“后端与 API”中的术语。当前为待人工审校的草稿。英文标准定义：Work executed asynchronously outside the user's foreground request, such as sending email or processing media.
-analogy: 可以先把 后台任务 想成软件开发工具箱里一个有明确用途的标签；真正使用时仍要结合所在代码、数据流和用户场景判断。
-mechanism: 后台任务 是“后端与 API”中的术语。当前为待人工审校的草稿。英文标准定义：Work executed asynchronously outside the user's foreground request, such as sending email or processing media.
-why_it_matters: 理解 后台任务 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-project_example: 理解 后台任务 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-ai_prompt_example: 解释 后台任务 在这个项目中的作用。指出涉及的文件或系统边界，只做最小必要改动，并给出我可以验证结果的步骤。
-common_mistake: 只记住 后台任务 这个名词，却没有检查它在当前项目里的真实行为、数据流和失败情况。
+title: "后台作业"
+short_definition: "在用户前台请求之外异步执行的工作，例如发送电子邮件或处理媒体。"
+analogy: "将后台作业视为开发工作台后端和 API 部分中的带标签工具：标签告诉你要检查哪些问题区域，但真正的行为仍然来自实现。"
+mechanism: "在用户前台请求之外异步执行的工作，例如发送电子邮件或处理媒体。在实际项目中，其确切行为取决于周围的技术、配置和数据流，因此请验证具体实现，而不是仅依赖标签。"
+why_it_matters: "了解后台工作可以让 Vibe Coding 初学者准确命名他们所指的后端和 API 关注点，并要求 AI 编程代理进行更改以及行为正确的证据。"
+project_example: "在 Vibe Terms 中，当学习者达到数据身份阶段时，使用后台作业作为词汇检查点；将定义连接到一个可见的页面、文件、请求、数据结构或验证步骤，而不是孤立地教授它。"
+ai_prompt_example: "解释后台作业如何应用于该项目。指出所涉及的确切文件或系统边界，仅进行最小的必要更改，并显示我可以用来验证结果的命令或用户流程。"
+common_mistake: "将术语“后台作业”视为实现正确的证据，而不检查实际行为、数据流、权限、失败案例或相关测试。"
 status: draft
 source_content_version: 1

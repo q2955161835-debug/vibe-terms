@@ -1,10 +1,10 @@
-title: SEO
-short_definition: SEO 是“Web 与网络”中的术语。当前为待人工审校的草稿。英文标准定义：The practice of making web content understandable, crawlable, and useful to search engines while serving real user intent.
-analogy: 可以先把 SEO 想成软件开发工具箱里一个有明确用途的标签；真正使用时仍要结合所在代码、数据流和用户场景判断。
-mechanism: SEO 是“Web 与网络”中的术语。当前为待人工审校的草稿。英文标准定义：The practice of making web content understandable, crawlable, and useful to search engines while serving real user intent.
-why_it_matters: 理解 SEO 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-project_example: 理解 SEO 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-ai_prompt_example: 解释 SEO 在这个项目中的作用。指出涉及的文件或系统边界，只做最小必要改动，并给出我可以验证结果的步骤。
-common_mistake: 只记住 SEO 这个名词，却没有检查它在当前项目里的真实行为、数据流和失败情况。
+title: "搜索引擎优化"
+short_definition: "使网页内容易于理解、可爬行且对搜索引擎有用，同时满足真实用户意图的实践。"
+analogy: "将 搜索引擎优化 视为开发工作台网络与网络部分中的带标签的工具：标签告诉你要检查哪些问题区域，但真正的行为仍然来自实现。"
+mechanism: "使网页内容易于理解、可爬行且对搜索引擎有用，同时满足真实用户意图的实践。在实际项目中，其确切行为取决于周围的技术、配置和数据流，因此请验证具体实现，而不是仅依赖标签。"
+why_it_matters: "了解 搜索引擎优化 后，Vibe Coding 初学者可以准确说出他们所指的网络与网络问题，并要求 AI 编程代理进行更改以及证明行为正确的证据。"
+project_example: "在 Vibe Terms 中，当学习者到达环境阶段时，使用 搜索引擎优化 作为词汇检查点；将定义连接到一个可见的页面、文件、请求、数据结构或验证步骤，而不是孤立地教授它。"
+ai_prompt_example: "解释 搜索引擎优化 如何应用于该项目。指出所涉及的确切文件或系统边界，仅进行最小的必要更改，并显示我可以用来验证结果的命令或用户流程。"
+common_mistake: "将 搜索引擎优化 一词视为实现正确的证据，而不检查实际行为、数据流、权限、失败案例或相关测试。"
 status: draft
 source_content_version: 1

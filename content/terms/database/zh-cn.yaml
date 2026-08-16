@@ -1,8 +1,8 @@
-title: 数据库
-short_definition: 用于持久保存和查询结构化应用数据的系统。
-analogy: 像有索引的档案室，不用翻遍所有文件就能找到记录。
-why_it_matters: 账户、内容、学习进度等长期数据通常需要数据库。
-ai_prompt_example: 先设计表和关系，再展示迁移方案，然后写应用代码。
-common_mistake: 把数据库当成巨大的无结构 JSON 抽屉。
+title: "数据库"
+short_definition: "一种持久存储和查询结构化应用程序数据的系统。"
+analogy: "索引完善的档案室，无需打开每个文件夹即可找到记录。"
+why_it_matters: "用户帐户、内容、进度和产品数据通常需要持久存储。"
+ai_prompt_example: "首先设计表和关系，然后在编写应用程序代码之前显示迁移。"
+common_mistake: "使用数据库就像一个巨大的非结构化 JSON 抽屉，没有数据模型。"
 status: draft
 source_content_version: 1

@@ -1,8 +1,8 @@
-title: API
-short_definition: 不同软件之间按约定请求数据或操作的一套接口。
-analogy: 像餐厅菜单，你知道能点什么，却不需要进厨房。
-why_it_matters: 前端、数据库、AI 模型和第三方服务经常通过 API 连接。
-ai_prompt_example: 实现前先定义 GET /api/terms 的参数、返回字段和错误情况。
-common_mistake: 把 API 的接口约定和内部实现代码混为一谈。
+title: "API（应用程序编程接口）"
+short_definition: "一个软件向另一个软件请求数据或操作的一种定义方式。"
+analogy: "餐厅菜单告诉你无需进入厨房即可点餐。"
+why_it_matters: "AI 编码通常通过 API（应用程序编程接口） 连接前端、数据库、模型提供者和第三方服务。"
+ai_prompt_example: "在实现之前创建一个包含请求参数、响应字段和错误情况的 GET /api/terms 端点合约。"
+common_mistake: "将 API（应用程序编程接口） 合约与实现它的内部代码混淆。"
 status: draft
 source_content_version: 1
