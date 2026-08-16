@@ -1,8 +1,8 @@
-# 500 Visual Explainers and Dark Theme Implementation Plan
+# 14 Representative Visual Explainers, Dark Theme, and Discoverable Homepage Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** 为 500 个术语增加按概念定制、仅维护英文与简体中文的可视化解读，并让现有站点及新图解完整支持浅色、暗色和跟随系统主题。
+**Goal:** 为 14 个代表术语增加按概念定制、仅维护英文与简体中文的可视化解读，让现有站点及新图解完整支持浅色、暗色和跟随系统主题，并新增 SEO/GEO 友好的根首页后发布到 GitHub Pages 与 Sites。
 
 **Architecture:** 新增独立的 `content/explainers/<slug>.yaml` 内容层、严格验证器、14 种白名单视觉模式、静态 Python 渲染器和通用浏览器状态控制器。词条页先渲染专属图解，再完整保留已有四阶段示例；图解只在当前词条页内联，语言通过纯函数回退，主题通过共享语义变量统一控制。
 
@@ -10,7 +10,8 @@
 
 ## Global Constraints
 
-- 必须覆盖当前目录中的 500/500 个规范术语；禁止通用空图或缺失图解静默回退。
+- 2026-08-16 用户收缩范围：只交付 Task 5 的 14 个代表术语；Task 6–12 的其余 486 个内容不再实施。无图解词条继续保留原完整页面，不显示空图或通用图。
+- 根首页采用开源 [AnswerDotAI/llms-txt](https://github.com/AnswerDotAI/llms-txt) 的公开格式和 [schemaorg/schemaorg](https://github.com/schemaorg/schemaorg) 词汇，提供 answer-first 内容、FAQ、JSON-LD、`llms.txt`、canonical/hreflang、sitemap 和 robots。
 - 图解只维护 `en` 与 `zh-cn`；`zh-cn`、`zh-tw` 读取简体中文，`en`、`ja`、`ko`、`de`、`ru` 读取英文。
 - 原有定义、四阶段文字说明、小练、项目路径、来源、相关词、搜索和本地进度只增不减。
 - 关闭 JavaScript 后必须保留首状态画布、全部状态标题和结论记录。
@@ -618,7 +619,7 @@ git commit -m "content: add fourteen gold visual explainers"
 
 ---
 
-### Task 6: Add full-corpus audit gates before bulk authoring
+### Task 6: CANCELED — full-corpus audit gates before bulk authoring
 
 **Files:**
 - Modify: `scripts/audit_explainers.py`
@@ -681,7 +682,7 @@ git commit -m "test: enforce custom visual explainer corpus"
 
 ---
 
-### Task 7: Author UI/UX explainers (115 terms)
+### Task 7: CANCELED — author UI/UX explainers (115 terms)
 
 **Files:**
 - Create/Modify: `content/explainers/*.yaml` for every term whose `primary_domain` is `ui-ux`
@@ -721,7 +722,7 @@ git commit -m "content: add UI UX visual explainers"
 
 ---
 
-### Task 8: Author frontend and web-network explainers (85 terms)
+### Task 8: CANCELED — author frontend and web-network explainers (85 terms)
 
 **Files:**
 - Create/Modify: `content/explainers/*.yaml` for `frontend-engineering` and `web-network`
@@ -759,7 +760,7 @@ git commit -m "content: add frontend and network visual explainers"
 
 ---
 
-### Task 9: Author AI/Vibe and product-requirement explainers (90 terms)
+### Task 9: CANCELED — author AI/Vibe and product-requirement explainers (90 terms)
 
 **Files:**
 - Create/Modify: `content/explainers/*.yaml` for `ai-vibe` and `product-requirements`
@@ -797,7 +798,7 @@ git commit -m "content: add AI and product visual explainers"
 
 ---
 
-### Task 10: Author backend, data, and security explainers (90 terms)
+### Task 10: CANCELED — author backend, data, and security explainers (90 terms)
 
 **Files:**
 - Create/Modify: `content/explainers/*.yaml` for `backend-apis`, `data-databases`, `security-privacy`
@@ -835,7 +836,7 @@ git commit -m "content: add backend data and security visual explainers"
 
 ---
 
-### Task 11: Author computing, deployment, and Git explainers (85 terms)
+### Task 11: CANCELED — author computing, deployment, and Git explainers (85 terms)
 
 **Files:**
 - Create/Modify: `content/explainers/*.yaml` for `computing-env`, `deployment-operations`, `git-collaboration`
@@ -873,7 +874,7 @@ git commit -m "content: add environment deployment and Git explainers"
 
 ---
 
-### Task 12: Author testing/debugging explainers and close 500 coverage
+### Task 12: CANCELED — author testing/debugging explainers and close 500 coverage
 
 **Files:**
 - Create/Modify: `content/explainers/*.yaml` for `testing-debugging`
@@ -920,21 +921,22 @@ git commit -m "content: complete 500 visual explainers"
 - Modify: `scripts/vibe_terms/content.py`
 - Modify: `scripts/vibe_terms/render.py`
 - Modify: `scripts/vibe_terms/__init__.py`
+- Modify: `web/clarity.css`
 - Modify: `tests/test_content_schema.py`
 - Modify: `tests/test_static_site.py`
 - Modify: `tests/test_packaging.py`
 
 **Interfaces:**
-- Consumes: complete 500-file corpus and `render_visual_explainer()`.
-- Produces: `term["visual_explainer"]`, built `assets/explainers.css`, `assets/explainers.js`, copied icons and term-page `data-section="visual-explainer"`.
+- Consumes: the approved 14-file representative corpus and `render_visual_explainer()`.
+- Produces: optional `term["visual_explainer"]` for those 14 terms, built `assets/explainers.css`, `assets/explainers.js`, copied icons, term-page `data-section="visual-explainer"`, and a root SEO/GEO landing page.
 
 - [ ] **Step 1: Write failing catalog and generated-page tests**
 
 ```python
-def test_every_term_carries_one_valid_visual_explainer(catalog: Catalog) -> None:
-    assert len(catalog.terms) == 500
-    for term in catalog.terms:
-        assert term["visual_explainer"]["term"] == term["slug"]
+def test_representative_terms_carry_valid_visual_explainers(catalog: Catalog) -> None:
+    explained = [term for term in catalog.terms if term.get("visual_explainer")]
+    assert len(explained) == 14
+    assert {term["visual_explainer"]["term"] for term in explained} == {term["slug"] for term in explained}
 
 
 def test_term_page_keeps_visual_and_existing_learning_sections(generated_site: Path) -> None:
@@ -952,13 +954,13 @@ Run: `python -m pytest tests/test_content_schema.py::test_every_term_carries_one
 
 Expected: FAIL because catalog terms do not yet carry explainers.
 
-- [ ] **Step 3: Attach validated explainers during catalog loading**
+- [ ] **Step 3: Attach the validated representative subset during catalog loading**
 
-At the beginning of `load_catalog`, collect the canonical slug set and call `load_explainers(content_root, slugs)`. Add the matching dictionary as `visual_explainer` when each term is normalized. Extend `validate_catalog` to assert one matching explainer per term without re-reading files.
+At the beginning of `load_catalog`, enumerate `content/explainers/*.yaml`, reject non-canonical slugs, validate every present file, and attach the matching dictionary as optional `visual_explainer`. Extend `validate_catalog` to assert matching slugs without requiring the other 486 terms.
 
 - [ ] **Step 4: Render the new section before the existing example**
 
-Import `render_visual_explainer` in `render.py`. In `build_term_pages`, place:
+Import `render_visual_explainer` in `render.py`. For terms that carry a visual explainer, place:
 
 ```python
 visual_html = render_visual_explainer(term["visual_explainer"], locale)
@@ -966,21 +968,25 @@ visual_html = render_visual_explainer(term["visual_explainer"], locale)
 
 immediately after the definition summary and before `self.example_html(locale, term, localized)`. Wrap it in `data-section="visual-explainer"`; do not remove or reorder the existing exercise and reference sections.
 
-- [ ] **Step 5: Copy and load shared browser assets**
+- [ ] **Step 5: Replace the root language gateway with an SEO/GEO landing page**
+
+Keep the seven locale links but add an answer-first hero, top search, precise 500-term/12-domain/42-topic/3-path facts, links to the 14 visual explanations, knowledge-map and project-path entry points, question-format sections, FAQ, source/licensing disclosure, Schema.org `WebSite` + `DefinedTermSet` + `FAQPage` JSON-LD, canonical/hreflang, Open Graph/X metadata, and a discoverable `llms.txt`. Generate `robots.txt` and `sitemap.xml` with host-independent `UrlBuilder` paths. The llms format follows the open-source AnswerDotAI proposal; JSON-LD uses the schemaorg open-source vocabulary.
+
+- [ ] **Step 6: Copy and load shared browser assets**
 
 Add `explainers.css`, `explainers.js` and `icons/` to `SiteRenderer.prepare()`. Add the CSS after `clarity.css` and the script before `app.js`. Mount all explainer roots on `DOMContentLoaded` without changing `examples.js`.
 
-- [ ] **Step 6: Verify locale fallback in generated pages**
+- [ ] **Step 7: Verify locale fallback in generated pages**
 
 Add assertions that CSS renders Chinese copy for `zh-cn` and `zh-tw`, English copy for `en`, `ja`, `ko`, `de`, `ru`, while page navigation remains in its original locale.
 
-- [ ] **Step 7: Run static, content, and packaging tests**
+- [ ] **Step 8: Run static, content, discoverability, and packaging tests**
 
 Run: `python -m pytest tests/test_content_schema.py tests/test_static_site.py tests/test_packaging.py -q`
 
-Expected: PASS with 500 terms and all required assets in the archive.
+Expected: PASS with 500 terms, exactly 14 explainers, the discoverability artifacts, and all required runtime assets in the archive.
 
-- [ ] **Step 8: Commit integration**
+- [ ] **Step 9: Commit integration**
 
 ```bash
 git add scripts/vibe_terms/content.py scripts/vibe_terms/render.py scripts/vibe_terms/__init__.py tests/test_content_schema.py tests/test_static_site.py tests/test_packaging.py
@@ -1026,7 +1032,7 @@ Expected: FAIL before Task 13 assets/runtime are mounted in the HTTP build.
 
 - [ ] **Step 3: Add desktop/mobile and theme assertions**
 
-Parametrize representative slugs for all 14 patterns. At 1280×720 and 390×844 assert:
+Parametrize the 14 authored representative slugs. At 1280×720 and 390×844 assert:
 
 ```python
 assert page.evaluate("document.documentElement.scrollWidth <= document.documentElement.clientWidth")
@@ -1067,7 +1073,7 @@ git commit -m "test: cover visual explainers across themes and locales"
 - Modify: `design-qa.md`
 - Modify: `doc/验收/模块/验收-静态站点.md`
 - Modify: `doc/验收/跨模块/验收-查词到项目学习.md`
-- Create: `doc/验收/任务/验收-500词可视化解读与暗色主题.md`
+- Create: `doc/验收/任务/验收-14词可视化解读与SEO-GEO首页.md`
 - Modify: `doc/进展记录/2026-08-16.md`
 - Move after PASS: `docs/superpowers/specs/2026-08-16-visual-explainers-dark-theme-design.md` to `doc/归档/2026-08-16/`
 - Move after PASS: `docs/superpowers/plans/2026-08-16-visual-explainers-dark-theme.md` to `doc/归档/2026-08-16/`
@@ -1079,7 +1085,7 @@ git commit -m "test: cover visual explainers across themes and locales"
 
 - [ ] **Step 1: Update authoring and deployment documentation**
 
-Document the exact explainer schema, locale fallback table, domain audit commands, icon sync command, no-JavaScript contract and theme QA commands. README describes 500 visual explainers without claiming seven translated explainer sets.
+Document the exact explainer schema, 14-term scope, locale fallback table, icon sync command, no-JavaScript contract, SEO/GEO artifacts, open-source references, and theme QA commands. Do not claim 500 visual explainers.
 
 - [ ] **Step 2: Run the complete local verification matrix**
 
@@ -1087,7 +1093,6 @@ Run:
 
 ```bash
 python -X utf8 scripts/audit_full_content.py
-python -X utf8 scripts/audit_explainers.py --require-complete
 RUN_HTTP_E2E=1 ./scripts/verify_public_site.sh
 BASE_PATH=/vibe-terms RUN_HTTP_E2E=1 ./scripts/verify_public_site.sh
 npm ci
@@ -1095,7 +1100,7 @@ npm run build
 git diff --check
 ```
 
-Expected: 500 terms, 500 explainers, 14 patterns, seven page locales, three paths, root/subpath HTTP success, Sites build success and no diff whitespace errors.
+Expected: 500 terms, exactly 14 explainers covering 14 patterns, seven page locales, three paths, SEO/GEO artifacts, root/subpath HTTP success, Sites build success and no diff whitespace errors.
 
 - [ ] **Step 3: Run blocking browser design QA**
 
@@ -1103,7 +1108,7 @@ Use the Browser plugin on the local static site. The flow under test is: term pa
 
 - [ ] **Step 4: Dispatch one independent unified acceptance agent**
 
-The acceptance agent receives requirements and commands but no implementation context. It samples all 14 patterns, both explainer copy languages, Chinese/English fallback routes, dark/light, 1280×720 and 390×844, search -> term -> explainer -> exercise -> project path, local persistence, root/BASE_PATH, package output and core pre-existing flows. It does not repeat 500 manual browser checks; it must verify the 500-file automated gate and use a reproducible random sample for content/browser quality.
+The acceptance agent receives requirements and commands but no implementation context. It uses a reproducible sample across the 14 patterns, both explainer copy languages, Chinese/English fallback routes, dark/light, 1280×720 and 390×844, homepage discovery artifacts, search -> term -> explainer -> exercise -> project path, local persistence, root/BASE_PATH, package output and core pre-existing flows. It does not manually inspect all 500 term pages.
 
 - [ ] **Step 5: Resolve every blocking acceptance finding**
 
@@ -1126,7 +1131,7 @@ If the user has explicitly authorized `AGENTS.md`, add its current source-of-tru
 
 ```bash
 git checkout main
-git merge --no-ff codex/feat-visual-explainers-dark-theme -m "merge: add 500 visual explainers and dark theme"
+git merge --no-ff codex/feat-visual-explainers-dark-theme -m "merge: add representative visual explainers and discoverable homepage"
 git branch -d codex/feat-visual-explainers-dark-theme
 git push origin main
 ```
@@ -1144,3 +1149,7 @@ Wait for both `Verify public site` and `Deploy GitHub Pages` runs tied to the pu
 - original search, knowledge map, project paths and exercises remain HTTP 200 and usable.
 
 Expected: remote SHA equals local `main`, both workflows conclude `success`, and all live checks pass without console errors.
+
+- [ ] **Step 10: Publish the same validated source to Sites**
+
+Run the Sites build, package the exact validated source, save one version, deploy it privately, poll until `succeeded`, then read back the deployed root homepage and one bilingual representative explainer. Do not expose source credentials.
