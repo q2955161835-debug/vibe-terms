@@ -417,7 +417,9 @@
       node.querySelector('.learn-domain').textContent = term.domain_title;
       title.textContent = term.title;
       node.querySelector('.learn-canonical').textContent =
-        term.title === term.canonical_name ? '' : term.canonical_name;
+        core.shouldShowCanonicalTitle(term.title, term.canonical_name)
+          ? term.canonical_name
+          : '';
       node.querySelector('.learn-definition').textContent = term.short_definition;
       node.querySelector('.learn-analogy').textContent = term.analogy;
 

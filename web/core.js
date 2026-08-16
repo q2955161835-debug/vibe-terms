@@ -28,6 +28,12 @@
       .trim();
   }
 
+  function shouldShowCanonicalTitle(localizedTitle, canonicalName) {
+    const localized = normalizeSearchText(localizedTitle);
+    const canonical = normalizeSearchText(canonicalName);
+    return Boolean(canonical) && !localized.includes(canonical);
+  }
+
   function scoreTerm(term, rawQuery) {
     const query = normalizeSearchText(rawQuery);
     if (!query) return 0;
@@ -330,6 +336,7 @@
     scheduleReview,
     scoreSearchDocument,
     scoreTerm,
+    shouldShowCanonicalTitle,
     validateLocalStateV2,
   };
 });

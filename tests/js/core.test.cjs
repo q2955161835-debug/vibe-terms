@@ -13,12 +13,22 @@ const {
   scheduleReview,
   scoreSearchDocument,
   scoreTerm,
+  shouldShowCanonicalTitle,
   validateLocalStateV2,
 } = require('../../web/core.js');
 
 test('normalizes Unicode, separators, and case for multilingual search', () => {
   assert.equal(normalizeSearchText('  Context_Window  '), 'context window');
   assert.equal(normalizeSearchText('ＡＰＩ'), 'api');
+});
+
+test('does not repeat a canonical name already embedded in the localized title', () => {
+  assert.equal(
+    shouldShowCanonicalTitle('圆角半径（Border Radius）', 'Border Radius'),
+    false,
+  );
+  assert.equal(shouldShowCanonicalTitle('面包屑导航', 'Breadcrumb'), true);
+  assert.equal(shouldShowCanonicalTitle('Cookie (куки)', 'Cookie'), false);
 });
 
 test('ranks exact title matches above definition-only matches', () => {

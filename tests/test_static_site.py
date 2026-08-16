@@ -217,6 +217,22 @@ def test_home_is_a_clear_domain_topic_and_term_card_explorer(generated_site: Pat
     assert "从一句想法，走到真正上线。" not in html
 
 
+def test_canonical_name_is_not_repeated_when_localized_title_already_contains_it(
+    generated_site: Path,
+) -> None:
+    home = (generated_site / "zh-cn" / "index.html").read_text(encoding="utf-8")
+    detail = (
+        generated_site / "zh-cn" / "terms" / "border-radius" / "index.html"
+    ).read_text(encoding="utf-8")
+    terms = (generated_site / "zh-cn" / "terms" / "index.html").read_text(
+        encoding="utf-8"
+    )
+
+    assert "<strong>圆角半径（Border Radius）</strong><span>Border Radius</span>" not in home
+    assert "<strong>圆角半径（Border Radius）</strong><span>Border Radius</span>" not in detail
+    assert "<strong>圆角半径（Border Radius）</strong><small>Border Radius</small>" not in terms
+
+
 def test_static_example_pages_do_not_render_inert_controls(generated_site: Path) -> None:
     html = (
         generated_site / "en" / "terms" / "a-b-test" / "index.html"

@@ -61,6 +61,12 @@ def _is_external(url: str) -> bool:
     return url.startswith(("https://", "http://", "mailto:", "tel:"))
 
 
+def _should_show_canonical_title(localized_title: object, canonical_name: object) -> bool:
+    localized = str(localized_title).casefold()
+    canonical = str(canonical_name).casefold()
+    return bool(canonical) and canonical not in localized
+
+
 class SiteRenderer:
     def __init__(self, config: BuildConfig, catalog: Catalog) -> None:
         self.config = config
@@ -283,8 +289,15 @@ class SiteRenderer:
     def term_link(self, locale: str, term: dict[str, Any], *, row: bool = False) -> str:
         localized = term["localized"][locale]
         class_name = "term-row" if row else "chip"
+        canonical = (
+            f'<small>{_esc(term["canonical_name"])}</small>'
+            if _should_show_canonical_title(
+                localized["title"], term["canonical_name"]
+            )
+            else ""
+        )
         details = (
-            f'<span><strong>{_esc(localized["title"])}</strong><small>{_esc(term["canonical_name"])}</small></span>'
+            f'<span><strong>{_esc(localized["title"])}</strong>{canonical}</span>'
             f'<em>{_esc(localized["short_definition"])}</em>'
             if row
             else _esc(localized["title"])
@@ -360,7 +373,9 @@ class SiteRenderer:
         localized = term["localized"][locale]
         canonical = (
             f'<span>{_esc(term["canonical_name"])}</span>'
-            if localized["title"].casefold() != term["canonical_name"].casefold()
+            if _should_show_canonical_title(
+                localized["title"], term["canonical_name"]
+            )
             else ""
         )
         return (
@@ -673,7 +688,9 @@ class SiteRenderer:
             )
             canonical_heading = (
                 f'<span>{_esc(term["canonical_name"])}</span>'
-                if localized["title"].casefold() != term["canonical_name"].casefold()
+                if _should_show_canonical_title(
+                    localized["title"], term["canonical_name"]
+                )
                 else ""
             )
             body = (
