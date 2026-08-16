@@ -2,7 +2,7 @@
 
 ## Status
 
-Implemented and committed as `4d9ca3b6f518bce14b87c1288436ee4d487db2be` (`feat: integrate visual explainers into term pages`).
+Implemented as `4d9ca3b6f518bce14b87c1288436ee4d487db2be` (`feat: integrate visual explainers into term pages`), followed by `53add25885a1d6bdd8acf6af80c03d3b2d00c609` to generate every localized license alternate required by the shared hreflang head.
 
 ## RED / GREEN evidence
 
@@ -44,7 +44,7 @@ Implemented and committed as `4d9ca3b6f518bce14b87c1288436ee4d487db2be` (`feat: 
 - `python -m py_compile scripts/vibe_terms/content.py scripts/vibe_terms/render.py scripts/vibe_terms/__init__.py scripts/vibe_terms/explainer_renderers/*.py` — PASS.
 - Real-catalog 14/486 contract — PASS.
 - `python scripts/build_static_site.py` — PASS: 7 locales, 12 domains, 42 topics,
-  3 paths, 500 terms, 4237 routes.
+  3 paths, 500 terms, 4244 routes.
 - Default generated-artifact read-back — PASS: visual order, locale fallback, root
   metadata/JSON-LD, llms, copied CSS/JS/icons, robots, and sitemap.
 - `SITE_URL=https://q2955161835-debug.github.io/vibe-terms BASE_PATH=/vibe-terms python scripts/build_static_site.py` plus read-back — PASS: root canonical/hreflang,
@@ -68,4 +68,6 @@ Implemented and committed as `4d9ca3b6f518bce14b87c1288436ee4d487db2be` (`feat: 
 
 ## SHA
 
-`4d9ca3b6f518bce14b87c1288436ee4d487db2be`
+`4d9ca3b6f518bce14b87c1288436ee4d487db2be` (integration)
+
+`53add25885a1d6bdd8acf6af80c03d3b2d00c609` (localized license alternates)
