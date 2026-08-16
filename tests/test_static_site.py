@@ -185,6 +185,20 @@ def test_term_metadata_uses_localized_labels_and_omits_empty_aliases(
     assert "别名: —" not in html
 
 
+def test_runtime_search_labels_are_localized_by_the_static_page(
+    generated_site: Path,
+) -> None:
+    html = (generated_site / "ja" / "index.html").read_text(encoding="utf-8")
+    assert 'data-search-term-label="用語"' in html
+    assert 'data-search-topic-label="トピック"' in html
+    assert 'data-search-path-label="プロジェクトの流れ"' in html
+    assert 'data-search-empty="一致する用語がありません。"' in html
+
+    app = (generated_site / "assets" / "app.js").read_text(encoding="utf-8")
+    assert "root.dataset.searchTopicLabel" in app
+    assert "No matching term, topic, or path." not in app
+
+
 def test_home_is_a_clear_domain_topic_and_term_card_explorer(generated_site: Path) -> None:
     html = (generated_site / "zh-cn" / "index.html").read_text(encoding="utf-8")
     assert 'class="explorer-tabs"' in html

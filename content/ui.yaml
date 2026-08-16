@@ -2,6 +2,7 @@ en:
   skip: Skip to content
   home: Explore
   terms: Terms
+  topics: Topics
   learn: Learn
   search: Search terms, aliases, or meaning…
   search_btn: Search
@@ -103,6 +104,7 @@ zh-cn:
   skip: 跳到主要内容
   home: 探索
   terms: 术语
+  topics: 主题
   learn: 学习
   search: 搜索术语、缩写或中文含义…
   search_btn: 查找
@@ -204,6 +206,7 @@ zh-tw:
   skip: 跳到主要內容
   home: 探索
   terms: 術語
+  topics: 主題
   learn: 學習
   search: 搜尋術語、縮寫或含義…
   search_btn: 查找
@@ -305,6 +308,7 @@ ja:
   skip: メインコンテンツへ移動
   home: 探索
   terms: 用語
+  topics: トピック
   learn: 学習
   search: 用語・略語・意味を検索…
   search_btn: 検索
@@ -406,6 +410,7 @@ ko:
   skip: 주요 콘텐츠로 건너뛰기
   home: 탐색
   terms: 용어
+  topics: 주제
   learn: 학습
   search: 용어, 약어 또는 뜻 검색…
   search_btn: 검색
@@ -507,6 +512,7 @@ de:
   skip: Zum Hauptinhalt springen
   home: Entdecken
   terms: Begriffe
+  topics: Themen
   learn: Lernen
   search: Begriffe, Abkürzungen oder Bedeutung suchen…
   search_btn: Suchen
@@ -608,6 +614,7 @@ ru:
   skip: Перейти к основному содержимому
   home: Обзор
   terms: Термины
+  topics: Темы
   learn: Учиться
   search: Поиск терминов, сокращений или смысла…
   search_btn: Найти
@@ -709,6 +716,7 @@ hi:
   skip: मुख्य सामग्री पर जाएँ
   home: खोजें
   terms: शब्द
+  topics: विषय
   learn: सीखें
   search: शब्द, संक्षिप्त रूप या अर्थ खोजें…
   search_btn: खोजें

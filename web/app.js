@@ -666,11 +666,11 @@
 
   function searchGroupLabel(type) {
     const labels = {
-      term: { en: 'Terms', 'zh-cn': '词条', 'zh-tw': '詞條' },
-      topic: { en: 'Topics', 'zh-cn': '主题', 'zh-tw': '主題' },
-      path: { en: 'Project paths', 'zh-cn': '项目路径', 'zh-tw': '專案路徑' },
+      term: root.dataset.searchTermLabel,
+      topic: root.dataset.searchTopicLabel,
+      path: root.dataset.searchPathLabel,
     };
-    return labels[type]?.[locale] || labels[type]?.en || type;
+    return labels[type] || type;
   }
 
   function renderGroupedResults(panel, groups) {
@@ -690,7 +690,7 @@
     });
     panel.innerHTML = rows.length
       ? rows.join('')
-      : '<div class="search-empty" role="status">No matching term, topic, or path.</div>';
+      : `<div class="search-empty" role="status">${escapeText(root.dataset.searchEmpty || '')}</div>`;
     panel.hidden = false;
   }
 
@@ -725,7 +725,7 @@
         renderGroupedResults(panel, core.groupSearchResults(await loadSearchDocuments(), query, 10));
       } catch (error) {
         console.error(error);
-        panel.innerHTML = '<div class="search-empty" role="status">Search is unavailable. Ordinary navigation still works.</div>';
+        panel.innerHTML = `<div class="search-empty" role="status">${escapeText(root.dataset.searchError || '')}</div>`;
       } finally {
         panel.setAttribute('aria-busy', 'false');
         active = -1;
