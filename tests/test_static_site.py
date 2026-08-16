@@ -193,8 +193,8 @@ def test_runtime_search_labels_are_localized_by_the_static_page(
     assert 'data-search-topic-label="トピック"' in html
     assert 'data-search-path-label="プロジェクトの流れ"' in html
     assert 'data-search-empty="一致する用語がありません。"' in html
-    assert '"invalid_json":"選択したファイルは有効な JSON ではありません。"' in html
-    assert '"confirm_clear":"消去を確認"' in html
+    assert '"invalid_json":"選択したファイルは有効なJSONではありません。"' in html
+    assert '"confirm_clear":"消去を確認する"' in html
     assert '"clear_failed":"ローカルデータを消去できませんでした。"' in html
 
     app = (generated_site / "assets" / "app.js").read_text(encoding="utf-8")
@@ -280,7 +280,7 @@ def test_draft_pages_are_noindex_without_claiming_review(generated_site: Path) -
     ).read_text(encoding="utf-8")
     assert '<meta name="robots" content="index,follow"' in english
     assert '<meta name="robots" content="noindex,follow"' in chinese
-    assert "Draft" in chinese or "草稿" in chinese
+    assert "待审校" in chinese
     assert "human reviewed" not in chinese.lower()
 
 
