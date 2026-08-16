@@ -253,6 +253,11 @@ class SiteRenderer:
             "open_exercise",
             "next",
             "practice_unavailable",
+            "invalid_json",
+            "invalid_import",
+            "import_failed",
+            "confirm_clear",
+            "clear_failed",
         )
         runtime = {key: self.ui[locale].get(key, key) for key in runtime_keys}
         return (

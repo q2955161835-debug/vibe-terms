@@ -193,10 +193,16 @@ def test_runtime_search_labels_are_localized_by_the_static_page(
     assert 'data-search-topic-label="トピック"' in html
     assert 'data-search-path-label="プロジェクトの流れ"' in html
     assert 'data-search-empty="一致する用語がありません。"' in html
+    assert '"invalid_json":"選択したファイルは有効な JSON ではありません。"' in html
+    assert '"confirm_clear":"消去を確認"' in html
+    assert '"clear_failed":"ローカルデータを消去できませんでした。"' in html
 
     app = (generated_site / "assets" / "app.js").read_text(encoding="utf-8")
     assert "root.dataset.searchTopicLabel" in app
     assert "No matching term, topic, or path." not in app
+    assert "platformMessage('invalid_json'" in app
+    assert "platformMessage('confirm_clear'" in app
+    assert "platformMessage('clear_failed'" in app
 
 
 def test_home_is_a_clear_domain_topic_and_term_card_explorer(generated_site: Path) -> None:

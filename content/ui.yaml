@@ -100,6 +100,11 @@ en:
   open_exercise: Open exercise
   next: Next
   practice_unavailable: Practice data is unavailable.
+  invalid_json: The selected file is not valid JSON.
+  invalid_import: This is not a complete Vibe Terms schema v2 export.
+  import_failed: Local data import could not be completed.
+  confirm_clear: Confirm clear
+  clear_failed: Local data could not be cleared.
 zh-cn:
   skip: 跳到主要内容
   home: 探索
@@ -202,6 +207,11 @@ zh-cn:
   open_exercise: 打开练习
   next: 下一题
   practice_unavailable: 暂时无法载入练习数据。
+  invalid_json: 所选文件不是有效的 JSON。
+  invalid_import: 这不是完整的 Vibe Terms v2 数据导出。
+  import_failed: 无法完成本地数据导入。
+  confirm_clear: 确认清除
+  clear_failed: 无法清除本地数据。
 zh-tw:
   skip: 跳到主要內容
   home: 探索
@@ -304,6 +314,11 @@ zh-tw:
   open_exercise: 開啟練習
   next: 下一題
   practice_unavailable: 暫時無法載入練習資料。
+  invalid_json: 所選檔案不是有效的 JSON。
+  invalid_import: 這不是完整的 Vibe Terms v2 資料匯出。
+  import_failed: 無法完成本機資料匯入。
+  confirm_clear: 確認清除
+  clear_failed: 無法清除本機資料。
 ja:
   skip: メインコンテンツへ移動
   home: 探索
@@ -406,6 +421,11 @@ ja:
   open_exercise: 練習を開く
   next: 次へ
   practice_unavailable: 練習データを読み込めません。
+  invalid_json: 選択したファイルは有効な JSON ではありません。
+  invalid_import: これは完全な Vibe Terms スキーマ v2 のエクスポートではありません。
+  import_failed: ローカルデータをインポートできませんでした。
+  confirm_clear: 消去を確認
+  clear_failed: ローカルデータを消去できませんでした。
 ko:
   skip: 주요 콘텐츠로 건너뛰기
   home: 탐색
@@ -508,6 +528,11 @@ ko:
   open_exercise: 연습 열기
   next: 다음
   practice_unavailable: 연습 데이터를 불러올 수 없습니다.
+  invalid_json: 선택한 파일은 유효한 JSON이 아닙니다.
+  invalid_import: 완전한 Vibe Terms 스키마 v2 내보내기 파일이 아닙니다.
+  import_failed: 로컬 데이터를 가져오지 못했습니다.
+  confirm_clear: 삭제 확인
+  clear_failed: 로컬 데이터를 삭제하지 못했습니다.
 de:
   skip: Zum Hauptinhalt springen
   home: Entdecken
@@ -610,6 +635,11 @@ de:
   open_exercise: Übung öffnen
   next: Weiter
   practice_unavailable: Übungsdaten sind nicht verfügbar.
+  invalid_json: Die ausgewählte Datei enthält kein gültiges JSON.
+  invalid_import: Dies ist kein vollständiger Vibe-Terms-Export im Schema v2.
+  import_failed: Die lokalen Daten konnten nicht importiert werden.
+  confirm_clear: Löschen bestätigen
+  clear_failed: Die lokalen Daten konnten nicht gelöscht werden.
 ru:
   skip: Перейти к основному содержимому
   home: Обзор
@@ -712,6 +742,11 @@ ru:
   open_exercise: Открыть упражнение
   next: Далее
   practice_unavailable: Данные практики недоступны.
+  invalid_json: Выбранный файл не содержит корректный JSON.
+  invalid_import: Это не полный экспорт Vibe Terms по схеме v2.
+  import_failed: Не удалось импортировать локальные данные.
+  confirm_clear: Подтвердить удаление
+  clear_failed: Не удалось удалить локальные данные.
 hi:
   skip: मुख्य सामग्री पर जाएँ
   home: खोजें
@@ -814,3 +849,8 @@ hi:
   open_exercise: अभ्यास खोलें
   next: अगला
   practice_unavailable: अभ्यास डेटा उपलब्ध नहीं है।
+  invalid_json: चुनी गई फ़ाइल मान्य JSON नहीं है।
+  invalid_import: यह Vibe Terms स्कीमा v2 का पूरा निर्यात नहीं है।
+  import_failed: स्थानीय डेटा आयात नहीं किया जा सका।
+  confirm_clear: मिटाना पक्का करें
+  clear_failed: स्थानीय डेटा मिटाया नहीं जा सका।

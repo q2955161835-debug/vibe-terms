@@ -927,9 +927,9 @@
     if (!file) return;
     let payload;
     try { payload = JSON.parse(await file.text()); }
-    catch { input.setCustomValidity('Invalid JSON file.'); input.reportValidity(); return; }
+    catch { input.setCustomValidity(platformMessage('invalid_json', 'The selected file is not valid JSON.')); input.reportValidity(); return; }
     if (!core.validateLocalStateV2(payload)) {
-      input.setCustomValidity('This is not a complete Vibe Terms schema v2 export.');
+      input.setCustomValidity(platformMessage('invalid_import', 'This is not a complete Vibe Terms schema v2 export.'));
       input.reportValidity();
       return;
     }
@@ -938,7 +938,7 @@
       await importLocalState(payload);
       location.reload();
     } catch {
-      input.setCustomValidity('The local data import could not be completed.');
+      input.setCustomValidity(platformMessage('import_failed', 'Local data import could not be completed.'));
       input.reportValidity();
     }
   });
@@ -953,7 +953,7 @@
 
   document.querySelector('[data-clear-local]')?.addEventListener('click', async (event) => {
     const button = event.currentTarget;
-    if (button.dataset.confirm !== 'true') { button.dataset.confirm = 'true'; button.textContent = button.dataset.confirmLabel || 'Confirm clear'; return; }
+    if (button.dataset.confirm !== 'true') { button.dataset.confirm = 'true'; button.textContent = button.dataset.confirmLabel || platformMessage('confirm_clear', 'Confirm clear'); return; }
     try {
       await deleteLocalDatabase(databaseName);
       await deleteLocalDatabase('vibe-terms-guest-v1');
