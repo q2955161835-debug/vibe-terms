@@ -3,7 +3,7 @@ from __future__ import annotations
 from typing import Any
 
 from scripts.vibe_terms.explainers import resolve_explainer_locale
-from scripts.vibe_terms.explainer_renderers.base import _esc, render_node, render_shell
+from scripts.vibe_terms.explainer_renderers.base import _esc, render_node, render_shell, ui_label
 
 
 def _render_context(explainer: dict[str, Any], page_locale: str) -> tuple[dict[str, Any], dict[str, Any]]:
@@ -34,28 +34,43 @@ def render_pipeline(explainer: dict[str, Any], page_locale: str) -> str:
 def render_request_response(explainer: dict[str, Any], page_locale: str) -> str:
     copy, state = _render_context(explainer, page_locale)
     nodes = explainer["scene"]["nodes"]
-    request = nodes[0]
-    response = nodes[-1] if len(nodes) > 1 else None
-    contract_nodes = nodes[1:-1] if response else []
+    by_id = {node["id"]: node for node in nodes}
+    relations = explainer["scene"]["relations"]
+    from_ids = {relation["from"] for relation in relations}
+    to_ids = {relation["to"] for relation in relations}
+    request = next(
+        (node for node in nodes if node["id"] in from_ids - to_ids), nodes[0]
+    )
+    response = next(
+        (node for node in nodes if node["id"] in to_ids - from_ids),
+        next((node for node in reversed(nodes) if node["id"] != request["id"]), None),
+    )
+    endpoint_ids = {request["id"]}
+    if response is not None:
+        endpoint_ids.add(response["id"])
+    contract_nodes = [node for node in nodes if node["id"] not in endpoint_ids]
     contract = "".join(render_node(node, copy, state) for node in contract_nodes)
     relations = "".join(
         f'<li data-contract-from="{_esc(relation["from"])}" data-contract-to="{_esc(relation["to"])}">'
-        f'{_esc(relation["from"])} to {_esc(relation["to"])}</li>'
+        f'<span data-contract-node-ref="{_esc(relation["from"])}">'
+        f'{_esc(copy["labels"][by_id[relation["from"]]["label_key"]])}</span>'
+        f'<span data-contract-node-ref="{_esc(relation["to"])}">'
+        f'{_esc(copy["labels"][by_id[relation["to"]]["label_key"]])}</span></li>'
         for relation in explainer["scene"]["relations"]
     )
     response_label = (
         _esc(copy["labels"][response["label_key"]])
         if response is not None
-        else "Response endpoint"
+        else _esc(ui_label(page_locale, "response_endpoint"))
     )
     response_node = render_node(response, copy, state) if response is not None else ""
     canvas = (
         '<div class="visual-request-response">'
-        f'<section class="visual-request-endpoint" aria-label="{_esc(copy["labels"][request["label_key"]])}">'
+        f'<section class="visual-request-endpoint visual-request-endpoint--request" data-explainer-endpoint="request" aria-label="{_esc(copy["labels"][request["label_key"]])}">'
         f"{render_node(request, copy, state)}</section>"
-        f'<section class="visual-contract-panel" aria-label="Contract"><p>Contract</p>{contract}'
+        f'<section class="visual-contract-panel" aria-label="{_esc(ui_label(page_locale, "contract"))}"><p>{_esc(ui_label(page_locale, "contract"))}</p>{contract}'
         f'<ol class="visual-contract-relations">{relations}</ol></section>'
-        f'<section class="visual-request-endpoint" aria-label="{response_label}">'
+        f'<section class="visual-request-endpoint visual-request-endpoint--response" data-explainer-endpoint="response" aria-label="{response_label}">'
         f"{response_node}</section></div>"
     )
     return render_shell(explainer, page_locale, canvas)

@@ -106,13 +106,13 @@ def test_renderer_escapes_code_and_keeps_every_state_in_transcript(
         ("compare", 2, ('class="visual-compare"', 'class="visual-compare-column"')),
         ("sequence", 3, ('class="visual-sequence"', '<ol class="visual-sequence-steps">')),
         ("state-machine", 4, ('class="visual-state-machine"', 'class="visual-state-machine-transitions"')),
-        ("request-response", 2, ('class="visual-request-response"', 'class="visual-request-endpoint"', 'class="visual-contract-panel"')),
+        ("request-response", 2, ('class="visual-request-response"', 'visual-request-endpoint--request', 'visual-request-endpoint--response', 'class="visual-contract-panel"')),
         ("pipeline", 3, ('class="visual-pipeline"', '<ol class="visual-pipeline-stages">')),
         ("hierarchy", 4, ('class="visual-hierarchy"', '<ul class="visual-hierarchy-tree">')),
         ("code-result", 2, ('class="visual-code-result"', 'class="visual-code-result-output"')),
         ("data-mapping", 3, ('class="visual-data-mapping"', 'class="visual-mapping-source-column"', 'class="visual-mapping-target-column"')),
         ("lifecycle", 4, ('class="visual-lifecycle"', '<ol class="visual-lifecycle-phases">')),
-        ("boundary", 2, ('class="visual-boundary"', 'class="visual-trust-zone"')),
+        ("boundary", 2, ('class="visual-boundary"', 'class="visual-boundary-relations"')),
         ("layout", 3, ('class="visual-layout"', 'class="visual-layout-dimension"', '>Width<', '>Height<')),
         ("timeline", 4, ('class="visual-timeline"', '<ol class="visual-timeline-events">')),
         ("evidence", 2, ('class="visual-evidence"', 'class="visual-evidence-claim"', 'class="visual-evidence-sources"')),
@@ -161,7 +161,7 @@ def test_request_response_keeps_a_single_validated_node_unique() -> None:
 
     html = render_visual_explainer(explainer, "en")
 
-    assert html.count('class="visual-request-endpoint"') == 2
+    assert html.count("data-explainer-endpoint=") == 2
     assert 'class="visual-contract-panel"' in html
     assert html.count('data-explainer-node="request-response-source"') == 1
 
@@ -190,3 +190,147 @@ def test_hierarchy_keeps_nested_list_structure_without_declared_relations() -> N
 
     assert html.count('<ul class="visual-hierarchy') >= 2
     assert html.count("data-explainer-node=") == len(explainer["scene"]["nodes"])
+
+
+def test_request_response_has_distinct_authored_endpoint_roles_and_relation_contract() -> None:
+    explainer = _valid_explainer("request-response", 1)
+
+    html = render_visual_explainer(explainer, "en")
+
+    assert 'class="visual-request-endpoint visual-request-endpoint--request"' in html
+    assert 'class="visual-request-endpoint visual-request-endpoint--response"' in html
+    assert 'data-explainer-endpoint="request"' in html
+    assert 'data-explainer-endpoint="response"' in html
+    assert 'aria-label="request-response 0"' in html
+    assert 'aria-label="request-response 2"' in html
+    assert html.count('data-contract-from=') == len(explainer["scene"]["relations"])
+    assert html.count('data-contract-to=') == len(explainer["scene"]["relations"])
+
+
+def test_request_response_derives_endpoint_roles_from_relations_when_reordered() -> None:
+    explainer = _valid_explainer("request-response", 1)
+    source, middle, target = explainer["scene"]["nodes"]
+    explainer["scene"]["nodes"] = [target, source, middle]
+
+    html = render_visual_explainer(explainer, "en")
+
+    assert (
+        '<section class="visual-request-endpoint visual-request-endpoint--request" '
+        'data-explainer-endpoint="request" aria-label="request-response 0">'
+        in html
+    )
+    assert (
+        '<section class="visual-request-endpoint visual-request-endpoint--response" '
+        'data-explainer-endpoint="response" aria-label="request-response 2">'
+        in html
+    )
+
+
+def test_data_mapping_is_relation_driven_when_nodes_are_reordered() -> None:
+    explainer = _valid_explainer("data-mapping", 1)
+    source, middle, target = explainer["scene"]["nodes"]
+    explainer["scene"]["nodes"] = [target, source, middle]
+    explainer["scene"]["relations"] = [
+        {"from": source["id"], "to": target["id"]},
+        {"from": middle["id"], "to": target["id"]},
+    ]
+
+    html = render_visual_explainer(explainer, "en")
+
+    assert html.count('data-mapping-from=') == 2
+    assert html.count('data-mapping-to=') == 2
+    assert html.count(f'data-mapping-from="{source["id"]}"') == 1
+    assert html.count(f'data-mapping-from="{middle["id"]}"') == 1
+    assert html.count(f'data-mapping-to="{target["id"]}"') == 2
+    assert html.count("data-explainer-node=") == len(explainer["scene"]["nodes"])
+
+
+def test_boundary_keeps_declared_relation_evidence_without_positional_trust_claims() -> None:
+    explainer = _valid_explainer("boundary", 1)
+    source, middle, target = explainer["scene"]["nodes"]
+    explainer["scene"]["nodes"] = [target, source, middle]
+    explainer["scene"]["relations"] = [{"from": target["id"], "to": source["id"]}]
+
+    html = render_visual_explainer(explainer, "en")
+
+    assert "Trusted" not in html
+    assert "Untrusted" not in html
+    assert html.count('data-boundary-from=') == 1
+    assert html.count('data-boundary-to=') == 1
+    assert f'data-boundary-from="{target["id"]}"' in html
+    assert f'data-boundary-to="{source["id"]}"' in html
+    assert html.count("data-explainer-node=") == len(explainer["scene"]["nodes"])
+
+
+@pytest.mark.parametrize(
+    "relations",
+    [
+        [
+            {"from": "hierarchy-source", "to": "hierarchy-middle"},
+            {"from": "hierarchy-target", "to": "hierarchy-middle"},
+        ],
+        [
+            {"from": "hierarchy-source", "to": "hierarchy-middle"},
+            {"from": "hierarchy-middle", "to": "hierarchy-target"},
+            {"from": "hierarchy-target", "to": "hierarchy-source"},
+        ],
+    ],
+    ids=["dag", "cycle"],
+)
+def test_hierarchy_keeps_every_declared_edge_without_repeating_nodes(
+    relations: list[dict[str, str]],
+) -> None:
+    explainer = _valid_explainer("hierarchy", 1)
+    explainer["scene"]["relations"] = relations
+
+    html = render_visual_explainer(explainer, "en")
+
+    assert html.count('data-hierarchy-from=') == len(relations)
+    assert html.count('data-hierarchy-to=') == len(relations)
+    assert html.count("data-explainer-node=") == len(explainer["scene"]["nodes"])
+
+
+@pytest.mark.parametrize("pattern", sorted(PATTERNS))
+def test_zh_cn_renderer_chrome_has_no_english_labels(pattern: str) -> None:
+    html = render_visual_explainer(_valid_explainer(pattern, 2), "zh-cn")
+
+    for english_chrome in (
+        "Explainer states",
+        "Contract",
+        "Option A",
+        "Option B",
+        "Source",
+        "Target",
+        "Trusted zone",
+        "Untrusted zone",
+        "Width",
+        "Height",
+        "> to <",
+    ):
+        assert english_chrome not in html
+
+
+def test_single_node_zh_cn_request_response_localizes_the_empty_response_name() -> None:
+    explainer = _valid_explainer("request-response", 1)
+    explainer["scene"]["nodes"] = explainer["scene"]["nodes"][:1]
+    explainer["scene"]["relations"] = []
+
+    html = render_visual_explainer(explainer, "zh-cn")
+
+    assert 'aria-label="响应端点"' in html
+    assert "Response endpoint" not in html
+
+
+def test_state_machine_relation_text_uses_authored_labels_not_node_ids() -> None:
+    explainer = _valid_explainer("state-machine", 1)
+
+    html = render_visual_explainer(explainer, "en")
+
+    assert (
+        '<span data-transition-node-ref="state-machine-source">state-machine 0</span>'
+        in html
+    )
+    assert (
+        '<span data-transition-node-ref="state-machine-middle">state-machine 1</span>'
+        in html
+    )
