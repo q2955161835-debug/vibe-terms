@@ -62,6 +62,7 @@ en:
   difficulty_intermediate: Intermediate
   difficulty_advanced: Advanced
   bookmark: Bookmark
+  bookmark_active: Bookmarked
   user_says: You may say
   short_definition: Short definition
   prerequisites: Prerequisites
@@ -169,6 +170,7 @@ zh-cn:
   difficulty_intermediate: 中级
   difficulty_advanced: 高级
   bookmark: 收藏
+  bookmark_active: 已收藏
   user_says: 你可以这样说
   short_definition: 简短定义
   prerequisites: 前置知识
@@ -276,6 +278,7 @@ zh-tw:
   difficulty_intermediate: 中階
   difficulty_advanced: 進階
   bookmark: 收藏
+  bookmark_active: 已收藏
   user_says: 你可以這樣說
   short_definition: 簡短定義
   prerequisites: 前置知識
@@ -383,6 +386,7 @@ ja:
   difficulty_intermediate: 中級
   difficulty_advanced: 上級
   bookmark: ブックマーク
+  bookmark_active: ブックマーク済み
   user_says: こう言えます
   short_definition: 短い定義
   prerequisites: 前提知識
@@ -490,6 +494,7 @@ ko:
   difficulty_intermediate: 중급
   difficulty_advanced: 고급
   bookmark: 북마크
+  bookmark_active: 북마크됨
   user_says: 이렇게 말할 수 있어요
   short_definition: 짧은 정의
   prerequisites: 선수 지식
@@ -597,6 +602,7 @@ de:
   difficulty_intermediate: Mittelstufe
   difficulty_advanced: Fortgeschritten
   bookmark: Merken
+  bookmark_active: Gemerkt
   user_says: So könntest du es sagen
   short_definition: Kurzdefinition
   prerequisites: Voraussetzungen
@@ -704,6 +710,7 @@ ru:
   difficulty_intermediate: Средний
   difficulty_advanced: Продвинутый
   bookmark: В закладки
+  bookmark_active: Добавлено
   user_says: Можно сказать так
   short_definition: Краткое определение
   prerequisites: Предварительные знания

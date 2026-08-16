@@ -806,12 +806,22 @@
 
   const bookmarkButtons = Array.from(document.querySelectorAll('[data-bookmark]'));
   const changedBookmarks = new Set();
+  const renderBookmark = (button, selected) => {
+    const label = selected
+      ? button.dataset.bookmarkActiveLabel
+      : button.dataset.bookmarkInactiveLabel;
+    button.setAttribute('aria-pressed', String(selected));
+    if (label) {
+      button.textContent = label;
+      button.setAttribute('aria-label', label);
+    }
+  };
   getAll('bookmarks').then((rows) => {
     const selected = new Map(rows.map((row) => [row.id, Boolean(row.selected)]));
     bookmarkButtons.forEach((button) => {
       const slug = button.dataset.termSlug;
       if (slug && !changedBookmarks.has(slug)) {
-        button.setAttribute('aria-pressed', String(selected.get(slug) === true));
+        renderBookmark(button, selected.get(slug) === true);
       }
     });
   });
@@ -823,7 +833,7 @@
       changedBookmarks.add(slug);
       bookmarkButtons
         .filter((item) => item.dataset.termSlug === slug)
-        .forEach((item) => item.setAttribute('aria-pressed', String(selected)));
+        .forEach((item) => renderBookmark(item, selected));
       await put('bookmarks', { id: slug, slug, selected, updatedAt: Date.now() });
     });
   });

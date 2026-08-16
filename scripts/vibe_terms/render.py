@@ -489,6 +489,10 @@ class SiteRenderer:
 
     def term_card(self, locale: str, term: dict[str, Any]) -> str:
         localized = term["localized"][locale]
+        bookmark_label = self.label(locale, "bookmark", "Bookmark")
+        bookmark_active_label = self.label(
+            locale, "bookmark_active", "Bookmarked"
+        )
         canonical = (
             f'<span>{_esc(term["canonical_name"])}</span>'
             if _should_show_canonical_title(
@@ -501,7 +505,7 @@ class SiteRenderer:
             f'data-domain="{_esc(term["primary_domain"])}">'
             '<div class="term-card-head">'
             f'<a href="{_esc(self.urls.page(f"/{locale}/terms/{term["slug"]}/"))}"><h3><strong>{_esc(localized["title"])}</strong>{canonical}</h3></a>'
-            f'<button type="button" data-bookmark data-term-slug="{_esc(term["slug"])}" aria-pressed="false">{_esc(self.label(locale, "bookmark", "Bookmark"))}</button></div>'
+            f'<button type="button" data-bookmark data-term-slug="{_esc(term["slug"])}" data-bookmark-inactive-label="{_esc(bookmark_label)}" data-bookmark-active-label="{_esc(bookmark_active_label)}" aria-pressed="false" aria-label="{_esc(bookmark_label)}">{_esc(bookmark_label)}</button></div>'
             f'<p class="term-card-quote"><span>{_esc(self.label(locale, "user_says", "You may say"))}</span>“{_esc(localized["user_says"])}”</p>'
             '<div class="term-card-example">'
             f'<div><span>01 · {_esc(self.label(locale, "project_example", "Project example"))}</span><p>{_esc(localized["project_example"])}</p></div>'
@@ -703,7 +707,7 @@ class SiteRenderer:
             ),
         )
         stage_html = "".join(
-            f'<article class="example-stage{" is-active" if index == 0 else ""}" data-example-state="{_esc(stage_id)}"><span>{index + 1:02d}</span><strong>{_esc(title)}</strong><p>{_esc(copy)}</p></article>'
+            f'<button type="button" class="example-stage{" is-active" if index == 0 else ""}" data-example-state="{_esc(stage_id)}" data-example-stage-trigger aria-pressed="{"true" if index == 0 else "false"}"><span class="example-stage-number">{index + 1:02d}</span><strong>{_esc(title)}</strong><span class="example-stage-copy">{_esc(copy)}</span></button>'
             for index, (stage_id, title, copy) in enumerate(stages)
         )
         controls = ""
@@ -811,9 +815,13 @@ class SiteRenderer:
                 )
                 else ""
             )
+            bookmark_label = self.label(locale, "bookmark", "Bookmark")
+            bookmark_active_label = self.label(
+                locale, "bookmark_active", "Bookmarked"
+            )
             body = (
                 f'<article class="term-detail" data-term-page data-term-slug="{_esc(term["slug"])}">'
-                f'<div class="term-page-toolbar"><nav aria-label="{_esc(self.label(locale, "back", "Back"))}"><a class="back" href="{_esc(self.urls.page(f"/{locale}/"))}">← {_esc(self.label(locale, "terms", "Terms"))}</a><span>›</span><strong>{_esc(localized["title"])}</strong></nav><div class="term-actions"><button type="button" data-bookmark data-term-slug="{_esc(term["slug"])}" aria-pressed="false">{_esc(self.label(locale, "bookmark", "Bookmark"))}</button><button type="button" data-copy="{_esc(markdown_copy)}" data-copy-markdown>{_esc(self.label(locale, "copy_markdown", "Copy as Markdown"))}</button></div></div>'
+                f'<div class="term-page-toolbar"><nav aria-label="{_esc(self.label(locale, "back", "Back"))}"><a class="back" href="{_esc(self.urls.page(f"/{locale}/"))}">← {_esc(self.label(locale, "terms", "Terms"))}</a><span>›</span><strong>{_esc(localized["title"])}</strong></nav><div class="term-actions"><button type="button" data-bookmark data-term-slug="{_esc(term["slug"])}" data-bookmark-inactive-label="{_esc(bookmark_label)}" data-bookmark-active-label="{_esc(bookmark_active_label)}" aria-pressed="false" aria-label="{_esc(bookmark_label)}">{_esc(bookmark_label)}</button><button type="button" data-copy="{_esc(markdown_copy)}" data-copy-markdown>{_esc(self.label(locale, "copy_markdown", "Copy as Markdown"))}</button></div></div>'
                 f'<header class="term-heading"><div><div class="meta-line"><a href="{_esc(self.urls.page(f"/{locale}/knowledge/{term["primary_domain"]}/"))}">{_esc(domain_name)}</a>{status}</div><h1><strong>{_esc(localized["title"])}</strong>{canonical_heading}</h1><div class="term-fields"><span class="term-field">{_esc(difficulty_name)}</span><span class="term-field">{_esc(lifecycle_names)}</span>{alias_field}</div></div></header>'
                 f'<section class="term-voice" data-section="user-says"><span>{_esc(self.label(locale, "user_says", "You may say"))}</span><p>“{_esc(localized["user_says"])}”</p></section>'
                 f'<section class="term-definition-summary" data-section="definition"><h2 class="visually-hidden">{_esc(self.label(locale, "short_definition", "Short definition"))}</h2><p><strong>{_esc(localized["short_definition"])}</strong><span> · {_esc(localized["why_it_matters"])}</span></p></section>'
