@@ -1,0 +1,25 @@
+schema_version: 1
+term: component
+pattern: anatomy
+complexity: 1
+copy:
+  en:
+    heading: A component keeps one interface job together
+    intro: A profile card receives data, owns a small state, and renders one clear output.
+    states:
+      inspect: {label: Inspect parts, conclusion: "The component boundary makes its input, state, and output visible."}
+    labels: {input: Input, state: Local state, render: Rendered output, action: Event handler}
+  zh-cn:
+    heading: 组件把一个界面职责聚合在一起
+    intro: 个人资料卡接收数据，保存少量本地状态，并渲染清晰的结果。
+    states:
+      inspect: {label: 查看组成, conclusion: 组件边界让输入、状态和输出都清晰可见。}
+    labels: {input: 输入, state: 本地状态, render: 渲染输出, action: 事件处理}
+states: [{id: inspect, focus: [profile-input, expanded-state, toggle-action, profile-view], values: {}}]
+scene:
+  nodes:
+    - {id: profile-input, role: input, label_key: input, value: "member: { name, role }"}
+    - {id: expanded-state, role: state, label_key: state, value: "detailsOpen: false"}
+    - {id: toggle-action, role: action, label_key: action, value: "toggleDetails()"}
+    - {id: profile-view, role: output, label_key: render, value: "ProfileCard"}
+  relations: [{from: profile-input, to: profile-view}, {from: expanded-state, to: profile-view}, {from: toggle-action, to: expanded-state}]

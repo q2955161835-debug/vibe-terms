@@ -1,0 +1,67 @@
+schema_version: 1
+term: css
+pattern: code-result
+complexity: 2
+copy:
+  en:
+    heading: How two CSS rules decide the final button color
+    intro: Follow the matching rule, winning declaration, and computed result.
+    states:
+      base:
+        label: Base rule
+        conclusion: The primary-button declaration currently wins.
+      override:
+        label: Override rule
+        conclusion: The later override declaration now wins.
+    labels:
+      source: button.css
+      result: Computed
+      preview: Preview
+  zh-cn:
+    heading: 两条 CSS 规则怎样决定按钮的最终颜色
+    intro: 依次观察匹配规则、胜出声明和最终计算结果。
+    states:
+      base:
+        label: 基础规则
+        conclusion: 当前由主按钮规则提供最终颜色。
+      override:
+        label: 覆盖规则
+        conclusion: 后出现的覆盖规则现在胜出。
+    labels:
+      source: button.css
+      result: 计算结果
+      preview: 预览
+states:
+  - id: base
+    focus: [primary-rule, computed-value, preview-button]
+    values:
+      computed-color: "#4338ca"
+  - id: override
+    focus: [override-rule, computed-value, preview-button]
+    values:
+      computed-color: "#db2777"
+scene:
+  nodes:
+    - id: primary-rule
+      role: code
+      label_key: source
+      value: ".primary { background: #4338ca; }"
+    - id: override-rule
+      role: code
+      label_key: source
+      value: ".primary { background: #db2777; }"
+    - id: computed-value
+      role: result
+      label_key: result
+      value_from: computed-color
+    - id: preview-button
+      role: preview
+      label_key: preview
+      value: Button
+  relations:
+    - from: primary-rule
+      to: computed-value
+    - from: override-rule
+      to: computed-value
+    - from: computed-value
+      to: preview-button

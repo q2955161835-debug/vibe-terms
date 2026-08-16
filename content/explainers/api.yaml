@@ -1,0 +1,28 @@
+schema_version: 1
+term: api
+pattern: request-response
+complexity: 2
+copy:
+  en:
+    heading: An API contract connects a request to a dependable response
+    intro: The endpoint agrees on a route, input shape, and result shape.
+    states:
+      valid: {label: Valid request, conclusion: A complete payload receives the documented order result.}
+      invalid: {label: Invalid request, conclusion: A missing field receives a structured validation error.}
+    labels: {client: Storefront client, contract: Order contract, service: Order API}
+  zh-cn:
+    heading: API 契约将请求连接到可靠的响应
+    intro: 端点约定路由、输入结构和结果结构。
+    states:
+      valid: {label: 有效请求, conclusion: 完整载荷会得到文档承诺的订单结果。}
+      invalid: {label: 无效请求, conclusion: 缺少字段会得到结构化的校验错误。}
+    labels: {client: 商城客户端, contract: 订单契约, service: 订单 API}
+states:
+  - {id: valid, focus: [storefront, order-contract, order-api], values: {}}
+  - {id: invalid, focus: [storefront, order-contract], values: {}}
+scene:
+  nodes:
+    - {id: storefront, role: client, label_key: client, value: "POST /orders"}
+    - {id: order-contract, role: contract, label_key: contract, value: "{ sku, quantity } -> { orderId }"}
+    - {id: order-api, role: service, label_key: service, value: "201 or 422"}
+  relations: [{from: storefront, to: order-contract}, {from: order-contract, to: order-api}]

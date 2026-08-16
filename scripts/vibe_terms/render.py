@@ -10,6 +10,7 @@ from typing import Any
 import yaml
 
 from .config import HTML_LANG, LANGUAGE_NAMES, PRODUCT_NAME, BuildConfig
+from .explainer_renderers import render_visual_explainer
 from .indexes import (
     build_exercises_index,
     build_knowledge_graph,
@@ -105,14 +106,24 @@ class SiteRenderer:
             "app.js",
             "core.js",
             "examples.js",
+            "explainers.js",
             "styles.css",
             "clarity.css",
+            "explainers.css",
             "logo.svg",
         ):
             source = self.web / filename
             if not source.is_file():
                 raise ValueError(f"missing required browser asset: {source}")
             shutil.copy2(source, self.assets / filename)
+        social_image = self.web / "og.png"
+        if not social_image.is_file():
+            raise ValueError(f"missing required social image: {social_image}")
+        shutil.copy2(social_image, self.output / "og.png")
+        icons = self.web / "icons"
+        if not icons.is_dir():
+            raise ValueError(f"missing required browser assets: {icons}")
+        shutil.copytree(icons, self.assets / "icons")
 
     def add_page(self, route: str, page: str, *, indexable: bool = False) -> None:
         _write_page(self.output, route, page)
@@ -148,6 +159,7 @@ class SiteRenderer:
         robots: str,
         structured_data: object | None = None,
         canonical_path: str | None = None,
+        social_image: bool = False,
     ) -> str:
         route = f"/{locale}{locale_path}"
         canonical_route = canonical_path or route
@@ -161,6 +173,16 @@ class SiteRenderer:
         structured = (
             f'<script type="application/ld+json">{_json(structured_data, pretty=True)}</script>'
             if structured_data is not None
+            else ""
+        )
+        social_meta = (
+            f'<meta property="og:image" content="{_esc(self.urls.absolute("/og.png"))}"/>'
+            '<meta property="og:image:width" content="1731"/>'
+            '<meta property="og:image:height" content="909"/>'
+            '<meta property="og:image:alt" content="Vibe Terms visual explainer card"/>'
+            f'<meta name="twitter:image" content="{_esc(self.urls.absolute("/og.png"))}"/>'
+            '<meta name="twitter:image:alt" content="Vibe Terms visual explainer card"/>'
+            if social_image
             else ""
         )
         return (
@@ -180,9 +202,13 @@ class SiteRenderer:
             f'<meta property="og:type" content="website"/><meta property="og:title" content="{_esc(title)} · {PRODUCT_NAME}"/>'
             f'<meta property="og:description" content="{_esc(description)}"/>'
             f'<meta property="og:url" content="{_esc(self.urls.absolute(canonical_route))}"/>'
+            f'{social_meta}'
+            f'<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="{_esc(title)} · {PRODUCT_NAME}"/>'
+            f'<meta name="twitter:description" content="{_esc(description)}"/>'
             f'<link rel="icon" href="{_esc(self.urls.asset("assets/logo.svg"))}" type="image/svg+xml"/>'
             f'<link rel="stylesheet" href="{_esc(self.urls.asset("assets/styles.css"))}"/>'
             f'<link rel="stylesheet" href="{_esc(self.urls.asset("assets/clarity.css"))}"/>'
+            f'<link rel="stylesheet" href="{_esc(self.urls.asset("assets/explainers.css"))}"/>'
             f'<link rel="manifest" href="{_esc(self.urls.page("manifest.webmanifest"))}"/>'
             f'<link rel="canonical" href="{_esc(self.urls.absolute(canonical_route))}"/>'
             f'{alternate_links}<script>try{{document.documentElement.dataset.theme=localStorage.getItem("vibe-theme")||"light"}}catch(e){{document.documentElement.dataset.theme="light"}}</script>'
@@ -239,6 +265,7 @@ class SiteRenderer:
         indexable: bool,
         structured_data: object | None = None,
         canonical_path: str | None = None,
+        social_image: bool = False,
     ) -> str:
         robots = "index,follow" if indexable else "noindex,follow"
         runtime_keys = (
@@ -275,6 +302,7 @@ class SiteRenderer:
                 robots=robots,
                 structured_data=structured_data,
                 canonical_path=canonical_path,
+                social_image=social_image,
             )
             + f'<body data-base-path="{_esc(self.config.base_path)}"><a class="skip-link" href="#main-content">{_esc(self.label(locale, "skip", "Skip to content"))}</a>'
             + self.header(locale, locale_path)
@@ -283,6 +311,7 @@ class SiteRenderer:
             + f'<script type="application/json" id="ui-messages">{_json(runtime)}</script>'
             + f'<script src="{_esc(self.urls.asset("assets/core.js"))}" defer></script>'
             + f'<script src="{_esc(self.urls.asset("assets/examples.js"))}" defer></script>'
+            + f'<script src="{_esc(self.urls.asset("assets/explainers.js"))}" defer></script>'
             + f'<script src="{_esc(self.urls.asset("assets/app.js"))}" defer></script></body></html>'
         )
 
@@ -321,16 +350,105 @@ class SiteRenderer:
             f'<a class="chip" href="{_esc(self.urls.page(f"/{locale}/"))}">{_esc(LANGUAGE_NAMES[locale])}</a>'
             for locale in self.catalog.locales
         )
-        page = (
-            f'<!doctype html><html lang="en" data-base-path="{_esc(self.config.base_path)}" data-search-index="{_esc(self.urls.asset("assets/search-index.en.json"))}" data-exercise-index="{_esc(self.urls.asset("assets/exercises.en.json"))}"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>'
-            f'<title>Choose language · {PRODUCT_NAME}</title><meta name="robots" content="index,follow"/>'
-            f'<link rel="icon" href="{_esc(self.urls.asset("assets/logo.svg"))}"/><link rel="stylesheet" href="{_esc(self.urls.asset("assets/styles.css"))}"/><link rel="stylesheet" href="{_esc(self.urls.asset("assets/clarity.css"))}"/>'
-            f'<link rel="manifest" href="{_esc(self.urls.page("manifest.webmanifest"))}"/><link rel="canonical" href="{_esc(self.urls.absolute("/"))}"/></head><body data-base-path="{_esc(self.config.base_path)}">'
-            f'<a class="skip-link" href="#main-content">Skip to content</a>{self.header("en", "/")}<main id="main-content" class="language-fallback"><p class="gateway-brand">VIBE TERMS</p><h1>Choose your language</h1><p>A local-first Vibe Coding terminology guide with no account required.</p><div class="language-grid">{cards}</div>'
-            f'<noscript><section><h2>Language links</h2><div class="language-list">{fallback}</div></section></noscript></main><script type="application/json" id="ui-messages">{_json(self.ui["en"])}</script>'
-            f'<script src="{_esc(self.urls.asset("assets/core.js"))}" defer></script><script src="{_esc(self.urls.asset("assets/examples.js"))}" defer></script><script src="{_esc(self.urls.asset("assets/app.js"))}" defer></script></body></html>'
+        explained = [term for term in self.catalog.terms if term.get("visual_explainer")]
+        visual_links = "".join(
+            f'<li><a href="{_esc(self.urls.page("/en/terms/" + str(term["slug"]) + "/"))}">{_esc(term["canonical_name"])}</a></li>'
+            for term in explained
+        )
+        facts = (
+            (len(self.catalog.terms), "terms", "术语"),
+            (len(self.catalog.domains), "domains", "领域"),
+            (len(self.catalog.topics), "topics", "主题"),
+            (len(self.catalog.paths), "project paths", "项目路径"),
+        )
+        fact_html = "".join(
+            f'<li><strong>{count}</strong><span>{_esc(en)}<small lang="zh-CN">{_esc(zh)}</small></span></li>'
+            for count, en, zh in facts
+        )
+        graph = {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "WebSite",
+                    "name": PRODUCT_NAME,
+                    "url": self.urls.absolute("/"),
+                    "description": "A local-first, multilingual Vibe Coding terminology guide.",
+                },
+                {
+                    "@type": "DefinedTermSet",
+                    "name": PRODUCT_NAME,
+                    "url": self.urls.absolute("/en/terms/"),
+                    "description": f"{len(self.catalog.terms)} canonical Vibe Coding terms across {len(self.catalog.domains)} domains.",
+                },
+                {
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                        {
+                            "@type": "Question",
+                            "name": "What is Vibe Terms?",
+                            "acceptedAnswer": {"@type": "Answer", "text": "A local-first, multilingual guide to 500 Vibe Coding terms."},
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "How can I use the visual explanations?",
+                            "acceptedAnswer": {"@type": "Answer", "text": "Start with one of 14 authored term-specific explainers, then continue to its example and exercise."},
+                        },
+                    ],
+                },
+            ],
+        }
+        body = (
+            '<section class="landing-hero"><p class="gateway-brand">VIBE TERMS</p>'
+            '<h1>Understand Vibe Coding terms, then use them in a real project.</h1>'
+            '<p class="lead">A local-first, searchable guide to the language behind AI-assisted software work — no account required.</p>'
+            '<p class="landing-zh" lang="zh-CN">用清晰的术语、图解和项目路径，把模糊的 Vibe Coding 想法变成可验证的实际工作。</p>'
+            f'<div class="landing-actions"><a class="button" href="{_esc(self.urls.page("/en/terms/"))}">Browse all terms</a><a class="button button-secondary" href="{_esc(self.urls.page("/zh-cn/"))}">中文入口</a></div>'
+            f'<ul class="landing-facts">{fact_html}</ul></section>'
+            f'<section class="landing-languages"><h2>Choose a reading language / 选择阅读语言</h2><div class="language-grid">{cards}</div><noscript><div class="language-list">{fallback}</div></noscript></section>'
+            '<section class="landing-answer"><h2>What can I learn from Vibe Terms?</h2><p>Use 500 terms, organized into 12 domains and 42 topics, to name a problem precisely before asking an AI coding agent to act. Three project paths connect vocabulary to an end-to-end build.</p>'
+            f'<p><a href="{_esc(self.urls.page("/en/knowledge/"))}">Open the knowledge map</a> · <a href="{_esc(self.urls.page("/en/paths/"))}">Follow a project path</a></p></section>'
+            f'<section class="landing-visuals"><h2>Which visual explanations can I use?</h2><p>These 14 authored, term-specific explainers make a concrete relationship visible. The other 486 term pages intentionally keep their complete existing learning flow without an empty or generic visual.</p><p lang="zh-CN">14 个图解只对应已审核的代表术语；其余 486 个术语完整保留原有定义、示例、练习、路径与来源内容，不显示空白或通用图解。</p><ul>{visual_links}</ul></section>'
+            '<section class="landing-answer"><h2>How do I move from a term to a project?</h2><p>Read a term, inspect its boundary and example, complete the local exercise, then use a path chapter to apply the vocabulary in project order.</p></section>'
+            '<section class="landing-faq"><h2>Frequently asked questions</h2><details><summary>Is this a product documentation site?</summary><p>No. It is an anonymous static terminology prototype. Accounts, sync, payments, reminders, and analytics are deferred.</p></details><details><summary>What sources and licenses apply?</summary><p>Vibe Terms code is Apache-2.0 and its content is CC BY-SA 4.0. The llms.txt layout follows the open AnswerDotAI/llms-txt format (Apache-2.0); structured data uses the Schema.org vocabulary. No remote runtime is required.</p></details>'
+            f'<p><a href="{_esc(self.urls.page("/license/"))}">Read licensing and source notes</a></p></section>'
+        )
+        page = self.shell(
+            "en",
+            "Vibe Terms: Vibe Coding terminology guide",
+            "An answer-first, multilingual guide to 500 Vibe Coding terms, 14 visual explanations, a knowledge map, and project paths.",
+            body,
+            "/",
+            indexable=True,
+            structured_data=graph,
+            canonical_path="/",
+            social_image=True,
         )
         self.add_page("/", page, indexable=True)
+
+    def build_license(self) -> None:
+        body = (
+            '<section class="category-hero"><div class="eyebrow">Sources and licenses</div><h1>Sources and licenses</h1>'
+            '<p>Vibe Terms is a host-independent static prototype. Code is Apache-2.0 and catalog content is CC BY-SA 4.0.</p></section>'
+            '<section><h2>Discoverability formats</h2><p>The root <code>llms.txt</code> uses the open AnswerDotAI/llms-txt format (Apache-2.0) as a concise map for language models. JSON-LD uses the Schema.org open vocabulary. These references inform format only; no third-party marketing copy or remote runtime is included.</p></section>'
+        )
+        self.add_page(
+            "/license/",
+            self.shell("en", "Sources and licenses", "Licensing and source notes for Vibe Terms.", body, "/license/", indexable=True),
+            indexable=True,
+        )
+        for locale in self.catalog.locales:
+            self.add_page(
+                f"/{locale}/license/",
+                self.shell(
+                    locale,
+                    "Sources and licenses",
+                    "Licensing and source notes for Vibe Terms.",
+                    body,
+                    "/license/",
+                    indexable=True,
+                ),
+                indexable=True,
+            )
 
     def build_indexes(self, locale: str) -> None:
         payloads = {
@@ -699,6 +817,11 @@ class SiteRenderer:
                 f'<header class="term-heading"><div><div class="meta-line"><a href="{_esc(self.urls.page(f"/{locale}/knowledge/{term["primary_domain"]}/"))}">{_esc(domain_name)}</a>{status}</div><h1><strong>{_esc(localized["title"])}</strong>{canonical_heading}</h1><div class="term-fields"><span class="term-field">{_esc(difficulty_name)}</span><span class="term-field">{_esc(lifecycle_names)}</span>{alias_field}</div></div></header>'
                 f'<section class="term-voice" data-section="user-says"><span>{_esc(self.label(locale, "user_says", "You may say"))}</span><p>“{_esc(localized["user_says"])}”</p></section>'
                 f'<section class="term-definition-summary" data-section="definition"><h2 class="visually-hidden">{_esc(self.label(locale, "short_definition", "Short definition"))}</h2><p><strong>{_esc(localized["short_definition"])}</strong><span> · {_esc(localized["why_it_matters"])}</span></p></section>'
+                + (
+                    f'<section data-section="visual-explainer">{render_visual_explainer(term["visual_explainer"], locale)}</section>'
+                    if term.get("visual_explainer")
+                    else ""
+                )
                 + self.example_html(locale, term, localized)
                 + '<div class="term-reference-grid">'
                 f'<section data-section="mechanism"><h2>{_esc(self.label(locale, "mechanism", "How it works"))}</h2><p>{_esc(localized["mechanism"])}</p></section>'
@@ -869,10 +992,36 @@ class SiteRenderer:
         (self.output / "manifest.webmanifest").write_text(
             _json(manifest, pretty=True), encoding="utf-8"
         )
-        robots = ["User-agent: *", "Allow: /"]
-        if self.config.site_url:
-            robots.append(f"Sitemap: {self.urls.absolute('/sitemap.xml')}")
+        robots = [
+            "User-agent: *",
+            "Allow: /",
+            f"Sitemap: {self.urls.absolute('/sitemap.xml')}",
+        ]
         (self.output / "robots.txt").write_text("\n".join(robots) + "\n", encoding="utf-8")
+        explained = [term for term in self.catalog.terms if term.get("visual_explainer")]
+        llms = [
+            "# Vibe Terms",
+            "> A local-first, multilingual Vibe Coding terminology guide.",
+            "",
+            "## Key pages",
+            f"- [Knowledge map]({self.urls.page('/en/knowledge/')})",
+            f"- [Project paths]({self.urls.page('/en/paths/')})",
+            f"- [Licensing and sources]({self.urls.page('/license/')})",
+            "",
+            "## Visual explanations",
+        ]
+        for term in explained:
+            llms.append(
+                f"- [{term['canonical_name']}]({self.urls.page('/en/terms/' + str(term['slug']) + '/')})"
+            )
+        llms.extend(
+            [
+                "",
+                "## Format note",
+                "This file follows the AnswerDotAI/llms-txt open format (Apache-2.0).",
+            ]
+        )
+        (self.output / "llms.txt").write_text("\n".join(llms) + "\n", encoding="utf-8")
         sitemap_entries = "".join(
             f'<url><loc>{_esc(self.urls.absolute(route))}</loc></url>'
             for route in sorted(set(self.sitemap_routes))
@@ -910,6 +1059,7 @@ class SiteRenderer:
     def build(self) -> list[str]:
         self.prepare()
         self.build_gateway()
+        self.build_license()
         for locale in self.catalog.locales:
             self.build_indexes(locale)
             self.build_home(locale)

@@ -1,0 +1,32 @@
+schema_version: 1
+term: retrieval-augmented-generation
+pattern: pipeline
+complexity: 3
+copy:
+  en:
+    heading: Retrieval-augmented generation grounds an answer in selected context
+    intro: The system retrieves relevant passages before asking the model to answer.
+    states:
+      retrieve: {label: Retrieve, conclusion: The query selects passages from the approved knowledge collection.}
+      ground: {label: Ground, conclusion: The prompt carries the question together with the retrieved context.}
+      answer: {label: Answer, conclusion: The model returns an answer that can cite the supplied material.}
+    labels: {query: User question, retriever: Retriever, context: Selected context, model: Answer model}
+  zh-cn:
+    heading: 检索增强生成用选定上下文支撑回答
+    intro: 系统先检索相关段落，再请模型回答问题。
+    states:
+      retrieve: {label: 检索, conclusion: 查询从获准知识集合中选出相关段落。}
+      ground: {label: 注入上下文, conclusion: 提示词同时携带问题和检索到的上下文。}
+      answer: {label: 回答, conclusion: 模型给出能够回指所供材料的回答。}
+    labels: {query: 用户问题, retriever: 检索器, context: 选定上下文, model: 回答模型}
+states:
+  - {id: retrieve, focus: [user-question, retriever, passages], values: {}}
+  - {id: ground, focus: [passages, answer-model], values: {}}
+  - {id: answer, focus: [answer-model], values: {}}
+scene:
+  nodes:
+    - {id: user-question, role: input, label_key: query, value: "How do I rotate credentials?"}
+    - {id: retriever, role: retrieval, label_key: retriever, value: "semantic search"}
+    - {id: passages, role: context, label_key: context, value: "credential-rotation.md"}
+    - {id: answer-model, role: generation, label_key: model, value: "answer with citations"}
+  relations: [{from: user-question, to: retriever}, {from: retriever, to: passages}, {from: passages, to: answer-model}]

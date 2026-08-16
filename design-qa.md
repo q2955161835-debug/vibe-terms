@@ -34,9 +34,17 @@ example, mechanism, and verification boundary remain visible together.
 | Term detail keeps four example stages visible without JavaScript | Passed |
 | Enhanced examples highlight a selected stage without hiding the others | Passed |
 | Light mode is the default; dark and system modes remain available | Passed |
+| Header, cards, diagrams, code, exercises, and controls remain readable in dark mode | Passed |
+| Representative diagrams preserve keyboard state changes and reduced-motion behavior | Passed |
+| 14 explainer links are discoverable from the root landing page | Passed |
 
 ## Notes
 
-The reference's bespoke illustration assets were not copied. Vibe Terms uses
-its own structured, content-backed example panels so every one of the 500 terms
-has a readable example surface rather than an empty or decorative placeholder.
+The reference's bespoke illustration assets were not copied. Every term keeps
+its original structured four-stage example surface. Fourteen representative
+terms additionally have original concept-specific visual explainers spanning
+14 interaction/layout patterns; the other 486 pages deliberately do not show a
+generic or empty diagram. Desktop 1280 × 720 and mobile 390 × 844 checks cover
+light, dark, and system themes without document-level horizontal overflow.
+
+final result: passed

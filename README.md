@@ -14,11 +14,12 @@ There is no user database, OAuth flow, or cloud synchronization in this build.
 - 500 canonical terms across 12 knowledge domains and 42 second-level topics
 - knowledge-map and three chaptered project-path navigation systems
 - dense localized term pages with examples, exercises, sources, aliases, and keyboard search
+- 14 hand-authored visual explainers, one representative for each supported diagram pattern
 - light, dark, and system themes
 - configurable daily new-term count from 1 to 30
 - inline and standalone practice with scheduled local review
 - versioned IndexedDB storage with a localStorage fallback, export, and clear controls
-- static SEO metadata, language alternates, sitemap support, manifest, and a 404 page
+- an answer-first bilingual landing page with FAQ JSON-LD, `llms.txt`, language alternates, sitemap, robots, Open Graph/X metadata, manifest, and a 404 page
 
 English content is canonical and published. Localizations that have not been
 human-reviewed remain visibly marked `draft` and are emitted with `noindex`;
@@ -40,6 +41,13 @@ python3 -m http.server 4173 --directory site
 ```
 
 Open `http://localhost:4173/`.
+
+The root page is the public discovery surface. The 14 illustrated term pages
+keep their original examples, exercises, project-path links, and references;
+the other 486 terms remain full term pages without an empty or generic diagram.
+Visual-explainer copy is maintained only in English and Simplified Chinese:
+Traditional Chinese pages use Simplified Chinese, while Japanese, Korean,
+German, and Russian pages use English.
 
 The generated output lives in `site/` and is intentionally ignored by Git.
 
@@ -127,6 +135,9 @@ site/      generated deployable output, not committed
 tests/     content, URL, static-contract, JavaScript, rendering, and browser tests
 docs/      product specifications, plans, and deployment notes
 ```
+
+The explainer authoring contract and icon-sync command are documented in
+[`docs/content-workflow.md`](docs/content-workflow.md).
 
 ## Licenses
 

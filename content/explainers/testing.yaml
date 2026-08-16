@@ -1,0 +1,30 @@
+schema_version: 1
+term: testing
+pattern: evidence
+complexity: 2
+copy:
+  en:
+    heading: Testing turns a behavior claim into evidence
+    intro: A passing result is useful only when the test exercises the promised behavior.
+    states:
+      red: {label: Red proof, conclusion: A failing test proves the expectation can detect the missing behavior.}
+      green: {label: Green proof, conclusion: The implemented behavior now satisfies the same reproducible check.}
+    labels: {claim: Behavior claim, test: Focused test, result: Test result, review: Human review}
+  zh-cn:
+    heading: 测试把行为主张转化为证据
+    intro: 只有测试真正覆盖承诺的行为，通过结果才有意义。
+    states:
+      red: {label: 红灯证据, conclusion: 失败的测试证明该期望能发现缺失的行为。}
+      green: {label: 绿灯证据, conclusion: 实现后的行为通过了同一项可重复检查。}
+    labels: {claim: 行为主张, test: 聚焦测试, result: 测试结果, review: 人工审查}
+states:
+  - {id: red, focus: [behavior-claim, focused-test, failing-result], values: {}}
+  - {id: green, focus: [behavior-claim, focused-test, passing-result, review-note], values: {}}
+scene:
+  nodes:
+    - {id: behavior-claim, role: claim, label_key: claim, value: "Empty search shows a helpful message"}
+    - {id: focused-test, role: test, label_key: test, value: "submit empty query"}
+    - {id: failing-result, role: result, label_key: result, value: "RED: message missing"}
+    - {id: passing-result, role: result, label_key: result, value: "GREEN: message visible"}
+    - {id: review-note, role: review, label_key: review, value: "manual check confirms copy"}
+  relations: [{from: behavior-claim, to: focused-test}, {from: focused-test, to: failing-result}, {from: focused-test, to: passing-result}, {from: passing-result, to: review-note}]

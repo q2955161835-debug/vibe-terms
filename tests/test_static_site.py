@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -169,6 +170,89 @@ def test_rich_term_page_is_readable_without_javascript(generated_site: Path) -> 
     assert "<h2>Exercise</h2>" not in html
 
 
+def test_term_page_keeps_visual_and_existing_learning_sections(
+    generated_site: Path,
+) -> None:
+    """An authored visual explainer belongs before, never instead of, the legacy lesson."""
+    html = (generated_site / "zh-cn" / "terms" / "css" / "index.html").read_text(
+        encoding="utf-8"
+    )
+    assert 'data-section="visual-explainer"' in html
+    assert 'data-explainer-pattern="code-result"' in html
+    assert 'data-explainer-locale="zh-cn"' in html
+    assert 'data-section="definition"' in html
+    assert 'data-section="example"' in html
+    assert 'data-section="exercise"' in html
+    assert html.index('data-section="definition"') < html.index(
+        'data-section="visual-explainer"'
+    ) < html.index('data-section="example"')
+
+
+def test_explainer_copy_falls_back_without_changing_page_locale(
+    generated_site: Path,
+) -> None:
+    """Only explainer copy falls back; navigation stays in the requested locale."""
+    chinese = (generated_site / "zh-tw" / "terms" / "css" / "index.html").read_text(
+        encoding="utf-8"
+    )
+    japanese = (generated_site / "ja" / "terms" / "css" / "index.html").read_text(
+        encoding="utf-8"
+    )
+    assert 'data-explainer-locale="zh-cn"' in chinese
+    assert 'data-explainer-locale="en"' in japanese
+    assert 'lang="zh-TW"' in chinese
+    assert 'lang="ja"' in japanese
+
+
+def test_root_is_a_discoverable_answer_first_landing_page(generated_site: Path) -> None:
+    """The root route must be useful to people and crawlers, at any base path."""
+    html = (generated_site / "index.html").read_text(encoding="utf-8")
+    assert "500" in html and "12" in html and "42" in html and "3" in html
+    assert "14 visual explanations" in html
+    assert "What can I learn" in html
+    assert 'rel="canonical" href="/"' in html
+    assert 'hreflang="zh-CN" href="/zh-cn/"' in html
+    assert 'name="twitter:card"' in html
+    assert '"@type": "WebSite"' in html
+    assert '"@type": "DefinedTermSet"' in html
+    assert '"@type": "FAQPage"' in html
+    assert "AnswerDotAI/llms-txt format (Apache-2.0)" in html
+    assert "Schema.org vocabulary" in html
+    assert (generated_site / "llms.txt").is_file()
+    llms = (generated_site / "llms.txt").read_text(encoding="utf-8")
+    assert "AnswerDotAI/llms-txt" in llms
+    assert "/en/terms/css/" in llms
+    assert "/en/knowledge/" in llms and "/en/paths/" in llms
+    assert "Sitemap: /sitemap.xml" in (generated_site / "robots.txt").read_text(
+        encoding="utf-8"
+    )
+
+
+def test_root_social_image_is_packaged_and_scoped_to_the_landing_page(
+    generated_site: Path,
+) -> None:
+    """A missing or doubly-prefixed social card must fail before deployment."""
+    source = ROOT / "web" / "og.png"
+    copied = generated_site / "og.png"
+    root = (generated_site / "index.html").read_text(encoding="utf-8")
+    term = (generated_site / "en" / "terms" / "css" / "index.html").read_text(
+        encoding="utf-8"
+    )
+
+    assert copied.is_file()
+    assert hashlib.sha256(copied.read_bytes()).digest() == hashlib.sha256(
+        source.read_bytes()
+    ).digest()
+    assert '<meta property="og:image" content="/og.png"/>' in root
+    assert '<meta property="og:image:width" content="1731"/>' in root
+    assert '<meta property="og:image:height" content="909"/>' in root
+    assert '<meta property="og:image:alt" content="Vibe Terms visual explainer card"/>' in root
+    assert '<meta name="twitter:image" content="/og.png"/>' in root
+    assert '<meta name="twitter:image:alt" content="Vibe Terms visual explainer card"/>' in root
+    assert "og:image" not in term
+    assert "twitter:image" not in term
+
+
 def test_term_metadata_uses_localized_labels_and_omits_empty_aliases(
     generated_site: Path,
 ) -> None:
@@ -332,10 +416,21 @@ def test_project_base_path_applies_to_html_manifest_and_sitemap(
         catalog,
     )
     home = (output / "en" / "index.html").read_text(encoding="utf-8")
+    root = (output / "index.html").read_text(encoding="utf-8")
     manifest = json.loads((output / "manifest.webmanifest").read_text(encoding="utf-8"))
     sitemap = (output / "sitemap.xml").read_text(encoding="utf-8")
     assert 'href="/vibe-terms/en/terms/"' in home
     assert 'src="/vibe-terms/assets/core.js"' in home
+    assert 'href="/vibe-terms/assets/explainers.css"' in root
+    assert 'src="/vibe-terms/assets/explainers.js"' in root
+    assert 'rel="canonical" href="https://q2955161835-debug.github.io/vibe-terms/"' in root
+    assert (
+        '<meta property="og:image" '
+        'content="https://q2955161835-debug.github.io/vibe-terms/og.png"/>'
+        in root
+    )
+    assert "vibe-terms/vibe-terms/og.png" not in root
+    assert 'hreflang="zh-CN" href="https://q2955161835-debug.github.io/vibe-terms/zh-cn/"' in root
     assert 'href="/assets/' not in home
     assert manifest["start_url"] == "/vibe-terms/"
     assert manifest["icons"][0]["src"] == "/vibe-terms/assets/logo.svg"
@@ -343,6 +438,12 @@ def test_project_base_path_applies_to_html_manifest_and_sitemap(
         "https://q2955161835-debug.github.io/vibe-terms/en/terms/api/" in sitemap
     )
     assert "/vibe-terms/vibe-terms/" not in sitemap
+    assert "Sitemap: https://q2955161835-debug.github.io/vibe-terms/sitemap.xml" in (
+        output / "robots.txt"
+    ).read_text(encoding="utf-8")
+    llms = (output / "llms.txt").read_text(encoding="utf-8")
+    assert "/vibe-terms/en/terms/css/" in llms
+    assert "/vibe-terms/license/" in llms
 
 
 def test_seo_and_deployment_files_use_the_url_builder(generated_site: Path) -> None:
@@ -369,7 +470,11 @@ def test_seo_and_deployment_files_use_the_url_builder(generated_site: Path) -> N
         "assets/core.js",
         "assets/app.js",
         "assets/examples.js",
+        "assets/explainers.js",
         "assets/styles.css",
+        "assets/explainers.css",
+        "assets/icons/code.svg",
+        "llms.txt",
     ):
         assert (generated_site / relative).is_file(), relative
 

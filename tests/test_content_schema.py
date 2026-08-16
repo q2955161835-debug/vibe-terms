@@ -95,6 +95,16 @@ def test_only_the_twenty_core_terms_receive_enhanced_examples(catalog: Catalog) 
     assert enhanced == CORE_EXAMPLES
 
 
+def test_representative_terms_carry_valid_visual_explainers(catalog: Catalog) -> None:
+    """A missing or incorrectly attached corpus file must not create a generic scene."""
+    explained = [term for term in catalog.terms if term.get("visual_explainer")]
+    assert len(explained) == 14
+    assert {term["visual_explainer"]["term"] for term in explained} == {
+        term["slug"] for term in explained
+    }
+    assert len(catalog.terms) - len(explained) == 486
+
+
 def test_non_english_drafts_remain_explicitly_unreviewed(catalog: Catalog) -> None:
     for term in catalog.terms:
         assert term["localized"]["en"]["status"] == "published"

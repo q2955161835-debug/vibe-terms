@@ -1,47 +1,124 @@
-:root {
-  --bg: #ffffff;
-  --surface: #f6f8fb;
-  --surface-2: #eef3f8;
+:root,
+:root[data-theme="light"] {
+  --canvas: #ffffff;
+  --canvas-subtle: #f7f8fa;
+  --panel: #fbfbfc;
+  --panel-raised: #ffffff;
+  --panel-muted: #f1f3f6;
+  --text-primary: #12151c;
+  --text-secondary: #515966;
+  --text-faint: #707887;
+  --border: #e2e5eb;
+  --border-strong: #c8ced8;
+  --accent: #3458df;
+  --accent-surface: #eef1ff;
+  --accent-contrast: #ffffff;
+  --focus-ring: #6f8cff;
+  --bg: var(--canvas);
+  --surface: var(--panel);
+  --surface-2: var(--panel-muted);
   --surface-success: #eef9f1;
-  --text: #151922;
-  --muted: #667085;
-  --line: #d9e0e8;
-  --accent: #3457f1;
-  --accent-soft: #edf1ff;
+  --text: var(--text-primary);
+  --muted: var(--text-secondary);
+  --line: var(--border);
+  --accent-soft: var(--accent-surface);
+  --ink: var(--text-primary);
   --danger: #b42318;
   --shadow: 0 16px 44px rgba(16, 24, 40, 0.08);
+  color-scheme: light;
+}
+
+:root {
   --radius: 16px;
   --max: 1120px;
-  color-scheme: light dark;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 :root[data-theme="dark"] {
-  --bg: #0e1117;
-  --surface: #151a22;
-  --surface-2: #1b2230;
+  --canvas: #0d1117;
+  --canvas-subtle: #111721;
+  --panel: #151c27;
+  --panel-raised: #1a2330;
+  --panel-muted: #202b39;
+  --text-primary: #f5f7fa;
+  --text-secondary: #c0c8d4;
+  --text-faint: #96a2b2;
+  --border: #2b3747;
+  --border-strong: #435268;
+  --accent: #91a7ff;
+  --accent-surface: #23315f;
+  --accent-contrast: #0d1117;
+  --focus-ring: #a9b8ff;
+  --bg: var(--canvas);
+  --surface: var(--panel);
+  --surface-2: var(--panel-muted);
   --surface-success: #15251c;
-  --text: #f4f6f8;
-  --muted: #a5afbd;
-  --line: #2a3442;
-  --accent: #8ca0ff;
-  --accent-soft: #1b254d;
+  --text: var(--text-primary);
+  --muted: var(--text-secondary);
+  --line: var(--border);
+  --accent-soft: var(--accent-surface);
+  --ink: var(--text-primary);
   --danger: #ff8a80;
   --shadow: none;
   color-scheme: dark;
 }
 
+@media (prefers-color-scheme: light) {
+  :root[data-theme="system"] {
+    --canvas: #ffffff;
+    --canvas-subtle: #f7f8fa;
+    --panel: #fbfbfc;
+    --panel-raised: #ffffff;
+    --panel-muted: #f1f3f6;
+    --text-primary: #12151c;
+    --text-secondary: #515966;
+    --text-faint: #707887;
+    --border: #e2e5eb;
+    --border-strong: #c8ced8;
+    --accent: #3458df;
+    --accent-surface: #eef1ff;
+    --accent-contrast: #ffffff;
+    --focus-ring: #6f8cff;
+    --bg: var(--canvas);
+    --surface: var(--panel);
+    --surface-2: var(--panel-muted);
+    --surface-success: #eef9f1;
+    --text: var(--text-primary);
+    --muted: var(--text-secondary);
+    --line: var(--border);
+    --accent-soft: var(--accent-surface);
+    --ink: var(--text-primary);
+    --danger: #b42318;
+    --shadow: 0 16px 44px rgba(16, 24, 40, 0.08);
+    color-scheme: light;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   :root[data-theme="system"] {
-    --bg: #0e1117;
-    --surface: #151a22;
-    --surface-2: #1b2230;
+    --canvas: #0d1117;
+    --canvas-subtle: #111721;
+    --panel: #151c27;
+    --panel-raised: #1a2330;
+    --panel-muted: #202b39;
+    --text-primary: #f5f7fa;
+    --text-secondary: #c0c8d4;
+    --text-faint: #96a2b2;
+    --border: #2b3747;
+    --border-strong: #435268;
+    --accent: #91a7ff;
+    --accent-surface: #23315f;
+    --accent-contrast: #0d1117;
+    --focus-ring: #a9b8ff;
+    --bg: var(--canvas);
+    --surface: var(--panel);
+    --surface-2: var(--panel-muted);
     --surface-success: #15251c;
-    --text: #f4f6f8;
-    --muted: #a5afbd;
-    --line: #2a3442;
-    --accent: #8ca0ff;
-    --accent-soft: #1b254d;
+    --text: var(--text-primary);
+    --muted: var(--text-secondary);
+    --line: var(--border);
+    --accent-soft: var(--accent-surface);
+    --ink: var(--text-primary);
     --danger: #ff8a80;
     --shadow: none;
     color-scheme: dark;

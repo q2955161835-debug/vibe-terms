@@ -1,0 +1,32 @@
+schema_version: 1
+term: box-model
+pattern: layout
+complexity: 2
+copy:
+  en:
+    heading: The box model explains the space an element occupies
+    intro: Content, padding, border, and margin make different contributions to layout size.
+    states:
+      content: {label: Content box, conclusion: Text uses the declared content width before surrounding space is added.}
+      padded: {label: Padding added, conclusion: Padding increases the visible interior around the content.}
+      outer: {label: Outer space, conclusion: Border and margin determine the element's final footprint among neighbors.}
+    labels: {content: Content, padding: Padding, border: Border, margin: Margin}
+  zh-cn:
+    heading: 盒模型解释元素实际占据的空间
+    intro: 内容、内边距、边框和外边距分别影响布局尺寸。
+    states:
+      content: {label: 内容盒, conclusion: 文字先使用声明的内容宽度，外围空间尚未加入。}
+      padded: {label: 加入内边距, conclusion: 内边距增加内容周围可见的内部空间。}
+      outer: {label: 外围空间, conclusion: 边框和外边距决定元素在相邻元素间的最终占位。}
+    labels: {content: 内容, padding: 内边距, border: 边框, margin: 外边距}
+states:
+  - {id: content, focus: [content-box], values: {}}
+  - {id: padded, focus: [content-box, padding-box], values: {}}
+  - {id: outer, focus: [content-box, padding-box, border-box, margin-box], values: {}}
+scene:
+  nodes:
+    - {id: content-box, role: content, label_key: content, value: "240px content"}
+    - {id: padding-box, role: padding, label_key: padding, value: "16px each side"}
+    - {id: border-box, role: border, label_key: border, value: "1px each side"}
+    - {id: margin-box, role: margin, label_key: margin, value: "24px outside"}
+  relations: [{from: content-box, to: padding-box}, {from: padding-box, to: border-box}, {from: border-box, to: margin-box}]

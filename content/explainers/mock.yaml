@@ -1,0 +1,29 @@
+schema_version: 1
+term: mock
+pattern: compare
+complexity: 2
+copy:
+  en:
+    heading: A mock stands in for a boundary, not the behavior under test
+    intro: Compare a deterministic fake payment gateway with the real remote service.
+    states:
+      isolated: {label: Isolated test, conclusion: The mock makes the checkout test fast and repeatable.}
+      integration: {label: Integration check, conclusion: The real gateway verifies the contract across the network boundary.}
+    labels: {mock_gateway: Mock gateway, controlled_reply: Controlled reply, real_gateway: Real gateway, remote_reply: Remote reply}
+  zh-cn:
+    heading: Mock 替代的是边界，而不是被测行为
+    intro: 对比可控的假支付网关与真实的远程服务。
+    states:
+      isolated: {label: 隔离测试, conclusion: Mock 让结账测试快速且可重复。}
+      integration: {label: 集成检查, conclusion: 真实网关验证了跨网络边界的契约。}
+    labels: {mock_gateway: Mock 网关, controlled_reply: 可控响应, real_gateway: 真实网关, remote_reply: 远程响应}
+states:
+  - {id: isolated, focus: [mock-gateway, controlled-reply], values: {}}
+  - {id: integration, focus: [real-gateway, remote-reply], values: {}}
+scene:
+  nodes:
+    - {id: mock-gateway, role: fake, label_key: mock_gateway, value: "charge() -> approved"}
+    - {id: controlled-reply, role: reply, label_key: controlled_reply, value: "{ id: 'test_42' }"}
+    - {id: real-gateway, role: service, label_key: real_gateway, value: "POST /charges"}
+    - {id: remote-reply, role: reply, label_key: remote_reply, value: "network response"}
+  relations: [{from: mock-gateway, to: controlled-reply}, {from: real-gateway, to: remote-reply}]

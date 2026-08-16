@@ -1,0 +1,35 @@
+schema_version: 1
+term: state
+pattern: state-machine
+complexity: 2
+copy:
+  en:
+    heading: State defines which transitions a screen may take
+    intro: A form should move through explicit states instead of guessing from scattered flags.
+    states:
+      idle: {label: Idle, conclusion: The form is ready for input and may start validation.}
+      validating: {label: Validating, conclusion: Input is being checked before a request is allowed.}
+      submitting: {label: Submitting, conclusion: A valid form may send exactly one request.}
+      complete: {label: Complete, conclusion: A confirmed response moves the form to completion.}
+    labels: {idle: Idle, validating: Validating, submitting: Submitting, complete: Complete}
+  zh-cn:
+    heading: 状态规定页面允许发生哪些转换
+    intro: 表单应在明确状态之间流转，而不是靠分散的标志位猜测。
+    states:
+      idle: {label: 空闲, conclusion: 表单可以接收输入，并可开始校验。}
+      validating: {label: 校验中, conclusion: 输入正在检查，尚不能发送请求。}
+      submitting: {label: 提交中, conclusion: 有效表单只能发送一次请求。}
+      complete: {label: 已完成, conclusion: 确认响应后表单进入完成状态。}
+    labels: {idle: 空闲, validating: 校验中, submitting: 提交中, complete: 已完成}
+states:
+  - {id: idle, focus: [idle], values: {}}
+  - {id: validating, focus: [validating], values: {}}
+  - {id: submitting, focus: [submitting], values: {}}
+  - {id: complete, focus: [complete], values: {}}
+scene:
+  nodes:
+    - {id: idle, role: state, label_key: idle, value: "edit fields"}
+    - {id: validating, role: state, label_key: validating, value: "check constraints"}
+    - {id: submitting, role: state, label_key: submitting, value: "send request"}
+    - {id: complete, role: state, label_key: complete, value: "show receipt"}
+  relations: [{from: idle, to: validating}, {from: validating, to: idle}, {from: validating, to: submitting}, {from: submitting, to: complete}]

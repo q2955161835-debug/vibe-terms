@@ -1,0 +1,33 @@
+schema_version: 1
+term: css
+pattern: code-result
+complexity: 2
+copy:
+  en:
+    heading: How CSS rules settle a button's final color
+    intro: Read the matching declarations in order, then inspect the computed color.
+    states:
+      base: {label: Base, conclusion: The base selector supplies the button color.}
+      override: {label: Override, conclusion: A later equally specific rule changes the color.}
+      fixed: {label: Fixed, conclusion: The scoped rule makes the intended color explicit.}
+    labels: {base_rule: Base rule, override_rule: Override rule, fixed_rule: Scoped rule, preview: Button result, computed: Computed color}
+  zh-cn:
+    heading: CSS 规则如何确定按钮的最终颜色
+    intro: 按顺序查看匹配声明，再确认最终计算出的颜色。
+    states:
+      base: {label: 基础, conclusion: 基础选择器提供按钮颜色。}
+      override: {label: 覆盖, conclusion: 后出现且同等具体度的规则改变了颜色。}
+      fixed: {label: 修正, conclusion: 作用域更明确的规则固定了预期颜色。}
+    labels: {base_rule: 基础规则, override_rule: 覆盖规则, fixed_rule: 作用域规则, preview: 按钮结果, computed: 计算颜色}
+states:
+  - {id: base, focus: [base-rule, preview, computed-color], values: {color: "#2563eb"}}
+  - {id: override, focus: [override-rule, preview, computed-color], values: {color: "#db2777"}}
+  - {id: fixed, focus: [fixed-rule, preview, computed-color], values: {color: "#0f766e"}}
+scene:
+  nodes:
+    - {id: base-rule, role: rule, label_key: base_rule, value: ".save-button { color: #2563eb; }"}
+    - {id: override-rule, role: rule, label_key: override_rule, value: ".toolbar .save-button { color: #db2777; }"}
+    - {id: fixed-rule, role: rule, label_key: fixed_rule, value: ".toolbar .save-button.is-ready { color: #0f766e; }"}
+    - {id: preview, role: preview, label_key: preview, value: "Save changes"}
+    - {id: computed-color, role: result, label_key: computed, value_from: color}
+  relations: [{from: base-rule, to: computed-color}, {from: override-rule, to: computed-color}, {from: fixed-rule, to: computed-color}, {from: computed-color, to: preview}]
