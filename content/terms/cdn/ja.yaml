@@ -1,10 +1,10 @@
 title: CDN
-short_definition: 'CDN は「Web とネットワーク」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A geographically distributed network that caches and serves content closer to users to reduce latency and origin load.'
-analogy: CDN は、ソフトウェア開発の道具箱に付いた用途ラベルのように考えると理解しやすいです。実際にはコード、データの流れ、利用場面を確認します。
-mechanism: 'CDN は「Web とネットワーク」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A geographically distributed network that caches and serves content closer to users to reduce latency and origin load.'
-why_it_matters: CDN を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
-project_example: CDN を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
-ai_prompt_example: このプロジェクトで CDN がどのように関係するか説明してください。対象ファイルまたは境界を示し、必要最小限の変更と確認手順を提示してください。
-common_mistake: CDN という名前だけで実装が正しいと判断し、実際の動作・データフロー・失敗時の挙動を確認しないことです。
+short_definition: 地理的に分散されたネットワーク。コンテンツをユーザーに近い場所でキャッシュして提供し、遅延とオリジンの負荷を軽減します。
+analogy: CDN は、ワークショップの Web およびネットワーキング部分にあるラベル付きツールと考えてください。ラベルはどの問題領域を検査するかを示しますが、実際の動作は依然として実装によって決まります。
+mechanism: 地理的に分散されたネットワーク。コンテンツをユーザーに近い場所でキャッシュして提供し、遅延とオリジンの負荷を軽減します。実際のプロジェクトでは、その正確な動作は周囲のテクノロジー、構成、データフローに依存するため、ラベルだけに依存するのではなく、具体的な実装を確認してください。
+why_it_matters: CDN を知ることで、Vibe Codingの初心者は、Web およびネットワークに関する関連する課題を正確に言語化し、AIコーディングエージェントに変更とその動作が正しいという証拠を求めることができます。
+project_example: Vibe Termsでは、学習者が環境段階に到達したときに語彙チェックポイントとして CDN を使用します。定義を個別に教えるのではなく、具体的な1つのページ、ファイル、リクエスト、データ構造、または検証ステップに接続します。
+ai_prompt_example: CDN がこのプロジェクトにどのように適用されるかを説明してください。関係する正確なファイルまたはシステム境界を指定し、必要な最小限の変更のみを加え、結果の検証に使用できるコマンドまたはユーザー フローを示します。
+common_mistake: CDN という用語を、実際の動作、データフロー、権限、失敗例、または関連するテストを確認せずに、実装が正しいことを証明するものとして扱うこと。
 status: draft
 source_content_version: 1

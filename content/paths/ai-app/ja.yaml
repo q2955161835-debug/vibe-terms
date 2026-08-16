@@ -1,56 +1,56 @@
 locale: ja
-title: Draft — Build an AI Assistant App
-summary: Draft — not human reviewed. Design a bounded AI assistant with a useful chat experience, explicit data flow, evaluation, and safe release checks.
+title: AI アシスタント アプリを構築する
+summary: 使いやすいチャット体験、明示的なデータフロー、評価、安全なリリース確認を備えた、範囲の明確なAIアシスタントを設計します。
 status: draft
 source_content_version: 1
 chapters:
 - id: problem-and-scope
-  title: Draft — Define the assistant's job
-  summary: Draft — not human reviewed. Choose one audience problem and write what the assistant will and will not do.
-  outcome: Draft — not human reviewed. A bounded product brief.
-  checkpoint: Draft — not human reviewed. A request outside the scope has a clear refusal or handoff.
+  title: アシスタントの仕事を定義する
+  summary: 聴衆の問題を 1 つ選択し、アシスタントが何をするか、何をしないかを書きます。
+  outcome: 境界のある製品概要。
+  checkpoint: 範囲外のリクエストには明確な拒否またはハンドオフがあります。
 - id: model-and-prompt
-  title: Draft — Set model instructions
-  summary: Draft — not human reviewed. Write a focused system prompt and select predictable model settings for the chosen task.
-  outcome: Draft — not human reviewed. Versioned model instructions and settings.
-  checkpoint: Draft — not human reviewed. The assistant follows the intended tone and declines unsupported claims.
+  title: モデル命令の設定
+  summary: 焦点を絞ったシステム プロンプトを作成し、選択したタスクに対して予測可能なモデル設定を選択します。
+  outcome: バージョン管理されたモデルの手順と設定。
+  checkpoint: アシスタントは意図された口調に従い、裏付けのない主張を拒否します。
 - id: conversation-ui
-  title: Draft — Build the conversation surface
-  summary: Draft — not human reviewed. Create a readable chat interface with clear input, response, loading, and empty states.
-  outcome: Draft — not human reviewed. An accessible conversation screen.
-  checkpoint: Draft — not human reviewed. A user can distinguish their message, the assistant reply, and pending work.
+  title: 会話の場を構築する
+  summary: 明確な入力、応答、読み込み、空の状態を備えた読みやすいチャット インターフェイスを作成します。
+  outcome: アクセスしやすい会話画面。
+  checkpoint: ユーザーは、自分のメッセージ、アシスタントの応答、保留中の作業を区別できます。
 - id: application-state
-  title: Draft — Manage local conversation state
-  summary: Draft — not human reviewed. Decide what belongs in the current view, what can persist locally, and what each request must include.
-  outcome: Draft — not human reviewed. A documented client-state model.
-  checkpoint: Draft — not human reviewed. Refreshing has the intended effect on each kind of conversation data.
+  title: ローカル会話状態を管理する
+  summary: 現在のビューに何を含めるか、ローカルに保持できるものは何か、各リクエストに何を含める必要があるかを決定します。
+  outcome: 文書化されたクライアント状態モデル。
+  checkpoint: 更新は、各種の会話データに意図した影響を与えます。
 - id: api-contract
-  title: Draft — Define the request contract
-  summary: Draft — not human reviewed. Specify the request fields, response shape, and error payload before wiring the user interface.
-  outcome: Draft — not human reviewed. An example request and response contract.
-  checkpoint: Draft — not human reviewed. Invalid input returns a useful, documented error shape.
+  title: リクエストコントラクトを定義する
+  summary: ユーザー インターフェイスを配線する前に、要求フィールド、応答形状、およびエラー ペイロードを指定します。
+  outcome: リクエストとレスポンスのコントラクトの例。
+  checkpoint: 無効な入力は、文書化された有用なエラー形状を返します。
 - id: context-and-retrieval
-  title: Draft — Add grounded context
-  summary: Draft — not human reviewed. Choose a small approved knowledge set and retrieve relevant passages before generating an answer.
-  outcome: Draft — not human reviewed. A traceable context-selection flow.
-  checkpoint: Draft — not human reviewed. Answers can identify the supplied context instead of inventing a source.
+  title: 根拠のあるコンテキストを追加する
+  summary: 承認済みの小さな知識セットを選び、回答を生成する前に関連する箇所を取得します。
+  outcome: 追跡可能なコンテキスト選択フロー。
+  checkpoint: 回答では、ソースを作成する代わりに、提供されたコンテキストを特定できます。
 - id: tool-safety
-  title: Draft — Constrain tools and inputs
-  summary: Draft — not human reviewed. Allow only named tools with narrow parameters and reject instructions that conflict with the task boundary.
-  outcome: Draft — not human reviewed. A documented tool allowlist and safety cases.
-  checkpoint: Draft — not human reviewed. Untrusted text cannot expand tool permissions or override the system goal.
+  title: ツールと入力を制限する
+  summary: 狭いパラメーターを持つ名前付きツールのみを許可し、タスク境界と競合する命令を拒否します。
+  outcome: 文書化されたツールの許可リストと安全ケース。
+  checkpoint: 信頼できないテキストは、ツールの権限を拡張したり、システムの目標をオーバーライドしたりすることはできません。
 - id: evaluation
-  title: Draft — Evaluate useful behavior
-  summary: Draft — not human reviewed. Create representative prompts and expected properties, including a case where the assistant should say it does not know.
-  outcome: Draft — not human reviewed. A small repeatable evaluation set.
-  checkpoint: Draft — not human reviewed. The evaluation distinguishes helpful answers from unsupported ones.
+  title: 有用な動作を評価する
+  summary: 代表的なプロンプトと予期されるプロパティを作成します。これには、アシスタントが「わからない」と答える必要がある場合も含まれます。
+  outcome: 小規模な反復可能な評価セット。
+  checkpoint: 評価では、役立つ回答とサポートされていない回答が区別されます。
 - id: error-and-observability
-  title: Draft — Handle failures visibly
-  summary: Draft — not human reviewed. Give users recoverable error states and record structured operational signals without collecting unnecessary content.
-  outcome: Draft — not human reviewed. Error states and a minimal operational log plan.
-  checkpoint: Draft — not human reviewed. Timeouts, limits, and network failures have understandable user messages.
+  title: 障害を視覚的に処理する
+  summary: ユーザーに回復可能なエラー状態を提供し、不必要なコンテンツを収集することなく構造化された操作信号を記録します。
+  outcome: エラー状態と最小限の操作ログ計画。
+  checkpoint: タイムアウト、制限、ネットワーク障害については、理解できるユーザー メッセージが表示されます。
 - id: release-and-feedback
-  title: Draft — Release with feedback boundaries
-  summary: Draft — not human reviewed. Verify the main journeys, deploy a small release, and collect only feedback that improves the defined job.
-  outcome: Draft — not human reviewed. A release checklist and feedback questions.
-  checkpoint: Draft — not human reviewed. The deployed assistant has passed its evaluation and known limitations are visible.
+  title: フィードバック境界を設けたリリース
+  summary: 主要なプロセスを検証し、小規模なリリースをデプロイし、定義されたジョブを改善するフィードバックのみを収集します。
+  outcome: リリースのチェックリストとフィードバックの質問。
+  checkpoint: デプロイされたアシスタントは評価に合格しており、既知の制限が表示されています。

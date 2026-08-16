@@ -1,10 +1,10 @@
 title: Python
-short_definition: 'Python は「コンピュータと開発環境」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A general-purpose programming language known for readable syntax and broad use in automation, data work, web backends, and AI.'
-analogy: Python は、ソフトウェア開発の道具箱に付いた用途ラベルのように考えると理解しやすいです。実際にはコード、データの流れ、利用場面を確認します。
-mechanism: 'Python は「コンピュータと開発環境」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A general-purpose programming language known for readable syntax and broad use in automation, data work, web backends, and AI.'
-why_it_matters: Python を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
-project_example: Python を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
-ai_prompt_example: このプロジェクトで Python がどのように関係するか説明してください。対象ファイルまたは境界を示し、必要最小限の変更と確認手順を提示してください。
-common_mistake: Python という名前だけで実装が正しいと判断し、実際の動作・データフロー・失敗時の挙動を確認しないことです。
+short_definition: 読みやすい構文と、自動化、データ作業、Web バックエンド、AI で広く使用されることで知られる汎用プログラミング言語。
+analogy: Python は、ワークショップのコンピューティングおよび開発環境の一部にあるラベル付きツールであると考えてください。ラベルは、どの問題領域を検査するかを示しますが、実際の動作は依然として実装から得られます。
+mechanism: 読みやすい構文と、自動化、データ作業、Web バックエンド、AI で広く使用されることで知られる汎用プログラミング言語。実際のプロジェクトでは、その正確な動作は周囲のテクノロジー、構成、データフローに依存するため、ラベルだけに依存するのではなく、具体的な実装を確認してください。
+why_it_matters: Python を知ることで、Vibe Codingの初心者は、コンピューティングおよび開発環境に関する関連する課題を正確に言語化し、AIコーディングエージェントに変更とその動作が正しいという証拠を求めることができます。
+project_example: Vibe Termsでは、学習者が環境段階に到達したときに語彙チェックポイントとして Python を使用します。定義を個別に教えるのではなく、具体的な1つのページ、ファイル、リクエスト、データ構造、または検証ステップに接続します。
+ai_prompt_example: Python がこのプロジェクトにどのように適用されるかを説明してください。関係する正確なファイルまたはシステム境界を指定し、必要な最小限の変更のみを加え、結果の検証に使用できるコマンドまたはユーザー フローを示します。
+common_mistake: Python という用語を、実際の動作、データフロー、権限、失敗例、または関連するテストを確認せずに、実装が正しいことを証明するものとして扱うこと。
 status: draft
 source_content_version: 1

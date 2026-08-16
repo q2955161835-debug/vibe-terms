@@ -1,8 +1,10 @@
 title: Git
-short_definition: コードの変更履歴を記録し、ブランチを使って安全に作業できるバージョン管理システム。
-analogy: 名前付きの保存地点を持つ、プロジェクト用のタイムマシンのようなものです。
-why_it_matters: AIは多くのファイルを一度に変更できるため、Gitがあれば差分を確認し、必要なら確実に元へ戻せます。
-ai_prompt_example: この機能だけを含む小さなコミットを作り、次へ進む前に差分を見せてください。
-common_mistake: 関係のない複数のAI編集を、最後に一つの巨大なコミットへまとめること。
+short_definition: コードの変更を記録し、ブランチを安全に操作できるようにするバージョン管理システム。
+analogy: ラベル付きのセーブポイントを持つプロジェクトのタイムマシン。
+why_it_matters: AI は多くのファイルを迅速に変更できます。 Git は、これらの変更を検査して元に戻すための信頼できる方法を提供します。
+ai_prompt_example: この機能のみにフォーカスしたコミットを作成し、次に進む前に差分を表示します。
+common_mistake: 無関係な AI 編集をいくつか行った後、1 つの巨大なコミットを作成します。
 status: draft
 source_content_version: 1
+mechanism: Gitはスナップショットをcommitとして記録し、branchやmerge、diffを使って変更履歴と複数の作業線を管理します。
+project_example: Vibe Termsでは、ロケール翻訳の差分をGitで確認し、生成物や秘密情報を履歴に含めないようにします。

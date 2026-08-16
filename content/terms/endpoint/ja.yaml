@@ -1,10 +1,10 @@
-title: Endpoint
-short_definition: 'Endpoint は「バックエンドと API」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A specific API address and operation through which clients interact with a backend capability or resource.'
-analogy: Endpoint は、ソフトウェア開発の道具箱に付いた用途ラベルのように考えると理解しやすいです。実際にはコード、データの流れ、利用場面を確認します。
-mechanism: 'Endpoint は「バックエンドと API」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A specific API address and operation through which clients interact with a backend capability or resource.'
-why_it_matters: Endpoint を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
-project_example: Endpoint を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
-ai_prompt_example: このプロジェクトで Endpoint がどのように関係するか説明してください。対象ファイルまたは境界を示し、必要最小限の変更と確認手順を提示してください。
-common_mistake: Endpoint という名前だけで実装が正しいと判断し、実際の動作・データフロー・失敗時の挙動を確認しないことです。
+title: エンドポイント
+short_definition: クライアントがバックエンド機能またはリソースと対話するために使用される特定の API アドレスおよび操作。
+analogy: エンドポイントは、ワークショップのバックエンドおよび API 部分にあるラベル付きツールと考えてください。ラベルは、どの問題領域を検査するかを示しますが、実際の動作は依然として実装によって決まります。
+mechanism: クライアントがバックエンド機能またはリソースと対話するために使用される特定の API アドレスおよび操作。実際のプロジェクトでは、その正確な動作は周囲のテクノロジー、構成、データフローに依存するため、ラベルだけに依存するのではなく、具体的な実装を確認してください。
+why_it_matters: エンドポイントを知ることで、Vibe Codingの初心者は、バックエンドと API の関連する課題を正確に言語化し、AIコーディングエージェントに変更を依頼し、動作が正しいことを示す証拠も求められます。
+project_example: Vibe Termsでは、学習者がデータ同一性段階に到達したときに語彙チェックポイントとして エンドポイントを使用します。定義を個別に教えるのではなく、具体的な1つのページ、ファイル、リクエスト、データ構造、または検証ステップに接続します。
+ai_prompt_example: エンドポイントがこのプロジェクトにどのように適用されるかを説明してください。関係する正確なファイルまたはシステム境界を指定し、必要な最小限の変更のみを加え、結果の検証に使用できるコマンドまたはユーザー フローを示します。
+common_mistake: エンドポイント という用語を、実際の動作、データフロー、権限、失敗例、または関連するテストを確認せずに、実装が正しいことを証明するものとして扱うこと。
 status: draft
 source_content_version: 1

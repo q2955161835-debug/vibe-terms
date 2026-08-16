@@ -1,10 +1,10 @@
-title: Video
-short_definition: 'Video は「UI/UX とアクセシビリティ」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: Time-based visual media embedded in an interface with playback controls and an accessible fallback where appropriate.'
-analogy: Video は、ソフトウェア開発の道具箱に付いた用途ラベルのように考えると理解しやすいです。実際にはコード、データの流れ、利用場面を確認します。
-mechanism: 'Video は「UI/UX とアクセシビリティ」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: Time-based visual media embedded in an interface with playback controls and an accessible fallback where appropriate.'
-why_it_matters: Video を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
-project_example: Video を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
-ai_prompt_example: このプロジェクトで Video がどのように関係するか説明してください。対象ファイルまたは境界を示し、必要最小限の変更と確認手順を提示してください。
-common_mistake: Video という名前だけで実装が正しいと判断し、実際の動作・データフロー・失敗時の挙動を確認しないことです。
+title: ビデオ
+short_definition: 再生コントロールとアクセス可能なフォールバックを備えたインターフェイスに埋め込まれた時間ベースのビジュアル メディア。
+analogy: ビデオは、ワークショップの UI/UX およびアクセシビリティ部分のラベル付きツールと考えてください。ラベルは、どの問題領域を検査するかを示しますが、実際の動作は依然として実装によって決まります。
+mechanism: 再生コントロールとアクセス可能なフォールバックを備えたインターフェイスに埋め込まれた時間ベースのビジュアル メディア。実際のプロジェクトでは、その正確な動作は周囲のテクノロジー、構成、データフローに依存するため、ラベルだけに依存するのではなく、具体的な実装を確認してください。
+why_it_matters: ビデオを知ることで、Vibe Codingの初心者は、その意味する UI/UX およびアクセシビリティに関する懸念を正確に挙げて、AIコーディングエージェントに変更と、動作が正しいという証拠を求めることができます。
+project_example: Vibe Termsでは、学習者が設計段階に到達したときに語彙チェックポイントとして ビデオを使用します。定義を個別に教えるのではなく、具体的な1つのページ、ファイル、リクエスト、データ構造、または検証ステップに接続します。
+ai_prompt_example: ビデオがこのプロジェクトにどのように適用されるかを説明してください。関係する正確なファイルまたはシステム境界を指定し、必要な最小限の変更のみを加え、結果の検証に使用できるコマンドまたはユーザー フローを示します。
+common_mistake: ビデオ という用語を、実際の動作、データフロー、権限、失敗例、または関連するテストを確認せずに、実装が正しいことを証明するものとして扱うこと。
 status: draft
 source_content_version: 1

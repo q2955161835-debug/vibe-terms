@@ -1,56 +1,56 @@
 locale: ja
-title: Draft — Launch a Personal Site
-summary: Draft — not human reviewed. Plan, build, test, and publish a small personal site that explains who you are and how to contact you.
+title: 個人サイトを立ち上げる
+summary: 自分が誰なのか、連絡方法を説明する小さな個人サイトを計画、構築、テスト、公開します。
 status: draft
 source_content_version: 1
 chapters:
 - id: project-goal
-  title: Draft — Choose a focused site goal
-  summary: Draft — not human reviewed. State one visitor problem, one audience, and one action the site should support.
-  outcome: Draft — not human reviewed. A one-sentence goal and a primary visitor action.
-  checkpoint: Draft — not human reviewed. You can explain who the site helps and what that visitor can do.
+  title: 重点を置いたサイトの目標を選択する
+  summary: 訪問者の問題、対象者、およびサイトがサポートする必要があるアクションを 1 つずつ述べます。
+  outcome: 一文の目標と訪問者の主なアクション。
+  checkpoint: サイトが誰を助けるのか、その訪問者が何ができるのかを説明できます。
 - id: audience-and-content
-  title: Draft — List the audience and content
-  summary: Draft — not human reviewed. Turn visitor needs into a short content inventory and a simple user story.
-  outcome: Draft — not human reviewed. A page-content list ordered by visitor need.
-  checkpoint: Draft — not human reviewed. Every section answers a visitor question or leads to the main action.
+  title: 対象読者とコンテンツをリストアップする
+  summary: 訪問者のニーズを短いコンテンツ目録とシンプルなユーザーストーリーに変えます。
+  outcome: 訪問者のニーズに応じて並べられたページコンテンツのリスト。
+  checkpoint: 各セクションは訪問者の質問に答えたり、主要なアクションにつながります。
 - id: information-architecture
-  title: Draft — Arrange the information
-  summary: Draft — not human reviewed. Group the content into a small navigation and define the order a visitor follows.
-  outcome: Draft — not human reviewed. A page outline with navigation labels.
-  checkpoint: Draft — not human reviewed. The main action is reachable without guessing where to go next.
+  title: 情報を整理する
+  summary: コンテンツを小さなナビゲーションにグループ化し、訪問者が従う順序を定義します。
+  outcome: ナビゲーション ラベルを含むページ アウトライン。
+  checkpoint: 次にどこに行くかを推測することなく、メインのアクションに到達できます。
 - id: wireframe
-  title: Draft — Sketch the page
-  summary: Draft — not human reviewed. Create a low-fidelity wireframe before choosing colors or visual decoration.
-  outcome: Draft — not human reviewed. A labeled wireframe for desktop and narrow screens.
-  checkpoint: Draft — not human reviewed. The hierarchy is understandable even with plain boxes and text.
+  title: ページをスケッチする
+  summary: 色や視覚的な装飾を選択する前に、忠実度の低いワイヤーフレームを作成します。
+  outcome: デスクトップおよび狭い画面用のラベル付きワイヤーフレーム。
+  checkpoint: 無地のボックスとテキストでも階層が理解できます。
 - id: html-structure
-  title: Draft — Build semantic structure
-  summary: Draft — not human reviewed. Write the page with meaningful headings, landmarks, links, and content order.
-  outcome: Draft — not human reviewed. A semantic HTML page with a clear heading outline.
-  checkpoint: Draft — not human reviewed. Reading the document in source order still communicates the page.
+  title: セマンティック構造の構築
+  summary: 意味のある見出し、ランドマーク、リンク、コンテンツの順序を使用してページを作成します。
+  outcome: 明確な見出しのアウトラインを持つセマンティック HTML ページ。
+  checkpoint: ドキュメントをソース順に読んでも、ページの構造と意味が伝わります。
 - id: visual-system
-  title: Draft — Create a visual system
-  summary: Draft — not human reviewed. Apply a small set of type, spacing, color, and surface rules instead of one-off styling.
-  outcome: Draft — not human reviewed. Reusable CSS variables and consistent section styling.
-  checkpoint: Draft — not human reviewed. Similar elements use the same visual decisions.
+  title: ビジュアルシステムを作成する
+  summary: 1 回限りのスタイル設定ではなく、タイプ、間隔、色、および表面ルールの小さなセットを適用します。
+  outcome: 再利用可能な CSS 変数と一貫したセクション スタイル。
+  checkpoint: 同様の要素では、同じ視覚的な決定が使用されます。
 - id: responsive-accessibility
-  title: Draft — Make the site usable everywhere
-  summary: Draft — not human reviewed. Adapt layout for narrow screens and verify keyboard focus, readable contrast, and useful link text.
-  outcome: Draft — not human reviewed. A responsive page with keyboard-visible controls.
-  checkpoint: Draft — not human reviewed. At phone width no essential content is clipped or unreachable.
+  title: どこでも使えるサイトにする
+  summary: 狭い画面にレイアウトを適応させ、キーボードフォーカス、十分なコントラスト、分かりやすいリンクテキストを確認します。
+  outcome: キーボードに表示されるコントロールを備えた応答性の高いページ。
+  checkpoint: スマートフォン幅でも、重要なコンテンツが切り取られたり、操作できなくなったりしません。
 - id: content-and-seo
-  title: Draft — Prepare shareable page metadata
-  summary: Draft — not human reviewed. Add a descriptive title, summary, and preview metadata that match the actual page.
-  outcome: Draft — not human reviewed. Page metadata for search and sharing.
-  checkpoint: Draft — not human reviewed. The title and summary tell the same story as the visible page.
+  title: 共有可能なページのメタデータを準備する
+  summary: 実際のページと一致する、説明的なタイトル、概要、プレビュー メタデータを追加します。
+  outcome: 検索と共有のためのページのメタデータ。
+  checkpoint: タイトルと概要は、表示されているページと同じストーリーを伝えます。
 - id: quality-check
-  title: Draft — Check real browser behavior
-  summary: Draft — not human reviewed. Test primary links, keyboard navigation, text overflow, and the contact action in a browser.
-  outcome: Draft — not human reviewed. A concise manual test checklist with results.
-  checkpoint: Draft — not human reviewed. All listed checks pass on a desktop and a phone-sized viewport.
+  title: 実際のブラウザの動作を確認する
+  summary: ブラウザでプライマリ リンク、キーボード ナビゲーション、テキスト オーバーフロー、連絡先アクションをテストします。
+  outcome: 結果を含む簡潔な手動テスト チェックリスト。
+  checkpoint: リストされているすべてのチェックは、デスクトップと携帯電話サイズのビューポートで行われます。
 - id: publish-static-site
-  title: Draft — Publish the static site
-  summary: Draft — not human reviewed. Commit the verified source, deploy the static artifact, and read the public route back.
-  outcome: Draft — not human reviewed. A published personal-site URL and deployment record.
-  checkpoint: Draft — not human reviewed. The live page matches the verified local version and its links work.
+  title: 静的サイトを公開する
+  summary: 検証済みのソースをコミットし、静的アーティファクトをデプロイして、公開URLを確認します。
+  outcome: 公開された個人サイトの URL と展開記録。
+  checkpoint: ライブ ページは検証済みのローカル バージョンと一致しており、そのリンクは機能します。

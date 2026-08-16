@@ -1,10 +1,10 @@
-title: Cold Start
-short_definition: 'Cold Start は「デプロイと運用」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: The startup delay that occurs when an on-demand runtime must initialize a new instance before handling a request.'
-analogy: Cold Start は、ソフトウェア開発の道具箱に付いた用途ラベルのように考えると理解しやすいです。実際にはコード、データの流れ、利用場面を確認します。
-mechanism: 'Cold Start は「デプロイと運用」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: The startup delay that occurs when an on-demand runtime must initialize a new instance before handling a request.'
-why_it_matters: Cold Start を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
-project_example: Cold Start を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
-ai_prompt_example: このプロジェクトで Cold Start がどのように関係するか説明してください。対象ファイルまたは境界を示し、必要最小限の変更と確認手順を提示してください。
-common_mistake: Cold Start という名前だけで実装が正しいと判断し、実際の動作・データフロー・失敗時の挙動を確認しないことです。
+title: コールドスタート
+short_definition: オンデマンド ランタイムが要求を処理する前に新しいインスタンスを初期化する必要がある場合に発生する起動遅延。
+analogy: コールドスタートは、ワークショップの展開と運用の部分にあるラベル付きツールと考えてください。ラベルは、どの問題領域を検査する必要があるかを示しますが、実際の動作は依然として実装によって決まります。
+mechanism: オンデマンド ランタイムが要求を処理する前に新しいインスタンスを初期化する必要がある場合に発生する起動遅延。実際のプロジェクトでは、その正確な動作は周囲のテクノロジー、構成、データフローに依存するため、ラベルだけに依存するのではなく、具体的な実装を確認してください。
+why_it_matters: コールドスタートを知ることで、Vibe Codingの初心者は、デプロイと運用に関する関連する課題を正確に言語化し、AIコーディングエージェントに変更を依頼し、動作が正しいことを示す証拠も求められます。
+project_example: Vibe Termsでは、学習者が展開と維持の段階に到達したときの語彙チェックポイントとして コールドスタートを使用します。定義を個別に教えるのではなく、具体的な1つのページ、ファイル、リクエスト、データ構造、または検証ステップに接続します。
+ai_prompt_example: コールドスタートがこのプロジェクトにどのように適用されるかを説明してください。関係する正確なファイルまたはシステム境界を指定し、必要な最小限の変更のみを加え、結果の検証に使用できるコマンドまたはユーザー フローを示します。
+common_mistake: コールドスタート という用語を、実際の動作、データフロー、権限、失敗例、または関連するテストを確認せずに、実装が正しいことを証明するものとして扱うこと。
 status: draft
 source_content_version: 1

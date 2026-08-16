@@ -1,10 +1,10 @@
-title: Structured Log
-short_definition: 'Structured Log は「テストとデバッグ」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A log event stored in machine-readable fields rather than only free-form text.'
-analogy: Structured Log は、ソフトウェア開発の道具箱に付いた用途ラベルのように考えると理解しやすいです。実際にはコード、データの流れ、利用場面を確認します。
-mechanism: 'Structured Log は「テストとデバッグ」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A log event stored in machine-readable fields rather than only free-form text.'
-why_it_matters: Structured Log を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
-project_example: Structured Log を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
-ai_prompt_example: このプロジェクトで Structured Log がどのように関係するか説明してください。対象ファイルまたは境界を示し、必要最小限の変更と確認手順を提示してください。
-common_mistake: Structured Log という名前だけで実装が正しいと判断し、実際の動作・データフロー・失敗時の挙動を確認しないことです。
+title: 構造化されたログ
+short_definition: 自由形式のテキストだけではなく、機械可読フィールドに保存されるログ イベント。
+analogy: 構造化されたログは、ワークショップのテストおよびデバッグ部分にあるラベル付きツールと考えてください。ラベルは、どの問題領域を検査するかを示しますが、実際の動作は依然として実装によって決まります。
+mechanism: 自由形式のテキストだけではなく、機械可読フィールドに保存されるログ イベント。実際のプロジェクトでは、その正確な動作は周囲のテクノロジー、構成、データフローに依存するため、ラベルだけに依存するのではなく、具体的な実装を確認してください。
+why_it_matters: 構造化されたログを知ることで、Vibe Codingの初心者は、テストとデバッグに関する関連する課題を正確に言語化し、AIコーディングエージェントに変更を依頼し、動作が正しいことを示す証拠も求められます。
+project_example: Vibe Termsでは、学習者がテスト保護段階に到達したときに語彙チェックポイントとして 構造化されたログを使用します。定義を個別に教えるのではなく、具体的な1つのページ、ファイル、リクエスト、データ構造、または検証ステップに接続します。
+ai_prompt_example: 構造化されたログがこのプロジェクトにどのように適用されるかを説明してください。関係する正確なファイルまたはシステム境界を指定し、必要な最小限の変更のみを加え、結果の検証に使用できるコマンドまたはユーザー フローを示します。
+common_mistake: 構造化されたログ という用語を、実際の動作、データフロー、権限、失敗例、または関連するテストを確認せずに、実装が正しいことを証明するものとして扱うこと。
 status: draft
 source_content_version: 1
