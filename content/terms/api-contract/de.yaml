@@ -1,10 +1,18 @@
-title: API Contract
-short_definition: 'API Contract ist ein Begriff aus „Backend & APIs“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: The agreed structure and behavior of an API, including operations, inputs, outputs, errors, and compatibility expectations.'
-analogy: Man kann API Contract zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'API Contract ist ein Begriff aus „Backend & APIs“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: The agreed structure and behavior of an API, including operations, inputs, outputs, errors, and compatibility expectations.'
-why_it_matters: Wer API Contract versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer API Contract versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie API Contract in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff API Contract als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+title: API-Vertrag
+short_definition: die agreed Struktur und Verhalten von an API, einschließlich Vorgänge, inputs, outputs, Fehler, und compatibility
+  expectations.
+analogy: 'Für API-Vertrag hilft ein Vergleich mit einem Werkzeug aus Backend & APIs: Sein Etikett nennt das Problemfeld; verlässlich
+  wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
+mechanism: die agreed Struktur und Verhalten von an API, einschließlich Vorgänge, inputs, outputs, Fehler, und compatibility
+  expectations. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe
+  deshalb die konkrete Umsetzung.
+why_it_matters: Wer API-Vertrag versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Backend & APIs benennen und
+  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: 'In Vibe Terms dient API-Vertrag in der Phase Daten & Identität als Lerncheckpoint: Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+ai_prompt_example: Erkläre, wie API-Vertrag in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff API-Vertrag als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

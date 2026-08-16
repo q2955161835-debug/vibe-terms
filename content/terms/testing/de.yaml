@@ -1,11 +1,16 @@
-title: Testen
-short_definition: Das systematische Prüfen, ob Software wie erwartet funktioniert und dies nach Änderungen
-  weiterhin tut.
-analogy: Wie eine Prüfliste, die eine kaputte Tür entdeckt, bevor Kunden das Gebäude betreten.
-why_it_matters: Vibe Coding wird sicherer, wenn jede KI-Änderung einen konkreten Prüfschritt besitzt.
-ai_prompt_example: Füge einen Regressionstest hinzu, der vor der Fehlerbehebung fehlschlägt und danach
-  besteht.
-common_mistake: Nur einmal den glücklichen Pfad durchzuklicken und die Funktion danach als getestet zu
-  betrachten.
+title: Testing
+short_definition: Systematically Prüfen die software behaves as expected und keeps doing so nach ändert.
+analogy: Betrachte Testing als Orientierungsschild in testing debugging. Es weist auf die richtige technische Stelle, ersetzt
+  aber weder die Implementierung noch deren Prüfung.
+mechanism: Systematically Prüfen die software behaves as expected und keeps doing so nach ändert. In einem realen Projekt
+  hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Testing versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in testing debugging benennen und von
+  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: 'In Vibe Terms dient Testing in der Phase test protect als Lerncheckpoint: Verknüpfe die Definition mit einer
+  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+ai_prompt_example: Erkläre, wie Testing in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Testing als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

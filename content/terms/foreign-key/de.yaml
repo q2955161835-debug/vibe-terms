@@ -1,10 +1,16 @@
-title: Foreign Key
-short_definition: 'Foreign Key ist ein Begriff aus „Daten & Datenbanken“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A field or constraint that references a key in another table to represent and protect a relationship.'
-analogy: Man kann Foreign Key zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'Foreign Key ist ein Begriff aus „Daten & Datenbanken“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A field or constraint that references a key in another table to represent and protect a relationship.'
-why_it_matters: Wer Foreign Key versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer Foreign Key versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie Foreign Key in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff Foreign Key als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+title: Fremd schlüssel
+short_definition: Ein Feld oder constraint die references a key in another Tabelle zu darstellen und protect a relationship.
+analogy: 'Ordne Fremd schlüssel im Bereich data databases als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich
+  ein, während erst die konkrete Implementierung das Verhalten festlegt.'
+mechanism: Ein Feld oder constraint die references a key in another Tabelle zu darstellen und protect a relationship. In einem
+  realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Fremd schlüssel versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in data databases benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: 'In Vibe Terms dient Fremd schlüssel in der Phase data identity als Lerncheckpoint: Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+ai_prompt_example: Erkläre, wie Fremd schlüssel in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Fremd schlüssel als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

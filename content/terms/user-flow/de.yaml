@@ -1,10 +1,16 @@
-title: User Flow
-short_definition: 'User Flow ist ein Begriff aus „Produkt & Anforderungen“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A diagram or sequence showing the steps and branches a user takes to complete one task.'
-analogy: Man kann User Flow zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'User Flow ist ein Begriff aus „Produkt & Anforderungen“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A diagram or sequence showing the steps and branches a user takes to complete one task.'
-why_it_matters: Wer User Flow versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer User Flow versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie User Flow in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff User Flow als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+title: Benutzer fluss
+short_definition: Ein diagram oder sequence showing the steps und branches a Benutzer takes zu complete eine Aufgabe.
+analogy: 'Ordne Benutzer fluss im Bereich Produkt & Anforderungen als beschriftetes Werkzeug ein: Die Beschriftung grenzt
+  den Prüfbereich ein, während erst die konkrete Implementierung das Verhalten festlegt.'
+mechanism: Ein diagram oder sequence showing the steps und branches a Benutzer takes zu complete eine Aufgabe. In einem realen
+  Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Benutzer fluss versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: 'In Vibe Terms dient Benutzer fluss in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+ai_prompt_example: Erkläre, wie Benutzer fluss in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Benutzer fluss als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

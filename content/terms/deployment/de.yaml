@@ -1,11 +1,16 @@
-title: Bereitstellung
-short_definition: Der Vorgang, eine gebaute Anwendung in eine Umgebung zu bringen, die Nutzer erreichen
-  können.
-analogy: Wie der Umzug von der Werkstatt in das tatsächlich geöffnete Ladengeschäft.
-why_it_matters: Ein Projekt, das nur auf deinem Laptop funktioniert, ist noch kein nutzbares Webprodukt.
-ai_prompt_example: Erzeuge einen statischen Build, prüfe alle Sprachrouten und stelle exakt dieses Artefakt
-  bereit, ohne es in Produktion neu zu bauen.
-common_mistake: Konfigurationen während der Bereitstellung zu ändern, ohne die Änderung im Repository
-  festzuhalten.
+title: Deployment
+short_definition: Die process von putting a erstellt Anwendung in an environment wo Benutzer can Zugriff it.
+analogy: 'Für Deployment hilft ein Vergleich mit einem Werkzeug aus deployment operations: Sein Etikett nennt das Problemfeld;
+  verlässlich wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
+mechanism: Die process von putting a erstellt Anwendung in an environment wo Benutzer can Zugriff it. In einem realen Projekt
+  hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Deployment versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in deployment operations benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: 'In Vibe Terms dient Deployment in der Phase deploy maintain als Lerncheckpoint: Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+ai_prompt_example: Erkläre, wie Deployment in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Deployment als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

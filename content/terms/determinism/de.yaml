@@ -1,10 +1,16 @@
-title: Determinism
-short_definition: 'Determinism ist ein Begriff aus „KI & Vibe Coding“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: The degree to which the same input and configuration produce the same output across repeated runs.'
-analogy: Man kann Determinism zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'Determinism ist ein Begriff aus „KI & Vibe Coding“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: The degree to which the same input and configuration produce the same output across repeated runs.'
-why_it_matters: Wer Determinism versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer Determinism versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie Determinism in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff Determinism als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+title: Determinismus
+short_definition: Die degree zu die the same Eingabe und Konfiguration produce the same Ausgabe across repeated runs.
+analogy: 'Für Determinismus hilft ein Vergleich mit einem Werkzeug aus ai vibe: Sein Etikett nennt das Problemfeld; verlässlich
+  wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
+mechanism: Die degree zu die the same Eingabe und Konfiguration produce the same Ausgabe across repeated runs. In einem realen
+  Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Determinismus versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ai vibe benennen und von einem
+  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: 'In Vibe Terms dient Determinismus in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+ai_prompt_example: Erkläre, wie Determinismus in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Determinismus als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

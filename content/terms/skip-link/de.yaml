@@ -1,10 +1,17 @@
-title: Skip Link
-short_definition: 'Skip Link ist ein Begriff aus „UI/UX & Barrierefreiheit“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A keyboard-accessible link that lets users bypass repeated navigation and jump directly to main content.'
-analogy: Man kann Skip Link zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'Skip Link ist ein Begriff aus „UI/UX & Barrierefreiheit“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A keyboard-accessible link that lets users bypass repeated navigation and jump directly to main content.'
-why_it_matters: Wer Skip Link versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer Skip Link versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie Skip Link in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff Skip Link als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+title: Überspringen Link
+short_definition: Ein keyboard-accessible link die lets Benutzer bypass repeated navigation und jump directly zu main Inhalte.
+analogy: Betrachte Überspringen Link als Orientierungsschild in ui ux. Es weist auf die richtige technische Stelle, ersetzt
+  aber weder die Implementierung noch deren Prüfung.
+mechanism: Ein keyboard-accessible link die lets Benutzer bypass repeated navigation und jump directly zu main Inhalte. In
+  einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
+  Umsetzung.
+why_it_matters: Wer Überspringen Link versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in ui ux benennen und von
+  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: 'In Vibe Terms dient Überspringen Link in der Phase Design als Lerncheckpoint: Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+ai_prompt_example: Erkläre, wie Überspringen Link in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Überspringen Link als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+  Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

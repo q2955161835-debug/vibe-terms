@@ -1,10 +1,16 @@
 title: Authentifizierung
-short_definition: Der Vorgang, mit dem geprüft wird, ob ein Nutzer wirklich die angegebene Person ist.
-analogy: Wie das Vorzeigen eines Ausweises am Eingang, bevor das System weiß, welches Konto zu dir gehört.
-why_it_matters: Anmeldefunktionen sind sicherheitskritisch und sollten nicht beiläufig von einer KI neu
-  erfunden werden.
-ai_prompt_example: Verwende den vorhandenen Authentifizierungsanbieter und führe Berechtigungsprüfungen
-  serverseitig aus. Erstelle kein eigenes Passwortsystem.
-common_mistake: Authentifizierung „Wer bist du?“ mit Autorisierung „Was darfst du?“ zu verwechseln.
+short_definition: die Prozess von proving who a Benutzer is.
+analogy: 'Ordne Authentifizierung im Bereich Sicherheit & Datenschutz als beschriftetes Werkzeug ein: Die Beschriftung grenzt
+  den Prüfbereich ein, während erst die konkrete Implementierung das Verhalten festlegt.'
+mechanism: die Prozess von proving who a Benutzer is. In einem realen Projekt hängt das genaue Verhalten von Technologie,
+  Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Authentifizierung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Sicherheit & Datenschutz
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: 'In Vibe Terms dient Authentifizierung in der Phase Tests & Schutz als Lerncheckpoint: Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+ai_prompt_example: Erkläre, wie Authentifizierung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Authentifizierung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+  Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

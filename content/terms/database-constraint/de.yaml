@@ -1,10 +1,18 @@
-title: Database Constraint
-short_definition: 'Database Constraint ist ein Begriff aus „Daten & Datenbanken“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A database-enforced rule that prevents invalid data states, such as required values or invalid relationships.'
-analogy: Man kann Database Constraint zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'Database Constraint ist ein Begriff aus „Daten & Datenbanken“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A database-enforced rule that prevents invalid data states, such as required values or invalid relationships.'
-why_it_matters: Wer Database Constraint versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer Database Constraint versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie Database Constraint in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff Database Constraint als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+title: Datenbank Einschränkung
+short_definition: Ein Datenbank-enforced Regel die verhindert invalid Daten Zustände, such as erforderlich Werte oder invalid
+  relationships.
+analogy: 'Ein praktisches Bild für Datenbank Einschränkung: ein markiertes Werkzeug in data databases, dessen Aufschrift die
+  Frage schärft, aber keine Aussage über die Qualität der Umsetzung garantiert.'
+mechanism: Ein Datenbank-enforced Regel die verhindert invalid Daten Zustände, such as erforderlich Werte oder invalid relationships.
+  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
+  Umsetzung.
+why_it_matters: Wer Datenbank Einschränkung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in data databases benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: 'In Vibe Terms dient Datenbank Einschränkung in der Phase data identity als Lerncheckpoint: Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+ai_prompt_example: Erkläre, wie Datenbank Einschränkung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
+  Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Datenbank Einschränkung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+  Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

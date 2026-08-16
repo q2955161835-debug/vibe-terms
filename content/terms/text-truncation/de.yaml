@@ -1,10 +1,18 @@
-title: Text Truncation
-short_definition: 'Text Truncation ist ein Begriff aus „Frontend-Entwicklung“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: Limiting visible text to a fixed space, often using clipping or an ellipsis while preserving access to the full value when needed.'
-analogy: Man kann Text Truncation zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'Text Truncation ist ein Begriff aus „Frontend-Entwicklung“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: Limiting visible text to a fixed space, often using clipping or an ellipsis while preserving access to the full value when needed.'
-why_it_matters: Wer Text Truncation versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer Text Truncation versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie Text Truncation in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff Text Truncation als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+title: Text Kürzung
+short_definition: Limiting sichtbar Text zu a fixed space, often unter Verwendung von clipping oder an ellipsis while preserving
+  Zugriff zu the full Wert wenn needed.
+analogy: 'Für Text Kürzung hilft ein Vergleich mit einem Werkzeug aus Frontend-Entwicklung: Sein Etikett nennt das Problemfeld;
+  verlässlich wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
+mechanism: Limiting sichtbar Text zu a fixed space, often unter Verwendung von clipping oder an ellipsis while preserving
+  Zugriff zu the full Wert wenn needed. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Text Kürzung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: 'In Vibe Terms dient Text Kürzung in der Phase Oberflächenlogik als Lerncheckpoint: Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+ai_prompt_example: Erkläre, wie Text Kürzung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Text Kürzung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

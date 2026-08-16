@@ -1,10 +1,18 @@
-title: Product
-short_definition: 'Product ist ein Begriff aus „Produkt & Anforderungen“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A deliberately designed offering that solves a problem for users and is maintained through a lifecycle of discovery, delivery, and improvement.'
-analogy: Man kann Product zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'Product ist ein Begriff aus „Produkt & Anforderungen“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A deliberately designed offering that solves a problem for users and is maintained through a lifecycle of discovery, delivery, and improvement.'
-why_it_matters: Wer Product versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer Product versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie Product in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff Product als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+title: Produkt
+short_definition: Ein deliberately designed offering die solves a problem für Benutzer und is maintained durch a lifecycle
+  von discovery, delivery, und improvement.
+analogy: 'Für Produkt hilft ein Vergleich mit einem Werkzeug aus Produkt & Anforderungen: Sein Etikett nennt das Problemfeld;
+  verlässlich wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
+mechanism: Ein deliberately designed offering die solves a problem für Benutzer und is maintained durch a lifecycle von discovery,
+  delivery, und improvement. In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Produkt versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: 'In Vibe Terms dient Produkt in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+ai_prompt_example: Erkläre, wie Produkt in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Produkt als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

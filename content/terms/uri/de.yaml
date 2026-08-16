@@ -1,10 +1,18 @@
 title: URI
-short_definition: 'URI ist ein Begriff aus „Web & Netzwerk“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A general identifier for a resource; a URL is a kind of URI that also describes how or where to access it.'
-analogy: Man kann URI zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'URI ist ein Begriff aus „Web & Netzwerk“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A general identifier for a resource; a URL is a kind of URI that also describes how or where to access it.'
-why_it_matters: Wer URI versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer URI versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie URI in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff URI als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+short_definition: Ein allgemein identifier für a Ressource; a URL is a kind von URI die also describes how oder wo zu Zugriff
+  it.
+analogy: 'Ordne URI im Bereich web network als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich ein, während
+  erst die konkrete Implementierung das Verhalten festlegt.'
+mechanism: Ein allgemein identifier für a Ressource; a URL is a kind von URI die also describes how oder wo zu Zugriff it.
+  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
+  Umsetzung.
+why_it_matters: Wer URI versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in web network benennen und von einem KI-Coding-Agenten
+  eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: 'In Vibe Terms dient URI in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
+  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+ai_prompt_example: Erkläre, wie URI in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere
+  nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff URI als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten, Datenfluss,
+  Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

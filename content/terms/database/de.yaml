@@ -1,11 +1,16 @@
 title: Datenbank
-short_definition: Ein System, das strukturierte Anwendungsdaten dauerhaft speichert und gezielt abfragbar
-  macht.
-analogy: Wie ein gut indexiertes Archiv, das einen Datensatz findet, ohne jeden Ordner zu öffnen.
-why_it_matters: Benutzerkonten, Inhalte, Lernfortschritt und Produktdaten benötigen meist dauerhaften
-  Speicher.
-ai_prompt_example: Entwirf zuerst Tabellen und Beziehungen und zeige dann die Migration, bevor du Anwendungscode
-  schreibst.
-common_mistake: Eine Datenbank ohne Datenmodell wie eine riesige, ungeordnete JSON-Schublade zu verwenden.
+short_definition: Ein System für storing und querying strukturierte Anwendung Daten persistently.
+analogy: 'Für Datenbank hilft ein Vergleich mit einem Werkzeug aus data databases: Sein Etikett nennt das Problemfeld; verlässlich
+  wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
+mechanism: Ein System für storing und querying strukturierte Anwendung Daten persistently. In einem realen Projekt hängt das
+  genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Datenbank versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in data databases benennen und von
+  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: 'In Vibe Terms dient Datenbank in der Phase data identity als Lerncheckpoint: Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+ai_prompt_example: Erkläre, wie Datenbank in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Datenbank als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

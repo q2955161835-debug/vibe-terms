@@ -1,10 +1,16 @@
-title: Source Code
-short_definition: 'Source Code ist ein Begriff aus „Computer & Entwicklungsumgebung“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: Human-readable program text that developers and coding tools edit before it is executed or built.'
-analogy: Man kann Source Code zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'Source Code ist ein Begriff aus „Computer & Entwicklungsumgebung“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: Human-readable program text that developers and coding tools edit before it is executed or built.'
-why_it_matters: Wer Source Code versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer Source Code versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie Source Code in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff Source Code als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+title: Quell Code
+short_definition: Human-lesbar program Text die developers und coding Werkzeuge edit vor it is executed oder erstellt.
+analogy: 'Für Quell Code hilft ein Vergleich mit einem Werkzeug aus computing env: Sein Etikett nennt das Problemfeld; verlässlich
+  wird die Aussage erst durch Code, Datenfluss und Nutzungskontext.'
+mechanism: Human-lesbar program Text die developers und coding Werkzeuge edit vor it is executed oder erstellt. In einem realen
+  Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Quell Code versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in computing env benennen und von
+  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: 'In Vibe Terms dient Quell Code in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+ai_prompt_example: Erkläre, wie Quell Code in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Quell Code als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

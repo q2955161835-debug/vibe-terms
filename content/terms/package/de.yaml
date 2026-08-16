@@ -1,10 +1,16 @@
-title: Package
-short_definition: 'Package ist ein Begriff aus „Computer & Entwicklungsumgebung“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A versioned unit of reusable software distributed through a package registry or repository.'
-analogy: Man kann Package zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'Package ist ein Begriff aus „Computer & Entwicklungsumgebung“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A versioned unit of reusable software distributed through a package registry or repository.'
-why_it_matters: Wer Package versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer Package versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie Package in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff Package als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+title: Paket
+short_definition: Ein versioned unit von reusable software distributed durch a package registry oder repository.
+analogy: 'Ordne Paket im Bereich computing env als beschriftetes Werkzeug ein: Die Beschriftung grenzt den Prüfbereich ein,
+  während erst die konkrete Implementierung das Verhalten festlegt.'
+mechanism: Ein versioned unit von reusable software distributed durch a package registry oder repository. In einem realen
+  Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Paket versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in computing env benennen und von einem
+  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: 'In Vibe Terms dient Paket in der Phase environment als Lerncheckpoint: Verknüpfe die Definition mit einer
+  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+ai_prompt_example: Erkläre, wie Paket in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Paket als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

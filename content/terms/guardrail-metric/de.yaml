@@ -1,10 +1,18 @@
-title: Guardrail Metric
-short_definition: 'Guardrail Metric ist ein Begriff aus „Produkt & Anforderungen“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A metric monitored to ensure that improving a target metric does not create unacceptable harm elsewhere.'
-analogy: Man kann Guardrail Metric zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'Guardrail Metric ist ein Begriff aus „Produkt & Anforderungen“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A metric monitored to ensure that improving a target metric does not create unacceptable harm elsewhere.'
-why_it_matters: Wer Guardrail Metric versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer Guardrail Metric versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie Guardrail Metric in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff Guardrail Metric als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+title: Leitplanke Metrik
+short_definition: Ein Metrik monitored zu sicherstellen die improving a target Metrik does not erstellen unacceptable harm
+  elsewhere.
+analogy: 'Ordne Leitplanke Metrik im Bereich Produkt & Anforderungen als beschriftetes Werkzeug ein: Die Beschriftung grenzt
+  den Prüfbereich ein, während erst die konkrete Implementierung das Verhalten festlegt.'
+mechanism: Ein Metrik monitored zu sicherstellen die improving a target Metrik does not erstellen unacceptable harm elsewhere.
+  In einem realen Projekt hängt das genaue Verhalten von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete
+  Umsetzung.
+why_it_matters: Wer Leitplanke Metrik versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: 'In Vibe Terms dient Leitplanke Metrik in der Phase Anforderungen als Lerncheckpoint: Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt, statt sie isoliert zu lernen.'
+ai_prompt_example: Erkläre, wie Leitplanke Metrik in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Leitplanke Metrik als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+  Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1
