@@ -827,6 +827,16 @@ On `通过`, locally merge the task branch into `main`, verify `main`, delete th
 
 ---
 
+## Amendment: VibeHub clarity redesign
+
+- [ ] Replace the dark hero-first home with the selected light terminology explorer: sticky two-row-capable header, top domain tabs, topic rail and three-column term cards.
+- [ ] Render every card with bilingual naming, user-language quote, bookmark control and non-empty project-example preview.
+- [ ] Recompose the term page so bilingual identity, quote, definition and a large four-stage visual example appear before supporting reference sections.
+- [ ] Keep all 500 exercises, knowledge pages, three paths, local data controls, SEO, eight locales and root/subpath builds; no feature may be removed to match the visual target.
+- [ ] Bind path chapter completion to `pathProgress` and make the Pages workflow run the full verifier before artifact upload.
+- [ ] Add failing structural/browser tests first, then run desktop and `390×844` screenshot comparison; maintain root `design-qa.md` until the final result is `passed`.
+- [ ] Discard the interrupted acceptance result and dispatch one fresh unified independent acceptance only after the redesigned candidate is committed.
+
 ## Final Verification Matrix
 
 | Area | Command or check | Required result |
