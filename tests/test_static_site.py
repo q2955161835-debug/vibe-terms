@@ -146,6 +146,7 @@ def test_rich_term_page_is_readable_without_javascript(generated_site: Path) -> 
     assert "data-exercise-payload" in html
     assert "data-exercise-feedback" in html
     assert "data-bookmark" in html
+    assert 'data-bookmark-active-label="已收藏"' in html
     assert 'class="term-pagination"' in html
     assert 'class="term-page-toolbar"' in html
     assert 'class="term-voice"' in html
@@ -317,12 +318,16 @@ def test_canonical_name_is_not_repeated_when_localized_title_already_contains_it
     assert "<strong>圆角半径（Border Radius）</strong><small>Border Radius</small>" not in terms
 
 
-def test_static_example_pages_do_not_render_inert_controls(generated_site: Path) -> None:
+def test_static_example_pages_use_cards_as_progressive_controls(
+    generated_site: Path,
+) -> None:
     html = (
         generated_site / "en" / "terms" / "a-b-test" / "index.html"
     ).read_text(encoding="utf-8")
     assert 'data-example-mode="static"' in html
     assert "data-example-control" not in html
+    assert html.count("data-example-stage-trigger") == 4
+    assert html.count('<button type="button" class="example-stage') == 4
 
 
 def test_project_path_and_practice_chrome_are_localized(generated_site: Path) -> None:

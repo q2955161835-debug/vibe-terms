@@ -507,6 +507,20 @@ def test_dynamic_example_and_inline_exercise_persist_in_local_v2(site_url: str) 
             """
         )
         assert any(row["exerciseId"] == "api:zh-cn:1" and row["correct"] for row in rows)
+
+        page.goto(
+            f"{site_url}/zh-cn/terms/css-custom-property/",
+            wait_until="networkidle",
+        )
+        generic_example = page.locator("[data-example-root]")
+        verify_card = generic_example.locator('[data-example-state="verify"]')
+        verify_card.click()
+        assert "is-active" in (verify_card.get_attribute("class") or "")
+        assert verify_card.get_attribute("aria-pressed") == "true"
+        apply_card = generic_example.locator('[data-example-state="apply"]')
+        apply_card.press("Enter")
+        assert "is-active" in (apply_card.get_attribute("class") or "")
+        assert apply_card.get_attribute("aria-pressed") == "true"
     finally:
         browser.close()
         playwright.stop()
@@ -586,7 +600,10 @@ def test_bookmark_selection_restores_after_reload(site_url: str) -> None:
         page = browser.new_page(viewport={"width": 1100, "height": 900})
         page.goto(f"{site_url}/zh-cn/terms/api/", wait_until="networkidle")
         bookmark = page.locator('[data-bookmark][data-term-slug="api"]').first
+        assert bookmark.inner_text() == "收藏"
         bookmark.click()
+        assert bookmark.inner_text() == "已收藏"
+        assert bookmark.get_attribute("aria-pressed") == "true"
         page.wait_for_function(
             """
             async () => {
@@ -607,7 +624,115 @@ def test_bookmark_selection_restores_after_reload(site_url: str) -> None:
             """
         )
         page.reload(wait_until="networkidle")
-        assert page.locator('[data-bookmark][data-term-slug="api"]').first.get_attribute("aria-pressed") == "true"
+        restored = page.locator('[data-bookmark][data-term-slug="api"]').first
+        page.wait_for_function(
+            "button => button.getAttribute('aria-pressed') === 'true'",
+            arg=restored.element_handle(),
+        )
+        assert restored.get_attribute("aria-pressed") == "true"
+        assert restored.inner_text() == "已收藏"
+    finally:
+        browser.close()
+        playwright.stop()
+
+
+def test_explorer_scroll_card_body_and_bottom_term_navigation(
+    site_url: str,
+) -> None:
+    playwright, browser = _browser()
+    try:
+        page = browser.new_page(viewport={"width": 1280, "height": 900})
+        page.goto(f"{site_url}/zh-cn/", wait_until="networkidle")
+
+        tabs = page.locator(".explorer-tabs")
+        metrics = tabs.evaluate(
+            """
+            element => ({
+              clientWidth: element.clientWidth,
+              scrollWidth: element.scrollWidth,
+              scrollbarDisplay: getComputedStyle(element, '::-webkit-scrollbar').display,
+              scrollbarWidth: getComputedStyle(element).scrollbarWidth,
+            })
+            """
+        )
+        assert metrics["scrollWidth"] > metrics["clientWidth"]
+        assert metrics["scrollbarDisplay"] != "none"
+        assert metrics["scrollbarWidth"] == "thin"
+        tabs.evaluate("element => { element.scrollLeft = element.scrollWidth; }")
+        tab_bounds = tabs.evaluate(
+            """
+            element => {
+              const container = element.getBoundingClientRect();
+              const last = element.lastElementChild.getBoundingClientRect();
+              return { containerRight: container.right, lastRight: last.right };
+            }
+            """
+        )
+        assert tab_bounds["lastRight"] <= tab_bounds["containerRight"] + 1
+
+        first_card = page.locator(".term-card").first
+        target = first_card.locator(".term-card-head a").get_attribute("href")
+        card_bookmark = first_card.locator("[data-bookmark]")
+        page_url = page.url
+        card_bookmark.click()
+        assert page.url == page_url
+        quote_box = first_card.locator(".term-card-quote").bounding_box()
+        assert quote_box
+        with page.expect_navigation(wait_until="networkidle"):
+            page.mouse.click(
+                quote_box["x"] + quote_box["width"] / 2,
+                quote_box["y"] + quote_box["height"] / 2,
+            )
+        assert page.url.endswith(target)
+
+        page.goto(f"{site_url}/zh-cn/terms/api/", wait_until="networkidle")
+        pagination = page.locator(".term-pagination")
+        previous = pagination.locator('a[rel="prev"]')
+        following = pagination.locator('a[rel="next"]')
+        pagination_box = pagination.bounding_box()
+        previous_box = previous.bounding_box()
+        following_box = following.bounding_box()
+        assert pagination_box and previous_box and following_box
+        assert previous_box["x"] - pagination_box["x"] < 4
+        assert (
+            pagination_box["x"]
+            + pagination_box["width"]
+            - following_box["x"]
+            - following_box["width"]
+            < 4
+        )
+        assert following_box["x"] > previous_box["x"] + previous_box["width"]
+        assert pagination.evaluate("element => getComputedStyle(element).marginTop") == "72px"
+
+        page.set_viewport_size({"width": 390, "height": 844})
+        page.goto(f"{site_url}/zh-cn/terms/api/", wait_until="networkidle")
+        mobile_pagination = page.locator(".term-pagination")
+        mobile_previous = mobile_pagination.locator('a[rel="prev"]').bounding_box()
+        mobile_following = mobile_pagination.locator('a[rel="next"]').bounding_box()
+        assert mobile_previous and mobile_following
+        assert mobile_following["x"] >= mobile_previous["x"] + mobile_previous["width"]
+
+        page.goto(f"{site_url}/zh-cn/terms/a-b-test/", wait_until="networkidle")
+        first_pagination = page.locator(".term-pagination")
+        assert first_pagination.locator('a[rel="prev"]').count() == 0
+        first_box = first_pagination.bounding_box()
+        first_next_box = first_pagination.locator('a[rel="next"]').bounding_box()
+        assert first_box and first_next_box
+        assert (
+            first_box["x"]
+            + first_box["width"]
+            - first_next_box["x"]
+            - first_next_box["width"]
+            < 4
+        )
+
+        page.goto(f"{site_url}/zh-cn/terms/z-index/", wait_until="networkidle")
+        last_pagination = page.locator(".term-pagination")
+        assert last_pagination.locator('a[rel="next"]').count() == 0
+        last_box = last_pagination.bounding_box()
+        last_previous_box = last_pagination.locator('a[rel="prev"]').bounding_box()
+        assert last_box and last_previous_box
+        assert last_previous_box["x"] - last_box["x"] < 4
     finally:
         browser.close()
         playwright.stop()
