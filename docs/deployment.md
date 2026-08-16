@@ -42,7 +42,12 @@ python3 scripts/build_static_site.py
 The `Deploy GitHub Pages` workflow builds `site/`, uploads it as a Pages
 artifact, and deploys only from `main`. A successful workflow is not the final
 gate: read back the live root, one locale, one term, the knowledge map, a path
-chapter, practice, and an asset after deployment.
+chapter, practice, `llms.txt`, `og.png`, and an explainer asset after deployment.
+
+The root landing page owns the site-wide Open Graph/X image metadata; ordinary
+term pages retain their own text metadata and do not pretend that the landing
+card is a per-term illustration. Both `og.png` and discovery files must use a
+single `/vibe-terms` prefix in the Pages build.
 
 ## Direct-hosting archive
 
@@ -85,6 +90,12 @@ optional logical storage bindings. Runtime values remain managed by Sites. Set
 `SITE_URL` after the production hostname is known and rebuild so canonical,
 Open Graph, and sitemap URLs use the deployed origin. `GITHUB_URL` can remain
 unset until the source repository is public; the footer then omits the link.
+
+Sites deployment must use the same committed source revision that was pushed to
+GitHub. Package the completed `npm run build` output with the Sites plugin,
+save a version bound to that Git SHA, deploy it privately, poll to `succeeded`,
+then read back the returned deployment URL. Never retain a temporary Sites
+source credential in Git configuration, remotes, logs, or documentation.
 
 ## Verification before release
 
