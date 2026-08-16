@@ -10,13 +10,34 @@ THEME_TOKENS = {
 }
 
 
+def _tokens(block: str) -> set[str]:
+    return set(re.findall(r"--[a-z-]+(?=\s*:)", block))
+
+
+def _system_block(css: str, scheme: str) -> str:
+    match = re.search(
+        rf'@media \(prefers-color-scheme: {scheme}\) \{{\s*'
+        r':root\[data-theme="system"\] \{(?P<block>.*?)\n  \}',
+        css,
+        re.DOTALL,
+    )
+    assert match is not None
+    return match.group("block")
+
+
 def test_styles_define_every_semantic_token_for_light_dark_and_system() -> None:
     css = (ROOT / "web" / "styles.css").read_text(encoding="utf-8")
-    for selector in (':root[data-theme="light"]', ':root[data-theme="dark"]'):
+    for selector, scheme in ((
+        ':root[data-theme="light"]', "light"),
+        (':root[data-theme="dark"]', "dark"),
+    ):
         block = css.split(selector, 1)[1].split("}", 1)[0]
-        assert THEME_TOKENS <= set(re.findall(r"--[a-z-]+(?=\s*:)", block))
-    assert '@media (prefers-color-scheme: dark)' in css
-    assert ':root[data-theme="system"]' in css
+        assert THEME_TOKENS <= _tokens(block)
+        assert re.search(rf"color-scheme:\s*{scheme}\s*;", block)
+    for scheme in ("light", "dark"):
+        block = _system_block(css, scheme)
+        assert THEME_TOKENS <= _tokens(block)
+        assert re.search(rf"color-scheme:\s*{scheme}\s*;", block)
 
 
 def test_clarity_components_do_not_force_light_surfaces() -> None:

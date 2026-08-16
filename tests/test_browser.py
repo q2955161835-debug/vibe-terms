@@ -115,6 +115,40 @@ def test_theme_cycle_persists(site_url: str) -> None:
         playwright.stop()
 
 
+def test_system_theme_respects_browser_color_scheme(site_url: str) -> None:
+    playwright, browser = _browser()
+    try:
+        for scheme, expected_canvas in (("light", "rgb(255, 255, 255)"), ("dark", "rgb(13, 17, 23)")):
+            context = browser.new_context(
+                color_scheme=scheme,
+                viewport={"width": 1280, "height": 900},
+            )
+            context.add_init_script("localStorage.setItem('vibe-theme', 'system')")
+            page = context.new_page()
+            page.goto(f"{site_url}/en/", wait_until="networkidle")
+            assert page.locator("html").get_attribute("data-theme") == "system"
+            computed = page.evaluate("""
+              () => {
+                const style = (selector) => getComputedStyle(document.querySelector(selector));
+                return {
+                  canvas: style('body').backgroundColor,
+                  color_scheme: style('html').colorScheme,
+                  card: [style('.term-card h3 strong').color, style('.term-card').backgroundColor],
+                  button: [style('.desktop-search > button').color, style('.desktop-search > button').backgroundColor],
+                  input: [style('.desktop-search > input').color, style('.desktop-search').backgroundColor],
+                };
+              }
+            """)
+            assert computed["canvas"] == expected_canvas
+            assert computed["color_scheme"] == scheme
+            for foreground, background in (computed["card"], computed["button"], computed["input"]):
+                assert _contrast(foreground, background) >= 4.5
+            context.close()
+    finally:
+        browser.close()
+        playwright.stop()
+
+
 def test_guest_learning_persists_without_login(site_url: str) -> None:
     playwright, browser = _browser()
     try:

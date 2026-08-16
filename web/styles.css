@@ -25,7 +25,7 @@
   --ink: var(--text-primary);
   --danger: #b42318;
   --shadow: 0 16px 44px rgba(16, 24, 40, 0.08);
-  color-scheme: light dark;
+  color-scheme: light;
 }
 
 :root {
