@@ -1,10 +1,16 @@
 title: Backend
 short_definition: Serverseitige Logik, die Daten, Berechtigungen, Geschäftsregeln und Integrationen verarbeitet.
-analogy: Wie Küche und Lagerraum, die dafür sorgen, dass der Verkaufsraum tatsächlich funktioniert.
-why_it_matters: Eine schöne Oberfläche kann unsicher oder nur Fassade sein, wenn das Backend die Regeln
-  nicht durchsetzt.
-ai_prompt_example: Validiere die Anfrage im Backend und gib bei ungültigen Eingaben einen 400-Fehler zurück.
-  Verlasse dich nicht nur auf die Browservalidierung.
-common_mistake: Ausgeblendete Bedienelemente im Frontend als Sicherheitsgrenze zu betrachten.
+analogy: 'Ordne Backend im Bereich Backend & APIs als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch erst die konkrete
+  Implementierung zeigt, wie es sich verhält.'
+mechanism: Serverseitige Logik, die Daten, Berechtigungen, Geschäftsregeln und Integrationen verarbeitet. In einem realen
+  Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Backend versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Backend & APIs benennen und von
+  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Backend in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Backend in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Backend als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

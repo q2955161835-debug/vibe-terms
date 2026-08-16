@@ -1,8 +1,8 @@
-title: Git
-short_definition: 記錄程式碼變更，並讓你透過分支安全協作的版本控制系統。
-analogy: 像專案的時光機，每個重要儲存點都有標記。
-why_it_matters: AI 能快速修改許多檔案；Git 讓你可靠地檢查並撤銷這些變更。
-ai_prompt_example: 只為這項功能建立一個聚焦的提交，繼續之前先把差異顯示給我。
-common_mistake: 讓 AI 做了多個互不相關的修改後，才全部塞進同一個巨大提交。
+title: "Git"
+short_definition: "一個版本控制系統，用於記錄程式碼變更並讓您安全地使用分支。"
+analogy: "專案的時間機器，帶有標記的儲存點。"
+why_it_matters: "了解 Git 後，Vibe Coding 初學者可以準確指出相關的 Git 與協作問題，並要求 AI 編碼助理作出有針對性的修改，同時提供可驗證的結果。"
+ai_prompt_example: "僅為此功能建立重點提交，並在繼續之前向我顯示差異。"
+common_mistake: "在幾次不相關的 AI 編輯後做出了一項巨大的提交。"
 status: draft
 source_content_version: 1

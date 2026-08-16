@@ -1,10 +1,18 @@
 title: Port
-short_definition: 'Port ist ein Begriff aus „Web & Netzwerk“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A numeric network endpoint used to distinguish services running on the same host or IP address.'
-analogy: Man kann Port zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'Port ist ein Begriff aus „Web & Netzwerk“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A numeric network endpoint used to distinguish services running on the same host or IP address.'
-why_it_matters: Wer Port versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer Port versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie Port in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff Port als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+short_definition: Ein numerischer Netzwerkendpunkt, der zur Unterscheidung von Diensten verwendet wird, die auf demselben
+  Host oder derselben IP-Adresse ausgeführt werden.
+analogy: 'Für Port hilft ein Bild aus Web & Netzwerk: Das Etikett weist auf das Problemfeld, ersetzt aber weder den Code noch
+  die Prüfung des Datenflusses.'
+mechanism: Ein numerischer Netzwerkendpunkt, der zur Unterscheidung von Diensten verwendet wird, die auf demselben Host oder
+  derselben IP-Adresse ausgeführt werden. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Port versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Web & Netzwerk benennen und von einem
+  KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Port in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit einer
+  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Port in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Port als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten, Datenfluss,
+  Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

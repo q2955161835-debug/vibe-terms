@@ -1,10 +1,12 @@
-title: Regression Test
-short_definition: 'Regression Test은(는) ‘테스트 및 디버깅’에서 사용하는 용어입니다. 현재 한국어 본문은 검토 전 초안입니다. 영어 기준 정의: A test that verifies previously working behavior still works after a change.'
-analogy: Regression Test을(를) 소프트웨어 개발 도구 상자에 붙은 용도 라벨처럼 생각하면 이해하기 쉽습니다. 실제 사용에서는 코드, 데이터 흐름, 사용자 상황을 함께 확인해야 합니다.
-mechanism: 'Regression Test은(는) ‘테스트 및 디버깅’에서 사용하는 용어입니다. 현재 한국어 본문은 검토 전 초안입니다. 영어 기준 정의: A test that verifies previously working behavior still works after a change.'
-why_it_matters: Regression Test을(를) 이해하면 AI에게 시스템의 어느 부분을 말하는지 더 정확히 전달하고 검증 가능한 결과를 요구할 수 있습니다.
-project_example: Regression Test을(를) 이해하면 AI에게 시스템의 어느 부분을 말하는지 더 정확히 전달하고 검증 가능한 결과를 요구할 수 있습니다.
-ai_prompt_example: 이 프로젝트에서 Regression Test의 역할을 설명하세요. 관련 파일이나 시스템 경계를 지정하고 최소한의 변경만 수행한 뒤 검증 절차를 제시하세요.
-common_mistake: Regression Test이라는 이름만 보고 구현이 올바르다고 가정하고 실제 동작, 데이터 흐름, 실패 조건을 확인하지 않는 것입니다.
+title: 회귀 테스트
+short_definition: 이전에 작동했던 동작을 확인하는 테스트는 변경 후에도 계속 작동합니다.
+analogy: 회귀 테스트를 워크숍의 테스트 및 디버깅 부분에 있는 라벨이 붙은 도구로 생각해 보세요. 라벨은 검사해야 할 문제 영역을 알려주지만 실제 동작은 구현에서 결정됩니다.
+mechanism: 회귀 테스트의 작동은 기술 스택, 구성 및 데이터 흐름에 따라 달라집니다. 관련 코드와 테스트를 확인해 실제 동작을 검증하세요.
+why_it_matters: 회귀 테스트를 알면 Vibe Coding 초보자는 그것이 의미하는 정확한 테스트 및 디버깅 관심사를 지정하고 AI 코딩 에이전트에 변경 사항과 동작이 정확하다는 증거를 요청할 수 있습니다.
+project_example: Vibe Terms에서는 학습자가 테스트 보호 단계에 도달하면 회귀 테스트를 어휘 체크포인트로 사용합니다. 정의를 따로 가르치기보다는 눈에 보이는 하나의 페이지, 파일, 요청, 데이터 구조
+  또는 검증 단계에 정의를 연결하세요.
+ai_prompt_example: 회귀 테스트가 이 프로젝트에 어떻게 적용되는지 설명하세요. 관련된 정확한 파일이나 시스템 경계를 가리키고, 필요한 최소한의 변경만 수행하고, 결과를 확인하는 데 사용할 수 있는 명령이나
+  사용자 흐름을 보여 주세요.
+common_mistake: 실제 동작, 데이터 흐름, 권한, 실패 사례 또는 관련 테스트를 확인하지 않고 구현이 정확하다는 증거로 회귀 테스트라는 용어를 취급합니다.
 status: draft
 source_content_version: 1

@@ -61,6 +61,12 @@ def _is_external(url: str) -> bool:
     return url.startswith(("https://", "http://", "mailto:", "tel:"))
 
 
+def _should_show_canonical_title(localized_title: object, canonical_name: object) -> bool:
+    localized = str(localized_title).casefold()
+    canonical = str(canonical_name).casefold()
+    return bool(canonical) and canonical not in localized
+
+
 class SiteRenderer:
     def __init__(self, config: BuildConfig, catalog: Catalog) -> None:
         self.config = config
@@ -74,6 +80,15 @@ class SiteRenderer:
         self.sitemap_routes: list[str] = ["/"]
         self.term_by_slug = {term["slug"]: term for term in catalog.terms}
         self.topic_by_id = {topic["id"]: topic for topic in catalog.topics}
+        self.domain_by_id = {domain["id"]: domain for domain in catalog.domains}
+        lifecycle = yaml.safe_load(
+            (config.content_root / "taxonomy" / "lifecycle.yaml").read_text(
+                encoding="utf-8"
+            )
+        )
+        self.lifecycle_by_id = {
+            stage["id"]: stage for stage in lifecycle.get("stages", [])
+        }
 
     def prepare(self) -> None:
         forbidden = {
@@ -108,6 +123,21 @@ class SiteRenderer:
     def label(self, locale: str, key: str, fallback: str) -> str:
         return str(self.ui[locale].get(key) or fallback)
 
+    def domain_name(self, locale: str, domain_id: str) -> str:
+        domain = self.domain_by_id.get(domain_id, {"id": domain_id})
+        return _domain_name(domain, locale)
+
+    def lifecycle_name(self, locale: str, stage_id: str) -> str:
+        stage = self.lifecycle_by_id.get(stage_id, {"id": stage_id})
+        return _domain_name(stage, locale)
+
+    def difficulty_name(self, locale: str, difficulty: str) -> str:
+        return self.label(
+            locale,
+            f"difficulty_{difficulty}",
+            difficulty.replace("-", " ").title(),
+        )
+
     def head(
         self,
         locale: str,
@@ -137,7 +167,12 @@ class SiteRenderer:
             f'<!doctype html><html lang="{_esc(HTML_LANG[locale])}" '
             f'data-base-path="{_esc(self.config.base_path)}" '
             f'data-search-index="{_esc(self.urls.asset(f"assets/search-index.{locale}.json"))}" '
-            f'data-exercise-index="{_esc(self.urls.asset(f"assets/exercises.{locale}.json"))}"><head>'
+            f'data-exercise-index="{_esc(self.urls.asset(f"assets/exercises.{locale}.json"))}" '
+            f'data-search-term-label="{_esc(self.label(locale, "terms", "Terms"))}" '
+            f'data-search-topic-label="{_esc(self.label(locale, "topics", "Topics"))}" '
+            f'data-search-path-label="{_esc(self.label(locale, "route", "Project paths"))}" '
+            f'data-search-empty="{_esc(self.label(locale, "no_results", "No matching results."))}" '
+            f'data-search-error="{_esc(self.label(locale, "search_error", "Search is unavailable."))}"><head>'
             '<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>'
             f'<title>{_esc(title)} · {PRODUCT_NAME}</title>'
             f'<meta name="description" content="{_esc(description)}"/>'
@@ -224,6 +259,11 @@ class SiteRenderer:
             "open_exercise",
             "next",
             "practice_unavailable",
+            "invalid_json",
+            "invalid_import",
+            "import_failed",
+            "confirm_clear",
+            "clear_failed",
         )
         runtime = {key: self.ui[locale].get(key, key) for key in runtime_keys}
         return (
@@ -249,8 +289,15 @@ class SiteRenderer:
     def term_link(self, locale: str, term: dict[str, Any], *, row: bool = False) -> str:
         localized = term["localized"][locale]
         class_name = "term-row" if row else "chip"
+        canonical = (
+            f'<small>{_esc(term["canonical_name"])}</small>'
+            if _should_show_canonical_title(
+                localized["title"], term["canonical_name"]
+            )
+            else ""
+        )
         details = (
-            f'<span><strong>{_esc(localized["title"])}</strong><small>{_esc(term["canonical_name"])}</small></span>'
+            f'<span><strong>{_esc(localized["title"])}</strong>{canonical}</span>'
             f'<em>{_esc(localized["short_definition"])}</em>'
             if row
             else _esc(localized["title"])
@@ -326,7 +373,9 @@ class SiteRenderer:
         localized = term["localized"][locale]
         canonical = (
             f'<span>{_esc(term["canonical_name"])}</span>'
-            if localized["title"].casefold() != term["canonical_name"].casefold()
+            if _should_show_canonical_title(
+                localized["title"], term["canonical_name"]
+            )
             else ""
         )
         return (
@@ -614,7 +663,20 @@ class SiteRenderer:
             if index + 1 < len(ordered_terms):
                 following = ordered_terms[index + 1]
                 next_link = f'<a rel="next" href="{_esc(self.urls.page(f"/{locale}/terms/{following["slug"]}/"))}">{_esc(following["localized"][locale]["title"])} →</a>'
-            aliases = " · ".join(str(alias) for alias in term.get("aliases", [])) or "—"
+            aliases = " · ".join(str(alias) for alias in term.get("aliases", []))
+            alias_field = (
+                f'<span class="term-field">{_esc(self.label(locale, "aliases", "Aliases"))}: {_esc(aliases)}</span>'
+                if aliases
+                else ""
+            )
+            domain_name = self.domain_name(locale, term["primary_domain"])
+            difficulty_name = self.difficulty_name(
+                locale, str(term.get("difficulty", "beginner"))
+            )
+            lifecycle_names = " / ".join(
+                self.lifecycle_name(locale, stage_id)
+                for stage_id in term.get("lifecycle_stages", [])
+            )
             markdown_copy = (
                 f'# {localized["title"]} ({term["canonical_name"]})\n\n'
                 f'> {localized["user_says"]}\n\n'
@@ -626,13 +688,15 @@ class SiteRenderer:
             )
             canonical_heading = (
                 f'<span>{_esc(term["canonical_name"])}</span>'
-                if localized["title"].casefold() != term["canonical_name"].casefold()
+                if _should_show_canonical_title(
+                    localized["title"], term["canonical_name"]
+                )
                 else ""
             )
             body = (
                 f'<article class="term-detail" data-term-page data-term-slug="{_esc(term["slug"])}">'
                 f'<div class="term-page-toolbar"><nav aria-label="{_esc(self.label(locale, "back", "Back"))}"><a class="back" href="{_esc(self.urls.page(f"/{locale}/"))}">← {_esc(self.label(locale, "terms", "Terms"))}</a><span>›</span><strong>{_esc(localized["title"])}</strong></nav><div class="term-actions"><button type="button" data-bookmark data-term-slug="{_esc(term["slug"])}" aria-pressed="false">{_esc(self.label(locale, "bookmark", "Bookmark"))}</button><button type="button" data-copy="{_esc(markdown_copy)}" data-copy-markdown>{_esc(self.label(locale, "copy_markdown", "Copy as Markdown"))}</button></div></div>'
-                f'<header class="term-heading"><div><div class="meta-line"><a href="{_esc(self.urls.page(f"/{locale}/knowledge/{term["primary_domain"]}/"))}">{_esc(term["primary_domain"])}</a>{status}</div><h1><strong>{_esc(localized["title"])}</strong>{canonical_heading}</h1><div class="term-fields"><span class="term-field">{_esc(term.get("difficulty", "—"))}</span><span class="term-field">{_esc(" / ".join(term.get("lifecycle_stages", [])))}</span><span class="term-field">{_esc(self.label(locale, "aliases", "Aliases"))}: {_esc(aliases)}</span></div></div></header>'
+                f'<header class="term-heading"><div><div class="meta-line"><a href="{_esc(self.urls.page(f"/{locale}/knowledge/{term["primary_domain"]}/"))}">{_esc(domain_name)}</a>{status}</div><h1><strong>{_esc(localized["title"])}</strong>{canonical_heading}</h1><div class="term-fields"><span class="term-field">{_esc(difficulty_name)}</span><span class="term-field">{_esc(lifecycle_names)}</span>{alias_field}</div></div></header>'
                 f'<section class="term-voice" data-section="user-says"><span>{_esc(self.label(locale, "user_says", "You may say"))}</span><p>“{_esc(localized["user_says"])}”</p></section>'
                 f'<section class="term-definition-summary" data-section="definition"><h2 class="visually-hidden">{_esc(self.label(locale, "short_definition", "Short definition"))}</h2><p><strong>{_esc(localized["short_definition"])}</strong><span> · {_esc(localized["why_it_matters"])}</span></p></section>'
                 + self.example_html(locale, term, localized)

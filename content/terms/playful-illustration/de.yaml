@@ -1,10 +1,18 @@
-title: Playful Illustration
-short_definition: 'Playful Illustration ist ein Begriff aus „UI/UX & Barrierefreiheit“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A visual direction using expressive illustration, friendly shapes, or characters to make an interface feel lighter and more approachable.'
-analogy: Man kann Playful Illustration zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'Playful Illustration ist ein Begriff aus „UI/UX & Barrierefreiheit“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A visual direction using expressive illustration, friendly shapes, or characters to make an interface feel lighter and more approachable.'
-why_it_matters: Wer Playful Illustration versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer Playful Illustration versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie Playful Illustration in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff Playful Illustration als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+title: Verspielte Illustration
+short_definition: Eine visuelle Ausrichtung mit ausdrucksstarken Illustrationen, freundlichen Formen oder Charakteren, um
+  eine Benutzeroberfläche leichter und zugänglicher wirken zu lassen.
+analogy: 'Ordne Verspielte Illustration im Bereich UI/UX & Barrierefreiheit als Werkzeug ein: Die Bezeichnung grenzt die Frage
+  ein, doch erst die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine visuelle Ausrichtung mit ausdrucksstarken Illustrationen, freundlichen Formen oder Charakteren, um eine Benutzeroberfläche
+  leichter und zugänglicher wirken zu lassen. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Verspielte Illustration versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in UI/UX & Barrierefreiheit
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Verspielte Illustration in der Phase Design als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Verspielte Illustration in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder
+  Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Verspielte Illustration als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+  Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

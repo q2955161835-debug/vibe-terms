@@ -1,10 +1,10 @@
-title: 操作系统
-short_definition: 操作系统 是“计算机与开发环境”中的术语。当前为待人工审校的草稿。英文标准定义：The foundational software that manages hardware, processes, files, networking, and application execution on a computer.
-analogy: 可以先把 操作系统 想成软件开发工具箱里一个有明确用途的标签；真正使用时仍要结合所在代码、数据流和用户场景判断。
-mechanism: 操作系统 是“计算机与开发环境”中的术语。当前为待人工审校的草稿。英文标准定义：The foundational software that manages hardware, processes, files, networking, and application execution on a computer.
-why_it_matters: 理解 操作系统 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-project_example: 理解 操作系统 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-ai_prompt_example: 解释 操作系统 在这个项目中的作用。指出涉及的文件或系统边界，只做最小必要改动，并给出我可以验证结果的步骤。
-common_mistake: 只记住 操作系统 这个名词，却没有检查它在当前项目里的真实行为、数据流和失败情况。
+title: "操作系统"
+short_definition: "管理计算机上的硬件、进程、文件、网络和应用程序执行的基础软件。"
+analogy: "可以把“操作系统”看成计算机与开发环境里的一个概念标签：它提醒你先找“管理计算机上的硬件、进程、文件、网络和应用程序执行的基础软件。”对应的实现，最后仍要以代码、配置和实际行为为准。"
+mechanism: "实现上，这一概念会围绕“管理计算机上的硬件、进程、文件、网络和应用程序执行的基础软件。”在真实项目中落地；具体表现取决于技术栈、配置和数据流，应结合代码和运行结果验证。"
+why_it_matters: "掌握“操作系统”后，你能更准确地描述计算机与开发环境里的问题，让 AI 知道要检查或修改什么，并要求它给出可复现的验证结果。"
+project_example: "在 Vibe Terms 的建立环境阶段，可以把“操作系统”放到一个真实项目中：围绕“管理计算机上的硬件、进程、文件、网络和应用程序执行的基础软件。”定位相关页面、文件、请求、数据结构或验证步骤。"
+ai_prompt_example: "请说明“操作系统”在这个项目中的实现位置和边界。只做必要的最小改动，并用命令或用户操作验证“管理计算机上的硬件、进程、文件、网络和应用程序执行的基础软件”。"
+common_mistake: "不要把“操作系统”这个名称当成正确性的证明；请检查实际行为、数据流、权限、失败场景和相关测试。"
 status: draft
 source_content_version: 1

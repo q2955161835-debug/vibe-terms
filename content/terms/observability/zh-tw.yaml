@@ -1,10 +1,10 @@
-title: 可觀測性
-short_definition: 可觀測性 是「部署與維運」中的術語。目前為待人工審校的草稿。英文標準定義：The ability to understand a system's internal state from outputs such as logs, metrics, traces, profiles, and events.
-analogy: 可以先把 可觀測性 想成軟體開發工具箱裡一個有明確用途的標籤；真正使用時仍要結合所在程式碼、資料流與使用者情境判斷。
-mechanism: 可觀測性 是「部署與維運」中的術語。目前為待人工審校的草稿。英文標準定義：The ability to understand a system's internal state from outputs such as logs, metrics, traces, profiles, and events.
-why_it_matters: 理解 可觀測性 後，你能更準確地告訴 AI 你指的是系統的哪一部分，並要求它提供可驗證的實作證據。
-project_example: 理解 可觀測性 後，你能更準確地告訴 AI 你指的是系統的哪一部分，並要求它提供可驗證的實作證據。
-ai_prompt_example: 解釋 可觀測性 在這個專案中的作用。指出涉及的檔案或系統邊界，只做最小必要修改，並給出我可以驗證結果的步驟。
-common_mistake: 只記住 可觀測性 這個名詞，卻沒有檢查它在目前專案裡的真實行為、資料流與失敗情況。
+title: "可觀察性"
+short_definition: "從日誌、指標、追蹤、設定檔和事件等輸出了解系統內部狀態的能力。"
+analogy: "在部署與維運中，「可觀察性」像發布流程上的控制點：它處理「從日誌、指標、追蹤、設定檔和事件等輸出了解系統內部狀態的能力」，要用日誌、監控或回滾結果確認。"
+mechanism: "能夠從日誌、指標、追蹤、設定檔和事件等輸出中了解系統的內部狀態。在實際專案中，其確切行為取決於周圍的技術、設定和資料流，因此請驗證具體實作，而不是僅依賴標籤。"
+why_it_matters: "了解可觀察性後，Vibe Coding 初學者可以準確指出相關的部署與維運問題，並要求 AI 編碼助理作出有針對性的修改，同時提供可驗證的結果。"
+project_example: "在部署與維護階段，將「可觀察性」放進建置、部署或監控紀錄中：檢查重點是「從日誌、指標、追蹤、設定檔和事件等輸出了解系統內部狀態的能力」，確認實際結果符合需求。"
+ai_prompt_example: "請以專案中的「可觀察性」為例，說明如何實現「從日誌、指標、追蹤、設定檔和事件等輸出了解系統內部狀態的能力」。請指出相關檔案與系統邊界，只做必要修改，並提供可執行的驗證命令或操作流程。"
+common_mistake: "不要只因為看見「可觀察性」這個名稱就判定已經正確實作；請根據「從日誌、指標、追蹤、設定檔和事件等輸出了解系統內部狀態的能力」檢查實際行為、資料流、錯誤情境與測試結果。"
 status: draft
 source_content_version: 1

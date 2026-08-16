@@ -1,10 +1,18 @@
-title: Retry
-short_definition: 'Retry ist ein Begriff aus „Backend & APIs“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: Attempting a failed operation again, usually only for transient failures and with a bounded policy.'
-analogy: Man kann Retry zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'Retry ist ein Begriff aus „Backend & APIs“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: Attempting a failed operation again, usually only for transient failures and with a bounded policy.'
-why_it_matters: Wer Retry versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer Retry versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie Retry in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff Retry als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+title: Wiederholung
+short_definition: Erneuter Versuch eines fehlgeschlagenen Vorgangs, normalerweise nur bei vorübergehenden Fehlern und mit
+  einer begrenzten Richtlinie.
+analogy: Betrachte Retry als Orientierung in Backend & APIs. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Erneuter Versuch eines fehlgeschlagenen Vorgangs, normalerweise nur bei vorübergehenden Fehlern und mit einer begrenzten
+  Richtlinie. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe
+  deshalb die konkrete Umsetzung.
+why_it_matters: Wer Retry versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Backend & APIs benennen und
+  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Retry in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Retry in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Retry als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

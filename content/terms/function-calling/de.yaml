@@ -1,10 +1,18 @@
 title: Function Calling
-short_definition: 'Function Calling ist ein Begriff aus „KI & Vibe Coding“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A structured model interface for selecting a named function and producing arguments that application code can execute.'
-analogy: Man kann Function Calling zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'Function Calling ist ein Begriff aus „KI & Vibe Coding“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A structured model interface for selecting a named function and producing arguments that application code can execute.'
-why_it_matters: Wer Function Calling versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer Function Calling versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie Function Calling in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff Function Calling als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+short_definition: Eine strukturierte Modellschnittstelle zum Auswählen einer benannten Funktion und zum Erzeugen von Argumenten,
+  die der Anwendungscode ausführen kann.
+analogy: 'Für Function Calling hilft ein Bild aus KI & Vibe Coding: Das Etikett weist auf das Problemfeld, ersetzt aber weder
+  den Code noch die Prüfung des Datenflusses.'
+mechanism: Eine strukturierte Modellschnittstelle zum Auswählen einer benannten Funktion und zum Erzeugen von Argumenten,
+  die der Anwendungscode ausführen kann. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
+  und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Function Calling versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Function Calling in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Function Calling in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Function Calling als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+  Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

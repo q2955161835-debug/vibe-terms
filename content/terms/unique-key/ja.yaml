@@ -1,10 +1,10 @@
-title: Unique Key
-short_definition: 'Unique Key は「データとデータベース」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A database rule ensuring that a value or combination of values does not repeat across records.'
-analogy: Unique Key は、ソフトウェア開発の道具箱に付いた用途ラベルのように考えると理解しやすいです。実際にはコード、データの流れ、利用場面を確認します。
-mechanism: 'Unique Key は「データとデータベース」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A database rule ensuring that a value or combination of values does not repeat across records.'
-why_it_matters: Unique Key を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
-project_example: Unique Key を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
-ai_prompt_example: このプロジェクトで Unique Key がどのように関係するか説明してください。対象ファイルまたは境界を示し、必要最小限の変更と確認手順を提示してください。
-common_mistake: Unique Key という名前だけで実装が正しいと判断し、実際の動作・データフロー・失敗時の挙動を確認しないことです。
+title: 一意キー
+short_definition: 値または値の組み合わせがレコード間で繰り返されないことを保証するデータベースルール。
+analogy: 一意キーは、データとデータベースの課題を見つけるための目印にたとえられます。目印は確認すべき問題領域を示しますが、実際の挙動は実装によって決まります。
+mechanism: 値または値の組み合わせがレコード間で繰り返されないことを保証するデータベースルール。実際のプロジェクトでは、周囲の技術、設定、データフローによって具体的な挙動が変わるため、ラベルだけで判断せず、実装を確認してください。
+why_it_matters: 一意キーを知ると、Vibe Coding初心者でも、データとデータベースの課題を正確に言葉にし、AIコーディングエージェントに変更を依頼して、動作が正しいことを示す証拠を求められます。
+project_example: Vibe Termsでは、一意キーをデータと認証をつなぐ段階の用語チェックポイントとして扱います。定義を単独で覚えるのではなく、具体的なページ、ファイル、リクエスト、データ構造、または検証手順のいずれかに結び付けます。
+ai_prompt_example: このプロジェクトで一意キーがどう使われるか説明してください。関係する正確なファイルまたはシステム境界を示し、必要最小限の変更だけを加え、結果の検証に使えるコマンドまたはユーザーフローを提示してください。
+common_mistake: 「一意キー」という用語があるだけで実装を正しいとみなし、実際の挙動、データフロー、権限、失敗時のケース、関連するテストを確認しないことです。
 status: draft
 source_content_version: 1

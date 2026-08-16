@@ -1,11 +1,16 @@
 title: Frontend
-short_definition: Der Teil einer Anwendung, den Nutzer direkt sehen und bedienen.
-analogy: Wie der Verkaufsraum, durch den Kunden gehen, nicht das Lager dahinter.
-why_it_matters: Die meisten visuellen Vibe-Coding-Anfragen ändern Frontend-Code; der Begriff hilft, den
-  Umfang klar einzugrenzen.
-ai_prompt_example: Ändere nur das Layout der Begriffskarten im Frontend. Verändere weder API-Antworten
-  noch Datenbanktabellen.
-common_mistake: Die gesamte Website „Frontend“ zu nennen, obwohl die Aufgabe auch serverseitige Arbeit
-  benötigt.
+short_definition: Der Teil einer Anwendung, den Benutzer direkt sehen und mit dem sie interagieren.
+analogy: 'Ordne Frontend im Bereich Frontend-Entwicklung als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch erst
+  die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Der Teil einer Anwendung, den Benutzer direkt sehen und mit dem sie interagieren. In einem realen Projekt hängt
+  die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Frontend versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen und
+  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Frontend in der Phase Oberflächenlogik als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Frontend in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Frontend als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

@@ -1,10 +1,10 @@
-title: Cascading Select
-short_definition: 'Cascading Select は「UI/UX とアクセシビリティ」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A hierarchical selector where choosing a parent option reveals the next level of choices.'
-analogy: Cascading Select は、ソフトウェア開発の道具箱に付いた用途ラベルのように考えると理解しやすいです。実際にはコード、データの流れ、利用場面を確認します。
-mechanism: 'Cascading Select は「UI/UX とアクセシビリティ」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A hierarchical selector where choosing a parent option reveals the next level of choices.'
-why_it_matters: Cascading Select を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
-project_example: Cascading Select を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
-ai_prompt_example: このプロジェクトで Cascading Select がどのように関係するか説明してください。対象ファイルまたは境界を示し、必要最小限の変更と確認手順を提示してください。
-common_mistake: Cascading Select という名前だけで実装が正しいと判断し、実際の動作・データフロー・失敗時の挙動を確認しないことです。
+title: カスケード選択
+short_definition: 親オプションを選択すると、次のレベルの選択肢が表示される階層セレクター。
+analogy: カスケード選択は、UI/UXとアクセシビリティの課題を見つけるための目印にたとえられます。目印は確認すべき問題領域を示しますが、実際の挙動は実装によって決まります。
+mechanism: 親オプションを選択すると、次のレベルの選択肢が表示される階層セレクター。実際のプロジェクトでは、周囲の技術、設定、データフローによって具体的な挙動が変わるため、ラベルだけで判断せず、実装を確認してください。
+why_it_matters: カスケード選択を知ると、Vibe Coding初心者でも、UI/UXとアクセシビリティの課題を正確に言葉にし、AIコーディングエージェントに変更を依頼して、動作が正しいことを示す証拠を求められます。
+project_example: Vibe Termsでは、カスケード選択を設計段階の用語チェックポイントとして扱います。定義を単独で覚えるのではなく、具体的なページ、ファイル、リクエスト、データ構造、または検証手順のいずれかに結び付けます。
+ai_prompt_example: このプロジェクトでカスケード選択がどう使われるか説明してください。関係する正確なファイルまたはシステム境界を示し、必要最小限の変更だけを加え、結果の検証に使えるコマンドまたはユーザーフローを提示してください。
+common_mistake: 「カスケード選択」という用語があるだけで実装を正しいとみなし、実際の挙動、データフロー、権限、失敗時のケース、関連するテストを確認しないことです。
 status: draft
 source_content_version: 1

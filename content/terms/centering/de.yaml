@@ -1,10 +1,18 @@
-title: Centering
-short_definition: 'Centering ist ein Begriff aus „Frontend-Entwicklung“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: The layout task of aligning content to the visual or geometric center along one or both axes.'
-analogy: Man kann Centering zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'Centering ist ein Begriff aus „Frontend-Entwicklung“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: The layout task of aligning content to the visual or geometric center along one or both axes.'
-why_it_matters: Wer Centering versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer Centering versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie Centering in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff Centering als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+title: Zentrierung
+short_definition: Die Layoutaufgabe besteht darin, Inhalte entlang einer oder beider Achsen am visuellen oder geometrischen
+  Mittelpunkt auszurichten.
+analogy: 'Ein praktischer Vergleich für Zentrierung: ein markiertes Werkzeug in Frontend-Entwicklung, dessen Zweck erst im
+  Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Die Layoutaufgabe besteht darin, Inhalte entlang einer oder beider Achsen am visuellen oder geometrischen Mittelpunkt
+  auszurichten. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe
+  deshalb die konkrete Umsetzung.
+why_it_matters: Wer Zentrierung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Zentrierung in der Phase Oberflächenlogik als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Zentrierung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Zentrierung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

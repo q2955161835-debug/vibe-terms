@@ -3,11 +3,10 @@ domains:
   en: AI & Vibe Coding
   zh-cn: AI 与 Vibe Coding
   zh-tw: AI 與 Vibe Coding
-  ja: AI と Vibe Coding
+  ja: AIとVibe Coding
   ko: AI와 Vibe Coding
   de: KI & Vibe Coding
   ru: ИИ и Vibe Coding
-  hi: AI और Vibe Coding
 - id: computing-env
   en: Computing & Development Environment
   zh-cn: 计算机与开发环境
@@ -16,16 +15,14 @@ domains:
   ko: 컴퓨팅 및 개발 환경
   de: Computer & Entwicklungsumgebung
   ru: Компьютеры и среда разработки
-  hi: कंप्यूटिंग और विकास वातावरण
 - id: web-network
   en: Web & Networking
   zh-cn: Web 与网络
   zh-tw: Web 與網路
-  ja: Web とネットワーク
+  ja: Webとネットワーク
   ko: Web 및 네트워크
   de: Web & Netzwerk
   ru: Web и сети
-  hi: Web और नेटवर्क
 - id: product-requirements
   en: Product & Requirements
   zh-cn: 产品与需求
@@ -34,34 +31,30 @@ domains:
   ko: 제품 및 요구사항
   de: Produkt & Anforderungen
   ru: Продукт и требования
-  hi: उत्पाद और आवश्यकताएँ
 - id: ui-ux
   en: UI/UX & Accessibility
   zh-cn: UI/UX 与无障碍
   zh-tw: UI/UX 與無障礙
-  ja: UI/UX とアクセシビリティ
+  ja: UI/UXとアクセシビリティ
   ko: UI/UX 및 접근성
   de: UI/UX & Barrierefreiheit
   ru: UI/UX и доступность
-  hi: UI/UX और अभिगम्यता
 - id: frontend-engineering
   en: Frontend Engineering
   zh-cn: 前端工程
   zh-tw: 前端工程
   ja: フロントエンド開発
-  ko: 프론트엔드 엔지니어링
+  ko: 프런트엔드 엔지니어링
   de: Frontend-Entwicklung
   ru: Фронтенд-разработка
-  hi: फ्रंटएंड इंजीनियरिंग
 - id: backend-apis
   en: Backend & APIs
   zh-cn: 后端与 API
   zh-tw: 後端與 API
-  ja: バックエンドと API
+  ja: バックエンドとAPI
   ko: 백엔드 및 API
   de: Backend & APIs
   ru: Бэкенд и API
-  hi: बैकएंड और API
 - id: data-databases
   en: Data & Databases
   zh-cn: 数据与数据库
@@ -70,16 +63,14 @@ domains:
   ko: 데이터 및 데이터베이스
   de: Daten & Datenbanken
   ru: Данные и базы данных
-  hi: डेटा और डेटाबेस
 - id: git-collaboration
   en: Git & Collaboration
   zh-cn: Git 与协作
   zh-tw: Git 與協作
-  ja: Git と共同作業
+  ja: Gitと共同作業
   ko: Git 및 협업
   de: Git & Zusammenarbeit
   ru: Git и совместная работа
-  hi: Git और सहयोग
 - id: testing-debugging
   en: Testing & Debugging
   zh-cn: 测试与调试
@@ -88,7 +79,6 @@ domains:
   ko: 테스트 및 디버깅
   de: Testen & Debugging
   ru: Тестирование и отладка
-  hi: परीक्षण और डिबगिंग
 - id: security-privacy
   en: Security & Privacy
   zh-cn: 安全与隐私
@@ -97,7 +87,6 @@ domains:
   ko: 보안 및 개인정보 보호
   de: Sicherheit & Datenschutz
   ru: Безопасность и приватность
-  hi: सुरक्षा और गोपनीयता
 - id: deployment-operations
   en: Deployment & Operations
   zh-cn: 部署与运维
@@ -106,4 +95,3 @@ domains:
   ko: 배포 및 운영
   de: Deployment & Betrieb
   ru: Развертывание и эксплуатация
-  hi: तैनाती और संचालन

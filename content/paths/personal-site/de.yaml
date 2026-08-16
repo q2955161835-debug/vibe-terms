@@ -1,56 +1,57 @@
 locale: de
-title: Draft — Launch a Personal Site
-summary: Draft — not human reviewed. Plan, build, test, and publish a small personal site that explains who you are and how to contact you.
+title: Eine persönliche Website entwickeln
+summary: Eine persönliche Website mit klarer Positionierung, zugänglicher Gestaltung, belastbaren Inhalten und sicheren Release-Prüfungen
+  erstellen
 status: draft
 source_content_version: 1
 chapters:
 - id: project-goal
-  title: Draft — Choose a focused site goal
-  summary: Draft — not human reviewed. State one visitor problem, one audience, and one action the site should support.
-  outcome: Draft — not human reviewed. A one-sentence goal and a primary visitor action.
-  checkpoint: Draft — not human reviewed. You can explain who the site helps and what that visitor can do.
+  title: Zweck und Zielgruppe definieren
+  summary: Wähle eine Zielgruppe und formuliere, welche Information oder Handlung die Website unterstützt.
+  outcome: Ein begrenztes Inhaltsbriefing.
+  checkpoint: Anfragen außerhalb des Zwecks erhalten eine klare Ablehnung oder Weiterleitung.
 - id: audience-and-content
-  title: Draft — List the audience and content
-  summary: Draft — not human reviewed. Turn visitor needs into a short content inventory and a simple user story.
-  outcome: Draft — not human reviewed. A page-content list ordered by visitor need.
-  checkpoint: Draft — not human reviewed. Every section answers a visitor question or leads to the main action.
+  title: Zielgruppe und Inhalte planen
+  summary: Ordne Inhalte den Bedürfnissen der Zielgruppe zu und trenne belegte Aussagen von Annahmen.
+  outcome: Eine priorisierte Inhaltsliste.
+  checkpoint: Jeder zentrale Inhalt hat eine Zielgruppe und einen nachvollziehbaren Zweck.
 - id: information-architecture
-  title: Draft — Arrange the information
-  summary: Draft — not human reviewed. Group the content into a small navigation and define the order a visitor follows.
-  outcome: Draft — not human reviewed. A page outline with navigation labels.
-  checkpoint: Draft — not human reviewed. The main action is reachable without guessing where to go next.
+  title: Die Informationsarchitektur strukturieren
+  summary: Ordne Seiten, Navigation und Begriffe so, dass Besucher relevante Inhalte ohne Umwege finden.
+  outcome: Eine nachvollziehbare Seitenstruktur.
+  checkpoint: Die Navigation führt zu jedem Kerninhalt und zeigt den aktuellen Ort.
 - id: wireframe
-  title: Draft — Sketch the page
-  summary: Draft — not human reviewed. Create a low-fidelity wireframe before choosing colors or visual decoration.
-  outcome: Draft — not human reviewed. A labeled wireframe for desktop and narrow screens.
-  checkpoint: Draft — not human reviewed. The hierarchy is understandable even with plain boxes and text.
+  title: Ein Wireframe erstellen
+  summary: Skizziere Layout, Hierarchie und wichtige Zustände, bevor du visuelle Details ausarbeitest.
+  outcome: Ein prüfbarer Wireframe.
+  checkpoint: Die wichtigsten Aufgaben sind im Entwurf ohne visuelle Dekoration nachvollziehbar.
 - id: html-structure
-  title: Draft — Build semantic structure
-  summary: Draft — not human reviewed. Write the page with meaningful headings, landmarks, links, and content order.
-  outcome: Draft — not human reviewed. A semantic HTML page with a clear heading outline.
-  checkpoint: Draft — not human reviewed. Reading the document in source order still communicates the page.
+  title: Die HTML-Struktur bauen
+  summary: Verwende semantische Elemente und eine sinnvolle Überschriftenhierarchie für Inhalt und Navigation.
+  outcome: Eine semantische Seitenstruktur.
+  checkpoint: Screenreader und Tastatur können die Kerninhalte sinnvoll erschließen.
 - id: visual-system
-  title: Draft — Create a visual system
-  summary: Draft — not human reviewed. Apply a small set of type, spacing, color, and surface rules instead of one-off styling.
-  outcome: Draft — not human reviewed. Reusable CSS variables and consistent section styling.
-  checkpoint: Draft — not human reviewed. Similar elements use the same visual decisions.
+  title: Das visuelle System festlegen
+  summary: Definiere Typografie, Farben, Abstände und wiederverwendbare Design-Tokens.
+  outcome: Ein konsistentes visuelles System.
+  checkpoint: Komponenten verwenden die festgelegten Tokens statt zufälliger Einzelwerte.
 - id: responsive-accessibility
-  title: Draft — Make the site usable everywhere
-  summary: Draft — not human reviewed. Adapt layout for narrow screens and verify keyboard focus, readable contrast, and useful link text.
-  outcome: Draft — not human reviewed. A responsive page with keyboard-visible controls.
-  checkpoint: Draft — not human reviewed. At phone width no essential content is clipped or unreachable.
+  title: Responsivität und Barrierefreiheit prüfen
+  summary: Teste verschiedene Viewports, Tastaturbedienung, Kontrast, Fokus und Textvergrößerung.
+  outcome: Eine responsive und zugängliche Seite.
+  checkpoint: Kernaufgaben bleiben auf kleinen Bildschirmen und ohne Maus möglich.
 - id: content-and-seo
-  title: Draft — Prepare shareable page metadata
-  summary: Draft — not human reviewed. Add a descriptive title, summary, and preview metadata that match the actual page.
-  outcome: Draft — not human reviewed. Page metadata for search and sharing.
-  checkpoint: Draft — not human reviewed. The title and summary tell the same story as the visible page.
+  title: Inhalte und SEO ausarbeiten
+  summary: Pflege klare Seitentitel, Metadaten, strukturierte Inhalte und belegte Aussagen.
+  outcome: Ein überprüfbarer Inhalts- und SEO-Satz.
+  checkpoint: Jede wichtige Seite hat passende Metadaten und verständlichen Inhalt.
 - id: quality-check
-  title: Draft — Check real browser behavior
-  summary: Draft — not human reviewed. Test primary links, keyboard navigation, text overflow, and the contact action in a browser.
-  outcome: Draft — not human reviewed. A concise manual test checklist with results.
-  checkpoint: Draft — not human reviewed. All listed checks pass on a desktop and a phone-sized viewport.
+  title: Die Qualität prüfen
+  summary: Führe Inhalts-, Link-, Visual-, Browser- und Performance-Prüfungen vor dem Release aus.
+  outcome: Eine wiederholbare Qualitätscheckliste.
+  checkpoint: Bekannte Fehler sind vor der Veröffentlichung dokumentiert oder behoben.
 - id: publish-static-site
-  title: Draft — Publish the static site
-  summary: Draft — not human reviewed. Commit the verified source, deploy the static artifact, and read the public route back.
-  outcome: Draft — not human reviewed. A published personal-site URL and deployment record.
-  checkpoint: Draft — not human reviewed. The live page matches the verified local version and its links work.
+  title: Die statische Website veröffentlichen
+  summary: Baue die Website reproduzierbar, prüfe die öffentliche Navigation und veröffentliche einen kleinen Release.
+  outcome: Ein verifizierter statischer Release.
+  checkpoint: Die öffentliche Website lädt Kernseiten und zeigt bekannte Grenzen korrekt.

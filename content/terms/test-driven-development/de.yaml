@@ -1,10 +1,18 @@
-title: Test-Driven Development
-short_definition: 'Test-Driven Development ist ein Begriff aus „Testen & Debugging“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A development workflow that writes a failing test first, implements the minimum code to pass, then refactors while keeping tests green.'
-analogy: Man kann Test-Driven Development zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'Test-Driven Development ist ein Begriff aus „Testen & Debugging“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A development workflow that writes a failing test first, implements the minimum code to pass, then refactors while keeping tests green.'
-why_it_matters: Wer Test-Driven Development versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer Test-Driven Development versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie Test-Driven Development in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff Test-Driven Development als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+title: Testgetriebene Entwicklung
+short_definition: Ein Entwicklungsworkflow, der zuerst einen fehlgeschlagenen Test schreibt, den mindestens zu bestehenden
+  Code implementiert und dann umgestaltet, während die Tests grün bleiben.
+analogy: 'Für Testgetriebene Entwicklung hilft ein Bild aus Testen & Debugging: Das Etikett weist auf das Problemfeld, ersetzt
+  aber weder den Code noch die Prüfung des Datenflusses.'
+mechanism: Ein Entwicklungsworkflow, der zuerst einen fehlgeschlagenen Test schreibt, den mindestens zu bestehenden Code implementiert
+  und dann umgestaltet, während die Tests grün bleiben. In einem realen Projekt hängt die genaue Ausprägung von Technologie,
+  Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Testgetriebene Entwicklung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Testen & Debugging
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Testgetriebene Entwicklung in der Phase Tests & Schutz als Lerncheckpoint. Verknüpfe
+  die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Testgetriebene Entwicklung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien
+  oder Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Testgetriebene Entwicklung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+  Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

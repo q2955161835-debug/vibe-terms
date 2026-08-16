@@ -10,7 +10,7 @@ from scripts.vibe_terms import BuildConfig, Catalog, load_catalog, validate_cata
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "content"
-LOCALES = ("en", "zh-cn", "zh-tw", "ja", "ko", "de", "ru", "hi")
+LOCALES = ("en", "zh-cn", "zh-tw", "ja", "ko", "de", "ru")
 CORE_EXAMPLES = {
     "prompt",
     "context-window",
@@ -48,7 +48,7 @@ def test_stable_interfaces_are_frozen_and_importable(catalog: Catalog) -> None:
         catalog.locales = ("en",)  # type: ignore[misc]
 
 
-def test_catalog_loads_500_terms_12_domains_and_eight_locales(catalog: Catalog) -> None:
+def test_catalog_loads_500_terms_12_domains_and_seven_locales(catalog: Catalog) -> None:
     assert catalog.locales == LOCALES
     assert len(catalog.terms) == 500
     assert len(catalog.domains) == 12
@@ -113,7 +113,6 @@ def test_generated_draft_learning_copy_uses_the_selected_locale(catalog: Catalog
         "ko": ("경계:", "이 용어와 가장 잘 맞는 설명을 선택하세요"),
         "de": ("Abgrenzung:", "Wähle die Beschreibung"),
         "ru": ("Граница:", "Выберите описание"),
-        "hi": ("सीमा:", "इस शब्द से सबसे मेल खाने वाला विवरण चुनें"),
     }
     sample = next(term for term in catalog.terms if term["slug"] == "acceptance-criteria")
     for locale, (boundary_marker, prompt_marker) in expected_markers.items():

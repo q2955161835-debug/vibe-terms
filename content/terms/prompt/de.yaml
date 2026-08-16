@@ -1,11 +1,18 @@
 title: Prompt
-short_definition: Eine Anweisung oder ein Kontext, der einem KI-Modell für seine nächste Antwort oder
-  Aktion gegeben wird.
-analogy: Wie das Briefing, das ein Auftragnehmer vor Beginn der Arbeit erhält.
-why_it_matters: Klare Prompts verringern Vermutungen und machen Änderungen der KI leichter überprüfbar.
-ai_prompt_example: Füge ein Suchfeld hinzu, das Begriffe nach Titel, Aliasen und Definition filtert. Behalte
-  das vorhandene Layout bei.
-common_mistake: Eine vage Anforderung nur mit einem längeren Prompt statt mit klareren Vorgaben lösen
-  zu wollen.
+short_definition: Die Anweisung oder der Kontext, den Sie einem KI-Modell geben, um seine nächste Reaktion oder Aktion zu
+  steuern.
+analogy: Betrachte Prompt als Orientierung in KI & Vibe Coding. Die Bezeichnung führt zur richtigen technischen Stelle, garantiert
+  aber noch keine gute Umsetzung.
+mechanism: Die Anweisung oder der Kontext, den Sie einem KI-Modell geben, um seine nächste Reaktion oder Aktion zu steuern.
+  In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die
+  konkrete Umsetzung.
+why_it_matters: Wer Prompt versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen und von
+  einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Prompt in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Prompt in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Prompt als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

@@ -1,10 +1,16 @@
-title: Production
-short_definition: 'Production ist ein Begriff aus „Deployment & Betrieb“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: The live environment serving real users, real traffic, or real business processes.'
-analogy: Man kann Production zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'Production ist ein Begriff aus „Deployment & Betrieb“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: The live environment serving real users, real traffic, or real business processes.'
-why_it_matters: Wer Production versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer Production versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie Production in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff Production als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+title: Produktion
+short_definition: Die Live-Umgebung für echte Benutzer, echten Datenverkehr oder echte Geschäftsprozesse.
+analogy: 'Ein praktischer Vergleich für Produktion: ein markiertes Werkzeug in Deployment & Betrieb, dessen Zweck erst im
+  Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Die Live-Umgebung für echte Benutzer, echten Datenverkehr oder echte Geschäftsprozesse. In einem realen Projekt
+  hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Produktion versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Deployment & Betrieb benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Produktion in der Phase Deployment & Wartung als Lerncheckpoint. Verknüpfe die
+  Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Produktion in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Produktion als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

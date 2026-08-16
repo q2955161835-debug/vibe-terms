@@ -118,7 +118,7 @@ def test_gateway_and_mobile_home_have_no_horizontal_overflow(site_url: str) -> N
         context = browser.new_context(viewport={"width": 390, "height": 844})
         page = context.new_page()
         page.goto(f"{site_url}/", wait_until="networkidle")
-        assert page.locator(".language-card").count() == 8
+        assert page.locator(".language-card").count() == 7
         page.goto(f"{site_url}/zh-cn/", wait_until="networkidle")
         dimensions = page.evaluate(
             "() => ({ innerWidth: window.innerWidth, scrollWidth: document.documentElement.scrollWidth })"

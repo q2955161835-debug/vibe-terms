@@ -8,7 +8,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "content"
-LOCALES = ("en", "zh-cn", "zh-tw", "ja", "ko", "de", "ru", "hi")
+LOCALES = ("en", "zh-cn", "zh-tw", "ja", "ko", "de", "ru")
 
 
 def load(path: Path):

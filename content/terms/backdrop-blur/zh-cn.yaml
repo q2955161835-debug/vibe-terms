@@ -1,10 +1,10 @@
-title: 背景模糊
-short_definition: 背景模糊 是“前端工程”中的术语。当前为待人工审校的草稿。英文标准定义：A visual effect that blurs content behind a translucent element rather than blurring the element's own content.
-analogy: 可以先把 背景模糊 想成软件开发工具箱里一个有明确用途的标签；真正使用时仍要结合所在代码、数据流和用户场景判断。
-mechanism: 背景模糊 是“前端工程”中的术语。当前为待人工审校的草稿。英文标准定义：A visual effect that blurs content behind a translucent element rather than blurring the element's own content.
-why_it_matters: 理解 背景模糊 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-project_example: 理解 背景模糊 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-ai_prompt_example: 解释 背景模糊 在这个项目中的作用。指出涉及的文件或系统边界，只做最小必要改动，并给出我可以验证结果的步骤。
-common_mistake: 只记住 背景模糊 这个名词，却没有检查它在当前项目里的真实行为、数据流和失败情况。
+title: "背景模糊"
+short_definition: "一种视觉效果，模糊半透明元素后面的内容，而不是模糊元素本身的内容。"
+analogy: "可以把“背景模糊”看成前端工程里的一个概念标签：它提醒你先找“一种视觉效果，模糊半透明元素后面的内容，而不是模糊元素本身的内容。”对应的实现，最后仍要以代码、配置和实际行为为准。"
+mechanism: "实现上，这一概念会围绕“一种视觉效果，模糊半透明元素后面的内容，而不是模糊元素本身的内容。”在真实项目中落地；具体表现取决于技术栈、配置和数据流，应结合代码和运行结果验证。"
+why_it_matters: "掌握“背景模糊”后，你能更准确地描述前端工程里的问题，让 AI 知道要检查或修改什么，并要求它给出可复现的验证结果。"
+project_example: "在 Vibe Terms 的编写界面与逻辑阶段，可以把“背景模糊”放到一个真实项目中：围绕“一种视觉效果，模糊半透明元素后面的内容，而不是模糊元素本身的内容。”定位相关页面、文件、请求、数据结构或验证步骤。"
+ai_prompt_example: "请说明“背景模糊”在这个项目中的实现位置和边界。只做必要的最小改动，并用命令或用户操作验证“一种视觉效果，模糊半透明元素后面的内容，而不是模糊元素本身的内容”。"
+common_mistake: "不要把“背景模糊”这个名称当成正确性的证明；请检查实际行为、数据流、权限、失败场景和相关测试。"
 status: draft
 source_content_version: 1

@@ -1,10 +1,10 @@
-title: Bento网格
-short_definition: Bento网格 是“UI/UX 与无障碍”中的术语。当前为待人工审校的草稿。英文标准定义：A layout pattern that arranges content into differently sized rectangular tiles within a coherent grid.
-analogy: 可以先把 Bento网格 想成软件开发工具箱里一个有明确用途的标签；真正使用时仍要结合所在代码、数据流和用户场景判断。
-mechanism: Bento网格 是“UI/UX 与无障碍”中的术语。当前为待人工审校的草稿。英文标准定义：A layout pattern that arranges content into differently sized rectangular tiles within a coherent grid.
-why_it_matters: 理解 Bento网格 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-project_example: 理解 Bento网格 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-ai_prompt_example: 解释 Bento网格 在这个项目中的作用。指出涉及的文件或系统边界，只做最小必要改动，并给出我可以验证结果的步骤。
-common_mistake: 只记住 Bento网格 这个名词，却没有检查它在当前项目里的真实行为、数据流和失败情况。
+title: "Bento 网格（Bento Grid）"
+short_definition: "一种布局模式，将内容排列到连贯网格内不同大小的矩形图块中。"
+analogy: "可以把 Bento 网格理解为便当盒式的版面：不同大小的卡片像格子一样组合，同时保持整体对齐。"
+mechanism: "实现上，这一概念会围绕“一种布局模式，将内容排列到连贯网格内不同大小的矩形图块中。”在真实项目中落地；具体表现取决于技术栈、配置和数据流，应结合代码和运行结果验证。"
+why_it_matters: "Bento 网格能在有限空间里组织不同优先级的内容，但也要检查卡片顺序、窄屏重排和可读性。"
+project_example: "在 Vibe Terms 的设计体验阶段，可以用 Bento 网格排列术语卡片，让重点术语占据更大卡片，并验证窄屏下的排列顺序和间距。"
+ai_prompt_example: "请检查这个项目的 Bento 网格：指出网格列数、卡片尺寸和响应式规则，只做必要的最小改动，并验证不同屏宽下的排列。"
+common_mistake: "不要只把卡片放进 CSS Grid 就称为 Bento 网格；还要确认尺寸层次、对齐关系和窄屏退化策略。"
 status: draft
 source_content_version: 1

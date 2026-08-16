@@ -10,7 +10,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 PATHS_ROOT = ROOT / "content" / "paths"
-LOCALES = ("en", "zh-cn", "zh-tw", "ja", "ko", "de", "ru", "hi")
+LOCALES = ("en", "zh-cn", "zh-tw", "ja", "ko", "de", "ru")
 EXPECTED_CHAPTER_IDS = {
     "personal-site": (
         "project-goal",

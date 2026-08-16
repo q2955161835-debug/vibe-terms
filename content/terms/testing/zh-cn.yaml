@@ -1,8 +1,8 @@
-title: 测试
-short_definition: 系统检查软件是否符合预期，并确保修改后原有功能没有被破坏。
-analogy: 像开门营业前按清单逐项检查设备。
-why_it_matters: Vibe Coding 只有配上明确验收步骤，AI 改动才真正可控。
-ai_prompt_example: 先写一个能复现问题的回归测试，让它修复前失败、修复后通过。
-common_mistake: 只手点一次正常流程就宣布测试完成。
+title: "测试"
+short_definition: "系统地检查软件的行为是否符合预期，并在更改后继续这样做。"
+analogy: "在顾客进入大楼之前检查破损的门的清单。"
+why_it_matters: "当每个 AI 更改都有具体的验证步骤时，Vibe Coding就会变得更安全。"
+ai_prompt_example: "添加在错误修复之前失败并在修复之后通过的回归测试。"
+common_mistake: "仅单击快乐路径一次并调用已测试的功能。"
 status: draft
 source_content_version: 1

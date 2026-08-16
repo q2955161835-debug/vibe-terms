@@ -1,56 +1,56 @@
 locale: ko
-title: Draft — Launch a Personal Site
-summary: Draft — not human reviewed. Plan, build, test, and publish a small personal site that explains who you are and how to contact you.
+title: 개인 사이트 시작하기
+summary: 내가 누구인지와 연락 방법을 설명하는 작은 개인 사이트를 계획하고, 구축하고, 테스트하고, 게시합니다.
 status: draft
 source_content_version: 1
 chapters:
 - id: project-goal
-  title: Draft — Choose a focused site goal
-  summary: Draft — not human reviewed. State one visitor problem, one audience, and one action the site should support.
-  outcome: Draft — not human reviewed. A one-sentence goal and a primary visitor action.
-  checkpoint: Draft — not human reviewed. You can explain who the site helps and what that visitor can do.
+  title: 집중적인 사이트 목표 선택
+  summary: 방문자 문제 1개, 청중 1개, 사이트가 지원해야 하는 작업 1개를 설명합니다.
+  outcome: 한 문장의 목표이자 주요 방문자 행동입니다.
+  checkpoint: 사이트가 누구에게 도움을 주고 방문자가 무엇을 할 수 있는지 설명할 수 있습니다.
 - id: audience-and-content
-  title: Draft — List the audience and content
-  summary: Draft — not human reviewed. Turn visitor needs into a short content inventory and a simple user story.
-  outcome: Draft — not human reviewed. A page-content list ordered by visitor need.
-  checkpoint: Draft — not human reviewed. Every section answers a visitor question or leads to the main action.
+  title: 청중과 콘텐츠 정리
+  summary: 방문자의 요구 사항을 짧은 콘텐츠 인벤토리와 간단한 사용자 스토리로 전환하세요.
+  outcome: 방문자의 필요에 따라 정렬된 페이지 콘텐츠 목록입니다.
+  checkpoint: 모든 섹션은 방문자의 질문에 답변하거나 주요 작업으로 연결됩니다.
 - id: information-architecture
-  title: Draft — Arrange the information
-  summary: Draft — not human reviewed. Group the content into a small navigation and define the order a visitor follows.
-  outcome: Draft — not human reviewed. A page outline with navigation labels.
-  checkpoint: Draft — not human reviewed. The main action is reachable without guessing where to go next.
+  title: 정보 구조 정리
+  summary: 콘텐츠를 작은 탐색으로 그룹화하고 방문자가 따르는 순서를 정의합니다.
+  outcome: 탐색 라벨이 있는 페이지 개요입니다.
+  checkpoint: 다음에 어디로 가야할지 추측하지 않고도 주요 작업에 도달할 수 있습니다.
 - id: wireframe
-  title: Draft — Sketch the page
-  summary: Draft — not human reviewed. Create a low-fidelity wireframe before choosing colors or visual decoration.
-  outcome: Draft — not human reviewed. A labeled wireframe for desktop and narrow screens.
-  checkpoint: Draft — not human reviewed. The hierarchy is understandable even with plain boxes and text.
+  title: 페이지 스케치
+  summary: 색상이나 시각적 장식을 선택하기 전에 충실도가 낮은 와이어프레임을 만듭니다.
+  outcome: 데스크톱 및 좁은 화면을 위한 라벨이 지정된 와이어프레임입니다.
+  checkpoint: 일반 상자와 텍스트로도 계층 구조를 이해할 수 있습니다.
 - id: html-structure
-  title: Draft — Build semantic structure
-  summary: Draft — not human reviewed. Write the page with meaningful headings, landmarks, links, and content order.
-  outcome: Draft — not human reviewed. A semantic HTML page with a clear heading outline.
-  checkpoint: Draft — not human reviewed. Reading the document in source order still communicates the page.
+  title: 의미 구조 구축
+  summary: 의미 있는 제목, 랜드마크, 링크 및 콘텐츠 순서를 사용하여 페이지를 작성하세요.
+  outcome: 명확한 제목 개요가 있는 의미론적 HTML 페이지입니다.
+  checkpoint: 소스 순서대로 문서를 읽는 것은 여전히 페이지를 전달합니다.
 - id: visual-system
-  title: Draft — Create a visual system
-  summary: Draft — not human reviewed. Apply a small set of type, spacing, color, and surface rules instead of one-off styling.
-  outcome: Draft — not human reviewed. Reusable CSS variables and consistent section styling.
-  checkpoint: Draft — not human reviewed. Similar elements use the same visual decisions.
+  title: 시각 시스템 만들기
+  summary: 일회성 스타일 대신 작은 유형, 간격, 색상 및 표면 규칙 세트를 적용합니다.
+  outcome: 재사용 가능한 CSS 변수 및 일관된 섹션 스타일.
+  checkpoint: 유사한 요소는 동일한 시각적 결정을 사용합니다.
 - id: responsive-accessibility
-  title: Draft — Make the site usable everywhere
-  summary: Draft — not human reviewed. Adapt layout for narrow screens and verify keyboard focus, readable contrast, and useful link text.
-  outcome: Draft — not human reviewed. A responsive page with keyboard-visible controls.
-  checkpoint: Draft — not human reviewed. At phone width no essential content is clipped or unreachable.
+  title: 사이트를 어디서나 사용할 수 있도록 만들기
+  summary: 좁은 화면에 맞게 레이아웃을 조정하고 키보드 초점, 읽을 수 있는 대비, 유용한 링크 텍스트를 확인하세요.
+  outcome: 키보드로 볼 수 있는 컨트롤이 있는 반응형 페이지입니다.
+  checkpoint: 휴대폰 너비에서는 필수 콘텐츠가 잘리거나 도달할 수 없습니다.
 - id: content-and-seo
-  title: Draft — Prepare shareable page metadata
-  summary: Draft — not human reviewed. Add a descriptive title, summary, and preview metadata that match the actual page.
-  outcome: Draft — not human reviewed. Page metadata for search and sharing.
-  checkpoint: Draft — not human reviewed. The title and summary tell the same story as the visible page.
+  title: 공유 가능한 페이지 메타데이터 준비
+  summary: 실제 페이지와 일치하는 설명 제목, 요약, 미리보기 메타데이터를 추가하세요.
+  outcome: 검색 및 공유를 위한 페이지 메타데이터입니다.
+  checkpoint: 제목과 요약은 보이는 페이지와 동일한 내용을 전달합니다.
 - id: quality-check
-  title: Draft — Check real browser behavior
-  summary: Draft — not human reviewed. Test primary links, keyboard navigation, text overflow, and the contact action in a browser.
-  outcome: Draft — not human reviewed. A concise manual test checklist with results.
-  checkpoint: Draft — not human reviewed. All listed checks pass on a desktop and a phone-sized viewport.
+  title: 실제 브라우저 동작 확인
+  summary: 브라우저에서 기본 링크, 키보드 탐색, 텍스트 오버플로 및 연락처 작업을 테스트합니다.
+  outcome: 결과가 포함된 간결한 수동 테스트 체크리스트입니다.
+  checkpoint: 나열된 모든 검사는 데스크탑과 휴대폰 크기의 뷰포트에서 통과됩니다.
 - id: publish-static-site
-  title: Draft — Publish the static site
-  summary: Draft — not human reviewed. Commit the verified source, deploy the static artifact, and read the public route back.
-  outcome: Draft — not human reviewed. A published personal-site URL and deployment record.
-  checkpoint: Draft — not human reviewed. The live page matches the verified local version and its links work.
+  title: 정적 사이트 게시
+  summary: 확인된 소스를 커밋하고, 정적 아티팩트를 배포하고, 공개 경로를 다시 읽어보세요.
+  outcome: 게시된 개인 사이트 URL 및 배포 기록입니다.
+  checkpoint: 라이브 페이지는 검증된 로컬 버전과 일치하며 해당 링크가 작동합니다.

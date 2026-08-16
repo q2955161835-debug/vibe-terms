@@ -1,10 +1,18 @@
 title: PRD
-short_definition: 'PRD ist ein Begriff aus „Produkt & Anforderungen“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A product requirements document that explains the problem, target users, scope, behavior, constraints, and acceptance expectations for a product or feature.'
-analogy: Man kann PRD zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'PRD ist ein Begriff aus „Produkt & Anforderungen“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A product requirements document that explains the problem, target users, scope, behavior, constraints, and acceptance expectations for a product or feature.'
-why_it_matters: Wer PRD versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer PRD versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie PRD in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff PRD als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+short_definition: Ein Produktanforderungsdokument, das das Problem, die Zielbenutzer, den Umfang, das Verhalten, die Einschränkungen
+  und die Akzeptanzerwartungen für ein Produkt oder eine Funktion erläutert.
+analogy: Betrachte PRD als Orientierung in Produkt & Anforderungen. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Ein Produktanforderungsdokument, das das Problem, die Zielbenutzer, den Umfang, das Verhalten, die Einschränkungen
+  und die Akzeptanzerwartungen für ein Produkt oder eine Funktion erläutert. In einem realen Projekt hängt die genaue Ausprägung
+  von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer PRD versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Produkt & Anforderungen benennen und
+  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir PRD in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie PRD in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere
+  nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff PRD als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten, Datenfluss,
+  Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

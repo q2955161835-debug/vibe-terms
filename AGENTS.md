@@ -40,7 +40,7 @@ browser binary instead of Playwright's downloaded Chromium.
 1. Add or update a failing test before changing observable behavior.
 2. Keep term and category pages useful without JavaScript.
 3. Preserve exactly these locale routes: `en`, `zh-cn`, `zh-tw`, `ja`, `ko`,
-   `de`, `ru`, and `hi`.
+   `de`, and `ru`.
 4. Store structured guest learning data in IndexedDB, with localStorage only as
    an explicit fallback and for small preferences.
 5. Do not add login-looking UI while the account system is deferred.

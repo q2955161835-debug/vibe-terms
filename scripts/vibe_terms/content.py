@@ -42,7 +42,6 @@ BOUNDARY_TEMPLATES = {
     "ko": "경계: {definition} 이 용어를 근거로 사용하기 전에 구체적인 프로젝트 맥락과 아래의 흔한 오해를 확인하세요.",
     "de": "Abgrenzung: {definition} Prüfe den konkreten Projektkontext und den häufigen Irrtum unten, bevor du die Bezeichnung als Beleg verwendest.",
     "ru": "Граница: {definition} Прежде чем считать термин доказательством, проверьте контекст проекта и типичную ошибку ниже.",
-    "hi": "सीमा: {definition} इस नाम को प्रमाण मानने से पहले परियोजना का वास्तविक संदर्भ और नीचे दी गई सामान्य गलती जाँचें।",
 }
 
 EXERCISE_PROMPTS = {
@@ -53,7 +52,6 @@ EXERCISE_PROMPTS = {
     "ko": "{title}: 이 용어와 가장 잘 맞는 설명을 선택하세요.",
     "de": "{title}: Wähle die Beschreibung, die am besten zu diesem Begriff passt.",
     "ru": "{title}: Выберите описание, которое лучше всего соответствует этому термину.",
-    "hi": "{title}: इस शब्द से सबसे मेल खाने वाला विवरण चुनें।",
 }
 
 

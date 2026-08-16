@@ -1,24 +1,24 @@
 locale: zh-tw
-title: 建構 AI 助手應用
-summary: 設計一個邊界明確的 AI 助手，具備實用對話體驗、清楚資料流、評估和安全發布檢查。
+title: 建構 AI 助理應用程式
+summary: 設計一個邊界明確的 AI 助理，具備實用的對話體驗、清楚的資料流、評估與安全發布檢查。
 status: published
 source_content_version: 1
 chapters:
 - id: problem-and-scope
-  title: 定義助手職責
-  summary: 選擇一個受眾問題，寫清助手能做什麼和不能做什麼。
+  title: 定義助理職責
+  summary: 選擇一個受眾問題，寫清楚助理能做什麼和不能做什麼。
   outcome: 邊界明確的產品簡介。
   checkpoint: 超出範圍的請求有清楚的拒絕或轉交方式。
 - id: model-and-prompt
   title: 設定模型指令
   summary: 為選定任務編寫聚焦的系統提示詞，並選擇可預測的模型設定。
   outcome: 帶版本的模型指令和設定。
-  checkpoint: 助手遵循預期語氣，並拒絕沒有依據的斷言。
+  checkpoint: 助理遵循預期語氣，並拒絕沒有依據的斷言。
 - id: conversation-ui
   title: 建構對話介面
   summary: 建立易讀的對話介面，清楚呈現輸入、回答、載入和空白狀態。
   outcome: 無障礙對話介面。
-  checkpoint: 使用者能區分自己的訊息、助手回答和等待中的工作。
+  checkpoint: 使用者能區分自己的訊息、助理回答和等待中的工作。
 - id: application-state
   title: 管理應用狀態
   summary: 決定哪些資料屬於目前介面、哪些可本機保存，以及每個請求必須包含什麼。
@@ -41,7 +41,7 @@ chapters:
   checkpoint: 不受信任的文字不能擴大工具權限或覆蓋系統目標。
 - id: evaluation
   title: 評估有用行為
-  summary: 建立代表性提示詞和預期屬性，包括助手應承認不知道的案例。
+  summary: 建立代表性提示詞和預期屬性，包括助理應承認不知道的案例。
   outcome: 小型可重複執行的評估集。
   checkpoint: 評估能區分有幫助的回答和沒有依據的回答。
 - id: error-and-observability
@@ -53,4 +53,4 @@ chapters:
   title: 帶邊界地發布並收集回饋
   summary: 驗證主要旅程，發布小範圍版本，並只收集能改善既定職責的回饋。
   outcome: 發布檢查清單和回饋問題。
-  checkpoint: 已發布助手通過評估，已知限制清楚可見。
+  checkpoint: 已發布助理通過評估，已知限制清楚可見。

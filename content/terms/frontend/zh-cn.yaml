@@ -1,8 +1,8 @@
-title: 前端
-short_definition: 用户直接看到并操作的应用部分。
-analogy: 像顾客进入的店面，而不是后面的仓库。
-why_it_matters: 大多数界面类 Vibe Coding 请求都属于前端范围。
-ai_prompt_example: 只修改前端术语卡片布局，不要改变 API 返回或数据库表。
-common_mistake: 把整个网站都叫前端，忽略其实还需要服务端改动。
+title: "前端"
+short_definition: "应用程序中用户直接看到并与之交互的部分。"
+analogy: "顾客走过的车间，而不是后面的储藏室。"
+why_it_matters: "大多数视觉 Vibe Coding都要求更改前端代码，因此该术语可以帮助你描述范围。"
+ai_prompt_example: "仅更改前端术语卡布局。请勿更改 API 响应或数据库表。"
+common_mistake: "当请求实际上也需要服务器端工作时，将整个网站称为“前端”。"
 status: draft
 source_content_version: 1

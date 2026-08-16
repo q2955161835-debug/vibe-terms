@@ -1,10 +1,10 @@
-title: 校验
-short_definition: 校验 是“后端与 API”中的术语。当前为待人工审校的草稿。英文标准定义：Checking input or data against explicit rules before accepting, processing, or storing it.
-analogy: 可以先把 校验 想成软件开发工具箱里一个有明确用途的标签；真正使用时仍要结合所在代码、数据流和用户场景判断。
-mechanism: 校验 是“后端与 API”中的术语。当前为待人工审校的草稿。英文标准定义：Checking input or data against explicit rules before accepting, processing, or storing it.
-why_it_matters: 理解 校验 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-project_example: 理解 校验 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-ai_prompt_example: 解释 校验 在这个项目中的作用。指出涉及的文件或系统边界，只做最小必要改动，并给出我可以验证结果的步骤。
-common_mistake: 只记住 校验 这个名词，却没有检查它在当前项目里的真实行为、数据流和失败情况。
+title: "验证"
+short_definition: "在接受、处理或存储输入或数据之前，根据明确的规则检查输入或数据。"
+analogy: "可以把“验证”看成后端与 API 里的一个概念标签：它提醒你先找“在接受、处理或存储输入或数据之前，根据明确的规则检查输入或数据。”对应的实现，最后仍要以代码、配置和实际行为为准。"
+mechanism: "实现上，这一概念会围绕“在接受、处理或存储输入或数据之前，根据明确的规则检查输入或数据。”在真实项目中落地；具体表现取决于技术栈、配置和数据流，应结合代码和运行结果验证。"
+why_it_matters: "掌握“验证”后，你能更准确地描述后端与 API 里的问题，让 AI 知道要检查或修改什么，并要求它给出可复现的验证结果。"
+project_example: "在 Vibe Terms 的接入数据与身份阶段，可以把“验证”放到一个真实项目中：围绕“在接受、处理或存储输入或数据之前，根据明确的规则检查输入或数据。”定位相关页面、文件、请求、数据结构或验证步骤。"
+ai_prompt_example: "请说明“验证”在这个项目中的实现位置和边界。只做必要的最小改动，并用命令或用户操作验证“在接受、处理或存储输入或数据之前，根据明确的规则检查输入或数据”。"
+common_mistake: "不要把“验证”这个名称当成正确性的证明；请检查实际行为、数据流、权限、失败场景和相关测试。"
 status: draft
 source_content_version: 1

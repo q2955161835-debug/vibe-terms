@@ -1,10 +1,18 @@
-title: State
-short_definition: 'State ist ein Begriff aus „Frontend-Entwicklung“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: Data representing the current condition of an interface or application that can change over time and affect behavior or rendering.'
-analogy: Man kann State zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'State ist ein Begriff aus „Frontend-Entwicklung“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: Data representing the current condition of an interface or application that can change over time and affect behavior or rendering.'
-why_it_matters: Wer State versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer State versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie State in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff State als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+title: Zustand
+short_definition: Daten, die den aktuellen Zustand einer Schnittstelle oder Anwendung darstellen und sich im Laufe der Zeit
+  ändern und das Verhalten oder die Darstellung beeinflussen können.
+analogy: 'Für Zustand hilft ein Bild aus Frontend-Entwicklung: Das Etikett weist auf das Problemfeld, ersetzt aber weder den
+  Code noch die Prüfung des Datenflusses.'
+mechanism: Daten, die den aktuellen Zustand einer Schnittstelle oder Anwendung darstellen und sich im Laufe der Zeit ändern
+  und das Verhalten oder die Darstellung beeinflussen können. In einem realen Projekt hängt die genaue Ausprägung von Technologie,
+  Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Zustand versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen und
+  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Zustand in der Phase Oberflächenlogik als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Zustand in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Zustand als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

@@ -1,10 +1,10 @@
-title: Fake
-short_definition: 'Fake は「テストとデバッグ」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A lightweight working implementation of an interface used in tests instead of a production dependency.'
-analogy: Fake は、ソフトウェア開発の道具箱に付いた用途ラベルのように考えると理解しやすいです。実際にはコード、データの流れ、利用場面を確認します。
-mechanism: 'Fake は「テストとデバッグ」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A lightweight working implementation of an interface used in tests instead of a production dependency.'
-why_it_matters: Fake を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
-project_example: Fake を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
-ai_prompt_example: このプロジェクトで Fake がどのように関係するか説明してください。対象ファイルまたは境界を示し、必要最小限の変更と確認手順を提示してください。
-common_mistake: Fake という名前だけで実装が正しいと判断し、実際の動作・データフロー・失敗時の挙動を確認しないことです。
+title: フェイク
+short_definition: 本番の依存先の代わりにテストで使う、軽量で動作する実装。
+analogy: フェイクは、テストとデバッグの課題を見つけるための目印にたとえられます。目印は確認すべき問題領域を示しますが、実際の挙動は実装によって決まります。
+mechanism: フェイクは実際の依存先に似た簡易実装を用意し、テスト中に予測可能なデータや動作を返します。実際のプロジェクトでは、本番実装との差分と適用範囲を確認してください。
+why_it_matters: フェイクを知ると、Vibe Coding初心者でも、テストとデバッグの課題を正確に言葉にし、AIコーディングエージェントに変更を依頼して、動作が正しいことを示す証拠を求められます。
+project_example: Vibe Termsでは、フェイクをテストと保護の段階の用語チェックポイントとして扱います。定義を単独で覚えるのではなく、具体的なページ、ファイル、リクエスト、データ構造、または検証手順のいずれかに結び付けます。
+ai_prompt_example: このプロジェクトでフェイクがどう使われるか説明してください。関係する正確なファイルまたはシステム境界を示し、必要最小限の変更だけを加え、結果の検証に使えるコマンドまたはユーザーフローを提示してください。
+common_mistake: 「フェイク」という用語があるだけで実装を正しいとみなし、実際の挙動、データフロー、権限、失敗時のケース、関連するテストを確認しないことです。
 status: draft
 source_content_version: 1

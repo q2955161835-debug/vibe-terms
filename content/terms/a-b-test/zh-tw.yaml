@@ -1,10 +1,10 @@
-title: A/B 測試
-short_definition: A/B 測試 是「產品與需求」中的術語。目前為待人工審校的草稿。英文標準定義：A randomized experiment that compares two or more variants using a predefined metric.
-analogy: 可以先把 A/B 測試 想成軟體開發工具箱裡一個有明確用途的標籤；真正使用時仍要結合所在程式碼、資料流與使用者情境判斷。
-mechanism: A/B 測試 是「產品與需求」中的術語。目前為待人工審校的草稿。英文標準定義：A randomized experiment that compares two or more variants using a predefined metric.
-why_it_matters: 理解 A/B 測試 後，你能更準確地告訴 AI 你指的是系統的哪一部分，並要求它提供可驗證的實作證據。
-project_example: 理解 A/B 測試 後，你能更準確地告訴 AI 你指的是系統的哪一部分，並要求它提供可驗證的實作證據。
-ai_prompt_example: 解釋 A/B 測試 在這個專案中的作用。指出涉及的檔案或系統邊界，只做最小必要修改，並給出我可以驗證結果的步驟。
-common_mistake: 只記住 A/B 測試 這個名詞，卻沒有檢查它在目前專案裡的真實行為、資料流與失敗情況。
+title: "A/B 測試"
+short_definition: "使用預定義指標比較兩個或多個變體的隨機實驗。"
+analogy: "在產品規劃中，可把「A/B 測試」當成把需求轉成決策的工具：它聚焦於「使用預定義指標比較兩個或多個變體的隨機實驗」。"
+mechanism: "使用預定義指標比較兩個或多個變體的隨機實驗。在實際專案中，其確切行為取決於周圍的技術、設定和資料流，因此請驗證具體實作，而不是僅依賴標籤。"
+why_it_matters: "了解 A/B 測試後，Vibe Coding 初學者可以準確指出相關的產品與需求問題，並要求 AI 編碼助理作出有針對性的修改，同時提供可驗證的結果。"
+project_example: "在定義需求階段，將「A/B 測試」放進需求文件、使用者流程或驗收條件中：檢查重點是「使用預定義指標比較兩個或多個變體的隨機實驗」，確認實際結果符合需求。"
+ai_prompt_example: "請以專案中的「A/B 測試」為例，說明如何實現「使用預定義指標比較兩個或多個變體的隨機實驗」。請指出相關檔案與系統邊界，只做必要修改，並提供可執行的驗證命令或操作流程。"
+common_mistake: "不要只因為看見「A/B 測試」這個名稱就判定已經正確實作；請根據「使用預定義指標比較兩個或多個變體的隨機實驗」檢查實際行為、資料流、錯誤情境與測試結果。"
 status: draft
 source_content_version: 1

@@ -1,56 +1,56 @@
 locale: ko
-title: Draft — Build an AI Assistant App
-summary: Draft — not human reviewed. Design a bounded AI assistant with a useful chat experience, explicit data flow, evaluation, and safe release checks.
+title: AI 도우미 앱 구축
+summary: 유용한 채팅 경험, 명시적인 데이터 흐름, 평가 및 안전한 릴리스 확인을 통해 제한된 AI 도우미를 설계합니다.
 status: draft
 source_content_version: 1
 chapters:
 - id: problem-and-scope
-  title: Draft — Define the assistant's job
-  summary: Draft — not human reviewed. Choose one audience problem and write what the assistant will and will not do.
-  outcome: Draft — not human reviewed. A bounded product brief.
-  checkpoint: Draft — not human reviewed. A request outside the scope has a clear refusal or handoff.
+  title: 어시스턴트의 역할 정의
+  summary: 하나의 청중 문제를 선택하고 보조자가 무엇을 할 것인지, 무엇을 하지 않을 것인지 적어 보십시오.
+  outcome: 한정된 제품 개요.
+  checkpoint: 범위 밖의 요청에는 명확한 거부 또는 전달이 있습니다.
 - id: model-and-prompt
-  title: Draft — Set model instructions
-  summary: Draft — not human reviewed. Write a focused system prompt and select predictable model settings for the chosen task.
-  outcome: Draft — not human reviewed. Versioned model instructions and settings.
-  checkpoint: Draft — not human reviewed. The assistant follows the intended tone and declines unsupported claims.
+  title: 모델 지침 설정
+  summary: 집중된 시스템 프롬프트를 작성하고 선택한 작업에 대해 예측 가능한 모델 설정을 선택합니다.
+  outcome: 버전이 지정된 모델 지침 및 설정.
+  checkpoint: 어시스턴트는 의도된 어조를 따르고 근거가 없는 주장을 거부합니다.
 - id: conversation-ui
-  title: Draft — Build the conversation surface
-  summary: Draft — not human reviewed. Create a readable chat interface with clear input, response, loading, and empty states.
-  outcome: Draft — not human reviewed. An accessible conversation screen.
-  checkpoint: Draft — not human reviewed. A user can distinguish their message, the assistant reply, and pending work.
+  title: 대화 화면 구축
+  summary: 명확한 입력, 응답, 로드 및 빈 상태로 읽을 수 있는 채팅 인터페이스를 만듭니다.
+  outcome: 접근 가능한 대화 화면.
+  checkpoint: 사용자는 메시지, 보조자 응답, 대기 중인 작업을 구분할 수 있습니다.
 - id: application-state
-  title: Draft — Manage local conversation state
-  summary: Draft — not human reviewed. Decide what belongs in the current view, what can persist locally, and what each request must include.
-  outcome: Draft — not human reviewed. A documented client-state model.
-  checkpoint: Draft — not human reviewed. Refreshing has the intended effect on each kind of conversation data.
+  title: 로컬 대화 상태 관리
+  summary: 현재 보기에 속하는 항목, 로컬로 지속될 수 있는 항목, 각 요청에 포함되어야 하는 항목을 결정합니다.
+  outcome: 문서화된 클라이언트 상태 모델.
+  checkpoint: 새로 고침은 각 종류의 대화 데이터에 의도한 영향을 미칩니다.
 - id: api-contract
-  title: Draft — Define the request contract
-  summary: Draft — not human reviewed. Specify the request fields, response shape, and error payload before wiring the user interface.
-  outcome: Draft — not human reviewed. An example request and response contract.
-  checkpoint: Draft — not human reviewed. Invalid input returns a useful, documented error shape.
+  title: 요청 계약 정의
+  summary: 사용자 인터페이스를 연결하기 전에 요청 필드, 응답 형태 및 오류 페이로드를 지정하십시오.
+  outcome: 요청 및 응답 계약의 예입니다.
+  checkpoint: 잘못된 입력은 유용하고 문서화된 오류 형태를 반환합니다.
 - id: context-and-retrieval
-  title: Draft — Add grounded context
-  summary: Draft — not human reviewed. Choose a small approved knowledge set and retrieve relevant passages before generating an answer.
-  outcome: Draft — not human reviewed. A traceable context-selection flow.
-  checkpoint: Draft — not human reviewed. Answers can identify the supplied context instead of inventing a source.
+  title: 근거 있는 컨텍스트 추가
+  summary: 승인된 소규모 지식 세트를 선택하고 답변을 생성하기 전에 관련 구절을 검색하세요.
+  outcome: 추적 가능한 컨텍스트 선택 흐름.
+  checkpoint: 답변은 소스를 만드는 대신 제공된 컨텍스트를 식별할 수 있습니다.
 - id: tool-safety
-  title: Draft — Constrain tools and inputs
-  summary: Draft — not human reviewed. Allow only named tools with narrow parameters and reject instructions that conflict with the task boundary.
-  outcome: Draft — not human reviewed. A documented tool allowlist and safety cases.
-  checkpoint: Draft — not human reviewed. Untrusted text cannot expand tool permissions or override the system goal.
+  title: 도구 및 입력 제한
+  summary: 매개변수가 좁은 명명된 도구만 허용하고 작업 경계와 충돌하는 지침을 거부합니다.
+  outcome: 문서화된 도구 허용 목록 및 안전 사례.
+  checkpoint: 신뢰할 수 없는 텍스트는 도구 권한을 확장하거나 시스템 목표를 재정의할 수 없습니다.
 - id: evaluation
-  title: Draft — Evaluate useful behavior
-  summary: Draft — not human reviewed. Create representative prompts and expected properties, including a case where the assistant should say it does not know.
-  outcome: Draft — not human reviewed. A small repeatable evaluation set.
-  checkpoint: Draft — not human reviewed. The evaluation distinguishes helpful answers from unsupported ones.
+  title: 유용한 행동 평가
+  summary: 어시스턴트가 모른다고 말해야 하는 경우를 포함하여 대표 프롬프트와 예상 속성을 만듭니다.
+  outcome: 작은 반복 가능한 평가 세트입니다.
+  checkpoint: 평가를 통해 유용한 답변과 지원되지 않는 답변을 구별합니다.
 - id: error-and-observability
-  title: Draft — Handle failures visibly
-  summary: Draft — not human reviewed. Give users recoverable error states and record structured operational signals without collecting unnecessary content.
-  outcome: Draft — not human reviewed. Error states and a minimal operational log plan.
-  checkpoint: Draft — not human reviewed. Timeouts, limits, and network failures have understandable user messages.
+  title: 장애를 눈에 띄게 처리
+  summary: 사용자에게 복구 가능한 오류 상태를 제공하고 불필요한 콘텐츠를 수집하지 않고 구조화된 작동 신호를 기록합니다.
+  outcome: 오류 상태 및 최소한의 운영 로그 계획.
+  checkpoint: 시간 초과, 제한 및 네트워크 오류에는 이해할 수 있는 사용자 메시지가 있습니다.
 - id: release-and-feedback
-  title: Draft — Release with feedback boundaries
-  summary: Draft — not human reviewed. Verify the main journeys, deploy a small release, and collect only feedback that improves the defined job.
-  outcome: Draft — not human reviewed. A release checklist and feedback questions.
-  checkpoint: Draft — not human reviewed. The deployed assistant has passed its evaluation and known limitations are visible.
+  title: 피드백 범위를 정한 릴리스
+  summary: 주요 여정을 확인하고, 소규모 릴리스를 배포하고, 정의된 작업을 개선하는 피드백만 수집하세요.
+  outcome: 릴리스 체크리스트 및 피드백 질문.
+  checkpoint: 배치된 어시스턴트가 평가를 통과했으며 알려진 제한사항이 표시됩니다.

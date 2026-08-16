@@ -1,7 +1,9 @@
 title: Git
 short_definition: 코드 변경을 기록하고 브랜치로 안전하게 작업할 수 있게 하는 버전 관리 시스템.
 analogy: 이름이 붙은 저장 지점을 가진 프로젝트용 타임머신과 같습니다.
+mechanism: Git은 파일 스냅샷을 커밋으로 저장하고 브랜치와 병합으로 여러 작업 흐름의 변경을 비교하고 통합하게 합니다.
 why_it_matters: AI는 많은 파일을 빠르게 바꿀 수 있으므로 Git을 사용하면 변경을 확인하고 신뢰성 있게 되돌릴 수 있습니다.
+project_example: 번역 파일을 언어별로 수정한 뒤 Git diff로 허용된 경로만 바뀌었는지 확인하고 커밋 단위로 기록합니다.
 ai_prompt_example: 이 기능만 포함한 작은 커밋을 만들고, 다음 단계로 가기 전에 diff를 보여 주세요.
 common_mistake: 서로 관련 없는 여러 AI 수정을 마지막에 하나의 거대한 커밋으로 묶는 것.
 status: draft

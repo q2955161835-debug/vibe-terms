@@ -1,10 +1,17 @@
-title: Accordion
-short_definition: 'Accordion ist ein Begriff aus „UI/UX & Barrierefreiheit“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A vertical set of sections whose details can be expanded and collapsed independently or one at a time.'
-analogy: Man kann Accordion zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'Accordion ist ein Begriff aus „UI/UX & Barrierefreiheit“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A vertical set of sections whose details can be expanded and collapsed independently or one at a time.'
-why_it_matters: Wer Accordion versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer Accordion versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie Accordion in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff Accordion als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+title: Akkordeon
+short_definition: Ein vertikaler Satz von Abschnitten, deren Details einzeln oder einzeln erweitert und reduziert werden können.
+analogy: Betrachte Akkordeon als Orientierung in UI/UX & Barrierefreiheit. Die Bezeichnung führt zur richtigen technischen
+  Stelle, garantiert aber noch keine gute Umsetzung.
+mechanism: Ein vertikaler Satz von Abschnitten, deren Details einzeln oder einzeln erweitert und reduziert werden können.
+  In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die
+  konkrete Umsetzung.
+why_it_matters: Wer Akkordeon versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in UI/UX & Barrierefreiheit benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Akkordeon in der Phase Design als Lerncheckpoint. Verknüpfe die Definition mit
+  einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Akkordeon in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Akkordeon als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

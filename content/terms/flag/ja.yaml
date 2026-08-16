@@ -1,10 +1,10 @@
-title: Flag
-short_definition: 'Flag は「コンピュータと開発環境」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A named command-line option that changes how a command behaves, often written with one or two leading hyphens.'
-analogy: Flag は、ソフトウェア開発の道具箱に付いた用途ラベルのように考えると理解しやすいです。実際にはコード、データの流れ、利用場面を確認します。
-mechanism: 'Flag は「コンピュータと開発環境」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A named command-line option that changes how a command behaves, often written with one or two leading hyphens.'
-why_it_matters: Flag を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
-project_example: Flag を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
-ai_prompt_example: このプロジェクトで Flag がどのように関係するか説明してください。対象ファイルまたは境界を示し、必要最小限の変更と確認手順を提示してください。
-common_mistake: Flag という名前だけで実装が正しいと判断し、実際の動作・データフロー・失敗時の挙動を確認しないことです。
+title: フラグ
+short_definition: コマンドの動作を変更する名前付きコマンドラインオプション。多くの場合、先頭に1つまたは2つのハイフンを付けて記述します。
+analogy: フラグは、コンピューターと開発環境の課題を見つけるための目印にたとえられます。目印は確認すべき問題領域を示しますが、実際の挙動は実装によって決まります。
+mechanism: フラグはコマンドライン引数として解釈され、実行時の動作や対象を切り替えます。実際のプロジェクトでは、受け付ける形式と既定値を確認してください。
+why_it_matters: フラグを知ると、Vibe Coding初心者でも、コンピューターと開発環境の課題を正確に言葉にし、AIコーディングエージェントに変更を依頼して、動作が正しいことを示す証拠を求められます。
+project_example: Vibe Termsでは、フラグを開発環境の準備段階の用語チェックポイントとして扱います。定義を単独で覚えるのではなく、具体的なページ、ファイル、リクエスト、データ構造、または検証手順のいずれかに結び付けます。
+ai_prompt_example: このプロジェクトでフラグがどう使われるか説明してください。関係する正確なファイルまたはシステム境界を示し、必要最小限の変更だけを加え、結果の検証に使えるコマンドまたはユーザーフローを提示してください。
+common_mistake: 「フラグ」という用語があるだけで実装を正しいとみなし、実際の挙動、データフロー、権限、失敗時のケース、関連するテストを確認しないことです。
 status: draft
 source_content_version: 1

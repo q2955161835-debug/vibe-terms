@@ -1,10 +1,10 @@
-title: 回滚
-short_definition: 回滚 是“部署与运维”中的术语。当前为待人工审校的草稿。英文标准定义：Returning production to a previously known-good version or state after a release causes unacceptable problems.
-analogy: 可以先把 回滚 想成软件开发工具箱里一个有明确用途的标签；真正使用时仍要结合所在代码、数据流和用户场景判断。
-mechanism: 回滚 是“部署与运维”中的术语。当前为待人工审校的草稿。英文标准定义：Returning production to a previously known-good version or state after a release causes unacceptable problems.
-why_it_matters: 理解 回滚 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-project_example: 理解 回滚 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-ai_prompt_example: 解释 回滚 在这个项目中的作用。指出涉及的文件或系统边界，只做最小必要改动，并给出我可以验证结果的步骤。
-common_mistake: 只记住 回滚 这个名词，却没有检查它在当前项目里的真实行为、数据流和失败情况。
+title: "回滚"
+short_definition: "发布出现严重问题时，将生产环境恢复到先前已知可用的版本或状态。"
+analogy: "可以把回滚理解为发布后的撤回按钮：新版本出现严重问题时，先恢复到已知可用的版本，再继续排查原因。"
+mechanism: "回滚通常通过重新部署旧构建产物、切换版本指针或恢复数据库快照来实现；具体方式取决于发布策略，还要评估数据迁移和不可逆变更。"
+why_it_matters: "掌握“回滚”后，你能更准确地描述部署与运维里的问题，让 AI 知道要检查或修改什么，并要求它给出可复现的验证结果。"
+project_example: "在 Vibe Terms 的部署与维护阶段，可以为一次发布保留上一个构建产物和版本指针；模拟新版本故障后执行回滚，并验证首页、API 和数据读写是否恢复。"
+ai_prompt_example: "请检查这个项目的回滚路径：指出版本切换或旧构建产物的位置，只做必要的最小改动，并说明如何在不破坏数据的前提下验证恢复结果。"
+common_mistake: "不要把回滚当成万能的撤销操作；数据库迁移、外部副作用和不可逆数据变更可能无法随版本一起恢复。"
 status: draft
 source_content_version: 1

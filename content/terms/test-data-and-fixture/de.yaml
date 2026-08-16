@@ -1,10 +1,16 @@
-title: Test Data and Fixture
-short_definition: 'Test Data and Fixture ist ein Begriff aus „Testen & Debugging“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: Known data and setup used to put tests into repeatable starting states.'
-analogy: Man kann Test Data and Fixture zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'Test Data and Fixture ist ein Begriff aus „Testen & Debugging“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: Known data and setup used to put tests into repeatable starting states.'
-why_it_matters: Wer Test Data and Fixture versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer Test Data and Fixture versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie Test Data and Fixture in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff Test Data and Fixture als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+title: Testdaten und Fixture
+short_definition: Bekannte Daten und Setups werden verwendet, um Tests in wiederholbare Startzustände zu versetzen.
+analogy: 'Ein praktischer Vergleich für Testdaten und Vorrichtung: ein markiertes Werkzeug in Testen & Debugging, dessen Zweck
+  erst im Zusammenspiel mit Code, Daten und Nutzung sichtbar wird.'
+mechanism: Bekannte Daten und Setups werden verwendet, um Tests in wiederholbare Startzustände zu versetzen. In einem realen
+  Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Testdaten und Vorrichtung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Testen & Debugging
+  benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Testdaten und Vorrichtung in der Phase Tests & Schutz als Lerncheckpoint. Verknüpfe
+  die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Testdaten und Vorrichtung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien
+  oder Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Testdaten und Vorrichtung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+  Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

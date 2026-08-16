@@ -417,7 +417,9 @@
       node.querySelector('.learn-domain').textContent = term.domain_title;
       title.textContent = term.title;
       node.querySelector('.learn-canonical').textContent =
-        term.title === term.canonical_name ? '' : term.canonical_name;
+        core.shouldShowCanonicalTitle(term.title, term.canonical_name)
+          ? term.canonical_name
+          : '';
       node.querySelector('.learn-definition').textContent = term.short_definition;
       node.querySelector('.learn-analogy').textContent = term.analogy;
 
@@ -666,11 +668,11 @@
 
   function searchGroupLabel(type) {
     const labels = {
-      term: { en: 'Terms', 'zh-cn': '词条', 'zh-tw': '詞條' },
-      topic: { en: 'Topics', 'zh-cn': '主题', 'zh-tw': '主題' },
-      path: { en: 'Project paths', 'zh-cn': '项目路径', 'zh-tw': '專案路徑' },
+      term: root.dataset.searchTermLabel,
+      topic: root.dataset.searchTopicLabel,
+      path: root.dataset.searchPathLabel,
     };
-    return labels[type]?.[locale] || labels[type]?.en || type;
+    return labels[type] || type;
   }
 
   function renderGroupedResults(panel, groups) {
@@ -690,7 +692,7 @@
     });
     panel.innerHTML = rows.length
       ? rows.join('')
-      : '<div class="search-empty" role="status">No matching term, topic, or path.</div>';
+      : `<div class="search-empty" role="status">${escapeText(root.dataset.searchEmpty || '')}</div>`;
     panel.hidden = false;
   }
 
@@ -725,7 +727,7 @@
         renderGroupedResults(panel, core.groupSearchResults(await loadSearchDocuments(), query, 10));
       } catch (error) {
         console.error(error);
-        panel.innerHTML = '<div class="search-empty" role="status">Search is unavailable. Ordinary navigation still works.</div>';
+        panel.innerHTML = `<div class="search-empty" role="status">${escapeText(root.dataset.searchError || '')}</div>`;
       } finally {
         panel.setAttribute('aria-busy', 'false');
         active = -1;
@@ -927,9 +929,9 @@
     if (!file) return;
     let payload;
     try { payload = JSON.parse(await file.text()); }
-    catch { input.setCustomValidity('Invalid JSON file.'); input.reportValidity(); return; }
+    catch { input.setCustomValidity(platformMessage('invalid_json', 'The selected file is not valid JSON.')); input.reportValidity(); return; }
     if (!core.validateLocalStateV2(payload)) {
-      input.setCustomValidity('This is not a complete Vibe Terms schema v2 export.');
+      input.setCustomValidity(platformMessage('invalid_import', 'This is not a complete Vibe Terms schema v2 export.'));
       input.reportValidity();
       return;
     }
@@ -938,7 +940,7 @@
       await importLocalState(payload);
       location.reload();
     } catch {
-      input.setCustomValidity('The local data import could not be completed.');
+      input.setCustomValidity(platformMessage('import_failed', 'Local data import could not be completed.'));
       input.reportValidity();
     }
   });
@@ -953,7 +955,7 @@
 
   document.querySelector('[data-clear-local]')?.addEventListener('click', async (event) => {
     const button = event.currentTarget;
-    if (button.dataset.confirm !== 'true') { button.dataset.confirm = 'true'; button.textContent = button.dataset.confirmLabel || 'Confirm clear'; return; }
+    if (button.dataset.confirm !== 'true') { button.dataset.confirm = 'true'; button.textContent = button.dataset.confirmLabel || platformMessage('confirm_clear', 'Confirm clear'); return; }
     try {
       await deleteLocalDatabase(databaseName);
       await deleteLocalDatabase('vibe-terms-guest-v1');

@@ -48,7 +48,7 @@ chapters:
   title: 檢查真實瀏覽器行為
   summary: 在瀏覽器中測試主要連結、鍵盤導覽、文字溢位和聯絡行動。
   outcome: 附結果的精簡手動測試清單。
-  checkpoint: 桌面和手機尺寸視口均通過所有列出的檢查。
+  checkpoint: 桌面和手機尺寸的視窗均通過所有列出的檢查。
 - id: publish-static-site
   title: 發布靜態網站
   summary: 提交已驗證的原始碼，部署靜態產物，並回讀公開路由。

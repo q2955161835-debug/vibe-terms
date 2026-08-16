@@ -1,56 +1,56 @@
 locale: ru
-title: Draft — Ship a Full-Stack App
-summary: Draft — not human reviewed. Take one small product from scope to deployment by connecting a browser interface, API, data model, tests, and operations.
+title: Выпустить full-stack-приложение
+summary: Проведите небольшой продукт от интерфейса и API до модели данных, тестов и проверки работающего релиза
 status: draft
 source_content_version: 1
 chapters:
 - id: product-scope
-  title: Draft — Frame the product slice
-  summary: Draft — not human reviewed. Choose a narrow user outcome and write observable acceptance criteria.
-  outcome: Draft — not human reviewed. A scoped product brief with acceptance criteria.
-  checkpoint: Draft — not human reviewed. You can state what is intentionally excluded from the first release.
+  title: Определить границы продукта
+  summary: Выберите узкий результат пользователя и запишите наблюдаемые критерии приемки.
+  outcome: Ограниченный продуктовый бриф с критериями приемки.
+  checkpoint: Можно назвать исключенное из первого релиза.
 - id: architecture
-  title: Draft — Map the system boundary
-  summary: Draft — not human reviewed. Draw the browser, API, and data responsibilities and name the direction of each important flow.
-  outcome: Draft — not human reviewed. A small architecture diagram.
-  checkpoint: Draft — not human reviewed. Each responsibility has one owning layer instead of duplicated business rules.
+  title: Нанести границу системы
+  summary: Покажите обязанности браузера, API и данных и направление важных потоков.
+  outcome: Небольшая архитектурная схема.
+  checkpoint: У каждой обязанности один владелец без дублирования правил.
 - id: data-model
-  title: Draft — Model durable data
-  summary: Draft — not human reviewed. Define records, identifiers, relationships, and constraints before building write operations.
-  outcome: Draft — not human reviewed. A documented data schema.
-  checkpoint: Draft — not human reviewed. The model prevents the duplicate or orphan data the product must not allow.
+  title: Смоделировать долговечные данные
+  summary: Определите записи, идентификаторы, связи и ограничения до операций записи.
+  outcome: Документированная схема данных.
+  checkpoint: Модель не допускает дубликаты и осиротевшие данные.
 - id: api-design
-  title: Draft — Design the API
-  summary: Draft — not human reviewed. Specify resource routes, request validation, response data, and status codes for the product flow.
-  outcome: Draft — not human reviewed. An API contract with examples.
-  checkpoint: Draft — not human reviewed. A client can complete the main flow without relying on undocumented fields.
+  title: Спроектировать API
+  summary: Опишите маршруты, валидацию запросов, ответы и коды состояния.
+  outcome: Контракт API с примерами.
+  checkpoint: Клиент проходит основной поток без недокументированных полей.
 - id: authentication
-  title: Draft — Protect user access
-  summary: Draft — not human reviewed. Decide who can act, authenticate the user, and enforce authorization at the server boundary.
-  outcome: Draft — not human reviewed. An access policy and protected endpoint flow.
-  checkpoint: Draft — not human reviewed. An unauthenticated or unauthorized request cannot read or change protected data.
+  title: Защитить доступ пользователей
+  summary: Определите права, аутентифицируйте пользователя и примените авторизацию на серверной границе.
+  outcome: Политика доступа и поток защищенной конечной точки.
+  checkpoint: Неавторизованный запрос не читает и не меняет защищенные данные.
 - id: frontend-flow
-  title: Draft — Build the browser flow
-  summary: Draft — not human reviewed. Implement the main task with visible loading, success, and empty states.
-  outcome: Draft — not human reviewed. A working screen for the primary user flow.
-  checkpoint: Draft — not human reviewed. The browser state stays consistent with the latest successful server response.
+  title: Собрать поток в браузере
+  summary: Реализуйте задачу с видимыми состояниями загрузки, успеха и пустого результата.
+  outcome: Рабочий экран главного потока.
+  checkpoint: Состояние браузера соответствует последнему успешному ответу сервера.
 - id: validation-and-errors
-  title: Draft — Make failures actionable
-  summary: Draft — not human reviewed. Validate at the input and server boundaries, then show people what they can fix or retry.
-  outcome: Draft — not human reviewed. Field errors and recoverable request errors.
-  checkpoint: Draft — not human reviewed. Bad data is rejected with a useful message and no partial write.
+  title: Сделать ошибки исправимыми
+  summary: Проверяйте ввод на границах клиента и сервера и показывайте, что исправить или повторить.
+  outcome: Ошибки полей и восстанавливаемые ошибки запросов.
+  checkpoint: Плохие данные отклоняются без частичной записи.
 - id: testing
-  title: Draft — Test the connected system
-  summary: Draft — not human reviewed. Cover business rules, API boundaries, and the primary browser journey with the smallest useful test set.
-  outcome: Draft — not human reviewed. A repeatable test suite for the key flow.
-  checkpoint: Draft — not human reviewed. A regression in the main flow fails a relevant automated test.
+  title: Проверить связанную систему
+  summary: Покройте правила, API и основной путь браузера минимальным полезным набором тестов.
+  outcome: Повторяемый набор тестов ключевого потока.
+  checkpoint: Регрессия основного пути ломает соответствующий тест.
 - id: deployment
-  title: Draft — Deploy with operational checks
-  summary: Draft — not human reviewed. Configure non-secret environment names, automate verification, and inspect the running service after release.
-  outcome: Draft — not human reviewed. A deployment procedure and health check.
-  checkpoint: Draft — not human reviewed. The deployed app completes the primary flow with the expected configuration.
+  title: Развернуть с операционными проверками
+  summary: Задайте имена несекретных переменных, автоматизируйте проверку и осмотрите сервис после релиза.
+  outcome: Процедура развертывания и проверка здоровья.
+  checkpoint: Развернутое приложение проходит основной поток.
 - id: iteration
-  title: Draft — Choose the next improvement
-  summary: Draft — not human reviewed. Use observed feedback and a measured product signal to prioritize one small follow-up change.
-  outcome: Draft — not human reviewed. A prioritized next-iteration note.
-  checkpoint: Draft — not human reviewed. The next change connects to evidence rather than a vague feature request.
+  title: Выбрать следующее улучшение
+  summary: Используйте обратную связь и измеряемый сигнал для одной небольшой доработки.
+  outcome: Приоритетная заметка следующей итерации.
+  checkpoint: Изменение связано с доказательством, а не с расплывчатым запросом.

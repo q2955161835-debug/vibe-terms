@@ -1,10 +1,10 @@
-title: 需求
-short_definition: 需求 是“产品与需求”中的术语。当前为待人工审校的草稿。英文标准定义：A statement of behavior, capability, quality, or constraint that a solution is expected to satisfy.
-analogy: 可以先把 需求 想成软件开发工具箱里一个有明确用途的标签；真正使用时仍要结合所在代码、数据流和用户场景判断。
-mechanism: 需求 是“产品与需求”中的术语。当前为待人工审校的草稿。英文标准定义：A statement of behavior, capability, quality, or constraint that a solution is expected to satisfy.
-why_it_matters: 理解 需求 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-project_example: 理解 需求 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-ai_prompt_example: 解释 需求 在这个项目中的作用。指出涉及的文件或系统边界，只做最小必要改动，并给出我可以验证结果的步骤。
-common_mistake: 只记住 需求 这个名词，却没有检查它在当前项目里的真实行为、数据流和失败情况。
+title: "需求（Requirement）"
+short_definition: "解决方案预期满足的行为、能力、质量或约束的声明。"
+analogy: "可以把“需求（Requirement）”看成产品与需求里的一个概念标签：它提醒你先找“解决方案预期满足的行为、能力、质量或约束的声明。”对应的实现，最后仍要以代码、配置和实际行为为准。"
+mechanism: "实现上，这一概念会围绕“解决方案预期满足的行为、能力、质量或约束的声明。”在真实项目中落地；具体表现取决于技术栈、配置和数据流，应结合代码和运行结果验证。"
+why_it_matters: "掌握“需求（Requirement）”后，你能更准确地描述产品与需求里的问题，让 AI 知道要检查或修改什么，并需求（Requirement）它给出可复现的验证结果。"
+project_example: "在 Vibe Terms 的定义需求阶段，可以把“需求（Requirement）”放到一个真实项目中：围绕“解决方案预期满足的行为、能力、质量或约束的声明。”定位相关页面、文件、请求、数据结构或验证步骤。"
+ai_prompt_example: "请说明“需求（Requirement）”在这个项目中的实现位置和边界。只做必要的最小改动，并用命令或用户操作验证“解决方案预期满足的行为、能力、质量或约束的声明”。"
+common_mistake: "不要把“需求（Requirement）”这个名称当成正确性的证明；请检查实际行为、数据流、权限、失败场景和相关测试。"
 status: draft
 source_content_version: 1

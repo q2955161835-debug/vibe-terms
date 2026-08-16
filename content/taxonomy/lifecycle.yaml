@@ -7,7 +7,6 @@ stages:
     ko: 아이디어 만들기
     de: Idee formen
     ru: Сформировать идею
-    hi: विचार बनाना
   - id: requirements
     en: Define requirements
     zh-cn: 定义需求
@@ -16,7 +15,6 @@ stages:
     ko: 요구사항 정의
     de: Anforderungen klären
     ru: Определить требования
-    hi: आवश्यकताएँ तय करना
   - id: design
     en: Design the experience
     zh-cn: 设计体验
@@ -25,7 +23,6 @@ stages:
     ko: 경험 설계
     de: Erlebnis gestalten
     ru: Спроектировать опыт
-    hi: अनुभव डिज़ाइन करना
   - id: environment
     en: Set up the environment
     zh-cn: 建立环境
@@ -34,25 +31,22 @@ stages:
     ko: 개발 환경 준비
     de: Umgebung einrichten
     ru: Настроить среду
-    hi: वातावरण तैयार करना
   - id: interface-logic
     en: Build interface and logic
     zh-cn: 编写界面与逻辑
-    zh-tw: 編寫介面與邏輯
+    zh-tw: 建立介面與邏輯
     ja: 画面とロジックを作る
     ko: 화면과 로직 구현
     de: Oberfläche und Logik bauen
     ru: Создать интерфейс и логику
-    hi: इंटरफ़ेस और लॉजिक बनाना
   - id: data-identity
     en: Connect data and identity
     zh-cn: 接入数据与身份
     zh-tw: 串接資料與身分
-    ja: データと認証をつなぐ
+    ja: データとアイデンティティをつなぐ
     ko: 데이터와 인증 연결
     de: Daten und Identität anbinden
     ru: Подключить данные и идентификацию
-    hi: डेटा और पहचान जोड़ना
   - id: test-protect
     en: Test and protect
     zh-cn: 测试与保护
@@ -61,7 +55,6 @@ stages:
     ko: 테스트와 보호
     de: Testen und schützen
     ru: Протестировать и защитить
-    hi: परीक्षण और सुरक्षा
   - id: deploy-maintain
     en: Deploy and maintain
     zh-cn: 部署与维护
@@ -70,4 +63,3 @@ stages:
     ko: 배포와 유지보수
     de: Bereitstellen und warten
     ru: Развернуть и поддерживать
-    hi: तैनाती और रखरखाव

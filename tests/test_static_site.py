@@ -11,7 +11,7 @@ from scripts.vibe_terms import BuildConfig, build_site, load_catalog
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "content"
-LOCALES = ("en", "zh-cn", "zh-tw", "ja", "ko", "de", "ru", "hi")
+LOCALES = ("en", "zh-cn", "zh-tw", "ja", "ko", "de", "ru")
 
 
 class ResourceParser(HTMLParser):
@@ -169,6 +169,42 @@ def test_rich_term_page_is_readable_without_javascript(generated_site: Path) -> 
     assert "<h2>Exercise</h2>" not in html
 
 
+def test_term_metadata_uses_localized_labels_and_omits_empty_aliases(
+    generated_site: Path,
+) -> None:
+    html = (
+        generated_site / "zh-cn" / "terms" / "breadcrumb" / "index.html"
+    ).read_text(encoding="utf-8")
+    assert "面包屑导航" in html
+    assert ">UI/UX 与无障碍</a>" in html
+    assert '<span class="term-field">入门</span>' in html
+    assert '<span class="term-field">设计体验</span>' in html
+    assert '<span class="term-field">ui-ux</span>' not in html
+    assert '<span class="term-field">beginner</span>' not in html
+    assert '<span class="term-field">design</span>' not in html
+    assert "别名: —" not in html
+
+
+def test_runtime_search_labels_are_localized_by_the_static_page(
+    generated_site: Path,
+) -> None:
+    html = (generated_site / "ja" / "index.html").read_text(encoding="utf-8")
+    assert 'data-search-term-label="用語"' in html
+    assert 'data-search-topic-label="トピック"' in html
+    assert 'data-search-path-label="プロジェクトの流れ"' in html
+    assert 'data-search-empty="一致する用語がありません。"' in html
+    assert '"invalid_json":"選択したファイルは有効なJSONではありません。"' in html
+    assert '"confirm_clear":"消去を確認する"' in html
+    assert '"clear_failed":"ローカルデータを消去できませんでした。"' in html
+
+    app = (generated_site / "assets" / "app.js").read_text(encoding="utf-8")
+    assert "root.dataset.searchTopicLabel" in app
+    assert "No matching term, topic, or path." not in app
+    assert "platformMessage('invalid_json'" in app
+    assert "platformMessage('confirm_clear'" in app
+    assert "platformMessage('clear_failed'" in app
+
+
 def test_home_is_a_clear_domain_topic_and_term_card_explorer(generated_site: Path) -> None:
     html = (generated_site / "zh-cn" / "index.html").read_text(encoding="utf-8")
     assert 'class="explorer-tabs"' in html
@@ -179,6 +215,22 @@ def test_home_is_a_clear_domain_topic_and_term_card_explorer(generated_site: Pat
     assert "前端工程 VibeCoding 术语" in html
     assert 'href="/assets/clarity.css"' in html
     assert "从一句想法，走到真正上线。" not in html
+
+
+def test_canonical_name_is_not_repeated_when_localized_title_already_contains_it(
+    generated_site: Path,
+) -> None:
+    home = (generated_site / "zh-cn" / "index.html").read_text(encoding="utf-8")
+    detail = (
+        generated_site / "zh-cn" / "terms" / "border-radius" / "index.html"
+    ).read_text(encoding="utf-8")
+    terms = (generated_site / "zh-cn" / "terms" / "index.html").read_text(
+        encoding="utf-8"
+    )
+
+    assert "<strong>圆角半径（Border Radius）</strong><span>Border Radius</span>" not in home
+    assert "<strong>圆角半径（Border Radius）</strong><span>Border Radius</span>" not in detail
+    assert "<strong>圆角半径（Border Radius）</strong><small>Border Radius</small>" not in terms
 
 
 def test_static_example_pages_do_not_render_inert_controls(generated_site: Path) -> None:
@@ -244,7 +296,7 @@ def test_draft_pages_are_noindex_without_claiming_review(generated_site: Path) -
     ).read_text(encoding="utf-8")
     assert '<meta name="robots" content="index,follow"' in english
     assert '<meta name="robots" content="noindex,follow"' in chinese
-    assert "Draft" in chinese or "草稿" in chinese
+    assert "待审校" in chinese
     assert "human reviewed" not in chinese.lower()
 
 

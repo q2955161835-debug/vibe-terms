@@ -1,10 +1,10 @@
-title: B2B Corporate Site
-short_definition: 'B2B Corporate Site は「UI/UX とアクセシビリティ」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A business-facing website pattern designed to establish organizational trust through clear capabilities, evidence, compliance, and customer context.'
-analogy: B2B Corporate Site は、ソフトウェア開発の道具箱に付いた用途ラベルのように考えると理解しやすいです。実際にはコード、データの流れ、利用場面を確認します。
-mechanism: 'B2B Corporate Site は「UI/UX とアクセシビリティ」で使う用語です。現在の日本語本文はレビュー前の草稿です。英語の基準定義: A business-facing website pattern designed to establish organizational trust through clear capabilities, evidence, compliance, and customer context.'
-why_it_matters: B2B Corporate Site を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
-project_example: B2B Corporate Site を理解すると、AI にどの層や責務を指しているかを明確に伝え、実装結果の検証方法まで要求できます。
-ai_prompt_example: このプロジェクトで B2B Corporate Site がどのように関係するか説明してください。対象ファイルまたは境界を示し、必要最小限の変更と確認手順を提示してください。
-common_mistake: B2B Corporate Site という名前だけで実装が正しいと判断し、実際の動作・データフロー・失敗時の挙動を確認しないことです。
+title: B2Bコーポレートサイト
+short_definition: 明確な機能、証拠、コンプライアンス、顧客コンテキストを通じて組織の信頼を確立するように設計された、ビジネス向けWebサイトのパターン。
+analogy: B2Bコーポレートサイトは、UI/UXとアクセシビリティの課題を見つけるための目印にたとえられます。目印は確認すべき問題領域を示しますが、実際の挙動は実装によって決まります。
+mechanism: 明確な機能、証拠、コンプライアンス、顧客コンテキストを通じて組織の信頼を確立するように設計された、ビジネス向けWebサイトのパターン。実際のプロジェクトでは、周囲の技術、設定、データフローによって具体的な挙動が変わるため、ラベルだけで判断せず、実装を確認してください。
+why_it_matters: B2Bコーポレートサイトを知ると、Vibe Coding初心者でも、UI/UXとアクセシビリティの課題を正確に言葉にし、AIコーディングエージェントに変更を依頼して、動作が正しいことを示す証拠を求められます。
+project_example: Vibe Termsでは、B2Bコーポレートサイトを設計段階の用語チェックポイントとして扱います。定義を単独で覚えるのではなく、具体的なページ、ファイル、リクエスト、データ構造、または検証手順のいずれかに結び付けます。
+ai_prompt_example: このプロジェクトでB2Bコーポレートサイトがどう使われるか説明してください。関係する正確なファイルまたはシステム境界を示し、必要最小限の変更だけを加え、結果の検証に使えるコマンドまたはユーザーフローを提示してください。
+common_mistake: 「B2Bコーポレートサイト」という用語があるだけで実装を正しいとみなし、実際の挙動、データフロー、権限、失敗時のケース、関連するテストを確認しないことです。
 status: draft
 source_content_version: 1

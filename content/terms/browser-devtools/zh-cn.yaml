@@ -1,10 +1,10 @@
-title: 浏览器开发者工具
-short_definition: 浏览器开发者工具 是“测试与调试”中的术语。当前为待人工审校的草稿。英文标准定义：Browser-integrated tools for inspecting DOM, CSS, network requests, storage, performance, console output, and debugging.
-analogy: 可以先把 浏览器开发者工具 想成软件开发工具箱里一个有明确用途的标签；真正使用时仍要结合所在代码、数据流和用户场景判断。
-mechanism: 浏览器开发者工具 是“测试与调试”中的术语。当前为待人工审校的草稿。英文标准定义：Browser-integrated tools for inspecting DOM, CSS, network requests, storage, performance, console output, and debugging.
-why_it_matters: 理解 浏览器开发者工具 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-project_example: 理解 浏览器开发者工具 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-ai_prompt_example: 解释 浏览器开发者工具 在这个项目中的作用。指出涉及的文件或系统边界，只做最小必要改动，并给出我可以验证结果的步骤。
-common_mistake: 只记住 浏览器开发者工具 这个名词，却没有检查它在当前项目里的真实行为、数据流和失败情况。
+title: "浏览器开发工具"
+short_definition: "用于检查 DOM、CSS、网络请求、存储、性能、控制台输出和调试的浏览器集成工具。"
+analogy: "可以把“浏览器开发工具”看成测试与调试里的一个概念标签：它提醒你先找“用于检查 DOM、CSS、网络请求、存储、性能、控制台输出和调试的浏览器集成工具。”对应的实现，最后仍要以代码、配置和实际行为为准。"
+mechanism: "实现上，这一概念会围绕“用于检查 DOM、CSS、网络请求、存储、性能、控制台输出和调试的浏览器集成工具。”在真实项目中落地；具体表现取决于技术栈、配置和数据流，应结合代码和运行结果验证。"
+why_it_matters: "掌握“浏览器开发工具”后，你能更准确地描述测试与调试里的问题，让 AI 知道要检查或修改什么，并要求它给出可复现的验证结果。"
+project_example: "在 Vibe Terms 的测试与保护阶段，可以把“浏览器开发工具”放到一个真实项目中：围绕“用于检查 DOM、CSS、网络请求、存储、性能、控制台输出和调试的浏览器集成工具。”定位相关页面、文件、请求、数据结构或验证步骤。"
+ai_prompt_example: "请说明“浏览器开发工具”在这个项目中的实现位置和边界。只做必要的最小改动，并用命令或用户操作验证“用于检查 DOM、CSS、网络请求、存储、性能、控制台输出和调试的浏览器集成工具”。"
+common_mistake: "不要把“浏览器开发工具”这个名称当成正确性的证明；请检查实际行为、数据流、权限、失败场景和相关测试。"
 status: draft
 source_content_version: 1

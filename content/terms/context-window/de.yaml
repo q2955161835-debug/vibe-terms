@@ -1,12 +1,16 @@
 title: Kontextfenster
-short_definition: Die begrenzte Menge an Text und anderen Eingaben, die ein Modell gleichzeitig berücksichtigen
-  kann.
-analogy: 'Wie ein Schreibtisch: Ist er voll, müssen alte Unterlagen weggeräumt werden, bevor neue Platz
-  finden.'
-why_it_matters: In langen Programmiersitzungen können wichtige Anforderungen aus dem aktiven Kontext des
-  Modells herausfallen.
-ai_prompt_example: Fasse vor dem Fortfahren die aktuelle Architektur, die Einschränkungen, die erledigte
-  Arbeit und die nächste Aufgabe zusammen.
-common_mistake: Anzunehmen, dass ein Modell jede frühere Datei und Entscheidung dauerhaft erinnert.
+short_definition: Die begrenzte Menge an Text und anderen Eingaben, die ein Modell gleichzeitig berücksichtigen kann.
+analogy: Betrachte Kontextfenster als Orientierung in KI & Vibe Coding. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Die begrenzte Menge an Text und anderen Eingaben, die ein Modell gleichzeitig berücksichtigen kann. In einem realen
+  Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Kontextfenster versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in KI & Vibe Coding benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Kontextfenster in der Phase Anforderungen als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Kontextfenster in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Kontextfenster als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

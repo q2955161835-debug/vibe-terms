@@ -1,10 +1,18 @@
 title: Tailwind CSS
-short_definition: 'Tailwind CSS ist ein Begriff aus „Frontend-Entwicklung“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A utility-first CSS framework that composes small predefined classes directly in markup to build custom designs.'
-analogy: Man kann Tailwind CSS zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'Tailwind CSS ist ein Begriff aus „Frontend-Entwicklung“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A utility-first CSS framework that composes small predefined classes directly in markup to build custom designs.'
-why_it_matters: Wer Tailwind CSS versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer Tailwind CSS versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie Tailwind CSS in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff Tailwind CSS als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+short_definition: Ein Utility-First-CSS-Framework, das kleine vordefinierte Klassen direkt im Markup zusammenstellt, um benutzerdefinierte
+  Designs zu erstellen.
+analogy: Betrachte Tailwind CSS als Orientierung in Frontend-Entwicklung. Die Bezeichnung führt zur richtigen technischen
+  Stelle, garantiert aber noch keine gute Umsetzung.
+mechanism: Ein Utility-First-CSS-Framework, das kleine vordefinierte Klassen direkt im Markup zusammenstellt, um benutzerdefinierte
+  Designs zu erstellen. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
+  ab; prüfe deshalb die konkrete Umsetzung.
+why_it_matters: Wer Tailwind CSS versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Frontend-Entwicklung benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Tailwind CSS in der Phase Oberflächenlogik als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Tailwind CSS in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Tailwind CSS als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

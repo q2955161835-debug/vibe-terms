@@ -1,10 +1,10 @@
-title: 无障碍
-short_definition: 无障碍 是「UI/UX 與無障礙」中的術語。目前為待人工審校的草稿。英文標準定義：The practice of designing and engineering products so people with diverse abilities can perceive, understand, navigate, and operate them.
-analogy: 可以先把 无障碍 想成軟體開發工具箱裡一個有明確用途的標籤；真正使用時仍要結合所在程式碼、資料流與使用者情境判斷。
-mechanism: 无障碍 是「UI/UX 與無障礙」中的術語。目前為待人工審校的草稿。英文標準定義：The practice of designing and engineering products so people with diverse abilities can perceive, understand, navigate, and operate them.
-why_it_matters: 理解 无障碍 後，你能更準確地告訴 AI 你指的是系統的哪一部分，並要求它提供可驗證的實作證據。
-project_example: 理解 无障碍 後，你能更準確地告訴 AI 你指的是系統的哪一部分，並要求它提供可驗證的實作證據。
-ai_prompt_example: 解釋 无障碍 在這個專案中的作用。指出涉及的檔案或系統邊界，只做最小必要修改，並給出我可以驗證結果的步驟。
-common_mistake: 只記住 无障碍 這個名詞，卻沒有檢查它在目前專案裡的真實行為、資料流與失敗情況。
+title: "無障礙"
+short_definition: "讓不同能力的使用者都能感知、理解、導覽與操作產品的設計與工程實踐。"
+analogy: "可以把無障礙想成建築物的無障礙坡道：它不是額外裝飾，而是讓不同需求的使用者都能到達並使用同一個入口。"
+mechanism: "透過語意結構、鍵盤操作、替代文字、焦點管理與足夠對比等設計，讓不同能力的使用者能感知、理解、導覽並操作產品。在實際專案中，其確切行為取決於周圍的技術、設定和資料流，因此請驗證具體實作，而不是僅依賴標籤。"
+why_it_matters: "了解無障礙後，Vibe Coding 初學者可以準確指出相關的 UI/UX 與無障礙問題，並要求 AI 編碼助理作出有針對性的修改，同時提供可驗證的結果。"
+project_example: "在設計體驗階段，針對無障礙逐頁檢查鍵盤操作、焦點順序、替代文字、語意結構與色彩對比，並用螢幕閱讀器確認主要流程可完成。"
+ai_prompt_example: "請檢查這個專案的無障礙流程，從鍵盤操作、焦點管理、替代文字與色彩對比找出具體問題，僅修改必要檔案，並列出可重現的驗證步驟。"
+common_mistake: "只把無障礙當成視覺樣式，而沒有測試鍵盤、螢幕閱讀器、焦點順序、替代文字與錯誤提示。"
 status: draft
 source_content_version: 1

@@ -1,10 +1,17 @@
-title: Column
-short_definition: 'Column ist ein Begriff aus „Daten & Datenbanken“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A named field in a relational table that defines one attribute and usually a data type.'
-analogy: Man kann Column zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'Column ist ein Begriff aus „Daten & Datenbanken“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A named field in a relational table that defines one attribute and usually a data type.'
-why_it_matters: Wer Column versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer Column versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie Column in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff Column als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+title: Spalte
+short_definition: Ein benanntes Feld in einer relationalen Tabelle, das ein Attribut und normalerweise einen Datentyp definiert.
+analogy: Betrachte Spalte als Orientierung in Daten & Datenbanken. Die Bezeichnung führt zur richtigen technischen Stelle,
+  garantiert aber noch keine gute Umsetzung.
+mechanism: Ein benanntes Feld in einer relationalen Tabelle, das ein Attribut und normalerweise einen Datentyp definiert.
+  In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe deshalb die
+  konkrete Umsetzung.
+why_it_matters: Wer Spalte versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Daten & Datenbanken benennen und
+  von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Spalte in der Phase Daten & Identität als Lerncheckpoint. Verknüpfe die Definition
+  mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Spalte in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Spalte als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

@@ -1,10 +1,10 @@
-title: 組件
-short_definition: 組件 是「前端工程」中的術語。目前為待人工審校的草稿。英文標準定義：A reusable, self-contained interface building block with a defined purpose, inputs, state, and rendered output.
-analogy: 可以先把 組件 想成軟體開發工具箱裡一個有明確用途的標籤；真正使用時仍要結合所在程式碼、資料流與使用者情境判斷。
-mechanism: 組件 是「前端工程」中的術語。目前為待人工審校的草稿。英文標準定義：A reusable, self-contained interface building block with a defined purpose, inputs, state, and rendered output.
-why_it_matters: 理解 組件 後，你能更準確地告訴 AI 你指的是系統的哪一部分，並要求它提供可驗證的實作證據。
-project_example: 理解 組件 後，你能更準確地告訴 AI 你指的是系統的哪一部分，並要求它提供可驗證的實作證據。
-ai_prompt_example: 解釋 組件 在這個專案中的作用。指出涉及的檔案或系統邊界，只做最小必要修改，並給出我可以驗證結果的步驟。
-common_mistake: 只記住 組件 這個名詞，卻沒有檢查它在目前專案裡的真實行為、資料流與失敗情況。
+title: "元件"
+short_definition: "可重複使用且自包含的介面元件，具有明確用途、輸入、狀態與呈現結果。"
+analogy: "可以把元件想成可插拔的積木：每個元件有明確的輸入、內部狀態與呈現方式，能在不同畫面重複使用。"
+mechanism: "元件以明確的輸入與內部狀態產生介面呈現結果，並可在多個畫面或流程中重複使用。在實際專案中，其確切行為取決於周圍的技術、設定和資料流，因此請驗證具體實作，而不是僅依賴標籤。"
+why_it_matters: "了解元件後，Vibe Coding 初學者可以準確指出相關的前端工程問題，並要求 AI 編碼助理作出有針對性的修改，同時提供可驗證的結果。"
+project_example: "在建立介面與邏輯階段，把產品卡片抽成元件，讓列表頁與搜尋結果頁共用同一套輸入、狀態和呈現邏輯，並測試各種資料狀態。"
+ai_prompt_example: "請找出這個專案中適合抽成元件的畫面區塊，說明它的輸入、狀態與呈現結果，僅做必要重構，並提供測試操作。"
+common_mistake: "只看見元件名稱就認為它可以重複使用，卻沒有檢查輸入、狀態變化、錯誤狀態與不同畫面中的呈現結果。"
 status: draft
 source_content_version: 1

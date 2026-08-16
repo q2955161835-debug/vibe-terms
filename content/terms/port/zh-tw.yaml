@@ -1,10 +1,10 @@
-title: 端口
-short_definition: 端口 是「Web 與網路」中的術語。目前為待人工審校的草稿。英文標準定義：A numeric network endpoint used to distinguish services running on the same host or IP address.
-analogy: 可以先把 端口 想成軟體開發工具箱裡一個有明確用途的標籤；真正使用時仍要結合所在程式碼、資料流與使用者情境判斷。
-mechanism: 端口 是「Web 與網路」中的術語。目前為待人工審校的草稿。英文標準定義：A numeric network endpoint used to distinguish services running on the same host or IP address.
-why_it_matters: 理解 端口 後，你能更準確地告訴 AI 你指的是系統的哪一部分，並要求它提供可驗證的實作證據。
-project_example: 理解 端口 後，你能更準確地告訴 AI 你指的是系統的哪一部分，並要求它提供可驗證的實作證據。
-ai_prompt_example: 解釋 端口 在這個專案中的作用。指出涉及的檔案或系統邊界，只做最小必要修改，並給出我可以驗證結果的步驟。
-common_mistake: 只記住 端口 這個名詞，卻沒有檢查它在目前專案裡的真實行為、資料流與失敗情況。
+title: "連線埠"
+short_definition: "用於區分在同一主機或 IP 位址上執行的服務的數字型網路端點。"
+analogy: "可以把連線埠想成主機上的門牌號碼：同一台主機有不同門牌，網路流量才能送到正確的服務。"
+mechanism: "用於區分在同一主機或 IP 位址上執行的服務的數字型網路端點。在實際專案中，其確切行為取決於周圍的技術、設定和資料流，因此請驗證具體實作，而不是僅依賴標籤。"
+why_it_matters: "了解連線埠後，Vibe Coding 初學者可以準確指出相關的 Web 與網路問題，並要求 AI 編碼助理作出有針對性的修改，同時提供可驗證的結果。"
+project_example: "在建立環境階段，讓前端開發伺服器使用 `localhost:3000`、API 使用另一個連線埠，並確認請求沒有送錯服務。"
+ai_prompt_example: "請檢查這個專案的服務如何配置連線埠，指出前端、API 與容器之間的對應關係，僅修改必要設定，並提供可驗證的啟動與請求命令。"
+common_mistake: "只修改網址卻忘了連線埠也屬於端點的一部分，導致請求送到錯誤服務，或讓公開服務意外暴露在不該使用的連線埠上。"
 status: draft
 source_content_version: 1

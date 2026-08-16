@@ -1,10 +1,18 @@
-title: Table
-short_definition: 'Table ist ein Begriff aus „UI/UX & Barrierefreiheit“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A UI structure that aligns records into rows and columns so multiple fields can be compared consistently.'
-analogy: Man kann Table zunächst wie ein beschriftetes Werkzeug im Software-Werkzeugkasten betrachten; in der Praxis zählen jedoch Code, Datenfluss und Nutzungskontext.
-mechanism: 'Table ist ein Begriff aus „UI/UX & Barrierefreiheit“. Der deutsche Text ist derzeit ein noch nicht redigierter Entwurf. Englische Referenzdefinition: A UI structure that aligns records into rows and columns so multiple fields can be compared consistently.'
-why_it_matters: Wer Table versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-project_example: Wer Table versteht, kann einem KI-Coding-Agenten genauer sagen, welcher Teil des Systems gemeint ist, und überprüfbare Nachweise verlangen.
-ai_prompt_example: Erkläre, wie Table in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen, ändere nur das Nötige und beschreibe die Verifikation.
-common_mistake: Den Begriff Table als Beweis für eine korrekte Implementierung zu behandeln, ohne Verhalten, Datenfluss und Fehlerfälle zu prüfen.
+title: Tabelle
+short_definition: Eine UI-Struktur, die Datensätze in Zeilen und Spalten ausrichtet, sodass mehrere Felder konsistent verglichen
+  werden können.
+analogy: 'Ordne Tabelle im Bereich UI/UX & Barrierefreiheit als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch erst
+  die konkrete Implementierung zeigt, wie es sich verhält.'
+mechanism: Eine UI-Struktur, die Datensätze in Zeilen und Spalten ausrichtet, sodass mehrere Felder konsistent verglichen
+  werden können. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss ab; prüfe
+  deshalb die konkrete Umsetzung.
+why_it_matters: Wer Tabelle versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in UI/UX & Barrierefreiheit benennen
+  und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
+project_example: In Vibe Terms begegnet dir Tabelle in der Phase Design als Lerncheckpoint. Verknüpfe die Definition mit einer
+  sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
+ai_prompt_example: Erkläre, wie Tabelle in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+  ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
+common_mistake: Den Begriff Tabelle als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+  Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

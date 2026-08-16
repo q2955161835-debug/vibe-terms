@@ -1,8 +1,8 @@
-title: 提示词
-short_definition: 你提供给 AI 的指令和上下文，用来引导它下一步的回答或操作。
-analogy: 像开工前交给承包商的一份任务说明。
-why_it_matters: 提示越清楚，AI 越少猜测，生成的改动也越容易验收。
-ai_prompt_example: 添加一个搜索框，可按术语名、别名和定义过滤；不要改变现有布局。
-common_mistake: 把模糊需求写得更长，而不是写得更明确。
+title: "提示词（Prompt）"
+short_definition: "你为 AI 模型提供指导其下一步响应或行动的指令或上下文。"
+analogy: "提示是你在工作开始之前向承包商提交的简报。"
+why_it_matters: "清晰的提示减少了猜测，并使 AI 编辑更易于审核。"
+ai_prompt_example: "添加一个搜索框，可按标题、别名和定义过滤术语。保持现有布局不变。"
+common_mistake: "试图通过使提示更长而不是使其更清晰来解决模糊的要求。"
 status: draft
 source_content_version: 1

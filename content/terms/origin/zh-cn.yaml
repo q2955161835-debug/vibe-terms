@@ -1,10 +1,10 @@
-title: Origin
-short_definition: Origin 是“Git 与协作”中的术语。当前为待人工审校的草稿。英文标准定义：The conventional default name Git gives the remote repository from which a project was cloned.
-analogy: 可以先把 Origin 想成软件开发工具箱里一个有明确用途的标签；真正使用时仍要结合所在代码、数据流和用户场景判断。
-mechanism: Origin 是“Git 与协作”中的术语。当前为待人工审校的草稿。英文标准定义：The conventional default name Git gives the remote repository from which a project was cloned.
-why_it_matters: 理解 Origin 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-project_example: 理解 Origin 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-ai_prompt_example: 解释 Origin 在这个项目中的作用。指出涉及的文件或系统边界，只做最小必要改动，并给出我可以验证结果的步骤。
-common_mistake: 只记住 Origin 这个名词，却没有检查它在当前项目里的真实行为、数据流和失败情况。
+title: "Origin（来源）"
+short_definition: "Git 默认使用的远程仓库名称，通常指向克隆项目时所用的远程仓库。"
+analogy: "可以把 Origin（来源）理解为本地仓库通讯录里保存的远程仓库地址：它通常是默认的协作对象，但也可以改名或改指向。"
+mechanism: "Git 将远程仓库以名称和 URL 的形式写入本地配置，git fetch、git pull 等命令再通过 Origin（来源）定位远程；实际指向应检查 .git/config 和远程仓库响应。"
+why_it_matters: "理解 Origin（来源）能帮助你区分本地分支、远程跟踪分支和远程仓库地址，排查拉取、推送或仓库迁移问题时也不容易指错对象。"
+project_example: "在 Vibe Terms 的建立环境阶段，可以运行 git remote -v 检查 Origin（来源）的 URL，再用 git fetch origin 验证本地记录是否能访问目标仓库。"
+ai_prompt_example: "请检查这个项目的 Origin（来源）：读取 Git 远程配置，说明它指向哪个仓库，不要修改远程地址，并用只读命令验证结果。"
+common_mistake: "不要把 Origin（来源）误认为当前分支或远程跟踪分支；它只是本地配置中的远程仓库名称和地址。"
 status: draft
 source_content_version: 1

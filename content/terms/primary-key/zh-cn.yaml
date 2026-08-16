@@ -1,10 +1,10 @@
-title: 主键
-short_definition: 主键 是“数据与数据库”中的术语。当前为待人工审校的草稿。英文标准定义：A column or set of columns whose value uniquely identifies each row in a relational table.
-analogy: 可以先把 主键 想成软件开发工具箱里一个有明确用途的标签；真正使用时仍要结合所在代码、数据流和用户场景判断。
-mechanism: 主键 是“数据与数据库”中的术语。当前为待人工审校的草稿。英文标准定义：A column or set of columns whose value uniquely identifies each row in a relational table.
-why_it_matters: 理解 主键 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-project_example: 理解 主键 后，你能更准确地告诉 AI 你指的是系统的哪一部分，并要求它给出可验证的实现证据。
-ai_prompt_example: 解释 主键 在这个项目中的作用。指出涉及的文件或系统边界，只做最小必要改动，并给出我可以验证结果的步骤。
-common_mistake: 只记住 主键 这个名词，却没有检查它在当前项目里的真实行为、数据流和失败情况。
+title: "主键"
+short_definition: "一列或一组列，其值唯一标识关系表中的每一行。"
+analogy: "可以把“主键”看成数据与数据库里的一个概念标签：它提醒你先找“一列或一组列，其值唯一标识关系表中的每一行。”对应的实现，最后仍要以代码、配置和实际行为为准。"
+mechanism: "实现上，这一概念会围绕“一列或一组列，其值唯一标识关系表中的每一行。”在真实项目中落地；具体表现取决于技术栈、配置和数据流，应结合代码和运行结果验证。"
+why_it_matters: "掌握“主键”后，你能更准确地描述数据与数据库里的问题，让 AI 知道要检查或修改什么，并要求它给出可复现的验证结果。"
+project_example: "在 Vibe Terms 的接入数据与身份阶段，可以把“主键”放到一个真实项目中：围绕“一列或一组列，其值唯一标识关系表中的每一行。”定位相关页面、文件、请求、数据结构或验证步骤。"
+ai_prompt_example: "请说明“主键”在这个项目中的实现位置和边界。只做必要的最小改动，并用命令或用户操作验证“一列或一组列，其值唯一标识关系表中的每一行”。"
+common_mistake: "不要把“主键”这个名称当成正确性的证明；请检查实际行为、数据流、权限、失败场景和相关测试。"
 status: draft
 source_content_version: 1

@@ -7,7 +7,7 @@ All code and content contributions use GitHub issues and pull requests.
 
 1. Create or update an issue when the change affects taxonomy, content schema, or user-facing behavior.
 2. Keep English as the canonical source for technical meaning.
-3. Preserve the eight supported locale files for every term: `en`, `zh-cn`, `zh-tw`, `ja`, `ko`, `de`, `ru`, and `hi`.
+3. Preserve the seven supported locale files for every term: `en`, `zh-cn`, `zh-tw`, `ja`, `ko`, `de`, and `ru`.
 4. Do not publish machine-generated translations without human review.
 5. Keep examples beginner-friendly and avoid tying a general term to one framework unless the framework is the subject.
 
