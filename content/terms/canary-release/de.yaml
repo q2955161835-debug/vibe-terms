@@ -1,18 +1,18 @@
 title: Canary-Release
 short_definition: Eine Rollout-Strategie, die einen kleinen Teil des Produktionsdatenverkehrs an eine neue Version weiterleitet,
   bevor die Präsenz schrittweise erweitert wird.
-analogy: 'Ordne Kanarische Veröffentlichung im Bereich Deployment & Betrieb als Werkzeug ein: Die Bezeichnung grenzt die Frage
+analogy: 'Ordne Canary-Release im Bereich Deployment & Betrieb als Werkzeug ein: Die Bezeichnung grenzt die Frage
   ein, doch erst die konkrete Implementierung zeigt, wie es sich verhält.'
 mechanism: Eine Rollout-Strategie, die einen kleinen Teil des Produktionsdatenverkehrs an eine neue Version weiterleitet,
   bevor die Präsenz schrittweise erweitert wird. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration
   und Datenfluss ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Kanarische Veröffentlichung versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Deployment &
+why_it_matters: Wer Canary-Release versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Deployment &
   Betrieb benennen und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: In Vibe Terms begegnet dir Kanarische Veröffentlichung in der Phase Deployment & Wartung als Lerncheckpoint.
+project_example: In Vibe Terms begegnet dir Canary-Release in der Phase Deployment & Wartung als Lerncheckpoint.
   Verknüpfe die Definition mit einer sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
-ai_prompt_example: Erkläre, wie Kanarische Veröffentlichung in diesem Projekt angewendet wird. Nenne die betroffenen Dateien
+ai_prompt_example: Erkläre, wie Canary-Release in diesem Projekt angewendet wird. Nenne die betroffenen Dateien
   oder Systemgrenzen, ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Kanarische Veröffentlichung als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
+common_mistake: Den Begriff Canary-Release als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches
   Verhalten, Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1

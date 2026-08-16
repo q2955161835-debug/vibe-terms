@@ -1,18 +1,18 @@
 title: Shell
 short_definition: Ein Befehlsinterpreter, der Befehle akzeptiert, Syntax und Variablen erweitert, Programme startet und deren
   Eingabe und Ausgabe verbindet.
-analogy: 'Ordne Hülse im Bereich Computer & Entwicklungsumgebung als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch
+analogy: 'Ordne Shell im Bereich Computer & Entwicklungsumgebung als Werkzeug ein: Die Bezeichnung grenzt die Frage ein, doch
   erst die konkrete Implementierung zeigt, wie es sich verhält.'
 mechanism: Ein Befehlsinterpreter, der Befehle akzeptiert, Syntax und Variablen erweitert, Programme startet und deren Eingabe
   und Ausgabe verbindet. In einem realen Projekt hängt die genaue Ausprägung von Technologie, Konfiguration und Datenfluss
   ab; prüfe deshalb die konkrete Umsetzung.
-why_it_matters: Wer Hülse versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Computer & Entwicklungsumgebung benennen
+why_it_matters: Wer Shell versteht, kann als Vibe-Coding-Anfänger das konkrete Thema in Computer & Entwicklungsumgebung benennen
   und von einem KI-Coding-Agenten eine gezielte Änderung mit überprüfbaren Nachweisen verlangen.
-project_example: In Vibe Terms begegnet dir Hülse in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit einer
+project_example: In Vibe Terms begegnet dir Shell in der Phase Umgebung als Lerncheckpoint. Verknüpfe die Definition mit einer
   sichtbaren Seite, Datei, Anfrage, Datenstruktur oder einem Prüfschritt.
-ai_prompt_example: Erkläre, wie Hülse in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
+ai_prompt_example: Erkläre, wie Shell in diesem Projekt angewendet wird. Nenne die betroffenen Dateien oder Systemgrenzen,
   ändere nur das Nötigste und zeige den Befehl oder Nutzerfluss zur Verifikation.
-common_mistake: Den Begriff Hülse als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
+common_mistake: Den Begriff Shell als Beleg für eine korrekte Implementierung zu behandeln, ohne tatsächliches Verhalten,
   Datenfluss, Berechtigungen, Fehlerfälle und den relevanten Test zu prüfen.
 status: draft
 source_content_version: 1
