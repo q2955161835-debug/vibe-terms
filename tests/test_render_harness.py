@@ -98,7 +98,8 @@ def test_home_search_theme_and_mobile_layout_without_http_navigation() -> None:
             field.fill("Authentication")
             page.wait_for_selector(".desktop-search [data-search-results] a")
             first = page.locator(".desktop-search [data-search-results] a").first
-            assert first.get_attribute("href") == "/zh-cn/terms/authentication/"
+            base_path = page.locator("html").get_attribute("data-base-path") or ""
+            assert first.get_attribute("href") == f"{base_path}/zh-cn/terms/authentication/"
             field.press("ArrowDown")
             assert field.get_attribute("aria-activedescendant") == "global-search-term-0"
             assert first.get_attribute("aria-selected") == "true"
