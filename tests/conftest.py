@@ -1,23 +1,17 @@
 from __future__ import annotations
 
-import contextlib
-import socket
+import os
 import subprocess
 import sys
-import time
+import threading
+from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+from urllib.parse import urlsplit
 
 import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "site"
-
-
-def _free_port() -> int:
-    with contextlib.closing(socket.socket(socket.AF_INET, socket.SOCK_STREAM)) as sock:
-        sock.bind(("127.0.0.1", 0))
-        return int(sock.getsockname()[1])
-
 
 @pytest.fixture(scope="session", autouse=True)
 def build_site() -> Path:
@@ -32,27 +26,31 @@ def build_site() -> Path:
 
 @pytest.fixture(scope="session")
 def site_url(build_site: Path) -> str:
-    port = _free_port()
-    process = subprocess.Popen(
-        [sys.executable, "-m", "http.server", str(port), "--directory", str(build_site)],
-        cwd=ROOT,
-        stdout=subprocess.DEVNULL,
-        stderr=subprocess.DEVNULL,
-    )
-    url = f"http://127.0.0.1:{port}"
-    deadline = time.time() + 10
-    while time.time() < deadline:
-        try:
-            with socket.create_connection(("127.0.0.1", port), timeout=0.2):
-                break
-        except OSError:
-            time.sleep(0.05)
-    else:
-        process.terminate()
-        raise RuntimeError("Static test server did not start")
+    base_path = os.environ.get("BASE_PATH", "").rstrip("/")
+
+    class BasePathHandler(SimpleHTTPRequestHandler):
+        def __init__(self, *args, **kwargs):
+            super().__init__(*args, directory=str(build_site), **kwargs)
+
+        def translate_path(self, path: str) -> str:
+            request_path = urlsplit(path).path
+            if base_path and request_path == base_path:
+                request_path = "/"
+            elif base_path and request_path.startswith(f"{base_path}/"):
+                request_path = request_path[len(base_path):]
+            return super().translate_path(request_path)
+
+        def log_message(self, format: str, *args) -> None:
+            pass
+
+    server = ThreadingHTTPServer(("127.0.0.1", 0), BasePathHandler)
+    thread = threading.Thread(target=server.serve_forever, daemon=True)
+    thread.start()
+    url = f"http://127.0.0.1:{server.server_port}{base_path}"
 
     try:
         yield url
     finally:
-        process.terminate()
-        process.wait(timeout=5)
+        server.shutdown()
+        server.server_close()
+        thread.join(timeout=5)
